@@ -69,7 +69,7 @@ export class QuizComponent implements OnInit {
   }
 
   openPerguntas(): void {
-    this.perguntaService.getPerguntasAleatorias(5).subscribe((data) => {
+    this.perguntaService.getPerguntasAleatorias(110).subscribe((data) => {
       this.perguntas = data;
       this.respostasCorretas = Array(this.perguntas.length)
         .fill(false)
