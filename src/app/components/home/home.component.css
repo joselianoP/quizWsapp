@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #007ACC;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+
+.nav-link:hover {
+  background-color: #005999;
+}
+.total-perguntas {
+   float: right;
+   display: flex;
+  margin: 20px; /* Adiciona margem ao redor do texto (opcional) */
+  font-size: 16px; /* Define o tamanho da fonte (opcional) */
+  font-weight: bold; /* Deixa o texto em negrito (opcional) */
+}

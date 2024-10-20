@@ -1,0 +1,145 @@
+<div class="tituloCentralizado">
+  <h1>AWS Certified Cloud Practitioner</h1>
+</div>
+
+<div *ngIf="perguntas.length > 0">
+  <!-- Exibe a pergunta atual e o total de perguntas -->
+  <div class="question-counter">
+    <h3 class="question-counter">
+      Pergunta {{ currentQuestionIndex + 1 }} de {{ perguntas.length }}
+    </h3>
+  </div>
+
+  <h4 class="small-font">
+    {{ currentQuestionIndex + 1 }}.
+    {{ perguntas[currentQuestionIndex].pergunta }}
+  </h4>
+  <mat-card>
+    <ng-container
+      *ngIf="!isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)"
+    >
+      <mat-radio-group
+        [(ngModel)]="respostasSelecionadas[currentQuestionIndex]"
+      >
+        <mat-radio-button
+          *ngFor="let opcao of perguntas[currentQuestionIndex].opcoes"
+          [ngClass]="{ 'nao-clicavel': respostasVerificadas }"
+          [value]="opcao"
+          (click)="onSelectOption(currentQuestionIndex, opcao, false)"
+        >
+          <label
+            [ngClass]="{
+              correta:
+                respostasVerificadas &&
+                respostasCorretas[currentQuestionIndex][
+                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
+                ],
+              incorreta:
+                respostasVerificadas &&
+                respostasSelecionadas[currentQuestionIndex]?.includes(opcao) &&
+                !respostasCorretas[currentQuestionIndex][
+                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
+                ]
+            }"
+          >
+            {{ opcao }}
+          </label>
+        </mat-radio-button>
+      </mat-radio-group>
+    </ng-container>
+
+    <ng-container
+      *ngIf="isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)"
+    >
+      <div *ngFor="let opcao of perguntas[currentQuestionIndex].opcoes">
+        <mat-checkbox
+          [ngClass]="{ 'nao-clicavel': respostasVerificadas }"
+          [checked]="
+            respostasSelecionadas[currentQuestionIndex]?.includes(opcao)
+          "
+          (change)="onSelectOption(currentQuestionIndex, opcao, true)"
+        >
+          <label
+            [ngClass]="{
+              correta:
+                respostasVerificadas &&
+                respostasCorretas[currentQuestionIndex][
+                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
+                ],
+              incorreta:
+                respostasVerificadas &&
+                respostasSelecionadas[currentQuestionIndex]?.includes(opcao) &&
+                !respostasCorretas[currentQuestionIndex][
+                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
+                ]
+            }"
+          >
+            {{ opcao }}
+          </label>
+        </mat-checkbox>
+      </div>
+    </ng-container>
+  </mat-card>
+
+  <!-- Botões de navegação -->
+  <div class="navigation-buttons">
+    <button routerLink="/" class="verificar-respostas-btn">Home</button>
+
+    <button
+      class="verificar-respostas-btn"
+      (click)="nextQuestion()"
+      [disabled]="currentQuestionIndex === perguntas.length - 1"
+    >
+      Próxima
+    </button>
+
+    <button
+      class="verificar-respostas-btn"
+      (click)="previousQuestion()"
+      [disabled]="currentQuestionIndex === 0"
+    >
+      Anterior
+    </button>
+
+    <!-- Botão Verificar Respostas -->
+    <button
+      (click)="verificarRespostas()"
+      class="verificar-respostas-btn"
+      [disabled]="currentQuestionIndex !== perguntas.length - 1"
+    >
+      Verificar Respostas
+    </button>
+  </div>
+</div>
+
+<div *ngIf="perguntas.length > 0">
+  <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
+  <ul class="listaLegenda">
+    <li *ngFor="let domain of domainQuestionCount | keyvalue">
+      {{ domain.key }}: {{ domain.value }}
+    </li>
+  </ul>
+</div>
+
+<!-- Resultado -->
+<div *ngIf="resultado">
+  <p [innerHTML]="resultado"></p>
+</div>
+
+<div *ngIf="acertosPorDominioMensagem">
+  <p [innerHTML]="acertosPorDominioMensagem"></p>
+</div>
+
+<div *ngIf="resultadosAnteriores.length > 0">
+  <h2>Resultados Anteriores</h2>
+  <div>
+    <ul>
+      <li *ngFor="let resultado of resultadosAnteriores">
+        <p>Acertos: {{ resultado.acertos }} de {{ resultado.total }}</p>
+        <p>Percentual: {{ resultado.percentual | number : "1.0-0" }}%</p>
+        <p>{{ resultado.mensagem }}</p>
+        <hr />
+      </li>
+    </ul>
+  </div>
+</div>

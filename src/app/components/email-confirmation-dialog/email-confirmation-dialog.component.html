@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Confirmação de E-mail</h2>
+<mat-dialog-content>
+  <p>Por favor, insira seu e-mail:</p>
+  <mat-form-field appearance="fill">
+    <mat-label>E-mail</mat-label>
+    <input matInput [(ngModel)]="email" required email />
+    <mat-error *ngIf="!validateEmail(email)">
+      O e-mail deve ser válido.
+    </mat-error>
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="cancel()">Cancelar</button>
+  <button mat-button (click)="confirm()" [disabled]="!email">Confirmar</button>
+</mat-dialog-actions>

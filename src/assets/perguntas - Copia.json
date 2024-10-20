@@ -1,0 +1,5282 @@
+[
+  {
+    "pergunta": "O que é computação em nuvem?",
+    "opcoes": [
+      "Acesso sob demanda a recursos de TI pela internet",
+      "Uma rede privada de computadores",
+      "Armazenamento local de dados",
+      "Gerenciamento de identidades e acessos"
+    ],
+    "respostaCorreta": "Acesso sob demanda a recursos de TI pela internet",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes é uma característica da computação em nuvem?",
+    "opcoes": [
+      "Elasticidade",
+      "Custo fixo",
+      "Implantação local",
+      "Disponibilidade limitada"
+    ],
+    "respostaCorreta": "Elasticidade",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais vantagens do modelo de precificação da AWS?",
+    "opcoes": [
+      "Pagamento conforme o uso",
+      "Cobrança por ano",
+      "Taxa de configuração inicial",
+      "Custos fixos mensais"
+    ],
+    "respostaCorreta": "Pagamento conforme o uso",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um dos três tipos de modelos de implantação na nuvem?",
+    "opcoes": [
+      "Nuvem pública",
+      "Armazenamento local",
+      "Rede física",
+      "Serviço dedicado"
+    ],
+    "respostaCorreta": "Nuvem pública",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais vantagens da computação em nuvem?",
+    "opcoes": [
+      "Escalabilidade",
+      "Custo elevado",
+      "Implantação física",
+      "Dependência de hardware local"
+    ],
+    "respostaCorreta": "Escalabilidade",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para armazenamento de objetos? (Escolha dois)",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon EBS"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite o gerenciamento de identidades e acessos?",
+    "opcoes": [
+      "AWS IAM",
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS IAM",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para criptografia de dados?",
+    "opcoes": [
+      "AWS KMS",
+      "Amazon RDS",
+      "AWS IAM",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS KMS",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Shield?",
+    "opcoes": [
+      "Proteger contra ataques DDoS",
+      "Gerenciamento de identidade e acesso",
+      "Criptografar dados em trânsito",
+      "Monitoramento de recursos da nuvem"
+    ],
+    "respostaCorreta": "Proteger contra ataques DDoS",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o AWS CloudTrail rastreia?",
+    "opcoes": [
+      "Atividade de API na conta da AWS",
+      "Configurações de segurança da rede",
+      "Tempo de inatividade do serviço",
+      "Performance de banco de dados"
+    ],
+    "respostaCorreta": "Atividade de API na conta da AWS",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um serviço que ajuda a monitorar anomalias de segurança na AWS?",
+    "opcoes": [
+      "Amazon GuardDuty",
+      "AWS Lambda",
+      "AWS CloudWatch",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "Amazon GuardDuty",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece gerenciamento de políticas de segurança e conformidade?",
+    "opcoes": [
+      "AWS Config",
+      "Amazon EC2",
+      "AWS CloudWatch",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Config",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O AWS WAF oferece proteção contra:",
+    "opcoes": [
+      "Vulnerabilidades de segurança de aplicações web",
+      "Perda de dados",
+      "Gerenciamento de usuários",
+      "Monitoramento de logs"
+    ],
+    "respostaCorreta": "Vulnerabilidades de segurança de aplicações web",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o Amazon Macie?",
+    "opcoes": [
+      "Serviço para descobrir, classificar e proteger dados confidenciais",
+      "Serviço de monitoramento de rede",
+      "Serviço para provisionamento de recursos",
+      "Serviço de gerenciamento de chaves"
+    ],
+    "respostaCorreta": "Serviço para descobrir, classificar e proteger dados confidenciais",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ser usado para gerenciar logs de auditoria de conformidade?",
+    "opcoes": [
+      "AWS CloudTrail",
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS IAM"
+    ],
+    "respostaCorreta": "AWS CloudTrail",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes práticas é uma responsabilidade do cliente no modelo de responsabilidade compartilhada?",
+    "opcoes": [
+      "Gerenciamento de senhas e políticas de acesso",
+      "Segurança física dos data centers",
+      "Manutenção de hardware",
+      "Segurança da camada de infraestrutura"
+    ],
+    "respostaCorreta": "Gerenciamento de senhas e políticas de acesso",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser usado para detectar atividades suspeitas na AWS?",
+    "opcoes": [
+      "Amazon GuardDuty",
+      "AWS Elastic Beanstalk",
+      "Amazon SNS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "Amazon GuardDuty",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS ajuda a garantir a conformidade com requisitos regulamentares?",
+    "opcoes": [
+      "Oferecendo certificações de conformidade como PCI DSS e HIPAA",
+      "Implementando políticas de criptografia sem intervenção do cliente",
+      "Configurando automaticamente backups de dados",
+      "Monetizando serviços baseados no uso de conformidade"
+    ],
+    "respostaCorreta": "Oferecendo certificações de conformidade como PCI DSS e HIPAA",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço ajuda a proteger suas instâncias do Amazon EC2 contra ataques na web?",
+    "opcoes": [
+      "AWS WAF",
+      "Amazon S3",
+      "AWS CloudFormation",
+      "AWS IAM"
+    ],
+    "respostaCorreta": "AWS WAF",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite o controle detalhado sobre permissões e acesso?",
+    "opcoes": [
+      "AWS IAM",
+      "Amazon RDS",
+      "AWS S3",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS IAM",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Shield Advanced ajuda na segurança?",
+    "opcoes": [
+      "Proporciona proteção aprimorada contra ataques DDoS",
+      "Criptografa dados em trânsito",
+      "Implementa políticas de retenção de dados",
+      "Monitora o uso de CPU em instâncias EC2"
+    ],
+    "respostaCorreta": "Proporciona proteção aprimorada contra ataques DDoS",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços gerencia a criação, rotação e auditoria de chaves de criptografia?",
+    "opcoes": [
+      "AWS KMS",
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS KMS",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser usado para realizar auditorias de configuração da AWS?",
+    "opcoes": [
+      "AWS Config",
+      "AWS IAM",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Config",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma responsabilidade da AWS no modelo de responsabilidade compartilhada?",
+    "opcoes": [
+      "Segurança física dos data centers",
+      "Gerenciamento de chaves de criptografia do cliente",
+      "Controle de acesso aos recursos",
+      "Criação de senhas seguras"
+    ],
+    "respostaCorreta": "Segurança física dos data centers",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um exemplo de um controle de conformidade na AWS?",
+    "opcoes": [
+      "Certificações como SOC 1, SOC 2 e ISO 27001",
+      "Gerenciamento de bancos de dados",
+      "Criação de snapshots",
+      "Monitoramento de logs"
+    ],
+    "respostaCorreta": "Certificações como SOC 1, SOC 2 e ISO 27001",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ser usado para detectar e remediar desvios de conformidade em tempo real?",
+    "opcoes": [
+      "AWS Config",
+      "Amazon EC2",
+      "Amazon RDS",
+      "AWS IAM"
+    ],
+    "respostaCorreta": "AWS Config",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais são as práticas recomendadas para proteger seus dados na AWS? (Escolha dois)",
+    "opcoes": [
+      "Habilitar a criptografia em repouso.",
+      "Permitir acesso público aos buckets do S3.",
+      "Utilizar autenticação multifator.",
+      "Desabilitar o monitoramento de logs."
+    ],
+    "respostaCorreta": [
+      "Habilitar a criptografia em repouso.",
+      "Utilizar autenticação multifator."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS podem ser usados para gerenciar identidades? (Escolha dois)",
+    "opcoes": [
+      "AWS IAM",
+      "AWS CloudFormation",
+      "AWS Cognito",
+      "AWS CodeDeploy"
+    ],
+    "respostaCorreta": [
+      "AWS IAM",
+      "AWS Cognito"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas ao usar o AWS IAM? (Escolha dois)",
+    "opcoes": [
+      "Implementar o princípio do menor privilégio.",
+      "Compartilhar credenciais de acesso.",
+      "Ativar autenticação multifator (MFA).",
+      "Usar a mesma senha para todos os usuários."
+    ],
+    "respostaCorreta": [
+      "Implementar o princípio do menor privilégio.",
+      "Ativar autenticação multifator (MFA)."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as vantagens de usar o AWS CloudTrail? (Escolha dois)",
+    "opcoes": [
+      "Auditoria de chamadas de API.",
+      "Gerenciamento de identidades.",
+      "Monitoramento em tempo real.",
+      "Relatórios de conformidade."
+    ],
+    "respostaCorreta": [
+      "Auditoria de chamadas de API.",
+      "Relatórios de conformidade."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para proteger dados no Amazon S3? (Escolha dois)",
+    "opcoes": [
+      "Ativar criptografia para objetos.",
+      "Permitir acesso público a todos os buckets.",
+      "Configurar políticas de bucket restritivas.",
+      "Usar senhas simples para usuários."
+    ],
+    "respostaCorreta": [
+      "Ativar criptografia para objetos.",
+      "Configurar políticas de bucket restritivas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as práticas recomendadas para proteger seus dados na AWS? (Escolha dois)",
+    "opcoes": [
+      "Habilitar a criptografia em repouso.",
+      "Permitir acesso público aos buckets do S3.",
+      "Utilizar autenticação multifator.",
+      "Desabilitar o monitoramento de logs."
+    ],
+    "respostaCorreta": [
+      "Habilitar a criptografia em repouso.",
+      "Utilizar autenticação multifator."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS podem ser usados para gerenciar identidades? (Escolha dois)",
+    "opcoes": [
+      "AWS IAM",
+      "AWS CloudFormation",
+      "AWS Cognito",
+      "AWS CodeDeploy"
+    ],
+    "respostaCorreta": [
+      "AWS IAM",
+      "AWS Cognito"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas ao usar o AWS IAM? (Escolha dois)",
+    "opcoes": [
+      "Implementar o princípio do menor privilégio.",
+      "Compartilhar credenciais de acesso.",
+      "Ativar autenticação multifator (MFA).",
+      "Usar a mesma senha para todos os usuários."
+    ],
+    "respostaCorreta": [
+      "Implementar o princípio do menor privilégio.",
+      "Ativar autenticação multifator (MFA)."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as vantagens de usar o AWS CloudTrail? (Escolha dois)",
+    "opcoes": [
+      "Auditoria de chamadas de API.",
+      "Gerenciamento de identidades.",
+      "Monitoramento em tempo real.",
+      "Relatórios de conformidade."
+    ],
+    "respostaCorreta": [
+      "Auditoria de chamadas de API.",
+      "Relatórios de conformidade."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para proteger dados no Amazon S3? (Escolha dois)",
+    "opcoes": [
+      "Ativar criptografia para objetos.",
+      "Permitir acesso público a todos os buckets.",
+      "Configurar políticas de bucket restritivas.",
+      "Usar senhas simples para usuários."
+    ],
+    "respostaCorreta": [
+      "Ativar criptografia para objetos.",
+      "Configurar políticas de bucket restritivas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é a responsabilidade compartilhada na AWS?",
+    "opcoes": [
+      "A AWS gerencia toda a segurança do cliente.",
+      "Os clientes são responsáveis pela segurança na nuvem.",
+      "A AWS e o cliente compartilham a responsabilidade pela segurança.",
+      "A responsabilidade é totalmente do cliente."
+    ],
+    "respostaCorreta": "A AWS e o cliente compartilham a responsabilidade pela segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o AWS IAM permite que você faça?",
+    "opcoes": [
+      "Gerenciar identidades e permissões.",
+      "Monitorar o uso de serviços da AWS.",
+      "Configurar redes virtuais.",
+      "Provisionar instâncias EC2."
+    ],
+    "respostaCorreta": "Gerenciar identidades e permissões.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda na auditoria de conformidade?",
+    "opcoes": [
+      "AWS Config",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": "AWS Config",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS CloudTrail?",
+    "opcoes": [
+      "Gerenciar chaves de criptografia.",
+      "Registrar chamadas de API para auditoria.",
+      "Monitorar a utilização de recursos.",
+      "Provisionar servidores."
+    ],
+    "respostaCorreta": "Registrar chamadas de API para auditoria.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é criptografia em repouso?",
+    "opcoes": [
+      "Criptografia de dados em movimento.",
+      "Criptografia de dados armazenados.",
+      "Criptografia de dados em uso.",
+      "Nenhuma das anteriores."
+    ],
+    "respostaCorreta": "Criptografia de dados armazenados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é usado para proteger aplicações contra DDoS?",
+    "opcoes": [
+      "AWS Shield",
+      "AWS Lambda",
+      "AWS Config",
+      "Amazon CloudFront"
+    ],
+    "respostaCorreta": "AWS Shield",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS WAF?",
+    "opcoes": [
+      "Um serviço de firewall de aplicação web.",
+      "Um sistema de gerenciamento de identidades.",
+      "Uma ferramenta de monitoramento de redes.",
+      "Um serviço de balanceamento de carga."
+    ],
+    "respostaCorreta": "Um serviço de firewall de aplicação web.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito do AWS Secrets Manager?",
+    "opcoes": [
+      "Gerenciar senhas e segredos.",
+      "Provisionar bancos de dados.",
+      "Monitorar uso de serviços.",
+      "Registrar chamadas de API."
+    ],
+    "respostaCorreta": "Gerenciar senhas e segredos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a criptografia de dados em movimento?",
+    "opcoes": [
+      "Criptografia de dados enquanto são transmitidos.",
+      "Criptografia de dados armazenados em disco.",
+      "Criptografia de dados em uso.",
+      "Criptografia de backups."
+    ],
+    "respostaCorreta": "Criptografia de dados enquanto são transmitidos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o AWS IAM Policy define?",
+    "opcoes": [
+      "Quem pode acessar os recursos e o que pode fazer.",
+      "Como provisionar novas instâncias.",
+      "Como gerenciar dados no S3.",
+      "Como monitorar a atividade da API."
+    ],
+    "respostaCorreta": "Quem pode acessar os recursos e o que pode fazer.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece relatórios de conformidade?",
+    "opcoes": [
+      "AWS Artifact",
+      "AWS Config",
+      "AWS CloudTrail",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Artifact",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma prática recomendada para gerenciar senhas?",
+    "opcoes": [
+      "Usar senhas fracas para facilitar o acesso.",
+      "Mudar senhas regularmente.",
+      "Compartilhar senhas entre usuários.",
+      "Desabilitar autenticação multifator."
+    ],
+    "respostaCorreta": "Mudar senhas regularmente.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais serviços ajudam a monitorar a segurança?",
+    "opcoes": [
+      "AWS CloudTrail e AWS Config",
+      "Amazon RDS e AWS Lambda",
+      "AWS S3 e AWS CodeDeploy",
+      "AWS Elastic Beanstalk e AWS Shield"
+    ],
+    "respostaCorreta": "AWS CloudTrail e AWS Config",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Security Hub?",
+    "opcoes": [
+      "Agregação de informações sobre segurança.",
+      "Gerenciamento de chaves.",
+      "Provisionamento de instâncias.",
+      "Auditoria de chamadas de API."
+    ],
+    "respostaCorreta": "Agregação de informações sobre segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que são VPCs na AWS?",
+    "opcoes": [
+      "Redes privadas virtuais.",
+      "Serviços de gerenciamento de identidades.",
+      "Instâncias de banco de dados.",
+      "Balanceadores de carga."
+    ],
+    "respostaCorreta": "Redes privadas virtuais.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a importância do AWS CloudTrail?",
+    "opcoes": [
+      "Monitorar mudanças em recursos.",
+      "Registrar chamadas de API.",
+      "Provisionar novas instâncias.",
+      "Gerenciar usuários."
+    ],
+    "respostaCorreta": "Registrar chamadas de API.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é autenticação multifator (MFA)?",
+    "opcoes": [
+      "Uma camada adicional de segurança.",
+      "Um método de criptografia.",
+      "Um tipo de banco de dados.",
+      "Uma ferramenta de monitoramento."
+    ],
+    "respostaCorreta": "Uma camada adicional de segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece proteção contra malware?",
+    "opcoes": [
+      "Amazon Inspector",
+      "AWS Config",
+      "AWS CloudTrail",
+      "AWS WAF"
+    ],
+    "respostaCorreta": "Amazon Inspector",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a política de segurança da AWS?",
+    "opcoes": [
+      "Um conjunto de regras para proteger dados.",
+      "Um serviço de auditoria.",
+      "Um modelo de precificação.",
+      "Um método de provisionamento."
+    ],
+    "respostaCorreta": "Um conjunto de regras para proteger dados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que são os grupos de segurança no AWS?",
+    "opcoes": [
+      "Controles de acesso às instâncias.",
+      "Serviços de monitoramento.",
+      "Tipos de armazenamento.",
+      "Métodos de criptografia."
+    ],
+    "respostaCorreta": "Controles de acesso às instâncias.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a finalidade do AWS Key Management Service (KMS)?",
+    "opcoes": [
+      "Gerenciar chaves de criptografia.",
+      "Monitorar o uso de serviços.",
+      "Provisionar instâncias EC2.",
+      "Gerenciar usuários."
+    ],
+    "respostaCorreta": "Gerenciar chaves de criptografia.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Inspector?",
+    "opcoes": [
+      "Uma ferramenta de segurança para avaliação de vulnerabilidades.",
+      "Um sistema de gerenciamento de identidades.",
+      "Uma aplicação de armazenamento.",
+      "Um serviço de análise de dados."
+    ],
+    "respostaCorreta": "Uma ferramenta de segurança para avaliação de vulnerabilidades.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações é verdadeira sobre o AWS CloudTrail?",
+    "opcoes": [
+      "Ele registra apenas eventos de segurança.",
+      "Ele pode ser usado para auditoria.",
+      "Ele é usado apenas para monitoramento de redes.",
+      "Ele não pode ser integrado a outros serviços."
+    ],
+    "respostaCorreta": "Ele pode ser usado para auditoria.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para proteger instâncias EC2?",
+    "opcoes": [
+      "Usar grupos de segurança e chaves de acesso.",
+      "Permitir acesso SSH a todos os endereços IP.",
+      "Usar senhas simples.",
+      "Desabilitar o monitoramento de logs."
+    ],
+    "respostaCorreta": "Usar grupos de segurança e chaves de acesso.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o AWS Config faz?",
+    "opcoes": [
+      "Monitora mudanças de configuração em recursos.",
+      "Provisiona novas instâncias.",
+      "Gerencia bancos de dados.",
+      "Registra chamadas de API."
+    ],
+    "respostaCorreta": "Monitora mudanças de configuração em recursos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a evitar a perda de dados?",
+    "opcoes": [
+      "AWS Backup",
+      "AWS CloudTrail",
+      "AWS WAF",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Backup",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito da política de segurança de rede?",
+    "opcoes": [
+      "Proteger os dados em trânsito.",
+      "Gerenciar o acesso a recursos.",
+      "Provisionar servidores.",
+      "Auditar chamadas de API."
+    ],
+    "respostaCorreta": "Gerenciar o acesso a recursos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do Amazon GuardDuty?",
+    "opcoes": [
+      "Detecção de ameaças em tempo real.",
+      "Gerenciamento de identidades.",
+      "Provisionamento de instâncias.",
+      "Armazenamento de dados."
+    ],
+    "respostaCorreta": "Detecção de ameaças em tempo real.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é um bucket do Amazon S3?",
+    "opcoes": [
+      "Um repositório para armazenamento de objetos.",
+      "Uma instância de banco de dados.",
+      "Um tipo de rede virtual.",
+      "Uma ferramenta de monitoramento."
+    ],
+    "respostaCorreta": "Um repositório para armazenamento de objetos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a importância da criptografia de dados?",
+    "opcoes": [
+      "Protege os dados contra acesso não autorizado.",
+      "Aumenta a velocidade de acesso aos dados.",
+      "Reduz o custo de armazenamento.",
+      "Facilita a análise de dados."
+    ],
+    "respostaCorreta": "Protege os dados contra acesso não autorizado.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a Política de Privacidade da AWS?",
+    "opcoes": [
+      "Define como a AWS protege os dados dos clientes.",
+      "É um serviço de monitoramento.",
+      "É uma ferramenta de gerenciamento de identidades.",
+      "Define os preços dos serviços da AWS."
+    ],
+    "respostaCorreta": "Define como a AWS protege os dados dos clientes.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito do Amazon Macie?",
+    "opcoes": [
+      "Detectar e proteger dados sensíveis.",
+      "Gerenciar identidades.",
+      "Provisionar instâncias.",
+      "Auditar chamadas de API."
+    ],
+    "respostaCorreta": "Detectar e proteger dados sensíveis.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite a rotação automática de senhas?",
+    "opcoes": [
+      "AWS Secrets Manager",
+      "AWS CloudTrail",
+      "AWS Config",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Secrets Manager",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a auditoria de conformidade?",
+    "opcoes": [
+      "Processo de verificar se as práticas estão em conformidade com as políticas.",
+      "Processo de provisionar novas instâncias.",
+      "Processo de gerenciar senhas.",
+      "Processo de análise de dados."
+    ],
+    "respostaCorreta": "Processo de verificar se as práticas estão em conformidade com as políticas.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Firewall Manager?",
+    "opcoes": [
+      "Gerenciar regras de firewall em várias contas.",
+      "Provisionar novas instâncias.",
+      "Registrar chamadas de API.",
+      "Gerenciar usuários."
+    ],
+    "respostaCorreta": "Gerenciar regras de firewall em várias contas.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a importância de manter a segurança na nuvem?",
+    "opcoes": [
+      "Proteger dados sensíveis e garantir conformidade.",
+      "Aumentar os custos operacionais.",
+      "Facilitar o acesso a todos os usuários.",
+      "Reduzir a eficiência do sistema."
+    ],
+    "respostaCorreta": "Proteger dados sensíveis e garantir conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do Amazon Inspector?",
+    "opcoes": [
+      "Avaliar a segurança de aplicações e instâncias.",
+      "Gerenciar identidades.",
+      "Provisionar bancos de dados.",
+      "Monitorar uso de serviços."
+    ],
+    "respostaCorreta": "Avaliar a segurança de aplicações e instâncias.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que são políticas de bucket do S3?",
+    "opcoes": [
+      "Definem o acesso aos buckets do S3.",
+      "São métodos de criptografia.",
+      "São ferramentas de monitoramento.",
+      "São tipos de instâncias."
+    ],
+    "respostaCorreta": "Definem o acesso aos buckets do S3.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual modelo de pagamento a AWS utiliza?",
+    "opcoes": [
+      "Pagamento antecipado apenas.",
+      "Pagamento sob demanda.",
+      "Pagamento mensal fixo.",
+      "Pagamento com desconto para longo prazo."
+    ],
+    "respostaCorreta": "Pagamento sob demanda.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços oferece um modelo de preços baseado em consumo?",
+    "opcoes": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon RDS",
+      "Todos os anteriores"
+    ],
+    "respostaCorreta": "Todos os anteriores",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Pricing Calculator?",
+    "opcoes": [
+      "Uma ferramenta para estimar custos.",
+      "Um serviço de gerenciamento de custos.",
+      "Um sistema de faturamento.",
+      "Um método de auditoria."
+    ],
+    "respostaCorreta": "Uma ferramenta para estimar custos.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Free Tier?",
+    "opcoes": [
+      "Um nível de serviço gratuito por um ano.",
+      "Um serviço pago com descontos.",
+      "Um plano de assinatura.",
+      "Um tipo de instância."
+    ],
+    "respostaCorreta": "Um nível de serviço gratuito por um ano.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes fatores não afeta o custo de instâncias EC2?",
+    "opcoes": [
+      "Tipo da instância",
+      "Localização da região",
+      "Tempo de utilização",
+      "Sistema operacional"
+    ],
+    "respostaCorreta": "Nenhum, todos afetam.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os custos são calculados para o AWS Lambda?",
+    "opcoes": [
+      "Por hora de execução.",
+      "Por quantidade de requisições e duração.",
+      "Por quantidade de dados armazenados.",
+      "Por quantidade de CPU utilizada."
+    ],
+    "respostaCorreta": "Por quantidade de requisições e duração.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a melhor forma de gerenciar custos na AWS?",
+    "opcoes": [
+      "Ignorar a fatura.",
+      "Monitorar e analisar regularmente os gastos.",
+      "Usar apenas serviços gratuitos.",
+      "Provisionar mais recursos do que o necessário."
+    ],
+    "respostaCorreta": "Monitorar e analisar regularmente os gastos.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é um preço de 'spot' na AWS?",
+    "opcoes": [
+      "Um preço fixo para instâncias.",
+      "Um preço dinâmico que muda com a oferta e a demanda.",
+      "Um serviço gratuito.",
+      "Um preço para instâncias reservadas."
+    ],
+    "respostaCorreta": "Um preço dinâmico que muda com a oferta e a demanda.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço oferece relatórios detalhados de custos?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Pricing Calculator",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços tem um modelo de preços por reserva?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon CloudFront"
+    ],
+    "respostaCorreta": "Amazon EC2",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Budgets?",
+    "opcoes": [
+      "Um serviço para monitorar e gerenciar custos.",
+      "Uma ferramenta para provisionar recursos.",
+      "Um método de auditoria de custos.",
+      "Um serviço de faturamento."
+    ],
+    "respostaCorreta": "Um serviço para monitorar e gerenciar custos.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como você pode reduzir custos na AWS?",
+    "opcoes": [
+      "Desativar recursos não utilizados.",
+      "Usar apenas serviços pagos.",
+      "Ignorar relatórios de custo.",
+      "Provisionar mais do que o necessário."
+    ],
+    "respostaCorreta": "Desativar recursos não utilizados.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a política de cancelamento de instâncias reservadas?",
+    "opcoes": [
+      "Você não pode cancelar.",
+      "Você pode cancelar a qualquer momento.",
+      "Você pode transferir a reserva.",
+      "Você pode obter um reembolso total."
+    ],
+    "respostaCorreta": "Você não pode cancelar.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que significa 'consumo sob demanda' na AWS?",
+    "opcoes": [
+      "Você paga apenas pelo que usa.",
+      "Você paga uma taxa mensal fixa.",
+      "Você precisa comprar um plano anual.",
+      "Você paga com desconto para uso prolongado."
+    ],
+    "respostaCorreta": "Você paga apenas pelo que usa.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem do AWS Free Tier?",
+    "opcoes": [
+      "Permite experimentar serviços sem custo.",
+      "Garante um reembolso em caso de erros.",
+      "Fornece suporte técnico gratuito.",
+      "Garante preços mais baixos."
+    ],
+    "respostaCorreta": "Permite experimentar serviços sem custo.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o custo do armazenamento no Amazon S3?",
+    "opcoes": [
+      "Baseado na quantidade de dados armazenados.",
+      "Baseado na quantidade de requisições.",
+      "Baseado na duração do armazenamento.",
+      "Todos os anteriores."
+    ],
+    "respostaCorreta": "Todos os anteriores.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a diferença entre preços sob demanda e preços reservados?",
+    "opcoes": [
+      "Preços sob demanda são mais baratos.",
+      "Preços reservados exigem pagamento antecipado.",
+      "Preços sob demanda são fixos.",
+      "Não há diferença."
+    ],
+    "respostaCorreta": "Preços reservados exigem pagamento antecipado.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ter custos de transferência de dados?",
+    "opcoes": [
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS Lambda",
+      "Todos os anteriores."
+    ],
+    "respostaCorreta": "Todos os anteriores.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS Cost Explorer?",
+    "opcoes": [
+      "Visualizar gastos e tendências.",
+      "Provisionar novos recursos.",
+      "Gerenciar a segurança.",
+      "Monitorar a performance."
+    ],
+    "respostaCorreta": "Visualizar gastos e tendências.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o custo de chamadas de API para o Amazon API Gateway?",
+    "opcoes": [
+      "Por chamada de API.",
+      "Uma taxa fixa mensal.",
+      "Não há custo.",
+      "Por volume de dados."
+    ],
+    "respostaCorreta": "Por chamada de API.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é um 'AWS Support Plan'?",
+    "opcoes": [
+      "Um plano de suporte pago para clientes.",
+      "Um serviço gratuito de suporte.",
+      "Um plano de treinamento.",
+      "Um serviço de monitoramento."
+    ],
+    "respostaCorreta": "Um plano de suporte pago para clientes.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Marketplace?",
+    "opcoes": [
+      "Uma loja de software de terceiros.",
+      "Um serviço de gerenciamento de custos.",
+      "Um serviço de monitoramento.",
+      "Um tipo de instância."
+    ],
+    "respostaCorreta": "Uma loja de software de terceiros.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a vantagem de usar instâncias 'spot'?",
+    "opcoes": [
+      "Custos reduzidos.",
+      "Maior confiabilidade.",
+      "Menos limitações.",
+      "Faturamento fixo."
+    ],
+    "respostaCorreta": "Custos reduzidos.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que acontece se você exceder seu limite de AWS Free Tier?",
+    "opcoes": [
+      "Você é cobrado pelos recursos adicionais.",
+      "Você não pode usar mais serviços.",
+      "Você recebe um reembolso.",
+      "Você deve cancelar sua conta."
+    ],
+    "respostaCorreta": "Você é cobrado pelos recursos adicionais.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o método mais eficaz para estimar custos na AWS?",
+    "opcoes": [
+      "AWS Pricing Calculator.",
+      "Contactar suporte.",
+      "Ignorar relatórios de custos.",
+      "Provisionar sempre recursos adicionais."
+    ],
+    "respostaCorreta": "AWS Pricing Calculator.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal característica do modelo de preços da AWS?",
+    "opcoes": [
+      "Pagamento fixo.",
+      "Pagamento conforme o uso.",
+      "Gratuidade para todos os serviços.",
+      "Serviços ilimitados."
+    ],
+    "respostaCorreta": "Pagamento conforme o uso.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é 'Reserved Instances' na AWS?",
+    "opcoes": [
+      "Um compromisso de pagamento para instâncias EC2.",
+      "Uma opção gratuita para todos os serviços.",
+      "Um plano de pagamento mensal fixo.",
+      "Um tipo de rede virtual."
+    ],
+    "respostaCorreta": "Um compromisso de pagamento para instâncias EC2.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é usado para monitorar e gerenciar custos?",
+    "opcoes": [
+      "AWS Cost Management.",
+      "AWS Budgeting.",
+      "AWS Pricing Calculator.",
+      "AWS CloudTrail."
+    ],
+    "respostaCorreta": "AWS Cost Management.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os custos são calculados para o Amazon RDS?",
+    "opcoes": [
+      "Baseado na instância e no armazenamento.",
+      "Somente por armazenamento.",
+      "Somente por uso de CPU.",
+      "Não há custos."
+    ],
+    "respostaCorreta": "Baseado na instância e no armazenamento.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que são taxas de transferência de dados?",
+    "opcoes": [
+      "Custos para mover dados para fora da AWS.",
+      "Custos para mover dados dentro da AWS.",
+      "Taxas de armazenamento de dados.",
+      "Não existem taxas de transferência."
+    ],
+    "respostaCorreta": "Custos para mover dados para fora da AWS.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o 'AWS Savings Plan'?",
+    "opcoes": [
+      "Um plano que oferece descontos para uso de recursos.",
+      "Um serviço de monitoramento de custos.",
+      "Um tipo de suporte.",
+      "Um plano de treinamento."
+    ],
+    "respostaCorreta": "Um plano que oferece descontos para uso de recursos.",
+    "dominio": "Faturamento e Preços",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é computação em nuvem?",
+    "opcoes": [
+      "Uso de servidores locais.",
+      "Acesso sob demanda a recursos de TI pela internet.",
+      "Armazenamento de dados em disco rígido.",
+      "Uso exclusivo de hardware dedicado."
+    ],
+    "respostaCorreta": "Acesso sob demanda a recursos de TI pela internet.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem da computação em nuvem?",
+    "opcoes": [
+      "Aumento dos custos operacionais.",
+      "Escalabilidade e flexibilidade.",
+      "Dependência de hardware local.",
+      "Processamento local de dados."
+    ],
+    "respostaCorreta": "Escalabilidade e flexibilidade.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um modelo de implantação em nuvem?",
+    "opcoes": [
+      "Nuvem pública.",
+      "Rede local.",
+      "Armazenamento em disco rígido.",
+      "Software de desktop."
+    ],
+    "respostaCorreta": "Nuvem pública.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que significa 'elasticidade' na computação em nuvem?",
+    "opcoes": [
+      "Capacidade de expandir e contrair recursos conforme necessário.",
+      "Aumento dos custos.",
+      "Dependência de hardware físico.",
+      "Uso exclusivo de serviços locais."
+    ],
+    "respostaCorreta": "Capacidade de expandir e contrair recursos conforme necessário.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é uma instância na nuvem?",
+    "opcoes": [
+      "Um serviço de software.",
+      "Uma máquina virtual na nuvem.",
+      "Um tipo de armazenamento.",
+      "Um protocolo de segurança."
+    ],
+    "respostaCorreta": "Uma máquina virtual na nuvem.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS IAM?",
+    "opcoes": [
+      "Gerenciar instâncias EC2.",
+      "Controlar o acesso e a identidade.",
+      "Monitorar o desempenho.",
+      "Armazenar dados."
+    ],
+    "respostaCorreta": "Controlar o acesso e a identidade.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é armazenamento em nuvem?",
+    "opcoes": [
+      "Armazenamento de dados em dispositivos físicos.",
+      "Armazenamento de dados em servidores remotos acessíveis pela internet.",
+      "Armazenamento de dados em unidades de disco rígido locais.",
+      "Armazenamento de dados em CDs."
+    ],
+    "respostaCorreta": "Armazenamento de dados em servidores remotos acessíveis pela internet.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que significa SaaS?",
+    "opcoes": [
+      "Software as a Service.",
+      "Storage as a Service.",
+      "Security as a Service.",
+      "System as a Service."
+    ],
+    "respostaCorreta": "Software as a Service.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a definição de 'nuvem híbrida'?",
+    "opcoes": [
+      "Combinação de nuvem pública e privada.",
+      "Uso exclusivo de nuvem pública.",
+      "Uso exclusivo de nuvem privada.",
+      "Uso de armazenamento local."
+    ],
+    "respostaCorreta": "Combinação de nuvem pública e privada.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS CloudFormation?",
+    "opcoes": [
+      "Uma ferramenta para provisionar recursos.",
+      "Um serviço de armazenamento.",
+      "Um serviço de monitoramento.",
+      "Um software de segurança."
+    ],
+    "respostaCorreta": "Uma ferramenta para provisionar recursos.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a 'nuvem pública'?",
+    "opcoes": [
+      "Nuvem disponível para o público geral.",
+      "Nuvem acessível apenas por uma organização.",
+      "Nuvem que não pode ser acessada pela internet.",
+      "Nuvem apenas para uso local."
+    ],
+    "respostaCorreta": "Nuvem disponível para o público geral.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é 'multi-tenancy' na computação em nuvem?",
+    "opcoes": [
+      "Um único recurso é compartilhado entre vários usuários.",
+      "Um único usuário controla todos os recursos.",
+      "Armazenamento exclusivo para cada usuário.",
+      "Uma rede dedicada para cada cliente."
+    ],
+    "respostaCorreta": "Um único recurso é compartilhado entre vários usuários.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é 'IaaS'?",
+    "opcoes": [
+      "Infrastructure as a Service.",
+      "Internet as a Service.",
+      "Identity as a Service.",
+      "Information as a Service."
+    ],
+    "respostaCorreta": "Infrastructure as a Service.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do Amazon VPC?",
+    "opcoes": [
+      "Criar redes virtuais na nuvem.",
+      "Armazenar dados.",
+      "Controlar acesso.",
+      "Gerenciar identidades."
+    ],
+    "respostaCorreta": "Criar redes virtuais na nuvem.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é 'PaaS'?",
+    "opcoes": [
+      "Platform as a Service.",
+      "Performance as a Service.",
+      "Private as a Service.",
+      "Product as a Service."
+    ],
+    "respostaCorreta": "Platform as a Service.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal característica da computação em nuvem?",
+    "opcoes": [
+      "Uso exclusivo de hardware local.",
+      "Acesso a recursos sob demanda pela internet.",
+      "Dependência de servidores físicos.",
+      "Não há custos."
+    ],
+    "respostaCorreta": "Acesso a recursos sob demanda pela internet.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a AWS?",
+    "opcoes": [
+      "Um serviço de e-mail.",
+      "Uma plataforma de computação em nuvem da Amazon.",
+      "Um sistema operacional.",
+      "Uma rede social."
+    ],
+    "respostaCorreta": "Uma plataforma de computação em nuvem da Amazon.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o papel do AWS CloudTrail?",
+    "opcoes": [
+      "Monitorar e registrar atividades da conta.",
+      "Gerenciar acesso a recursos.",
+      "Provisionar instâncias EC2.",
+      "Armazenar dados."
+    ],
+    "respostaCorreta": "Monitorar e registrar atividades da conta.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a latência na computação em nuvem?",
+    "opcoes": [
+      "O tempo que leva para os dados serem transmitidos.",
+      "O custo de armazenamento.",
+      "A quantidade de recursos disponíveis.",
+      "A velocidade de processamento."
+    ],
+    "respostaCorreta": "O tempo que leva para os dados serem transmitidos.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um exemplo de serviço de nuvem gerenciado?",
+    "opcoes": [
+      "Amazon EC2.",
+      "Amazon RDS.",
+      "Amazon S3.",
+      "Amazon EBS."
+    ],
+    "respostaCorreta": "Amazon RDS.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a 'nuvem privada'?",
+    "opcoes": [
+      "Nuvem usada apenas por uma organização.",
+      "Nuvem disponível para o público geral.",
+      "Nuvem que não pode ser acessada pela internet.",
+      "Nuvem de armazenamento local."
+    ],
+    "respostaCorreta": "Nuvem usada apenas por uma organização.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que significa 'downtime'?",
+    "opcoes": [
+      "Período em que um serviço não está disponível.",
+      "Tempo de operação normal.",
+      "Aumento da capacidade.",
+      "Tempo de inatividade programado."
+    ],
+    "respostaCorreta": "Período em que um serviço não está disponível.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Lambda?",
+    "opcoes": [
+      "Um serviço de computação sem servidor.",
+      "Um tipo de instância EC2.",
+      "Um serviço de armazenamento.",
+      "Um serviço de banco de dados."
+    ],
+    "respostaCorreta": "Um serviço de computação sem servidor.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do Amazon S3?",
+    "opcoes": [
+      "Armazenamento de objetos na nuvem.",
+      "Gerenciamento de instâncias EC2.",
+      "Monitoramento de recursos.",
+      "Criação de redes virtuais."
+    ],
+    "respostaCorreta": "Armazenamento de objetos na nuvem.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a escalabilidade?",
+    "opcoes": [
+      "Capacidade de aumentar ou diminuir recursos conforme necessário.",
+      "Uso fixo de hardware.",
+      "Armazenamento de dados em disco rígido.",
+      "Um tipo de software."
+    ],
+    "respostaCorreta": "Capacidade de aumentar ou diminuir recursos conforme necessário.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do Amazon RDS?",
+    "opcoes": [
+      "Gerenciar bancos de dados relacionais na nuvem.",
+      "Armazenar dados não estruturados.",
+      "Criar redes virtuais.",
+      "Monitorar recursos."
+    ],
+    "respostaCorreta": "Gerenciar bancos de dados relacionais na nuvem.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a AWS Global Infrastructure?",
+    "opcoes": [
+      "A rede de data centers da AWS em várias regiões.",
+      "Um serviço de armazenamento.",
+      "Um tipo de instância EC2.",
+      "Um software de gerenciamento."
+    ],
+    "respostaCorreta": "A rede de data centers da AWS em várias regiões.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o objetivo do AWS Trusted Advisor?",
+    "opcoes": [
+      "Fornecer recomendações para melhorar a segurança e o desempenho.",
+      "Gerenciar custos.",
+      "Monitorar atividades da conta.",
+      "Provisionar recursos."
+    ],
+    "respostaCorreta": "Fornecer recomendações para melhorar a segurança e o desempenho.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o conceito de 'redundância' na nuvem?",
+    "opcoes": [
+      "Armazenamento de dados em múltiplos locais para evitar perda.",
+      "Uso de um único servidor.",
+      "Aumento da capacidade.",
+      "Dependência de um único ponto de falha."
+    ],
+    "respostaCorreta": "Armazenamento de dados em múltiplos locais para evitar perda.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a definição de 'disponibilidade' na computação em nuvem?",
+    "opcoes": [
+      "A capacidade de um serviço estar acessível quando necessário.",
+      "O número de recursos disponíveis.",
+      "A quantidade de dados armazenados.",
+      "O tempo de inatividade."
+    ],
+    "respostaCorreta": "A capacidade de um serviço estar acessível quando necessário.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é um 'data lake'?",
+    "opcoes": [
+      "Um repositório para armazenar grandes volumes de dados brutos.",
+      "Um tipo de serviço de armazenamento.",
+      "Um serviço de backup.",
+      "Um sistema de banco de dados."
+    ],
+    "respostaCorreta": "Um repositório para armazenar grandes volumes de dados brutos.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que significa 'orquestração' na nuvem?",
+    "opcoes": [
+      "Coordenação de vários serviços e automação de processos.",
+      "Armazenamento de dados.",
+      "Monitoramento de desempenho.",
+      "Gerenciamento de usuários."
+    ],
+    "respostaCorreta": "Coordenação de vários serviços e automação de processos.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o papel do AWS Support?",
+    "opcoes": [
+      "Fornecer assistência técnica e suporte a clientes.",
+      "Monitorar atividades.",
+      "Provisionar recursos.",
+      "Gerenciar contas."
+    ],
+    "respostaCorreta": "Fornecer assistência técnica e suporte a clientes.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é um 'endpoint' na nuvem?",
+    "opcoes": [
+      "Um ponto de acesso a um serviço.",
+      "Um tipo de instância.",
+      "Um software de monitoramento.",
+      "Um tipo de rede."
+    ],
+    "respostaCorreta": "Um ponto de acesso a um serviço.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do Amazon CloudWatch?",
+    "opcoes": [
+      "Monitorar e coletar métricas sobre recursos da AWS.",
+      "Provisionar instâncias EC2.",
+      "Armazenar dados.",
+      "Controlar acesso."
+    ],
+    "respostaCorreta": "Monitorar e coletar métricas sobre recursos da AWS.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes modelos de custo da AWS permite que você pague apenas pelo que usa?",
+    "opcoes": [
+      "Modelo de preços baseados em assinaturas",
+      "Modelo de preços baseados em capacidade reservada",
+      "Modelo de preços sob demanda",
+      "Modelo de preços fixos"
+    ],
+    "respostaCorreta": "Modelo de preços sob demanda",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a visualizar e controlar os custos e o uso da nuvem?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Pricing Calculator",
+      "AWS Marketplace"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir pode ajudar a prever os custos futuros na AWS?",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS CloudTrail",
+      "AWS Lambda",
+      "AWS Config"
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Free Tier?",
+    "opcoes": [
+      "Um serviço de computação gratuito.",
+      "Um nível de uso gratuito para novos clientes da AWS.",
+      "Uma opção de compra de serviços em pacote.",
+      "Um programa de fidelidade da AWS."
+    ],
+    "respostaCorreta": "Um nível de uso gratuito para novos clientes da AWS.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os serviços da AWS podem ajudar as empresas a reduzir custos operacionais?",
+    "opcoes": [
+      "Eliminando a necessidade de hardware físico.",
+      "Aumentando a complexidade do gerenciamento de infraestrutura.",
+      "Exigindo grandes investimentos iniciais.",
+      "Impondo tarifas fixas."
+    ],
+    "respostaCorreta": "Eliminando a necessidade de hardware físico.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser utilizado para calcular o custo estimado de serviços da AWS?",
+    "opcoes": [
+      "AWS Pricing Calculator",
+      "AWS Trusted Advisor",
+      "AWS Config",
+      "Amazon Inspector"
+    ],
+    "respostaCorreta": "AWS Pricing Calculator",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma vantagem de usar a nuvem em vez de um data center local?",
+    "opcoes": [
+      "Custos fixos e previsíveis.",
+      "Escalabilidade e flexibilidade nos custos.",
+      "Dependência de hardware específico.",
+      "Maior complexidade na gestão de recursos."
+    ],
+    "respostaCorreta": "Escalabilidade e flexibilidade nos custos.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o benefício de usar a capacidade reservada na AWS?",
+    "opcoes": [
+      "Custos mais baixos em comparação com preços sob demanda.",
+      "Maior flexibilidade na gestão de recursos.",
+      "Acesso imediato a novos serviços.",
+      "Sem compromisso de longo prazo."
+    ],
+    "respostaCorreta": "Custos mais baixos em comparação com preços sob demanda.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes práticas pode ajudar a otimizar os custos na AWS?",
+    "opcoes": [
+      "Provisionar recursos em excesso.",
+      "Monitorar o uso e ajustar conforme necessário.",
+      "Usar sempre instâncias de preço mais alto.",
+      "Ignorar relatórios de custo."
+    ],
+    "respostaCorreta": "Monitorar o uso e ajustar conforme necessário.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a AWS Savings Plans?",
+    "opcoes": [
+      "Um programa que oferece descontos em troca de um compromisso de uso.",
+      "Um serviço que oferece gerenciamento de custos.",
+      "Uma ferramenta de monitoramento de segurança.",
+      "Um plano de suporte técnico."
+    ],
+    "respostaCorreta": "Um programa que oferece descontos em troca de um compromisso de uso.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é a economia de escala na nuvem?",
+    "opcoes": [
+      "Custos crescentes à medida que a empresa cresce.",
+      "Redução de custos à medida que o volume de recursos aumenta.",
+      "Necessidade de mais hardware físico.",
+      "Menor flexibilidade nos custos."
+    ],
+    "respostaCorreta": "Redução de custos à medida que o volume de recursos aumenta.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais objetivos de usar a computação em nuvem?",
+    "opcoes": [
+      "Reduzir custos de capital.",
+      "Aumentar a complexidade do gerenciamento.",
+      "Exigir investimento em hardware físico.",
+      "Impor tarifas fixas de serviços."
+    ],
+    "respostaCorreta": "Reduzir custos de capital.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite que você acompanhe a conformidade financeira com as políticas da empresa?",
+    "opcoes": [
+      "AWS Config",
+      "AWS Budgets",
+      "AWS Cost Explorer",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ajudar na redução de custos ao eliminar instâncias ociosas?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Lambda",
+      "AWS Auto Scaling",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Auto Scaling",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços ajuda na visualização da alocação de custos por projeto ou equipe?",
+    "opcoes": [
+      "AWS Cost Allocation Tags",
+      "AWS Config",
+      "Amazon RDS",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS Cost Allocation Tags",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma consideração importante ao planejar custos na nuvem?",
+    "opcoes": [
+      "Escolher serviços de preço fixo.",
+      "Considerar o aumento do uso durante picos de demanda.",
+      "Evitar o uso de tags para rastreamento de custos.",
+      "Implementar apenas instâncias sob demanda."
+    ],
+    "respostaCorreta": "Considerar o aumento do uso durante picos de demanda.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a nuvem pode ajudar a acelerar o lançamento de produtos no mercado?",
+    "opcoes": [
+      "Reduzindo a necessidade de testes.",
+      "Eliminando a necessidade de provisionamento de infraestrutura.",
+      "Aumentando os custos de desenvolvimento.",
+      "Requerendo mais tempo para configuração."
+    ],
+    "respostaCorreta": "Eliminando a necessidade de provisionamento de infraestrutura.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos benefícios da AWS em comparação com data centers tradicionais?",
+    "opcoes": [
+      "Maior dependência de hardware específico.",
+      "Custos previsíveis e fixos.",
+      "Eliminação de capital em infraestrutura.",
+      "Necessidade de manutenção constante."
+    ],
+    "respostaCorreta": "Eliminação de capital em infraestrutura.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes fatores pode afetar o custo de execução de uma aplicação na AWS?",
+    "opcoes": [
+      "O tipo de instância EC2 escolhida",
+      "A localização geográfica da equipe de desenvolvimento",
+      "O tempo gasto na codificação",
+      "A escolha de uma linguagem de programação"
+    ],
+    "respostaCorreta": "O tipo de instância EC2 escolhida",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre o modelo de preços sob demanda da AWS é verdadeira?",
+    "opcoes": [
+      "Você paga uma taxa fixa mensal, independentemente do uso.",
+      "Você paga apenas pelos recursos que utiliza.",
+      "Os recursos devem ser provisionados com antecedência.",
+      "Os preços são fixos e não mudam com a demanda."
+    ],
+    "respostaCorreta": "Você paga apenas pelos recursos que utiliza.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem da capacidade reservada na AWS?",
+    "opcoes": [
+      "Mais flexibilidade em termos de uso.",
+      "Descontos significativos em comparação ao uso sob demanda.",
+      "Melhor desempenho em comparação ao uso sob demanda.",
+      "Acesso a serviços exclusivos."
+    ],
+    "respostaCorreta": "Descontos significativos em comparação ao uso sob demanda.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços fornece alertas quando os gastos excedem os limites definidos?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS CloudTrail",
+      "AWS Config"
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o uso de tags pode ajudar a otimizar custos na AWS?",
+    "opcoes": [
+      "Permite que você ignore relatórios de uso.",
+      "Ajuda a organizar e categorizar recursos para melhor visualização de custos.",
+      "Aumenta automaticamente a capacidade dos recursos.",
+      "Remove a necessidade de monitoramento de uso."
+    ],
+    "respostaCorreta": "Ajuda a organizar e categorizar recursos para melhor visualização de custos.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é usado para rastrear mudanças de configuração e conformidade?",
+    "opcoes": [
+      "AWS Config",
+      "AWS CloudTrail",
+      "AWS Budgets",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS Config",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS Marketplace?",
+    "opcoes": [
+      "Fornecer ferramentas de monitoramento.",
+      "Vender serviços da AWS com preços fixos.",
+      "Oferecer software de terceiros e serviços em nuvem.",
+      "Gerenciar a conformidade de serviços da AWS."
+    ],
+    "respostaCorreta": "Oferecer software de terceiros e serviços em nuvem.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes fatores pode levar a custos inesperados na nuvem?",
+    "opcoes": [
+      "Capacidade de provisionamento automática não monitorada.",
+      "Uso de serviços sob demanda apenas.",
+      "Monitoramento regular de gastos.",
+      "Implementação de soluções de custos baixos."
+    ],
+    "respostaCorreta": "Capacidade de provisionamento automática não monitorada.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais considerações de custo ao mover uma aplicação para a nuvem?",
+    "opcoes": [
+      "O custo de energia elétrica para data centers.",
+      "O custo de hardware dedicado.",
+      "O custo de licenciamento de software específico.",
+      "A capacidade de escalabilidade da aplicação."
+    ],
+    "respostaCorreta": "A capacidade de escalabilidade da aplicação.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que deve ser considerado ao escolher entre instâncias sob demanda e instâncias reservadas?",
+    "opcoes": [
+      "A duração do uso previsto e a demanda da aplicação.",
+      "A quantidade de dados a serem armazenados.",
+      "O número de usuários da aplicação.",
+      "A complexidade da aplicação."
+    ],
+    "respostaCorreta": "A duração do uso previsto e a demanda da aplicação.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma estratégia de otimização de custos na AWS?",
+    "opcoes": [
+      "Substituir instâncias reservadas por instâncias sob demanda.",
+      "Implementar escalabilidade automática.",
+      "Usar somente serviços premium.",
+      "Aumentar a capacidade de todas as instâncias."
+    ],
+    "respostaCorreta": "Implementar escalabilidade automática.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o AWS Cost Explorer permite aos usuários fazer?",
+    "opcoes": [
+      "Monitorar e visualizar os gastos ao longo do tempo.",
+      "Criar instâncias EC2 automaticamente.",
+      "Gerar relatórios de segurança.",
+      "Provisionar recursos em diferentes regiões."
+    ],
+    "respostaCorreta": "Monitorar e visualizar os gastos ao longo do tempo.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício da migração de aplicações para a nuvem em termos de custo?",
+    "opcoes": [
+      "Redução de custos com hardware e manutenção.",
+      "Aumento de custos fixos.",
+      "Necessidade de mais pessoal de TI.",
+      "Custo elevado de licenciamento."
+    ],
+    "respostaCorreta": "Redução de custos com hardware e manutenção.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um benefício econômico direto da utilização da AWS?",
+    "opcoes": [
+      "Pagamentos mensais fixos para todos os serviços.",
+      "Redução da necessidade de investimento em infraestrutura.",
+      "Requer investimentos em servidores físicos.",
+      "Custos fixos para armazenamento de dados."
+    ],
+    "respostaCorreta": "Redução da necessidade de investimento em infraestrutura.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função principal do AWS TCO Calculator?",
+    "opcoes": [
+      "Calcular o Total Cost of Ownership (TCO) ao migrar para a nuvem.",
+      "Estimar o custo de instâncias EC2.",
+      "Fornecer acesso a serviços gratuitos.",
+      "Gerar relatórios de uso da nuvem."
+    ],
+    "respostaCorreta": "Calcular o Total Cost of Ownership (TCO) ao migrar para a nuvem.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes fatores pode influenciar os custos de transferência de dados na AWS?",
+    "opcoes": [
+      "A quantidade de dados transferidos para fora da AWS.",
+      "O número de instâncias em execução.",
+      "A localização da equipe de desenvolvimento.",
+      "O tipo de linguagem de programação usada."
+    ],
+    "respostaCorreta": "A quantidade de dados transferidos para fora da AWS.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços ajuda a analisar e otimizar a infraestrutura da AWS?",
+    "opcoes": [
+      "AWS Trusted Advisor",
+      "AWS CloudTrail",
+      "AWS Config",
+      "Amazon Inspector"
+    ],
+    "respostaCorreta": "AWS Trusted Advisor",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é uma avaliação de custo-benefício na nuvem?",
+    "opcoes": [
+      "Uma análise dos custos associados ao uso da nuvem em comparação com benefícios esperados.",
+      "Um método de estimar a capacidade de armazenamento.",
+      "Uma técnica de codificação para otimizar custos.",
+      "Um relatório sobre o desempenho de uma aplicação."
+    ],
+    "respostaCorreta": "Uma análise dos custos associados ao uso da nuvem em comparação com benefícios esperados.",
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes fatores pode afetar os custos de uso da AWS? (Escolha dois)",
+    "opcoes": [
+      "Tipo de instância EC2 escolhida",
+      "Número de regiões da AWS utilizadas",
+      "Escolha da linguagem de programação",
+      "Número de usuários acessando a aplicação"
+    ],
+    "respostaCorreta": [
+      "Tipo de instância EC2 escolhida",
+      "Número de regiões da AWS utilizadas"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ajudar a gerenciar e otimizar os custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS IAM",
+      "Amazon S3"
+    ],
+    "respostaCorreta": [
+      "AWS Cost Explorer",
+      "AWS Budgets"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são consideradas boas práticas para otimização de custos na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Monitorar e ajustar o uso de recursos",
+      "Provisione sempre mais recursos do que necessário",
+      "Utilizar instâncias reservadas para cargas de trabalho previsíveis",
+      "Ignorar os relatórios de custos"
+    ],
+    "respostaCorreta": [
+      "Monitorar e ajustar o uso de recursos",
+      "Utilizar instâncias reservadas para cargas de trabalho previsíveis"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ajudar a calcular o Total Cost of Ownership (TCO) na nuvem? (Escolha dois)",
+    "opcoes": [
+      "AWS TCO Calculator",
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": [
+      "AWS TCO Calculator",
+      "AWS Pricing Calculator"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre o AWS Free Tier são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Disponível apenas para novos clientes da AWS",
+      "Oferece serviços gratuitos para sempre",
+      "Permite experimentar serviços com limites de uso",
+      "Requer um pagamento mensal"
+    ],
+    "respostaCorreta": [
+      "Disponível apenas para novos clientes da AWS",
+      "Permite experimentar serviços com limites de uso"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes são maneiras de prever gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Analisando o histórico de uso com o AWS Cost Explorer",
+      "Definindo um orçamento no AWS Budgets",
+      "Usando o AWS Lambda para automatizar relatórios",
+      "Aplicando tags de alocação de custos"
+    ],
+    "respostaCorreta": [
+      "Analisando o histórico de uso com o AWS Cost Explorer",
+      "Definindo um orçamento no AWS Budgets"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS podem ajudar a gerenciar a conformidade financeira? (Escolha dois)",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS CloudTrail",
+      "AWS Cost Explorer",
+      "AWS Config"
+    ],
+    "respostaCorreta": [
+      "AWS Budgets",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes estratégias podem ser usadas para reduzir custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Utilizar a escalabilidade automática para ajustar a capacidade",
+      "Ignorar as instâncias ociosas",
+      "Reservar capacidade para serviços previsíveis",
+      "Aumentar o uso de instâncias sob demanda"
+    ],
+    "respostaCorreta": [
+      "Utilizar a escalabilidade automática para ajustar a capacidade",
+      "Reservar capacidade para serviços previsíveis"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são formas de controlar os custos com transferência de dados? (Escolha dois)",
+    "opcoes": [
+      "Otimizar o uso de serviços de transferência de dados",
+      "Monitorar a quantidade de dados transferidos",
+      "Aumentar o número de instâncias em execução",
+      "Usar somente armazenamento em bloco"
+    ],
+    "respostaCorreta": [
+      "Otimizar o uso de serviços de transferência de dados",
+      "Monitorar a quantidade de dados transferidos"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores podem impactar os custos de uma aplicação na AWS? (Escolha dois)",
+    "opcoes": [
+      "Tipo de instância EC2",
+      "Quantidade de dados armazenados",
+      "Número de usuários que acessam a aplicação",
+      "Localização da equipe de desenvolvimento"
+    ],
+    "respostaCorreta": [
+      "Tipo de instância EC2",
+      "Quantidade de dados armazenados"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes são benefícios de usar a AWS em termos de custo? (Escolha dois)",
+    "opcoes": [
+      "Eliminação de investimentos em infraestrutura física",
+      "Custos fixos e previsíveis para todos os serviços",
+      "Modelo de pagamento conforme o uso",
+      "Aumento da complexidade do gerenciamento"
+    ],
+    "respostaCorreta": [
+      "Eliminação de investimentos em infraestrutura física",
+      "Modelo de pagamento conforme o uso"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre a economia de escala na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Custos diminuem à medida que o volume de recursos aumenta",
+      "Aumento de custos fixos com o aumento da demanda",
+      "Maior eficiência na utilização de recursos compartilhados",
+      "Necessidade de mais hardware específico"
+    ],
+    "respostaCorreta": [
+      "Custos diminuem à medida que o volume de recursos aumenta",
+      "Maior eficiência na utilização de recursos compartilhados"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ser usados para monitorar gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "AWS Config",
+      "AWS Budgets"
+    ],
+    "respostaCorreta": [
+      "AWS Cost Explorer",
+      "AWS Budgets"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes são características do AWS Savings Plans? (Escolha dois)",
+    "opcoes": [
+      "Oferecem descontos em troca de um compromisso de uso",
+      "Aplicam-se apenas a instâncias reservadas",
+      "Permitindo flexibilidade na utilização de diferentes serviços",
+      "Exigem pagamento antecipado"
+    ],
+    "respostaCorreta": [
+      "Oferecem descontos em troca de um compromisso de uso",
+      "Permitindo flexibilidade na utilização de diferentes serviços"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são estratégias para gerenciar custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Implementar tags de alocação de custos",
+      "Aumentar a utilização de serviços sob demanda",
+      "Utilizar relatórios de gastos regularmente",
+      "Provisionar mais capacidade do que o necessário"
+    ],
+    "respostaCorreta": [
+      "Implementar tags de alocação de custos",
+      "Utilizar relatórios de gastos regularmente"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes aspectos são considerados ao calcular o custo total de propriedade (TCO) na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Custo de hardware",
+      "Custo de manutenção de servidores locais",
+      "Custo de licenciamento de software",
+      "Custo de energia elétrica"
+    ],
+    "respostaCorreta": [
+      "Custo de hardware",
+      "Custo de manutenção de servidores locais"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes são maneiras de reduzir custos em aplicações baseadas em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Utilizar instâncias spot",
+      "Reutilizar recursos existentes",
+      "Executar aplicações em várias regiões",
+      "Implementar práticas de desenvolvimento ágil"
+    ],
+    "respostaCorreta": [
+      "Utilizar instâncias spot",
+      "Reutilizar recursos existentes"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes ferramentas ajudam a monitorar e controlar custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "AWS Trusted Advisor",
+      "AWS Config"
+    ],
+    "respostaCorreta": [
+      "AWS Cost Explorer",
+      "AWS Trusted Advisor"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas podem ajudar a otimizar os custos de armazenamento na AWS? (Escolha dois)",
+    "opcoes": [
+      "Usar o Amazon S3 Intelligent-Tiering",
+      "Migrar dados para instâncias EC2",
+      "Implementar políticas de ciclo de vida no S3",
+      "Aumentar a capacidade do Amazon EBS"
+    ],
+    "respostaCorreta": [
+      "Usar o Amazon S3 Intelligent-Tiering",
+      "Implementar políticas de ciclo de vida no S3"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções ajudam na redução de custos em serviços de banco de dados na AWS? (Escolha dois)",
+    "opcoes": [
+      "Utilizar instâncias reservadas para RDS",
+      "Desativar backups automáticos",
+      "Escolher o tipo de armazenamento adequado",
+      "Utilizar somente instâncias sob demanda"
+    ],
+    "respostaCorreta": [
+      "Utilizar instâncias reservadas para RDS",
+      "Escolher o tipo de armazenamento adequado"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas podem ajudar na previsão de gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Configurar alertas no AWS Budgets",
+      "Aumentar o uso de instâncias sob demanda",
+      "Analisar relatórios de custos regularmente",
+      "Evitar a utilização de tags"
+    ],
+    "respostaCorreta": [
+      "Configurar alertas no AWS Budgets",
+      "Analisar relatórios de custos regularmente"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são características do modelo de pagamento conforme o uso da AWS? (Escolha dois)",
+    "opcoes": [
+      "Pagamento antecipado para todos os serviços",
+      "Flexibilidade de escalar recursos conforme necessário",
+      "Custo fixo para instâncias reservadas",
+      "Cobrança apenas pelos recursos efetivamente utilizados"
+    ],
+    "respostaCorreta": [
+      "Flexibilidade de escalar recursos conforme necessário",
+      "Cobrança apenas pelos recursos efetivamente utilizados"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre instâncias spot da AWS? (Escolha dois)",
+    "opcoes": [
+      "Permitem economizar em comparação com instâncias sob demanda",
+      "Têm garantia de disponibilidade a qualquer momento",
+      "Podem ser interrompidas pela AWS com pouco aviso",
+      "São sempre a melhor opção para cargas de trabalho críticas"
+    ],
+    "respostaCorreta": [
+      "Permitem economizar em comparação com instâncias sob demanda",
+      "Podem ser interrompidas pela AWS com pouco aviso"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções representam os benefícios de usar o Amazon EC2 Auto Scaling? (Escolha dois)",
+    "opcoes": [
+      "Ajuste automático da capacidade de recursos",
+      "Redução dos custos operacionais",
+      "Aumento de custos fixos",
+      "Melhor desempenho sem intervenção manual"
+    ],
+    "respostaCorreta": [
+      "Ajuste automático da capacidade de recursos",
+      "Redução dos custos operacionais"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções podem ajudar a aumentar a eficiência financeira na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Implementar reservas de instância para cargas previsíveis",
+      "Criar mais instâncias do que o necessário",
+      "Aproveitar o AWS Savings Plans",
+      "Reduzir o uso de serviços gerenciados"
+    ],
+    "respostaCorreta": [
+      "Implementar reservas de instância para cargas previsíveis",
+      "Aproveitar o AWS Savings Plans"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são componentes importantes do AWS Pricing Calculator? (Escolha dois)",
+    "opcoes": [
+      "Estimativa de custo de cada serviço",
+      "Relatórios de uso em tempo real",
+      "Escolha de instâncias e serviços",
+      "Configurações de rede"
+    ],
+    "respostaCorreta": [
+      "Estimativa de custo de cada serviço",
+      "Escolha de instâncias e serviços"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre os relatórios de custos da AWS? (Escolha dois)",
+    "opcoes": [
+      "Fornecem detalhes sobre gastos em todos os serviços",
+      "São apenas uma estimativa de custos",
+      "Podem ser exportados para formatos como CSV",
+      "Exibem somente custos futuros"
+    ],
+    "respostaCorreta": [
+      "Fornecem detalhes sobre gastos em todos os serviços",
+      "Podem ser exportados para formatos como CSV"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre as instâncias reservadas da AWS? (Escolha dois)",
+    "opcoes": [
+      "Oferecem descontos em relação a instâncias sob demanda",
+      "Exigem pagamento total antecipado sempre",
+      "Podem ser adquiridas para diferentes tipos de instâncias",
+      "Garantem capacidade em regiões específicas"
+    ],
+    "respostaCorreta": [
+      "Oferecem descontos em relação a instâncias sob demanda",
+      "Podem ser adquiridas para diferentes tipos de instâncias"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações são verdadeiras sobre o AWS Trusted Advisor? (Escolha dois)",
+    "opcoes": [
+      "Fornece recomendações para economizar custos",
+      "É uma ferramenta exclusiva para instâncias reservadas",
+      "Apenas analisa o uso de armazenamento",
+      "Oferece insights sobre eficiência de recursos"
+    ],
+    "respostaCorreta": [
+      "Fornece recomendações para economizar custos",
+      "Oferece insights sobre eficiência de recursos"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são características do modelo de custos da nuvem? (Escolha dois)",
+    "opcoes": [
+      "Pagamentos adiantados e custos fixos",
+      "Redução dos custos de capital",
+      "Pagamentos somente pelos recursos utilizados",
+      "Custos variáveis com uso"
+    ],
+    "respostaCorreta": [
+      "Redução dos custos de capital",
+      "Pagamentos somente pelos recursos utilizados"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre os serviços da AWS? (Escolha dois)",
+    "opcoes": [
+      "Todos os serviços têm o mesmo modelo de precificação",
+      "Os preços podem variar entre regiões",
+      "A maioria dos serviços oferece uma camada gratuita",
+      "Os serviços são sempre cobrados em horas"
+    ],
+    "respostaCorreta": [
+      "Os preços podem variar entre regiões",
+      "A maioria dos serviços oferece uma camada gratuita"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são formas de monitorar os gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS CloudWatch",
+      "AWS Budgets",
+      "AWS Inspector",
+      "AWS Service Health Dashboard"
+    ],
+    "respostaCorreta": [
+      "AWS Budgets",
+      "AWS CloudWatch"
+    ],
+    "dominio": "Aspectos econômicos da nuvem AWS",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para implementar computação sem servidor? (Escolha dois)",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS Fargate"
+    ],
+    "respostaCorreta": [
+      "AWS Lambda",
+      "AWS Fargate"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para gerenciamento de banco de dados? (Escolha dois)",
+    "opcoes": [
+      "Amazon RDS",
+      "Amazon S3",
+      "Amazon DynamoDB",
+      "AWS Elastic Beanstalk"
+    ],
+    "respostaCorreta": [
+      "Amazon RDS",
+      "Amazon DynamoDB"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços da AWS fornece armazenamento de arquivos? (Escolha dois)",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon RDS",
+      "Amazon EFS"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon EFS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS são usados para implementar aplicações web? (Escolha dois)",
+    "opcoes": [
+      "AWS Elastic Beanstalk",
+      "AWS Lambda",
+      "Amazon CloudFront",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": [
+      "AWS Elastic Beanstalk",
+      "Amazon RDS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços permitem a criação de uma rede privada virtual (VPC)? (Escolha dois)",
+    "opcoes": [
+      "AWS Direct Connect",
+      "AWS CloudFormation",
+      "Amazon VPC",
+      "AWS Elastic Load Balancing"
+    ],
+    "respostaCorreta": [
+      "AWS Direct Connect",
+      "Amazon VPC"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços da AWS pode ser usado para criar APIs? (Escolha dois)",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon RDS",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": [
+      "AWS Lambda",
+      "Amazon API Gateway"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços oferecem soluções de análise de dados? (Escolha dois)",
+    "opcoes": [
+      "Amazon Redshift",
+      "Amazon S3",
+      "Amazon QuickSight",
+      "AWS Glue"
+    ],
+    "respostaCorreta": [
+      "Amazon Redshift",
+      "AWS Glue"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para gerenciamento de identidade e acesso? (Escolha dois)",
+    "opcoes": [
+      "AWS IAM",
+      "AWS SSO",
+      "Amazon Cognito",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "AWS IAM",
+      "Amazon Cognito"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS são utilizados para a entrega de conteúdo? (Escolha dois)",
+    "opcoes": [
+      "Amazon CloudFront",
+      "Amazon S3",
+      "AWS Direct Connect",
+      "AWS Global Accelerator"
+    ],
+    "respostaCorreta": [
+      "Amazon CloudFront",
+      "AWS Global Accelerator"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços permitem a automação da infraestrutura? (Escolha dois)",
+    "opcoes": [
+      "AWS CloudFormation",
+      "AWS OpsWorks",
+      "Amazon EFS",
+      "AWS CodeDeploy"
+    ],
+    "respostaCorreta": [
+      "AWS CloudFormation",
+      "AWS OpsWorks"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços oferecem soluções de segurança na nuvem? (Escolha dois)",
+    "opcoes": [
+      "AWS Shield",
+      "AWS WAF",
+      "Amazon S3",
+      "AWS IAM"
+    ],
+    "respostaCorreta": [
+      "AWS Shield",
+      "AWS WAF"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são benefícios do uso do AWS CloudTrail? (Escolha dois)",
+    "opcoes": [
+      "Rastrear alterações em configurações de serviços",
+      "Reduzir custos operacionais",
+      "Garantir alta disponibilidade",
+      "Monitorar chamadas de API"
+    ],
+    "respostaCorreta": [
+      "Rastrear alterações em configurações de serviços",
+      "Monitorar chamadas de API"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para computação em contêineres? (Escolha dois)",
+    "opcoes": [
+      "AWS Fargate",
+      "Amazon ECS",
+      "Amazon EKS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": [
+      "AWS Fargate",
+      "Amazon ECS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS ajudam na recuperação de desastres? (Escolha dois)",
+    "opcoes": [
+      "AWS Backup",
+      "Amazon RDS",
+      "AWS Elastic Beanstalk",
+      "Amazon Route 53"
+    ],
+    "respostaCorreta": [
+      "AWS Backup",
+      "Amazon Route 53"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para a integração de aplicações? (Escolha dois)",
+    "opcoes": [
+      "AWS Step Functions",
+      "AWS AppSync",
+      "Amazon SQS",
+      "Amazon SNS"
+    ],
+    "respostaCorreta": [
+      "AWS Step Functions",
+      "Amazon SNS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são usados para machine learning na AWS? (Escolha dois)",
+    "opcoes": [
+      "Amazon SageMaker",
+      "AWS Glue",
+      "Amazon Rekognition",
+      "AWS Batch"
+    ],
+    "respostaCorreta": [
+      "Amazon SageMaker",
+      "Amazon Rekognition"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS oferecem soluções de monitoramento e observabilidade? (Escolha dois)",
+    "opcoes": [
+      "Amazon CloudWatch",
+      "AWS X-Ray",
+      "AWS Config",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch",
+      "AWS X-Ray"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS ajudam na orquestração de contêineres? (Escolha dois)",
+    "opcoes": [
+      "Amazon EKS",
+      "Amazon ECS",
+      "AWS Lambda",
+      "AWS Batch"
+    ],
+    "respostaCorreta": [
+      "Amazon EKS",
+      "Amazon ECS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para análise em tempo real? (Escolha dois)",
+    "opcoes": [
+      "Amazon Kinesis",
+      "AWS Glue",
+      "Amazon Redshift",
+      "Amazon Athena"
+    ],
+    "respostaCorreta": [
+      "Amazon Kinesis",
+      "Amazon Athena"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ser usados para implementar soluções de backup? (Escolha dois)",
+    "opcoes": [
+      "AWS Backup",
+      "Amazon Glacier",
+      "AWS Data Pipeline",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": [
+      "AWS Backup",
+      "Amazon Glacier"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são usados para implementar uma solução de mensageria? (Escolha dois)",
+    "opcoes": [
+      "Amazon SQS",
+      "Amazon SNS",
+      "AWS Step Functions",
+      "AWS AppSync"
+    ],
+    "respostaCorreta": [
+      "Amazon SQS",
+      "Amazon SNS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS oferecem capacidades de machine learning? (Escolha dois)",
+    "opcoes": [
+      "Amazon SageMaker",
+      "AWS Glue",
+      "AWS Lambda",
+      "Amazon Comprehend"
+    ],
+    "respostaCorreta": [
+      "Amazon SageMaker",
+      "Amazon Comprehend"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são usados para armazenamento de dados em larga escala? (Escolha dois)",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon EBS"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon DynamoDB"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS podem ser utilizados para gerenciar a segurança de rede? (Escolha dois)",
+    "opcoes": [
+      "AWS WAF",
+      "AWS Shield",
+      "Amazon VPC",
+      "AWS IAM"
+    ],
+    "respostaCorreta": [
+      "AWS WAF",
+      "AWS Shield"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para computação em alta performance? (Escolha dois)",
+    "opcoes": [
+      "Amazon EC2",
+      "AWS Batch",
+      "AWS Lambda",
+      "Amazon Lightsail"
+    ],
+    "respostaCorreta": [
+      "Amazon EC2",
+      "AWS Batch"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são usados para implementação de redes globais? (Escolha dois)",
+    "opcoes": [
+      "Amazon CloudFront",
+      "AWS Global Accelerator",
+      "AWS Direct Connect",
+      "Amazon Route 53"
+    ],
+    "respostaCorreta": [
+      "Amazon CloudFront",
+      "Amazon Route 53"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços oferecem suporte para desenvolvimento e integração contínua? (Escolha dois)",
+    "opcoes": [
+      "AWS CodeCommit",
+      "AWS CodeDeploy",
+      "AWS CodePipeline",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": [
+      "AWS CodeCommit",
+      "AWS CodePipeline"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS permitem a criação de dashboards e relatórios? (Escolha dois)",
+    "opcoes": [
+      "Amazon QuickSight",
+      "AWS Glue",
+      "Amazon Redshift",
+      "AWS Data Pipeline"
+    ],
+    "respostaCorreta": [
+      "Amazon QuickSight",
+      "Amazon Redshift"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são usados para gerenciamento de API? (Escolha dois)",
+    "opcoes": [
+      "Amazon API Gateway",
+      "AWS Lambda",
+      "AWS AppSync",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": [
+      "Amazon API Gateway",
+      "AWS AppSync"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS podem ser usados para análise de logs? (Escolha dois)",
+    "opcoes": [
+      "Amazon CloudWatch Logs",
+      "AWS CloudTrail",
+      "AWS Config",
+      "Amazon Redshift"
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch Logs",
+      "AWS CloudTrail"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS ajudam na criação de aplicações móveis? (Escolha dois)",
+    "opcoes": [
+      "Amazon Cognito",
+      "AWS Amplify",
+      "Amazon SNS",
+      "AWS AppSync"
+    ],
+    "respostaCorreta": [
+      "Amazon Cognito",
+      "AWS Amplify"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são utilizados para a entrega de emails? (Escolha dois)",
+    "opcoes": [
+      "Amazon SES",
+      "Amazon SNS",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "respostaCorreta": [
+      "Amazon SES",
+      "Amazon SNS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS são utilizados para gerenciamento de dados não estruturados? (Escolha dois)",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "AWS Glue"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon DynamoDB"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são usados para monitoramento de aplicações? (Escolha dois)",
+    "opcoes": [
+      "AWS X-Ray",
+      "Amazon CloudWatch",
+      "AWS CloudTrail",
+      "Amazon SNS"
+    ],
+    "respostaCorreta": [
+      "AWS X-Ray",
+      "Amazon CloudWatch"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para armazenamento de objetos?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite a criação de máquinas virtuais?",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "Amazon EC2",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é projetado para facilitar o gerenciamento de identidade e acesso?",
+    "opcoes": [
+      "AWS IAM",
+      "AWS Lambda",
+      "Amazon VPC",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS IAM",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece um banco de dados relacional gerenciado?",
+    "opcoes": [
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é utilizado para entrega de conteúdo em todo o mundo?",
+    "opcoes": [
+      "Amazon CloudFront",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Direct Connect"
+    ],
+    "respostaCorreta": "Amazon CloudFront",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite o processamento de eventos em tempo real?",
+    "opcoes": [
+      "Amazon Kinesis",
+      "AWS Glue",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a monitorar recursos e aplicações?",
+    "opcoes": [
+      "AWS X-Ray",
+      "Amazon CloudWatch",
+      "AWS CloudTrail",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon CloudWatch",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços permite o armazenamento de dados em formato de tabela?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon RDS",
+      "AWS Lambda",
+      "Amazon CloudFront"
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é utilizado para a automação de infraestrutura?",
+    "opcoes": [
+      "AWS CloudFormation",
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS CloudFormation",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para fazer backup de dados?",
+    "opcoes": [
+      "AWS Backup",
+      "AWS Data Pipeline",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Backup",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite o gerenciamento de aplicações sem servidor?",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS",
+      "AWS Batch"
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é utilizado para integração contínua e entrega contínua?",
+    "opcoes": [
+      "AWS CodePipeline",
+      "Amazon RDS",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS CodePipeline",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para gerenciar o tráfego de rede?",
+    "opcoes": [
+      "AWS Global Accelerator",
+      "Amazon Route 53",
+      "AWS CloudFormation",
+      "Amazon CloudFront"
+    ],
+    "respostaCorreta": "AWS Global Accelerator",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece armazenamento de dados em larga escala?",
+    "opcoes": [
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para autenticação de usuários em aplicações móveis?",
+    "opcoes": [
+      "Amazon Cognito",
+      "AWS IAM",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon Cognito",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a otimizar a performance de aplicações?",
+    "opcoes": [
+      "AWS CloudFront",
+      "Amazon S3",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS CloudFront",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece a capacidade de processamento em lote?",
+    "opcoes": [
+      "AWS Batch",
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Batch",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite criar redes privadas na nuvem?",
+    "opcoes": [
+      "Amazon VPC",
+      "AWS Lambda",
+      "AWS CodeDeploy",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon VPC",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para executar código em resposta a eventos?",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece uma solução de análise de dados em tempo real?",
+    "opcoes": [
+      "Amazon Kinesis",
+      "Amazon S3",
+      "AWS Glue",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para gerenciamento de identidade?",
+    "opcoes": [
+      "AWS IAM",
+      "Amazon Cognito",
+      "AWS Lambda",
+      "AWS CodeCommit"
+    ],
+    "respostaCorreta": "AWS IAM",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite a execução de consultas SQL em dados armazenados no Amazon S3?",
+    "opcoes": [
+      "Amazon Athena",
+      "Amazon Redshift",
+      "AWS Glue",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon Athena",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é projetado para otimizar o armazenamento de dados em larga escala?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EBS",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece um banco de dados NoSQL gerenciado?",
+    "opcoes": [
+      "Amazon RDS",
+      "Amazon S3",
+      "Amazon DynamoDB",
+      "Amazon Redshift"
+    ],
+    "respostaCorreta": "Amazon DynamoDB",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para criar APIs RESTful?",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon EC2",
+      "AWS Step Functions"
+    ],
+    "respostaCorreta": "Amazon API Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda na implementação de soluções de machine learning?",
+    "opcoes": [
+      "Amazon SageMaker",
+      "Amazon RDS",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": "Amazon SageMaker",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece uma interface gráfica para monitorar e gerenciar aplicações em tempo real?",
+    "opcoes": [
+      "Amazon CloudWatch",
+      "AWS CloudTrail",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon CloudWatch",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é utilizado para provisionar recursos de forma programática?",
+    "opcoes": [
+      "AWS CloudFormation",
+      "AWS CodePipeline",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": "AWS CloudFormation",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para criar uma rede privada na nuvem?",
+    "opcoes": [
+      "Amazon VPC",
+      "Amazon RDS",
+      "AWS Lambda",
+      "AWS Direct Connect"
+    ],
+    "respostaCorreta": "Amazon VPC",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é utilizado para fornecer DNS e gerenciamento de tráfego?",
+    "opcoes": [
+      "Amazon Route 53",
+      "AWS Global Accelerator",
+      "Amazon CloudFront",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": "Amazon Route 53",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para orquestração de contêineres?",
+    "opcoes": [
+      "Amazon ECS",
+      "AWS Lambda",
+      "AWS Glue",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece armazenamento em bloco para instâncias do Amazon EC2?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon EBS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para criar dashboards e relatórios de análise?",
+    "opcoes": [
+      "Amazon QuickSight",
+      "AWS Glue",
+      "AWS Data Pipeline",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "Amazon QuickSight",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é utilizado para criar funções em resposta a eventos de serviços?",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS CodePipeline",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite a transferência de dados entre sua rede local e a nuvem?",
+    "opcoes": [
+      "AWS Direct Connect",
+      "Amazon CloudFront",
+      "Amazon Route 53",
+      "AWS Global Accelerator"
+    ],
+    "respostaCorreta": "AWS Direct Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece proteção contra ataques DDoS?",
+    "opcoes": [
+      "AWS Shield",
+      "Amazon CloudFront",
+      "AWS WAF",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Shield",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem do modelo de preços pay-as-you-go da AWS?",
+    "opcoes": [
+      "Custo fixo mensal independente do uso.",
+      "Pagamento apenas pelos recursos realmente utilizados.",
+      "Descontos automáticos para contratos de longo prazo.",
+      "Preço fixo para todos os serviços."
+    ],
+    "respostaCorreta": "Pagamento apenas pelos recursos realmente utilizados.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta da AWS pode ajudar a estimar os custos dos serviços?",
+    "opcoes": [
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS Pricing Calculator",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os clientes podem monitorar os gastos da AWS?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Support Center",
+      "Amazon S3",
+      "AWS IAM"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é AWS Free Tier?",
+    "opcoes": [
+      "Um plano de assinatura que oferece serviços gratuitos.",
+      "Um nível de serviços que permite uso gratuito de determinados serviços por 12 meses.",
+      "Um serviço para economizar custos com armazenamento.",
+      "Um programa de fidelidade para clientes da AWS."
+    ],
+    "respostaCorreta": "Um nível de serviços que permite uso gratuito de determinados serviços por 12 meses.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício de usar um contrato de reserva na AWS?",
+    "opcoes": [
+      "Acesso ilimitado a todos os serviços da AWS.",
+      "Desconto significativo em comparação com o uso sob demanda.",
+      "Custo fixo por um ano.",
+      "Serviços gratuitos para sempre."
+    ],
+    "respostaCorreta": "Desconto significativo em comparação com o uso sob demanda.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Budgets?",
+    "opcoes": [
+      "Calcular custos estimados.",
+      "Monitorar e alertar sobre gastos em relação ao orçamento definido.",
+      "Gerenciar o suporte ao cliente.",
+      "Provisionar recursos automaticamente."
+    ],
+    "respostaCorreta": "Monitorar e alertar sobre gastos em relação ao orçamento definido.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é um 'Pricing Plan' na AWS?",
+    "opcoes": [
+      "Um plano de assinatura mensal para serviços da AWS.",
+      "Uma estrutura que descreve como os custos são calculados para um serviço.",
+      "Um contrato de reserva que garante um preço fixo.",
+      "Um desconto para uso em larga escala."
+    ],
+    "respostaCorreta": "Uma estrutura que descreve como os custos são calculados para um serviço.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece suporte técnico pago?",
+    "opcoes": [
+      "AWS Support Plans",
+      "AWS Free Tier",
+      "AWS Budgets",
+      "AWS Marketplace"
+    ],
+    "respostaCorreta": "AWS Support Plans",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das opções de suporte da AWS?",
+    "opcoes": [
+      "Suporte Básico",
+      "Suporte Amplo",
+      "Suporte Avançado",
+      "Suporte Direto"
+    ],
+    "respostaCorreta": "Suporte Básico",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS calcula a cobrança para serviços sob demanda?",
+    "opcoes": [
+      "Baseado em uma taxa fixa mensal.",
+      "Baseado no tempo de uso e na quantidade de recursos consumidos.",
+      "Baseado em contratos anuais.",
+      "Baseado no número de usuários."
+    ],
+    "respostaCorreta": "Baseado no tempo de uso e na quantidade de recursos consumidos.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta da AWS permite que você visualize e gerencie suas despesas em tempo real?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Pricing Calculator",
+      "AWS Budgets",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é usado para gerenciar custos e utilização da AWS?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS CloudTrail",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que um cliente pode fazer no AWS Support Center?",
+    "opcoes": [
+      "Criar e gerenciar solicitações de suporte.",
+      "Visualizar relatórios de uso.",
+      "Gerenciar contas de usuário.",
+      "Provisionar novos serviços."
+    ],
+    "respostaCorreta": "Criar e gerenciar solicitações de suporte.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício de usar a AWS Savings Plans?",
+    "opcoes": [
+      "Descontos em serviços de computação com base no uso comprometido.",
+      "Acesso gratuito a todos os serviços da AWS.",
+      "Cobrança fixa mensal.",
+      "Um plano de suporte gratuito."
+    ],
+    "respostaCorreta": "Descontos em serviços de computação com base no uso comprometido.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta da AWS pode ser usada para analisar dados de uso e custo?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "AWS Config",
+      "AWS IAM"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como você pode obter suporte para um serviço específico da AWS?",
+    "opcoes": [
+      "Abrindo uma solicitação de suporte no AWS Support Center.",
+      "Entrando em contato diretamente com a equipe de vendas.",
+      "Postando em fóruns públicos.",
+      "Utilizando o AWS Marketplace."
+    ],
+    "respostaCorreta": "Abrindo uma solicitação de suporte no AWS Support Center.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito do AWS Marketplace?",
+    "opcoes": [
+      "Fornecer um repositório de serviços gratuitos.",
+      "Oferecer software e serviços de terceiros que podem ser utilizados na AWS.",
+      "Vender hardware para servidores.",
+      "Gerenciar custos da AWS."
+    ],
+    "respostaCorreta": "Oferecer software e serviços de terceiros que podem ser utilizados na AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ajudar a gerenciar o uso de serviços AWS de forma mais eficiente?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Marketplace",
+      "AWS Free Tier",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que acontece quando você atinge o limite do AWS Free Tier?",
+    "opcoes": [
+      "Você será cobrado pelo uso adicional.",
+      "Você perderá acesso aos serviços da AWS.",
+      "O uso será limitado a 50% do máximo permitido.",
+      "Você receberá um aviso, mas não será cobrado."
+    ],
+    "respostaCorreta": "Você será cobrado pelo uso adicional.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do modelo de preços da AWS?",
+    "opcoes": [
+      "Preços fixos para todos os serviços.",
+      "Descontos automáticos para todos os clientes.",
+      "Cobrança baseada no uso real dos recursos.",
+      "Custo apenas para serviços premium."
+    ],
+    "respostaCorreta": "Cobrança baseada no uso real dos recursos.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes não é um tipo de suporte da AWS?",
+    "opcoes": [
+      "Suporte Básico",
+      "Suporte Empresarial",
+      "Suporte Premium",
+      "Suporte Developer"
+    ],
+    "respostaCorreta": "Suporte Premium",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é AWS Budgets?",
+    "opcoes": [
+      "Uma ferramenta para monitorar e controlar os custos.",
+      "Um serviço para gerenciar a capacidade de instâncias EC2.",
+      "Um plano de suporte da AWS.",
+      "Um método de provisionamento de recursos."
+    ],
+    "respostaCorreta": "Uma ferramenta para monitorar e controlar os custos.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre o AWS Support Plans é verdadeira?",
+    "opcoes": [
+      "Todos os planos de suporte são gratuitos.",
+      "Os planos oferecem suporte técnico e consultoria.",
+      "O suporte é limitado a questões técnicas.",
+      "Não é possível obter suporte para serviços não da AWS."
+    ],
+    "respostaCorreta": "Os planos oferecem suporte técnico e consultoria.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Cost Management?",
+    "opcoes": [
+      "Gerenciar e monitorar os gastos na AWS.",
+      "Provisionar novos recursos na nuvem.",
+      "Desenvolver aplicativos para a AWS.",
+      "Realizar backup de dados."
+    ],
+    "respostaCorreta": "Gerenciar e monitorar os gastos na AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser utilizado para calcular a economia ao migrar para a nuvem?",
+    "opcoes": [
+      "AWS Pricing Calculator",
+      "AWS Budgets",
+      "AWS Cost Explorer",
+      "AWS Free Tier"
+    ],
+    "respostaCorreta": "AWS Pricing Calculator",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS calcula os custos de armazenamento em S3?",
+    "opcoes": [
+      "Por quantidade de requisições realizadas.",
+      "Por quantidade de dados armazenados por mês.",
+      "Por tempo de uso dos serviços.",
+      "Por número de usuários."
+    ],
+    "respostaCorreta": "Por quantidade de dados armazenados por mês.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma prática recomendada para gerenciar custos na AWS?",
+    "opcoes": [
+      "Ignorar o uso de AWS Budgets.",
+      "Usar instâncias reservadas quando apropriado.",
+      "Utilizar somente serviços pagos.",
+      "Evitar o uso do AWS Free Tier."
+    ],
+    "respostaCorreta": "Usar instâncias reservadas quando apropriado.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo do AWS Cost Explorer?",
+    "opcoes": [
+      "Visualizar e analisar gastos na AWS.",
+      "Calcular custos de armazenamento.",
+      "Gerenciar a segurança da conta.",
+      "Criar instâncias EC2."
+    ],
+    "respostaCorreta": "Visualizar e analisar gastos na AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a automatizar a implementação de recursos com custo fixo?",
+    "opcoes": [
+      "AWS CloudFormation",
+      "AWS Budgets",
+      "AWS Cost Explorer",
+      "AWS Marketplace"
+    ],
+    "respostaCorreta": "AWS CloudFormation",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS Support Center?",
+    "opcoes": [
+      "Gerenciar serviços de computação.",
+      "Gerenciar e acompanhar as solicitações de suporte.",
+      "Criar novas instâncias EC2.",
+      "Gerenciar políticas de segurança."
+    ],
+    "respostaCorreta": "Gerenciar e acompanhar as solicitações de suporte.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o benefício de se inscrever em um plano de suporte da AWS?",
+    "opcoes": [
+      "Acesso a consultoria especializada.",
+      "Redução de custos em todos os serviços.",
+      "Acesso ilimitado a serviços premium.",
+      "Garantia de tempo de atividade."
+    ],
+    "respostaCorreta": "Acesso a consultoria especializada.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as empresas podem monitorar o uso e os custos de múltiplas contas AWS?",
+    "opcoes": [
+      "Usando o AWS Organizations.",
+      "Usando apenas relatórios individuais de cada conta.",
+      "Através do AWS Free Tier.",
+      "Não é possível monitorar múltiplas contas."
+    ],
+    "respostaCorreta": "Usando o AWS Organizations.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito do AWS Marketplace?",
+    "opcoes": [
+      "Comprar serviços da AWS.",
+      "Vender produtos físicos.",
+      "Oferecer software de terceiros que podem ser usados na AWS.",
+      "Gerenciar custos."
+    ],
+    "respostaCorreta": "Oferecer software de terceiros que podem ser usados na AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais objetivos do AWS Budgets?",
+    "opcoes": [
+      "Estimar custos futuros.",
+      "Proteger dados da nuvem.",
+      "Aumentar o uso de serviços.",
+      "Criar novas instâncias EC2."
+    ],
+    "respostaCorreta": "Estimar custos futuros.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é considerado um custo variável na AWS?",
+    "opcoes": [
+      "Custos de armazenamento de dados.",
+      "Custos de mão de obra.",
+      "Custos de hardware físico.",
+      "Custos de escritório."
+    ],
+    "respostaCorreta": "Custos de armazenamento de dados.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções pode ser utilizada para limitar gastos na AWS?",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS CloudFormation",
+      "AWS IAM",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem das instâncias reservadas na AWS?",
+    "opcoes": [
+      "Custo mais baixo em comparação com instâncias sob demanda.",
+      "Maior flexibilidade em termos de capacidade.",
+      "Custo gratuito por um ano.",
+      "Nenhuma necessidade de provisionamento."
+    ],
+    "respostaCorreta": "Custo mais baixo em comparação com instâncias sob demanda.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta da AWS fornece uma visualização gráfica dos gastos ao longo do tempo?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Pricing Calculator",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS calcula os custos de transferência de dados?",
+    "opcoes": [
+      "Por quantidade de dados transferidos para fora da AWS.",
+      "Por tempo de transferência.",
+      "Por número de requisições feitas.",
+      "Não há custo pela transferência de dados."
+    ],
+    "respostaCorreta": "Por quantidade de dados transferidos para fora da AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços fornece relatórios de faturamento detalhados?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "AWS S3",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS Cost Explorer",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais fatores que influencia o custo do Amazon EC2?",
+    "opcoes": [
+      "Tipo de instância",
+      "Tipo de armazenamento",
+      "Número de usuários",
+      "Localização do escritório"
+    ],
+    "respostaCorreta": "Tipo de instância",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a característica principal do modelo de preços pay-as-you-go da AWS?",
+    "opcoes": [
+      "Você paga por mês, independentemente do uso.",
+      "Você paga somente pelos recursos que utiliza.",
+      "Você paga uma taxa fixa por todos os serviços.",
+      "Você não paga nada durante os primeiros 12 meses."
+    ],
+    "respostaCorreta": "Você paga somente pelos recursos que utiliza.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Trusted Advisor?",
+    "opcoes": [
+      "Fornecer recomendações para reduzir custos.",
+      "Monitorar a segurança da conta.",
+      "Gerar relatórios de uso de serviços.",
+      "Calcular a capacidade de instâncias."
+    ],
+    "respostaCorreta": "Fornecer recomendações para reduzir custos.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções pode resultar em cobranças adicionais na AWS?",
+    "opcoes": [
+      "Uso excessivo de serviços na AWS Free Tier.",
+      "Registro de uma nova conta AWS.",
+      "Uso de serviços somente durante um mês.",
+      "Acesso a serviços de suporte gratuitos."
+    ],
+    "respostaCorreta": "Uso excessivo de serviços na AWS Free Tier.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma forma de obter suporte técnico imediato na AWS?",
+    "opcoes": [
+      "Criar um caso de suporte.",
+      "Consultar a documentação online.",
+      "Participar de fóruns da comunidade.",
+      "Utilizar o AWS Trusted Advisor."
+    ],
+    "respostaCorreta": "Criar um caso de suporte.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito do AWS Pricing Calculator?",
+    "opcoes": [
+      "Estimar custos de uso de serviços da AWS.",
+      "Gerenciar contas da AWS.",
+      "Monitorar transferências de dados.",
+      "Provisionar serviços automaticamente."
+    ],
+    "respostaCorreta": "Estimar custos de uso de serviços da AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes aspectos não é cobrado diretamente na AWS?",
+    "opcoes": [
+      "Dados armazenados em S3",
+      "Transferência de dados para fora da AWS",
+      "Consultoria de suporte técnico",
+      "Instâncias EC2"
+    ],
+    "respostaCorreta": "Consultoria de suporte técnico",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é AWS Cost and Usage Report?",
+    "opcoes": [
+      "Um relatório detalhado dos custos e do uso de serviços da AWS.",
+      "Um resumo mensal de faturamento.",
+      "Um relatório de segurança da conta.",
+      "Um plano de suporte da AWS."
+    ],
+    "respostaCorreta": "Um relatório detalhado dos custos e do uso de serviços da AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios do AWS Free Tier?",
+    "opcoes": [
+      "Uso ilimitado de todos os serviços.",
+      "Acesso a serviços gratuitos por um ano.",
+      "Descontos em serviços pagos.",
+      "Maior suporte técnico."
+    ],
+    "respostaCorreta": "Acesso a serviços gratuitos por um ano.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o custo associado ao AWS Support Plans?",
+    "opcoes": [
+      "Todos são gratuitos.",
+      "Baseado na utilização de serviços.",
+      "Baseado na receita da empresa.",
+      "Baseado em uma porcentagem dos gastos da AWS."
+    ],
+    "respostaCorreta": "Baseado em uma porcentagem dos gastos da AWS.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços ajuda na gestão de custos em várias contas AWS?",
+    "opcoes": [
+      "AWS Organizations",
+      "AWS Lambda",
+      "AWS Elastic Beanstalk",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": "AWS Organizations",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes não é um fator de custo ao utilizar o Amazon RDS?",
+    "opcoes": [
+      "Tipo de instância",
+      "Número de requisições",
+      "Espaço em disco provisionado",
+      "Localização do usuário final"
+    ],
+    "respostaCorreta": "Localização do usuário final",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ajudar a prever gastos futuros com a AWS?",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS CloudFormation",
+      "AWS IAM",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS Personal Health Dashboard?",
+    "opcoes": [
+      "Fornecer alertas sobre eventos que podem afetar suas instâncias.",
+      "Gerenciar custos.",
+      "Criar novas instâncias.",
+      "Proteger dados da nuvem."
+    ],
+    "respostaCorreta": "Fornecer alertas sobre eventos que podem afetar suas instâncias.",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ajudar a controlar custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS CloudTrail",
+      "AWS Cost Explorer",
+      "AWS Config"
+    ],
+    "respostaCorreta": [
+      "AWS Budgets",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais opções são verdadeiras sobre o AWS Free Tier? (Escolha dois)",
+    "opcoes": [
+      "Oferece serviços gratuitos por 12 meses.",
+      "Inclui serviços de suporte técnico gratuito.",
+      "Permite uso ilimitado de todos os serviços.",
+      "É um nível de serviço pago."
+    ],
+    "respostaCorreta": [
+      "Oferece serviços gratuitos por 12 meses.",
+      "Inclui serviços de suporte técnico gratuito."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores podem influenciar os custos do Amazon S3? (Escolha dois)",
+    "opcoes": [
+      "Tipo de armazenamento",
+      "Número de usuários",
+      "Quantidade de dados transferidos",
+      "Região onde os dados estão armazenados"
+    ],
+    "respostaCorreta": [
+      "Tipo de armazenamento",
+      "Quantidade de dados transferidos"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços oferecem opções de suporte ao cliente? (Escolha dois)",
+    "opcoes": [
+      "AWS Support Plans",
+      "AWS Lambda",
+      "AWS Elastic Beanstalk",
+      "AWS Managed Services"
+    ],
+    "respostaCorreta": [
+      "AWS Support Plans",
+      "AWS Managed Services"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são algumas vantagens das instâncias reservadas da AWS? (Escolha dois)",
+    "opcoes": [
+      "Redução de custos em comparação com instâncias sob demanda.",
+      "Maior flexibilidade em termos de capacidade.",
+      "Compromisso de longo prazo.",
+      "Uso ilimitado."
+    ],
+    "respostaCorreta": [
+      "Redução de custos em comparação com instâncias sob demanda.",
+      "Compromisso de longo prazo."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ser usados para estimar custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer",
+      "AWS IAM",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": [
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes são aspectos importantes do modelo de preços da AWS? (Escolha dois)",
+    "opcoes": [
+      "Pay-as-you-go",
+      "Preços fixos por ano",
+      "Custos de armazenamento únicos",
+      "Capacidade provisionada antecipadamente"
+    ],
+    "respostaCorreta": [
+      "Pay-as-you-go",
+      "Capacidade provisionada antecipadamente"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços ajudam na gestão de custos em várias contas AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Organizations",
+      "AWS CloudFormation",
+      "AWS Budgets",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "AWS Organizations",
+      "AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes aspectos não são cobrados diretamente na AWS? (Escolha dois)",
+    "opcoes": [
+      "Transferência de dados entre regiões",
+      "Transferência de dados para fora da AWS",
+      "Consultoria de suporte técnico",
+      "Uso de instâncias EC2"
+    ],
+    "respostaCorreta": [
+      "Consultoria de suporte técnico",
+      "Transferência de dados entre regiões"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores são considerados ao calcular o custo do Amazon RDS? (Escolha dois)",
+    "opcoes": [
+      "Tipo de instância",
+      "Número de usuários",
+      "Espaço em disco provisionado",
+      "Localização do usuário final"
+    ],
+    "respostaCorreta": [
+      "Tipo de instância",
+      "Espaço em disco provisionado"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes ferramentas podem ser usadas para monitorar gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Lambda",
+      "AWS CloudTrail",
+      "AWS Budgets"
+    ],
+    "respostaCorreta": [
+      "AWS Cost Explorer",
+      "AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre o AWS Support Plans são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Todos os planos incluem suporte técnico 24/7.",
+      "Os custos estão baseados nos gastos da AWS.",
+      "Todos os planos são gratuitos.",
+      "Os planos oferecem suporte baseado em tiers."
+    ],
+    "respostaCorreta": [
+      "Os custos estão baseados nos gastos da AWS.",
+      "Os planos oferecem suporte baseado em tiers."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes relatórios podem ajudar a entender melhor os custos da AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost and Usage Report",
+      "AWS Personal Health Dashboard",
+      "AWS Trusted Advisor",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "AWS Cost and Usage Report",
+      "AWS Trusted Advisor"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções ajudam a otimizar os custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Utilizar instâncias reservadas",
+      "Utilizar serviços de suporte pagos",
+      "Monitorar uso com AWS Budgets",
+      "Utilizar serviços de armazenamento em disco"
+    ],
+    "respostaCorreta": [
+      "Utilizar instâncias reservadas",
+      "Monitorar uso com AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ajudar a controlar custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS CloudTrail",
+      "AWS Cost Explorer",
+      "AWS Config"
+    ],
+    "respostaCorreta": [
+      "AWS Budgets",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais opções são verdadeiras sobre o AWS Free Tier? (Escolha dois)",
+    "opcoes": [
+      "Oferece serviços gratuitos por 12 meses.",
+      "Inclui serviços de suporte técnico gratuito.",
+      "Permite uso ilimitado de todos os serviços.",
+      "É um nível de serviço pago."
+    ],
+    "respostaCorreta": [
+      "Oferece serviços gratuitos por 12 meses.",
+      "Inclui serviços de suporte técnico gratuito."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores podem influenciar os custos do Amazon S3? (Escolha dois)",
+    "opcoes": [
+      "Tipo de armazenamento",
+      "Número de usuários",
+      "Quantidade de dados transferidos",
+      "Região onde os dados estão armazenados"
+    ],
+    "respostaCorreta": [
+      "Tipo de armazenamento",
+      "Quantidade de dados transferidos"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços oferecem opções de suporte ao cliente? (Escolha dois)",
+    "opcoes": [
+      "AWS Support Plans",
+      "AWS Lambda",
+      "AWS Elastic Beanstalk",
+      "AWS Managed Services"
+    ],
+    "respostaCorreta": [
+      "AWS Support Plans",
+      "AWS Managed Services"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são algumas vantagens das instâncias reservadas da AWS? (Escolha dois)",
+    "opcoes": [
+      "Redução de custos em comparação com instâncias sob demanda.",
+      "Maior flexibilidade em termos de capacidade.",
+      "Compromisso de longo prazo.",
+      "Uso ilimitado."
+    ],
+    "respostaCorreta": [
+      "Redução de custos em comparação com instâncias sob demanda.",
+      "Compromisso de longo prazo."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ser usados para estimar custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer",
+      "AWS IAM",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": [
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes são aspectos importantes do modelo de preços da AWS? (Escolha dois)",
+    "opcoes": [
+      "Pay-as-you-go",
+      "Preços fixos por ano",
+      "Custos de armazenamento únicos",
+      "Capacidade provisionada antecipadamente"
+    ],
+    "respostaCorreta": [
+      "Pay-as-you-go",
+      "Capacidade provisionada antecipadamente"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços ajudam na gestão de custos em várias contas AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Organizations",
+      "AWS CloudFormation",
+      "AWS Budgets",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "AWS Organizations",
+      "AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes aspectos não são cobrados diretamente na AWS? (Escolha dois)",
+    "opcoes": [
+      "Transferência de dados entre regiões",
+      "Transferência de dados para fora da AWS",
+      "Consultoria de suporte técnico",
+      "Uso de instâncias EC2"
+    ],
+    "respostaCorreta": [
+      "Consultoria de suporte técnico",
+      "Transferência de dados entre regiões"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores são considerados ao calcular o custo do Amazon RDS? (Escolha dois)",
+    "opcoes": [
+      "Tipo de instância",
+      "Número de usuários",
+      "Espaço em disco provisionado",
+      "Localização do usuário final"
+    ],
+    "respostaCorreta": [
+      "Tipo de instância",
+      "Espaço em disco provisionado"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes ferramentas podem ser usadas para monitorar gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "AWS Lambda",
+      "AWS CloudTrail",
+      "AWS Budgets"
+    ],
+    "respostaCorreta": [
+      "AWS Cost Explorer",
+      "AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre o AWS Support Plans são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Todos os planos incluem suporte técnico 24/7.",
+      "Os custos estão baseados nos gastos da AWS.",
+      "Todos os planos são gratuitos.",
+      "Os planos oferecem suporte baseado em tiers."
+    ],
+    "respostaCorreta": [
+      "Os custos estão baseados nos gastos da AWS.",
+      "Os planos oferecem suporte baseado em tiers."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes relatórios podem ajudar a entender melhor os custos da AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost and Usage Report",
+      "AWS Personal Health Dashboard",
+      "AWS Trusted Advisor",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "AWS Cost and Usage Report",
+      "AWS Trusted Advisor"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções ajudam a otimizar os custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Utilizar instâncias reservadas",
+      "Utilizar serviços de suporte pagos",
+      "Monitorar uso com AWS Budgets",
+      "Utilizar serviços de armazenamento em disco"
+    ],
+    "respostaCorreta": [
+      "Utilizar instâncias reservadas",
+      "Monitorar uso com AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas podem ajudar a reduzir custos na AWS? (Escolha dois)",
+    "opcoes": [
+      "Utilizar instâncias sob demanda.",
+      "Desligar instâncias quando não estiverem em uso.",
+      "Provisionar sempre a capacidade máxima.",
+      "Utilizar o AWS Trusted Advisor."
+    ],
+    "respostaCorreta": [
+      "Desligar instâncias quando não estiverem em uso.",
+      "Utilizar o AWS Trusted Advisor."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes ferramentas podem ajudar na previsão de custos da AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS Lambda",
+      "AWS Cost Explorer",
+      "AWS Config"
+    ],
+    "respostaCorreta": [
+      "AWS Budgets",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes são benefícios dos planos de suporte da AWS? (Escolha dois)",
+    "opcoes": [
+      "Acesso a consultores dedicados.",
+      "Relatórios de uso de serviços gratuitos.",
+      "Suporte técnico 24/7.",
+      "Capacidade de provisionamento automático."
+    ],
+    "respostaCorreta": [
+      "Acesso a consultores dedicados.",
+      "Suporte técnico 24/7."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre o AWS Cost Explorer são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Permite visualizar gastos ao longo do tempo.",
+      "Gera relatórios de segurança da conta.",
+      "Ajuda a identificar tendências de uso.",
+      "É um serviço gratuito."
+    ],
+    "respostaCorreta": [
+      "Permite visualizar gastos ao longo do tempo.",
+      "Ajuda a identificar tendências de uso."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem resultar em cobranças adicionais se utilizados em excesso? (Escolha dois)",
+    "opcoes": [
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS Free Tier"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores podem influenciar o custo de transferência de dados? (Escolha dois)",
+    "opcoes": [
+      "Direção da transferência (entrada ou saída).",
+      "Região onde os dados estão localizados.",
+      "Tipo de instância utilizada.",
+      "Número de usuários simultâneos."
+    ],
+    "respostaCorreta": [
+      "Direção da transferência (entrada ou saída).",
+      "Região onde os dados estão localizados."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes componentes são essenciais para calcular os custos de serviços na AWS? (Escolha dois)",
+    "opcoes": [
+      "Tipo de serviço utilizado.",
+      "Número de contas AWS.",
+      "Região de operação.",
+      "Número de regiões de disponibilidade."
+    ],
+    "respostaCorreta": [
+      "Tipo de serviço utilizado.",
+      "Região de operação."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes relatórios são úteis para entender melhor seus custos? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost and Usage Report",
+      "AWS Personal Health Dashboard",
+      "AWS Service Health Dashboard",
+      "AWS Budgets"
+    ],
+    "respostaCorreta": [
+      "AWS Cost and Usage Report",
+      "AWS Budgets"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes características são verdadeiras sobre instâncias reservadas? (Escolha dois)",
+    "opcoes": [
+      "Elas oferecem preços mais baixos em comparação com instâncias sob demanda.",
+      "Elas podem ser alteradas a qualquer momento.",
+      "Elas requerem um compromisso de longo prazo.",
+      "Elas têm uso ilimitado."
+    ],
+    "respostaCorreta": [
+      "Elas oferecem preços mais baixos em comparação com instâncias sob demanda.",
+      "Elas requerem um compromisso de longo prazo."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes planos de suporte da AWS oferecem suporte técnico 24/7? (Escolha dois)",
+    "opcoes": [
+      "AWS Business Support",
+      "AWS Developer Support",
+      "AWS Basic Support",
+      "AWS Enterprise Support"
+    ],
+    "respostaCorreta": [
+      "AWS Business Support",
+      "AWS Enterprise Support"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes métodos podem ser usados para prever gastos na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Budgets",
+      "AWS Lambda",
+      "AWS Cost Explorer",
+      "AWS CloudFormation"
+    ],
+    "respostaCorreta": [
+      "AWS Budgets",
+      "AWS Cost Explorer"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre o AWS Personal Health Dashboard? (Escolha dois)",
+    "opcoes": [
+      "Fornece informações sobre a saúde dos serviços da AWS.",
+      "Gera relatórios financeiros mensais.",
+      "Ajuda a entender o impacto de eventos na sua conta.",
+      "É uma ferramenta de gerenciamento de custos."
+    ],
+    "respostaCorreta": [
+      "Fornece informações sobre a saúde dos serviços da AWS.",
+      "Ajuda a entender o impacto de eventos na sua conta."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre o AWS Free Tier são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Permite experimentar serviços da AWS gratuitamente.",
+      "Está disponível apenas para novos clientes.",
+      "Oferece serviços gratuitos indefinidamente.",
+      "Requer um cartão de crédito para se inscrever."
+    ],
+    "respostaCorreta": [
+      "Permite experimentar serviços da AWS gratuitamente.",
+      "Está disponível apenas para novos clientes."
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores influenciam o custo do Amazon EC2? (Escolha dois)",
+    "opcoes": [
+      "Tipo de instância",
+      "Número de instâncias",
+      "Localização do usuário",
+      "Número de regiões de disponibilidade"
+    ],
+    "respostaCorreta": [
+      "Tipo de instância",
+      "Número de instâncias"
+    ],
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes são vantagens da elasticidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Capacidade de ajustar recursos de acordo com a demanda.",
+      "Redução de custos fixos.",
+      "Aumento da complexidade da gestão.",
+      "Maior controle sobre a infraestrutura física."
+    ],
+    "respostaCorreta": [
+      "Capacidade de ajustar recursos de acordo com a demanda.",
+      "Redução de custos fixos."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes benefícios estão associados ao uso da infraestrutura global da AWS? (Escolha dois)",
+    "opcoes": [
+      "Maior velocidade de implantação.",
+      "Necessidade de gerenciar hardware físico.",
+      "Acesso a um público global.",
+      "Custos fixos mais altos."
+    ],
+    "respostaCorreta": [
+      "Maior velocidade de implantação.",
+      "Acesso a um público global."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são verdadeiras sobre a alta disponibilidade? (Escolha dois)",
+    "opcoes": [
+      "Reduz o tempo de inatividade dos serviços.",
+      "Requer hardware dedicado em todos os casos.",
+      "Permite a continuidade dos negócios durante falhas.",
+      "Aumenta a complexidade da arquitetura."
+    ],
+    "respostaCorreta": [
+      "Reduz o tempo de inatividade dos serviços.",
+      "Permite a continuidade dos negócios durante falhas."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes aspectos econômicos podem ser melhorados pela computação em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Custos de capital",
+      "Custos fixos",
+      "Custos variáveis",
+      "Custos de licenciamento de software"
+    ],
+    "respostaCorreta": [
+      "Custos de capital",
+      "Custos fixos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores são benefícios da agilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Aceleração no desenvolvimento de aplicativos.",
+      "Redução na dependência de recursos físicos.",
+      "Maior complexidade na implementação.",
+      "Facilidade em testar e iterar rapidamente."
+    ],
+    "respostaCorreta": [
+      "Aceleração no desenvolvimento de aplicativos.",
+      "Facilidade em testar e iterar rapidamente."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre economia de custos na nuvem são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Elimina todos os custos de TI.",
+      "Reduz a necessidade de superdimensionamento de recursos.",
+      "Permite pagamentos conforme o uso.",
+      "Requer investimentos iniciais significativos."
+    ],
+    "respostaCorreta": [
+      "Reduz a necessidade de superdimensionamento de recursos.",
+      "Permite pagamentos conforme o uso."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes elementos podem impactar a velocidade de implantação na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Automação de processos de provisionamento.",
+      "Tempo de inatividade do hardware.",
+      "Utilização de serviços gerenciados.",
+      "Custos de licenciamento."
+    ],
+    "respostaCorreta": [
+      "Automação de processos de provisionamento.",
+      "Utilização de serviços gerenciados."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes vantagens são proporcionadas pela infraestrutura escalável da nuvem? (Escolha dois)",
+    "opcoes": [
+      "Capacidade de atender a picos de demanda.",
+      "Necessidade de investimento em hardware dedicado.",
+      "Aumento da segurança de dados.",
+      "Flexibilidade para ajustar recursos rapidamente."
+    ],
+    "respostaCorreta": [
+      "Capacidade de atender a picos de demanda.",
+      "Flexibilidade para ajustar recursos rapidamente."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes aspectos são fundamentais para garantir alta disponibilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Distribuição de recursos em várias zonas de disponibilidade.",
+      "Uso de hardware exclusivo.",
+      "Implementação de backups regulares.",
+      "Manutenção de uma única instância."
+    ],
+    "respostaCorreta": [
+      "Distribuição de recursos em várias zonas de disponibilidade.",
+      "Implementação de backups regulares."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações sobre a elasticidade são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "Permite que os recursos aumentem ou diminuam conforme a demanda.",
+      "Requer planejamento prévio para dimensionamento.",
+      "É uma característica das instâncias reservadas.",
+      "Facilita a adaptação a mudanças inesperadas na demanda."
+    ],
+    "respostaCorreta": [
+      "Permite que os recursos aumentem ou diminuam conforme a demanda.",
+      "Facilita a adaptação a mudanças inesperadas na demanda."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções demonstram a agilidade da computação em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Capacidade de provisionar recursos rapidamente.",
+      "Menor flexibilidade em testes.",
+      "Respostas rápidas a mudanças de mercado.",
+      "Necessidade de suporte técnico constante."
+    ],
+    "respostaCorreta": [
+      "Capacidade de provisionar recursos rapidamente.",
+      "Respostas rápidas a mudanças de mercado."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes características são associadas à computação em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Descentralização.",
+      "Autoescala.",
+      "Necessidade de hardware físico.",
+      "Acesso global."
+    ],
+    "respostaCorreta": [
+      "Autoescala.",
+      "Acesso global."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores são importantes ao considerar a economia de custos na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Custo total de propriedade (TCO).",
+      "Número de funcionários de TI.",
+      "Custo de gerenciamento de servidores.",
+      "Custo de energia elétrica."
+    ],
+    "respostaCorreta": [
+      "Custo total de propriedade (TCO).",
+      "Custo de gerenciamento de servidores."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços são exemplos de agilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS Direct Connect"
+    ],
+    "respostaCorreta": [
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes conceitos ajudam a entender a infraestrutura global da AWS? (Escolha dois)",
+    "opcoes": [
+      "Zonas de disponibilidade.",
+      "Data centers exclusivos.",
+      "Regiões geográficas.",
+      "Serviços de backup locais."
+    ],
+    "respostaCorreta": [
+      "Zonas de disponibilidade.",
+      "Regiões geográficas."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas podem ajudar a otimizar custos na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Utilizar instâncias reservadas.",
+      "Manter instâncias sempre em execução.",
+      "Aproveitar a autoescala.",
+      "Desativar recursos não utilizados."
+    ],
+    "respostaCorreta": [
+      "Utilizar instâncias reservadas.",
+      "Desativar recursos não utilizados."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes são benefícios da elasticidade em um ambiente de nuvem? (Escolha dois)",
+    "opcoes": [
+      "Maior custo fixo.",
+      "Capacidade de escalar recursos rapidamente.",
+      "Necessidade de gerenciar hardware.",
+      "Pagamento por uso de recursos."
+    ],
+    "respostaCorreta": [
+      "Capacidade de escalar recursos rapidamente.",
+      "Pagamento por uso de recursos."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações são verdadeiras sobre a agilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Permite mudanças rápidas nas configurações.",
+      "Reduz a necessidade de planejamento.",
+      "Facilita a recuperação de desastres.",
+      "Aumenta o tempo de inatividade."
+    ],
+    "respostaCorreta": [
+      "Permite mudanças rápidas nas configurações.",
+      "Facilita a recuperação de desastres."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços da AWS ajudam a melhorar a disponibilidade? (Escolha dois)",
+    "opcoes": [
+      "Amazon RDS Multi-AZ.",
+      "Amazon EC2 com Elastic Load Balancing.",
+      "AWS Lambda.",
+      "Amazon S3 com versionamento."
+    ],
+    "respostaCorreta": [
+      "Amazon RDS Multi-AZ.",
+      "Amazon EC2 com Elastic Load Balancing."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes vantagens a computação em nuvem oferece em termos de velocidade de implantação? (Escolha dois)",
+    "opcoes": [
+      "Provisionamento em minutos.",
+      "Dependência de hardware físico.",
+      "Capacidade de testar rapidamente.",
+      "Aumento dos custos de operação."
+    ],
+    "respostaCorreta": [
+      "Provisionamento em minutos.",
+      "Capacidade de testar rapidamente."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes características são indicativas de uma arquitetura de alta disponibilidade? (Escolha dois)",
+    "opcoes": [
+      "Uso de múltiplas zonas de disponibilidade.",
+      "Acesso limitado aos recursos.",
+      "Backup em tempo real.",
+      "Manutenção de servidores físicos."
+    ],
+    "respostaCorreta": [
+      "Uso de múltiplas zonas de disponibilidade.",
+      "Backup em tempo real."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes fatores são considerados ao avaliar a economia de custos na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Custo por hora das instâncias.",
+      "Custo de manutenção do data center.",
+      "Custo de eletricidade.",
+      "Custo de hardware dedicado."
+    ],
+    "respostaCorreta": [
+      "Custo por hora das instâncias.",
+      "Custo de manutenção do data center."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são benefícios de escalar recursos automaticamente na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Otimização de custos.",
+      "Aumento da complexidade da arquitetura.",
+      "Melhoria na performance durante picos de uso.",
+      "Redução da capacidade de resposta."
+    ],
+    "respostaCorreta": [
+      "Otimização de custos.",
+      "Melhoria na performance durante picos de uso."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes tecnologias são associadas à infraestrutura global da AWS? (Escolha dois)",
+    "opcoes": [
+      "Edge Locations.",
+      "Availability Zones.",
+      "Dedicated Hosts.",
+      "VPC Peering."
+    ],
+    "respostaCorreta": [
+      "Edge Locations.",
+      "Availability Zones."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes estratégias podem ser usadas para garantir alta disponibilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Backup em regiões diferentes.",
+      "Uso de servidores únicos.",
+      "Failover automático.",
+      "Manutenção de um único ponto de falha."
+    ],
+    "respostaCorreta": [
+      "Backup em regiões diferentes.",
+      "Failover automático."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes afirmações são verdadeiras sobre a flexibilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Permite ajustar rapidamente a capacidade.",
+      "Requer planejamento extensivo antes de qualquer mudança.",
+      "Facilita a experimentação.",
+      "Reduz a necessidade de recursos de TI."
+    ],
+    "respostaCorreta": [
+      "Permite ajustar rapidamente a capacidade.",
+      "Facilita a experimentação."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ajudar a reduzir custos na nuvem? (Escolha dois)",
+    "opcoes": [
+      "AWS Cost Explorer.",
+      "AWS Trusted Advisor.",
+      "Amazon RDS.",
+      "AWS Config."
+    ],
+    "respostaCorreta": [
+      "AWS Cost Explorer.",
+      "AWS Trusted Advisor."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas podem aumentar a agilidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Automatizar o provisionamento de recursos.",
+      "Utilizar infraestrutura física exclusiva.",
+      "Implementar pipelines de CI/CD.",
+      "Limitar o acesso aos recursos."
+    ],
+    "respostaCorreta": [
+      "Automatizar o provisionamento de recursos.",
+      "Implementar pipelines de CI/CD."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções representam economia de custos na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Desdobramento de investimentos em TI.",
+      "Eliminação de custos de pessoal.",
+      "Redução de custos operacionais.",
+      "Custo fixo elevado para recursos."
+    ],
+    "respostaCorreta": [
+      "Desdobramento de investimentos em TI.",
+      "Redução de custos operacionais."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+]

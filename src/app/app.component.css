@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+}
+
+footer {
+  margin-top: auto; /* Move o rodapé para o fundo da página */
+  text-align: center; /* Centraliza o texto do rodapé */
+  padding: 10px; /* Espaçamento interno do rodapé */
+  background-color: #f1f1f1; /* Cor de fundo do rodapé */
+  font-size: 0.9em; /* Tamanho da fonte do rodapé */
+  color: #555; /* Cor do texto do rodapé */
+}

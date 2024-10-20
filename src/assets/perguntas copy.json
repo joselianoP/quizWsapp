@@ -1,0 +1,546 @@
+[
+  {
+    "pergunta": "Qual serviço da AWS é usado para armazenamento de objetos?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon EBS"
+    ]
+  },
+  {
+    "pergunta": "O que é o AWS IAM?",
+    "opcoes": [
+      "Um serviço de gerenciamento de identidades e acessos",
+      "Uma solução de backup de dados",
+      "Um banco de dados relacional",
+      "Um serviço de hospedagem de sites"
+    ],
+    "respostaCorreta": "Um serviço de gerenciamento de identidades e acessos"
+  },
+  {
+    "pergunta": "Quais são as vantagens de usar a AWS para soluções em nuvem?",
+    "opcoes": [
+      "Escalabilidade e flexibilidade",
+      "Custos fixos altos",
+      "Segurança e conformidade",
+      "Dependência de hardware"
+    ],
+    "respostaCorreta": [
+      "Escalabilidade e flexibilidade",
+      "Segurança e conformidade"
+    ]
+  },
+  {
+    "pergunta": "O que é uma Zona de Disponibilidade na AWS?",
+    "opcoes": [
+      "Uma localização física com múltiplos data centers",
+      "Uma área geográfica com múltiplas regiões",
+      "Um conjunto de recursos de computação",
+      "Um tipo de instância EC2"
+    ],
+    "respostaCorreta": "Uma localização física com múltiplos data centers"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para computação sem servidor?",
+    "opcoes": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": [
+      "AWS Lambda",
+      "Amazon EC2"
+    ]
+  },
+  {
+    "pergunta": "O que é a AWS CloudFormation?",
+    "opcoes": [
+      "Uma ferramenta de automação de infraestrutura",
+      "Um serviço de monitoramento",
+      "Um banco de dados NoSQL",
+      "Um serviço de CDN"
+    ],
+    "respostaCorreta": "Uma ferramenta de automação de infraestrutura"
+  },
+  {
+    "pergunta": "Quais serviços são usados para gerenciamento de dados na AWS?",
+    "opcoes": [
+      "Amazon S3",
+      "Amazon RDS",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "Amazon RDS"
+    ]
+  },
+  {
+    "pergunta": "Qual é a função do AWS CloudTrail?",
+    "opcoes": [
+      "Fornecer registros de auditoria das atividades da conta",
+      "Gerenciar recursos de computação",
+      "Armazenar dados em tempo real",
+      "Oferecer proteção DDoS"
+    ],
+    "respostaCorreta": "Fornecer registros de auditoria das atividades da conta"
+  },
+  {
+    "pergunta": "O que significa o termo 'elasticidade' na AWS?",
+    "opcoes": [
+      "A capacidade de aumentar ou diminuir recursos conforme a demanda",
+      "Um tipo de instância EC2",
+      "O custo fixo de serviços na nuvem",
+      "A segurança de dados"
+    ],
+    "respostaCorreta": "A capacidade de aumentar ou diminuir recursos conforme a demanda"
+  },
+  {
+    "pergunta": "Quais serviços são utilizados para análise de dados na AWS?",
+    "opcoes": [
+      "Amazon Athena",
+      "AWS Glue",
+      "Amazon S3",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": [
+      "Amazon Athena",
+      "AWS Glue"
+    ]
+  },
+  {
+    "pergunta": "O que é o AWS VPC?",
+    "opcoes": [
+      "Uma rede privada virtual na AWS",
+      "Um tipo de instância EC2",
+      "Um serviço de gerenciamento de banco de dados",
+      "Um serviço de armazenamento"
+    ],
+    "respostaCorreta": "Uma rede privada virtual na AWS"
+  },
+  {
+    "pergunta": "Quais serviços são utilizados para monitoramento e gerenciamento na AWS?",
+    "opcoes": [
+      "Amazon CloudWatch",
+      "AWS Config",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch",
+      "AWS Config"
+    ]
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece um banco de dados relacional gerenciado?",
+    "opcoes": [
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon DynamoDB"
+    ],
+    "respostaCorreta": "Amazon RDS"
+  },
+  {
+    "pergunta": "O que é o AWS Well-Architected Framework?",
+    "opcoes": [
+      "Um guia para melhores práticas em arquitetura de nuvem",
+      "Um serviço de segurança",
+      "Uma plataforma de desenvolvimento",
+      "Um serviço de armazenamento"
+    ],
+    "respostaCorreta": "Um guia para melhores práticas em arquitetura de nuvem"
+  },
+  {
+    "pergunta": "Quais são os principais modelos de serviço em nuvem da AWS?",
+    "opcoes": [
+      "IaaS e PaaS",
+      "SaaS e DaaS",
+      "PaaS e FaaS",
+      "IaaS e CaaS"
+    ],
+    "respostaCorreta": [
+      "IaaS e PaaS",
+      "SaaS e DaaS"
+    ]
+  },
+  {
+    "pergunta": "O que é a AWS Marketplace?",
+    "opcoes": [
+      "Uma loja de software e serviços na nuvem",
+      "Um serviço de backup",
+      "Uma rede de distribuição de conteúdo",
+      "Um serviço de gerenciamento de identidades"
+    ],
+    "respostaCorreta": "Uma loja de software e serviços na nuvem"
+  },
+  {
+    "pergunta": "O que é a AWS Trusted Advisor?",
+    "opcoes": [
+      "Um serviço que fornece recomendações de boas práticas",
+      "Um sistema de segurança",
+      "Um tipo de instância EC2",
+      "Um serviço de armazenamento"
+    ],
+    "respostaCorreta": "Um serviço que fornece recomendações de boas práticas"
+  },
+  {
+    "pergunta": "Qual é a finalidade do Amazon Route 53?",
+    "opcoes": [
+      "Gerenciamento de DNS e roteamento",
+      "Armazenamento de dados",
+      "Gerenciamento de identidades",
+      "Serviços de computação"
+    ],
+    "respostaCorreta": "Gerenciamento de DNS e roteamento"
+  },
+  {
+    "pergunta": "O que é um 'snapshot' no contexto da AWS?",
+    "opcoes": [
+      "Uma cópia de backup de um volume de armazenamento",
+      "Um tipo de instância EC2",
+      "Um serviço de monitoramento",
+      "Uma rede de distribuição de conteúdo"
+    ],
+    "respostaCorreta": "Uma cópia de backup de um volume de armazenamento"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações são verdadeiras? (Escolha dois)",
+    "opcoes": [
+      "AWS CloudFormation é usado para gerenciamento de configuração.",
+      "AWS Lambda permite a execução de código sem provisionar servidores.",
+      "Amazon S3 é um serviço de banco de dados relacional.",
+      "AWS Trusted Advisor fornece recomendações para melhorar o desempenho e reduzir custos."
+    ],
+    "respostaCorreta": [
+      "AWS Lambda permite a execução de código sem provisionar servidores.",
+      "AWS Trusted Advisor fornece recomendações para melhorar o desempenho e reduzir custos."
+    ]
+  },
+  {
+    "pergunta": "Qual dos serviços a seguir fornece acesso sob demanda aos relatórios de segurança e conformidade da AWS?",
+    "opcoes": [
+      "AWS Artifact",
+      "AWS Shield",
+      "Amazon Inspector",
+      "AWS Config"
+    ],
+    "respostaCorreta": "AWS Artifact"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é utilizado para o gerenciamento de recursos de computação na AWS?",
+    "opcoes": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "Amazon EC2"
+  },
+  {
+    "pergunta": "Qual é a função do AWS Elastic Load Balancing?",
+    "opcoes": [
+      "Distribuir tráfego de rede entre múltiplas instâncias",
+      "Armazenar dados em nuvem",
+      "Gerenciar identidades e acessos",
+      "Criar backups de dados"
+    ],
+    "respostaCorreta": "Distribuir tráfego de rede entre múltiplas instâncias"
+  },
+  {
+    "pergunta": "Qual dos serviços da AWS é projetado para fornecer um banco de dados NoSQL?",
+    "opcoes": [
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon Aurora",
+      "Amazon Redshift"
+    ],
+    "respostaCorreta": "Amazon DynamoDB"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite a criação de pipelines de dados?",
+    "opcoes": [
+      "AWS Glue",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "respostaCorreta": "AWS Glue"
+  },
+  {
+    "pergunta": "Qual das opções abaixo é um serviço de gerenciamento de log na AWS?",
+    "opcoes": [
+      "Amazon CloudWatch Logs",
+      "AWS CloudFormation",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon CloudWatch Logs"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é uma solução de gerenciamento de segurança?",
+    "opcoes": [
+      "AWS Security Hub",
+      "AWS CloudTrail",
+      "AWS Config",
+      "Amazon CloudWatch"
+    ],
+    "respostaCorreta": "AWS Security Hub"
+  },
+  {
+    "pergunta": "Qual é a principal função do Amazon Simple Notification Service (SNS)?",
+    "opcoes": [
+      "Enviar mensagens e notificações para sistemas e usuários",
+      "Armazenar dados em um banco de dados relacional",
+      "Fornecer capacidade de computação sob demanda",
+      "Criar instâncias de máquinas virtuais"
+    ],
+    "respostaCorreta": "Enviar mensagens e notificações para sistemas e usuários"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços permite a execução de contêineres na AWS?",
+    "opcoes": [
+      "Amazon ECS",
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "Amazon ECS"
+  },
+  {
+    "pergunta": "O que é o Amazon VPC?",
+    "opcoes": [
+      "Uma rede privada virtual para provisionamento de recursos",
+      "Um serviço de gerenciamento de dados",
+      "Um tipo de instância EC2",
+      "Um serviço de armazenamento"
+    ],
+    "respostaCorreta": "Uma rede privada virtual para provisionamento de recursos"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços oferece uma solução de análise de big data?",
+    "opcoes": [
+      "Amazon Redshift",
+      "Amazon RDS",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "Amazon Redshift"
+  },
+  {
+    "pergunta": "Qual é a finalidade do AWS Systems Manager?",
+    "opcoes": [
+      "Gerenciar e automatizar operações em ambientes AWS",
+      "Armazenar e processar dados",
+      "Fornecer análise de big data",
+      "Criar instâncias de máquinas virtuais"
+    ],
+    "respostaCorreta": "Gerenciar e automatizar operações em ambientes AWS"
+  },
+  {
+    "pergunta": "Qual serviço permite a criação de APIs na AWS?",
+    "opcoes": [
+      "Amazon API Gateway",
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "Amazon API Gateway"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma ferramenta de monitoramento na AWS?",
+    "opcoes": [
+      "Amazon CloudWatch",
+      "AWS Config",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon CloudWatch"
+  },
+  {
+    "pergunta": "O que é o Amazon S3?",
+    "opcoes": [
+      "Um serviço de armazenamento de objetos na nuvem",
+      "Um banco de dados relacional",
+      "Um serviço de computação sem servidor",
+      "Um serviço de gerenciamento de segurança"
+    ],
+    "respostaCorreta": "Um serviço de armazenamento de objetos na nuvem"
+  },
+  {
+    "pergunta": "Uma empresa está procurando ajuda para construir uma infraestrutura de aplicativo segura e de alto desempenho usando as práticas recomendadas de arquitetura da AWS mais recentes. Qual das opções a seguir pode fornecer orientação gratuitamente?",
+    "opcoes": [
+      "AWS Well-Architected Tool",
+      "AWS Support Plans",
+      "AWS Professional Services",
+      "AWS Marketplace"
+    ],
+    "respostaCorreta": "AWS Well-Architected Tool"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite que você armazene e consulte dados não estruturados?",
+    "opcoes": [
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon S3"
+  },
+  {
+    "pergunta": "Uma empresa deseja monitorar e gerar relatórios sobre o uso de seus serviços da AWS. Qual ferramenta pode ajudá-los com isso?",
+    "opcoes": [
+      "AWS Cost Explorer",
+      "Amazon CloudWatch",
+      "AWS Trusted Advisor",
+      "AWS Config"
+    ],
+    "respostaCorreta": "AWS Cost Explorer"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ser usado para proteger uma aplicação web contra ataques comuns?",
+    "opcoes": [
+      "AWS WAF",
+      "Amazon S3",
+      "AWS CloudTrail",
+      "AWS CodePipeline"
+    ],
+    "respostaCorreta": "AWS WAF"
+  },
+  {
+    "pergunta": "Uma startup está buscando uma solução que permita escalar automaticamente seus recursos com base na demanda. Qual serviço da AWS oferece essa funcionalidade?",
+    "opcoes": [
+      "Amazon EC2 Auto Scaling",
+      "Amazon RDS",
+      "AWS Lambda",
+      "AWS Batch"
+    ],
+    "respostaCorreta": "Amazon EC2 Auto Scaling"
+  },
+  {
+    "pergunta": "Para armazenar dados de forma durável e acessível, qual dos seguintes serviços seria mais apropriado?",
+    "opcoes": [
+      "Amazon EBS",
+      "Amazon S3",
+      "AWS Lambda",
+      "AWS Step Functions"
+    ],
+    "respostaCorreta": "Amazon S3"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços fornece um ambiente de desenvolvimento integrado para aplicativos sem servidor?",
+    "opcoes": [
+      "AWS Amplify",
+      "Amazon EC2",
+      "AWS Glue",
+      "AWS Batch"
+    ],
+    "respostaCorreta": "AWS Amplify"
+  },
+  {
+    "pergunta": "Uma empresa precisa garantir que seus dados sejam criptografados em repouso. Qual serviço da AWS pode ajudá-los a cumprir essa exigência?",
+    "opcoes": [
+      "AWS Key Management Service (KMS)",
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Key Management Service (KMS)"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ser usado para gerenciar e orquestrar contêineres na AWS?",
+    "opcoes": [
+      "Amazon ECS",
+      "AWS CodeDeploy",
+      "Amazon RDS",
+      "AWS Batch"
+    ],
+    "respostaCorreta": "Amazon ECS"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ajudar na análise de dados em tempo real?",
+    "opcoes": [
+      "Amazon Kinesis",
+      "Amazon RDS",
+      "AWS Glue",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon Kinesis"
+  },
+  {
+    "pergunta": "Uma empresa deseja criar um site altamente disponível e escalável. Qual serviço da AWS é recomendado para isso?",
+    "opcoes": [
+      "Amazon S3",
+      "AWS Elastic Beanstalk",
+      "AWS Lambda",
+      "Amazon Lightsail"
+    ],
+    "respostaCorreta": "AWS Elastic Beanstalk"
+  },
+  {
+    "pergunta": "Qual é a função principal do AWS CloudTrail?",
+    "opcoes": [
+      "Registrar chamadas de API para monitoramento e auditoria",
+      "Gerenciar segurança da aplicação",
+      "Provisionar recursos na nuvem",
+      "Criar redes privadas virtuais"
+    ],
+    "respostaCorreta": "Registrar chamadas de API para monitoramento e auditoria"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite a criação de instâncias de banco de dados relacionais gerenciados?",
+    "opcoes": [
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "Amazon RDS"
+  },
+  {
+    "pergunta": "Para implementar uma arquitetura de microserviços na AWS, qual serviço seria mais adequado para gerenciar APIs?",
+    "opcoes": [
+      "Amazon API Gateway",
+      "AWS Step Functions",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "respostaCorreta": "Amazon API Gateway"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ser usado para realizar backups e restaurações de dados na AWS?",
+    "opcoes": [
+      "Amazon S3",
+      "AWS Backup",
+      "AWS Snowball",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": "AWS Backup"
+  },
+  {
+    "pergunta": "Qual é a principal função do Amazon CloudFront?",
+    "opcoes": [
+      "Distribuir conteúdo por meio de uma rede de entrega de conteúdo (CDN)",
+      "Gerenciar armazenamento de dados",
+      "Criar instâncias de máquinas virtuais",
+      "Fornecer segurança de rede"
+    ],
+    "respostaCorreta": "Distribuir conteúdo por meio de uma rede de entrega de conteúdo (CDN)"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços permite a execução de códigos em resposta a eventos sem necessidade de provisionamento de servidores?",
+    "opcoes": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "respostaCorreta": "AWS Lambda"
+  }
+]
