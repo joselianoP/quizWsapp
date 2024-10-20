@@ -14,6 +14,10 @@
     {{ currentQuestionIndex + 1 }}.
     {{ perguntas[currentQuestionIndex].pergunta }}
   </h4>
+  <h4 class="small-font">
+    ({{ perguntas[currentQuestionIndex].dominio }})
+  </h4>
+
   <mat-card>
     <ng-container
       *ngIf="!isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)"
@@ -131,15 +135,28 @@
 </div>
 
 <div *ngIf="resultadosAnteriores.length > 0">
-  <h2>Resultados Anteriores</h2>
-  <div>
-    <ul>
-      <li *ngFor="let resultado of resultadosAnteriores">
-        <p>Acertos: {{ resultado.acertos }} de {{ resultado.total }}</p>
-        <p>Percentual: {{ resultado.percentual | number : "1.0-0" }}%</p>
-        <p>{{ resultado.mensagem }}</p>
-        <hr />
-      </li>
-    </ul>
-  </div>
+<h2 class="resultados-title">Resultados Anteriores</h2>
+<div  class="table-container">
+  <table>
+    <thead>
+      <tr>
+         <th>Data</th>
+        <th>Acertos</th>
+        <th>Total</th>
+        <th>Percentual</th>
+        <th>Mensagem</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let resultado of resultadosAnteriores">
+        <td>{{ resultado.data | date: 'dd/MM/yyyy HH:mm' }}</td>
+        <td>{{ resultado.acertos }}</td>
+        <td>{{ resultado.total }}</td>
+        <td>{{ resultado.percentual | number : '1.0-0' }}%</td>
+        <td>{{ resultado.mensagem }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 </div>

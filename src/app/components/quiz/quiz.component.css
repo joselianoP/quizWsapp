@@ -228,3 +228,28 @@ span {
   margin: 1px; /* Espaçamento acima da legenda */
 }
 
+.table-container {
+  width: 90%;
+  margin: 0 auto; /* Centraliza a tabela na página */
+}
+
+.table-container table {
+  width: 100%; /* A tabela ocupa todo o espaço do contêiner */
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px;
+  border: 1px solid #ddd; /* Adiciona bordas */
+}
+
+.table-container th {
+  background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
+}
+.resultados-title {
+  font-size: 1.5rem; /* Ajuste o tamanho conforme desejado */
+  text-align: center; /* Centraliza o título, opcional */
+  margin-bottom: -10px; /* Ajusta o espaçamento inferior */
+}
