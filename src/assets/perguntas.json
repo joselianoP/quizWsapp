@@ -8784,5 +8784,842 @@
     ],
     "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é o conceito de dimensionamento correto em ambientes de nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Ajustar recursos para atender à demanda de usuários",
+        "explicacao": "Dimensionar corretamente significa garantir que os recursos disponíveis sejam adequados para a quantidade de usuários ou solicitações."
+      },
+      {
+        "texto": "Aumentar sempre os recursos para evitar lentidão",
+        "explicacao": "Aumentar recursos indiscriminadamente pode levar a custos desnecessários, o que não é o foco do dimensionamento correto."
+      },
+      {
+        "texto": "Reduzir os custos operacionais sem comprometer a performance",
+        "explicacao": "Um dos objetivos do dimensionamento correto é garantir que os custos estejam alinhados com o uso real, sem afetar a performance."
+      },
+      {
+        "texto": "Manter todos os serviços em execução continuamente",
+        "explicacao": "Dimensionar corretamente não significa manter todos os serviços sempre ativos, mas sim adequá-los à demanda."
+      }
+    ],
+    "respostaCorreta": [
+      "Ajustar recursos para atender à demanda de usuários",
+      "Reduzir os custos operacionais sem comprometer a performance"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma vantagem do dimensionamento correto em nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Redução de custos",
+        "explicacao": "Dimensionar corretamente permite que as empresas paguem apenas pelos recursos que realmente utilizam, reduzindo custos."
+      },
+      {
+        "texto": "Melhoria na experiência do usuário",
+        "explicacao": "Recursos adequados à demanda garantem melhor performance e satisfação do usuário final."
+      },
+      {
+        "texto": "Aumento da complexidade na gestão de recursos",
+        "explicacao": "Na verdade, o dimensionamento correto visa simplificar a gestão, não aumentá-la."
+      },
+      {
+        "texto": "Maior risco de downtime",
+        "explicacao": "Dimensionar corretamente minimiza o risco de downtime, ao invés de aumentá-lo."
+      }
+    ],
+    "respostaCorreta": [
+      "Redução de custos",
+      "Melhoria na experiência do usuário"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas ajudam a alcançar o dimensionamento correto? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Monitoramento constante de recursos",
+        "explicacao": "Acompanhar o uso de recursos em tempo real ajuda a ajustar a capacidade conforme a demanda."
+      },
+      {
+        "texto": "Implementação de servidores dedicados",
+        "explicacao": "Servidores dedicados não são necessariamente uma prática eficaz para dimensionar corretamente em ambientes de nuvem."
+      },
+      {
+        "texto": "Uso de autoescalonamento",
+        "explicacao": "A automação de escalonamento ajuda a ajustar recursos automaticamente, conforme as necessidades."
+      },
+      {
+        "texto": "Limitação da flexibilidade na alocação de recursos",
+        "explicacao": "O dimensionamento correto envolve flexibilidade, e não limitação, na alocação de recursos."
+      }
+    ],
+    "respostaCorreta": [
+      "Monitoramento constante de recursos",
+      "Uso de autoescalonamento"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um dos principais desafios do dimensionamento correto? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Prever a demanda futura com precisão",
+        "explicacao": "Um dos maiores desafios é estimar com precisão a demanda futura, que pode variar significativamente."
+      },
+      {
+        "texto": "Obter recursos ilimitados a baixo custo",
+        "explicacao": "Não é viável obter recursos ilimitados a baixo custo, o que complica o dimensionamento correto."
+      },
+      {
+        "texto": "Gerenciar custos de forma eficiente",
+        "explicacao": "Manter os custos sob controle é um desafio constante no dimensionamento de recursos em nuvem."
+      },
+      {
+        "texto": "Aumentar a complexidade do sistema",
+        "explicacao": "O objetivo do dimensionamento correto é reduzir a complexidade, não aumentá-la."
+      }
+    ],
+    "respostaCorreta": [
+      "Prever a demanda futura com precisão",
+      "Gerenciar custos de forma eficiente"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como a análise de dados pode ajudar no dimensionamento correto? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Identificando padrões de uso",
+        "explicacao": "Análises podem revelar padrões de uso, ajudando a prever a demanda e a dimensionar recursos de forma eficaz."
+      },
+      {
+        "texto": "Aumentando a complexidade da gestão de dados",
+        "explicacao": "Na verdade, a análise de dados visa simplificar a gestão, não aumentá-la."
+      },
+      {
+        "texto": "Fornecendo insights sobre eficiência",
+        "explicacao": "Insights sobre como os recursos estão sendo utilizados podem guiar decisões sobre ajustes necessários."
+      },
+      {
+        "texto": "Eliminando a necessidade de monitoramento",
+        "explicacao": "A análise não elimina a necessidade de monitoramento contínuo; ela complementa e melhora a eficácia."
+      }
+    ],
+    "respostaCorreta": [
+      "Identificando padrões de uso",
+      "Fornecendo insights sobre eficiência"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre o dimensionamento correto é verdadeira? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "É um processo estático e não requer ajustes",
+        "explicacao": "Essa afirmação é falsa, pois o dimensionamento correto é um processo dinâmico que requer ajustes contínuos."
+      },
+      {
+        "texto": "Deve ser alinhado com as metas de negócios",
+        "explicacao": "O dimensionamento correto deve sempre estar alinhado com as metas e necessidades de negócios da empresa."
+      },
+      {
+        "texto": "É irrelevante em ambientes de nuvem pública",
+        "explicacao": "Na verdade, o dimensionamento correto é crucial em ambientes de nuvem pública para otimizar custos e performance."
+      },
+      {
+        "texto": "Envolve considerar a capacidade atual e futura",
+        "explicacao": "Um bom dimensionamento deve levar em conta tanto a capacidade atual quanto as previsões de uso futuro."
+      }
+    ],
+    "respostaCorreta": [
+      "Deve ser alinhado com as metas de negócios",
+      "Envolve considerar a capacidade atual e futura"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os sinais de que o dimensionamento pode estar incorreto? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Altos custos de operação",
+        "explicacao": "Custos operacionais elevados podem indicar que os recursos estão superdimensionados para a demanda."
+      },
+      {
+        "texto": "Desempenho insatisfatório dos aplicativos",
+        "explicacao": "Se os aplicativos estão lentos ou falhando, isso pode ser um sinal de que os recursos estão subdimensionados."
+      },
+      {
+        "texto": "Redução contínua do uso de recursos",
+        "explicacao": "Uma redução no uso não é um sinal de erro de dimensionamento, mas sim uma oportunidade de ajuste."
+      },
+      {
+        "texto": "Feedback positivo dos usuários",
+        "explicacao": "Feedback positivo geralmente indica que o dimensionamento está correto e os recursos estão adequados."
+      }
+    ],
+    "respostaCorreta": [
+      "Altos custos de operação",
+      "Desempenho insatisfatório dos aplicativos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que pode ser feito para corrigir um dimensionamento incorreto? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Realizar uma análise detalhada do uso",
+        "explicacao": "Uma análise pode identificar áreas onde os recursos estão sendo mal utilizados ou onde são necessários ajustes."
+      },
+      {
+        "texto": "Ignorar os feedbacks dos usuários",
+        "explicacao": "Ignorar feedbacks pode levar a uma continuação de problemas de dimensionamento, portanto, deve ser evitado."
+      },
+      {
+        "texto": "Ajustar recursos com base na análise",
+        "explicacao": "Com base na análise, ajustes devem ser feitos para alinhar os recursos à demanda real."
+      },
+      {
+        "texto": "Reduzir o número de serviços utilizados",
+        "explicacao": "Essa pode ser uma estratégia, mas não deve ser a única solução para problemas de dimensionamento."
+      }
+    ],
+    "respostaCorreta": [
+      "Realizar uma análise detalhada do uso",
+      "Ajustar recursos com base na análise"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um erro comum ao tentar dimensionar corretamente? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Confiar apenas em estimativas antigas",
+        "explicacao": "Confiar em dados desatualizados pode levar a decisões de dimensionamento inadequadas."
+      },
+      {
+        "texto": "Focar apenas na redução de custos",
+        "explicacao": "Embora reduzir custos seja importante, não deve ser o único fator a considerar no dimensionamento."
+      },
+      {
+        "texto": "Considerar somente a demanda atual",
+        "explicacao": "Não considerar a demanda futura pode resultar em subdimensionamento à medida que a necessidade cresce."
+      },
+      {
+        "texto": "Implementar soluções de monitoramento",
+        "explicacao": "Implementar monitoramento é uma prática recomendada e não um erro a ser cometido."
+      }
+    ],
+    "respostaCorreta": [
+      "Confiar apenas em estimativas antigas",
+      "Considerar somente a demanda atual"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios da automação em ambientes de nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Redução de erros humanos",
+        "explicacao": "A automação minimiza a intervenção manual, reduzindo a probabilidade de erros que podem ocorrer durante a configuração e o gerenciamento."
+      },
+      {
+        "texto": "Aumento da complexidade operacional",
+        "explicacao": "Na verdade, a automação visa simplificar operações, não aumentar sua complexidade."
+      },
+      {
+        "texto": "Eficiência no provisionamento de recursos",
+        "explicacao": "Automatizar o provisionamento de recursos permite que as empresas respondam rapidamente às demandas do mercado."
+      },
+      {
+        "texto": "Melhoria na consistência das operações",
+        "explicacao": "A automação garante que os processos sejam realizados da mesma forma a cada vez, melhorando a consistência."
+      }
+    ],
+    "respostaCorreta": [
+      "Redução de erros humanos",
+      "Eficiência no provisionamento de recursos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um benefício da automação na gestão de infraestrutura? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Redução do tempo de implementação",
+        "explicacao": "A automação acelera o processo de implementação, permitindo que os serviços sejam disponibilizados mais rapidamente."
+      },
+      {
+        "texto": "Necessidade de mais recursos humanos",
+        "explicacao": "Na verdade, a automação geralmente reduz a necessidade de intervenção humana, permitindo que as equipes se concentrem em tarefas mais estratégicas."
+      },
+      {
+        "texto": "Melhoria na capacidade de resposta a falhas",
+        "explicacao": "Com a automação, a recuperação de falhas pode ser realizada mais rapidamente, minimizando o tempo de inatividade."
+      },
+      {
+        "texto": "Aumento de custos operacionais",
+        "explicacao": "A automação geralmente resulta em redução de custos, não em aumento."
+      }
+    ],
+    "respostaCorreta": [
+      "Redução do tempo de implementação",
+      "Melhoria na capacidade de resposta a falhas"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios da automação na gestão de custos em ambientes de nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Monitoramento contínuo dos gastos",
+        "explicacao": "A automação pode facilitar o monitoramento e a análise contínua dos gastos, ajudando a identificar desperdícios."
+      },
+      {
+        "texto": "Aumento da complexidade financeira",
+        "explicacao": "O objetivo da automação é simplificar o gerenciamento financeiro, não aumentá-lo."
+      },
+      {
+        "texto": "Ajuste dinâmico de recursos",
+        "explicacao": "Automatizar o ajuste de recursos permite que as empresas respondam rapidamente às mudanças nas necessidades, otimizando os custos."
+      },
+      {
+        "texto": "Menos visibilidade sobre gastos",
+        "explicacao": "A automação pode aumentar a visibilidade sobre os gastos, facilitando o controle orçamentário."
+      }
+    ],
+    "respostaCorreta": [
+      "Monitoramento contínuo dos gastos",
+      "Ajuste dinâmico de recursos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como a automação impacta a gestão de configuração em ambientes de nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Consistência nas configurações",
+        "explicacao": "A automação garante que as configurações sejam aplicadas de forma consistente em todos os ambientes, reduzindo variações indesejadas."
+      },
+      {
+        "texto": "Aumento da necessidade de intervenção manual",
+        "explicacao": "A automação geralmente reduz a necessidade de intervenção manual, tornando o gerenciamento de configuração mais eficiente."
+      },
+      {
+        "texto": "Dificuldade na replicação de ambientes",
+        "explicacao": "Na verdade, a automação facilita a replicação de ambientes, tornando a criação de novos ambientes mais rápida e eficiente."
+      },
+      {
+        "texto": "Melhoria na detecção de divergências",
+        "explicacao": "Automatizar a gestão de configuração ajuda a identificar e corrigir rapidamente qualquer divergência nas configurações."
+      }
+    ],
+    "respostaCorreta": [
+      "Consistência nas configurações",
+      "Melhoria na detecção de divergências"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios da automação para a experiência do usuário em serviços de nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Maior rapidez no atendimento de solicitações",
+        "explicacao": "A automação pode agilizar o atendimento às solicitações dos usuários, melhorando a experiência geral."
+      },
+      {
+        "texto": "Aumento da complexidade para os usuários",
+        "explicacao": "O objetivo da automação é simplificar a interação do usuário com os serviços, não complicá-la."
+      },
+      {
+        "texto": "Consistência na entrega de serviços",
+        "explicacao": "A automação assegura que os serviços sejam entregues de maneira consistente, aumentando a confiança dos usuários."
+      },
+      {
+        "texto": "Menos feedback dos usuários",
+        "explicacao": "A automação pode facilitar a coleta de feedback dos usuários, ajudando a melhorar continuamente os serviços."
+      }
+    ],
+    "respostaCorreta": [
+      "Maior rapidez no atendimento de solicitações",
+      "Consistência na entrega de serviços"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS CloudFormation?",
+    "opcoes": [
+      {
+        "texto": "Provisionar recursos na nuvem",
+        "explicacao": "AWS CloudFormation permite a automação do provisionamento de recursos na AWS usando arquivos de modelo."
+      },
+      {
+        "texto": "Gerenciar o suporte ao cliente",
+        "explicacao": "AWS CloudFormation não gerencia suporte ao cliente, mas se concentra no provisionamento de infraestrutura."
+      },
+      {
+        "texto": "Criar aplicações sem código",
+        "explicacao": "Embora AWS CloudFormation facilite a criação de infraestrutura, ele não cria aplicações sem código."
+      },
+      {
+        "texto": "Monitorar o desempenho de aplicações",
+        "explicacao": "AWS CloudFormation não é uma ferramenta de monitoramento, mas sim de gerenciamento de infraestrutura."
+      }
+    ],
+    "respostaCorreta": "Provisionar recursos na nuvem",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem de usar o AWS CloudFormation?",
+    "opcoes": [
+      {
+        "texto": "Facilidade de replicação de ambientes",
+        "explicacao": "CloudFormation permite replicar ambientes facilmente por meio de modelos de infraestrutura como código."
+      },
+      {
+        "texto": "Limitação no número de serviços suportados",
+        "explicacao": "CloudFormation suporta muitos serviços AWS, não limita o número."
+      },
+      {
+        "texto": "Dependência de gerenciamento manual",
+        "explicacao": "CloudFormation automatiza o provisionamento, reduzindo a necessidade de gerenciamento manual."
+      },
+      {
+        "texto": "Aumento da complexidade de gerenciamento",
+        "explicacao": "O uso de modelos reduz a complexidade ao padronizar o provisionamento."
+      }
+    ],
+    "respostaCorreta": "Facilidade de replicação de ambientes",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que são stacks no contexto do AWS CloudFormation?",
+    "opcoes": [
+      {
+        "texto": "Conjuntos de recursos provisionados",
+        "explicacao": "Stacks são conjuntos de recursos AWS gerenciados como uma única unidade."
+      },
+      {
+        "texto": "Tipos de instâncias EC2",
+        "explicacao": "Stacks não se referem a tipos de instâncias, mas a coleções de recursos."
+      },
+      {
+        "texto": "Funções Lambda agrupadas",
+        "explicacao": "Stacks não são específicas para funções Lambda, mas para qualquer recurso AWS."
+      },
+      {
+        "texto": "Modelos de segurança",
+        "explicacao": "Stacks não se referem a modelos de segurança, mas à organização de recursos."
+      }
+    ],
+    "respostaCorreta": "Conjuntos de recursos provisionados",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS CloudFormation lida com alterações na infraestrutura?",
+    "opcoes": [
+      {
+        "texto": "Através de atualizações de stack",
+        "explicacao": "Atualizações de stack permitem aplicar mudanças na infraestrutura conforme necessário."
+      },
+      {
+        "texto": "Removendo todos os recursos existentes",
+        "explicacao": "CloudFormation não remove recursos existentes, mas atualiza conforme as mudanças especificadas."
+      },
+      {
+        "texto": "Criando uma nova conta AWS",
+        "explicacao": "CloudFormation não exige a criação de uma nova conta para aplicar alterações."
+      },
+      {
+        "texto": "Implementando manualmente cada alteração",
+        "explicacao": "CloudFormation automatiza o gerenciamento de alterações, evitando a intervenção manual."
+      }
+    ],
+    "respostaCorreta": "Através de atualizações de stack",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o formato dos arquivos de modelo do AWS CloudFormation?",
+    "opcoes": [
+      {
+        "texto": "JSON ou YAML",
+        "explicacao": "Os modelos do CloudFormation podem ser escritos em JSON ou YAML."
+      },
+      {
+        "texto": "XML apenas",
+        "explicacao": "CloudFormation não utiliza XML como formato de arquivo de modelo."
+      },
+      {
+        "texto": "HTML",
+        "explicacao": "Modelos do CloudFormation não são escritos em HTML."
+      },
+      {
+        "texto": "Texto simples",
+        "explicacao": "Modelos são formatados em JSON ou YAML, não em texto simples."
+      }
+    ],
+    "respostaCorreta": "JSON ou YAML",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações é verdadeira sobre a automação com AWS CloudFormation?",
+    "opcoes": [
+      {
+        "texto": "Elimina a necessidade de scripts de provisionamento",
+        "explicacao": "CloudFormation pode reduzir ou eliminar a necessidade de scripts manuais."
+      },
+      {
+        "texto": "Necessita de scripts adicionais para cada provisionamento",
+        "explicacao": "CloudFormation pode funcionar sem scripts adicionais ao usar modelos."
+      },
+      {
+        "texto": "Só funciona para serviços AWS",
+        "explicacao": "CloudFormation é projetado para trabalhar com recursos AWS."
+      },
+      {
+        "texto": "Aumenta a complexidade do gerenciamento de infraestrutura",
+        "explicacao": "CloudFormation visa simplificar o gerenciamento de infraestrutura."
+      }
+    ],
+    "respostaCorreta": "Elimina a necessidade de scripts de provisionamento",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual recurso pode ser utilizado para validar modelos do AWS CloudFormation?",
+    "opcoes": [
+      {
+        "texto": "AWS CloudFormation Linter",
+        "explicacao": "AWS CloudFormation Linter é uma ferramenta para validar a sintaxe e a estrutura dos modelos."
+      },
+      {
+        "texto": "AWS CloudWatch",
+        "explicacao": "AWS CloudWatch não valida modelos; é uma ferramenta de monitoramento."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "AWS IAM é para gerenciamento de acesso, não validação de modelos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda é um serviço de computação e não é usado para validar modelos."
+      }
+    ],
+    "respostaCorreta": "AWS CloudFormation Linter",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas recomendadas devem ser seguidas ao usar o AWS CloudFormation? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Manter modelos pequenos e gerenciáveis",
+        "explicacao": "Modelos pequenos são mais fáceis de entender e manter."
+      },
+      {
+        "texto": "Criar um único modelo para toda a infraestrutura",
+        "explicacao": "É melhor dividir modelos complexos em partes menores para facilitar a gestão."
+      },
+      {
+        "texto": "Documentar todas as alterações nos modelos",
+        "explicacao": "Documentar alterações ajuda na manutenção e compreensão do histórico."
+      },
+      {
+        "texto": "Usar nomes genéricos para recursos",
+        "explicacao": "Usar nomes descritivos é melhor para a identificação e gestão de recursos."
+      }
+    ],
+    "respostaCorreta": [
+      "Manter modelos pequenos e gerenciáveis",
+      "Documentar todas as alterações nos modelos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS CloudFormation pode ajudar na conformidade com regulamentos?",
+    "opcoes": [
+      {
+        "texto": "Padronizando a infraestrutura",
+        "explicacao": "CloudFormation permite criar e manter ambientes padronizados, facilitando a conformidade."
+      },
+      {
+        "texto": "Eliminando a necessidade de auditorias",
+        "explicacao": "CloudFormation não elimina auditorias, mas pode facilitar a coleta de informações."
+      },
+      {
+        "texto": "Oferecendo armazenamento local de dados",
+        "explicacao": "CloudFormation é uma ferramenta de provisionamento, não fornece armazenamento local."
+      },
+      {
+        "texto": "Reduzindo a segurança da infraestrutura",
+        "explicacao": "CloudFormation visa aumentar a segurança por meio de práticas de infraestrutura como código."
+      }
+    ],
+    "respostaCorreta": "Padronizando a infraestrutura",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é um banco de dados gerenciado pela AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados relacional totalmente gerenciado."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda é um serviço de computação serverless, não um banco de dados."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 é um serviço de computação em nuvem que fornece instâncias de servidores virtuais."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para entrega de conteúdo em larga escala?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Amazon CloudFront é uma rede de distribuição de conteúdo (CDN) que entrega dados, vídeos, aplicativos e APIs."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "AWS Glue é um serviço de preparação de dados, não uma CDN."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é um banco de dados NoSQL gerenciado, não uma CDN."
+      },
+      {
+        "texto": "Amazon EBS",
+        "explicacao": "Amazon EBS é um serviço de armazenamento de blocos, não uma CDN."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudFront",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços da AWS é um serviço de gerenciamento de identidade?",
+    "opcoes": [
+      {
+        "texto": "AWS IAM",
+        "explicacao": "AWS IAM (Identity and Access Management) permite gerenciar usuários e permissões na AWS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento, não um serviço de gerenciamento de identidade."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 fornece instâncias de computação, não gerenciamento de identidade."
+      },
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "Amazon CloudWatch é um serviço de monitoramento e não um serviço de gerenciamento de identidade."
+      }
+    ],
+    "respostaCorreta": "AWS IAM",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço AWS é utilizado para orquestração de contêineres?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS (Elastic Container Service) é um serviço de orquestração de contêineres gerenciado."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados, não de orquestração de contêineres."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda é um serviço serverless, não uma ferramenta de orquestração de contêineres."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Amazon CloudFront é uma CDN e não uma ferramenta de orquestração de contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é projetado para análise de dados em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "Amazon Kinesis é um serviço para processar e analisar dados em tempo real."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Amazon Redshift é um data warehouse e não um serviço de análise em tempo real."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "AWS Glue é um serviço de preparação de dados, não análise em tempo real."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento, não um serviço de análise."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para automação de processos de negócios?",
+    "opcoes": [
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "AWS Step Functions permite a coordenação de serviços da AWS em fluxos de trabalho automatizados."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento e não é usado para automação."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 fornece capacidade de computação, mas não é específico para automação de processos."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "AWS IAM é para gerenciamento de identidade, não automação de processos."
+      }
+    ],
+    "respostaCorreta": "AWS Step Functions",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço é usado para armazenar dados de forma não estruturada?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento de objetos ideal para dados não estruturados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados relacional, adequado para dados estruturados."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é um banco de dados NoSQL, mas ainda é mais estruturado do que o S3."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda é um serviço de computação e não um serviço de armazenamento."
+      }
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o serviço gerenciado pela AWS que fornece análise de big data?",
+    "opcoes": [
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Amazon EMR (Elastic MapReduce) é um serviço para processar big data usando frameworks como Apache Hadoop."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um banco de dados gerenciado, não uma solução de big data."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Amazon CloudFront é uma CDN e não uma ferramenta de análise de big data."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "AWS Glue é um serviço de preparação de dados, mas não é focado em análise de big data."
+      }
+    ],
+    "respostaCorreta": "Amazon EMR",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços permite a criação de redes privadas virtuais?",
+    "opcoes": [
+      {
+        "texto": "Amazon VPC",
+        "explicacao": "Amazon VPC (Virtual Private Cloud) permite criar redes privadas dentro da AWS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento e não lida com redes."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 fornece instâncias de computação, mas não cria redes privadas."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "AWS IAM é para gerenciamento de identidade e não lida com redes."
+      }
+    ],
+    "respostaCorreta": "Amazon VPC",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço AWS é utilizado para monitoramento e gerenciamento de recursos?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "Amazon CloudWatch é um serviço de monitoramento que fornece dados e insights sobre recursos na AWS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento, não um serviço de monitoramento."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda é um serviço de computação e não um serviço de monitoramento."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 fornece capacidade de computação, mas não é um serviço de monitoramento."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudWatch",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
   }
 ]
