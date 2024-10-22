@@ -22547,29 +22547,5 @@
     "respostaCorreta": "Implementar práticas de segurança como rotação de credenciais e uso de MFA",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
-  },
-  {
-    "pergunta": "Qual é a melhor prática ao utilizar credenciais de acesso programático na AWS?",
-    "opcoes": [
-      {
-        "texto": "Conservar as credenciais em um local seguro e acessível",
-        "explicacao": "Correto! As credenciais devem ser armazenadas de forma segura para prevenir acesso não autorizado."
-      },
-      {
-        "texto": "Compartilhar credenciais entre usuários da equipe",
-        "explicacao": "Incorreto. As credenciais não devem ser compartilhadas entre usuários para manter a segurança."
-      },
-      {
-        "texto": "Usar credenciais de longo prazo em vez de temporárias",
-        "explicacao": "Incorreto. O uso de credenciais temporárias é mais seguro."
-      },
-      {
-        "texto": "Documentar credenciais em um arquivo de texto simples",
-        "explicacao": "Incorreto. As credenciais não devem ser armazenadas em texto simples para evitar exposição."
-      }
-    ],
-    "respostaCorreta": "Conservar as credenciais em um local seguro e acessível",
-    "dominio": "Tecnologia e serviços da nuvem",
-    "tipo": "single"
   }
 ]
