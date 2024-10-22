@@ -22331,5 +22331,245 @@
     ],
     "dominio": "Segurança e conformidade",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem de usar a API AWS em vez do Console de Gerenciamento da AWS?",
+    "opcoes": [
+      {
+        "texto": "Interface gráfica mais intuitiva",
+        "explicacao": "Incorreto. A API não possui uma interface gráfica; ela é usada para acesso programático."
+      },
+      {
+        "texto": "Automação de tarefas repetitivas",
+        "explicacao": "Correto! A API permite automação, facilitando a execução de tarefas repetitivas sem intervenção manual."
+      },
+      {
+        "texto": "Acesso exclusivo a recursos premium",
+        "explicacao": "Incorreto. A API e o Console de Gerenciamento oferecem acesso aos mesmos recursos."
+      },
+      {
+        "texto": "Limitação no número de solicitações",
+        "explicacao": "Incorreto. A API permite um número maior de solicitações em comparação ao uso manual."
+      }
+    ],
+    "respostaCorreta": "Automação de tarefas repetitivas",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando você deve escolher usar o AWS CLI em vez do SDK da AWS?",
+    "opcoes": [
+      {
+        "texto": "Quando você precisa de uma interface gráfica",
+        "explicacao": "Incorreto. O AWS CLI é uma ferramenta de linha de comando e não possui interface gráfica."
+      },
+      {
+        "texto": "Quando deseja executar comandos simples rapidamente",
+        "explicacao": "Correto! O AWS CLI é ideal para executar comandos simples de forma rápida e direta."
+      },
+      {
+        "texto": "Quando você precisa de suporte para múltiplas linguagens de programação",
+        "explicacao": "Incorreto. O SDK oferece suporte a várias linguagens, enquanto o AWS CLI é específico para linha de comando."
+      },
+      {
+        "texto": "Quando você deseja construir aplicações complexas",
+        "explicacao": "Incorreto. O SDK é mais adequado para construir aplicações complexas."
+      }
+    ],
+    "respostaCorreta": "Quando deseja executar comandos simples rapidamente",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o benefício de usar o AWS SDK para JavaScript em vez de fazer chamadas diretas à API REST?",
+    "opcoes": [
+      {
+        "texto": "Simplificação de chamadas assíncronas",
+        "explicacao": "Correto! O AWS SDK para JavaScript simplifica a realização de chamadas assíncronas."
+      },
+      {
+        "texto": "Eliminação total de erros",
+        "explicacao": "Incorreto. O SDK não elimina a possibilidade de erros, mas ajuda a gerenciá-los melhor."
+      },
+      {
+        "texto": "Necessidade de configuração manual de autenticação",
+        "explicacao": "Incorreto. O SDK gerencia a autenticação automaticamente em muitos casos."
+      },
+      {
+        "texto": "Requerimento de instalação de servidor local",
+        "explicacao": "Incorreto. O AWS SDK pode ser usado no cliente sem a necessidade de um servidor local."
+      }
+    ],
+    "respostaCorreta": "Simplificação de chamadas assíncronas",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em qual cenário seria mais apropriado utilizar o Amazon API Gateway?",
+    "opcoes": [
+      {
+        "texto": "Quando se deseja executar tarefas em segundo plano",
+        "explicacao": "Incorreto. O Amazon API Gateway não é destinado a tarefas em segundo plano."
+      },
+      {
+        "texto": "Quando se precisa expor APIs REST para aplicações móveis",
+        "explicacao": "Correto! O Amazon API Gateway é ideal para expor APIs REST para aplicações móveis e web."
+      },
+      {
+        "texto": "Quando se deseja gerenciar instâncias do EC2",
+        "explicacao": "Incorreto. O API Gateway não é utilizado para gerenciar instâncias EC2."
+      },
+      {
+        "texto": "Quando se precisa de armazenamento de dados",
+        "explicacao": "Incorreto. O API Gateway não é um serviço de armazenamento de dados."
+      }
+    ],
+    "respostaCorreta": "Quando se precisa expor APIs REST para aplicações móveis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma razão para usar acesso programático na AWS?",
+    "opcoes": [
+      {
+        "texto": "Acesso a recursos com autenticação manual",
+        "explicacao": "Incorreto. O acesso programático usa credenciais e não requer autenticação manual constante."
+      },
+      {
+        "texto": "Execução de operações em larga escala",
+        "explicacao": "Correto! O acesso programático permite a execução de operações em larga escala facilmente."
+      },
+      {
+        "texto": "Navegação gráfica por recursos",
+        "explicacao": "Incorreto. O acesso programático não envolve navegação gráfica."
+      },
+      {
+        "texto": "Limitação de operações a uma única região",
+        "explicacao": "Incorreto. O acesso programático pode ser usado em várias regiões."
+      }
+    ],
+    "respostaCorreta": "Execução de operações em larga escala",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma desvantagem de usar credenciais de acesso programático em vez de acesso pelo Console de Gerenciamento da AWS?",
+    "opcoes": [
+      {
+        "texto": "Maior risco de exposição de credenciais",
+        "explicacao": "Correto! O uso de credenciais programáticas aumenta o risco de exposição se não forem gerenciadas corretamente."
+      },
+      {
+        "texto": "Menor capacidade de automação",
+        "explicacao": "Incorreto. O acesso programático é geralmente mais adequado para automação."
+      },
+      {
+        "texto": "Exigência de mais etapas para operações simples",
+        "explicacao": "Incorreto. O acesso programático geralmente facilita operações simples em comparação ao uso manual."
+      },
+      {
+        "texto": "Limitação de acesso a uma única conta",
+        "explicacao": "Incorreto. As credenciais podem ser usadas em múltiplas contas se configuradas adequadamente."
+      }
+    ],
+    "respostaCorreta": "Maior risco de exposição de credenciais",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando é mais apropriado usar a autenticação de múltiplos fatores (MFA) com acesso programático?",
+    "opcoes": [
+      {
+        "texto": "Sempre que uma operação crítica for realizada",
+        "explicacao": "Correto! MFA deve ser usada em operações críticas para aumentar a segurança."
+      },
+      {
+        "texto": "Somente em ambientes de desenvolvimento",
+        "explicacao": "Incorreto. A MFA deve ser usada em todos os ambientes, não apenas em desenvolvimento."
+      },
+      {
+        "texto": "Quando se utiliza o Console de Gerenciamento",
+        "explicacao": "Incorreto. A MFA também deve ser considerada para acesso programático."
+      },
+      {
+        "texto": "Apenas para usuários não administrativos",
+        "explicacao": "Incorreto. Todos os usuários, incluindo administradores, devem usar MFA."
+      }
+    ],
+    "respostaCorreta": "Sempre que uma operação crítica for realizada",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais motivos para usar o IAM Roles em vez de credenciais estáticas?",
+    "opcoes": [
+      {
+        "texto": "Facilidade de gerenciamento de senhas",
+        "explicacao": "Incorreto. IAM Roles não gerenciam senhas, mas evitam o uso de credenciais estáticas."
+      },
+      {
+        "texto": "Melhoria na segurança ao evitar credenciais estáticas",
+        "explicacao": "Correto! Usar IAM Roles melhora a segurança ao evitar o uso de credenciais estáticas que podem ser expostas."
+      },
+      {
+        "texto": "Acesso apenas a recursos públicos",
+        "explicacao": "Incorreto. IAM Roles podem ser usados para acessar recursos privados também."
+      },
+      {
+        "texto": "Redução do tempo de execução das operações",
+        "explicacao": "Incorreto. O tempo de execução pode não ser afetado diretamente pela escolha entre IAM Roles e credenciais estáticas."
+      }
+    ],
+    "respostaCorreta": "Melhoria na segurança ao evitar credenciais estáticas",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual abordagem deve ser tomada para gerenciar o acesso programático de maneira segura?",
+    "opcoes": [
+      {
+        "texto": "Usar credenciais de longo prazo para todos os usuários",
+        "explicacao": "Incorreto. Credenciais de longo prazo aumentam o risco de exposição."
+      },
+      {
+        "texto": "Implementar práticas de segurança como rotação de credenciais e uso de MFA",
+        "explicacao": "Correto! A rotação de credenciais e o uso de MFA aumentam a segurança do acesso programático."
+      },
+      {
+        "texto": "Evitar o uso de logs para monitoramento",
+        "explicacao": "Incorreto. O monitoramento por meio de logs é essencial para identificar acessos não autorizados."
+      },
+      {
+        "texto": "Conceder acesso irrestrito a todos os serviços",
+        "explicacao": "Incorreto. O acesso deve ser restrito apenas ao necessário para as funções do usuário."
+      }
+    ],
+    "respostaCorreta": "Implementar práticas de segurança como rotação de credenciais e uso de MFA",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a melhor prática ao utilizar credenciais de acesso programático na AWS?",
+    "opcoes": [
+      {
+        "texto": "Conservar as credenciais em um local seguro e acessível",
+        "explicacao": "Correto! As credenciais devem ser armazenadas de forma segura para prevenir acesso não autorizado."
+      },
+      {
+        "texto": "Compartilhar credenciais entre usuários da equipe",
+        "explicacao": "Incorreto. As credenciais não devem ser compartilhadas entre usuários para manter a segurança."
+      },
+      {
+        "texto": "Usar credenciais de longo prazo em vez de temporárias",
+        "explicacao": "Incorreto. O uso de credenciais temporárias é mais seguro."
+      },
+      {
+        "texto": "Documentar credenciais em um arquivo de texto simples",
+        "explicacao": "Incorreto. As credenciais não devem ser armazenadas em texto simples para evitar exposição."
+      }
+    ],
+    "respostaCorreta": "Conservar as credenciais em um local seguro e acessível",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
