@@ -17832,5 +17832,3289 @@
     ],
     "dominio": "Segurança e conformidade",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes ações podem ser realizadas apenas pelo usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Alterar a configuração de autenticação multifator (MFA)",
+        "explicacao": "Somente o usuário-raiz pode modificar as configurações de MFA para a conta."
+      },
+      {
+        "texto": "Criar usuários IAM com permissões administrativas",
+        "explicacao": "Usuários IAM podem ser criados por qualquer usuário com as permissões adequadas, não apenas pelo usuário-raiz."
+      },
+      {
+        "texto": "Modificar as configurações de faturamento da conta",
+        "explicacao": "Apenas o usuário-raiz pode acessar e modificar as configurações de faturamento da conta AWS."
+      },
+      {
+        "texto": "Acessar todas as regiões da AWS sem restrições",
+        "explicacao": "Embora o usuário-raiz tenha acesso irrestrito, outros usuários IAM podem ter permissões restritas por região."
+      }
+    ],
+    "respostaCorreta": [
+      "Alterar a configuração de autenticação multifator (MFA)",
+      "Modificar as configurações de faturamento da conta"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais tarefas são exclusivas do usuário-raiz na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Excluir a conta AWS",
+        "explicacao": "A exclusão de uma conta AWS pode ser realizada apenas pelo usuário-raiz."
+      },
+      {
+        "texto": "Criar grupos de segurança",
+        "explicacao": "Grupos de segurança podem ser criados por qualquer usuário com as permissões adequadas, não só pelo usuário-raiz."
+      },
+      {
+        "texto": "Alterar o endereço de e-mail associado à conta",
+        "explicacao": "A alteração do e-mail associado à conta é uma ação que somente o usuário-raiz pode realizar."
+      },
+      {
+        "texto": "Gerenciar as políticas de IAM",
+        "explicacao": "As políticas de IAM podem ser gerenciadas por qualquer usuário com permissões apropriadas, não exclusivamente pelo usuário-raiz."
+      }
+    ],
+    "respostaCorreta": [
+      "Exigir a conta AWS",
+      "Alterar o endereço de e-mail associado à conta"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes operações são restritas ao usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Configurar a autenticação para a conta",
+        "explicacao": "Configurações de autenticação da conta, como MFA, podem ser alteradas apenas pelo usuário-raiz."
+      },
+      {
+        "texto": "Desativar usuários IAM",
+        "explicacao": "Usuários IAM podem ser desativados por outros usuários com as permissões necessárias."
+      },
+      {
+        "texto": "Modificar as informações de pagamento",
+        "explicacao": "Somente o usuário-raiz pode modificar informações de pagamento e faturamento da conta."
+      },
+      {
+        "texto": "Alterar as permissões de outros usuários IAM",
+        "explicacao": "As permissões de usuários IAM podem ser alteradas por qualquer usuário com as permissões apropriadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Configurar a autenticação para a conta",
+      "Modificar as informações de pagamento"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais atividades devem ser realizadas exclusivamente pelo usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a conta de faturamento e cobrança",
+        "explicacao": "Somente o usuário-raiz tem a capacidade de gerenciar as configurações de faturamento e cobrança da conta."
+      },
+      {
+        "texto": "Desativar recursos do EC2",
+        "explicacao": "Recursos do EC2 podem ser desativados por qualquer usuário com permissões adequadas."
+      },
+      {
+        "texto": "Alterar a configuração de acesso à conta",
+        "explicacao": "Alterar as configurações de acesso à conta, como e-mail e MFA, é uma tarefa exclusiva do usuário-raiz."
+      },
+      {
+        "texto": "Criar instâncias do Amazon RDS",
+        "explicacao": "Instâncias do Amazon RDS podem ser criadas por qualquer usuário com permissões adequadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a conta de faturamento e cobrança",
+      "Alterar a configuração de acesso à conta"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes ações podem ser realizadas apenas pelo usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Reiniciar a conta AWS após a suspensão",
+        "explicacao": "Reiniciar ou recuperar uma conta suspensa pode ser feito apenas pelo usuário-raiz."
+      },
+      {
+        "texto": "Alterar as regras de grupo de segurança",
+        "explicacao": "Regras de grupo de segurança podem ser alteradas por qualquer usuário com as permissões apropriadas."
+      },
+      {
+        "texto": "Modificar os termos de serviço da AWS",
+        "explicacao": "Somente o usuário-raiz tem a capacidade de aceitar ou modificar os termos de serviço."
+      },
+      {
+        "texto": "Criar funções IAM",
+        "explicacao": "Funções IAM podem ser criadas por qualquer usuário com as permissões apropriadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Reiniciar a conta AWS após a suspensão",
+      "Modificar os termos de serviço da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais tarefas são exclusivamente permitidas ao usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar chaves de acesso para o usuário-raiz",
+        "explicacao": "Somente o usuário-raiz pode gerenciar as chaves de acesso associadas à conta."
+      },
+      {
+        "texto": "Alterar as configurações de segurança para o IAM",
+        "explicacao": "Configurações de segurança para IAM podem ser alteradas por usuários IAM com as permissões necessárias."
+      },
+      {
+        "texto": "Desativar a conta AWS",
+        "explicacao": "Desativar a conta AWS pode ser feito apenas pelo usuário-raiz."
+      },
+      {
+        "texto": "Criar usuários de serviço",
+        "explicacao": "Usuários de serviço podem ser criados por qualquer usuário com as permissões apropriadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar chaves de acesso para o usuário-raiz",
+      "Desativar a conta AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ações podem ser executadas exclusivamente pelo usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Atualizar informações de contato da conta",
+        "explicacao": "Somente o usuário-raiz pode atualizar informações de contato associadas à conta."
+      },
+      {
+        "texto": "Criar backups de dados do S3",
+        "explicacao": "Backups de dados do S3 podem ser realizados por qualquer usuário com permissões apropriadas."
+      },
+      {
+        "texto": "Alterar configurações de monitoramento de faturamento",
+        "explicacao": "Somente o usuário-raiz pode alterar configurações relacionadas ao monitoramento de faturamento."
+      },
+      {
+        "texto": "Configurar alarmes do Amazon CloudWatch",
+        "explicacao": "Alarmes do CloudWatch podem ser configurados por usuários com as permissões necessárias."
+      }
+    ],
+    "respostaCorreta": [
+      "Atualizar informações de contato da conta",
+      "Alterar configurações de monitoramento de faturamento"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais atividades podem ser realizadas apenas pelo usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Mudar o nome da conta AWS",
+        "explicacao": "Mudar o nome da conta é uma tarefa que somente o usuário-raiz pode realizar."
+      },
+      {
+        "texto": "Iniciar ou parar instâncias do EC2",
+        "explicacao": "Instâncias do EC2 podem ser iniciadas ou paradas por qualquer usuário com as permissões adequadas."
+      },
+      {
+        "texto": "Gerenciar assinaturas do serviço",
+        "explicacao": "Gerenciar assinaturas de serviço é uma tarefa exclusiva do usuário-raiz."
+      },
+      {
+        "texto": "Configurar a rede do VPC",
+        "explicacao": "A configuração da rede do VPC pode ser feita por usuários com as permissões necessárias."
+      }
+    ],
+    "respostaCorreta": [
+      "Mudar o nome da conta AWS",
+      "Gerenciar assinaturas do serviço"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ações são restritas ao usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Conceder acesso ao suporte técnico da AWS",
+        "explicacao": "O acesso ao suporte técnico da AWS pode ser gerenciado apenas pelo usuário-raiz."
+      },
+      {
+        "texto": "Desativar usuários IAM",
+        "explicacao": "Usuários IAM podem ser desativados por qualquer um que tenha as permissões necessárias."
+      },
+      {
+        "texto": "Alterar os dados de pagamento da conta",
+        "explicacao": "A alteração dos dados de pagamento é uma ação exclusiva do usuário-raiz."
+      },
+      {
+        "texto": "Configurar grupos de segurança",
+        "explicacao": "Grupos de segurança podem ser configurados por qualquer usuário com permissões adequadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Conceder acesso ao suporte técnico da AWS",
+      "Alterar os dados de pagamento da conta"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do princípio de menor privilégio na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Conceder a todos os usuários acesso total a todos os recursos.",
+        "explicacao": "Isso contraria o princípio de menor privilégio, pois concede mais acesso do que o necessário."
+      },
+      {
+        "texto": "Conceder aos usuários apenas as permissões necessárias para realizar suas tarefas.",
+        "explicacao": "O princípio de menor privilégio assegura que os usuários tenham acesso apenas ao que precisam."
+      },
+      {
+        "texto": "Facilitar a auditoria de acessos e ações dentro da conta.",
+        "explicacao": "Limitar os acessos ajuda a tornar a auditoria de atividades mais eficiente e eficaz."
+      },
+      {
+        "texto": "Eliminar completamente as permissões de todos os usuários.",
+        "explicacao": "Eliminar todas as permissões não é prático nem seguro; o objetivo é limitar, não eliminar."
+      }
+    ],
+    "respostaCorreta": [
+      "Conceder aos usuários apenas as permissões necessárias para realizar suas tarefas.",
+      "Facilitar a auditoria de acessos e ações dentro da conta."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as duas principais abordagens para implementar o princípio de menor privilégio na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Criar políticas gerenciadas específicas para cada grupo.",
+        "explicacao": "Políticas gerenciadas permitem uma melhor gestão e controle de permissões."
+      },
+      {
+        "texto": "Conceder permissões amplas a todos os usuários para simplificar a gestão.",
+        "explicacao": "Isso não é consistente com o princípio de menor privilégio."
+      },
+      {
+        "texto": "Revisar regularmente as permissões atribuídas a usuários e grupos.",
+        "explicacao": "Revisar as permissões ajuda a garantir que apenas as necessárias sejam mantidas."
+      },
+      {
+        "texto": "Ignorar as políticas personalizadas em favor de políticas gerenciadas.",
+        "explicacao": "Ambas as políticas têm seu lugar; as personalizadas são úteis para requisitos específicos."
+      }
+    ],
+    "respostaCorreta": [
+      "Criar políticas gerenciadas específicas para cada grupo.",
+      "Revisar regularmente as permissões atribuídas a usuários e grupos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma prática recomendada ao criar políticas personalizadas? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Conceder permissões específicas em vez de permissões gerais.",
+        "explicacao": "Permissões específicas ajudam a manter o controle e a segurança."
+      },
+      {
+        "texto": "Adicionar permissões de acesso total para evitar problemas de funcionalidade.",
+        "explicacao": "Isso vai contra o princípio de menor privilégio e pode criar vulnerabilidades."
+      },
+      {
+        "texto": "Usar condições para restringir o acesso a ações sensíveis.",
+        "explicacao": "Condições ajudam a limitar quando e como as permissões podem ser utilizadas."
+      },
+      {
+        "texto": "Aplicar a mesma política a todos os usuários, independentemente de suas funções.",
+        "explicacao": "Isso não é recomendável, pois cada usuário deve ter acesso apenas ao que é necessário para sua função."
+      }
+    ],
+    "respostaCorreta": [
+      "Conceder permissões específicas em vez de permissões gerais.",
+      "Usar condições para restringir o acesso a ações sensíveis."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que deve ser considerado ao definir grupos e usuários na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Agrupar usuários com base em suas funções e responsabilidades.",
+        "explicacao": "Isso facilita a gestão de permissões de forma coerente."
+      },
+      {
+        "texto": "Permitir que todos os usuários acessem todos os recursos sem restrições.",
+        "explicacao": "Isso contraria o princípio de menor privilégio e pode resultar em problemas de segurança."
+      },
+      {
+        "texto": "Aplicar políticas de acesso a grupos em vez de usuários individuais sempre que possível.",
+        "explicacao": "Essa abordagem simplifica a gestão de permissões."
+      },
+      {
+        "texto": "Ignorar a revisão de acessos após a atribuição inicial.",
+        "explicacao": "É crucial revisar regularmente os acessos para garantir a conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Agrupar usuários com base em suas funções e responsabilidades.",
+      "Aplicar políticas de acesso a grupos em vez de usuários individuais sempre que possível."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de usar políticas gerenciadas em vez de políticas personalizadas? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Facilidade de gerenciamento e atualização.",
+        "explicacao": "Políticas gerenciadas podem ser atualizadas sem necessidade de alterar configurações individuais."
+      },
+      {
+        "texto": "Necessidade de criar uma política para cada usuário.",
+        "explicacao": "Políticas gerenciadas eliminam essa necessidade, permitindo um gerenciamento mais eficiente."
+      },
+      {
+        "texto": "Acesso irrestrito a todos os recursos.",
+        "explicacao": "As políticas gerenciadas não garantem acesso irrestrito; elas devem ser específicas."
+      },
+      {
+        "texto": "Maior visibilidade de quem está acessando os recursos.",
+        "explicacao": "Políticas gerenciadas podem ser configuradas para permitir melhor visibilidade e controle."
+      }
+    ],
+    "respostaCorreta": [
+      "Facilidade de gerenciamento e atualização.",
+      "Necessidade de criar uma política para cada usuário."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações é verdadeira sobre políticas personalizadas? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Elas são sempre mais seguras do que políticas gerenciadas.",
+        "explicacao": "Não é verdade; a segurança depende da implementação e da revisão das permissões."
+      },
+      {
+        "texto": "Podem ser criadas para atender a necessidades específicas de negócios.",
+        "explicacao": "Políticas personalizadas permitem maior flexibilidade para atender a requisitos específicos."
+      },
+      {
+        "texto": "Elas não podem incluir condições.",
+        "explicacao": "Na verdade, políticas personalizadas podem incluir condições para maior controle."
+      },
+      {
+        "texto": "Elas são aplicadas automaticamente a todos os usuários na conta.",
+        "explicacao": "Políticas personalizadas devem ser atribuídas explicitamente a grupos ou usuários."
+      }
+    ],
+    "respostaCorreta": [
+      "Podem ser criadas para atender a necessidades específicas de negócios.",
+      "Elas não podem incluir condições."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das opções abaixo descreve corretamente um grupo na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Um grupo pode conter múltiplos usuários.",
+        "explicacao": "Grupos são usados para gerenciar permissões para vários usuários de uma só vez."
+      },
+      {
+        "texto": "Um grupo pode ser atribuído a políticas de forma individualizada.",
+        "explicacao": "Os grupos podem ter políticas aplicadas a eles, mas não são atribuídos individualmente."
+      },
+      {
+        "texto": "Grupos não têm permissões próprias, apenas herdadas de políticas associadas.",
+        "explicacao": "Grupos em si não têm permissões; as permissões são atribuídas através de políticas."
+      },
+      {
+        "texto": "Um grupo pode ser criado apenas para usuários do IAM.",
+        "explicacao": "Grupos podem ser usados apenas para usuários do IAM, não para recursos."
+      }
+    ],
+    "respostaCorreta": [
+      "Um grupo pode conter múltiplos usuários.",
+      "Grupos não têm permissões próprias, apenas herdadas de políticas associadas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Ao criar uma política personalizada, qual das seguintes práticas deve ser seguida? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Incluir permissões excessivas para evitar erros de acesso.",
+        "explicacao": "Isso vai contra o princípio de menor privilégio e pode comprometer a segurança."
+      },
+      {
+        "texto": "Documentar claramente a finalidade da política.",
+        "explicacao": "Documentação clara ajuda na revisão e auditoria de permissões."
+      },
+      {
+        "texto": "Limitar o uso de ações e recursos a apenas aqueles necessários.",
+        "explicacao": "Isso é fundamental para garantir que a política siga o princípio de menor privilégio."
+      },
+      {
+        "texto": "Aprovar políticas sem revisão.",
+        "explicacao": "Revisões são essenciais para garantir que as políticas sejam seguras e adequadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Documentar claramente a finalidade da política.",
+      "Limitar o uso de ações e recursos a apenas aqueles necessários."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a função principal das políticas gerenciadas pela AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Prover permissões para serviços da AWS de forma padronizada.",
+        "explicacao": "Políticas gerenciadas pela AWS são projetadas para oferecer permissões consistentes e seguras."
+      },
+      {
+        "texto": "Atribuir acesso irrestrito a todos os usuários na conta.",
+        "explicacao": "Isso não é correto, pois as políticas gerenciadas devem ser específicas e seguras."
+      },
+      {
+        "texto": "Facilitar o gerenciamento de permissões em larga escala.",
+        "explicacao": "Essas políticas ajudam a gerenciar permissões de forma mais eficiente para múltiplos usuários."
+      },
+      {
+        "texto": "Impedir que os usuários acessem quaisquer serviços da AWS.",
+        "explicacao": "Políticas gerenciadas não impedem acesso; elas definem quais serviços podem ser acessados."
+      }
+    ],
+    "respostaCorreta": [
+      "Prover permissões para serviços da AWS de forma padronizada.",
+      "Facilitar o gerenciamento de permissões em larga escala."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal função da autenticação com multifator (MFA) na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Adicionar uma camada extra de segurança ao processo de autenticação.",
+        "explicacao": "A MFA exige que os usuários forneçam uma segunda forma de verificação além da senha."
+      },
+      {
+        "texto": "Permitir que todos os usuários acessem todos os recursos da AWS.",
+        "explicacao": "Isso não é correto; a MFA não altera as permissões de acesso, mas sim o processo de autenticação."
+      },
+      {
+        "texto": "Reduzir a necessidade de senhas complexas.",
+        "explicacao": "A MFA não elimina a necessidade de senhas, mas a complementa com um segundo fator."
+      },
+      {
+        "texto": "Aumentar a resistência a ataques de phishing.",
+        "explicacao": "A MFA ajuda a proteger contra o comprometimento da conta, tornando os ataques de phishing menos eficazes."
+      }
+    ],
+    "respostaCorreta": [
+      "Adicionar uma camada extra de segurança ao processo de autenticação.",
+      "Aumentar a resistência a ataques de phishing."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o IAM Identity Center pode facilitar a gestão de identidade em ambientes de múltiplas contas? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Permitir a configuração de autenticação única (SSO) para usuários em várias contas.",
+        "explicacao": "O IAM Identity Center fornece SSO, simplificando a gestão de acesso em múltiplas contas."
+      },
+      {
+        "texto": "Conceder automaticamente acesso total a todas as contas sem configuração adicional.",
+        "explicacao": "Isso não é correto; o acesso deve ser configurado de forma adequada."
+      },
+      {
+        "texto": "Integrar com provedores de identidade externos para uma gestão centralizada.",
+        "explicacao": "A integração com provedores de identidade externos permite uma gestão de identidade mais eficiente."
+      },
+      {
+        "texto": "Impedir a criação de novos usuários em contas individuais.",
+        "explicacao": "O IAM Identity Center não impede a criação de usuários, mas facilita sua gestão."
+      }
+    ],
+    "respostaCorreta": [
+      "Permitir a configuração de autenticação única (SSO) para usuários em várias contas.",
+      "Integrar com provedores de identidade externos para uma gestão centralizada."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre MFA na AWS é verdadeira? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "A MFA pode ser habilitada para usuários do IAM e para a conta raiz.",
+        "explicacao": "Ambos podem usar MFA para aumentar a segurança das credenciais de acesso."
+      },
+      {
+        "texto": "Uma vez habilitada a MFA, ela não pode ser desabilitada.",
+        "explicacao": "A MFA pode ser desabilitada, mas isso não é uma prática recomendada."
+      },
+      {
+        "texto": "A MFA é obrigatória para todos os usuários da AWS por padrão.",
+        "explicacao": "A MFA não é obrigatória por padrão, mas é altamente recomendada."
+      },
+      {
+        "texto": "A MFA deve ser configurada usando um aplicativo de autenticação ou um dispositivo de hardware.",
+        "explicacao": "A MFA pode ser configurada com um aplicativo de autenticação ou um token de hardware."
+      }
+    ],
+    "respostaCorreta": [
+      "A MFA pode ser habilitada para usuários do IAM e para a conta raiz.",
+      "A MFA deve ser configurada usando um aplicativo de autenticação ou um dispositivo de hardware."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios do uso de perfis do IAM para gerenciar o acesso entre contas? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Permitir que um único conjunto de credenciais acesse recursos em várias contas.",
+        "explicacao": "Perfis do IAM permitem que as mesmas credenciais sejam usadas em diferentes contas."
+      },
+      {
+        "texto": "Garantir que todos os usuários tenham acesso irrestrito a todas as contas.",
+        "explicacao": "Isso não é correto; as permissões devem ser gerenciadas cuidadosamente."
+      },
+      {
+        "texto": "Facilitar a atribuição de permissões específicas de acordo com a função do usuário.",
+        "explicacao": "Perfis do IAM podem ser usados para atribuir permissões de forma específica e controlada."
+      },
+      {
+        "texto": "Eliminar a necessidade de autenticação para usuários entre contas.",
+        "explicacao": "A autenticação ainda é necessária; perfis facilitam o acesso, mas não o eliminam."
+      }
+    ],
+    "respostaCorreta": [
+      "Permitir que um único conjunto de credenciais acesse recursos em várias contas.",
+      "Facilitar a atribuição de permissões específicas de acordo com a função do usuário."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma boa prática ao implementar MFA na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Habilitar MFA apenas para usuários com acesso a informações sensíveis.",
+        "explicacao": "Isso é uma boa prática, mas a MFA deve ser considerada para todos os usuários."
+      },
+      {
+        "texto": "Usar MFA com dispositivos de hardware sempre que possível.",
+        "explicacao": "Dispositivos de hardware podem fornecer um nível adicional de segurança."
+      },
+      {
+        "texto": "Desabilitar MFA para contas que não são frequentemente usadas.",
+        "explicacao": "Isso é inseguro; todas as contas devem ter MFA habilitada, independentemente da frequência de uso."
+      },
+      {
+        "texto": "Fornecer treinamento aos usuários sobre a importância da MFA.",
+        "explicacao": "Educar os usuários sobre MFA ajuda a aumentar a segurança e a conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar MFA apenas para usuários com acesso a informações sensíveis.",
+      "Fornecer treinamento aos usuários sobre a importância da MFA."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais métodos podem ser usados para autenticação multifator na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Aplicativos de autenticação como Google Authenticator.",
+        "explicacao": "Esses aplicativos geram códigos temporários que podem ser usados como um segundo fator de autenticação."
+      },
+      {
+        "texto": "Respostas a perguntas de segurança previamente definidas.",
+        "explicacao": "Embora sejam uma forma de autenticação, não são consideradas um segundo fator seguro."
+      },
+      {
+        "texto": "Tokens de hardware como YubiKey.",
+        "explicacao": "Tokens de hardware oferecem um método seguro de MFA ao gerar códigos de autenticação."
+      },
+      {
+        "texto": "Envio de senhas por e-mail como segundo fator.",
+        "explicacao": "O envio de senhas por e-mail não é seguro e não é uma prática recomendada para MFA."
+      }
+    ],
+    "respostaCorreta": [
+      "Aplicativos de autenticação como Google Authenticator.",
+      "Tokens de hardware como YubiKey."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as implicações da implementação de IAM Identity Center para uma organização? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Melhora a segurança através da gestão centralizada de identidade.",
+        "explicacao": "A gestão centralizada de identidade ajuda a aumentar a segurança e a conformidade."
+      },
+      {
+        "texto": "Elimina a necessidade de autenticação para todos os usuários.",
+        "explicacao": "Isso não é correto; a autenticação ainda é necessária para acessar recursos."
+      },
+      {
+        "texto": "Facilita a conformidade com regulamentações de segurança.",
+        "explicacao": "A centralização da gestão de identidade pode ajudar a atender a requisitos de conformidade."
+      },
+      {
+        "texto": "Garante que todos os usuários tenham o mesmo nível de acesso.",
+        "explicacao": "Isso não é verdade; os níveis de acesso podem variar com base em funções."
+      }
+    ],
+    "respostaCorreta": [
+      "Melhora a segurança através da gestão centralizada de identidade.",
+      "Facilita a conformidade com regulamentações de segurança."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios de usar autenticação multifator (MFA) com o IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Melhorar a proteção contra acesso não autorizado.",
+        "explicacao": "A MFA adiciona uma camada adicional de segurança, tornando mais difícil para invasores acessarem contas."
+      },
+      {
+        "texto": "Eliminar a necessidade de gerenciar senhas complexas.",
+        "explicacao": "A MFA não elimina a necessidade de senhas; ela apenas complementa o processo de autenticação."
+      },
+      {
+        "texto": "Aumentar a confiança na segurança das credenciais de acesso.",
+        "explicacao": "A MFA aumenta a segurança geral e a confiança nas credenciais utilizadas."
+      },
+      {
+        "texto": "Facilitar o acesso de todos os usuários a todos os recursos da AWS.",
+        "explicacao": "Isso não é correto; a MFA não altera as permissões de acesso aos recursos."
+      }
+    ],
+    "respostaCorreta": [
+      "Melhorar a proteção contra acesso não autorizado.",
+      "Aumentar a confiança na segurança das credenciais de acesso."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a finalidade dos perfis do IAM em uma conta AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Definir um conjunto de permissões para um grupo específico de usuários.",
+        "explicacao": "Perfis do IAM podem ser usados para definir permissões específicas para usuários ou serviços."
+      },
+      {
+        "texto": "Atribuir acesso irrestrito a todos os usuários na conta.",
+        "explicacao": "Isso não é correto; os perfis devem ser configurados de forma segura."
+      },
+      {
+        "texto": "Facilitar a gestão de identidades e acessos em ambientes de múltiplas contas.",
+        "explicacao": "Perfis do IAM ajudam a gerenciar o acesso de maneira centralizada em várias contas."
+      },
+      {
+        "texto": "Impedir que usuários acessem recursos fora de sua conta.",
+        "explicacao": "Os perfis não impedem o acesso; eles definem quais permissões são concedidas."
+      }
+    ],
+    "respostaCorreta": [
+      "Definir um conjunto de permissões para um grupo específico de usuários.",
+      "Facilitar a gestão de identidades e acessos em ambientes de múltiplas contas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes métodos de autenticação podem ser usados na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Senhas de usuário do IAM.",
+        "explicacao": "As senhas de usuário do IAM são um método padrão de autenticação na AWS."
+      },
+      {
+        "texto": "Autenticação por meio de tokens de autenticação de aplicativos.",
+        "explicacao": "Tokens de autenticação gerados por aplicativos de autenticação são usados como um fator adicional."
+      },
+      {
+        "texto": "Autenticação por meio de impressões digitais.",
+        "explicacao": "A AWS não oferece suporte direto para autenticação por impressões digitais, mas isso pode ser implementado em soluções de terceiros."
+      },
+      {
+        "texto": "Apenas senhas complexas.",
+        "explicacao": "Senhas complexas são necessárias, mas não são o único método de autenticação disponível."
+      }
+    ],
+    "respostaCorreta": [
+      "Senhas de usuário do IAM.",
+      "Autenticação por meio de tokens de autenticação de aplicativos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o propósito da autenticação multifator (MFA) na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Adicionar uma camada extra de segurança ao processo de login.",
+        "explicacao": "A MFA requer que os usuários forneçam um segundo fator de verificação além da senha."
+      },
+      {
+        "texto": "Eliminar a necessidade de usar senhas.",
+        "explicacao": "A MFA não elimina a necessidade de senhas; ela as complementa com um segundo fator."
+      },
+      {
+        "texto": "Proteger contra acesso não autorizado, mesmo se a senha for comprometida.",
+        "explicacao": "A MFA ajuda a proteger a conta, mesmo se as credenciais forem expostas."
+      },
+      {
+        "texto": "Permitir que os usuários acessem todos os recursos sem autenticação.",
+        "explicacao": "Isso não é correto; a MFA requer autenticação para acesso a recursos."
+      }
+    ],
+    "respostaCorreta": [
+      "Adicionar uma camada extra de segurança ao processo de login.",
+      "Proteger contra acesso não autorizado, mesmo se a senha for comprometida."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções são métodos de autenticação suportados pela AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Chaves de acesso do IAM.",
+        "explicacao": "As chaves de acesso são usadas para autenticação de APIs na AWS."
+      },
+      {
+        "texto": "Senhas de 4 dígitos.",
+        "explicacao": "A AWS exige senhas mais complexas e não permite senhas tão curtas."
+      },
+      {
+        "texto": "Autenticação com provedores de identidade federados.",
+        "explicacao": "A AWS permite que você use provedores de identidade federados para autenticação."
+      },
+      {
+        "texto": "Envio de senhas por SMS.",
+        "explicacao": "A autenticação via SMS não é uma prática recomendada e não é suportada diretamente pela AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Chaves de acesso do IAM.",
+      "Autenticação com provedores de identidade federados."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um benefício da autenticação baseada em tokens na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Melhorar a segurança ao evitar o armazenamento de senhas.",
+        "explicacao": "A autenticação baseada em tokens evita a necessidade de armazenar senhas, aumentando a segurança."
+      },
+      {
+        "texto": "Permitir acesso irrestrito a todos os recursos da AWS.",
+        "explicacao": "Isso não é correto; a autenticação baseada em tokens não altera as permissões de acesso."
+      },
+      {
+        "texto": "Facilitar a autenticação em aplicativos móveis.",
+        "explicacao": "Os tokens podem ser usados para autenticação em aplicativos móveis, melhorando a experiência do usuário."
+      },
+      {
+        "texto": "Eliminar completamente a necessidade de autenticação.",
+        "explicacao": "Isso não é verdade; a autenticação baseada em tokens ainda requer validação de identidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Melhorar a segurança ao evitar o armazenamento de senhas.",
+      "Facilitar a autenticação em aplicativos móveis."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um método de autenticação que a AWS não suporta diretamente? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Autenticação com biometria.",
+        "explicacao": "A AWS não oferece suporte direto para autenticação biométrica em seus serviços."
+      },
+      {
+        "texto": "Autenticação com chaves SSH.",
+        "explicacao": "A AWS suporta autenticação com chaves SSH para EC2."
+      },
+      {
+        "texto": "Autenticação por meio de SAML.",
+        "explicacao": "A AWS oferece suporte para autenticação via SAML."
+      },
+      {
+        "texto": "Autenticação multifator com tokens temporários.",
+        "explicacao": "A AWS suporta MFA com tokens temporários gerados por aplicativos."
+      }
+    ],
+    "respostaCorreta": [
+      "Autenticação com biometria."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é necessário para habilitar autenticação multifator (MFA) para um usuário do IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Um dispositivo de autenticação compatível, como um aplicativo de autenticação.",
+        "explicacao": "Um dispositivo de autenticação é necessário para gerar códigos de verificação."
+      },
+      {
+        "texto": "Um código de confirmação enviado por e-mail.",
+        "explicacao": "Isso não é uma prática recomendada; a MFA requer um segundo fator além da senha."
+      },
+      {
+        "texto": "Permissão do administrador da conta.",
+        "explicacao": "É necessário que um administrador configure a MFA para o usuário."
+      },
+      {
+        "texto": "Uma senha complexa para o usuário.",
+        "explicacao": "Embora senhas complexas sejam necessárias, isso não é suficiente para configurar a MFA."
+      }
+    ],
+    "respostaCorreta": [
+      "Um dispositivo de autenticação compatível, como um aplicativo de autenticação.",
+      "Permissão do administrador da conta."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais métodos de autenticação podem ser usados em conjunto com IAM para aumentar a segurança? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Autenticação multifator (MFA).",
+        "explicacao": "A MFA é uma prática recomendada para aumentar a segurança das contas do IAM."
+      },
+      {
+        "texto": "Autenticação por e-mail.",
+        "explicacao": "A autenticação por e-mail não é uma prática recomendada para autenticação na AWS."
+      },
+      {
+        "texto": "Chaves de acesso e chaves secretas.",
+        "explicacao": "As chaves de acesso são usadas para autenticação de API e devem ser geridas com segurança."
+      },
+      {
+        "texto": "Uso de senhas fracas.",
+        "explicacao": "Isso não é correto; senhas fracas comprometem a segurança e não devem ser usadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Autenticação multifator (MFA).",
+      "Chaves de acesso e chaves secretas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as finalidades principais do AWS Secrets Manager? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar credenciais de banco de dados e chaves de API.",
+        "explicacao": "O AWS Secrets Manager gerencia e protege credenciais e chaves de API, permitindo a rotação automática."
+      },
+      {
+        "texto": "Monitorar eventos de segurança em tempo real.",
+        "explicacao": "O AWS Secrets Manager não é utilizado para monitoramento de eventos de segurança."
+      },
+      {
+        "texto": "Rotacionar automaticamente segredos, como senhas.",
+        "explicacao": "O AWS Secrets Manager oferece rotação automática de segredos, como senhas e chaves de API."
+      },
+      {
+        "texto": "Proteger dados em repouso usando criptografia AES-256.",
+        "explicacao": "Embora o AWS Secrets Manager use criptografia, seu foco é a gestão de segredos, e não diretamente a proteção de dados em repouso."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar credenciais de banco de dados e chaves de API.",
+      "Rotacionar automaticamente segredos, como senhas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O AWS Systems Manager Parameter Store oferece quais funcionalidades? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Armazenamento seguro de valores confidenciais, como senhas.",
+        "explicacao": "O Systems Manager Parameter Store pode armazenar parâmetros confidenciais de forma segura."
+      },
+      {
+        "texto": "Execução de consultas SQL para bancos de dados gerenciados.",
+        "explicacao": "O Parameter Store não executa consultas SQL; ele armazena parâmetros de configuração e segredos."
+      },
+      {
+        "texto": "Integração com outras ferramentas AWS, como o EC2 e o Lambda.",
+        "explicacao": "O Parameter Store se integra com outros serviços da AWS para fornecer valores de configuração dinamicamente."
+      },
+      {
+        "texto": "Gerenciamento de backups de RDS.",
+        "explicacao": "O Parameter Store não é usado para gerenciar backups de RDS."
+      }
+    ],
+    "respostaCorreta": [
+      "Armazenamento seguro de valores confidenciais, como senhas.",
+      "Integração com outras ferramentas AWS, como o EC2 e o Lambda."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de usar o AWS Secrets Manager para gerenciar segredos? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Rotação automática de segredos sem impacto nas aplicações.",
+        "explicacao": "O AWS Secrets Manager permite a rotação automática de segredos sem impactar as aplicações que os utilizam."
+      },
+      {
+        "texto": "Detecção automática de violações de segurança.",
+        "explicacao": "O AWS Secrets Manager não é uma ferramenta de detecção de violações de segurança."
+      },
+      {
+        "texto": "Controle de acesso granular a segredos com políticas do IAM.",
+        "explicacao": "Você pode usar políticas do IAM para controlar o acesso a segredos armazenados no Secrets Manager."
+      },
+      {
+        "texto": "Criação de backups automáticos de segredos em várias regiões.",
+        "explicacao": "O Secrets Manager não cria backups automáticos de segredos em várias regiões, mas você pode gerenciar a replicação de segredos manualmente."
+      }
+    ],
+    "respostaCorreta": [
+      "Rotação automática de segredos sem impacto nas aplicações.",
+      "Controle de acesso granular a segredos com políticas do IAM."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre o AWS Secrets Manager e o AWS Systems Manager Parameter Store? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "O Secrets Manager oferece rotação automática de segredos.",
+        "explicacao": "O Secrets Manager fornece rotação automática de segredos, enquanto o Parameter Store não tem essa funcionalidade."
+      },
+      {
+        "texto": "O Parameter Store suporta somente dados não criptografados.",
+        "explicacao": "O Parameter Store pode armazenar dados criptografados, incluindo segredos."
+      },
+      {
+        "texto": "O Secrets Manager oferece integração nativa com bancos de dados para a rotação de credenciais.",
+        "explicacao": "O Secrets Manager tem integração nativa com bancos de dados, permitindo a rotação automática de credenciais."
+      },
+      {
+        "texto": "O Parameter Store permite gerenciar backups de segredos automaticamente.",
+        "explicacao": "O Parameter Store não oferece gerenciamento automático de backups de segredos."
+      }
+    ],
+    "respostaCorreta": [
+      "O Secrets Manager oferece rotação automática de segredos.",
+      "O Secrets Manager oferece integração nativa com bancos de dados para a rotação de credenciais."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ser usados para armazenar segredos de forma segura na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "AWS Secrets Manager.",
+        "explicacao": "O AWS Secrets Manager é especificamente projetado para armazenar e gerenciar segredos de forma segura."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "O Amazon RDS não é usado para armazenar segredos; ele é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "AWS Systems Manager Parameter Store.",
+        "explicacao": "O Systems Manager Parameter Store pode ser usado para armazenar segredos, como senhas, de forma segura."
+      },
+      {
+        "texto": "Amazon CloudFront.",
+        "explicacao": "O CloudFront é um serviço de entrega de conteúdo, não de armazenamento de segredos."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Secrets Manager.",
+      "AWS Systems Manager Parameter Store."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os casos de uso típicos do AWS Systems Manager Parameter Store? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Armazenar parâmetros de configuração para aplicativos em execução na AWS.",
+        "explicacao": "O Parameter Store é frequentemente usado para armazenar parâmetros de configuração que os aplicativos podem acessar dinamicamente."
+      },
+      {
+        "texto": "Gerenciar logs de auditoria e eventos de segurança.",
+        "explicacao": "O Parameter Store não é usado para gerenciamento de logs de auditoria."
+      },
+      {
+        "texto": "Fornecer integração com o EC2 e Lambda para recuperar configurações.",
+        "explicacao": "O Parameter Store se integra com EC2 e Lambda para fornecer parâmetros de configuração."
+      },
+      {
+        "texto": "Implementar políticas de conformidade e auditoria.",
+        "explicacao": "O Parameter Store não gerencia políticas de conformidade, mas sim parâmetros de configuração."
+      }
+    ],
+    "respostaCorreta": [
+      "Armazenar parâmetros de configuração para aplicativos em execução na AWS.",
+      "Fornecer integração com o EC2 e Lambda para recuperar configurações."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS Secrets Manager pode ajudar a manter segredos seguros? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Criptografando segredos usando o AWS KMS.",
+        "explicacao": "O Secrets Manager usa o AWS Key Management Service (KMS) para criptografar segredos."
+      },
+      {
+        "texto": "Armazenando segredos em texto claro para facilitar o acesso.",
+        "explicacao": "Segredos não devem ser armazenados em texto claro; eles são criptografados para segurança."
+      },
+      {
+        "texto": "Rotacionando segredos automaticamente para reduzir o risco de comprometimento.",
+        "explicacao": "O AWS Secrets Manager pode rotacionar automaticamente segredos, como senhas e chaves de API."
+      },
+      {
+        "texto": "Fornecendo auditoria e monitoramento de segredos.",
+        "explicacao": "Embora o Secrets Manager não forneça diretamente monitoramento, ele pode ser integrado com serviços de monitoramento como o CloudTrail."
+      }
+    ],
+    "respostaCorreta": [
+      "Criptografando segredos usando o AWS KMS.",
+      "Rotacionando segredos automaticamente para reduzir o risco de comprometimento."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das opções a seguir descrevem corretamente o uso do AWS Systems Manager? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Automatizar tarefas de gerenciamento de infraestrutura, como aplicar patches.",
+        "explicacao": "O AWS Systems Manager permite automatizar tarefas de gerenciamento de infraestrutura, como aplicação de patches."
+      },
+      {
+        "texto": "Armazenar dados de monitoramento de instâncias do EC2.",
+        "explicacao": "O Systems Manager não armazena dados de monitoramento; serviços como o CloudWatch são usados para isso."
+      },
+      {
+        "texto": "Gerenciar inventário de software e aplicativos em instâncias do EC2.",
+        "explicacao": "O Systems Manager pode gerenciar o inventário de software em instâncias EC2."
+      },
+      {
+        "texto": "Gerenciar permissões de IAM para usuários.",
+        "explicacao": "O Systems Manager não gerencia permissões de IAM."
+      }
+    ],
+    "respostaCorreta": [
+      "Automatizar tarefas de gerenciamento de infraestrutura, como aplicar patches.",
+      "Gerenciar inventário de software e aplicativos em instâncias do EC2."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais recursos de segurança estão incluídos no AWS Secrets Manager? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Rotação de chaves de API e credenciais automaticamente.",
+        "explicacao": "O AWS Secrets Manager pode rotacionar automaticamente chaves de API e credenciais."
+      },
+      {
+        "texto": "Geração automática de relatórios de conformidade.",
+        "explicacao": "O Secrets Manager não gera relatórios de conformidade automaticamente."
+      },
+      {
+        "texto": "Auditoria de acesso a segredos por meio do AWS CloudTrail.",
+        "explicacao": "O AWS CloudTrail pode ser usado para auditar o acesso a segredos no Secrets Manager."
+      },
+      {
+        "texto": "Gerenciamento de criptografia de dados em trânsito.",
+        "explicacao": "O Secrets Manager gerencia a criptografia de segredos em repouso e em trânsito."
+      }
+    ],
+    "respostaCorreta": [
+      "Rotação de chaves de API e credenciais automaticamente.",
+      "Auditoria de acesso a segredos por meio do AWS CloudTrail."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais funcionalidades o AWS Systems Manager Automation oferece? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Automatizar a aplicação de patches em instâncias do EC2.",
+        "explicacao": "O AWS Systems Manager Automation permite automatizar tarefas como a aplicação de patches em instâncias do EC2."
+      },
+      {
+        "texto": "Armazenar logs de acesso a recursos AWS.",
+        "explicacao": "O Systems Manager Automation não é responsável pelo armazenamento de logs de acesso; isso é feito por outros serviços."
+      },
+      {
+        "texto": "Automatizar execuções de tarefas com fluxos de trabalho predefinidos.",
+        "explicacao": "O Systems Manager Automation permite automatizar fluxos de trabalho para tarefas repetitivas com playbooks."
+      },
+      {
+        "texto": "Gerenciar permissões de usuários IAM para serviços AWS.",
+        "explicacao": "O Systems Manager Automation não gerencia permissões de IAM."
+      }
+    ],
+    "respostaCorreta": [
+      "Automatizar a aplicação de patches em instâncias do EC2.",
+      "Automatizar execuções de tarefas com fluxos de trabalho predefinidos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as práticas recomendadas para gerenciar chaves de acesso no AWS IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Desativar chaves de acesso não utilizadas.",
+        "explicacao": "Desativar ou excluir chaves de acesso não utilizadas é uma prática recomendada de segurança para reduzir riscos."
+      },
+      {
+        "texto": "Compartilhar as chaves de acesso entre vários usuários para simplificar o acesso.",
+        "explicacao": "As chaves de acesso nunca devem ser compartilhadas entre usuários, pois isso viola as melhores práticas de segurança."
+      },
+      {
+        "texto": "Rotacionar regularmente as chaves de acesso.",
+        "explicacao": "A rotação regular das chaves de acesso minimiza o risco de comprometimento."
+      },
+      {
+        "texto": "Armazenar chaves de acesso diretamente no código fonte.",
+        "explicacao": "Chaves de acesso nunca devem ser armazenadas diretamente no código fonte, pois isso aumenta o risco de exposição."
+      }
+    ],
+    "respostaCorreta": [
+      "Desativar chaves de acesso não utilizadas.",
+      "Rotacionar regularmente as chaves de acesso."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os componentes essenciais de uma política de senha forte no AWS IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Exigir um mínimo de 12 caracteres.",
+        "explicacao": "Senhas com um comprimento mínimo de 12 caracteres são mais difíceis de serem comprometidas."
+      },
+      {
+        "texto": "Permitir o uso de senhas comuns, como 'password123'.",
+        "explicacao": "O uso de senhas comuns deve ser evitado para melhorar a segurança."
+      },
+      {
+        "texto": "Forçar a rotação de senhas a cada 90 dias.",
+        "explicacao": "A rotação periódica de senhas, como a cada 90 dias, é uma prática recomendada de segurança."
+      },
+      {
+        "texto": "Permitir o reuso de senhas antigas.",
+        "explicacao": "Permitir o reuso de senhas reduz a segurança e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Exigir um mínimo de 12 caracteres.",
+      "Forçar a rotação de senhas a cada 90 dias."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das opções a seguir descreve corretamente uma prática recomendada para armazenar credenciais de forma segura? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Armazenar credenciais em um gerenciador de segredos, como o AWS Secrets Manager.",
+        "explicacao": "Gerenciadores de segredos, como o AWS Secrets Manager, são usados para armazenar credenciais de forma segura."
+      },
+      {
+        "texto": "Salvar credenciais em arquivos de configuração de código fonte.",
+        "explicacao": "Armazenar credenciais em arquivos de configuração de código fonte não é seguro e deve ser evitado."
+      },
+      {
+        "texto": "Utilizar variáveis de ambiente para armazenar credenciais temporárias.",
+        "explicacao": "O uso de variáveis de ambiente pode ser uma forma mais segura de armazenar credenciais temporárias."
+      },
+      {
+        "texto": "Anotar credenciais em um documento compartilhado.",
+        "explicacao": "Anotar credenciais em documentos compartilhados é uma prática insegura e deve ser evitada."
+      }
+    ],
+    "respostaCorreta": [
+      "Armazenar credenciais em um gerenciador de segredos, como o AWS Secrets Manager.",
+      "Utilizar variáveis de ambiente para armazenar credenciais temporárias."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as melhores práticas para implementar uma política de rotação de chaves de acesso? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Definir lembretes para a rotação de chaves de acesso em intervalos regulares.",
+        "explicacao": "Definir lembretes garante que as chaves de acesso sejam rotacionadas antes de expirar ou serem comprometidas."
+      },
+      {
+        "texto": "Usar sempre a mesma chave de acesso para múltiplos usuários.",
+        "explicacao": "Cada usuário deve ter suas próprias chaves de acesso para manter o controle e a segurança."
+      },
+      {
+        "texto": "Auditar o uso de chaves de acesso antigas antes de excluí-las.",
+        "explicacao": "Auditar o uso de chaves de acesso antes de excluí-las ajuda a garantir que nenhuma funcionalidade seja impactada."
+      },
+      {
+        "texto": "Manter chaves de acesso indefinidamente, caso sejam necessárias no futuro.",
+        "explicacao": "Chaves de acesso não devem ser mantidas indefinidamente, especialmente se não forem usadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Definir lembretes para a rotação de chaves de acesso em intervalos regulares.",
+      "Auditar o uso de chaves de acesso antigas antes de excluí-las."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de exigir autenticação multifator (MFA) para o usuário-raiz? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Adiciona uma camada extra de segurança ao acesso ao console da AWS.",
+        "explicacao": "A MFA adiciona uma camada extra de segurança, protegendo contra acessos não autorizados, mesmo que a senha seja comprometida."
+      },
+      {
+        "texto": "Elimina a necessidade de políticas de senha fortes.",
+        "explicacao": "A MFA complementa, mas não elimina a necessidade de uma política de senhas fortes."
+      },
+      {
+        "texto": "Reduz a probabilidade de comprometer a conta principal da AWS.",
+        "explicacao": "A MFA reduz significativamente o risco de comprometimento da conta principal, exigindo um segundo fator além da senha."
+      },
+      {
+        "texto": "Permite o acesso ininterrupto ao console da AWS, mesmo com uma senha incorreta.",
+        "explicacao": "A MFA não permite acesso com senhas incorretas, ela adiciona uma camada adicional de autenticação."
+      }
+    ],
+    "respostaCorreta": [
+      "Adiciona uma camada extra de segurança ao acesso ao console da AWS.",
+      "Reduz a probabilidade de comprometer a conta principal da AWS."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes métodos são apropriados para gerenciar senhas no AWS IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Exigir a rotação periódica de senhas.",
+        "explicacao": "A rotação periódica de senhas ajuda a manter a segurança e minimizar o risco de senhas comprometidas."
+      },
+      {
+        "texto": "Permitir o reuso de senhas antigas.",
+        "explicacao": "Permitir o reuso de senhas reduz a segurança, portanto, deve ser evitado."
+      },
+      {
+        "texto": "Definir requisitos de complexidade de senhas, como caracteres especiais.",
+        "explicacao": "Definir requisitos de complexidade ajuda a fortalecer as senhas contra ataques de força bruta."
+      },
+      {
+        "texto": "Armazenar senhas em texto claro para fácil acesso.",
+        "explicacao": "Senhas nunca devem ser armazenadas em texto claro; devem ser criptografadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Exigir a rotação periódica de senhas.",
+      "Definir requisitos de complexidade de senhas, como caracteres especiais."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal função das políticas de senha no AWS IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Forçar a rotação de senhas em intervalos regulares.",
+        "explicacao": "As políticas de senha podem forçar a rotação periódica de senhas para melhorar a segurança."
+      },
+      {
+        "texto": "Garantir que todas as senhas sejam armazenadas em texto claro.",
+        "explicacao": "As políticas de senha não permitem que as senhas sejam armazenadas em texto claro."
+      },
+      {
+        "texto": "Impor requisitos de complexidade de senhas.",
+        "explicacao": "As políticas de senha podem impor requisitos de complexidade, como o uso de letras maiúsculas, números e caracteres especiais."
+      },
+      {
+        "texto": "Permitir que qualquer senha seja aceita, independentemente do comprimento.",
+        "explicacao": "Políticas de senha fortes exigem um comprimento mínimo para garantir a segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Forçar a rotação de senhas em intervalos regulares.",
+      "Impor requisitos de complexidade de senhas."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas ajudam a proteger as chaves de acesso no AWS IAM? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Excluir chaves de acesso desnecessárias.",
+        "explicacao": "Excluir chaves de acesso desnecessárias reduz a superfície de ataque e previne o uso indevido."
+      },
+      {
+        "texto": "Armazenar chaves de acesso em repositórios de código público.",
+        "explicacao": "Armazenar chaves de acesso em repositórios públicos aumenta o risco de exposição."
+      },
+      {
+        "texto": "Auditar o uso de chaves de acesso regularmente.",
+        "explicacao": "Auditar o uso de chaves de acesso regularmente ajuda a identificar possíveis problemas de segurança."
+      },
+      {
+        "texto": "Compartilhar chaves de acesso entre várias contas AWS.",
+        "explicacao": "Chaves de acesso nunca devem ser compartilhadas entre contas, pois isso compromete a segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Excluir chaves de acesso desnecessárias.",
+      "Auditar o uso de chaves de acesso regularmente."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas são recomendadas para armazenamento de credenciais na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Utilizar o AWS Secrets Manager para armazenar credenciais de bancos de dados.",
+        "explicacao": "O AWS Secrets Manager é recomendado para armazenar credenciais sensíveis, como de bancos de dados."
+      },
+      {
+        "texto": "Armazenar credenciais diretamente no código fonte para facilitar o acesso.",
+        "explicacao": "Armazenar credenciais no código fonte aumenta o risco de exposição e deve ser evitado."
+      },
+      {
+        "texto": "Configurar as credenciais como variáveis de ambiente.",
+        "explicacao": "Variáveis de ambiente são uma forma segura de armazenar credenciais temporárias."
+      },
+      {
+        "texto": "Publicar credenciais de acesso em fóruns internos para fácil compartilhamento.",
+        "explicacao": "Publicar credenciais, mesmo em fóruns internos, compromete a segurança e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Utilizar o AWS Secrets Manager para armazenar credenciais de bancos de dados.",
+      "Configurar as credenciais como variáveis de ambiente."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes recursos de segurança são oferecidos pelo AWS Secrets Manager? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Rotação automática de credenciais.",
+        "explicacao": "O AWS Secrets Manager pode rotacionar credenciais automaticamente em intervalos definidos."
+      },
+      {
+        "texto": "Armazenamento de logs de auditoria para monitorar o uso de segredos.",
+        "explicacao": "O AWS Secrets Manager pode registrar o uso de segredos por meio do CloudTrail para fins de auditoria."
+      },
+      {
+        "texto": "Geração automática de relatórios de conformidade.",
+        "explicacao": "O Secrets Manager não gera relatórios de conformidade; isso requer outros serviços."
+      },
+      {
+        "texto": "Aplicação de patches de segurança automaticamente em instâncias do EC2.",
+        "explicacao": "O Secrets Manager não aplica patches de segurança em instâncias do EC2."
+      }
+    ],
+    "respostaCorreta": [
+      "Rotação automática de credenciais.",
+      "Armazenamento de logs de auditoria para monitorar o uso de segredos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais fatores a serem considerados ao avaliar os requisitos de conformidade de um serviço AWS específico? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "A região em que o serviço está sendo utilizado.",
+        "explicacao": "Os requisitos de conformidade podem variar com base na região em que o serviço AWS está sendo operado, devido às diferentes regulamentações locais."
+      },
+      {
+        "texto": "A quantidade de usuários que acessam o serviço.",
+        "explicacao": "O número de usuários não impacta diretamente os requisitos de conformidade de um serviço."
+      },
+      {
+        "texto": "A certificação de conformidade do serviço, como SOC 2 ou ISO 27001.",
+        "explicacao": "Certificações como SOC 2 e ISO 27001 indicam que o serviço AWS cumpre determinados padrões de conformidade."
+      },
+      {
+        "texto": "A quantidade de dados armazenados no serviço.",
+        "explicacao": "A quantidade de dados armazenados não afeta diretamente os requisitos de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "A região em que o serviço está sendo utilizado.",
+      "A certificação de conformidade do serviço, como SOC 2 ou ISO 27001."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços AWS possuem certificações que atendem aos padrões de conformidade, como HIPAA e PCI DSS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS S3",
+        "explicacao": "O AWS S3 possui certificações como HIPAA e PCI DSS, permitindo seu uso em ambientes com altos requisitos de conformidade."
+      },
+      {
+        "texto": "AWS Elastic Beanstalk",
+        "explicacao": "Embora o Elastic Beanstalk forneça uma plataforma gerenciada, ele não é diretamente certificado para conformidade em si."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda pode ser usado em conformidade com HIPAA e PCI DSS, dependendo da configuração e implementação."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline não é certificado para atender diretamente aos requisitos de conformidade como HIPAA e PCI DSS."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS S3",
+      "AWS Lambda"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais certificações de conformidade a AWS oferece suporte para ajudar a atender aos requisitos regulamentares de empresas de saúde? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "HIPAA",
+        "explicacao": "A AWS oferece suporte a conformidade com HIPAA para empresas que operam em áreas de saúde e lidam com dados de pacientes."
+      },
+      {
+        "texto": "ISO 9001",
+        "explicacao": "ISO 9001 está relacionado à gestão da qualidade e não é um padrão específico para empresas de saúde."
+      },
+      {
+        "texto": "ISO 27001",
+        "explicacao": "ISO 27001 é uma certificação para sistemas de gestão de segurança da informação e é relevante para a conformidade em setores como saúde."
+      },
+      {
+        "texto": "SOC 1",
+        "explicacao": "SOC 1 foca em controles internos relacionados a relatórios financeiros, mas não está diretamente vinculado ao setor de saúde."
+      }
+    ],
+    "respostaCorreta": [
+      "HIPAA",
+      "ISO 27001"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Ao usar o AWS Config, quais aspectos de conformidade podem ser monitorados? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Conformidade com políticas de segurança definidas pela empresa.",
+        "explicacao": "O AWS Config permite monitorar se os recursos da AWS estão em conformidade com as políticas de segurança internas da empresa."
+      },
+      {
+        "texto": "Conformidade com o tempo de execução de funções Lambda.",
+        "explicacao": "O AWS Config não monitora diretamente o tempo de execução de funções Lambda."
+      },
+      {
+        "texto": "Conformidade com regulamentos externos, como GDPR.",
+        "explicacao": "O AWS Config pode ser usado para monitorar se os recursos da AWS estão configurados de acordo com as regulamentações externas, como GDPR."
+      },
+      {
+        "texto": "Desempenho da infraestrutura em termos de escalabilidade.",
+        "explicacao": "O AWS Config não monitora o desempenho ou escalabilidade de infraestrutura, mas sim a conformidade com configurações."
+      }
+    ],
+    "respostaCorreta": [
+      "Conformidade com políticas de segurança definidas pela empresa.",
+      "Conformidade com regulamentos externos, como GDPR."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS podem ser configurados para garantir conformidade com padrões de segurança específicos, como PCI DSS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS pode ser configurado para atender aos requisitos de conformidade com padrões como PCI DSS."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Embora o CloudFormation ajude na automação de infraestrutura, ele não é certificado diretamente para conformidade com padrões como PCI DSS."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 pode ser configurado para conformidade com PCI DSS, dependendo das configurações de segurança aplicadas."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild não está diretamente associado à conformidade com padrões de segurança como PCI DSS."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon RDS",
+      "Amazon EC2"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os recursos oferecidos pelo AWS Artifact para gerenciar a conformidade? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Acesso a relatórios de auditoria e certificações.",
+        "explicacao": "O AWS Artifact oferece acesso a relatórios de auditoria e certificações para ajudar na gestão de conformidade."
+      },
+      {
+        "texto": "Monitoramento do uso de recursos da AWS em tempo real.",
+        "explicacao": "O AWS Artifact não fornece monitoramento em tempo real de recursos; ele é usado para acessar relatórios e documentos de conformidade."
+      },
+      {
+        "texto": "Relatórios de conformidade com regulamentações, como GDPR e HIPAA.",
+        "explicacao": "O AWS Artifact oferece relatórios relacionados a conformidade com regulamentações como GDPR e HIPAA."
+      },
+      {
+        "texto": "Automatização da criação de políticas de segurança personalizadas.",
+        "explicacao": "O AWS Artifact não automatiza a criação de políticas de segurança; ele é um repositório de documentos de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Acesso a relatórios de auditoria e certificações.",
+      "Relatórios de conformidade com regulamentações, como GDPR e HIPAA."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS fornecem ferramentas para ajudar a garantir a conformidade com regulamentos como o GDPR? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config permite monitorar a conformidade dos recursos com regulamentações como o GDPR."
+      },
+      {
+        "texto": "Amazon EC2 Auto Scaling",
+        "explicacao": "Embora o EC2 Auto Scaling ajude a escalar recursos, ele não lida diretamente com questões de conformidade."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail ajuda a garantir a conformidade ao fornecer logs de atividades que podem ser auditados para fins regulatórios."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, mas não está diretamente relacionado à conformidade com regulamentos."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Config",
+      "AWS CloudTrail"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas podem ajudar a garantir a conformidade ao usar serviços da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Implementar controles de segurança baseados em padrões de conformidade.",
+        "explicacao": "Implementar controles de segurança adequados ajuda a garantir a conformidade com regulamentações e normas."
+      },
+      {
+        "texto": "Criar uma VPC pública sem regras de segurança configuradas.",
+        "explicacao": "Criar uma VPC pública sem regras de segurança pode comprometer a conformidade e a segurança."
+      },
+      {
+        "texto": "Monitorar continuamente o uso de recursos e suas configurações.",
+        "explicacao": "Monitorar o uso de recursos e suas configurações é fundamental para manter a conformidade com padrões de segurança."
+      },
+      {
+        "texto": "Desabilitar o uso do CloudTrail em ambientes de produção.",
+        "explicacao": "Desabilitar o CloudTrail em produção comprometeria a auditoria e o monitoramento de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Implementar controles de segurança baseados em padrões de conformidade.",
+      "Monitorar continuamente o uso de recursos e suas configurações."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes práticas são recomendadas para garantir que os serviços AWS estejam em conformidade com o PCI DSS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Criptografar os dados de cartões de crédito armazenados no Amazon S3.",
+        "explicacao": "Criptografar dados sensíveis, como informações de cartões de crédito, é um requisito importante do PCI DSS."
+      },
+      {
+        "texto": "Configurar VPCs públicas para serviços que processam transações de cartão de crédito.",
+        "explicacao": "VPCs públicas não são recomendadas para o processamento de informações sensíveis como transações de cartões de crédito."
+      },
+      {
+        "texto": "Implementar MFA para usuários que acessam recursos financeiros.",
+        "explicacao": "A implementação de MFA para usuários que acessam recursos financeiros é uma prática recomendada para conformidade com PCI DSS."
+      },
+      {
+        "texto": "Permitir o acesso público a buckets do S3 contendo informações financeiras.",
+        "explicacao": "O acesso público a informações financeiras compromete a conformidade com PCI DSS."
+      }
+    ],
+    "respostaCorreta": [
+      "Criptografar os dados de cartões de crédito armazenados no Amazon S3.",
+      "Implementar MFA para usuários que acessam recursos financeiros."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais serviços da AWS que podem ser usados para monitorar atividades e auditar recursos em uma conta AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O Amazon CloudWatch é usado para monitoramento em tempo real de métricas e logs de recursos AWS."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "Embora o AWS IAM gerencie permissões e políticas de usuários, ele não é usado diretamente para monitoramento e auditoria."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O AWS CloudTrail permite auditoria de todas as ações realizadas em uma conta AWS, registrando eventos de API."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados gerenciado, mas não é focado em monitoramento ou auditoria."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch",
+      "AWS CloudTrail"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais recursos o AWS Audit Manager oferece para ajudar na auditoria de conformidade? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Geração de relatórios automáticos de conformidade com base em padrões predefinidos.",
+        "explicacao": "O AWS Audit Manager gera relatórios de conformidade automáticos com base em padrões como PCI DSS e ISO."
+      },
+      {
+        "texto": "Criação automática de funções IAM personalizadas.",
+        "explicacao": "O AWS Audit Manager não cria funções IAM; ele é focado em relatórios de conformidade."
+      },
+      {
+        "texto": "Monitoramento em tempo real de recursos AWS.",
+        "explicacao": "O Audit Manager foca em relatórios de conformidade, e o monitoramento em tempo real é uma função do Amazon CloudWatch."
+      },
+      {
+        "texto": "Mapeamento de controles de conformidade para regulamentos específicos.",
+        "explicacao": "O AWS Audit Manager mapeia controles de conformidade para regulamentos específicos, facilitando auditorias."
+      }
+    ],
+    "respostaCorreta": [
+      "Geração de relatórios automáticos de conformidade com base em padrões predefinidos.",
+      "Mapeamento de controles de conformidade para regulamentos específicos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as funcionalidades principais do AWS Config para gerenciamento de conformidade? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Avaliar a conformidade dos recursos da AWS com regras predefinidas.",
+        "explicacao": "O AWS Config avalia continuamente a conformidade dos recursos com regras predefinidas, ajudando a garantir que estejam configurados corretamente."
+      },
+      {
+        "texto": "Gerar logs de todas as atividades da API em uma conta AWS.",
+        "explicacao": "Gerar logs de atividades da API é uma funcionalidade do AWS CloudTrail, não do AWS Config."
+      },
+      {
+        "texto": "Capturar todas as alterações feitas na configuração de recursos da AWS.",
+        "explicacao": "O AWS Config captura e armazena as alterações feitas na configuração de recursos da AWS, permitindo auditoria completa."
+      },
+      {
+        "texto": "Monitorar o tempo de execução das instâncias do Amazon EC2.",
+        "explicacao": "O AWS Config não monitora o tempo de execução de instâncias EC2; ele foca na conformidade de configurações."
+      }
+    ],
+    "respostaCorreta": [
+      "Avaliar a conformidade dos recursos da AWS com regras predefinidas.",
+      "Capturar todas as alterações feitas na configuração de recursos da AWS."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS CloudTrail ajuda na auditoria de conformidade? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Registrando todas as atividades da API feitas em uma conta AWS.",
+        "explicacao": "O AWS CloudTrail registra todas as atividades da API feitas na conta, permitindo auditoria completa de ações e eventos."
+      },
+      {
+        "texto": "Monitorando o desempenho de instâncias do Amazon EC2.",
+        "explicacao": "O AWS CloudTrail não monitora o desempenho de recursos, ele registra atividades de API."
+      },
+      {
+        "texto": "Proporcionando logs de eventos de API que podem ser usados para auditoria de segurança.",
+        "explicacao": "O AWS CloudTrail fornece logs detalhados de eventos de API que podem ser usados para auditoria de segurança."
+      },
+      {
+        "texto": "Avaliando a conformidade de recursos com regras de segurança internas.",
+        "explicacao": "A avaliação de conformidade é feita pelo AWS Config, não pelo CloudTrail."
+      }
+    ],
+    "respostaCorreta": [
+      "Registrando todas as atividades da API feitas em uma conta AWS.",
+      "Proporcionando logs de eventos de API que podem ser usados para auditoria de segurança."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais métricas podem ser monitoradas com o Amazon CloudWatch para ajudar na segurança de uma infraestrutura AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Métricas de uso de CPU de instâncias EC2.",
+        "explicacao": "O Amazon CloudWatch pode monitorar métricas de uso de CPU, ajudando a detectar possíveis problemas de segurança ou desempenho."
+      },
+      {
+        "texto": "Tempo de execução de funções Lambda.",
+        "explicacao": "CloudWatch monitora o tempo de execução de funções Lambda, permitindo a detecção de comportamentos anômalos."
+      },
+      {
+        "texto": "Alterações nas permissões de acesso a recursos.",
+        "explicacao": "CloudWatch monitora métricas de desempenho, mas alterações de permissões são rastreadas pelo AWS CloudTrail."
+      },
+      {
+        "texto": "Atividades de login de usuários em consoles de gerenciamento AWS.",
+        "explicacao": "Atividades de login são registradas pelo AWS CloudTrail, não pelo Amazon CloudWatch."
+      }
+    ],
+    "respostaCorreta": [
+      "Métricas de uso de CPU de instâncias EC2.",
+      "Tempo de execução de funções Lambda."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais dos seguintes serviços podem ser usados juntos para criar uma trilha de auditoria e monitoramento contínuo de uma infraestrutura AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS CloudTrail e Amazon CloudWatch",
+        "explicacao": "O AWS CloudTrail rastreia atividades de API e o Amazon CloudWatch monitora o desempenho e logs, juntos fornecem uma solução robusta de auditoria."
+      },
+      {
+        "texto": "AWS S3 e AWS Lambda",
+        "explicacao": "Embora AWS S3 e Lambda possam ser usados para armazenar e processar dados, eles não são especificamente focados em auditoria e monitoramento."
+      },
+      {
+        "texto": "AWS Config e AWS CloudTrail",
+        "explicacao": "O AWS Config monitora conformidade, e o AWS CloudTrail audita atividades de API, criando uma trilha completa de auditoria."
+      },
+      {
+        "texto": "AWS RDS e Amazon Redshift",
+        "explicacao": "RDS e Redshift são serviços de banco de dados e não são usados diretamente para auditoria e monitoramento."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS CloudTrail e Amazon CloudWatch",
+      "AWS Config e AWS CloudTrail"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais recursos o AWS Config oferece para garantir que os recursos da AWS estejam em conformidade com políticas internas? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Avaliação contínua da conformidade dos recursos com regras de configuração predefinidas.",
+        "explicacao": "O AWS Config permite uma avaliação contínua para verificar se os recursos seguem as regras de configuração estabelecidas."
+      },
+      {
+        "texto": "Gerenciamento de políticas de permissão de usuários IAM.",
+        "explicacao": "O AWS Config não gerencia permissões de IAM; ele monitora conformidade de configurações de recursos."
+      },
+      {
+        "texto": "Armazenamento de registros de mudanças feitas na infraestrutura AWS.",
+        "explicacao": "O AWS Config armazena um histórico de mudanças nos recursos, permitindo auditoria e conformidade."
+      },
+      {
+        "texto": "Criação automática de trilhas de auditoria de API.",
+        "explicacao": "A criação de trilhas de auditoria é função do AWS CloudTrail, não do AWS Config."
+      }
+    ],
+    "respostaCorreta": [
+      "Avaliação contínua da conformidade dos recursos com regras de configuração predefinidas.",
+      "Armazenamento de registros de mudanças feitas na infraestrutura AWS."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas recomendadas podem ser implementadas para garantir auditoria contínua com o AWS CloudTrail? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Habilitar a gravação de eventos de gerenciamento e eventos de dados.",
+        "explicacao": "O AWS CloudTrail permite registrar tanto eventos de gerenciamento quanto de dados, o que ajuda em auditorias mais detalhadas."
+      },
+      {
+        "texto": "Armazenar logs em buckets S3 com acesso público.",
+        "explicacao": "Os logs devem ser armazenados de maneira segura, sem acesso público, para garantir a integridade das auditorias."
+      },
+      {
+        "texto": "Integrar o CloudTrail com o Amazon SNS para notificações em tempo real.",
+        "explicacao": "A integração com o Amazon SNS permite alertas em tempo real sobre eventos capturados pelo CloudTrail, facilitando respostas rápidas."
+      },
+      {
+        "texto": "Desabilitar o CloudTrail em regiões secundárias.",
+        "explicacao": "Para garantir uma auditoria completa, é recomendável habilitar o CloudTrail em todas as regiões, não desabilitar."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar a gravação de eventos de gerenciamento e eventos de dados.",
+      "Integrar o CloudTrail com o Amazon SNS para notificações em tempo real."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços AWS são essenciais para o monitoramento de segurança e auditoria contínua? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O Amazon CloudWatch monitora métricas e logs em tempo real, essencial para o monitoramento de segurança."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O AWS CloudTrail registra todas as atividades de API, fundamental para auditoria contínua."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação, mas não é diretamente responsável pelo monitoramento ou auditoria."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode ser usado para automação, mas não é um serviço de auditoria ou monitoramento."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch",
+      "AWS CloudTrail"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços AWS podem ser usados para verificar a conformidade contínua de uma infraestrutura com políticas de segurança internas? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config monitora e avalia a conformidade dos recursos AWS com regras predefinidas, ajudando a manter políticas de segurança."
+      },
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O Amazon CloudWatch é mais focado em monitoramento de desempenho e logs do que na conformidade de políticas de segurança."
+      },
+      {
+        "texto": "AWS Audit Manager",
+        "explicacao": "O AWS Audit Manager ajuda na auditoria de conformidade ao mapear controles com padrões e regulamentos."
+      },
+      {
+        "texto": "AWS S3",
+        "explicacao": "O AWS S3 é um serviço de armazenamento, mas não desempenha um papel direto na verificação de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Config",
+      "AWS Audit Manager"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais das seguintes opções oferecem criptografia em repouso para proteger dados armazenados na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Amazon S3 com criptografia do lado do servidor (SSE)",
+        "explicacao": "O Amazon S3 oferece criptografia em repouso com SSE (Server-Side Encryption) para proteger os dados armazenados."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "O Amazon CloudFront é um serviço de entrega de conteúdo e não está diretamente relacionado à criptografia em repouso."
+      },
+      {
+        "texto": "Amazon EBS com criptografia habilitada",
+        "explicacao": "O Amazon EBS permite habilitar a criptografia para volumes, protegendo os dados em repouso."
+      },
+      {
+        "texto": "Amazon RDS com backups automáticos",
+        "explicacao": "O Amazon RDS oferece criptografia em repouso para backups e snapshots quando habilitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon S3 com criptografia do lado do servidor (SSE)",
+      "Amazon EBS com criptografia habilitada"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços AWS podem utilizar o AWS KMS (Key Management Service) para gerenciamento de chaves de criptografia? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon EBS",
+        "explicacao": "O Amazon EBS pode ser criptografado usando chaves gerenciadas pelo AWS KMS."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 em si não é criptografado, mas os volumes EBS associados podem usar o AWS KMS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 pode utilizar o AWS KMS para criptografia de dados armazenados."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode invocar funções que utilizam chaves KMS, mas não é um serviço de armazenamento com foco direto em criptografia."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon EBS",
+      "Amazon S3"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais métodos de criptografia podem ser usados para proteger dados em trânsito na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "TLS (Transport Layer Security)",
+        "explicacao": "O TLS é usado para proteger dados em trânsito, garantindo que a comunicação seja segura."
+      },
+      {
+        "texto": "Criptografia do lado do cliente no Amazon S3",
+        "explicacao": "A criptografia do lado do cliente é usada para dados em repouso, não em trânsito."
+      },
+      {
+        "texto": "SSH (Secure Shell)",
+        "explicacao": "O SSH pode ser usado para proteger comunicações e acessos remotos em trânsito."
+      },
+      {
+        "texto": "Criptografia AES-256",
+        "explicacao": "O AES-256 é um algoritmo usado principalmente para criptografia em repouso, como em volumes EBS e objetos S3."
+      }
+    ],
+    "respostaCorreta": [
+      "TLS (Transport Layer Security)",
+      "SSH (Secure Shell)"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as vantagens de usar o AWS KMS para gerenciamento de chaves de criptografia? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Controle centralizado sobre chaves de criptografia",
+        "explicacao": "O AWS KMS oferece controle centralizado sobre a criação e gerenciamento de chaves de criptografia."
+      },
+      {
+        "texto": "Redução dos custos de criptografia",
+        "explicacao": "O AWS KMS simplifica o gerenciamento de chaves, mas não reduz diretamente os custos de criptografia."
+      },
+      {
+        "texto": "Integração com vários serviços da AWS",
+        "explicacao": "O AWS KMS é integrado com diversos serviços da AWS, como S3, EBS e RDS, facilitando o uso de criptografia."
+      },
+      {
+        "texto": "Aumento da velocidade de leitura e escrita de dados",
+        "explicacao": "O uso de criptografia com KMS pode aumentar a segurança, mas não necessariamente melhora o desempenho de leitura e escrita."
+      }
+    ],
+    "respostaCorreta": [
+      "Controle centralizado sobre chaves de criptografia",
+      "Integração com vários serviços da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais métodos de criptografia são suportados pelo Amazon S3? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "SSE-S3 (Server-Side Encryption com chaves gerenciadas pela Amazon S3)",
+        "explicacao": "O SSE-S3 é uma opção de criptografia do lado do servidor com chaves gerenciadas pela Amazon S3."
+      },
+      {
+        "texto": "Criptografia de transporte por HTTPS",
+        "explicacao": "HTTPS protege dados em trânsito, mas não se refere à criptografia em repouso no S3."
+      },
+      {
+        "texto": "SSE-KMS (Server-Side Encryption com chaves gerenciadas pelo AWS KMS)",
+        "explicacao": "O SSE-KMS permite que o S3 utilize chaves gerenciadas pelo AWS KMS para criptografia do lado do servidor."
+      },
+      {
+        "texto": "SSH (Secure Shell)",
+        "explicacao": "O SSH não é uma opção de criptografia oferecida pelo Amazon S3."
+      }
+    ],
+    "respostaCorreta": [
+      "SSE-S3 (Server-Side Encryption com chaves gerenciadas pela Amazon S3)",
+      "SSE-KMS (Server-Side Encryption com chaves gerenciadas pelo AWS KMS)"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios da criptografia do lado do cliente no Amazon S3? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Os dados são criptografados antes de serem enviados para o Amazon S3.",
+        "explicacao": "A criptografia do lado do cliente garante que os dados sejam criptografados antes de serem enviados ao S3, oferecendo maior controle de segurança."
+      },
+      {
+        "texto": "A AWS gerencia automaticamente as chaves de criptografia.",
+        "explicacao": "Na criptografia do lado do cliente, a AWS não gerencia as chaves; o cliente é responsável por isso."
+      },
+      {
+        "texto": "Os dados permanecem criptografados durante a transferência para o Amazon S3.",
+        "explicacao": "A criptografia do lado do cliente não protege diretamente a transferência de dados, isso é feito por HTTPS ou TLS."
+      },
+      {
+        "texto": "A criptografia do lado do cliente oferece maior controle sobre as chaves usadas para proteger os dados.",
+        "explicacao": "Como o cliente gerencia a criptografia, ele também controla totalmente as chaves de criptografia."
+      }
+    ],
+    "respostaCorreta": [
+      "Os dados são criptografados antes de serem enviados para o Amazon S3.",
+      "A criptografia do lado do cliente oferece maior controle sobre as chaves usadas para proteger os dados."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço é utilizado para realizar avaliações automatizadas de segurança em suas aplicações na AWS? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector é projetado para realizar avaliações de segurança e identificar vulnerabilidades em aplicações."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub centraliza e agrega dados de segurança, mas não realiza avaliações diretamente."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty é focado na detecção de ameaças em tempo real, não em avaliações de segurança."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield é um serviço que fornece proteção contra ataques DDoS, não avaliações de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon Inspector"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços centraliza e visualiza alertas de segurança de múltiplos serviços da AWS? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector realiza avaliações de segurança, mas não centraliza alertas de outros serviços."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub agrega e centraliza alertas de segurança de vários serviços AWS."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty gera alertas sobre atividades suspeitas, mas não centraliza informações de outros serviços."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield é focado em proteção contra DDoS e não centraliza alertas de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Hub"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para detectar e responder a ameaças em suas contas da AWS? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector realiza avaliações de segurança, mas não detecta ameaças em tempo real."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub agrega alertas de segurança, mas não detecta ameaças diretamente."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty é projetado para detectar atividades maliciosas e ameaças em suas contas."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield é focado em proteger contra DDoS e não é usado para detectar ameaças."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon GuardDuty"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece proteção automática contra ataques DDoS? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector não oferece proteção contra DDoS; ele realiza avaliações de segurança."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub não protege contra DDoS, mas centraliza informações de segurança."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty é um serviço de detecção de ameaças, não fornece proteção contra DDoS."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield oferece proteção específica contra ataques DDoS, mitigando esses riscos."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Shield"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece recomendações para melhorar a segurança de suas aplicações? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector fornece recomendações com base nas avaliações de segurança que realiza."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub não fornece recomendações, mas centraliza alertas de segurança."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty detecta ameaças, mas não fornece recomendações sobre segurança."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield não fornece recomendações de segurança, apenas proteção contra DDoS."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon Inspector"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é usado para coletar e gerenciar informações de segurança em toda a sua infraestrutura? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector realiza avaliações de segurança, mas não gerencia informações de segurança."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub centraliza e gerencia informações de segurança de vários serviços da AWS."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty gera alertas sobre atividades suspeitas, mas não gerencia informações de segurança."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield não gerencia informações, mas protege contra DDoS."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Hub"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ajudar a proteger suas instâncias EC2 contra vulnerabilidades? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector avalia as instâncias EC2 e ajuda a identificar vulnerabilidades."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub agrega alertas, mas não protege instâncias diretamente."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty é focado na detecção de ameaças e não protege instâncias EC2."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield protege contra DDoS, mas não avalia vulnerabilidades em instâncias."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon Inspector"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço oferece visibilidade em tempo real sobre as ameaças em suas contas da AWS? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector não fornece visibilidade em tempo real, mas avaliações de segurança."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub centraliza alertas, mas não fornece visibilidade em tempo real."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty oferece visibilidade em tempo real sobre ameaças e atividades maliciosas."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield não fornece visibilidade de ameaças, mas protege contra DDoS."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon GuardDuty"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é melhor para proteger aplicações contra ataques baseados em rede? (Escolha uma)",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector não é focado em proteção contra ataques em rede."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub não fornece proteção, mas centraliza informações de segurança."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty é voltado para detecção de ameaças e não para proteção contra ataques em rede."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield é especializado em proteger aplicações contra ataques baseados em rede, como DDoS."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Shield"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais mecanismos de segurança os clientes podem implementar para proteger recursos em execução na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Grupos de segurança",
+        "explicacao": "Grupos de segurança funcionam como um firewall virtual, controlando o tráfego de entrada e saída de instâncias."
+      },
+      {
+        "texto": "Permitir todo o tráfego de entrada por padrão",
+        "explicacao": "Permitir todo o tráfego de entrada não é uma prática de segurança recomendada."
+      },
+      {
+        "texto": "Políticas de controle de acesso (IAM)",
+        "explicacao": "As políticas de controle de acesso (IAM) permitem definir permissões específicas para usuários e serviços."
+      },
+      {
+        "texto": "Desativar logs de auditoria",
+        "explicacao": "Desativar logs de auditoria reduz a visibilidade e o monitoramento de atividades, o que não é seguro."
+      }
+    ],
+    "respostaCorreta": [
+      "Grupos de segurança",
+      "Políticas de controle de acesso (IAM)"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas os clientes podem adotar para proteger credenciais de usuários na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Habilitar autenticação multifator (MFA)",
+        "explicacao": "Habilitar MFA adiciona uma camada adicional de segurança ao processo de login."
+      },
+      {
+        "texto": "Compartilhar credenciais entre usuários",
+        "explicacao": "Compartilhar credenciais compromete a segurança e não deve ser feito."
+      },
+      {
+        "texto": "Utilizar o AWS Secrets Manager",
+        "explicacao": "O AWS Secrets Manager permite armazenar credenciais de forma segura, evitando sua exposição."
+      },
+      {
+        "texto": "Usar uma senha padrão em todas as contas",
+        "explicacao": "Usar uma senha padrão é uma prática insegura que aumenta o risco de ataques."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar autenticação multifator (MFA)",
+      "Utilizar o AWS Secrets Manager"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ferramentas AWS podem ser usadas para monitorar e auditar atividades de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O AWS CloudTrail registra atividades de API, permitindo auditoria de eventos."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento e não realiza auditoria de atividades."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config rastreia as mudanças de configuração dos recursos da AWS, auxiliando na auditoria."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação e não monitora diretamente atividades de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS CloudTrail",
+      "AWS Config"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ferramentas podem ser usadas para detectar ameaças e monitorar eventos de segurança na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty detecta ameaças em tempo real, analisando logs e tráfego de rede."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O AWS CloudFormation automatiza a criação de infraestrutura, mas não detecta ameaças."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub fornece uma visão centralizada de conformidade e segurança de várias contas e regiões."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS gerencia bancos de dados, mas não monitora eventos de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon GuardDuty",
+      "AWS Security Hub"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais medidas podem ser adotadas para proteger dados em trânsito e em repouso na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Criptografia",
+        "explicacao": "A criptografia protege os dados tanto em trânsito quanto em repouso, tornando-os ilegíveis sem as chaves apropriadas."
+      },
+      {
+        "texto": "Armazenar dados em texto simples",
+        "explicacao": "Armazenar dados em texto simples é uma prática insegura e deve ser evitada."
+      },
+      {
+        "texto": "Utilizar o AWS Key Management Service (KMS)",
+        "explicacao": "O AWS KMS permite gerenciar chaves de criptografia para proteger dados sensíveis."
+      },
+      {
+        "texto": "Desabilitar a autenticação multifator (MFA)",
+        "explicacao": "Desabilitar MFA reduz a segurança e aumenta o risco de acesso não autorizado."
+      }
+    ],
+    "respostaCorreta": [
+      "Criptografia",
+      "Utilizar o AWS Key Management Service (KMS)"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais opções de controle de acesso são oferecidas pelo AWS Identity and Access Management (IAM)? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Definir permissões granulares com políticas de IAM",
+        "explicacao": "As políticas de IAM permitem definir permissões granulares para controlar o acesso a recursos específicos."
+      },
+      {
+        "texto": "Atribuir permissões automaticamente a todos os usuários",
+        "explicacao": "As permissões não são atribuídas automaticamente; elas devem ser configuradas manualmente."
+      },
+      {
+        "texto": "Autenticação multifator (MFA)",
+        "explicacao": "O IAM suporta MFA para aumentar a segurança das contas."
+      },
+      {
+        "texto": "Compartilhamento de credenciais entre usuários",
+        "explicacao": "Compartilhar credenciais é uma prática insegura e não é oferecida como uma opção de controle de acesso no IAM."
+      }
+    ],
+    "respostaCorreta": [
+      "Definir permissões granulares com políticas de IAM",
+      "Autenticação multifator (MFA)"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas podem ajudar a proteger o usuário-raiz de uma conta AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Habilitar autenticação multifator (MFA)",
+        "explicacao": "Habilitar MFA adiciona uma camada extra de proteção para o usuário-raiz."
+      },
+      {
+        "texto": "Usar a conta do usuário-raiz para todas as operações",
+        "explicacao": "A conta do usuário-raiz deve ser usada apenas em situações específicas e críticas, e não para todas as operações."
+      },
+      {
+        "texto": "Não compartilhar as credenciais do usuário-raiz",
+        "explicacao": "As credenciais do usuário-raiz nunca devem ser compartilhadas para garantir a segurança."
+      },
+      {
+        "texto": "Desativar o CloudTrail",
+        "explicacao": "Desativar o CloudTrail reduz a visibilidade de atividades, comprometendo a segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar autenticação multifator (MFA)",
+      "Não compartilhar as credenciais do usuário-raiz"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ferramentas podem ser usadas para proteger recursos AWS contra ataques DDoS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield oferece proteção contra ataques de negação de serviço distribuídos (DDoS)."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados, não uma ferramenta de proteção contra DDoS."
+      },
+      {
+        "texto": "AWS WAF",
+        "explicacao": "O AWS WAF ajuda a proteger aplicativos da web contra explorações de segurança comuns e ataques DDoS."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação e não oferece proteção nativa contra DDoS."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Shield",
+      "AWS WAF"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais soluções podem ajudar os clientes a proteger suas aplicações na AWS com regras personalizadas? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS WAF",
+        "explicacao": "O AWS WAF permite a criação de regras personalizadas para proteger contra ataques à camada de aplicação."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "O Amazon CloudFront é uma rede de entrega de conteúdo (CDN), mas não oferece regras de segurança personalizadas."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty detecta ameaças, mas não permite criar regras personalizadas para filtrar tráfego."
+      },
+      {
+        "texto": "Grupos de segurança",
+        "explicacao": "Grupos de segurança permitem definir regras personalizadas de controle de tráfego para proteger instâncias."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS WAF",
+      "Grupos de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços AWS podem ajudar na identificação e resposta a eventos de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty fornece detecção contínua de ameaças."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield oferece proteção DDoS, mas não detecta ameaças."
+      },
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "O AWS Security Hub centraliza informações de segurança para facilitar a resposta a incidentes."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento, não uma ferramenta de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon GuardDuty",
+      "AWS Security Hub"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais normas de conformidade são frequentemente aplicáveis a empresas que operam na Europa? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "GDPR (Regulamento Geral de Proteção de Dados)",
+        "explicacao": "O GDPR é aplicável a todas as organizações que lidam com dados de cidadãos da União Europeia."
+      },
+      {
+        "texto": "HIPAA (Health Insurance Portability and Accountability Act)",
+        "explicacao": "O HIPAA é uma regulamentação de conformidade de saúde aplicável nos EUA, não na Europa."
+      },
+      {
+        "texto": "ISO 27001",
+        "explicacao": "A ISO 27001 é uma norma internacional de segurança da informação, amplamente adotada na Europa e no mundo."
+      },
+      {
+        "texto": "FERPA (Family Educational Rights and Privacy Act)",
+        "explicacao": "O FERPA é aplicável a instituições educacionais nos EUA e não à conformidade na Europa."
+      }
+    ],
+    "respostaCorreta": [
+      "GDPR (Regulamento Geral de Proteção de Dados)",
+      "ISO 27001"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais setores frequentemente têm requisitos regulatórios rigorosos relacionados à proteção de dados? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Setor financeiro",
+        "explicacao": "O setor financeiro é altamente regulado, especialmente em relação à proteção de dados sensíveis."
+      },
+      {
+        "texto": "Setor de entretenimento",
+        "explicacao": "Embora o setor de entretenimento lide com dados, ele não é tão rigorosamente regulado como outros setores."
+      },
+      {
+        "texto": "Setor de saúde",
+        "explicacao": "O setor de saúde tem regulamentações rigorosas, como o HIPAA nos EUA, que regula a proteção de dados de pacientes."
+      },
+      {
+        "texto": "Setor de varejo",
+        "explicacao": "Embora o varejo lide com dados de clientes, ele não é tão fortemente regulado como os setores financeiro e de saúde."
+      }
+    ],
+    "respostaCorreta": [
+      "Setor financeiro",
+      "Setor de saúde"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas de conformidade as empresas devem seguir para proteger dados de clientes na AWS em conformidade com a GDPR? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Garantir que os dados sejam armazenados dentro do Espaço Econômico Europeu (EEE)",
+        "explicacao": "A GDPR exige que os dados dos cidadãos da UE sejam armazenados dentro do EEE ou em locais com proteções adequadas."
+      },
+      {
+        "texto": "Permitir que dados sejam transferidos para qualquer região global da AWS sem restrições",
+        "explicacao": "A transferência de dados para fora da UE sem as proteções adequadas violaria a GDPR."
+      },
+      {
+        "texto": "Implementar políticas de privacidade claras e transparentes",
+        "explicacao": "A GDPR exige que as empresas implementem políticas de privacidade claras para os usuários."
+      },
+      {
+        "texto": "Desabilitar a criptografia de dados armazenados na AWS",
+        "explicacao": "A criptografia é uma medida recomendada para proteger dados e deve ser habilitada, não desabilitada."
+      }
+    ],
+    "respostaCorreta": [
+      "Garantir que os dados sejam armazenados dentro do Espaço Econômico Europeu (EEE)",
+      "Implementar políticas de privacidade claras e transparentes"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais normas de conformidade os provedores de serviços financeiros devem seguir ao operar na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "SOX (Sarbanes-Oxley Act)",
+        "explicacao": "A SOX aplica-se a empresas públicas nos EUA, principalmente em relação à contabilidade e controles internos."
+      },
+      {
+        "texto": "PCI DSS (Payment Card Industry Data Security Standard)",
+        "explicacao": "A PCI DSS regula a proteção de dados de cartões de pagamento, essencial para provedores de serviços financeiros."
+      },
+      {
+        "texto": "HIPAA (Health Insurance Portability and Accountability Act)",
+        "explicacao": "A HIPAA é específica para o setor de saúde nos EUA, não para serviços financeiros."
+      },
+      {
+        "texto": "GLBA (Gramm-Leach-Bliley Act)",
+        "explicacao": "O GLBA regula como as instituições financeiras devem proteger as informações dos consumidores."
+      }
+    ],
+    "respostaCorreta": [
+      "PCI DSS (Payment Card Industry Data Security Standard)",
+      "GLBA (Gramm-Leach-Bliley Act)"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais requisitos de conformidade os clientes de saúde devem atender ao armazenar informações de pacientes na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Implementar controles de acesso baseados em funções (RBAC)",
+        "explicacao": "O RBAC garante que somente usuários autorizados possam acessar informações sensíveis de saúde."
+      },
+      {
+        "texto": "Desabilitar todos os logs de auditoria",
+        "explicacao": "A desativação de logs compromete a capacidade de auditar e monitorar acessos, o que viola conformidades."
+      },
+      {
+        "texto": "Armazenar informações de saúde protegidas (PHI) em sistemas compatíveis com HIPAA",
+        "explicacao": "A HIPAA exige que as informações de saúde protegidas sejam armazenadas em sistemas compatíveis."
+      },
+      {
+        "texto": "Armazenar dados de saúde em qualquer região sem restrições",
+        "explicacao": "A conformidade exige que os dados de saúde sejam armazenados em regiões específicas ou compatíveis com as regulamentações."
+      }
+    ],
+    "respostaCorreta": [
+      "Implementar controles de acesso baseados em funções (RBAC)",
+      "Armazenar informações de saúde protegidas (PHI) em sistemas compatíveis com HIPAA"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais requisitos para a conformidade com a PCI DSS no ambiente da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Criptografar dados de cartão de pagamento em repouso e em trânsito",
+        "explicacao": "A criptografia é um requisito fundamental da PCI DSS para proteger dados de cartão de pagamento."
+      },
+      {
+        "texto": "Permitir acesso irrestrito a dados de cartão de pagamento",
+        "explicacao": "Permitir acesso irrestrito viola a PCI DSS, que exige controle rigoroso sobre o acesso a dados de pagamento."
+      },
+      {
+        "texto": "Implementar monitoramento contínuo e relatórios de auditoria",
+        "explicacao": "A PCI DSS exige monitoramento contínuo e auditoria para identificar e mitigar riscos."
+      },
+      {
+        "texto": "Permitir armazenamento de dados de cartão de pagamento em qualquer lugar",
+        "explicacao": "A PCI DSS impõe regras rigorosas sobre onde e como os dados de pagamento podem ser armazenados."
+      }
+    ],
+    "respostaCorreta": [
+      "Criptografar dados de cartão de pagamento em repouso e em trânsito",
+      "Implementar monitoramento contínuo e relatórios de auditoria"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa está buscando documentação para garantir que seus serviços atendam aos regulamentos de conformidade internacionais. Quais documentos o AWS Artifact pode fornecer para isso? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Relatórios de auditoria de terceiros",
+        "explicacao": "Correto! O AWS Artifact fornece relatórios de auditoria de terceiros que ajudam a garantir a conformidade."
+      },
+      {
+        "texto": "Documentação de política de backup",
+        "explicacao": "O AWS Artifact não fornece documentação de políticas de backup."
+      },
+      {
+        "texto": "Certificações de conformidade",
+        "explicacao": "Correto! O AWS Artifact inclui certificações de conformidade que são cruciais para garantir a adesão aos regulamentos."
+      },
+      {
+        "texto": "Relatórios de custo de utilização da AWS",
+        "explicacao": "O AWS Artifact não fornece relatórios financeiros ou de custos."
+      }
+    ],
+    "respostaCorreta": [
+      "Relatórios de auditoria de terceiros",
+      "Certificações de conformidade"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais benefícios de usar o AWS Artifact para auditorias de conformidade? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Acesso a relatórios de conformidade sob demanda",
+        "explicacao": "Correto! O AWS Artifact permite o acesso imediato a relatórios de conformidade."
+      },
+      {
+        "texto": "Automatização de respostas a incidentes de segurança",
+        "explicacao": "O AWS Artifact não automatiza respostas a incidentes de segurança; ele se concentra em fornecer documentos de conformidade."
+      },
+      {
+        "texto": "Facilidade para compartilhar documentos com auditores",
+        "explicacao": "Correto! O AWS Artifact facilita o compartilhamento de documentos diretamente com auditores."
+      },
+      {
+        "texto": "Integração direta com ferramentas de segurança AWS",
+        "explicacao": "O AWS Artifact não se integra diretamente com ferramentas de segurança como o GuardDuty ou Inspector."
+      }
+    ],
+    "respostaCorreta": [
+      "Acesso a relatórios de conformidade sob demanda",
+      "Facilidade para compartilhar documentos com auditores"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa precisa demonstrar conformidade com o GDPR. Como o AWS Artifact pode ajudar? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Fornecendo relatórios que comprovam a conformidade da AWS com o GDPR",
+        "explicacao": "Correto! O AWS Artifact fornece relatórios que ajudam a demonstrar conformidade com o GDPR."
+      },
+      {
+        "texto": "Automatizando a criptografia de dados",
+        "explicacao": "A criptografia de dados é gerenciada por outros serviços da AWS, não pelo AWS Artifact."
+      },
+      {
+        "texto": "Acesso a certificações de conformidade relacionadas ao GDPR",
+        "explicacao": "Correto! O AWS Artifact fornece certificações que são úteis para demonstrar conformidade com regulamentos como o GDPR."
+      },
+      {
+        "texto": "Configurando políticas de segurança automáticas",
+        "explicacao": "O AWS Artifact não configura políticas de segurança; ele é uma plataforma de documentação."
+      }
+    ],
+    "respostaCorreta": [
+      "Fornecendo relatórios que comprovam a conformidade da AWS com o GDPR",
+      "Acesso a certificações de conformidade relacionadas ao GDPR"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como uma empresa pode utilizar o AWS Artifact para atender a requisitos de conformidade em diferentes regiões? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Acessando relatórios de conformidade específicos por região",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios de conformidade específicos por região, ajudando as empresas a atender a requisitos regionais."
+      },
+      {
+        "texto": "Configurando alertas automáticos para mudanças regulatórias",
+        "explicacao": "O AWS Artifact não envia alertas automáticos para mudanças regulatórias."
+      },
+      {
+        "texto": "Fornecendo certificações de conformidade para várias jurisdições",
+        "explicacao": "Correto! O AWS Artifact oferece certificações que são válidas em várias jurisdições e regiões."
+      },
+      {
+        "texto": "Monitorando tráfego de rede para garantir conformidade",
+        "explicacao": "O AWS Artifact não monitora o tráfego de rede; ele fornece documentos de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Acessando relatórios de conformidade específicos por região",
+      "Fornecendo certificações de conformidade para várias jurisdições"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa está se preparando para uma auditoria de conformidade ISO 27001. Como o AWS Artifact pode ajudar? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Fornecendo relatórios de conformidade ISO 27001",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios e certificações relevantes para a ISO 27001."
+      },
+      {
+        "texto": "Gerando alertas automáticos de incidentes de segurança",
+        "explicacao": "O AWS Artifact não gera alertas automáticos de segurança; ele se concentra em relatórios de conformidade."
+      },
+      {
+        "texto": "Facilitando o compartilhamento de documentos com auditores",
+        "explicacao": "Correto! O AWS Artifact facilita o compartilhamento de documentos diretamente com auditores."
+      },
+      {
+        "texto": "Implementando controles de segurança automaticamente",
+        "explicacao": "O AWS Artifact não implementa controles de segurança; ele fornece documentos para suporte a auditorias."
+      }
+    ],
+    "respostaCorreta": [
+      "Fornecendo relatórios de conformidade ISO 27001",
+      "Facilitando o compartilhamento de documentos com auditores"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais certificações e relatórios de conformidade estão disponíveis no AWS Artifact para setores regulados? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "HIPAA",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios de conformidade específicos para regulamentações como a HIPAA."
+      },
+      {
+        "texto": "Certificação de segurança de transporte de dados",
+        "explicacao": "O AWS Artifact não fornece certificações específicas para transporte de dados, mas sim para conformidade regulatória."
+      },
+      {
+        "texto": "Relatórios SOC 1 e SOC 2",
+        "explicacao": "Correto! Os relatórios SOC 1 e SOC 2 estão disponíveis no AWS Artifact para apoiar auditorias de conformidade."
+      },
+      {
+        "texto": "Relatórios de incidentes de segurança",
+        "explicacao": "O AWS Artifact não gera relatórios de incidentes de segurança; ele foca em conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "HIPAA",
+      "Relatórios SOC 1 e SOC 2"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS Artifact pode ajudar uma empresa a atender aos requisitos de conformidade da GDPR? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Acessando relatórios de conformidade GDPR diretamente",
+        "explicacao": "Correto! O AWS Artifact fornece relatórios de conformidade específicos para GDPR."
+      },
+      {
+        "texto": "Fornecendo criptografia automatizada de dados pessoais",
+        "explicacao": "O AWS Artifact não oferece criptografia de dados; ele se concentra em documentação de conformidade."
+      },
+      {
+        "texto": "Oferecendo documentação e certificações relacionadas ao GDPR",
+        "explicacao": "Correto! A documentação fornecida pelo AWS Artifact pode ajudar a demonstrar conformidade com o GDPR."
+      },
+      {
+        "texto": "Gerenciando backups automáticos de dados em conformidade com GDPR",
+        "explicacao": "A gestão de backups é realizada por outros serviços da AWS, não pelo AWS Artifact."
+      }
+    ],
+    "respostaCorreta": [
+      "Acessando relatórios de conformidade GDPR diretamente",
+      "Oferecendo documentação e certificações relacionadas ao GDPR"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa que opera em múltiplas regiões está se preparando para uma auditoria de conformidade. Como o AWS Artifact pode ser útil nesse processo? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Oferecendo relatórios de conformidade específicos por região",
+        "explicacao": "Correto! O AWS Artifact disponibiliza relatórios específicos por região para ajudar nas auditorias."
+      },
+      {
+        "texto": "Configurando automaticamente políticas de conformidade",
+        "explicacao": "O AWS Artifact não configura políticas de conformidade; ele fornece documentos de apoio."
+      },
+      {
+        "texto": "Facilitando o compartilhamento de relatórios com auditores em diferentes regiões",
+        "explicacao": "Correto! O AWS Artifact facilita o compartilhamento de documentos de conformidade com auditores em várias localizações."
+      },
+      {
+        "texto": "Realizando auditorias de conformidade automáticas",
+        "explicacao": "O AWS Artifact não realiza auditorias automáticas; ele apenas oferece documentação de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Oferecendo relatórios de conformidade específicos por região",
+      "Facilitando o compartilhamento de relatórios com auditores em diferentes regiões"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa precisa garantir que seus serviços na AWS estão em conformidade com as regulamentações do setor financeiro. Onde a empresa pode encontrar relatórios de conformidade específicos da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact é a principal fonte de relatórios e certificações de conformidade da AWS."
+      },
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O Amazon CloudWatch é uma ferramenta de monitoramento, não uma fonte de relatórios de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS oferece informações detalhadas sobre programas de conformidade da AWS."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config monitora e gerencia configurações de recursos, mas não é uma fonte de relatórios de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Onde os clientes da AWS podem acessar certificações de conformidade e relatórios de auditoria de terceiros para auditorias internas? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios de conformidade e certificações de auditorias de terceiros."
+      },
+      {
+        "texto": "AWS Trusted Advisor",
+        "explicacao": "O AWS Trusted Advisor é uma ferramenta de otimização, não uma fonte de relatórios de conformidade."
+      },
+      {
+        "texto": "AWS Compliance Center",
+        "explicacao": "Correto! O AWS Compliance Center fornece informações gerais e links úteis sobre conformidade."
+      },
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector é uma ferramenta de análise de vulnerabilidades e segurança, não de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "AWS Compliance Center"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa precisa de informações detalhadas sobre a conformidade da AWS com regulamentos do setor de saúde, como a HIPAA. Onde essas informações podem ser acessadas? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios de conformidade específicos para setores regulados, como saúde."
+      },
+      {
+        "texto": "AWS Management Console",
+        "explicacao": "O AWS Management Console oferece acesso aos serviços da AWS, mas não fornece relatórios de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS oferece informações detalhadas sobre conformidade, incluindo HIPAA."
+      },
+      {
+        "texto": "Amazon GuardDuty",
+        "explicacao": "O Amazon GuardDuty é uma ferramenta de detecção de ameaças, não de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como uma empresa pode acessar relatórios SOC 2 para garantir conformidade de seus serviços na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Através do AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece acesso a relatórios SOC 2 que ajudam a demonstrar conformidade."
+      },
+      {
+        "texto": "Usando o Amazon CloudFront",
+        "explicacao": "O Amazon CloudFront é um serviço de distribuição de conteúdo e não fornece relatórios SOC 2."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS fornece uma visão geral dos relatórios SOC 2 disponíveis."
+      },
+      {
+        "texto": "AWS Systems Manager",
+        "explicacao": "O AWS Systems Manager ajuda a gerenciar infraestruturas, mas não fornece relatórios de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Através do AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais recursos podem ser utilizados para acessar relatórios e certificações de conformidade globais da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact fornece acesso a relatórios e certificações globais de conformidade."
+      },
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O Amazon CloudWatch é uma ferramenta de monitoramento, não uma fonte de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS é uma fonte de informações e links para relatórios de conformidade globais."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config monitora conformidade de configurações de recursos, mas não fornece relatórios globais."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Onde uma organização pode encontrar relatórios de conformidade para regulamentos como o GDPR? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios e certificações que ajudam a atender às exigências do GDPR."
+      },
+      {
+        "texto": "AWS Key Management Service (KMS)",
+        "explicacao": "O AWS KMS é um serviço de gerenciamento de chaves de criptografia e não fornece relatórios de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS oferece links para relatórios e certificações de conformidade com o GDPR."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O AWS CloudFormation é uma ferramenta de infraestrutura como código e não fornece relatórios de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa precisa demonstrar conformidade com o PCI DSS para suas operações na AWS. Quais recursos podem fornecer os relatórios necessários? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios específicos para conformidade com o PCI DSS."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados gerenciado, mas não oferece relatórios de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS fornece informações sobre PCI DSS e links para relatórios disponíveis."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é um serviço de computação sem servidor e não oferece relatórios de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Onde uma empresa pode acessar relatórios de conformidade sobre a infraestrutura física da AWS em regiões globais? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece relatórios de conformidade relacionados à infraestrutura física da AWS."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "O Amazon Route 53 é um serviço de DNS gerenciado, não uma fonte de relatórios de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS contém informações sobre a conformidade da infraestrutura física da AWS."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O AWS CloudFormation é uma ferramenta de provisionamento de infraestrutura, não uma fonte de relatórios de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Para uma empresa que opera globalmente, onde encontrar informações sobre os padrões e certificações de conformidade que a AWS atende em diferentes países? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS oferece uma visão geral das certificações globais de conformidade."
+      },
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact fornece relatórios e certificações de conformidade específicas por região e setor."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação e não fornece relatórios ou certificações de conformidade."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O AWS CloudTrail rastreia atividades de API, mas não fornece certificações de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Centro de Conformidade da AWS",
+      "AWS Artifact"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa precisa de documentação de conformidade para auditores durante uma revisão regulatória. Quais recursos podem fornecer esses documentos? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "Correto! O AWS Artifact oferece documentos que podem ser usados para revisões regulatórias."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O AWS IAM é um serviço de gerenciamento de acesso e não fornece documentos de conformidade."
+      },
+      {
+        "texto": "Centro de Conformidade da AWS",
+        "explicacao": "Correto! O Centro de Conformidade da AWS contém links e informações para acessar a documentação necessária."
+      },
+      {
+        "texto": "Amazon VPC",
+        "explicacao": "O Amazon VPC fornece redes virtuais, mas não documentos de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "Centro de Conformidade da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
   }
 ]
