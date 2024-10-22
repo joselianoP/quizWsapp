@@ -154,5 +154,13 @@
         <p [innerHTML]="acertosPorDominioMensagem"></p>
       </div>
     </mat-card>
+    <div *ngIf="perguntas.length > 0">
+      <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
+      <ul class="listaLegenda">
+        <li *ngFor="let domain of domainQuestionCount | keyvalue">
+          {{ domain.key }}: {{ domain.value }}
+        </li>
+      </ul>
+    </div>
   </div>
 </div>

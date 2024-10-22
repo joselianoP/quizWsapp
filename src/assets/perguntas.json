@@ -9837,5 +9837,2405 @@
     "respostaCorreta": "Amazon DynamoDB",
     "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a responsabilidade do cliente no Modelo de Responsabilidade Compartilhada da AWS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física das instalações da AWS.",
+        "explicacao": "Essa é uma responsabilidade da AWS, não do cliente."
+      },
+      {
+        "texto": "Gerenciar a segurança dos dados armazenados na nuvem.",
+        "explicacao": "Sim, os clientes são responsáveis pela segurança dos dados que armazenam na AWS."
+      },
+      {
+        "texto": "Garantir a resiliência da infraestrutura da AWS.",
+        "explicacao": "Essa responsabilidade recai sobre a AWS."
+      },
+      {
+        "texto": "Proteger a rede elétrica das regiões da AWS.",
+        "explicacao": "Isso é de responsabilidade da AWS, não do cliente."
+      }
+    ],
+    "respostaCorreta": "Gerenciar a segurança dos dados armazenados na nuvem.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual componente é de responsabilidade da AWS no Modelo de Responsabilidade Compartilhada?",
+    "opcoes": [
+      {
+        "texto": "Segurança física das instalações",
+        "explicacao": "Sim, a AWS é responsável pela segurança física das suas instalações."
+      },
+      {
+        "texto": "Configuração de grupos de segurança",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciamento de credenciais de usuários",
+        "explicacao": "Essa é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Implementação de criptografia de dados",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Segurança física das instalações",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades é do cliente na AWS?",
+    "opcoes": [
+      {
+        "texto": "Atualizações de segurança do hardware da AWS",
+        "explicacao": "Essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Gerenciamento de políticas de segurança da informação",
+        "explicacao": "Sim, o cliente é responsável por gerenciar suas políticas de segurança."
+      },
+      {
+        "texto": "Proteção contra desastres naturais nas instalações da AWS",
+        "explicacao": "Essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Manutenção da infraestrutura de rede da AWS",
+        "explicacao": "Essa é uma responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": "Gerenciamento de políticas de segurança da informação",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No Modelo de Responsabilidade Compartilhada da AWS, quem é responsável pela segurança do sistema operacional em uma instância do EC2?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "A AWS gerencia a segurança do hardware, mas a segurança do sistema operacional é responsabilidade do cliente."
+      },
+      {
+        "texto": "Cliente",
+        "explicacao": "Sim, o cliente é responsável pela segurança do sistema operacional em suas instâncias EC2."
+      },
+      {
+        "texto": "Ambos",
+        "explicacao": "A responsabilidade é separada; a AWS cuida do hardware e o cliente do sistema operacional."
+      },
+      {
+        "texto": "Nenhum dos dois",
+        "explicacao": "Isso não é correto; o cliente é responsável pela segurança do sistema operacional."
+      }
+    ],
+    "respostaCorreta": "Cliente",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual responsabilidade não pertence ao cliente no Modelo de Responsabilidade Compartilhada da AWS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento de dados do cliente",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Segurança física dos data centers",
+        "explicacao": "Sim, essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Configuração de grupos de segurança",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciamento de identidades e acessos",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Segurança física dos data centers",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No contexto do Modelo de Responsabilidade Compartilhada, quem deve configurar as medidas de segurança no nível da aplicação?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "A AWS fornece a infraestrutura, mas a segurança da aplicação é de responsabilidade do cliente."
+      },
+      {
+        "texto": "Cliente",
+        "explicacao": "Sim, o cliente é responsável por configurar medidas de segurança no nível da aplicação."
+      },
+      {
+        "texto": "Ambos",
+        "explicacao": "A responsabilidade é compartilhada, mas o cliente é quem deve configurar as medidas."
+      },
+      {
+        "texto": "Nenhum dos dois",
+        "explicacao": "Isso não é correto; a segurança da aplicação é de responsabilidade do cliente."
+      }
+    ],
+    "respostaCorreta": "Cliente",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que a AWS é responsável em relação à segurança dos dados?",
+    "opcoes": [
+      {
+        "texto": "Proteção dos dados do cliente durante a transmissão e em repouso",
+        "explicacao": "Essa é uma responsabilidade do cliente, embora a AWS forneça ferramentas para isso."
+      },
+      {
+        "texto": "Segurança do hardware e infraestrutura subjacentes",
+        "explicacao": "Sim, a AWS é responsável pela segurança do hardware e da infraestrutura."
+      },
+      {
+        "texto": "Implementação de criptografia para dados do cliente",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciamento de backups de dados do cliente",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Segurança do hardware e infraestrutura subjacentes",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No Modelo de Responsabilidade Compartilhada, a quem cabe a responsabilidade de garantir a conformidade com regulamentações e políticas?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "Embora a AWS ajude, a responsabilidade pela conformidade é do cliente."
+      },
+      {
+        "texto": "Cliente",
+        "explicacao": "Sim, o cliente é responsável por garantir a conformidade com regulamentações e políticas."
+      },
+      {
+        "texto": "Ambos",
+        "explicacao": "A responsabilidade é compartilhada, mas a conformidade recai sobre o cliente."
+      },
+      {
+        "texto": "Nenhum dos dois",
+        "explicacao": "Isso não é correto; a conformidade é de responsabilidade do cliente."
+      }
+    ],
+    "respostaCorreta": "Cliente",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações descreve a responsabilidade da AWS no Modelo de Responsabilidade Compartilhada?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar os dados armazenados pelo cliente",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Manter a segurança da infraestrutura que suporta os serviços",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Configurar as permissões de acesso dos usuários",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Implementar criptografia de dados do cliente",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Manter a segurança da infraestrutura que suporta os serviços",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o cliente deve fazer para garantir a segurança de sua aplicação na AWS?",
+    "opcoes": [
+      {
+        "texto": "Configurar as credenciais de segurança apropriadas",
+        "explicacao": "Sim, o cliente deve garantir que suas credenciais de segurança estejam configuradas corretamente."
+      },
+      {
+        "texto": "Manter a segurança física dos data centers",
+        "explicacao": "Essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Instalar hardware de segurança em suas instalações",
+        "explicacao": "Essa responsabilidade é do cliente, mas não se aplica a serviços na nuvem."
+      },
+      {
+        "texto": "Gerenciar a segurança do ambiente de execução da AWS",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Configurar as credenciais de segurança apropriadas",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais responsabilidades do cliente na AWS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física dos data centers.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Gerenciar credenciais e acessos de usuários.",
+        "explicacao": "Sim, essa é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Manter a infraestrutura de rede da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Proteger os servidores da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Gerenciar credenciais e acessos de usuários.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No contexto da AWS, o que o cliente deve fazer para proteger seus dados?",
+    "opcoes": [
+      {
+        "texto": "Configurar grupos de segurança e regras de firewall.",
+        "explicacao": "Sim, essa é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Instalar e gerenciar hardware de segurança.",
+        "explicacao": "Essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Manter a segurança da infraestrutura da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Gerenciar a resiliência dos data centers.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Configurar grupos de segurança e regras de firewall.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades é do cliente em relação aos seus aplicativos na AWS?",
+    "opcoes": [
+      {
+        "texto": "Atualizar o software de infraestrutura da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Implementar medidas de segurança no nível da aplicação.",
+        "explicacao": "Sim, o cliente é responsável por implementar essas medidas."
+      },
+      {
+        "texto": "Gerenciar a segurança física do ambiente de execução.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Realizar manutenção nos servidores da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Implementar medidas de segurança no nível da aplicação.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No Modelo de Responsabilidade Compartilhada, quem é responsável por gerenciar as configurações de rede?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Cliente",
+        "explicacao": "Sim, o cliente é responsável por gerenciar as configurações de rede."
+      },
+      {
+        "texto": "Ambos",
+        "explicacao": "Embora a responsabilidade seja compartilhada, o cliente gerencia suas configurações de rede."
+      },
+      {
+        "texto": "Nenhum dos dois",
+        "explicacao": "Isso não é correto; a configuração de rede é de responsabilidade do cliente."
+      }
+    ],
+    "respostaCorreta": "Cliente",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a responsabilidade do cliente em relação à conformidade regulatória na AWS?",
+    "opcoes": [
+      {
+        "texto": "Manter a conformidade de toda a infraestrutura da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Garantir que suas aplicações e dados estejam em conformidade.",
+        "explicacao": "Sim, o cliente deve garantir a conformidade."
+      },
+      {
+        "texto": "Implementar controles de segurança no ambiente de execução da AWS.",
+        "explicacao": "Essa responsabilidade é compartilhada, mas o cliente deve implementar controles."
+      },
+      {
+        "texto": "Configurar a segurança física do data center.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Garantir que suas aplicações e dados estejam em conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes ações o cliente deve realizar para gerenciar a segurança de seus dados na AWS?",
+    "opcoes": [
+      {
+        "texto": "Armazenar dados em um local seguro fornecido pela AWS.",
+        "explicacao": "Embora a AWS ofereça segurança, o cliente deve gerenciar seus dados."
+      },
+      {
+        "texto": "Implementar criptografia para dados em trânsito e em repouso.",
+        "explicacao": "Sim, essa é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Proteger a segurança física das instalações da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Gerenciar o armazenamento físico de dados.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Implementar criptografia para dados em trânsito e em repouso.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No que diz respeito ao gerenciamento de identidade, qual é uma responsabilidade do cliente na AWS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar as chaves de segurança do hardware da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Criar e gerenciar usuários e permissões no AWS IAM.",
+        "explicacao": "Sim, essa é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Proteger a infraestrutura da AWS contra ataques cibernéticos.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Manter a segurança física dos servidores.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Criar e gerenciar usuários e permissões no AWS IAM.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações é verdadeira sobre as responsabilidades do cliente na AWS?",
+    "opcoes": [
+      {
+        "texto": "A AWS gerencia toda a segurança da aplicação.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "O cliente é responsável pela segurança da aplicação que desenvolve.",
+        "explicacao": "Sim, o cliente deve garantir a segurança de suas aplicações."
+      },
+      {
+        "texto": "A AWS é responsável por garantir a conformidade com leis locais.",
+        "explicacao": "Embora a AWS forneça ferramentas, a conformidade é de responsabilidade do cliente."
+      },
+      {
+        "texto": "A segurança da infraestrutura é totalmente responsabilidade do cliente.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "O cliente é responsável pela segurança da aplicação que desenvolve.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o cliente deve fazer para garantir a segurança da sua infraestrutura na AWS?",
+    "opcoes": [
+      {
+        "texto": "Configurar e monitorar logs de auditoria.",
+        "explicacao": "Sim, o cliente deve configurar e monitorar logs para garantir a segurança."
+      },
+      {
+        "texto": "Manter a segurança física dos servidores da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Gerenciar o data center da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Proteger as instalações da AWS contra desastres naturais.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Configurar e monitorar logs de auditoria.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a responsabilidade do cliente ao utilizar o AWS CloudTrail?",
+    "opcoes": [
+      {
+        "texto": "Gerar logs de atividade de API automaticamente.",
+        "explicacao": "Sim, o AWS CloudTrail gera logs automaticamente, mas o cliente deve habilitar e configurar."
+      },
+      {
+        "texto": "Manter a segurança física das instalações da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Gerenciar a infraestrutura de rede.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Proteger os servidores da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Gerar logs de atividade de API automaticamente.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais responsabilidades da AWS em relação à segurança?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física dos data centers.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Gerenciar credenciais e acessos de usuários.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Implementar segurança em nível de aplicação.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Fornecer suporte técnico aos usuários.",
+        "explicacao": "Embora a AWS forneça suporte, a responsabilidade pela segurança é diferente."
+      }
+    ],
+    "respostaCorreta": "Gerenciar a segurança física dos data centers.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma responsabilidade da AWS?",
+    "opcoes": [
+      {
+        "texto": "Proteger as aplicações desenvolvidas pelos clientes.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Manter a segurança da infraestrutura subjacente.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Gerenciar as permissões dos usuários.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Implementar políticas de segurança de dados dos clientes.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Manter a segurança da infraestrutura subjacente.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No Modelo de Responsabilidade Compartilhada da AWS, quem é responsável pela segurança do hardware?",
+    "opcoes": [
+      {
+        "texto": "Cliente",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "AWS",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Ambos",
+        "explicacao": "Embora seja um modelo compartilhado, a segurança do hardware é da AWS."
+      },
+      {
+        "texto": "Nenhum dos dois",
+        "explicacao": "Isso não é correto; a segurança do hardware é da AWS."
+      }
+    ],
+    "respostaCorreta": "AWS",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades é atribuída à AWS em relação aos seus serviços?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança da aplicação.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Fornecer segurança física e ambiental para os data centers.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Implementar autenticação e controle de acesso.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciar dados do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Fornecer segurança física e ambiental para os data centers.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que a AWS é responsável por fornecer em termos de compliance?",
+    "opcoes": [
+      {
+        "texto": "Certificações de conformidade para seus serviços.",
+        "explicacao": "Sim, a AWS fornece certificações para demonstrar conformidade."
+      },
+      {
+        "texto": "Garantir que todas as aplicações do cliente estejam em conformidade.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciar os dados do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Proteger as informações do cliente em todas as regiões.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Certificações de conformidade para seus serviços.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a responsabilidade da AWS em relação à manutenção de atualizações de segurança?",
+    "opcoes": [
+      {
+        "texto": "O cliente deve aplicar todas as atualizações de segurança.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "A AWS deve aplicar atualizações de segurança à infraestrutura.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "A AWS é responsável apenas pela segurança física.",
+        "explicacao": "Essa responsabilidade é mais abrangente."
+      },
+      {
+        "texto": "A AWS não tem responsabilidade por atualizações de segurança.",
+        "explicacao": "Isso não é correto; a AWS é responsável por sua infraestrutura."
+      }
+    ],
+    "respostaCorreta": "A AWS deve aplicar atualizações de segurança à infraestrutura.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em termos de segurança de dados, o que a AWS é responsável por?",
+    "opcoes": [
+      {
+        "texto": "Fornecer segurança física e ambiental.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Gerenciar a segurança de dados do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Controlar quem pode acessar os dados.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Armazenar dados do cliente de forma segura.",
+        "explicacao": "Embora a AWS armazene os dados, o cliente deve garantir a segurança."
+      }
+    ],
+    "respostaCorreta": "Fornecer segurança física e ambiental.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No que diz respeito ao suporte ao cliente, qual é a responsabilidade da AWS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança de aplicações do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Fornecer suporte técnico e documentação.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Implementar controles de acesso.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Proteger a infraestrutura do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Fornecer suporte técnico e documentação.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a responsabilidade da AWS no que diz respeito à infraestrutura?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física da infraestrutura.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Controlar quem pode acessar a infraestrutura do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Implementar medidas de segurança nas aplicações do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciar as credenciais dos usuários do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Gerenciar a segurança física da infraestrutura.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades cabe à AWS no Modelo de Responsabilidade Compartilhada?",
+    "opcoes": [
+      {
+        "texto": "Controlar o acesso às aplicações do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciar a infraestrutura subjacente da AWS.",
+        "explicacao": "Sim, essa é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Proteger as informações do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciar os dados do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Gerenciar a infraestrutura subjacente da AWS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades é compartilhada entre o cliente e a AWS?",
+    "opcoes": [
+      {
+        "texto": "Segurança da infraestrutura física.",
+        "explicacao": "Essa responsabilidade é exclusiva da AWS."
+      },
+      {
+        "texto": "Gerenciamento de identidade e acesso.",
+        "explicacao": "Sim, essa responsabilidade é compartilhada."
+      },
+      {
+        "texto": "Manutenção do hardware.",
+        "explicacao": "Essa responsabilidade é exclusiva da AWS."
+      },
+      {
+        "texto": "Implementação de controles de rede.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Gerenciamento de identidade e acesso.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade compartilhada entre o cliente e a AWS em termos de segurança?",
+    "opcoes": [
+      {
+        "texto": "Proteção da infraestrutura subjacente.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Gerenciamento de dados do cliente.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Fornecimento de segurança física.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Atualização de software de sistema operacional.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Gerenciamento de dados do cliente.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No contexto do Modelo de Responsabilidade Compartilhada da AWS, quem é responsável pela configuração de segurança das aplicações?",
+    "opcoes": [
+      {
+        "texto": "Cliente",
+        "explicacao": "Sim, essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "AWS",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Ambos",
+        "explicacao": "Essa responsabilidade é compartilhada."
+      },
+      {
+        "texto": "Nenhum dos dois",
+        "explicacao": "Isso não é correto."
+      }
+    ],
+    "respostaCorreta": "Cliente",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que a AWS e o cliente devem fazer juntos para garantir a segurança?",
+    "opcoes": [
+      {
+        "texto": "Monitorar e auditar acessos.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Gerenciar a segurança física dos data centers.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Proteger a infraestrutura de hardware.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Controlar o acesso à rede pública.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Monitorar e auditar acessos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma responsabilidade compartilhada na proteção de dados?",
+    "opcoes": [
+      {
+        "texto": "Implementar criptografia para dados em repouso.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Gerenciar a segurança da infraestrutura da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Definir políticas de segurança de dados.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Fornecer suporte técnico ao cliente.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Definir políticas de segurança de dados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade compartilhada entre o cliente e a AWS no gerenciamento de incidentes de segurança?",
+    "opcoes": [
+      {
+        "texto": "Prevenir ataques físicos aos data centers.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Desenvolver um plano de resposta a incidentes.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Proteger a rede de nuvem da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Manter a segurança da infraestrutura do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Desenvolver um plano de resposta a incidentes.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre responsabilidades compartilhadas é correta?",
+    "opcoes": [
+      {
+        "texto": "A AWS é responsável por todas as questões de segurança.",
+        "explicacao": "Isso não é correto; o cliente também tem responsabilidades."
+      },
+      {
+        "texto": "O cliente é responsável por gerenciar a segurança de suas aplicações.",
+        "explicacao": "Sim, essa é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Ambas as partes são responsáveis pela segurança física.",
+        "explicacao": "Essa responsabilidade é exclusiva da AWS."
+      },
+      {
+        "texto": "O cliente deve garantir a segurança da infraestrutura da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "O cliente é responsável por gerenciar a segurança de suas aplicações.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No contexto de conformidade, o que é uma responsabilidade compartilhada entre o cliente e a AWS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Garantir a conformidade com regulamentações de dados.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Implementar medidas de segurança para a infraestrutura.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Desenvolver políticas de segurança de dados do cliente.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      }
+    ],
+    "respostaCorreta": "Garantir a conformidade com regulamentações de dados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade compartilhada no que diz respeito ao controle de acesso?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar o acesso à infraestrutura física.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Implementar controles de acesso às suas aplicações.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Monitorar o tráfego da rede da AWS.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Fornecer segurança ao hardware subjacente.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Implementar controles de acesso às suas aplicações.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que a AWS e o cliente devem fazer em conjunto para garantir a segurança de dados?",
+    "opcoes": [
+      {
+        "texto": "Proteger a infraestrutura física.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      },
+      {
+        "texto": "Realizar auditorias de segurança.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Gerenciar as credenciais dos usuários.",
+        "explicacao": "Essa responsabilidade é do cliente."
+      },
+      {
+        "texto": "Controlar o acesso físico aos data centers.",
+        "explicacao": "Essa responsabilidade é da AWS."
+      }
+    ],
+    "respostaCorreta": "Realizar auditorias de segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as responsabilidades de segurança da AWS podem mudar em um modelo de implantação híbrido?",
+    "opcoes": [
+      {
+        "texto": "A AWS assume todas as responsabilidades de segurança.",
+        "explicacao": "Isso não é correto; as responsabilidades são compartilhadas."
+      },
+      {
+        "texto": "O cliente é responsável pela segurança da infraestrutura local.",
+        "explicacao": "Sim, em um modelo híbrido, o cliente assume mais responsabilidades na infraestrutura local."
+      },
+      {
+        "texto": "As responsabilidades da AWS são reduzidas.",
+        "explicacao": "Isso não é correto; a AWS ainda mantém responsabilidades em sua infraestrutura."
+      },
+      {
+        "texto": "Não há mudanças nas responsabilidades.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar com o modelo."
+      }
+    ],
+    "respostaCorreta": "O cliente é responsável pela segurança da infraestrutura local.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que pode afetar as responsabilidades de segurança do cliente ao usar serviços gerenciados da AWS?",
+    "opcoes": [
+      {
+        "texto": "O cliente não tem responsabilidades com serviços gerenciados.",
+        "explicacao": "Isso não é correto; o cliente ainda tem responsabilidades."
+      },
+      {
+        "texto": "A complexidade do serviço gerenciado pode alterar as responsabilidades.",
+        "explicacao": "Sim, a complexidade do serviço pode afetar as responsabilidades."
+      },
+      {
+        "texto": "Todos os serviços gerenciados transferem a responsabilidade para a AWS.",
+        "explicacao": "Isso não é correto; nem todos os serviços gerenciados são completamente responsáveis pela AWS."
+      },
+      {
+        "texto": "Não há mudança nas responsabilidades ao usar serviços gerenciados.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar."
+      }
+    ],
+    "respostaCorreta": "A complexidade do serviço gerenciado pode alterar as responsabilidades.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as responsabilidades podem mudar se um cliente decide migrar para a nuvem pública?",
+    "opcoes": [
+      {
+        "texto": "O cliente assume todas as responsabilidades de segurança.",
+        "explicacao": "Isso não é correto; a AWS também assume responsabilidades."
+      },
+      {
+        "texto": "O cliente pode se tornar menos responsável pela infraestrutura física.",
+        "explicacao": "Sim, ao migrar, o cliente se torna menos responsável pela infraestrutura física."
+      },
+      {
+        "texto": "Não há mudança nas responsabilidades.",
+        "explicacao": "Isso não é correto; as responsabilidades mudam com a migração."
+      },
+      {
+        "texto": "A AWS não tem mais responsabilidades.",
+        "explicacao": "Isso não é correto; a AWS mantém suas responsabilidades."
+      }
+    ],
+    "respostaCorreta": "O cliente pode se tornar menos responsável pela infraestrutura física.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais fatores podem alterar as responsabilidades do cliente na AWS?",
+    "opcoes": [
+      {
+        "texto": "Tipo de serviço utilizado.",
+        "explicacao": "Sim, o tipo de serviço pode mudar as responsabilidades."
+      },
+      {
+        "texto": "Número de usuários na conta.",
+        "explicacao": "Isso não é necessariamente um fator que altera responsabilidades."
+      },
+      {
+        "texto": "A localização dos data centers da AWS.",
+        "explicacao": "Isso não altera as responsabilidades do cliente."
+      },
+      {
+        "texto": "Alterações na legislação da AWS.",
+        "explicacao": "As legislações externas não afetam diretamente as responsabilidades na AWS."
+      }
+    ],
+    "respostaCorreta": "Tipo de serviço utilizado.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a adoção de novos serviços pode mudar as responsabilidades do cliente?",
+    "opcoes": [
+      {
+        "texto": "Adoção de serviços requer menos responsabilidades do cliente.",
+        "explicacao": "Isso não é correto; pode aumentar as responsabilidades."
+      },
+      {
+        "texto": "Novos serviços podem exigir novos controles de segurança.",
+        "explicacao": "Sim, isso pode mudar as responsabilidades do cliente."
+      },
+      {
+        "texto": "Os serviços novos sempre são de responsabilidade total da AWS.",
+        "explicacao": "Isso não é correto; as responsabilidades são compartilhadas."
+      },
+      {
+        "texto": "Não há mudança nas responsabilidades ao adotar novos serviços.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar."
+      }
+    ],
+    "respostaCorreta": "Novos serviços podem exigir novos controles de segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma maneira pela qual as responsabilidades do cliente podem aumentar com a personalização de soluções na AWS?",
+    "opcoes": [
+      {
+        "texto": "O cliente é responsável apenas pela configuração inicial.",
+        "explicacao": "Isso não é correto; o cliente é responsável por toda a configuração."
+      },
+      {
+        "texto": "A personalização pode exigir mais medidas de segurança.",
+        "explicacao": "Sim, isso aumenta as responsabilidades do cliente."
+      },
+      {
+        "texto": "A AWS gerencia todas as personalizações.",
+        "explicacao": "Isso não é correto; o cliente gerencia suas personalizações."
+      },
+      {
+        "texto": "Não há aumento nas responsabilidades com personalização.",
+        "explicacao": "Isso não é correto; as responsabilidades podem aumentar."
+      }
+    ],
+    "respostaCorreta": "A personalização pode exigir mais medidas de segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a utilização de ambientes de desenvolvimento e teste pode afetar as responsabilidades de segurança?",
+    "opcoes": [
+      {
+        "texto": "O cliente não tem responsabilidades em ambientes de desenvolvimento.",
+        "explicacao": "Isso não é correto; o cliente tem responsabilidades."
+      },
+      {
+        "texto": "O uso de ambientes adicionais pode aumentar as responsabilidades do cliente.",
+        "explicacao": "Sim, mais ambientes podem significar mais responsabilidades."
+      },
+      {
+        "texto": "A AWS assume todas as responsabilidades em ambientes de desenvolvimento.",
+        "explicacao": "Isso não é correto; a AWS mantém suas responsabilidades."
+      },
+      {
+        "texto": "Não há mudança nas responsabilidades ao usar ambientes de desenvolvimento.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar."
+      }
+    ],
+    "respostaCorreta": "O uso de ambientes adicionais pode aumentar as responsabilidades do cliente.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a responsabilidade de compliance pode mudar ao mudar para um novo serviço da AWS?",
+    "opcoes": [
+      {
+        "texto": "Todos os serviços da AWS garantem conformidade automática.",
+        "explicacao": "Isso não é correto; a conformidade ainda precisa ser gerenciada."
+      },
+      {
+        "texto": "O cliente pode precisar adaptar suas práticas de compliance.",
+        "explicacao": "Sim, isso pode mudar com novos serviços."
+      },
+      {
+        "texto": "Não há mudanças nas responsabilidades de compliance.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar."
+      },
+      {
+        "texto": "A AWS assume total responsabilidade pela conformidade.",
+        "explicacao": "Isso não é correto; as responsabilidades são compartilhadas."
+      }
+    ],
+    "respostaCorreta": "O cliente pode precisar adaptar suas práticas de compliance.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que pode afetar a responsabilidade do cliente na proteção de dados ao usar a AWS?",
+    "opcoes": [
+      {
+        "texto": "O cliente não tem responsabilidades na proteção de dados.",
+        "explicacao": "Isso não é correto; o cliente é responsável pela proteção de seus dados."
+      },
+      {
+        "texto": "A adoção de novos serviços pode exigir novas medidas de proteção.",
+        "explicacao": "Sim, isso pode afetar as responsabilidades do cliente."
+      },
+      {
+        "texto": "As responsabilidades do cliente são sempre fixas.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar."
+      },
+      {
+        "texto": "A AWS gerencia todos os aspectos da proteção de dados.",
+        "explicacao": "Isso não é correto; o cliente também tem responsabilidades."
+      }
+    ],
+    "respostaCorreta": "A adoção de novos serviços pode exigir novas medidas de proteção.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o uso de ferramentas de terceiros pode mudar as responsabilidades de segurança do cliente?",
+    "opcoes": [
+      {
+        "texto": "O cliente não precisa se preocupar com segurança.",
+        "explicacao": "Isso não é correto; o cliente ainda precisa gerenciar segurança."
+      },
+      {
+        "texto": "O cliente pode ter mais responsabilidades de integração e segurança.",
+        "explicacao": "Sim, o uso de ferramentas de terceiros pode aumentar as responsabilidades."
+      },
+      {
+        "texto": "As responsabilidades do cliente são sempre reduzidas com ferramentas de terceiros.",
+        "explicacao": "Isso não é correto; as responsabilidades podem aumentar."
+      },
+      {
+        "texto": "Não há mudança nas responsabilidades ao usar ferramentas de terceiros.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar."
+      }
+    ],
+    "respostaCorreta": "O cliente pode ter mais responsabilidades de integração e segurança.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa utiliza o Amazon RDS, quais responsabilidades do cliente permanecem?",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento de backups e restaurações.",
+        "explicacao": "Isso não é correto; a AWS gerencia backups automáticos, mas o cliente deve configurar."
+      },
+      {
+        "texto": "Configuração e gerenciamento da segurança do banco de dados.",
+        "explicacao": "Sim, o cliente é responsável por definir e gerenciar as configurações de segurança."
+      },
+      {
+        "texto": "Gerenciamento do hardware subjacente.",
+        "explicacao": "Isso não é correto; a AWS gerencia o hardware do RDS."
+      },
+      {
+        "texto": "Instalação do sistema operacional.",
+        "explicacao": "Isso não é correto; a AWS cuida da instalação do sistema operacional no RDS."
+      }
+    ],
+    "respostaCorreta": "Configuração e gerenciamento da segurança do banco de dados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Com o uso do AWS Lambda, qual é uma responsabilidade que o cliente deve assumir?",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento da infraestrutura física.",
+        "explicacao": "Isso não é correto; a AWS gerencia a infraestrutura física para o Lambda."
+      },
+      {
+        "texto": "Definir e gerenciar o código da função.",
+        "explicacao": "Sim, o cliente é responsável por gerenciar o código da função Lambda."
+      },
+      {
+        "texto": "Configuração da rede subjacente.",
+        "explicacao": "Isso não é correto; a AWS gerencia a configuração da rede subjacente."
+      },
+      {
+        "texto": "Gerenciamento do balanceamento de carga.",
+        "explicacao": "Isso não é correto; a AWS gerencia o balanceamento de carga para funções Lambda."
+      }
+    ],
+    "respostaCorreta": "Definir e gerenciar o código da função.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "No contexto do Amazon EC2, como as responsabilidades do cliente podem mudar?",
+    "opcoes": [
+      {
+        "texto": "O cliente não é responsável pela segurança da instância.",
+        "explicacao": "Isso não é correto; o cliente deve gerenciar a segurança da instância."
+      },
+      {
+        "texto": "O cliente é responsável por todas as atualizações do sistema operacional.",
+        "explicacao": "Sim, o cliente deve gerenciar as atualizações e patches do sistema operacional."
+      },
+      {
+        "texto": "A AWS gerencia a escalabilidade do EC2 automaticamente.",
+        "explicacao": "Isso não é correto; o cliente deve configurar a escalabilidade do EC2."
+      },
+      {
+        "texto": "A AWS cuida da configuração da instância do EC2.",
+        "explicacao": "Isso não é correto; o cliente configura suas instâncias do EC2."
+      }
+    ],
+    "respostaCorreta": "O cliente é responsável por todas as atualizações do sistema operacional.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao usar o Amazon RDS, quais aspectos de segurança o cliente deve considerar?",
+    "opcoes": [
+      {
+        "texto": "A AWS gerencia a segurança do banco de dados completamente.",
+        "explicacao": "Isso não é correto; o cliente ainda deve gerenciar aspectos de segurança."
+      },
+      {
+        "texto": "Configuração de grupos de segurança e controle de acesso.",
+        "explicacao": "Sim, o cliente deve configurar grupos de segurança e controle de acesso."
+      },
+      {
+        "texto": "O cliente não precisa se preocupar com criptografia.",
+        "explicacao": "Isso não é correto; o cliente deve considerar a criptografia dos dados."
+      },
+      {
+        "texto": "A AWS gerencia todos os backups sem a intervenção do cliente.",
+        "explicacao": "Isso não é correto; o cliente deve configurar e entender as políticas de backup."
+      }
+    ],
+    "respostaCorreta": "Configuração de grupos de segurança e controle de acesso.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o uso do AWS Lambda pode alterar as responsabilidades de monitoramento do cliente?",
+    "opcoes": [
+      {
+        "texto": "O cliente não precisa monitorar as funções do Lambda.",
+        "explicacao": "Isso não é correto; o cliente deve monitorar suas funções."
+      },
+      {
+        "texto": "O cliente deve configurar monitoramento e alarmes para suas funções.",
+        "explicacao": "Sim, o cliente é responsável por configurar o monitoramento."
+      },
+      {
+        "texto": "A AWS monitora automaticamente todas as funções sem intervenção do cliente.",
+        "explicacao": "Isso não é correto; o cliente ainda precisa configurar seu monitoramento."
+      },
+      {
+        "texto": "O monitoramento é totalmente desnecessário para funções do Lambda.",
+        "explicacao": "Isso não é correto; o monitoramento é essencial."
+      }
+    ],
+    "respostaCorreta": "O cliente deve configurar monitoramento e alarmes para suas funções.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual responsabilidade do cliente é mais relevante ao usar o Amazon RDS em comparação com uma solução on-premises?",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento do hardware subjacente.",
+        "explicacao": "Isso não é correto; a AWS gerencia o hardware."
+      },
+      {
+        "texto": "Gerenciamento das atualizações do banco de dados.",
+        "explicacao": "Sim, o cliente deve gerenciar e aplicar atualizações do banco de dados."
+      },
+      {
+        "texto": "Segurança física do data center.",
+        "explicacao": "Isso não é correto; a segurança física é da responsabilidade da AWS."
+      },
+      {
+        "texto": "Instalação do banco de dados.",
+        "explicacao": "Isso não é correto; o cliente não precisa instalar o RDS."
+      }
+    ],
+    "respostaCorreta": "Gerenciamento das atualizações do banco de dados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades é compartilhada ao usar o AWS Lambda?",
+    "opcoes": [
+      {
+        "texto": "A AWS gerencia a infraestrutura e o cliente gerencia o código.",
+        "explicacao": "Sim, essa é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "O cliente gerencia toda a infraestrutura e a AWS cuida do código.",
+        "explicacao": "Isso não é correto; a AWS não gerencia o código do cliente."
+      },
+      {
+        "texto": "O cliente é responsável por todo o gerenciamento da função.",
+        "explicacao": "Isso não é correto; a AWS também gerencia a infraestrutura."
+      },
+      {
+        "texto": "A responsabilidade é totalmente da AWS.",
+        "explicacao": "Isso não é correto; as responsabilidades são compartilhadas."
+      }
+    ],
+    "respostaCorreta": "A AWS gerencia a infraestrutura e o cliente gerencia o código.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao utilizar o Amazon EC2, qual das seguintes opções representa uma responsabilidade do cliente?",
+    "opcoes": [
+      {
+        "texto": "Manter a segurança física do data center.",
+        "explicacao": "Isso não é correto; a AWS é responsável pela segurança física."
+      },
+      {
+        "texto": "Configurar a segurança da instância do EC2.",
+        "explicacao": "Sim, o cliente deve gerenciar a segurança da instância."
+      },
+      {
+        "texto": "Gerenciar o sistema de refrigeração do data center.",
+        "explicacao": "Isso não é correto; a AWS gerencia a infraestrutura do data center."
+      },
+      {
+        "texto": "Instalar o sistema operacional na infraestrutura subjacente.",
+        "explicacao": "Isso não é correto; a AWS fornece o sistema operacional para EC2."
+      }
+    ],
+    "respostaCorreta": "Configurar a segurança da instância do EC2.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as responsabilidades mudam ao integrar o AWS Lambda com outros serviços AWS?",
+    "opcoes": [
+      {
+        "texto": "O cliente não precisa mais gerenciar nada.",
+        "explicacao": "Isso não é correto; o cliente ainda precisa gerenciar suas funções."
+      },
+      {
+        "texto": "O cliente pode ter responsabilidades adicionais dependendo da integração.",
+        "explicacao": "Sim, integrações podem aumentar as responsabilidades do cliente."
+      },
+      {
+        "texto": "A AWS assume todas as responsabilidades das integrações.",
+        "explicacao": "Isso não é correto; o cliente ainda tem responsabilidades nas integrações."
+      },
+      {
+        "texto": "Não há mudança nas responsabilidades com integrações.",
+        "explicacao": "Isso não é correto; as responsabilidades podem mudar com integrações."
+      }
+    ],
+    "respostaCorreta": "O cliente pode ter responsabilidades adicionais dependendo da integração.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes é uma responsabilidade da AWS ao usar o Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança e a integridade do banco de dados.",
+        "explicacao": "Sim, a AWS é responsável pela segurança do banco de dados gerenciado."
+      },
+      {
+        "texto": "Configurar o acesso ao banco de dados.",
+        "explicacao": "Isso não é correto; o cliente deve configurar o acesso ao banco de dados."
+      },
+      {
+        "texto": "Gerenciar as credenciais de usuários específicos.",
+        "explicacao": "Isso não é correto; o cliente gerencia as credenciais de acesso."
+      },
+      {
+        "texto": "Realizar consultas no banco de dados.",
+        "explicacao": "Isso não é correto; o cliente realiza as consultas no RDS."
+      }
+    ],
+    "respostaCorreta": "Gerenciar a segurança e a integridade do banco de dados.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Onde você pode encontrar informações sobre as certificações de conformidade da AWS?",
+    "opcoes": [
+      {
+        "texto": "No site oficial da AWS na seção de conformidade.",
+        "explicacao": "Sim, o site oficial da AWS fornece informações detalhadas sobre certificações de conformidade."
+      },
+      {
+        "texto": "Em blogs de terceiros não verificados.",
+        "explicacao": "Isso não é correto; é melhor usar fontes oficiais para informações confiáveis."
+      },
+      {
+        "texto": "No portal de redes sociais da AWS.",
+        "explicacao": "Isso não é correto; as redes sociais não são a fonte primária para informações de conformidade."
+      },
+      {
+        "texto": "Em fóruns online sobre tecnologia.",
+        "explicacao": "Isso não é correto; fóruns podem não ter informações precisas sobre conformidade."
+      }
+    ],
+    "respostaCorreta": "No site oficial da AWS na seção de conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual documento da AWS fornece detalhes sobre suas práticas de segurança e conformidade?",
+    "opcoes": [
+      {
+        "texto": "AWS Compliance Program.",
+        "explicacao": "Sim, o AWS Compliance Program detalha as práticas de conformidade da AWS."
+      },
+      {
+        "texto": "Relatório de impacto ambiental.",
+        "explicacao": "Isso não é correto; o relatório de impacto ambiental não se concentra na conformidade."
+      },
+      {
+        "texto": "Termos de Serviço da AWS.",
+        "explicacao": "Isso não é correto; os termos de serviço não detalham práticas de conformidade."
+      },
+      {
+        "texto": "Documentação de produto da AWS.",
+        "explicacao": "Isso não é correto; a documentação de produto pode não abordar conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Compliance Program.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Onde você pode acessar o relatório de auditoria do AWS SOC 2?",
+    "opcoes": [
+      {
+        "texto": "Na seção de conformidade do site da AWS.",
+        "explicacao": "Sim, o relatório do AWS SOC 2 pode ser encontrado na seção de conformidade do site da AWS."
+      },
+      {
+        "texto": "Em um site de comparação de provedores de nuvem.",
+        "explicacao": "Isso não é correto; essas informações devem ser obtidas diretamente da AWS."
+      },
+      {
+        "texto": "No blog da AWS.",
+        "explicacao": "Isso não é correto; os blogs não contêm os relatórios de auditoria."
+      },
+      {
+        "texto": "Em grupos de discussão sobre tecnologia.",
+        "explicacao": "Isso não é correto; esses grupos não fornecem relatórios oficiais."
+      }
+    ],
+    "respostaCorreta": "Na seção de conformidade do site da AWS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso fornece acesso a certificações e conformidade da AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact.",
+        "explicacao": "Sim, o AWS Artifact fornece acesso a documentos de conformidade e certificações."
+      },
+      {
+        "texto": "AWS Well-Architected Tool.",
+        "explicacao": "Isso não é correto; o Well-Architected Tool foca em práticas recomendadas, não em conformidade."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Isso não é correto; o CloudFormation é uma ferramenta de gerenciamento de infraestrutura."
+      },
+      {
+        "texto": "AWS Trusted Advisor.",
+        "explicacao": "Isso não é correto; o Trusted Advisor fornece recomendações, mas não especificamente sobre conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Artifact.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a melhor maneira de verificar as políticas de privacidade da AWS?",
+    "opcoes": [
+      {
+        "texto": "No site oficial da AWS na seção de privacidade.",
+        "explicacao": "Sim, a seção de privacidade do site oficial fornece as políticas mais atualizadas."
+      },
+      {
+        "texto": "Em resumos de notícias sobre a AWS.",
+        "explicacao": "Isso não é correto; as notícias podem não ter informações completas ou precisas."
+      },
+      {
+        "texto": "Em manuais de usuários de produtos da AWS.",
+        "explicacao": "Isso não é correto; manuais de produtos não detalham políticas de privacidade."
+      },
+      {
+        "texto": "Em vídeos de tutoriais da AWS.",
+        "explicacao": "Isso não é correto; vídeos podem não abordar políticas de privacidade."
+      }
+    ],
+    "respostaCorreta": "No site oficial da AWS na seção de privacidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS garante conformidade com regulamentações como GDPR?",
+    "opcoes": [
+      {
+        "texto": "Implementando controles de segurança e privacidade.",
+        "explicacao": "Sim, a AWS implementa controles para atender às regulamentações como GDPR."
+      },
+      {
+        "texto": "Desconsiderando regulamentações de privacidade.",
+        "explicacao": "Isso não é correto; a AWS leva a conformidade a sério."
+      },
+      {
+        "texto": "Depende apenas dos clientes para conformidade.",
+        "explicacao": "Isso não é correto; a AWS também tem suas próprias responsabilidades de conformidade."
+      },
+      {
+        "texto": "Só fornece serviços em países da UE.",
+        "explicacao": "Isso não é correto; a AWS opera globalmente, não apenas na UE."
+      }
+    ],
+    "respostaCorreta": "Implementando controles de segurança e privacidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Onde você pode encontrar a documentação de conformidade específica para setores da AWS?",
+    "opcoes": [
+      {
+        "texto": "Na seção de conformidade do site da AWS.",
+        "explicacao": "Sim, essa seção inclui documentação específica para setores."
+      },
+      {
+        "texto": "Em livros técnicos sobre computação em nuvem.",
+        "explicacao": "Isso não é correto; livros podem não ter as informações mais atualizadas."
+      },
+      {
+        "texto": "Nos fóruns de usuários da AWS.",
+        "explicacao": "Isso não é correto; os fóruns não contêm documentação oficial."
+      },
+      {
+        "texto": "No suporte ao cliente da AWS.",
+        "explicacao": "Isso não é correto; o suporte pode ajudar, mas a documentação é encontrada online."
+      }
+    ],
+    "respostaCorreta": "Na seção de conformidade do site da AWS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite que os clientes acessem e gerenciem seus documentos de conformidade?",
+    "opcoes": [
+      {
+        "texto": "AWS Management Console.",
+        "explicacao": "Sim, o Management Console permite acesso a documentos de conformidade."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Isso não é correto; o Lambda é para execução de código, não para gerenciamento de documentos."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Isso não é correto; o CloudFormation é usado para provisionamento de infraestrutura."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Isso não é correto; o CloudTrail é para auditoria, não para gerenciamento de documentos."
+      }
+    ],
+    "respostaCorreta": "AWS Management Console.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os clientes da AWS podem se manter atualizados sobre mudanças em políticas de conformidade?",
+    "opcoes": [
+      {
+        "texto": "Através de comunicados oficiais da AWS.",
+        "explicacao": "Sim, a AWS fornece comunicados oficiais para atualizações de conformidade."
+      },
+      {
+        "texto": "Consultando blogs não oficiais.",
+        "explicacao": "Isso não é correto; é melhor usar fontes oficiais."
+      },
+      {
+        "texto": "Seguindo influenciadores nas redes sociais.",
+        "explicacao": "Isso não é correto; as redes sociais podem não ter informações precisas."
+      },
+      {
+        "texto": "Em discussões em fóruns de tecnologia.",
+        "explicacao": "Isso não é correto; os fóruns não são uma fonte confiável para políticas de conformidade."
+      }
+    ],
+    "respostaCorreta": "Através de comunicados oficiais da AWS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais recursos que a AWS oferece para ajudar na conformidade?",
+    "opcoes": [
+      {
+        "texto": "AWS Compliance Center.",
+        "explicacao": "Sim, o Compliance Center ajuda os clientes a entenderem as conformidades da AWS."
+      },
+      {
+        "texto": "AWS GameLift.",
+        "explicacao": "Isso não é correto; o GameLift é uma solução para jogos, não para conformidade."
+      },
+      {
+        "texto": "AWS Elastic Beanstalk.",
+        "explicacao": "Isso não é correto; o Elastic Beanstalk é uma plataforma de aplicação, não um recurso de conformidade."
+      },
+      {
+        "texto": "AWS Step Functions.",
+        "explicacao": "Isso não é correto; o Step Functions é para orquestração de aplicativos, não para conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Compliance Center.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Uma ferramenta da AWS para acessar documentos de conformidade.",
+        "explicacao": "Sim, o AWS Artifact é uma ferramenta que permite acessar relatórios de auditoria e certificações."
+      },
+      {
+        "texto": "Um serviço de armazenamento em nuvem.",
+        "explicacao": "Isso não é correto; o AWS Artifact é relacionado à conformidade, não ao armazenamento."
+      },
+      {
+        "texto": "Uma ferramenta para monitorar desempenho de aplicações.",
+        "explicacao": "Isso não é correto; o AWS Artifact não é usado para monitoramento de desempenho."
+      },
+      {
+        "texto": "Uma solução de gerenciamento de identidades.",
+        "explicacao": "Isso não é correto; o AWS Artifact é focado em conformidade, não em gerenciamento de identidades."
+      }
+    ],
+    "respostaCorreta": "Uma ferramenta da AWS para acessar documentos de conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de documento você pode acessar no AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Relatórios de auditoria e certificações de conformidade.",
+        "explicacao": "Sim, o AWS Artifact permite acesso a relatórios de auditoria, como SOC e ISO."
+      },
+      {
+        "texto": "Scripts de automação de infraestrutura.",
+        "explicacao": "Isso não é correto; o AWS Artifact é focado em conformidade, não em automação."
+      },
+      {
+        "texto": "Arquivos de configuração de rede.",
+        "explicacao": "Isso não é correto; o AWS Artifact não armazena arquivos de configuração de rede."
+      },
+      {
+        "texto": "Logs de segurança em tempo real.",
+        "explicacao": "Isso não é correto; logs de segurança em tempo real não são gerenciados pelo AWS Artifact."
+      }
+    ],
+    "respostaCorreta": "Relatórios de auditoria e certificações de conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os clientes podem utilizar o AWS Artifact para apoiar suas necessidades de conformidade?",
+    "opcoes": [
+      {
+        "texto": "Baixando relatórios de auditoria para atender a requisitos regulatórios.",
+        "explicacao": "Sim, os clientes podem baixar relatórios como SOC 2, ISO 27001 e PCI para atender a exigências regulatórias."
+      },
+      {
+        "texto": "Criando instâncias de banco de dados seguras.",
+        "explicacao": "Isso não é correto; o AWS Artifact não é uma ferramenta de gerenciamento de bancos de dados."
+      },
+      {
+        "texto": "Monitorando a atividade de rede em tempo real.",
+        "explicacao": "Isso não é correto; o Artifact não fornece monitoramento de rede."
+      },
+      {
+        "texto": "Configurando políticas de segurança automatizadas.",
+        "explicacao": "Isso não é correto; o Artifact é uma ferramenta de acesso a documentos, não de configuração de segurança."
+      }
+    ],
+    "respostaCorreta": "Baixando relatórios de auditoria para atender a requisitos regulatórios.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes documentos está disponível para download no AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Relatório de conformidade SOC 2.",
+        "explicacao": "Sim, o relatório SOC 2 está disponível no AWS Artifact para download."
+      },
+      {
+        "texto": "Relatórios de faturamento da AWS.",
+        "explicacao": "Isso não é correto; o AWS Artifact é focado em conformidade, não em faturamento."
+      },
+      {
+        "texto": "Arquivos de backup de dados.",
+        "explicacao": "Isso não é correto; o AWS Artifact não gerencia backups de dados."
+      },
+      {
+        "texto": "Registros de uso de recursos.",
+        "explicacao": "Isso não é correto; o Artifact não gerencia logs de uso de recursos."
+      }
+    ],
+    "respostaCorreta": "Relatório de conformidade SOC 2.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O AWS Artifact fornece acesso a relatórios relacionados a quais normas de conformidade?",
+    "opcoes": [
+      {
+        "texto": "ISO 27001 e PCI DSS.",
+        "explicacao": "Sim, o AWS Artifact inclui relatórios de conformidade com normas como ISO 27001 e PCI DSS."
+      },
+      {
+        "texto": "NIST e CIS Controls.",
+        "explicacao": "Isso não é correto; embora a AWS suporte NIST, o AWS Artifact foca em normas como ISO e PCI."
+      },
+      {
+        "texto": "GDPR apenas.",
+        "explicacao": "Isso não é correto; o Artifact cobre uma variedade de normas, não apenas GDPR."
+      },
+      {
+        "texto": "FedRAMP apenas.",
+        "explicacao": "Isso não é correto; o Artifact também cobre outras certificações além de FedRAMP."
+      }
+    ],
+    "respostaCorreta": "ISO 27001 e PCI DSS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal benefício do uso do AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Acesso fácil a relatórios de conformidade para facilitar auditorias.",
+        "explicacao": "Sim, o AWS Artifact facilita o acesso a documentos de conformidade para auditorias e requisitos regulatórios."
+      },
+      {
+        "texto": "Provisionamento automático de recursos de infraestrutura.",
+        "explicacao": "Isso não é correto; o Artifact não realiza provisionamento de recursos."
+      },
+      {
+        "texto": "Monitoramento de segurança em tempo real.",
+        "explicacao": "Isso não é correto; o Artifact não oferece monitoramento de segurança."
+      },
+      {
+        "texto": "Otimização de custos em serviços da AWS.",
+        "explicacao": "Isso não é correto; o Artifact é voltado para conformidade, não para otimização de custos."
+      }
+    ],
+    "respostaCorreta": "Acesso fácil a relatórios de conformidade para facilitar auditorias.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Artifact ajuda as empresas a atender a exigências regulatórias?",
+    "opcoes": [
+      {
+        "texto": "Fornecendo relatórios e certificações de conformidade de serviços da AWS.",
+        "explicacao": "Sim, o AWS Artifact ajuda ao fornecer documentos de conformidade que podem ser usados para auditorias."
+      },
+      {
+        "texto": "Monitorando a conformidade de aplicativos hospedados na AWS.",
+        "explicacao": "Isso não é correto; o Artifact fornece acesso a documentos, mas não monitora diretamente a conformidade de aplicativos."
+      },
+      {
+        "texto": "Avaliando continuamente a conformidade de redes.",
+        "explicacao": "Isso não é correto; o Artifact não realiza avaliações automáticas."
+      },
+      {
+        "texto": "Gerenciando permissões de segurança de usuários.",
+        "explicacao": "Isso não é correto; o Artifact não é uma ferramenta de gerenciamento de permissões."
+      }
+    ],
+    "respostaCorreta": "Fornecendo relatórios e certificações de conformidade de serviços da AWS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções descreve corretamente o AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Uma ferramenta para acessar e gerenciar documentos de conformidade.",
+        "explicacao": "Sim, o AWS Artifact é uma ferramenta usada para acessar relatórios e certificações de conformidade."
+      },
+      {
+        "texto": "Um serviço de monitoramento de desempenho de aplicações.",
+        "explicacao": "Isso não é correto; o AWS Artifact não é usado para monitoramento de desempenho."
+      },
+      {
+        "texto": "Uma plataforma para criar relatórios personalizados de conformidade.",
+        "explicacao": "Isso não é correto; o AWS Artifact fornece relatórios pré-definidos, não personalizados."
+      },
+      {
+        "texto": "Uma ferramenta de automação de conformidade.",
+        "explicacao": "Isso não é correto; o Artifact não automatiza a conformidade, mas facilita o acesso a documentos."
+      }
+    ],
+    "respostaCorreta": "Uma ferramenta para acessar e gerenciar documentos de conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece acesso a relatórios de conformidade como SOC e ISO?",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact.",
+        "explicacao": "Sim, o AWS Artifact oferece acesso a relatórios como SOC e ISO."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Isso não é correto; o CloudTrail é um serviço de logs de atividades, não para relatórios de conformidade."
+      },
+      {
+        "texto": "AWS Trusted Advisor.",
+        "explicacao": "Isso não é correto; o Trusted Advisor oferece recomendações de otimização, não acesso a relatórios de conformidade."
+      },
+      {
+        "texto": "AWS IAM.",
+        "explicacao": "Isso não é correto; o IAM é focado em gerenciamento de identidades e acesso, não em relatórios de conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Artifact.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS Artifact para clientes da AWS?",
+    "opcoes": [
+      {
+        "texto": "Fornecer acesso a relatórios e certificações de conformidade.",
+        "explicacao": "Sim, o AWS Artifact é uma ferramenta usada para fornecer acesso a documentos de conformidade."
+      },
+      {
+        "texto": "Prover ferramentas de automação para provisionamento de infraestrutura.",
+        "explicacao": "Isso não é correto; o Artifact não realiza automação de infraestrutura."
+      },
+      {
+        "texto": "Gerenciar permissões de usuários e identidades.",
+        "explicacao": "Isso não é correto; o Artifact não gerencia identidades e permissões."
+      },
+      {
+        "texto": "Monitorar o uso de serviços da AWS em tempo real.",
+        "explicacao": "Isso não é correto; o Artifact não monitora o uso em tempo real."
+      }
+    ],
+    "respostaCorreta": "Fornecer acesso a relatórios e certificações de conformidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Por que é importante considerar as necessidades de conformidade em diferentes localizações geográficas ao usar serviços em nuvem?",
+    "opcoes": [
+      {
+        "texto": "Porque as regulamentações de conformidade variam entre países.",
+        "explicacao": "Sim, diferentes países podem ter exigências de conformidade e privacidade de dados únicas."
+      },
+      {
+        "texto": "Porque as zonas de disponibilidade da AWS são as mesmas em todos os países.",
+        "explicacao": "Isso não é correto; embora existam zonas de disponibilidade globais, as regulamentações de conformidade variam."
+      },
+      {
+        "texto": "Porque todos os dados armazenados na nuvem estão isentos de regulamentações.",
+        "explicacao": "Isso não é correto; os dados na nuvem ainda estão sujeitos a regulamentações locais."
+      },
+      {
+        "texto": "Porque os serviços da AWS são automaticamente conformes em todos os países.",
+        "explicacao": "Isso não é correto; os clientes devem garantir que seus serviços cumpram as regulamentações locais."
+      }
+    ],
+    "respostaCorreta": "Porque as regulamentações de conformidade variam entre países.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes regulamentações afeta a conformidade de dados na Europa?",
+    "opcoes": [
+      {
+        "texto": "Regulamento Geral de Proteção de Dados (GDPR).",
+        "explicacao": "Sim, o GDPR é uma importante regulamentação de privacidade de dados que afeta todos os países da União Europeia."
+      },
+      {
+        "texto": "Lei de Privacidade do Consumidor da Califórnia (CCPA).",
+        "explicacao": "Isso não é correto; o CCPA é aplicável principalmente aos residentes da Califórnia, nos EUA."
+      },
+      {
+        "texto": "FedRAMP.",
+        "explicacao": "Isso não é correto; o FedRAMP é aplicável a dados e sistemas federais dos EUA."
+      },
+      {
+        "texto": "Lei de Direitos Autorais do Milênio Digital (DMCA).",
+        "explicacao": "Isso não é correto; a DMCA não está relacionada diretamente à conformidade de dados na Europa."
+      }
+    ],
+    "respostaCorreta": "Regulamento Geral de Proteção de Dados (GDPR).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual setor é mais afetado por regulamentações como HIPAA nos Estados Unidos?",
+    "opcoes": [
+      {
+        "texto": "Setor de saúde.",
+        "explicacao": "Sim, a HIPAA (Health Insurance Portability and Accountability Act) regula a proteção de informações de saúde nos Estados Unidos."
+      },
+      {
+        "texto": "Setor financeiro.",
+        "explicacao": "Isso não é correto; o setor financeiro é regulamentado por outras normas, como SOX."
+      },
+      {
+        "texto": "Indústria de manufatura.",
+        "explicacao": "Isso não é correto; a HIPAA é voltada principalmente para o setor de saúde."
+      },
+      {
+        "texto": "Setor de transporte.",
+        "explicacao": "Isso não é correto; a HIPAA não está relacionada diretamente ao setor de transporte."
+      }
+    ],
+    "respostaCorreta": "Setor de saúde.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes regulamentações se aplica a dados financeiros nos Estados Unidos?",
+    "opcoes": [
+      {
+        "texto": "Sarbanes-Oxley (SOX).",
+        "explicacao": "Sim, a SOX foi criada para aumentar a responsabilidade na gestão de empresas, especialmente em questões financeiras."
+      },
+      {
+        "texto": "GDPR.",
+        "explicacao": "Isso não é correto; o GDPR é aplicável principalmente na Europa."
+      },
+      {
+        "texto": "PCI DSS.",
+        "explicacao": "Isso não é correto; embora o PCI DSS regule dados de cartão de crédito, a SOX regula dados financeiros mais amplamente nos EUA."
+      },
+      {
+        "texto": "CCPA.",
+        "explicacao": "Isso não é correto; o CCPA trata principalmente de privacidade de dados pessoais, não de finanças corporativas."
+      }
+    ],
+    "respostaCorreta": "Sarbanes-Oxley (SOX).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a conformidade com o PCI DSS afeta empresas que processam pagamentos?",
+    "opcoes": [
+      {
+        "texto": "As empresas devem seguir normas rigorosas de segurança para proteger informações de cartão de crédito.",
+        "explicacao": "Sim, o PCI DSS impõe diretrizes rígidas para proteger dados de pagamento de clientes."
+      },
+      {
+        "texto": "As empresas devem arquivar relatórios financeiros trimestrais.",
+        "explicacao": "Isso não é correto; o PCI DSS é focado em segurança de dados de pagamentos, não em relatórios financeiros."
+      },
+      {
+        "texto": "As empresas são automaticamente certificadas para operar em todas as regiões.",
+        "explicacao": "Isso não é correto; a conformidade com PCI DSS exige processos contínuos de validação."
+      },
+      {
+        "texto": "A conformidade com PCI DSS isenta as empresas de outras regulamentações de segurança.",
+        "explicacao": "Isso não é correto; as empresas devem cumprir outras regulamentações relevantes, além do PCI DSS."
+      }
+    ],
+    "respostaCorreta": "As empresas devem seguir normas rigorosas de segurança para proteger informações de cartão de crédito.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o impacto do Regulamento Geral de Proteção de Dados (GDPR) para empresas fora da Europa?",
+    "opcoes": [
+      {
+        "texto": "Afeta empresas que processam dados de cidadãos europeus, mesmo que estejam fora da Europa.",
+        "explicacao": "Sim, o GDPR se aplica a qualquer empresa que processe dados de cidadãos da União Europeia, independentemente da sua localização."
+      },
+      {
+        "texto": "Só afeta empresas localizadas fisicamente na Europa.",
+        "explicacao": "Isso não é correto; o GDPR afeta qualquer empresa que lide com dados de cidadãos europeus, independentemente da localização."
+      },
+      {
+        "texto": "Se aplica apenas a empresas financeiras.",
+        "explicacao": "Isso não é correto; o GDPR é uma regulamentação de privacidade que afeta todos os setores, não apenas o financeiro."
+      },
+      {
+        "texto": "Não tem impacto fora da Europa.",
+        "explicacao": "Isso não é correto; o GDPR afeta empresas globalmente que processam dados de residentes da União Europeia."
+      }
+    ],
+    "respostaCorreta": "Afeta empresas que processam dados de cidadãos europeus, mesmo que estejam fora da Europa.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais setores são mais impactados pela conformidade com a Lei de Portabilidade e Responsabilidade de Seguros de Saúde (HIPAA)?",
+    "opcoes": [
+      {
+        "texto": "Setores que lidam com informações de saúde.",
+        "explicacao": "Sim, a HIPAA regula a proteção de informações de saúde sensíveis."
+      },
+      {
+        "texto": "Setores de educação.",
+        "explicacao": "Isso não é correto; a HIPAA regula informações de saúde, enquanto a FERPA regula dados de educação."
+      },
+      {
+        "texto": "Setores de comércio eletrônico.",
+        "explicacao": "Isso não é correto; a HIPAA regula informações de saúde, não o comércio eletrônico."
+      },
+      {
+        "texto": "Setores de manufatura.",
+        "explicacao": "Isso não é correto; a HIPAA é voltada para o setor de saúde."
+      }
+    ],
+    "respostaCorreta": "Setores que lidam com informações de saúde.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS ajuda a garantir conformidade em diferentes localizações geográficas?",
+    "opcoes": [
+      {
+        "texto": "Oferecendo serviços em diferentes regiões com conformidade local.",
+        "explicacao": "Sim, a AWS opera em várias regiões que estão em conformidade com regulamentos locais de privacidade e segurança."
+      },
+      {
+        "texto": "Garantindo que todos os serviços sejam iguais em todas as regiões.",
+        "explicacao": "Isso não é correto; os serviços podem variar conforme as necessidades de conformidade local."
+      },
+      {
+        "texto": "Centralizando todos os dados em uma única região.",
+        "explicacao": "Isso não é correto; a AWS permite que os clientes escolham regiões para armazenar dados com base em requisitos de conformidade."
+      },
+      {
+        "texto": "Não permitindo que dados de clientes saiam de sua região de origem.",
+        "explicacao": "Isso não é correto; a AWS permite a transferência de dados entre regiões, mas com controles de conformidade."
+      }
+    ],
+    "respostaCorreta": "Oferecendo serviços em diferentes regiões com conformidade local.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a importância da conformidade regional ao usar serviços da AWS?",
+    "opcoes": [
+      {
+        "texto": "As leis de conformidade e privacidade podem variar entre regiões.",
+        "explicacao": "Sim, diferentes regiões podem ter diferentes regulamentações que afetam o armazenamento e processamento de dados."
+      },
+      {
+        "texto": "Todos os dados são sempre tratados da mesma forma em qualquer região.",
+        "explicacao": "Isso não é correto; a conformidade varia entre regiões."
+      },
+      {
+        "texto": "Os serviços da AWS são automaticamente conformes em todas as regiões.",
+        "explicacao": "Isso não é correto; os clientes precisam garantir a conformidade conforme os requisitos da região."
+      },
+      {
+        "texto": "Os dados são sempre criptografados da mesma maneira em todas as regiões.",
+        "explicacao": "Isso não é correto; as necessidades de criptografia podem variar conforme a regulamentação local."
+      }
+    ],
+    "respostaCorreta": "As leis de conformidade e privacidade podem variar entre regiões.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS Artifact pode ajudar clientes com suas necessidades de conformidade?",
+    "opcoes": [
+      {
+        "texto": "Fornecendo acesso a relatórios de conformidade em várias regiões e setores.",
+        "explicacao": "Sim, o AWS Artifact fornece relatórios que ajudam as empresas a garantir a conformidade com regulamentações locais e setoriais."
+      },
+      {
+        "texto": "Gerando relatórios financeiros trimestrais.",
+        "explicacao": "Isso não é correto; o Artifact não está relacionado a relatórios financeiros."
+      },
+      {
+        "texto": "Gerenciando os dados de identidades de usuários.",
+        "explicacao": "Isso não é correto; o Artifact não lida com gerenciamento de identidades."
+      },
+      {
+        "texto": "Configurando automaticamente as permissões de segurança.",
+        "explicacao": "Isso não é correto; o Artifact não gerencia permissões de segurança diretamente."
+      }
+    ],
+    "respostaCorreta": "Fornecendo acesso a relatórios de conformidade em várias regiões e setores.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando proteger seus recursos na AWS. Qual prática recomendada de segurança a AWS recomenda para proteger contas e acessar recursos?",
+    "opcoes": [
+      {
+        "texto": "Habilitar a autenticação multifator (MFA).",
+        "explicacao": "Sim, a AWS recomenda habilitar a MFA para proteger o acesso à conta."
+      },
+      {
+        "texto": "Compartilhar chaves de acesso com a equipe de desenvolvimento.",
+        "explicacao": "Isso não é correto; compartilhar chaves de acesso compromete a segurança."
+      },
+      {
+        "texto": "Desabilitar a criptografia dos dados armazenados.",
+        "explicacao": "Isso não é correto; a criptografia dos dados é fundamental para a segurança."
+      },
+      {
+        "texto": "Usar credenciais de administrador para todas as operações.",
+        "explicacao": "Isso não é correto; é recomendável usar o princípio do menor privilégio."
+      }
+    ],
+    "respostaCorreta": "Habilitar a autenticação multifator (MFA).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está desenvolvendo uma nova aplicação na AWS e quer proteger seus dados. Qual opção a seguir oferece a melhor proteção de dados em repouso?",
+    "opcoes": [
+      {
+        "texto": "Ativar criptografia em volumes do Amazon EBS.",
+        "explicacao": "Sim, a criptografia de volumes do Amazon EBS protege dados em repouso."
+      },
+      {
+        "texto": "Armazenar dados sem criptografia.",
+        "explicacao": "Isso não é correto; armazenar dados sem criptografia pode comprometer a segurança."
+      },
+      {
+        "texto": "Compartilhar volumes de armazenamento com todos os usuários.",
+        "explicacao": "Isso não é correto; compartilhamento irrestrito compromete a segurança."
+      },
+      {
+        "texto": "Desativar registros de logs do CloudWatch.",
+        "explicacao": "Isso não é correto; desativar logs pode dificultar a auditoria e a segurança."
+      }
+    ],
+    "respostaCorreta": "Ativar criptografia em volumes do Amazon EBS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para proteger a rede da empresa na AWS, qual serviço pode ser utilizado para monitorar tráfego de rede e detectar atividades maliciosas?",
+    "opcoes": [
+      {
+        "texto": "AWS GuardDuty.",
+        "explicacao": "Sim, o AWS GuardDuty monitora e detecta atividades maliciosas e ameaças."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Isso não é correto; o S3 é usado para armazenamento de dados."
+      },
+      {
+        "texto": "Amazon EC2.",
+        "explicacao": "Isso não é correto; o EC2 é um serviço de computação, não de monitoramento de segurança."
+      },
+      {
+        "texto": "AWS CodeDeploy.",
+        "explicacao": "Isso não é correto; o CodeDeploy é usado para automatizar implantações."
+      }
+    ],
+    "respostaCorreta": "AWS GuardDuty.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja proteger o acesso às suas instâncias do Amazon EC2. Qual medida de segurança a seguir deve ser implementada?",
+    "opcoes": [
+      {
+        "texto": "Utilizar grupos de segurança para restringir o tráfego de rede.",
+        "explicacao": "Sim, grupos de segurança ajudam a controlar o acesso às instâncias EC2."
+      },
+      {
+        "texto": "Conceder permissões de administrador a todos os usuários.",
+        "explicacao": "Isso não é correto; conceder permissões de administrador a todos é arriscado."
+      },
+      {
+        "texto": "Desabilitar a autenticação multifator (MFA).",
+        "explicacao": "Isso não é correto; a MFA deve ser ativada para segurança adicional."
+      },
+      {
+        "texto": "Armazenar chaves de acesso diretamente nas instâncias EC2.",
+        "explicacao": "Isso não é correto; as chaves de acesso não devem ser armazenadas diretamente nas instâncias."
+      }
+    ],
+    "respostaCorreta": "Utilizar grupos de segurança para restringir o tráfego de rede.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ser utilizado para gerenciar identidades e permissões para proteger o acesso a recursos na nuvem?",
+    "opcoes": [
+      {
+        "texto": "AWS Identity and Access Management (IAM).",
+        "explicacao": "Sim, o IAM permite gerenciar identidades e permissões para proteger o acesso a recursos."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Isso não é correto; o RDS é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Isso não é correto; o S3 é usado para armazenamento de objetos."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Isso não é correto; o CloudFormation é usado para provisionar infraestrutura como código."
+      }
+    ],
+    "respostaCorreta": "AWS Identity and Access Management (IAM).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para garantir que os dados armazenados no Amazon S3 estejam protegidos, qual das seguintes opções é uma prática recomendada de segurança?",
+    "opcoes": [
+      {
+        "texto": "Ativar a criptografia do lado do servidor (SSE) para objetos no S3.",
+        "explicacao": "Sim, a criptografia do lado do servidor (SSE) protege os dados armazenados no S3."
+      },
+      {
+        "texto": "Desabilitar o controle de versões.",
+        "explicacao": "Isso não é correto; o controle de versões pode ajudar a restaurar dados em caso de alteração ou exclusão acidental."
+      },
+      {
+        "texto": "Tornar todos os buckets publicamente acessíveis.",
+        "explicacao": "Isso não é correto; a exposição pública de buckets compromete a segurança dos dados."
+      },
+      {
+        "texto": "Usar credenciais de administrador para acessar os dados.",
+        "explicacao": "Isso não é correto; é recomendado usar o princípio do menor privilégio."
+      }
+    ],
+    "respostaCorreta": "Ativar a criptografia do lado do servidor (SSE) para objetos no S3.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para proteger recursos no Amazon EC2, qual prática de segurança deve ser implementada para gerenciar o acesso remoto?",
+    "opcoes": [
+      {
+        "texto": "Utilizar chaves SSH para acessar as instâncias.",
+        "explicacao": "Sim, o uso de chaves SSH é uma prática recomendada para proteger o acesso remoto."
+      },
+      {
+        "texto": "Permitir acesso remoto irrestrito via SSH.",
+        "explicacao": "Isso não é correto; o acesso remoto deve ser restrito a endereços IP confiáveis."
+      },
+      {
+        "texto": "Desativar a autenticação baseada em chave.",
+        "explicacao": "Isso não é correto; a autenticação baseada em chave é mais segura que senhas."
+      },
+      {
+        "texto": "Conceder permissões de root a todos os usuários.",
+        "explicacao": "Isso não é correto; o princípio do menor privilégio deve ser seguido."
+      }
+    ],
+    "respostaCorreta": "Utilizar chaves SSH para acessar as instâncias.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os clientes podem proteger suas aplicações web de ataques distribuídos de negação de serviço (DDoS) na AWS?",
+    "opcoes": [
+      {
+        "texto": "Utilizando o AWS Shield.",
+        "explicacao": "Sim, o AWS Shield oferece proteção contra ataques DDoS para aplicações na AWS."
+      },
+      {
+        "texto": "Utilizando o AWS CodePipeline.",
+        "explicacao": "Isso não é correto; o CodePipeline é uma ferramenta de entrega contínua."
+      },
+      {
+        "texto": "Desabilitando todas as proteções de firewall.",
+        "explicacao": "Isso não é correto; desabilitar firewalls exporia a aplicação a riscos."
+      },
+      {
+        "texto": "Desativando o uso de redes virtuais.",
+        "explicacao": "Isso não é correto; o uso de redes virtuais ajuda a isolar e proteger os recursos."
+      }
+    ],
+    "respostaCorreta": "Utilizando o AWS Shield.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite gerenciar as políticas de segurança e conformidade em várias contas AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Organizations.",
+        "explicacao": "Sim, o AWS Organizations permite gerenciar políticas de segurança e conformidade em várias contas."
+      },
+      {
+        "texto": "Amazon CloudFront.",
+        "explicacao": "Isso não é correto; o CloudFront é um serviço de distribuição de conteúdo."
+      },
+      {
+        "texto": "AWS CodeBuild.",
+        "explicacao": "Isso não é correto; o CodeBuild é usado para compilar código, não para gerenciamento de políticas."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Isso não é correto; o S3 é um serviço de armazenamento de objetos."
+      }
+    ],
+    "respostaCorreta": "AWS Organizations.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja garantir que apenas dispositivos autenticados possam acessar suas redes privadas na AWS. Qual serviço a seguir pode ser utilizado?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN.",
+        "explicacao": "Sim, o AWS VPN pode ser usado para garantir que apenas dispositivos autenticados possam acessar redes privadas."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Isso não é correto; o S3 é um serviço de armazenamento, não de gerenciamento de redes privadas."
+      },
+      {
+        "texto": "Amazon CloudFront.",
+        "explicacao": "Isso não é correto; o CloudFront é um serviço de distribuição de conteúdo."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Isso não é correto; o Lambda é um serviço de computação sem servidor, não para redes privadas."
+      }
+    ],
+    "respostaCorreta": "AWS VPN.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
   }
 ]
