@@ -253,3 +253,21 @@ span {
   text-align: center; /* Centraliza o título, opcional */
   margin-bottom: -10px; /* Ajusta o espaçamento inferior */
 }
+
+.explicacao {
+  font-size: 0.9em; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #666; /* Cor da fonte para a explicação */
+  margin-left:45px; /* Espaçamento acima da explicação */
+  margin-right:15px;
+  margin-top: -10px;
+  background: #dfe9f5;
+}
+
+
+.explicacaoRadio {
+  font-size: 0.9em; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #666; /* Cor da fonte para a explicação */
+  margin-left:5px; /* Espaçamento acima da explicação */
+  margin-right:15px;
+  background: #dfe9f5;
+}

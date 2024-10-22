@@ -14,149 +14,145 @@
     {{ currentQuestionIndex + 1 }}.
     {{ perguntas[currentQuestionIndex].pergunta }}
   </h4>
-  <h4 class="small-font">
-    ({{ perguntas[currentQuestionIndex].dominio }})
-  </h4>
-
-  <mat-card>
-    <ng-container
-      *ngIf="!isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)"
-    >
-      <mat-radio-group
-        [(ngModel)]="respostasSelecionadas[currentQuestionIndex]"
+  <div>
+    <mat-card>
+      <ng-container
+        *ngIf="
+          !isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)
+        "
       >
-        <mat-radio-button
-          *ngFor="let opcao of perguntas[currentQuestionIndex].opcoes"
-          [ngClass]="{ 'nao-clicavel': respostasVerificadas }"
-          [value]="opcao"
-          (click)="onSelectOption(currentQuestionIndex, opcao, false)"
+        <mat-radio-group
+          [(ngModel)]="respostasSelecionadas[currentQuestionIndex]"
         >
-          <label
+          <mat-radio-button
+            *ngFor="
+              let opcao of perguntas[currentQuestionIndex].opcoes;
+              let i = index
+            "
             [ngClass]="{
-              correta:
-                respostasVerificadas &&
-                respostasCorretas[currentQuestionIndex][
-                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
-                ],
-              incorreta:
-                respostasVerificadas &&
-                respostasSelecionadas[currentQuestionIndex]?.includes(opcao) &&
-                !respostasCorretas[currentQuestionIndex][
-                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
-                ]
+              'nao-clicavel': respostasVerificadas[currentQuestionIndex]
             }"
+            [value]="opcao.texto"
+            (click)="onSelectOption(currentQuestionIndex, opcao.texto, false)"
           >
-            {{ opcao }}
-          </label>
-        </mat-radio-button>
-      </mat-radio-group>
-    </ng-container>
+            <label
+              [ngClass]="{
+                correta:
+                  respostasVerificadas[currentQuestionIndex] &&
+                  respostasCorretas[currentQuestionIndex][i],
+                incorreta:
+                  respostasVerificadas[currentQuestionIndex] &&
+                  !respostasCorretas[currentQuestionIndex][i]
+              }"
+            >
+              {{ opcao.texto }}
+              <!-- Ajuste para exibir o texto da opção -->
+            </label>
+            <div
+              *ngIf="respostasVerificadas[currentQuestionIndex]"
+              class="explicacaoRadio"
+            >
+              <p>{{ opcao.explicacao }}</p>
+            </div>
+          </mat-radio-button>
+        </mat-radio-group>
+      </ng-container>
 
-    <ng-container
-      *ngIf="isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)"
-    >
-      <div *ngFor="let opcao of perguntas[currentQuestionIndex].opcoes">
-        <mat-checkbox
-          [ngClass]="{ 'nao-clicavel': respostasVerificadas }"
-          [checked]="
-            respostasSelecionadas[currentQuestionIndex]?.includes(opcao)
+      <ng-container
+        *ngIf="
+          isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)
+        "
+      >
+        <div *ngFor="let opcao of perguntas[currentQuestionIndex].opcoes">
+          <mat-checkbox
+            [ngClass]="{
+              'nao-clicavel': respostasVerificadas[currentQuestionIndex]
+            }"
+            [checked]="
+              respostasSelecionadas[currentQuestionIndex]?.includes(opcao.texto)
+            "
+            (change)="onSelectOption(currentQuestionIndex, opcao.texto, true)"
+          >
+            <label
+              [ngClass]="{
+                correta:
+                  respostasVerificadas[currentQuestionIndex] &&
+                  respostasCorretas[currentQuestionIndex][
+                    perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
+                  ],
+                incorreta:
+                  respostasVerificadas[currentQuestionIndex] &&
+                  respostasSelecionadas[currentQuestionIndex]?.includes(
+                    opcao.texto
+                  ) &&
+                  !respostasCorretas[currentQuestionIndex][
+                    perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
+                  ]
+              }"
+            >
+              {{ opcao.texto }}
+            </label>
+          </mat-checkbox>
+          <div
+            *ngIf="respostasVerificadas[currentQuestionIndex]"
+            class="explicacao"
+          >
+            <p>{{ opcao.explicacao }}</p>
+            <!-- Exibir explicação da opção -->
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- Botões de navegação -->
+      <div class="navigation-buttons">
+        <button routerLink="/" class="verificar-respostas-btn">Home</button>
+
+        <button
+          class="verificar-respostas-btn"
+          (click)="nextQuestion()"
+          [disabled]="currentQuestionIndex === perguntas.length - 1"
+        >
+          Próxima
+        </button>
+
+        <button
+          class="verificar-respostas-btn"
+          (click)="previousQuestion()"
+          [disabled]="currentQuestionIndex === 0"
+        >
+          Anterior
+        </button>
+
+        <!-- Botão Verificar Respostas -->
+        <button
+          (click)="verificarResposta()"
+          *ngIf="
+            !simuladoFinalizado && currentQuestionIndex != perguntas.length - 1
           "
-          (change)="onSelectOption(currentQuestionIndex, opcao, true)"
+          class="verificar-respostas-btn"
         >
-          <label
-            [ngClass]="{
-              correta:
-                respostasVerificadas &&
-                respostasCorretas[currentQuestionIndex][
-                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
-                ],
-              incorreta:
-                respostasVerificadas &&
-                respostasSelecionadas[currentQuestionIndex]?.includes(opcao) &&
-                !respostasCorretas[currentQuestionIndex][
-                  perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
-                ]
-            }"
-          >
-            {{ opcao }}
-          </label>
-        </mat-checkbox>
+          Verificar Resposta
+        </button>
+
+        <button
+          (click)="finalizar()"
+          *ngIf="
+            !simuladoFinalizado && currentQuestionIndex === perguntas.length - 1
+          "
+          class="verificar-respostas-btn"
+        >
+          Finalizar
+        </button>
       </div>
-    </ng-container>
-  </mat-card>
 
-  <!-- Botões de navegação -->
-  <div class="navigation-buttons">
-    <button routerLink="/" class="verificar-respostas-btn">Home</button>
+      <!-- Resultado -->
+      <div *ngIf="resultado">
+        <p [innerHTML]="resultado"></p>
+      </div>
 
-    <button
-      class="verificar-respostas-btn"
-      (click)="nextQuestion()"
-      [disabled]="currentQuestionIndex === perguntas.length - 1"
-    >
-      Próxima
-    </button>
-
-    <button
-      class="verificar-respostas-btn"
-      (click)="previousQuestion()"
-      [disabled]="currentQuestionIndex === 0"
-    >
-      Anterior
-    </button>
-
-    <!-- Botão Verificar Respostas -->
-    <button
-      (click)="verificarRespostas()"
-      class="verificar-respostas-btn"
-      [disabled]="currentQuestionIndex !== perguntas.length - 1"
-    >
-      Verificar Respostas
-    </button>
+      <div *ngIf="acertosPorDominioMensagem">
+        <p [innerHTML]="acertosPorDominioMensagem"></p>
+      </div>
+    </mat-card>
   </div>
-</div>
-
-<div *ngIf="perguntas.length > 0">
-  <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
-  <ul class="listaLegenda">
-    <li *ngFor="let domain of domainQuestionCount | keyvalue">
-      {{ domain.key }}: {{ domain.value }}
-    </li>
-  </ul>
-</div>
-
-<!-- Resultado -->
-<div *ngIf="resultado">
-  <p [innerHTML]="resultado"></p>
-</div>
-
-<div *ngIf="acertosPorDominioMensagem">
-  <p [innerHTML]="acertosPorDominioMensagem"></p>
-</div>
-
-<div *ngIf="resultadosAnteriores.length > 0">
-<h2 class="resultados-title">Resultados Anteriores</h2>
-<div  class="table-container">
-  <table>
-    <thead>
-      <tr>
-         <th>Data</th>
-        <th>Acertos</th>
-        <th>Total</th>
-        <th>Percentual</th>
-        <th>Mensagem</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let resultado of resultadosAnteriores">
-        <td>{{ resultado.data | date: 'dd/MM/yyyy HH:mm' }}</td>
-        <td>{{ resultado.acertos }}</td>
-        <td>{{ resultado.total }}</td>
-        <td>{{ resultado.percentual | number : '1.0-0' }}%</td>
-        <td>{{ resultado.mensagem }}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 </div>

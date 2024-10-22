@@ -1,3 +1,4 @@
+import { Opcao } from './../../model/pergunta/pergunta.module';
 import { Component, OnInit } from '@angular/core';
 import { PerguntaService } from '../../services/pergunta.service';
 import { Pergunta } from '../../model/pergunta/pergunta.module';
@@ -30,9 +31,13 @@ export class QuizComponent implements OnInit {
   respostasSelecionadas: string[][] = [];
   respostasCorretas: boolean[][] = [];
   resultadosAnteriores: any[] = []; // Armazena os resultados anteriores
-  respostasVerificadas: boolean = false; // Novo estado para verificar se as respostas foram checadas
+  respostasVerificadas: boolean[] = []; // Novo estado para verificar se as respostas foram checadas
+  simuladoFinalizado: boolean = false; // Novo estado para verificar se as respostas foram checadas
+
   domainQuestionCount: { [domain: string]: number } = {};
   currentQuestionIndex = 0; // Índice da pergunta atual para navegação
+  acertos = 0;
+
   acertosPorDominioMensagem: any;
   email: string = '';
   resultado: string = '';
@@ -45,6 +50,7 @@ export class QuizComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    this.respostasCorretas = []; // Limpa as respostas corretas antes de verificar
     this.openEmailConfirmationDialog();
   }
 
@@ -61,6 +67,7 @@ export class QuizComponent implements OnInit {
         this.router.navigate(['/home']);
       }
     });*/
+    this.resultadoService.limparTudo();
 
     this.email = 'joseliano@yahoo.com.br';
     this.openPerguntas(); // Carrega as perguntas apenas após a confirmação do e-mail
@@ -69,7 +76,7 @@ export class QuizComponent implements OnInit {
   }
 
   openPerguntas(): void {
-    this.perguntaService.getPerguntasAleatorias(110).subscribe((data) => {
+    this.perguntaService.getPerguntasAleatorias(90).subscribe((data) => {
       this.perguntas = data;
       this.respostasCorretas = Array(this.perguntas.length)
         .fill(false)
@@ -120,13 +127,36 @@ export class QuizComponent implements OnInit {
     return Array.isArray(respostaCorreta);
   }
 
-  verificarRespostas(): void {
-    type AcertosPorDominio = {
-      [dominio: string]: number;
-    };
+  verificarResposta() {
+    const pergunta = this.perguntas[this.currentQuestionIndex];
+    //const respostaCorreta = pergunta.respostaCorreta;
+    const respostaSelecionada =
+      this.respostasSelecionadas[this.currentQuestionIndex];
 
-    let acertos = 0;
-    const acertosPorDominio: AcertosPorDominio = {};
+    this.respostasVerificadas[this.currentQuestionIndex] = true;
+
+    const respostaCorreta = Array.isArray(pergunta.respostaCorreta)
+      ? pergunta.respostaCorreta.sort()
+      : [pergunta.respostaCorreta];
+
+    const respSelecionada = Array.isArray(respostaSelecionada)
+      ? respostaSelecionada.sort()
+      : [respostaSelecionada];
+
+    // Armazena as informações de corretude
+    this.respostasCorretas[this.currentQuestionIndex] = pergunta.opcoes.map(
+      (opcao) =>
+        Array.isArray(respostaCorreta)
+          ? respostaCorreta.includes(opcao.texto)
+          : opcao.texto === respostaCorreta
+    );
+
+    if (JSON.stringify(respostaCorreta) === JSON.stringify(respSelecionada)) {
+      this.acertos++;
+    }
+  }
+
+  finalizar() {
     const totalPerguntas = this.perguntas.length;
 
     const todasRespondidas = this.perguntas.every((_, index) => {
@@ -140,50 +170,13 @@ export class QuizComponent implements OnInit {
       alert('Por favor, responda todas as perguntas antes de verificar!');
       return;
     } else {
-      this.respostasCorretas = []; // Limpa as respostas corretas antes de verificar
-      this.respostasVerificadas = true; // Atualiza o estado para indicar que as respostas foram verificadas
+      this.verificarResposta();
 
-      this.perguntas.forEach((pergunta, index) => {
-        const respostaCorreta = Array.isArray(pergunta.respostaCorreta)
-          ? pergunta.respostaCorreta.sort()
-          : [pergunta.respostaCorreta];
-
-        let respostaSelecionada: any;
-
-        if (pergunta.tipo == 'single') {
-          respostaSelecionada = this.respostasSelecionadas[index] || [];
-        } else {
-          respostaSelecionada = this.respostasSelecionadas[index]?.sort() || [];
-        }
-
-        let respSelecionada = Array.isArray(respostaSelecionada)
-          ? respostaSelecionada.sort()
-          : [respostaSelecionada];
-
-        const corretas = respostaCorreta.map((opcao) =>
-          pergunta.opcoes.includes(opcao)
-        );
-
-        this.respostasCorretas[index] = corretas;
-
-        if (
-          JSON.stringify(respostaCorreta) === JSON.stringify(respSelecionada)
-        ) {
-          acertos++;
-
-          // Adiciona ao total de acertos por domínio
-          const dominio = pergunta.dominio; // Supondo que a pergunta tenha um campo 'dominio'
-          if (!acertosPorDominio[dominio]) {
-            acertosPorDominio[dominio] = 0; // Inicializa o domínio se não existir
-          }
-          acertosPorDominio[dominio]++; // Incrementa o contador para o domínio
-        }
-      });
-
-      const percentualAcertos = (acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
+      const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
       const passou = percentualAcertos >= 85; // Verifica se passou com 85% de acertos
 
-      this.resultado = `Você acertou ${acertos} de ${totalPerguntas} perguntas!`;
+      this.resultado += `Requisito para aprovação 85% de acertos:<br>`;
+      this.resultado += `Você acertou ${this.acertos} de ${totalPerguntas} perguntas!`;
       this.resultado += ` <br>Porcentagem de acertos: ${percentualAcertos.toFixed(
         2
       )}%`;
@@ -191,16 +184,7 @@ export class QuizComponent implements OnInit {
         ? ' <br>Parabéns! Você passou!'
         : ' <br>Você não passou. Tente novamente!';
 
-      this.acertosPorDominioMensagem = 'Acertos por domínio:<br>';
-      for (const [dominio, totalAcertos] of Object.entries(acertosPorDominio)) {
-        this.acertosPorDominioMensagem += `${dominio}: ${totalAcertos}<br>`;
-      }
-
-      this.resultadoService.armazenarResultado(
-        this.email,
-        acertos,
-        totalPerguntas
-      );
+      this.simuladoFinalizado = true;
     }
   }
 

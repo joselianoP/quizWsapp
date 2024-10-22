@@ -21,7 +21,7 @@ export class ResultadoService {
   // Método para armazenar o resultado
   armazenarResultado(email: string, acertos: number, total: number): void {
     const percentual = (acertos / total) * 100;
-    const mensagem = percentual >= 85 ? 'Você passou' : 'Você não passou';
+    const mensagem = percentual >= 80 ? 'Você passou' : 'Você não passou';
     const data = new Date(); // Adiciona a data atual
 
     const resultado: Resultado = {

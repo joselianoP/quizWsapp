@@ -83,7 +83,7 @@
       "AWS Lambda"
     ],
     "respostaCorreta": "AWS IAM",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -95,7 +95,7 @@
       "AWS CloudFormation"
     ],
     "respostaCorreta": "AWS KMS",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -107,7 +107,7 @@
       "Monitoramento de recursos da nuvem"
     ],
     "respostaCorreta": "Proteger contra ataques DDoS",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -119,7 +119,7 @@
       "Performance de banco de dados"
     ],
     "respostaCorreta": "Atividade de API na conta da AWS",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -131,7 +131,7 @@
       "AWS CloudFormation"
     ],
     "respostaCorreta": "Amazon GuardDuty",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -143,7 +143,7 @@
       "Amazon RDS"
     ],
     "respostaCorreta": "AWS Config",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -155,7 +155,7 @@
       "Monitoramento de logs"
     ],
     "respostaCorreta": "Vulnerabilidades de segurança de aplicações web",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -167,7 +167,7 @@
       "Serviço de gerenciamento de chaves"
     ],
     "respostaCorreta": "Serviço para descobrir, classificar e proteger dados confidenciais",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -179,7 +179,7 @@
       "AWS IAM"
     ],
     "respostaCorreta": "AWS CloudTrail",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -191,7 +191,7 @@
       "Segurança da camada de infraestrutura"
     ],
     "respostaCorreta": "Gerenciamento de senhas e políticas de acesso",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -203,7 +203,7 @@
       "Amazon S3"
     ],
     "respostaCorreta": "Amazon GuardDuty",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -215,7 +215,7 @@
       "Monetizando serviços baseados no uso de conformidade"
     ],
     "respostaCorreta": "Oferecendo certificações de conformidade como PCI DSS e HIPAA",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -227,7 +227,7 @@
       "AWS IAM"
     ],
     "respostaCorreta": "AWS WAF",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -239,7 +239,7 @@
       "AWS CloudFormation"
     ],
     "respostaCorreta": "AWS IAM",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -251,7 +251,7 @@
       "Monitora o uso de CPU em instâncias EC2"
     ],
     "respostaCorreta": "Proporciona proteção aprimorada contra ataques DDoS",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -263,7 +263,7 @@
       "Amazon RDS"
     ],
     "respostaCorreta": "AWS KMS",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -275,7 +275,7 @@
       "Amazon RDS"
     ],
     "respostaCorreta": "AWS Config",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -287,7 +287,7 @@
       "Criação de senhas seguras"
     ],
     "respostaCorreta": "Segurança física dos data centers",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -299,7 +299,7 @@
       "Monitoramento de logs"
     ],
     "respostaCorreta": "Certificações como SOC 1, SOC 2 e ISO 27001",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -311,7 +311,7 @@
       "AWS IAM"
     ],
     "respostaCorreta": "AWS Config",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -326,7 +326,7 @@
       "Habilitar a criptografia em repouso.",
       "Utilizar autenticação multifator."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -341,7 +341,7 @@
       "AWS IAM",
       "AWS Cognito"
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -356,7 +356,7 @@
       "Implementar o princípio do menor privilégio.",
       "Ativar autenticação multifator (MFA)."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -371,7 +371,7 @@
       "Auditoria de chamadas de API.",
       "Relatórios de conformidade."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -386,7 +386,7 @@
       "Ativar criptografia para objetos.",
       "Configurar políticas de bucket restritivas."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -401,7 +401,7 @@
       "Habilitar a criptografia em repouso.",
       "Utilizar autenticação multifator."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -416,7 +416,7 @@
       "AWS IAM",
       "AWS Cognito"
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -431,7 +431,7 @@
       "Implementar o princípio do menor privilégio.",
       "Ativar autenticação multifator (MFA)."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -446,7 +446,7 @@
       "Auditoria de chamadas de API.",
       "Relatórios de conformidade."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -461,7 +461,7 @@
       "Ativar criptografia para objetos.",
       "Configurar políticas de bucket restritivas."
     ],
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
   {
@@ -473,7 +473,7 @@
       "A responsabilidade é totalmente do cliente."
     ],
     "respostaCorreta": "A AWS e o cliente compartilham a responsabilidade pela segurança.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -485,7 +485,7 @@
       "Provisionar instâncias EC2."
     ],
     "respostaCorreta": "Gerenciar identidades e permissões.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -497,7 +497,7 @@
       "Amazon EC2"
     ],
     "respostaCorreta": "AWS Config",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -509,7 +509,7 @@
       "Provisionar servidores."
     ],
     "respostaCorreta": "Registrar chamadas de API para auditoria.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -521,7 +521,7 @@
       "Nenhuma das anteriores."
     ],
     "respostaCorreta": "Criptografia de dados armazenados.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -533,7 +533,7 @@
       "Amazon CloudFront"
     ],
     "respostaCorreta": "AWS Shield",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -545,7 +545,7 @@
       "Um serviço de balanceamento de carga."
     ],
     "respostaCorreta": "Um serviço de firewall de aplicação web.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -557,7 +557,7 @@
       "Registrar chamadas de API."
     ],
     "respostaCorreta": "Gerenciar senhas e segredos.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -569,7 +569,7 @@
       "Criptografia de backups."
     ],
     "respostaCorreta": "Criptografia de dados enquanto são transmitidos.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -581,7 +581,7 @@
       "Como monitorar a atividade da API."
     ],
     "respostaCorreta": "Quem pode acessar os recursos e o que pode fazer.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -593,7 +593,7 @@
       "Amazon S3"
     ],
     "respostaCorreta": "AWS Artifact",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -605,7 +605,7 @@
       "Desabilitar autenticação multifator."
     ],
     "respostaCorreta": "Mudar senhas regularmente.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -617,7 +617,7 @@
       "AWS Elastic Beanstalk e AWS Shield"
     ],
     "respostaCorreta": "AWS CloudTrail e AWS Config",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -629,7 +629,7 @@
       "Auditoria de chamadas de API."
     ],
     "respostaCorreta": "Agregação de informações sobre segurança.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -641,7 +641,7 @@
       "Balanceadores de carga."
     ],
     "respostaCorreta": "Redes privadas virtuais.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -653,7 +653,7 @@
       "Gerenciar usuários."
     ],
     "respostaCorreta": "Registrar chamadas de API.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -665,7 +665,7 @@
       "Uma ferramenta de monitoramento."
     ],
     "respostaCorreta": "Uma camada adicional de segurança.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -677,7 +677,7 @@
       "AWS WAF"
     ],
     "respostaCorreta": "Amazon Inspector",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -689,7 +689,7 @@
       "Um método de provisionamento."
     ],
     "respostaCorreta": "Um conjunto de regras para proteger dados.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -701,7 +701,7 @@
       "Métodos de criptografia."
     ],
     "respostaCorreta": "Controles de acesso às instâncias.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -713,7 +713,7 @@
       "Gerenciar usuários."
     ],
     "respostaCorreta": "Gerenciar chaves de criptografia.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -725,7 +725,7 @@
       "Um serviço de análise de dados."
     ],
     "respostaCorreta": "Uma ferramenta de segurança para avaliação de vulnerabilidades.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -737,7 +737,7 @@
       "Ele não pode ser integrado a outros serviços."
     ],
     "respostaCorreta": "Ele pode ser usado para auditoria.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -749,7 +749,7 @@
       "Desabilitar o monitoramento de logs."
     ],
     "respostaCorreta": "Usar grupos de segurança e chaves de acesso.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -761,7 +761,7 @@
       "Registra chamadas de API."
     ],
     "respostaCorreta": "Monitora mudanças de configuração em recursos.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -773,7 +773,7 @@
       "Amazon RDS"
     ],
     "respostaCorreta": "AWS Backup",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -785,7 +785,7 @@
       "Auditar chamadas de API."
     ],
     "respostaCorreta": "Gerenciar o acesso a recursos.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -797,7 +797,7 @@
       "Armazenamento de dados."
     ],
     "respostaCorreta": "Detecção de ameaças em tempo real.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -809,7 +809,7 @@
       "Uma ferramenta de monitoramento."
     ],
     "respostaCorreta": "Um repositório para armazenamento de objetos.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -821,7 +821,7 @@
       "Facilita a análise de dados."
     ],
     "respostaCorreta": "Protege os dados contra acesso não autorizado.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -833,7 +833,7 @@
       "Define os preços dos serviços da AWS."
     ],
     "respostaCorreta": "Define como a AWS protege os dados dos clientes.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -845,7 +845,7 @@
       "Auditar chamadas de API."
     ],
     "respostaCorreta": "Detectar e proteger dados sensíveis.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -857,7 +857,7 @@
       "Amazon S3"
     ],
     "respostaCorreta": "AWS Secrets Manager",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -869,7 +869,7 @@
       "Processo de análise de dados."
     ],
     "respostaCorreta": "Processo de verificar se as práticas estão em conformidade com as políticas.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -881,7 +881,7 @@
       "Gerenciar usuários."
     ],
     "respostaCorreta": "Gerenciar regras de firewall em várias contas.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -893,7 +893,7 @@
       "Reduzir a eficiência do sistema."
     ],
     "respostaCorreta": "Proteger dados sensíveis e garantir conformidade.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -905,7 +905,7 @@
       "Monitorar uso de serviços."
     ],
     "respostaCorreta": "Avaliar a segurança de aplicações e instâncias.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -917,7 +917,7 @@
       "São tipos de instâncias."
     ],
     "respostaCorreta": "Definem o acesso aos buckets do S3.",
-    "dominio": "Segurança e conformidade",
+    "dominio": "Conceitos da nuvem",
     "tipo": "single"
   },
   {
@@ -5279,4 +5279,1013 @@
     "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
   },
+  {
+    "pergunta": "Qual dos seguintes serviços é utilizado para controle de acesso e permissões na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS IAM",
+      "AWS CloudTrail",
+      "Amazon CloudWatch",
+      "AWS Config"
+    ],
+    "respostaCorreta": [
+      "AWS IAM",
+      "AWS Config"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para proteger a conta raiz da AWS? (Escolha dois)",
+    "opcoes": [
+      "Ativar autenticação multifator (MFA).",
+      "Usar a conta raiz para todas as operações.",
+      "Criar usuários IAM para acesso diário.",
+      "Compartilhar credenciais da conta raiz."
+    ],
+    "respostaCorreta": [
+      "Ativar autenticação multifator (MFA).",
+      "Criar usuários IAM para acesso diário."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é um benefício da criptografia de dados na AWS? (Escolha dois)",
+    "opcoes": [
+      "Protege dados em repouso e em trânsito.",
+      "Elimina a necessidade de backups.",
+      "Reduz custos de armazenamento.",
+      "Atende a requisitos de conformidade."
+    ],
+    "respostaCorreta": [
+      "Protege dados em repouso e em trânsito.",
+      "Atende a requisitos de conformidade."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser usados para monitorar e auditar a atividade da conta AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS CloudTrail",
+      "Amazon CloudWatch",
+      "AWS Config",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": [
+      "AWS CloudTrail",
+      "Amazon CloudWatch"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma prática recomendada ao criar políticas do IAM? (Escolha dois)",
+    "opcoes": [
+      "Conceder acesso a todos os serviços.",
+      "Utilizar políticas gerenciadas sempre que possível.",
+      "Criar políticas que concedem acesso amplo.",
+      "Implementar o princípio do menor privilégio."
+    ],
+    "respostaCorreta": [
+      "Utilizar políticas gerenciadas sempre que possível.",
+      "Implementar o princípio do menor privilégio."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os métodos recomendados para proteger segredos e credenciais na AWS? (Escolha dois)",
+    "opcoes": [
+      "Armazenar segredos no código-fonte.",
+      "Usar o AWS Secrets Manager.",
+      "Utilizar variáveis de ambiente.",
+      "Ativar a criptografia em trânsito."
+    ],
+    "respostaCorreta": [
+      "Usar o AWS Secrets Manager.",
+      "Ativar a criptografia em trânsito."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os princípios fundamentais do AWS Well-Architected Framework? (Escolha dois)",
+    "opcoes": [
+      "Confiabilidade",
+      "Desempenho",
+      "Infraestrutura on-premises",
+      "Otimização de custos"
+    ],
+    "respostaCorreta": [
+      "Confiabilidade",
+      "Otimização de custos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços AWS ajudam a gerenciar a conformidade regulatória? (Escolha dois)",
+    "opcoes": [
+      "AWS Artifact",
+      "AWS Config",
+      "Amazon RDS",
+      "AWS CloudTrail"
+    ],
+    "respostaCorreta": [
+      "AWS Artifact",
+      "AWS Config"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios da utilização de uma rede privada virtual (VPN) na AWS? (Escolha dois)",
+    "opcoes": [
+      "Conexão segura entre a AWS e um ambiente local.",
+      "Eliminação de custos de transferência de dados.",
+      "Acesso à Internet pública.",
+      "Isolamento de tráfego entre VPCs."
+    ],
+    "respostaCorreta": [
+      "Conexão segura entre a AWS e um ambiente local.",
+      "Isolamento de tráfego entre VPCs."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma maneira eficaz de gerenciar a identidade e o acesso na AWS? (Escolha dois)",
+    "opcoes": [
+      "Usar grupos IAM para atribuir permissões.",
+      "Utilizar a conta raiz para todas as atividades.",
+      "Implementar autenticação multifator (MFA).",
+      "Criar políticas amplas."
+    ],
+    "respostaCorreta": [
+      "Usar grupos IAM para atribuir permissões.",
+      "Implementar autenticação multifator (MFA)."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços são usados para proteger aplicações web contra ataques? (Escolha dois)",
+    "opcoes": [
+      "AWS WAF",
+      "Amazon Inspector",
+      "AWS Shield",
+      "AWS IAM"
+    ],
+    "respostaCorreta": [
+      "AWS WAF",
+      "AWS Shield"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as práticas recomendadas para auditoria na AWS? (Escolha dois)",
+    "opcoes": [
+      "Ativar AWS CloudTrail.",
+      "Armazenar dados em servidores on-premises.",
+      "Implementar um ciclo de vida de logs.",
+      "Usar senhas fracas."
+    ],
+    "respostaCorreta": [
+      "Ativar AWS CloudTrail.",
+      "Implementar um ciclo de vida de logs."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para proteger dados confidenciais? (Escolha dois)",
+    "opcoes": [
+      "Usar criptografia em repouso e em trânsito.",
+      "Manter dados sem criptografia.",
+      "Limitar o acesso aos dados somente a usuários autorizados.",
+      "Compartilhar credenciais em e-mails."
+    ],
+    "respostaCorreta": [
+      "Usar criptografia em repouso e em trânsito.",
+      "Limitar o acesso aos dados somente a usuários autorizados."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a função do AWS KMS? (Escolha dois)",
+    "opcoes": [
+      "Gerenciar chaves de criptografia.",
+      "Monitorar atividades da conta.",
+      "Armazenar dados em S3.",
+      "Proteger dados em trânsito."
+    ],
+    "respostaCorreta": [
+      "Gerenciar chaves de criptografia.",
+      "Proteger dados em trânsito."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para gerenciar riscos de segurança na AWS? (Escolha dois)",
+    "opcoes": [
+      "Realizar avaliações de segurança regulares.",
+      "Evitar atualizações de segurança.",
+      "Implementar controles de acesso rigorosos.",
+      "Usar senhas simples."
+    ],
+    "respostaCorreta": [
+      "Realizar avaliações de segurança regulares.",
+      "Implementar controles de acesso rigorosos."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um recurso do AWS Shield? (Escolha dois)",
+    "opcoes": [
+      "Proteção contra DDoS.",
+      "Gerenciamento de identidade.",
+      "Armazenamento de dados.",
+      "Auditoria de segurança."
+    ],
+    "respostaCorreta": [
+      "Proteção contra DDoS.",
+      "Auditoria de segurança."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os objetivos da AWS em relação à conformidade? (Escolha dois)",
+    "opcoes": [
+      "Atender aos requisitos legais e regulamentares.",
+      "Maximizar a complexidade de gerenciamento.",
+      "Reduzir riscos de segurança.",
+      "Criar mais silos de dados."
+    ],
+    "respostaCorreta": [
+      "Atender aos requisitos legais e regulamentares.",
+      "Reduzir riscos de segurança."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços ajudam na análise de segurança e conformidade? (Escolha dois)",
+    "opcoes": [
+      "Amazon GuardDuty",
+      "AWS Config",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "respostaCorreta": [
+      "Amazon GuardDuty",
+      "AWS Config"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para a proteção de dados em um ambiente multi-tenant? (Escolha dois)",
+    "opcoes": [
+      "Isolar dados entre diferentes clientes.",
+      "Manter dados não criptografados.",
+      "Implementar controle de acesso rigoroso.",
+      "Compartilhar credenciais entre clientes."
+    ],
+    "respostaCorreta": [
+      "Isolar dados entre diferentes clientes.",
+      "Implementar controle de acesso rigoroso."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é um recurso do AWS IAM? (Escolha dois)",
+    "opcoes": [
+      "Gerenciamento de políticas de acesso.",
+      "Armazenamento de dados em S3.",
+      "Criação de usuários e grupos.",
+      "Monitoramento de serviços em tempo real."
+    ],
+    "respostaCorreta": [
+      "Gerenciamento de políticas de acesso.",
+      "Criação de usuários e grupos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços AWS podem ajudar na proteção de aplicações web? (Escolha dois)",
+    "opcoes": [
+      "AWS WAF",
+      "Amazon RDS",
+      "AWS Shield",
+      "Amazon S3"
+    ],
+    "respostaCorreta": [
+      "AWS WAF",
+      "AWS Shield"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios da ativação do AWS CloudTrail? (Escolha dois)",
+    "opcoes": [
+      "Auditar chamadas de API.",
+      "Armazenar dados em servidores locais.",
+      "Monitorar alterações em recursos da AWS.",
+      "Fornecer relatórios de desempenho."
+    ],
+    "respostaCorreta": [
+      "Auditar chamadas de API.",
+      "Monitorar alterações em recursos da AWS."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para a gestão de chaves no AWS KMS? (Escolha dois)",
+    "opcoes": [
+      "Usar chaves geradas automaticamente.",
+      "Implementar políticas de acesso restritivas.",
+      "Compartilhar chaves entre usuários.",
+      "Ativar a rotação automática de chaves."
+    ],
+    "respostaCorreta": [
+      "Implementar políticas de acesso restritivas.",
+      "Ativar a rotação automática de chaves."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma maneira eficaz de proteger dados em um bucket do Amazon S3? (Escolha dois)",
+    "opcoes": [
+      "Ativar o controle de versão.",
+      "Desabilitar a criptografia.",
+      "Usar políticas de bucket para restringir acesso.",
+      "Armazenar dados sem backup."
+    ],
+    "respostaCorreta": [
+      "Ativar o controle de versão.",
+      "Usar políticas de bucket para restringir acesso."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os componentes principais do AWS Well-Architected Framework? (Escolha dois)",
+    "opcoes": [
+      "Segurança",
+      "Desempenho",
+      "Serviços gerenciados",
+      "Otimização de custos"
+    ],
+    "respostaCorreta": [
+      "Segurança",
+      "Otimização de custos"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser usados para a gestão da conformidade na AWS? (Escolha dois)",
+    "opcoes": [
+      "AWS Config",
+      "AWS Trusted Advisor",
+      "AWS Lambda",
+      "Amazon Aurora"
+    ],
+    "respostaCorreta": [
+      "AWS Config",
+      "AWS Trusted Advisor"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de implementar autenticação multifator (MFA) na AWS? (Escolha dois)",
+    "opcoes": [
+      "Aumentar a segurança da conta.",
+      "Eliminação total de senhas.",
+      "Proteger a conta raiz da AWS.",
+      "Reduzir a necessidade de backups."
+    ],
+    "respostaCorreta": [
+      "Aumentar a segurança da conta.",
+      "Proteger a conta raiz da AWS."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os objetivos da AWS em relação à segurança de dados? (Escolha dois)",
+    "opcoes": [
+      "Manter dados acessíveis a todos.",
+      "Proteger dados em repouso e em trânsito.",
+      "Facilitar o acesso não autorizado.",
+      "Atender a requisitos de conformidade."
+    ],
+    "respostaCorreta": [
+      "Proteger dados em repouso e em trânsito.",
+      "Atender a requisitos de conformidade."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais recursos do Amazon GuardDuty? (Escolha dois)",
+    "opcoes": [
+      "Detecção de ameaças.",
+      "Gerenciamento de identidade.",
+      "Auditoria de segurança.",
+      "Monitoramento de tráfego em tempo real."
+    ],
+    "respostaCorreta": [
+      "Detecção de ameaças.",
+      "Monitoramento de tráfego em tempo real."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para a proteção de dados em ambientes multi-tenant? (Escolha dois)",
+    "opcoes": [
+      "Implementar controles de acesso rigorosos.",
+      "Isolar dados entre diferentes clientes.",
+      "Manter dados não criptografados.",
+      "Compartilhar credenciais entre clientes."
+    ],
+    "respostaCorreta": [
+      "Implementar controles de acesso rigorosos.",
+      "Isolar dados entre diferentes clientes."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de usar o AWS Secrets Manager? (Escolha dois)",
+    "opcoes": [
+      "Gerenciar segredos de forma centralizada.",
+      "Desabilitar autenticação.",
+      "Proteger credenciais de acesso.",
+      "Eliminação de senhas."
+    ],
+    "respostaCorreta": [
+      "Gerenciar segredos de forma centralizada.",
+      "Proteger credenciais de acesso."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas ao criar políticas do IAM? (Escolha dois)",
+    "opcoes": [
+      "Conceder acesso a todos os serviços.",
+      "Utilizar políticas gerenciadas sempre que possível.",
+      "Criar políticas que concedem acesso amplo.",
+      "Implementar o princípio do menor privilégio."
+    ],
+    "respostaCorreta": [
+      "Utilizar políticas gerenciadas sempre que possível.",
+      "Implementar o princípio do menor privilégio."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser usados para proteção contra DDoS? (Escolha dois)",
+    "opcoes": [
+      "AWS Shield",
+      "AWS Config",
+      "Amazon CloudFront",
+      "AWS IAM"
+    ],
+    "respostaCorreta": [
+      "AWS Shield",
+      "Amazon CloudFront"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os componentes essenciais de um plano de resposta a incidentes na AWS? (Escolha dois)",
+    "opcoes": [
+      "Identificação de incidentes.",
+      "Armazenamento em S3.",
+      "Resposta e mitigação.",
+      "Desativação de MFA."
+    ],
+    "respostaCorreta": [
+      "Identificação de incidentes.",
+      "Resposta e mitigação."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a finalidade do AWS Config? (Escolha dois)",
+    "opcoes": [
+      "Auditar configurações de recursos.",
+      "Gerar relatórios de custo.",
+      "Monitorar mudanças em recursos.",
+      "Gerenciar identidades de usuário."
+    ],
+    "respostaCorreta": [
+      "Auditar configurações de recursos.",
+      "Monitorar mudanças em recursos."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas são recomendadas para a proteção de dados confidenciais na AWS? (Escolha dois)",
+    "opcoes": [
+      "Usar criptografia em repouso e em trânsito.",
+      "Manter dados sem criptografia.",
+      "Limitar o acesso aos dados somente a usuários autorizados.",
+      "Compartilhar credenciais em e-mails."
+    ],
+    "respostaCorreta": [
+      "Usar criptografia em repouso e em trânsito.",
+      "Limitar o acesso aos dados somente a usuários autorizados."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as principais características do AWS Well-Architected Framework? (Escolha dois)",
+    "opcoes": [
+      "Foco em segurança.",
+      "Auditoria de conformidade.",
+      "Otimização de custo.",
+      "Acessibilidade global."
+    ],
+    "respostaCorreta": [
+      "Foco em segurança.",
+      "Otimização de custo."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o principal benefício da computação em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Redução de custos operacionais.",
+      "Aumento da complexidade de gerenciamento.",
+      "Escalabilidade sob demanda.",
+      "Requerimentos de hardware específicos."
+    ],
+    "respostaCorreta": [
+      "Redução de custos operacionais.",
+      "Escalabilidade sob demanda."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual modelo de computação permite que os usuários paguem apenas pelo que utilizam? (Escolha um)",
+    "opcoes": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "Modelo tradicional"
+    ],
+    "respostaCorreta": [
+      "IaaS"
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as principais características da computação em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Acesso sob demanda.",
+      "Infraestrutura local fixa.",
+      "Elasticidade.",
+      "Segurança somente em nível de hardware."
+    ],
+    "respostaCorreta": [
+      "Acesso sob demanda.",
+      "Elasticidade."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a diferença entre IaaS e PaaS? (Escolha dois)",
+    "opcoes": [
+      "IaaS fornece infraestrutura, enquanto PaaS fornece plataforma de desenvolvimento.",
+      "IaaS é mais caro que PaaS.",
+      "PaaS oferece mais controle sobre o sistema operacional do que IaaS.",
+      "IaaS requer menos gerenciamento de software do que PaaS."
+    ],
+    "respostaCorreta": [
+      "IaaS fornece infraestrutura, enquanto PaaS fornece plataforma de desenvolvimento.",
+      "PaaS oferece mais controle sobre o sistema operacional do que IaaS."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais benefícios do SaaS? (Escolha dois)",
+    "opcoes": [
+      "Acesso de qualquer lugar.",
+      "Necessidade de instalação local.",
+      "Atualizações automáticas.",
+      "Controle total sobre a infraestrutura."
+    ],
+    "respostaCorreta": [
+      "Acesso de qualquer lugar.",
+      "Atualizações automáticas."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que caracteriza um ambiente de nuvem híbrido? (Escolha dois)",
+    "opcoes": [
+      "Uso de nuvem pública e privada.",
+      "Necessidade de hardware local exclusivo.",
+      "Transferência de dados entre diferentes ambientes de nuvem.",
+      "Implementação exclusiva em nuvem pública."
+    ],
+    "respostaCorreta": [
+      "Uso de nuvem pública e privada.",
+      "Transferência de dados entre diferentes ambientes de nuvem."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a definição de elasticidade na nuvem? (Escolha um)",
+    "opcoes": [
+      "Capacidade de expandir e contrair recursos conforme necessário.",
+      "Aumento da segurança dos dados.",
+      "Redução do tempo de latência.",
+      "Redução de custos operacionais."
+    ],
+    "respostaCorreta": [
+      "Capacidade de expandir e contrair recursos conforme necessário."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais modelos de serviço na nuvem? (Escolha dois)",
+    "opcoes": [
+      "Infraestrutura como Serviço (IaaS).",
+      "Plataforma como Serviço (PaaS).",
+      "Software como Serviço (SaaS).",
+      "Rede como Serviço (NaaS)."
+    ],
+    "respostaCorreta": [
+      "Infraestrutura como Serviço (IaaS).",
+      "Plataforma como Serviço (PaaS)."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um exemplo de SaaS? (Escolha um)",
+    "opcoes": [
+      "Amazon EC2.",
+      "Google Drive.",
+      "Microsoft Azure.",
+      "Amazon RDS."
+    ],
+    "respostaCorreta": [
+      "Google Drive."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as vantagens da computação em nuvem? (Escolha dois)",
+    "opcoes": [
+      "Redução de custos.",
+      "Dependência de hardware local.",
+      "Aumento da colaboração.",
+      "Dificuldade de escalabilidade."
+    ],
+    "respostaCorreta": [
+      "Redução de custos.",
+      "Aumento da colaboração."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é um serviço gerenciado na nuvem? (Escolha um)",
+    "opcoes": [
+      "Um serviço que requer manutenção constante pelo usuário.",
+      "Um serviço totalmente gerenciado pelo provedor de nuvem.",
+      "Um serviço que oferece apenas armazenamento.",
+      "Um serviço com recursos limitados."
+    ],
+    "respostaCorreta": [
+      "Um serviço totalmente gerenciado pelo provedor de nuvem."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a finalidade do provisionamento na nuvem? (Escolha um)",
+    "opcoes": [
+      "Definir a quantidade de recursos necessários.",
+      "Reduzir custos operacionais.",
+      "Garantir segurança dos dados.",
+      "Implementar novas tecnologias."
+    ],
+    "respostaCorreta": [
+      "Definir a quantidade de recursos necessários."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as principais considerações ao escolher um provedor de nuvem? (Escolha dois)",
+    "opcoes": [
+      "Escalabilidade.",
+      "Localização do data center.",
+      "Complexidade do hardware.",
+      "Custos de manutenção."
+    ],
+    "respostaCorreta": [
+      "Escalabilidade.",
+      "Localização do data center."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é uma API em um contexto de nuvem? (Escolha um)",
+    "opcoes": [
+      "Uma ferramenta para gerenciamento de usuários.",
+      "Uma interface para comunicação entre sistemas.",
+      "Um tipo de armazenamento de dados.",
+      "Um modelo de implantação."
+    ],
+    "respostaCorreta": [
+      "Uma interface para comunicação entre sistemas."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal de uma estratégia de backup na nuvem? (Escolha um)",
+    "opcoes": [
+      "Proteger dados contra perda.",
+      "Melhorar o desempenho da aplicação.",
+      "Reduzir custos de armazenamento.",
+      "Aumentar a complexidade do sistema."
+    ],
+    "respostaCorreta": [
+      "Proteger dados contra perda."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os desafios da migração para a nuvem? (Escolha dois)",
+    "opcoes": [
+      "Interoperabilidade entre sistemas.",
+      "Gerenciamento de mudanças.",
+      "Aumento de custos operacionais.",
+      "Dependência de um único provedor."
+    ],
+    "respostaCorreta": [
+      "Interoperabilidade entre sistemas.",
+      "Gerenciamento de mudanças."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a definição de continuidade de negócios na nuvem? (Escolha um)",
+    "opcoes": [
+      "Planejamento para minimizar interrupções.",
+      "Aumentar a carga de trabalho.",
+      "Gerenciar os custos de hardware.",
+      "Reduzir a segurança dos dados."
+    ],
+    "respostaCorreta": [
+      "Planejamento para minimizar interrupções."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as características de uma infraestrutura de nuvem escalável? (Escolha dois)",
+    "opcoes": [
+      "Capacidade de aumentar recursos rapidamente.",
+      "Dependência de hardware físico.",
+      "Flexibilidade na alocação de recursos.",
+      "Dificuldade em integrar novas tecnologias."
+    ],
+    "respostaCorreta": [
+      "Capacidade de aumentar recursos rapidamente.",
+      "Flexibilidade na alocação de recursos."
+    ],
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como os custos fixos são definidos no contexto da nuvem?",
+    "opcoes": [
+      {
+        "texto": "Custos que não variam com a utilização",
+        "explicacao": "Custos fixos são despesas que permanecem constantes independentemente da quantidade de recursos usados."
+      },
+      {
+        "texto": "Custos que aumentam com a utilização",
+        "explicacao": "Isso descreve custos variáveis, não fixos."
+      },
+      {
+        "texto": "Custos que podem ser ajustados mensalmente",
+        "explicacao": "Custos fixos são geralmente comprometidos e não são facilmente ajustáveis."
+      },
+      {
+        "texto": "Custos relacionados a eventos inesperados",
+        "explicacao": "Eventos inesperados podem gerar custos variáveis, não fixos."
+      }
+    ],
+    "respostaCorreta": "Custos que não variam com a utilização",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um exemplo de custo fixo na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Assinatura mensal de um serviço de nuvem",
+        "explicacao": "A assinatura mensal é um custo fixo, pois não muda com a utilização."
+      },
+      {
+        "texto": "Custos de armazenamento em função do uso",
+        "explicacao": "Os custos de armazenamento são considerados variáveis, pois dependem do volume de dados armazenados."
+      },
+      {
+        "texto": "Taxas de transferência de dados",
+        "explicacao": "Essas taxas geralmente variam com a quantidade de dados transferidos."
+      },
+      {
+        "texto": "Custo de desenvolvimento de software",
+        "explicacao": "O custo de desenvolvimento pode ser considerado um investimento, mas não é um custo fixo regular."
+      }
+    ],
+    "respostaCorreta": "Assinatura mensal de um serviço de nuvem",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem de entender os custos fixos em comparação com os custos variáveis na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Facilitar o planejamento orçamentário",
+        "explicacao": "Compreender a diferença ajuda as empresas a planejar melhor seus orçamentos e prever despesas."
+      },
+      {
+        "texto": "Reduzir a utilização de recursos",
+        "explicacao": "O entendimento não necessariamente reduz a utilização, mas melhora a previsão de custos."
+      },
+      {
+        "texto": "Eliminar custos variáveis",
+        "explicacao": "Não é possível eliminar custos variáveis, pois eles estão diretamente relacionados ao uso."
+      },
+      {
+        "texto": "Maximizar o uso de recursos fixos",
+        "explicacao": "O objetivo é otimizar o uso de todos os recursos, não apenas os fixos."
+      }
+    ],
+    "respostaCorreta": "Facilitar o planejamento orçamentário",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um custo variável típico na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Custos de armazenamento que aumentam com a quantidade de dados",
+        "explicacao": "Esses custos são considerados variáveis, pois dependem do uso."
+      },
+      {
+        "texto": "Salários de funcionários permanentes",
+        "explicacao": "Salários são geralmente custos fixos, não variáveis."
+      },
+      {
+        "texto": "Licenças de software pagas anualmente",
+        "explicacao": "Licenças anuais são custos fixos, não variáveis."
+      },
+      {
+        "texto": "Custo de hardware comprado para a empresa",
+        "explicacao": "O custo de hardware geralmente é um investimento fixo."
+      }
+    ],
+    "respostaCorreta": "Custos de armazenamento que aumentam com a quantidade de dados",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os custos fixos impactam a decisão de migrar para a nuvem?",
+    "opcoes": [
+      {
+        "texto": "Podem ser mais previsíveis e estáveis",
+        "explicacao": "Custos fixos permitem uma melhor previsão financeira ao migrar para a nuvem."
+      },
+      {
+        "texto": "Aumentam os custos totais de operação",
+        "explicacao": "Custos fixos não necessariamente aumentam os custos, mas ajudam a manter a estabilidade financeira."
+      },
+      {
+        "texto": "Eliminam a necessidade de infraestrutura",
+        "explicacao": "Os custos fixos não eliminam infraestrutura, mas ajudam a definir a necessidade de investimentos."
+      },
+      {
+        "texto": "Reduzem a flexibilidade",
+        "explicacao": "Custos fixos não afetam diretamente a flexibilidade na utilização de recursos na nuvem."
+      }
+    ],
+    "respostaCorreta": "Podem ser mais previsíveis e estáveis",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Por que é importante monitorar tanto os custos fixos quanto os variáveis na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Para evitar surpresas financeiras",
+        "explicacao": "Monitorar ambos os custos ajuda a prever despesas e evita surpresas no orçamento."
+      },
+      {
+        "texto": "Para eliminar custos fixos",
+        "explicacao": "Eliminar custos fixos não é viável; é importante gerenciá-los."
+      },
+      {
+        "texto": "Para maximizar apenas os custos variáveis",
+        "explicacao": "O foco deve ser em gerenciar todos os custos, não apenas os variáveis."
+      },
+      {
+        "texto": "Para aumentar a utilização de recursos",
+        "explicacao": "Monitorar custos não está diretamente relacionado ao aumento da utilização de recursos."
+      }
+    ],
+    "respostaCorreta": "Para evitar surpresas financeiras",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais desafios relacionados aos custos variáveis na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Dificuldade em prever despesas mensais",
+        "explicacao": "Custos variáveis podem flutuar, tornando difícil prever o orçamento mensal."
+      },
+      {
+        "texto": "Estabilidade nos gastos",
+        "explicacao": "Custos variáveis são, por definição, menos estáveis."
+      },
+      {
+        "texto": "Eliminação de custos fixos",
+        "explicacao": "Custos fixos não são eliminados por causa de custos variáveis."
+      },
+      {
+        "texto": "Facilidade em orçar gastos",
+        "explicacao": "Custos variáveis complicam o processo de orçamento."
+      }
+    ],
+    "respostaCorreta": "Dificuldade em prever despesas mensais",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os modelos de preços na nuvem geralmente lidam com custos fixos e variáveis?",
+    "opcoes": [
+      {
+        "texto": "Oferecem opções de pagamento sob demanda e reservadas",
+        "explicacao": "Os modelos de preços na nuvem podem incluir tanto custos fixos (como reservas) quanto variáveis (como uso sob demanda)."
+      },
+      {
+        "texto": "Eliminam custos variáveis",
+        "explicacao": "Modelos de preços não eliminam custos variáveis, mas os incorporam nas tarifas."
+      },
+      {
+        "texto": "Apenas focam em custos fixos",
+        "explicacao": "Modelos de preços na nuvem devem considerar ambos os custos."
+      },
+      {
+        "texto": "Minimizam a transparência dos preços",
+        "explicacao": "Modelos de preços buscam aumentar a transparência, não minimizá-la."
+      }
+    ],
+    "respostaCorreta": "Oferecem opções de pagamento sob demanda e reservadas",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  }
 ]
