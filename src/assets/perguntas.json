@@ -12237,5 +12237,1205 @@
     "respostaCorreta": "AWS VPN.",
     "dominio": "Segurança e conformidade",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando uma solução para identificar vulnerabilidades em suas instâncias do Amazon EC2. Qual serviço da AWS pode ser utilizado para essa finalidade?",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Sim, o Amazon Inspector verifica automaticamente vulnerabilidades e exposições de segurança em instâncias EC2."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield é utilizado para proteger contra ataques DDoS, não para verificar vulnerabilidades de EC2."
+      },
+      {
+        "texto": "Amazon GuardDuty.",
+        "explicacao": "Não, o GuardDuty é um serviço de detecção de ameaças, mas não faz a verificação de vulnerabilidades."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda é um serviço de computação sem servidor, não de segurança."
+      }
+    ],
+    "respostaCorreta": "Amazon Inspector.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer uma visão centralizada das ameaças de segurança em várias contas da AWS. Qual serviço pode fornecer essa visão?",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Sim, o AWS Security Hub centraliza e prioriza alertas de segurança de várias contas e regiões."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector foca na verificação de vulnerabilidades, não na centralização de ameaças."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra ataques DDoS, mas não oferece uma visão centralizada de ameaças."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Não, o Amazon RDS é um serviço de banco de dados gerenciado e não lida com segurança centralizada."
+      }
+    ],
+    "respostaCorreta": "AWS Security Hub.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece proteção automática contra ataques de negação de serviço distribuído (DDoS) para suas aplicações?",
+    "opcoes": [
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Sim, o AWS Shield protege automaticamente suas aplicações contra ataques DDoS."
+      },
+      {
+        "texto": "Amazon GuardDuty.",
+        "explicacao": "Não, o GuardDuty detecta ameaças, mas não protege diretamente contra DDoS."
+      },
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Não, o Security Hub centraliza alertas de segurança, mas não protege diretamente contra DDoS."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é usado para modelagem e provisionamento de recursos da AWS."
+      }
+    ],
+    "respostaCorreta": "AWS Shield.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer detectar atividades maliciosas em sua infraestrutura na nuvem. Qual serviço da AWS oferece essa funcionalidade?",
+    "opcoes": [
+      {
+        "texto": "Amazon GuardDuty.",
+        "explicacao": "Sim, o Amazon GuardDuty detecta atividades maliciosas e ameaças em sua infraestrutura AWS."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Não, o RDS é um serviço de banco de dados e não detecta atividades maliciosas."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o Shield oferece proteção contra ataques DDoS, mas não detecta ameaças."
+      },
+      {
+        "texto": "AWS CodeDeploy.",
+        "explicacao": "Não, o CodeDeploy é uma ferramenta de implantação de código, não de detecção de ameaças."
+      }
+    ],
+    "respostaCorreta": "Amazon GuardDuty.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer uma solução para centralizar seus alertas de conformidade e segurança em um só lugar. Qual serviço da AWS atende a essa necessidade?",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Sim, o AWS Security Hub centraliza e organiza alertas de conformidade e segurança."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 é um serviço de armazenamento de objetos, não para centralizar alertas de segurança."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector faz verificações de segurança, mas não centraliza alertas de várias fontes."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o Lambda é um serviço de computação sem servidor e não lida com centralização de alertas."
+      }
+    ],
+    "respostaCorreta": "AWS Security Hub.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser usado para verificar automaticamente vulnerabilidades de segurança nas instâncias EC2 e contêineres implantados na AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Sim, o Amazon Inspector verifica automaticamente vulnerabilidades em EC2 e contêineres."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield oferece proteção contra DDoS, mas não verifica vulnerabilidades."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 é usado para armazenamento, não para verificação de vulnerabilidades."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é usado para provisionamento de infraestrutura, não para verificação de segurança."
+      }
+    ],
+    "respostaCorreta": "Amazon Inspector.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece proteção de segurança avançada contra ataques DDoS para aplicações baseadas em nuvem?",
+    "opcoes": [
+      {
+        "texto": "AWS Shield Advanced.",
+        "explicacao": "Sim, o AWS Shield Advanced oferece proteção de segurança avançada contra ataques DDoS."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o Lambda é um serviço de computação sem servidor, não de proteção contra DDoS."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector é usado para verificar vulnerabilidades, mas não protege contra DDoS."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail registra logs de eventos, mas não protege contra DDoS."
+      }
+    ],
+    "respostaCorreta": "AWS Shield Advanced.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer garantir que as melhores práticas de segurança estão sendo seguidas em suas instâncias EC2 e deseja receber recomendações. Qual serviço da AWS pode fornecer essa análise?",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Sim, o Amazon Inspector analisa instâncias EC2 e fornece recomendações de segurança."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é usado para provisionar infraestrutura, não para recomendações de segurança."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra DDoS, mas não fornece recomendações de segurança."
+      },
+      {
+        "texto": "AWS CodeBuild.",
+        "explicacao": "Não, o CodeBuild é uma ferramenta de compilação de código, não de segurança."
+      }
+    ],
+    "respostaCorreta": "Amazon Inspector.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para centralizar a detecção e resposta a incidentes de segurança em toda a sua infraestrutura AWS, qual serviço seria o mais adequado?",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Sim, o AWS Security Hub centraliza a detecção e resposta a incidentes de segurança."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Não, o RDS é um serviço de banco de dados gerenciado e não centraliza a segurança."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail registra eventos, mas não centraliza a resposta a incidentes."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o Shield protege contra ataques DDoS, mas não centraliza a resposta a incidentes."
+      }
+    ],
+    "respostaCorreta": "AWS Security Hub.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para proteger contra ataques de negação de serviço (DDoS) com uma camada adicional de proteção além da padrão, qual serviço da AWS seria o mais recomendado?",
+    "opcoes": [
+      {
+        "texto": "AWS Shield Advanced.",
+        "explicacao": "Sim, o AWS Shield Advanced oferece proteção adicional contra DDoS além da proteção padrão."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector verifica vulnerabilidades, mas não oferece proteção contra DDoS."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é uma ferramenta de provisionamento de infraestrutura."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 é um serviço de armazenamento e não oferece proteção contra DDoS."
+      }
+    ],
+    "respostaCorreta": "AWS Shield Advanced.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando ajuda para criptografar dados em repouso no Amazon S3 usando as práticas recomendadas de arquitetura da AWS mais recentes. Qual das seguintes opções oferece criptografia automática sem custo adicional?",
+    "opcoes": [
+      {
+        "texto": "Criptografia no lado do servidor com chaves gerenciadas pela AWS (SSE-S3).",
+        "explicacao": "Sim, a SSE-S3 fornece criptografia no lado do servidor com chaves gerenciadas pela AWS sem custo adicional."
+      },
+      {
+        "texto": "Criptografia no lado do servidor com chaves gerenciadas pelo cliente (SSE-C).",
+        "explicacao": "Não, o SSE-C requer que o cliente forneça suas próprias chaves, mas não é a opção automática padrão da AWS."
+      },
+      {
+        "texto": "Criptografia de objeto no lado do cliente.",
+        "explicacao": "Não, a criptografia do lado do cliente requer que o cliente gerencie suas próprias chaves e criptografia."
+      },
+      {
+        "texto": "AWS CloudHSM.",
+        "explicacao": "Não, o CloudHSM é um serviço de hardware de gerenciamento de chaves, mas não é necessário para criptografia automática no S3."
+      }
+    ],
+    "respostaCorreta": "Criptografia no lado do servidor com chaves gerenciadas pela AWS (SSE-S3).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite gerenciar suas próprias chaves de criptografia usadas para proteger dados em repouso e em trânsito?",
+    "opcoes": [
+      {
+        "texto": "AWS Key Management Service (KMS).",
+        "explicacao": "Sim, o AWS KMS permite que os usuários criem e gerenciem chaves de criptografia para proteger dados em repouso e em trânsito."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra ataques DDoS, mas não gerencia chaves de criptografia."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector verifica vulnerabilidades de segurança, mas não gerencia chaves."
+      },
+      {
+        "texto": "Amazon GuardDuty.",
+        "explicacao": "Não, o GuardDuty detecta ameaças, mas não gerencia chaves de criptografia."
+      }
+    ],
+    "respostaCorreta": "AWS Key Management Service (KMS).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer garantir que seus volumes do Amazon EBS estão criptografados. Qual das seguintes opções pode fornecer essa criptografia automaticamente?",
+    "opcoes": [
+      {
+        "texto": "Criptografia gerenciada pela AWS usando o AWS Key Management Service (KMS).",
+        "explicacao": "Sim, a criptografia de volumes EBS pode ser automaticamente gerenciada pela AWS usando o KMS."
+      },
+      {
+        "texto": "Criptografia gerenciada pelo cliente usando suas próprias chaves.",
+        "explicacao": "Não, essa opção requer que o cliente forneça e gerencie suas próprias chaves."
+      },
+      {
+        "texto": "Criptografia no lado do cliente para volumes EBS.",
+        "explicacao": "Não, o EBS não suporta criptografia no lado do cliente."
+      },
+      {
+        "texto": "AWS CloudHSM.",
+        "explicacao": "Não, o CloudHSM é uma solução de hardware para gerenciamento de chaves, mas não é necessário para criptografia automática de volumes EBS."
+      }
+    ],
+    "respostaCorreta": "Criptografia gerenciada pela AWS usando o AWS Key Management Service (KMS).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece a opção de utilizar chaves de criptografia gerenciadas pelo cliente para criptografar objetos no Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Criptografia no lado do servidor com chaves gerenciadas pelo cliente (SSE-C).",
+        "explicacao": "Sim, o SSE-C permite que o cliente forneça suas próprias chaves para criptografar objetos no S3."
+      },
+      {
+        "texto": "Criptografia no lado do servidor com chaves gerenciadas pela AWS (SSE-S3).",
+        "explicacao": "Não, o SSE-S3 usa chaves gerenciadas pela AWS, não pelo cliente."
+      },
+      {
+        "texto": "Criptografia de objeto no lado do cliente.",
+        "explicacao": "Não, essa opção também permite que o cliente gerencie chaves, mas a criptografia é feita no lado do cliente, não no servidor."
+      },
+      {
+        "texto": "AWS CloudHSM.",
+        "explicacao": "Não, o AWS CloudHSM é um serviço de hardware de gerenciamento de chaves, mas não é a opção padrão para criptografia no S3."
+      }
+    ],
+    "respostaCorreta": "Criptografia no lado do servidor com chaves gerenciadas pelo cliente (SSE-C).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja garantir que todos os dados armazenados no Amazon RDS estejam criptografados. Qual é a melhor solução da AWS para garantir isso?",
+    "opcoes": [
+      {
+        "texto": "Habilitar a criptografia durante a criação do banco de dados, gerenciada pela AWS KMS.",
+        "explicacao": "Sim, o Amazon RDS permite habilitar criptografia usando o KMS durante a criação da instância do banco de dados."
+      },
+      {
+        "texto": "Criptografia no lado do cliente.",
+        "explicacao": "Não, a criptografia do lado do cliente não é a abordagem usada para bancos de dados RDS."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra ataques DDoS, mas não fornece criptografia de dados em repouso."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é uma ferramenta de provisionamento, não de criptografia."
+      }
+    ],
+    "respostaCorreta": "Habilitar a criptografia durante a criação do banco de dados, gerenciada pela AWS KMS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para proteger dados em trânsito entre as instâncias EC2 e um bucket do S3, qual método de criptografia a AWS recomenda?",
+    "opcoes": [
+      {
+        "texto": "SSL/TLS para criptografar os dados em trânsito.",
+        "explicacao": "Sim, a AWS recomenda o uso de SSL/TLS para proteger dados em trânsito."
+      },
+      {
+        "texto": "Criptografia no lado do cliente.",
+        "explicacao": "Não, a criptografia no lado do cliente protege dados em repouso, não em trânsito."
+      },
+      {
+        "texto": "Criptografia de objeto S3 no lado do servidor.",
+        "explicacao": "Não, essa opção protege dados em repouso, mas não em trânsito."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra ataques DDoS, mas não criptografa dados em trânsito."
+      }
+    ],
+    "respostaCorreta": "SSL/TLS para criptografar os dados em trânsito.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando uma solução de criptografia de hardware para gerenciar suas próprias chaves de criptografia na AWS. Qual serviço seria o mais adequado?",
+    "opcoes": [
+      {
+        "texto": "AWS CloudHSM.",
+        "explicacao": "Sim, o AWS CloudHSM é uma solução de criptografia baseada em hardware que permite aos clientes gerenciar suas próprias chaves."
+      },
+      {
+        "texto": "AWS Key Management Service (KMS).",
+        "explicacao": "Não, o KMS é um serviço gerenciado de chaves, mas não oferece um dispositivo de hardware dedicado."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector é usado para verificar vulnerabilidades de segurança, não para gerenciamento de chaves de criptografia."
+      },
+      {
+        "texto": "AWS Shield Advanced.",
+        "explicacao": "Não, o AWS Shield Advanced oferece proteção contra ataques DDoS, mas não gerencia chaves de criptografia."
+      }
+    ],
+    "respostaCorreta": "AWS CloudHSM.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando uma maneira de proteger seus segredos e chaves de API no AWS. Qual serviço permite armazenar e gerenciar esses segredos de forma segura?",
+    "opcoes": [
+      {
+        "texto": "AWS Secrets Manager.",
+        "explicacao": "Sim, o AWS Secrets Manager é a solução da AWS para armazenar e gerenciar segredos de forma segura."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra ataques DDoS, mas não gerencia segredos ou chaves de API."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector verifica vulnerabilidades de segurança, mas não gerencia segredos."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é uma ferramenta de provisionamento e não gerencia segredos ou chaves."
+      }
+    ],
+    "respostaCorreta": "AWS Secrets Manager.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS facilita o gerenciamento de segredos e a rotação automática de chaves de API?",
+    "opcoes": [
+      {
+        "texto": "AWS Secrets Manager.",
+        "explicacao": "Sim, o AWS Secrets Manager permite gerenciar segredos e configurar a rotação automática de chaves de API."
+      },
+      {
+        "texto": "AWS Key Management Service (KMS).",
+        "explicacao": "Não, o KMS gerencia chaves de criptografia, mas não segredos ou chaves de API."
+      },
+      {
+        "texto": "AWS Shield Advanced.",
+        "explicacao": "Não, o AWS Shield Advanced oferece proteção contra ataques DDoS, mas não gerencia segredos ou chaves de API."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o Amazon S3 é um serviço de armazenamento e não gerencia segredos ou chaves de API."
+      }
+    ],
+    "respostaCorreta": "AWS Secrets Manager.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para uma empresa que deseja criptografar seus dados no Amazon DynamoDB, qual serviço da AWS pode ser usado para gerenciar as chaves de criptografia?",
+    "opcoes": [
+      {
+        "texto": "AWS Key Management Service (KMS).",
+        "explicacao": "Sim, o DynamoDB integra-se ao KMS para criptografar dados com chaves gerenciadas."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é uma ferramenta de provisionamento, não de criptografia."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector verifica vulnerabilidades de segurança, mas não criptografa dados."
+      },
+      {
+        "texto": "Amazon GuardDuty.",
+        "explicacao": "Não, o GuardDuty detecta ameaças, mas não gerencia criptografia de dados."
+      }
+    ],
+    "respostaCorreta": "AWS Key Management Service (KMS).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando ajuda para monitorar sua conformidade com as regulamentações e políticas internas. Qual dos seguintes serviços da AWS pode ajudar a avaliar a conformidade com padrões de segurança?",
+    "opcoes": [
+      {
+        "texto": "AWS Config.",
+        "explicacao": "Sim, o AWS Config ajuda a monitorar a conformidade dos recursos da AWS em relação às regras e padrões definidos."
+      },
+      {
+        "texto": "Amazon GuardDuty.",
+        "explicacao": "Não, o GuardDuty é um serviço de detecção de ameaças e não foca na conformidade."
+      },
+      {
+        "texto": "AWS Shield.",
+        "explicacao": "Não, o AWS Shield protege contra ataques DDoS, mas não avalia conformidade."
+      },
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Não, o Amazon Inspector verifica vulnerabilidades de segurança, mas não monitora a conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Config.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece uma visão unificada da segurança, governança e conformidade dos recursos da AWS em toda a sua conta?",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Sim, o AWS Security Hub agrega dados de segurança e fornece uma visão unificada da postura de segurança."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail fornece logs de atividades, mas não oferece uma visão unificada da segurança."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda é um serviço de computação e não está relacionado diretamente à governança."
+      },
+      {
+        "texto": "Amazon CloudWatch.",
+        "explicacao": "Não, o CloudWatch monitora métricas e logs, mas não foca especificamente na governança."
+      }
+    ],
+    "respostaCorreta": "AWS Security Hub.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma organização deseja garantir que as práticas de segurança e conformidade sejam seguidas durante a execução de suas cargas de trabalho na AWS. Qual serviço ajuda a automatizar a implementação de controles de segurança?",
+    "opcoes": [
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Sim, o AWS CloudFormation permite automatizar o provisionamento de recursos e aplicar controles de segurança durante a implementação."
+      },
+      {
+        "texto": "AWS CodeDeploy.",
+        "explicacao": "Não, o CodeDeploy é um serviço de implantação, não de automação de segurança."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Não, o Amazon RDS é um serviço de banco de dados, não um serviço de automação de segurança."
+      },
+      {
+        "texto": "AWS IAM.",
+        "explicacao": "Não, o IAM gerencia permissões de acesso, mas não automatiza a implementação de controles."
+      }
+    ],
+    "respostaCorreta": "AWS CloudFormation.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece informações sobre como os recursos da AWS estão sendo utilizados e ajuda a identificar áreas para otimização e conformidade?",
+    "opcoes": [
+      {
+        "texto": "AWS Cost Explorer.",
+        "explicacao": "Não, o Cost Explorer é voltado para análise de custos, não para conformidade de recursos."
+      },
+      {
+        "texto": "AWS Budgets.",
+        "explicacao": "Não, o AWS Budgets ajuda a gerenciar custos, mas não fornece informações sobre conformidade."
+      },
+      {
+        "texto": "AWS Trusted Advisor.",
+        "explicacao": "Sim, o AWS Trusted Advisor fornece recomendações sobre segurança, desempenho, e também conformidade."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail registra atividades de API, mas não analisa a conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Trusted Advisor.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja monitorar a segurança e a conformidade de suas instâncias do EC2. Qual serviço da AWS pode ser usado para automatizar a verificação de vulnerabilidades?",
+    "opcoes": [
+      {
+        "texto": "Amazon Inspector.",
+        "explicacao": "Sim, o Amazon Inspector automatiza a verificação de vulnerabilidades em instâncias EC2 e fornece relatórios sobre conformidade."
+      },
+      {
+        "texto": "AWS Config.",
+        "explicacao": "Não, o AWS Config monitora conformidade de configuração, mas não verifica vulnerabilidades diretamente."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail fornece logs de atividades, não faz verificação de vulnerabilidades."
+      },
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Não, o Security Hub agrega dados de segurança, mas não verifica vulnerabilidades por si só."
+      }
+    ],
+    "respostaCorreta": "Amazon Inspector.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece um repositório para documentos de conformidade e relatórios de auditoria para clientes?",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact.",
+        "explicacao": "Sim, o AWS Artifact fornece acesso a documentos de conformidade e relatórios de auditoria."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail registra atividades de API, mas não fornece documentos de conformidade."
+      },
+      {
+        "texto": "AWS Config.",
+        "explicacao": "Não, o AWS Config monitora conformidade de configuração, mas não fornece um repositório para documentos."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é uma ferramenta de provisionamento, não um repositório de conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Artifact.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para gerenciar políticas de acesso e permissões de forma centralizada, ajudando a garantir a conformidade de acesso?",
+    "opcoes": [
+      {
+        "texto": "AWS Identity and Access Management (IAM).",
+        "explicacao": "Sim, o IAM é o serviço da AWS para gerenciar políticas de acesso e permissões, auxiliando na conformidade."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail fornece logs de atividades, mas não gerencia permissões."
+      },
+      {
+        "texto": "AWS Config.",
+        "explicacao": "Não, o AWS Config monitora conformidade, mas não gerencia permissões diretamente."
+      },
+      {
+        "texto": "AWS Budgets.",
+        "explicacao": "Não, o AWS Budgets é usado para gerenciamento de custos, não para permissões."
+      }
+    ],
+    "respostaCorreta": "AWS Identity and Access Management (IAM).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma organização quer garantir que seus recursos estejam sempre em conformidade com suas políticas. Qual serviço permite definir e aplicar regras de conformidade automaticamente?",
+    "opcoes": [
+      {
+        "texto": "AWS Config Rules.",
+        "explicacao": "Sim, o AWS Config permite definir regras que automaticamente verificam a conformidade dos recursos."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é uma ferramenta de provisionamento, não de verificação de conformidade."
+      },
+      {
+        "texto": "AWS Trusted Advisor.",
+        "explicacao": "Não, o Trusted Advisor fornece recomendações, mas não aplica regras automaticamente."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda é um serviço de computação e não foca na conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Config Rules.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a proteger aplicações contra ameaças e fornece relatórios de segurança e conformidade?",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub.",
+        "explicacao": "Sim, o AWS Security Hub agrega dados de segurança de vários serviços e fornece relatórios de conformidade."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 é um serviço de armazenamento e não foca na segurança ou conformidade."
+      },
+      {
+        "texto": "AWS CodePipeline.",
+        "explicacao": "Não, o CodePipeline é um serviço de entrega contínua e não lida com segurança."
+      },
+      {
+        "texto": "AWS Systems Manager.",
+        "explicacao": "Não, o Systems Manager ajuda a gerenciar recursos, mas não é específico para segurança."
+      }
+    ],
+    "respostaCorreta": "AWS Security Hub.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ser usado para automatizar auditorias de conformidade e gerar relatórios sobre a conformidade dos recursos da AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Config.",
+        "explicacao": "Sim, o AWS Config pode automatizar auditorias de conformidade e fornecer relatórios detalhados."
+      },
+      {
+        "texto": "Amazon CloudWatch.",
+        "explicacao": "Não, o CloudWatch é usado para monitoramento, não para auditoria de conformidade."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda é um serviço de computação e não realiza auditorias."
+      },
+      {
+        "texto": "AWS Budgets.",
+        "explicacao": "Não, o AWS Budgets é voltado para gerenciamento de custos, não para auditorias de conformidade."
+      }
+    ],
+    "respostaCorreta": "AWS Config.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está tentando entender os diferentes requisitos de conformidade para os serviços da AWS. Qual dos seguintes serviços possui requisitos de conformidade específicos relacionados ao armazenamento de dados sensíveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Sim, o Amazon S3 tem requisitos de conformidade específicos para armazenamento de dados, especialmente para dados sensíveis."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda não lida com armazenamento de dados diretamente, então não possui requisitos de conformidade específicos para isso."
+      },
+      {
+        "texto": "Amazon EC2.",
+        "explicacao": "Não, embora o Amazon EC2 tenha responsabilidades de conformidade, não se especializa em requisitos de armazenamento de dados."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Não, o Amazon RDS também possui requisitos de conformidade, mas é mais focado em bancos de dados do que em armazenamento de dados sensíveis."
+      }
+    ],
+    "respostaCorreta": "Amazon S3.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao implementar uma solução de machine learning usando o Amazon SageMaker, quais requisitos de conformidade a empresa deve considerar que podem ser diferentes em comparação com outros serviços?",
+    "opcoes": [
+      {
+        "texto": "Requisitos de proteção de dados e privacidade.",
+        "explicacao": "Sim, o Amazon SageMaker lida com dados que podem incluir informações pessoais, exigindo conformidade específica."
+      },
+      {
+        "texto": "Requisitos de armazenamento de arquivos.",
+        "explicacao": "Não, o SageMaker não é um serviço de armazenamento de arquivos."
+      },
+      {
+        "texto": "Requisitos de rede.",
+        "explicacao": "Não, enquanto o SageMaker usa rede, os requisitos de rede são geralmente consistentes entre os serviços."
+      },
+      {
+        "texto": "Requisitos de escalabilidade.",
+        "explicacao": "Não, todos os serviços da AWS têm requisitos de escalabilidade semelhantes."
+      }
+    ],
+    "respostaCorreta": "Requisitos de proteção de dados e privacidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma organização está considerando o uso do Amazon Redshift para análise de dados. Quais requisitos de conformidade específicos devem ser considerados em relação ao armazenamento e processamento de dados?",
+    "opcoes": [
+      {
+        "texto": "Requisitos de conformidade relacionados a dados financeiros.",
+        "explicacao": "Sim, se a organização estiver processando dados financeiros, deve atender aos requisitos de conformidade apropriados."
+      },
+      {
+        "texto": "Requisitos de escalabilidade.",
+        "explicacao": "Não, os requisitos de escalabilidade não variam entre os serviços com base no tipo de dados."
+      },
+      {
+        "texto": "Requisitos de rede.",
+        "explicacao": "Não, os requisitos de rede são geralmente padronizados entre os serviços da AWS."
+      },
+      {
+        "texto": "Requisitos de backup.",
+        "explicacao": "Não, embora o backup seja importante, não é um requisito de conformidade específico."
+      }
+    ],
+    "respostaCorreta": "Requisitos de conformidade relacionados a dados financeiros.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa utiliza o Amazon RDS para gerenciar seus bancos de dados. Quais são os requisitos de conformidade que devem ser considerados ao usar este serviço?",
+    "opcoes": [
+      {
+        "texto": "Requisitos de proteção de dados e confidencialidade.",
+        "explicacao": "Sim, o Amazon RDS exige que as empresas sigam requisitos de proteção de dados e confidencialidade."
+      },
+      {
+        "texto": "Requisitos de configuração do servidor.",
+        "explicacao": "Não, os requisitos de configuração são gerenciados pelo AWS e não variam por conformidade."
+      },
+      {
+        "texto": "Requisitos de escalabilidade.",
+        "explicacao": "Não, a escalabilidade não é um requisito de conformidade específico do RDS."
+      },
+      {
+        "texto": "Requisitos de disponibilidade.",
+        "explicacao": "Não, todos os serviços têm requisitos de disponibilidade semelhantes."
+      }
+    ],
+    "respostaCorreta": "Requisitos de proteção de dados e confidencialidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa precisa garantir que está em conformidade com regulamentações de saúde ao usar serviços da AWS. Qual serviço requer considerações específicas sobre conformidade para lidar com informações de saúde?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Sim, o Amazon S3 deve atender aos requisitos de conformidade específicos para armazenar dados de saúde."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda não é especificamente relacionado à conformidade de saúde."
+      },
+      {
+        "texto": "Amazon DynamoDB.",
+        "explicacao": "Não, embora o DynamoDB possa armazenar dados, não lida exclusivamente com requisitos de saúde."
+      },
+      {
+        "texto": "Amazon EC2.",
+        "explicacao": "Não, o Amazon EC2 deve considerar segurança, mas não é exclusivo para dados de saúde."
+      }
+    ],
+    "respostaCorreta": "Amazon S3.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços AWS pode ter requisitos de conformidade que variam se forem usados para armazenar dados pessoais de acordo com a GDPR?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Sim, o Amazon S3 deve atender aos requisitos da GDPR para armazenamento de dados pessoais."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda não armazena dados, portanto não tem requisitos de conformidade de armazenamento."
+      },
+      {
+        "texto": "Amazon CloudFront.",
+        "explicacao": "Não, o CloudFront é uma rede de entrega de conteúdo e não armazena dados diretamente."
+      },
+      {
+        "texto": "AWS Glue.",
+        "explicacao": "Não, embora o Glue processe dados, não possui requisitos de conformidade específicos."
+      }
+    ],
+    "respostaCorreta": "Amazon S3.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao utilizar o Amazon EKS para implementar aplicações em contêineres, quais requisitos de conformidade podem diferir de outros serviços da AWS?",
+    "opcoes": [
+      {
+        "texto": "Requisitos de segurança para contêineres.",
+        "explicacao": "Sim, o Amazon EKS possui requisitos específicos de segurança e conformidade para contêineres."
+      },
+      {
+        "texto": "Requisitos de custo.",
+        "explicacao": "Não, os requisitos de custo são consistentes em todos os serviços da AWS."
+      },
+      {
+        "texto": "Requisitos de escalabilidade.",
+        "explicacao": "Não, a escalabilidade é uma consideração comum entre todos os serviços da AWS."
+      },
+      {
+        "texto": "Requisitos de rede.",
+        "explicacao": "Não, os requisitos de rede não variam especificamente com base no uso de contêineres."
+      }
+    ],
+    "respostaCorreta": "Requisitos de segurança para contêineres.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS requer consideração especial em relação a requisitos de conformidade quando usado para serviços financeiros?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Sim, o Amazon RDS deve estar em conformidade com regulamentações específicas ao lidar com dados financeiros."
+      },
+      {
+        "texto": "Amazon EC2.",
+        "explicacao": "Não, embora o EC2 precise de conformidade, os requisitos são mais gerais."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o Lambda também tem requisitos de conformidade, mas não é específico para finanças."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 pode ter requisitos, mas não é exclusivamente financeiro."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está considerando o uso do AWS IAM para gerenciar identidades e permissões. Que tipo de requisito de conformidade deve ser considerado?",
+    "opcoes": [
+      {
+        "texto": "Requisitos de auditoria e rastreamento de acessos.",
+        "explicacao": "Sim, o AWS IAM deve atender a requisitos específicos de auditoria e rastreamento."
+      },
+      {
+        "texto": "Requisitos de armazenamento de dados.",
+        "explicacao": "Não, o IAM não armazena dados, portanto não possui requisitos de conformidade de armazenamento."
+      },
+      {
+        "texto": "Requisitos de backup.",
+        "explicacao": "Não, o IAM não lida com requisitos de backup."
+      },
+      {
+        "texto": "Requisitos de escalabilidade.",
+        "explicacao": "Não, a escalabilidade não é uma preocupação de conformidade."
+      }
+    ],
+    "respostaCorreta": "Requisitos de auditoria e rastreamento de acessos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS deve ser avaliado em relação a requisitos de conformidade para proteger informações pessoais em conformidade com a CCPA?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Sim, o Amazon RDS precisa atender aos requisitos da CCPA ao lidar com dados pessoais."
+      },
+      {
+        "texto": "AWS Glue.",
+        "explicacao": "Não, embora o Glue processe dados, não possui requisitos de conformidade específicos para informações pessoais."
+      },
+      {
+        "texto": "Amazon CloudWatch.",
+        "explicacao": "Não, o CloudWatch é um serviço de monitoramento e não lida diretamente com dados pessoais."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o AWS Lambda não é específico para conformidade de dados pessoais."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está buscando implementar controles de acesso em sua infraestrutura na AWS. Qual das seguintes opções é uma prática recomendada para gerenciar usuários no AWS IAM?",
+    "opcoes": [
+      {
+        "texto": "Criar um usuário IAM para cada funcionário com permissões específicas.",
+        "explicacao": "Sim, essa é uma prática recomendada para garantir que os usuários tenham acesso limitado ao que precisam."
+      },
+      {
+        "texto": "Usar a conta root para todas as operações.",
+        "explicacao": "Não, usar a conta root para operações diárias não é recomendado devido a riscos de segurança."
+      },
+      {
+        "texto": "Compartilhar credenciais de acesso entre usuários.",
+        "explicacao": "Não, isso não é seguro e pode comprometer a segurança da sua conta."
+      },
+      {
+        "texto": "Desativar a autenticação multifator (MFA).",
+        "explicacao": "Não, a MFA deve ser habilitada para aumentar a segurança das contas."
+      }
+    ],
+    "respostaCorreta": "Criar um usuário IAM para cada funcionário com permissões específicas.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do AWS IAM permite que você controle o acesso a recursos específicos com base em condições como IP ou horário?",
+    "opcoes": [
+      {
+        "texto": "Políticas baseadas em identidade.",
+        "explicacao": "Não, as políticas baseadas em identidade não oferecem controle de acesso condicional."
+      },
+      {
+        "texto": "Políticas de controle de acesso (ACLs).",
+        "explicacao": "Não, as ACLs não são uma função do IAM, mas de outros serviços como S3."
+      },
+      {
+        "texto": "Políticas de condição.",
+        "explicacao": "Sim, as políticas de condição no IAM permitem definir condições para o acesso."
+      },
+      {
+        "texto": "Grupos IAM.",
+        "explicacao": "Não, grupos IAM servem para gerenciar permissões de vários usuários, mas não têm condições."
+      }
+    ],
+    "respostaCorreta": "Políticas de condição.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma organização deseja garantir que todos os usuários em sua conta AWS usem autenticação multifator (MFA). Qual é a melhor maneira de impor essa política?",
+    "opcoes": [
+      {
+        "texto": "Criar uma política IAM que exige MFA para operações sensíveis.",
+        "explicacao": "Sim, isso garante que o MFA seja necessário para todas as operações sensíveis."
+      },
+      {
+        "texto": "Desativar a MFA para a conta root.",
+        "explicacao": "Não, isso aumenta o risco de segurança."
+      },
+      {
+        "texto": "Permitir que os usuários escolham se desejam habilitar a MFA.",
+        "explicacao": "Não, a MFA deve ser uma exigência, não uma escolha."
+      },
+      {
+        "texto": "Criar um grupo IAM sem MFA.",
+        "explicacao": "Não, isso não é seguro e não atende à política de segurança."
+      }
+    ],
+    "respostaCorreta": "Criar uma política IAM que exige MFA para operações sensíveis.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do AWS Identity and Access Management (IAM)?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a autenticação de aplicativos de terceiros.",
+        "explicacao": "Não, o IAM não gerencia autenticação de aplicativos de terceiros."
+      },
+      {
+        "texto": "Controlar o acesso aos recursos da AWS.",
+        "explicacao": "Sim, esse é o principal objetivo do IAM."
+      },
+      {
+        "texto": "Monitorar o uso da rede.",
+        "explicacao": "Não, o IAM não é responsável pelo monitoramento da rede."
+      },
+      {
+        "texto": "Armazenar dados de configuração.",
+        "explicacao": "Não, o IAM não armazena dados; ele gerencia identidades e acessos."
+      }
+    ],
+    "respostaCorreta": "Controlar o acesso aos recursos da AWS.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a melhor prática ao atribuir permissões a um usuário no AWS IAM?",
+    "opcoes": [
+      {
+        "texto": "Conceder permissões de administrador por padrão.",
+        "explicacao": "Não, isso representa um risco de segurança desnecessário."
+      },
+      {
+        "texto": "Conceder o mínimo de permissões necessárias para realizar tarefas.",
+        "explicacao": "Sim, essa é uma prática recomendada conhecida como princípio do menor privilégio."
+      },
+      {
+        "texto": "Criar um único usuário para todos os funcionários.",
+        "explicacao": "Não, cada funcionário deve ter seu próprio usuário."
+      },
+      {
+        "texto": "Usar a conta root para todos os acessos.",
+        "explicacao": "Não, a conta root deve ser usada com cautela e não para acessos diários."
+      }
+    ],
+    "respostaCorreta": "Conceder o mínimo de permissões necessárias para realizar tarefas.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como você pode monitorar as ações realizadas por usuários e serviços no AWS IAM?",
+    "opcoes": [
+      {
+        "texto": "Utilizando AWS CloudTrail.",
+        "explicacao": "Sim, o AWS CloudTrail registra todas as ações realizadas na conta, incluindo ações do IAM."
+      },
+      {
+        "texto": "Configurando uma política IAM para cada usuário.",
+        "explicacao": "Não, as políticas IAM não monitoram ações, mas definem permissões."
+      },
+      {
+        "texto": "Verificando os logs do Amazon S3.",
+        "explicacao": "Não, os logs do S3 não registram ações do IAM."
+      },
+      {
+        "texto": "Utilizando AWS Config apenas.",
+        "explicacao": "Não, o AWS Config é usado para monitorar a conformidade de recursos, não ações específicas do IAM."
+      }
+    ],
+    "respostaCorreta": "Utilizando AWS CloudTrail.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função dos grupos no AWS IAM?",
+    "opcoes": [
+      {
+        "texto": "Permitir que usuários compartilhem credenciais.",
+        "explicacao": "Não, grupos não compartilham credenciais entre usuários."
+      },
+      {
+        "texto": "Facilitar a atribuição de permissões a vários usuários de uma só vez.",
+        "explicacao": "Sim, grupos IAM permitem gerenciar permissões de forma centralizada para vários usuários."
+      },
+      {
+        "texto": "Criar usuários automaticamente.",
+        "explicacao": "Não, grupos não têm a função de criar usuários."
+      },
+      {
+        "texto": "Monitorar atividades dos usuários.",
+        "explicacao": "Não, grupos não monitoram atividades, mas organizam usuários."
+      }
+    ],
+    "respostaCorreta": "Facilitar a atribuição de permissões a vários usuários de uma só vez.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um exemplo de um tipo de política que pode ser usada no AWS IAM?",
+    "opcoes": [
+      {
+        "texto": "Política de segurança.",
+        "explicacao": "Não, políticas de segurança não são um tipo específico de política no IAM."
+      },
+      {
+        "texto": "Política de controle de acesso baseada em identidade.",
+        "explicacao": "Sim, políticas de controle de acesso baseadas em identidade são usadas para definir permissões."
+      },
+      {
+        "texto": "Política de monitoração.",
+        "explicacao": "Não, não existe um tipo de política chamada política de monitoração no IAM."
+      },
+      {
+        "texto": "Política de dados.",
+        "explicacao": "Não, esse não é um termo utilizado para descrever políticas no IAM."
+      }
+    ],
+    "respostaCorreta": "Política de controle de acesso baseada em identidade.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao criar uma política IAM, qual das seguintes práticas recomendadas deve ser considerada?",
+    "opcoes": [
+      {
+        "texto": "Usar permissões amplas para facilitar o acesso.",
+        "explicacao": "Não, permissões amplas aumentam o risco de segurança."
+      },
+      {
+        "texto": "Definir permissões específicas com base nas necessidades do trabalho.",
+        "explicacao": "Sim, essa prática é conhecida como o princípio do menor privilégio."
+      },
+      {
+        "texto": "Criar uma política única para todos os serviços da AWS.",
+        "explicacao": "Não, é melhor criar políticas específicas para diferentes serviços conforme necessário."
+      },
+      {
+        "texto": "Desconsiderar a auditoria das políticas existentes.",
+        "explicacao": "Não, é importante revisar regularmente as políticas para garantir a conformidade e segurança."
+      }
+    ],
+    "respostaCorreta": "Definir permissões específicas com base nas necessidades do trabalho.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que você deve fazer para garantir que um usuário do IAM tenha acesso somente aos recursos necessários?",
+    "opcoes": [
+      {
+        "texto": "Conceder permissões de administrador.",
+        "explicacao": "Não, isso não é seguro e vai contra o princípio do menor privilégio."
+      },
+      {
+        "texto": "Usar o princípio do menor privilégio.",
+        "explicacao": "Sim, conceder apenas as permissões necessárias é a melhor prática."
+      },
+      {
+        "texto": "Desativar o MFA para o usuário.",
+        "explicacao": "Não, o MFA deve ser habilitado para aumentar a segurança."
+      },
+      {
+        "texto": "Criar um grupo com permissões amplas.",
+        "explicacao": "Não, grupos devem ter permissões bem definidas para evitar acessos desnecessários."
+      }
+    ],
+    "respostaCorreta": "Usar o princípio do menor privilégio.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
   }
 ]
