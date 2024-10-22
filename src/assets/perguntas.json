@@ -13437,5 +13437,485 @@
     "respostaCorreta": "Usar o princípio do menor privilégio.",
     "dominio": "Segurança e conformidade",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja armazenar e gerenciar credenciais de acesso a bancos de dados de forma segura. Qual serviço da AWS deve ser utilizado para isso?",
+    "opcoes": [
+      {
+        "texto": "AWS Systems Manager.",
+        "explicacao": "Não, o Systems Manager não é focado em gerenciamento de segredos, mas sim em automação e configuração."
+      },
+      {
+        "texto": "AWS Secrets Manager.",
+        "explicacao": "Sim, o Secrets Manager é projetado especificamente para armazenar e gerenciar segredos de forma segura."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 é um serviço de armazenamento de objetos e não é seguro para gerenciar credenciais."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o Lambda é um serviço de computação serverless e não gerencia segredos."
+      }
+    ],
+    "respostaCorreta": "AWS Secrets Manager.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do AWS Secrets Manager permite a rotação automática de segredos?",
+    "opcoes": [
+      {
+        "texto": "Automação de tarefas.",
+        "explicacao": "Não, a automação de tarefas não está diretamente relacionada à rotação de segredos."
+      },
+      {
+        "texto": "Gerenciamento de identidade.",
+        "explicacao": "Não, gerenciamento de identidade não envolve a rotação de segredos."
+      },
+      {
+        "texto": "Políticas de rotação de segredos.",
+        "explicacao": "Sim, o Secrets Manager permite configurar políticas de rotação para os segredos."
+      },
+      {
+        "texto": "Execução de comandos remotos.",
+        "explicacao": "Não, isso não está relacionado à rotação de segredos."
+      }
+    ],
+    "respostaCorreta": "Políticas de rotação de segredos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais funcionalidades do AWS Systems Manager?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar segredos de maneira segura.",
+        "explicacao": "Não, isso é função do AWS Secrets Manager."
+      },
+      {
+        "texto": "Automatizar tarefas de gerenciamento de recursos.",
+        "explicacao": "Sim, o Systems Manager é projetado para automatizar o gerenciamento de recursos na AWS."
+      },
+      {
+        "texto": "Armazenar arquivos estáticos.",
+        "explicacao": "Não, o Systems Manager não é utilizado para armazenar arquivos estáticos."
+      },
+      {
+        "texto": "Criar instâncias EC2.",
+        "explicacao": "Não, embora você possa gerenciar instâncias EC2, o Systems Manager não é usado para criar instâncias."
+      }
+    ],
+    "respostaCorreta": "Automatizar tarefas de gerenciamento de recursos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao usar o AWS Secrets Manager, como você pode acessar um segredo em uma função Lambda?",
+    "opcoes": [
+      {
+        "texto": "Por meio de uma política IAM.",
+        "explicacao": "Sim, você deve configurar uma política IAM que permita à função Lambda acessar o segredo."
+      },
+      {
+        "texto": "Por meio de um arquivo de configuração local.",
+        "explicacao": "Não, isso não é seguro nem recomendado."
+      },
+      {
+        "texto": "Usando uma chave de criptografia externa.",
+        "explicacao": "Não, o Secrets Manager gerencia a criptografia internamente."
+      },
+      {
+        "texto": "Acessando diretamente a interface da AWS Management Console.",
+        "explicacao": "Não, você deve acessar programaticamente por meio da API ou SDK."
+      }
+    ],
+    "respostaCorreta": "Por meio de uma política IAM.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre o AWS Systems Manager é verdadeira?",
+    "opcoes": [
+      {
+        "texto": "O Systems Manager armazena segredos de forma automática.",
+        "explicacao": "Não, isso é função do AWS Secrets Manager."
+      },
+      {
+        "texto": "O Systems Manager pode executar scripts em várias instâncias ao mesmo tempo.",
+        "explicacao": "Sim, isso é uma das funcionalidades principais do Systems Manager."
+      },
+      {
+        "texto": "O Systems Manager é apenas um serviço de monitoramento.",
+        "explicacao": "Não, ele oferece funcionalidades além do monitoramento, incluindo automação e gerenciamento."
+      },
+      {
+        "texto": "O Systems Manager não possui integração com outros serviços da AWS.",
+        "explicacao": "Não, o Systems Manager se integra com muitos serviços da AWS."
+      }
+    ],
+    "respostaCorreta": "O Systems Manager pode executar scripts em várias instâncias ao mesmo tempo.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a finalidade do AWS Secrets Manager?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar acesso a recursos de computação.",
+        "explicacao": "Não, isso é função do AWS IAM."
+      },
+      {
+        "texto": "Armazenar e gerenciar segredos como credenciais e chaves de API.",
+        "explicacao": "Sim, essa é a principal finalidade do Secrets Manager."
+      },
+      {
+        "texto": "Monitorar a saúde de instâncias EC2.",
+        "explicacao": "Não, isso é feito por outros serviços, como o Amazon CloudWatch."
+      },
+      {
+        "texto": "Fornecer suporte técnico para aplicativos.",
+        "explicacao": "Não, o Secrets Manager não fornece suporte técnico."
+      }
+    ],
+    "respostaCorreta": "Armazenar e gerenciar segredos como credenciais e chaves de API.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Systems Manager ajuda a melhorar a segurança na AWS?",
+    "opcoes": [
+      {
+        "texto": "Ao criptografar todos os dados armazenados na AWS.",
+        "explicacao": "Não, isso não é uma função específica do Systems Manager."
+      },
+      {
+        "texto": "Ao permitir a automação de tarefas de segurança e compliance.",
+        "explicacao": "Sim, o Systems Manager automatiza tarefas que podem melhorar a segurança e a conformidade."
+      },
+      {
+        "texto": "Ao gerenciar apenas usuários e grupos.",
+        "explicacao": "Não, isso é função do IAM, não do Systems Manager."
+      },
+      {
+        "texto": "Ao substituir a necessidade de autenticação.",
+        "explicacao": "Não, a autenticação ainda é necessária para todos os serviços."
+      }
+    ],
+    "respostaCorreta": "Ao permitir a automação de tarefas de segurança e compliance.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ser integrado com o AWS Secrets Manager para recuperar segredos?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB.",
+        "explicacao": "Não, o DynamoDB não se integra diretamente para recuperação de segredos."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Sim, a AWS Lambda pode ser configurada para recuperar segredos armazenados no Secrets Manager."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 não é usado para acessar segredos diretamente."
+      },
+      {
+        "texto": "Amazon RDS.",
+        "explicacao": "Não, o RDS é um serviço de banco de dados, não um serviço para recuperar segredos."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre o AWS Secrets Manager e o AWS Systems Manager Parameter Store?",
+    "opcoes": [
+      {
+        "texto": "O Secrets Manager oferece rotação automática de segredos, enquanto o Parameter Store não.",
+        "explicacao": "Sim, essa é uma das principais diferenças entre os dois serviços."
+      },
+      {
+        "texto": "O Parameter Store é pago e o Secrets Manager é gratuito.",
+        "explicacao": "Não, ambos têm custos associados."
+      },
+      {
+        "texto": "O Secrets Manager é apenas para dados não confidenciais.",
+        "explicacao": "Não, o Secrets Manager é projetado para dados confidenciais."
+      },
+      {
+        "texto": "O Parameter Store não suporta criptografia.",
+        "explicacao": "Não, o Parameter Store suporta criptografia."
+      }
+    ],
+    "respostaCorreta": "O Secrets Manager oferece rotação automática de segredos, enquanto o Parameter Store não.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao usar o AWS Secrets Manager, qual é uma prática recomendada para a segurança dos segredos?",
+    "opcoes": [
+      {
+        "texto": "Armazenar segredos em texto simples.",
+        "explicacao": "Não, segredos devem sempre ser armazenados de forma segura."
+      },
+      {
+        "texto": "Configurar a rotação automática de segredos.",
+        "explicacao": "Sim, a rotação automática é uma prática recomendada para manter a segurança."
+      },
+      {
+        "texto": "Compartilhar segredos com todos os usuários da conta.",
+        "explicacao": "Não, isso não é seguro e deve ser evitado."
+      },
+      {
+        "texto": "Não revisar regularmente as permissões de acesso.",
+        "explicacao": "Não, é importante revisar as permissões de acesso regularmente."
+      }
+    ],
+    "respostaCorreta": "Configurar a rotação automática de segredos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja implementar autenticação com multifator (MFA) para melhorar a segurança do acesso aos recursos da AWS. Qual das seguintes opções é uma prática recomendada para habilitar MFA?",
+    "opcoes": [
+      {
+        "texto": "Usar apenas senhas complexas.",
+        "explicacao": "Não, senhas complexas sozinhas não são suficientes para segurança adicional."
+      },
+      {
+        "texto": "Ativar MFA para todos os usuários do IAM.",
+        "explicacao": "Sim, ativar MFA para todos os usuários aumenta significativamente a segurança."
+      },
+      {
+        "texto": "Permitir MFA apenas para usuários administrativos.",
+        "explicacao": "Não, todos os usuários devem ter MFA ativado para maior segurança."
+      },
+      {
+        "texto": "Desativar MFA para usuários de acesso temporário.",
+        "explicacao": "Não, mesmo os acessos temporários devem ter MFA quando possível."
+      }
+    ],
+    "respostaCorreta": "Ativar MFA para todos os usuários do IAM.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite a configuração de autenticação com multifator (MFA) e gerenciamento centralizado de usuários em várias contas?",
+    "opcoes": [
+      {
+        "texto": "AWS IAM.",
+        "explicacao": "Não, o IAM é para gerenciamento de identidade, mas não é centralizado para várias contas."
+      },
+      {
+        "texto": "AWS Organizations.",
+        "explicacao": "Sim, o AWS Organizations permite gerenciamento de contas e pode usar IAM Identity Center."
+      },
+      {
+        "texto": "Amazon Cognito.",
+        "explicacao": "Não, o Cognito é voltado para autenticação de usuários em aplicativos."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é um serviço de provisionamento de recursos, não de gerenciamento de identidade."
+      }
+    ],
+    "respostaCorreta": "AWS Organizations.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o IAM Identity Center ajuda na gestão de autenticação em ambientes com várias contas AWS?",
+    "opcoes": [
+      {
+        "texto": "Permite autenticação única (SSO) para acesso centralizado.",
+        "explicacao": "Sim, o IAM Identity Center fornece SSO, facilitando o acesso em várias contas."
+      },
+      {
+        "texto": "Gerencia apenas as políticas de IAM.",
+        "explicacao": "Não, o IAM Identity Center é focado em autenticação, não apenas em políticas."
+      },
+      {
+        "texto": "Desativa a autenticação multifator (MFA).",
+        "explicacao": "Não, o IAM Identity Center suporta e recomenda o uso de MFA."
+      },
+      {
+        "texto": "Oferece apenas autenticação baseada em senha.",
+        "explicacao": "Não, o IAM Identity Center oferece opções de MFA além das senhas."
+      }
+    ],
+    "respostaCorreta": "Permite autenticação única (SSO) para acesso centralizado.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre a autenticação com multifator (MFA) é verdadeira?",
+    "opcoes": [
+      {
+        "texto": "MFA é opcional e não deve ser utilizado.",
+        "explicacao": "Não, MFA é uma prática recomendada e deve ser utilizado sempre que possível."
+      },
+      {
+        "texto": "MFA adiciona uma camada extra de segurança além da senha.",
+        "explicacao": "Sim, MFA requer um segundo fator de autenticação, aumentando a segurança."
+      },
+      {
+        "texto": "MFA é apenas para usuários administrativos.",
+        "explicacao": "Não, todos os usuários devem usar MFA."
+      },
+      {
+        "texto": "MFA não pode ser usado com IAM Identity Center.",
+        "explicacao": "Não, MFA pode ser integrado ao IAM Identity Center."
+      }
+    ],
+    "respostaCorreta": "MFA adiciona uma camada extra de segurança além da senha.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito principal de utilizar perfis do IAM entre contas AWS?",
+    "opcoes": [
+      {
+        "texto": "Facilitar o gerenciamento de usuários em uma única conta.",
+        "explicacao": "Não, perfis do IAM são usados para gerenciar acesso entre contas diferentes."
+      },
+      {
+        "texto": "Permitir acesso controlado a recursos em diferentes contas.",
+        "explicacao": "Sim, perfis do IAM permitem o acesso a recursos em várias contas de forma segura."
+      },
+      {
+        "texto": "Desativar políticas de acesso entre contas.",
+        "explicacao": "Não, o objetivo é facilitar o acesso, não desativá-lo."
+      },
+      {
+        "texto": "Criar políticas de segurança mais fracas.",
+        "explicacao": "Não, o objetivo é garantir políticas de segurança mais robustas."
+      }
+    ],
+    "respostaCorreta": "Permitir acesso controlado a recursos em diferentes contas.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as organizações podem gerenciar o acesso dos usuários a várias contas AWS de forma eficaz?",
+    "opcoes": [
+      {
+        "texto": "Usar IAM apenas em uma única conta.",
+        "explicacao": "Não, isso não é eficaz para gerenciamento em várias contas."
+      },
+      {
+        "texto": "Implementar o IAM Identity Center para SSO.",
+        "explicacao": "Sim, isso permite gerenciar o acesso de forma centralizada em várias contas."
+      },
+      {
+        "texto": "Desativar todas as autenticações.",
+        "explicacao": "Não, desativar autenticações compromete a segurança."
+      },
+      {
+        "texto": "Criar contas separadas sem gerenciamento centralizado.",
+        "explicacao": "Não, isso torna o gerenciamento mais difícil e menos seguro."
+      }
+    ],
+    "respostaCorreta": "Implementar o IAM Identity Center para SSO.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais são as implicações de não implementar MFA para usuários da AWS?",
+    "opcoes": [
+      {
+        "texto": "Maior risco de acesso não autorizado.",
+        "explicacao": "Sim, não usar MFA aumenta o risco de acesso não autorizado aos recursos."
+      },
+      {
+        "texto": "Melhora na segurança geral.",
+        "explicacao": "Não, isso não melhora a segurança."
+      },
+      {
+        "texto": "Redução da complexidade de gerenciamento de identidade.",
+        "explicacao": "Não, não usar MFA não reduz a complexidade de gerenciamento."
+      },
+      {
+        "texto": "Eliminação da necessidade de senhas complexas.",
+        "explicacao": "Não, ainda são necessárias senhas complexas."
+      }
+    ],
+    "respostaCorreta": "Maior risco de acesso não autorizado.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece autenticação e gerenciamento de identidades para aplicativos em várias contas?",
+    "opcoes": [
+      {
+        "texto": "AWS IAM.",
+        "explicacao": "Não, o IAM gerencia identidades em uma única conta, não em várias."
+      },
+      {
+        "texto": "AWS SSO (Single Sign-On).",
+        "explicacao": "Sim, o AWS SSO permite autenticação centralizada em várias contas."
+      },
+      {
+        "texto": "AWS CloudFormation.",
+        "explicacao": "Não, o CloudFormation é um serviço de provisionamento."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail é um serviço de auditoria e não de autenticação."
+      }
+    ],
+    "respostaCorreta": "AWS SSO (Single Sign-On).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais são os benefícios de implementar autenticação com multifator (MFA) para usuários IAM?",
+    "opcoes": [
+      {
+        "texto": "Reduz o tempo de login dos usuários.",
+        "explicacao": "Não, o tempo de login pode aumentar devido ao fator adicional de autenticação."
+      },
+      {
+        "texto": "Aumenta a segurança do acesso aos recursos.",
+        "explicacao": "Sim, MFA adiciona uma camada extra de segurança ao acesso."
+      },
+      {
+        "texto": "Elimina a necessidade de senhas.",
+        "explicacao": "Não, as senhas ainda são necessárias."
+      },
+      {
+        "texto": "Impede o acesso a recursos da AWS.",
+        "explicacao": "Não, MFA não impede o acesso, mas aumenta a segurança."
+      }
+    ],
+    "respostaCorreta": "Aumenta a segurança do acesso aos recursos.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso da AWS permite que os administradores configurem as políticas de acesso em grupos de usuários?",
+    "opcoes": [
+      {
+        "texto": "AWS IAM.",
+        "explicacao": "Sim, o AWS IAM permite configurar políticas de acesso em grupos."
+      },
+      {
+        "texto": "AWS CloudTrail.",
+        "explicacao": "Não, o CloudTrail é para auditoria, não para políticas de acesso."
+      },
+      {
+        "texto": "AWS Lambda.",
+        "explicacao": "Não, o Lambda é um serviço de computação, não de gerenciamento de acesso."
+      },
+      {
+        "texto": "Amazon S3.",
+        "explicacao": "Não, o S3 é um serviço de armazenamento, não de gerenciamento de identidades."
+      }
+    ],
+    "respostaCorreta": "AWS IAM.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single"
   }
 ]
