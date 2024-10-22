@@ -16293,5 +16293,1544 @@
     "respostaCorreta": "Contas pagas da AWS.",
     "dominio": "Segurança e conformidade",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes áreas o AWS Trusted Advisor avalia para ajudar a melhorar a segurança da sua conta? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Autenticação multifator (MFA)",
+        "explicacao": "O AWS Trusted Advisor recomenda a ativação do MFA para proteger contas de alto risco."
+      },
+      {
+        "texto": "Redução do tamanho das instâncias EC2",
+        "explicacao": "Reduzir o tamanho das instâncias EC2 pode ajudar a diminuir custos, mas não está diretamente relacionado à segurança."
+      },
+      {
+        "texto": "Segurança de grupos de segurança",
+        "explicacao": "Analisando as regras dos grupos de segurança, o Trusted Advisor pode ajudar a reforçar a segurança das suas instâncias."
+      },
+      {
+        "texto": "Uso de serviços de terceiros",
+        "explicacao": "Embora o uso de serviços de terceiros possa ser analisado, o foco principal do Trusted Advisor está na segurança nativa da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Autenticação multifator (MFA)",
+      "Segurança de grupos de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS Trusted Advisor ajuda na gestão de custos em relação à segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Recomendando a desativação de serviços não utilizados",
+        "explicacao": "Desativar serviços não utilizados pode economizar custos e melhorar a segurança, pois reduz a superfície de ataque."
+      },
+      {
+        "texto": "Oferecendo créditos de serviços",
+        "explicacao": "O Trusted Advisor não oferece créditos; ele fornece recomendações para otimização."
+      },
+      {
+        "texto": "Aconselhando sobre a utilização de instâncias reservadas",
+        "explicacao": "Embora o uso de instâncias reservadas ajude a economizar, não está diretamente relacionado à segurança."
+      },
+      {
+        "texto": "Alertando sobre configurações inseguras",
+        "explicacao": "O Trusted Advisor avisa sobre configurações inseguras que podem resultar em custos desnecessários devido a brechas de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Recomendando a desativação de serviços não utilizados",
+      "Alertando sobre configurações inseguras"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas de segurança o AWS Trusted Advisor recomenda para os usuários da conta raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Ativar autenticação multifator (MFA)",
+        "explicacao": "A ativação do MFA é crucial para proteger a conta raiz contra acessos não autorizados."
+      },
+      {
+        "texto": "Utilizar somente credenciais de acesso temporário",
+        "explicacao": "As credenciais temporárias são recomendadas, mas não se aplicam diretamente à conta raiz."
+      },
+      {
+        "texto": "Criar usuários IAM para atividades do dia a dia",
+        "explicacao": "Usar usuários IAM para operações diárias minimiza o uso da conta raiz e melhora a segurança."
+      },
+      {
+        "texto": "Desativar todas as políticas de IAM",
+        "explicacao": "Desativar políticas de IAM não é recomendado, pois compromete a segurança geral."
+      }
+    ],
+    "respostaCorreta": [
+      "Ativar autenticação multifator (MFA)",
+      "Criar usuários IAM para atividades do dia a dia"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que o AWS Trusted Advisor analisa para ajudar na conformidade de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Uso de certificados SSL para comunicação segura",
+        "explicacao": "O Trusted Advisor pode verificar se as instâncias usam certificados SSL, reforçando a segurança."
+      },
+      {
+        "texto": "Políticas de IAM excessivamente permissivas",
+        "explicacao": "Recomendações sobre políticas de IAM ajudam a garantir que as permissões sejam concedidas de forma restrita."
+      },
+      {
+        "texto": "Configurações de desempenho das instâncias",
+        "explicacao": "As configurações de desempenho são importantes, mas não estão diretamente ligadas à conformidade de segurança."
+      },
+      {
+        "texto": "Uso de zonas de disponibilidade",
+        "explicacao": "Embora o uso de zonas de disponibilidade seja uma prática recomendada, não é um foco primário do Trusted Advisor."
+      }
+    ],
+    "respostaCorreta": [
+      "Uso de certificados SSL para comunicação segura",
+      "Políticas de IAM excessivamente permissivas"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma das principais recomendações do AWS Trusted Advisor para garantir a segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Implementar grupos de segurança restritivos",
+        "explicacao": "Grupos de segurança restritivos ajudam a proteger suas instâncias, limitando o tráfego de rede."
+      },
+      {
+        "texto": "Aumentar o número de instâncias EC2",
+        "explicacao": "Aumentar instâncias não necessariamente melhora a segurança, e pode aumentar custos."
+      },
+      {
+        "texto": "Usar senhas fortes e rotacioná-las regularmente",
+        "explicacao": "Senhas fortes e sua rotação regular são essenciais para a segurança de conta e serviços."
+      },
+      {
+        "texto": "Desabilitar o logging de atividades",
+        "explicacao": "Desabilitar logs compromete a segurança, pois impede auditorias adequadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Implementar grupos de segurança restritivos",
+      "Usar senhas fortes e rotacioná-las regularmente"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ações o AWS Trusted Advisor sugere para mitigar riscos de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Habilitar logs de auditoria",
+        "explicacao": "Logs de auditoria são essenciais para monitorar atividades e identificar possíveis falhas de segurança."
+      },
+      {
+        "texto": "Compartilhar a conta raiz com usuários externos",
+        "explicacao": "Compartilhar a conta raiz é altamente desaconselhável e aumenta o risco de segurança."
+      },
+      {
+        "texto": "Verificar as configurações de IAM",
+        "explicacao": "Verificar as configurações de IAM é crucial para garantir que as permissões estejam corretas e seguras."
+      },
+      {
+        "texto": "Desativar notificações de segurança",
+        "explicacao": "Desativar notificações compromete a capacidade de resposta a incidentes de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar logs de auditoria",
+      "Verificar as configurações de IAM"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais tipos de informações o AWS Trusted Advisor fornece sobre a segurança da sua conta? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Recomendações de segurança",
+        "explicacao": "Recomendações de segurança ajudam a identificar áreas que precisam de atenção."
+      },
+      {
+        "texto": "Relatórios de conformidade de terceiros",
+        "explicacao": "O Trusted Advisor não fornece relatórios de conformidade de terceiros; ele foca nas melhores práticas AWS."
+      },
+      {
+        "texto": "Alertas sobre vulnerabilidades",
+        "explicacao": "O Trusted Advisor alerta sobre configurações inseguras que podem causar vulnerabilidades."
+      },
+      {
+        "texto": "Históricos de cobrança",
+        "explicacao": "O histórico de cobrança não é uma função do Trusted Advisor, que foca em segurança e otimização."
+      }
+    ],
+    "respostaCorreta": [
+      "Recomendações de segurança",
+      "Alertas sobre vulnerabilidades"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS Trusted Advisor ajuda na auditoria de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Oferecendo diretrizes para configuração de segurança",
+        "explicacao": "Diretrizes para configuração ajudam a garantir que os recursos estejam em conformidade com as melhores práticas de segurança."
+      },
+      {
+        "texto": "Fornecendo acesso direto a dados de usuários",
+        "explicacao": "O Trusted Advisor não fornece acesso a dados de usuários; ele se concentra em recomendações de segurança."
+      },
+      {
+        "texto": "Alertando sobre práticas inseguras",
+        "explicacao": "Alertas sobre práticas inseguras são uma parte importante do suporte à auditoria de segurança."
+      },
+      {
+        "texto": "Gerando relatórios automáticos de segurança",
+        "explicacao": "Embora o Trusted Advisor forneça recomendações, ele não gera relatórios automáticos."
+      }
+    ],
+    "respostaCorreta": [
+      "Oferecendo diretrizes para configuração de segurança",
+      "Alertando sobre práticas inseguras"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as limitações do AWS Trusted Advisor em relação à segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Não oferece recomendações personalizadas",
+        "explicacao": "As recomendações do Trusted Advisor são baseadas em práticas recomendadas gerais, não personalizadas."
+      },
+      {
+        "texto": "Não monitora eventos de segurança em tempo real",
+        "explicacao": "O Trusted Advisor não monitora eventos em tempo real; ele fornece análises com base em dados estáticos."
+      },
+      {
+        "texto": "Apenas usuários pagantes têm acesso",
+        "explicacao": "Somente contas pagantes podem acessar todas as funcionalidades do Trusted Advisor."
+      },
+      {
+        "texto": "Fornece acesso ilimitado a dados sensíveis",
+        "explicacao": "O Trusted Advisor não fornece acesso a dados sensíveis; seu foco é em recomendações de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Não oferece recomendações personalizadas",
+      "Não monitora eventos de segurança em tempo real"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o principal propósito do AWS Knowledge Center? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Fornecer documentação detalhada sobre serviços da AWS",
+        "explicacao": "O Knowledge Center oferece documentação, mas seu foco principal são as perguntas frequentes e soluções."
+      },
+      {
+        "texto": "Responder a perguntas frequentes e fornecer soluções",
+        "explicacao": "O Knowledge Center é projetado para responder a perguntas comuns e fornecer soluções para problemas frequentes."
+      },
+      {
+        "texto": "Oferecer treinamentos em tempo real",
+        "explicacao": "O Knowledge Center não oferece treinamentos; ele é uma fonte de informações escritas."
+      },
+      {
+        "texto": "Reunir artigos de segurança e melhores práticas",
+        "explicacao": "Embora contenha informações sobre segurança, seu foco é em perguntas frequentes, não em reunir artigos."
+      }
+    ],
+    "respostaCorreta": [
+      "Responder a perguntas frequentes e fornecer soluções",
+      "Fornecer documentação detalhada sobre serviços da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que o AWS Security Center oferece aos usuários? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Análises de segurança em tempo real",
+        "explicacao": "O AWS Security Center fornece informações sobre a postura de segurança e recomendações, mas não análises em tempo real."
+      },
+      {
+        "texto": "Relatórios sobre conformidade e segurança",
+        "explicacao": "O Security Center fornece relatórios sobre a conformidade e a segurança de recursos na AWS."
+      },
+      {
+        "texto": "Ferramentas de gerenciamento de custos",
+        "explicacao": "O Security Center não fornece ferramentas para gerenciamento de custos; é focado em segurança."
+      },
+      {
+        "texto": "Melhores práticas de segurança e conformidade",
+        "explicacao": "O AWS Security Center oferece recomendações sobre melhores práticas para segurança e conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Relatórios sobre conformidade e segurança",
+      "Melhores práticas de segurança e conformidade"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios do blog de segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Atualizações regulares sobre ameaças e vulnerabilidades",
+        "explicacao": "O blog de segurança fornece atualizações sobre ameaças emergentes e vulnerabilidades."
+      },
+      {
+        "texto": "Acesso a serviços de suporte técnico 24/7",
+        "explicacao": "O blog não oferece suporte técnico; ele fornece informações e atualizações sobre segurança."
+      },
+      {
+        "texto": "Artigos sobre melhores práticas de segurança",
+        "explicacao": "O blog de segurança publica artigos sobre melhores práticas e recomendações para segurança na nuvem."
+      },
+      {
+        "texto": "Formação e certificação em segurança da AWS",
+        "explicacao": "Embora contenha informações, o blog não oferece cursos ou certificações."
+      }
+    ],
+    "respostaCorreta": [
+      "Atualizações regulares sobre ameaças e vulnerabilidades",
+      "Artigos sobre melhores práticas de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS Knowledge Center pode ajudar os profissionais de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Oferecendo informações sobre práticas recomendadas",
+        "explicacao": "O Knowledge Center fornece informações sobre práticas recomendadas para segurança na AWS."
+      },
+      {
+        "texto": "Fornecendo acesso direto a suporte técnico especializado",
+        "explicacao": "O Knowledge Center não fornece suporte técnico; é uma base de conhecimento pública."
+      },
+      {
+        "texto": "Resolvendo dúvidas comuns sobre segurança",
+        "explicacao": "Os profissionais podem encontrar respostas para perguntas comuns relacionadas à segurança no Knowledge Center."
+      },
+      {
+        "texto": "Gerando alertas de segurança em tempo real",
+        "explicacao": "O Knowledge Center não gera alertas em tempo real; ele é uma fonte de informações estáticas."
+      }
+    ],
+    "respostaCorreta": [
+      "Oferecendo informações sobre práticas recomendadas",
+      "Resolvendo dúvidas comuns sobre segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais tópicos são frequentemente abordados no blog de segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Ameaças emergentes e como mitigá-las",
+        "explicacao": "O blog frequentemente aborda novas ameaças e fornece orientações sobre como mitigá-las."
+      },
+      {
+        "texto": "Análises financeiras de serviços da AWS",
+        "explicacao": "O blog não se concentra em análises financeiras, mas em segurança e práticas recomendadas."
+      },
+      {
+        "texto": "Estudos de caso sobre incidentes de segurança",
+        "explicacao": "Estudos de caso sobre incidentes de segurança são comuns e ajudam a entender como prevenir problemas semelhantes."
+      },
+      {
+        "texto": "Tutoriais sobre configuração de serviços",
+        "explicacao": "Embora o blog possa conter tutoriais, o foco principal é em segurança, não em configuração."
+      }
+    ],
+    "respostaCorreta": [
+      "Ameaças emergentes e como mitigá-las",
+      "Estudos de caso sobre incidentes de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais funcionalidades o AWS Security Center não oferece? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Suporte técnico em tempo real",
+        "explicacao": "O AWS Security Center não oferece suporte técnico; é uma plataforma de informações sobre segurança."
+      },
+      {
+        "texto": "Monitoramento de compliance em tempo real",
+        "explicacao": "O Security Center fornece relatórios, mas não monitoramento em tempo real de compliance."
+      },
+      {
+        "texto": "Melhores práticas e recomendações",
+        "explicacao": "O Security Center fornece recomendações, mas não oferece suporte contínuo."
+      },
+      {
+        "texto": "Alertas de segurança em tempo real",
+        "explicacao": "Embora forneça recomendações, o Security Center não gera alertas em tempo real."
+      }
+    ],
+    "respostaCorreta": [
+      "Suporte técnico em tempo real",
+      "Monitoramento de compliance em tempo real"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma característica importante do AWS Knowledge Center? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Base de conhecimento acessível ao público",
+        "explicacao": "O Knowledge Center é acessível a todos os usuários e fornece informações úteis."
+      },
+      {
+        "texto": "Acesso apenas para usuários com suporte pago",
+        "explicacao": "O Knowledge Center está disponível para todos os usuários, independentemente do plano de suporte."
+      },
+      {
+        "texto": "Foco em soluções de problemas comuns",
+        "explicacao": "O Knowledge Center é projetado para resolver problemas comuns enfrentados pelos usuários da AWS."
+      },
+      {
+        "texto": "Geração automática de relatórios de segurança",
+        "explicacao": "O Knowledge Center não gera relatórios automaticamente; ele fornece soluções e informações."
+      }
+    ],
+    "respostaCorreta": [
+      "Base de conhecimento acessível ao público",
+      "Foco em soluções de problemas comuns"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que o blog de segurança da AWS oferece além de artigos? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Atualizações sobre novas funcionalidades de segurança",
+        "explicacao": "O blog fornece atualizações sobre novos recursos e funcionalidades relacionados à segurança na AWS."
+      },
+      {
+        "texto": "Cursos online sobre segurança",
+        "explicacao": "O blog não oferece cursos; ele fornece informações e atualizações sobre segurança."
+      },
+      {
+        "texto": "Entrevistas com especialistas em segurança",
+        "explicacao": "O blog frequentemente apresenta entrevistas com especialistas em segurança e suas perspectivas."
+      },
+      {
+        "texto": "Estatísticas de uso dos serviços AWS",
+        "explicacao": "O blog não fornece estatísticas de uso; seu foco é em segurança e melhores práticas."
+      }
+    ],
+    "respostaCorreta": [
+      "Atualizações sobre novas funcionalidades de segurança",
+      "Entrevistas com especialistas em segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como o AWS Security Center contribui para a segurança na nuvem? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Fornecendo insights sobre práticas de segurança",
+        "explicacao": "O Security Center oferece insights e recomendações sobre como melhorar a segurança na nuvem."
+      },
+      {
+        "texto": "Implementando soluções de segurança automaticamente",
+        "explicacao": "O Security Center fornece recomendações, mas não implementa soluções automaticamente."
+      },
+      {
+        "texto": "Acompanhando mudanças nas políticas de segurança",
+        "explicacao": "O Security Center ajuda a monitorar a conformidade, mas não acompanha automaticamente mudanças de políticas."
+      },
+      {
+        "texto": "Aumentando a visibilidade sobre a postura de segurança",
+        "explicacao": "O Security Center aumenta a visibilidade sobre a postura de segurança de recursos na AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Fornecendo insights sobre práticas de segurança",
+      "Aumentando a visibilidade sobre a postura de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes opções não é um recurso do AWS Knowledge Center? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Resposta a tickets de suporte individual",
+        "explicacao": "O Knowledge Center não responde a tickets de suporte; ele é uma base de conhecimento pública."
+      },
+      {
+        "texto": "Informações sobre práticas recomendadas de segurança",
+        "explicacao": "O Knowledge Center fornece informações sobre práticas recomendadas de segurança na AWS."
+      },
+      {
+        "texto": "Soluções para problemas comuns",
+        "explicacao": "O Knowledge Center é projetado para fornecer soluções para problemas comuns que os usuários enfrentam."
+      },
+      {
+        "texto": "Documentação de serviços da AWS",
+        "explicacao": "Embora contenha documentação, o Knowledge Center não é a única fonte de documentação da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Resposta a tickets de suporte individual",
+      "Documentação de serviços da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma das principais fontes de informações de segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Bulletins",
+        "explicacao": "Os AWS Security Bulletins fornecem informações sobre vulnerabilidades e suas resoluções."
+      },
+      {
+        "texto": "AWS Developer Forum",
+        "explicacao": "Embora útil para desenvolvedores, o AWS Developer Forum não é uma fonte oficial de informações de segurança."
+      },
+      {
+        "texto": "AWS Compliance Center",
+        "explicacao": "O AWS Compliance Center fornece informações sobre conformidade e certificações dos serviços da AWS."
+      },
+      {
+        "texto": "AWS Marketplace",
+        "explicacao": "O AWS Marketplace não é uma fonte de informações de segurança; é uma loja de software e serviços."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Bulletins",
+      "AWS Compliance Center"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Onde os usuários podem encontrar informações detalhadas sobre as práticas de segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Documentation",
+        "explicacao": "A documentação de segurança da AWS contém diretrizes e melhores práticas sobre como usar os serviços de forma segura."
+      },
+      {
+        "texto": "AWS YouTube Channel",
+        "explicacao": "O canal do YouTube da AWS pode fornecer algumas informações, mas não é uma fonte centralizada de documentação de segurança."
+      },
+      {
+        "texto": "AWS Security Whitepapers",
+        "explicacao": "Os whitepapers de segurança da AWS oferecem informações detalhadas sobre as abordagens e práticas de segurança."
+      },
+      {
+        "texto": "AWS Support Plans",
+        "explicacao": "Os planos de suporte AWS não fornecem informações gerais de segurança; eles são serviços pagos para suporte técnico."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Documentation",
+      "AWS Security Whitepapers"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais recursos são recomendados para acompanhar as atualizações de segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Blog",
+        "explicacao": "O blog de segurança da AWS publica atualizações e artigos sobre práticas de segurança e novas vulnerabilidades."
+      },
+      {
+        "texto": "AWS Service Health Dashboard",
+        "explicacao": "O Service Health Dashboard fornece informações sobre a saúde dos serviços AWS, mas não especificamente sobre segurança."
+      },
+      {
+        "texto": "AWS News Blog",
+        "explicacao": "O AWS News Blog apresenta anúncios e novidades, incluindo tópicos de segurança, mas não é específico sobre segurança."
+      },
+      {
+        "texto": "AWS Forums",
+        "explicacao": "Os fóruns da AWS não são uma fonte confiável de informações de segurança, pois contêm discussões entre usuários."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Blog",
+      "AWS News Blog"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais relatórios são disponibilizados para informações de segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Risk and Compliance Reports",
+        "explicacao": "Relatórios de risco e conformidade fornecem informações sobre a conformidade da AWS com normas e regulamentos."
+      },
+      {
+        "texto": "AWS Financial Reports",
+        "explicacao": "Os relatórios financeiros não contêm informações de segurança; são focados na performance financeira da empresa."
+      },
+      {
+        "texto": "AWS SOC Reports",
+        "explicacao": "Os relatórios SOC (System and Organization Controls) fornecem informações sobre controles de segurança e conformidade da AWS."
+      },
+      {
+        "texto": "AWS Customer Feedback Reports",
+        "explicacao": "Os relatórios de feedback dos clientes não são uma fonte de informações de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Risk and Compliance Reports",
+      "AWS SOC Reports"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Onde os usuários podem encontrar informações sobre a conformidade dos serviços da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Compliance Reports",
+        "explicacao": "Os relatórios de conformidade da AWS detalham a conformidade com regulamentos e normas de segurança."
+      },
+      {
+        "texto": "AWS Marketplace",
+        "explicacao": "O AWS Marketplace não fornece informações sobre conformidade, é uma loja para serviços e software."
+      },
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "O AWS Artifact é uma ferramenta que fornece acesso a relatórios de conformidade e documentos da AWS."
+      },
+      {
+        "texto": "AWS Whitepapers",
+        "explicacao": "Os whitepapers oferecem insights, mas o Artifact é específico para acesso a documentos de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Compliance Reports",
+      "AWS Artifact"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma função do AWS Security Hub? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Consolidar informações de segurança de diferentes serviços da AWS",
+        "explicacao": "O AWS Security Hub agrega e analisa dados de segurança de vários serviços da AWS."
+      },
+      {
+        "texto": "Gerar relatórios financeiros de segurança",
+        "explicacao": "O Security Hub não gera relatórios financeiros; ele foca em segurança e conformidade."
+      },
+      {
+        "texto": "Fornecer recomendações de segurança",
+        "explicacao": "O AWS Security Hub fornece recomendações de segurança com base na análise dos dados coletados."
+      },
+      {
+        "texto": "Realizar auditorias de segurança em tempo real",
+        "explicacao": "Embora forneça insights, o Security Hub não realiza auditorias em tempo real."
+      }
+    ],
+    "respostaCorreta": [
+      "Consolidar informações de segurança de diferentes serviços da AWS",
+      "Fornecer recomendações de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais documentos são úteis para entender a segurança da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Best Practices",
+        "explicacao": "Este documento oferece diretrizes sobre as melhores práticas de segurança na AWS."
+      },
+      {
+        "texto": "AWS Pricing Information",
+        "explicacao": "As informações de preços não abordam segurança; são focadas nos custos dos serviços."
+      },
+      {
+        "texto": "AWS Data Protection Policy",
+        "explicacao": "A política de proteção de dados da AWS descreve como os dados são protegidos, sendo crucial para a segurança."
+      },
+      {
+        "texto": "AWS User Manual",
+        "explicacao": "O manual do usuário é mais sobre como usar os serviços, não focado em segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Best Practices",
+      "AWS Data Protection Policy"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é um recurso para acompanhar a conformidade da AWS com normas de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Compliance Center",
+        "explicacao": "O Compliance Center fornece informações sobre a conformidade da AWS com diferentes padrões e regulamentações."
+      },
+      {
+        "texto": "AWS Events Dashboard",
+        "explicacao": "O Events Dashboard não fornece informações de conformidade, mas informações sobre eventos e interrupções de serviço."
+      },
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "O AWS Artifact fornece acesso a relatórios de conformidade e documentação relacionada."
+      },
+      {
+        "texto": "AWS Community Forum",
+        "explicacao": "O fórum da comunidade não é uma fonte confiável para informações de conformidade."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Compliance Center",
+      "AWS Artifact"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais recursos podem ajudar a entender as melhores práticas de segurança na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Whitepapers",
+        "explicacao": "Os whitepapers de segurança são uma fonte valiosa de informações sobre melhores práticas."
+      },
+      {
+        "texto": "AWS Pricing Calculator",
+        "explicacao": "O Pricing Calculator é usado para estimar custos, não para práticas de segurança."
+      },
+      {
+        "texto": "AWS Well-Architected Framework",
+        "explicacao": "O Well-Architected Framework inclui diretrizes sobre segurança em arquiteturas de nuvem."
+      },
+      {
+        "texto": "AWS Support Plans",
+        "explicacao": "Os planos de suporte oferecem assistência, mas não são uma fonte direta de práticas de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Whitepapers",
+      "AWS Well-Architected Framework"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a principal função dos grupos de segurança na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Controlar o tráfego de entrada e saída para instâncias EC2",
+        "explicacao": "Os grupos de segurança atuam como firewalls virtuais, permitindo ou negando o tráfego para instâncias EC2."
+      },
+      {
+        "texto": "Impedir que instâncias acessem a Internet",
+        "explicacao": "Os grupos de segurança podem ser configurados para permitir ou bloquear o tráfego, mas não têm a função de impedir totalmente o acesso à Internet."
+      },
+      {
+        "texto": "Proteger os dados em repouso",
+        "explicacao": "Os grupos de segurança não são usados para proteger dados em repouso; eles controlam o tráfego de rede."
+      },
+      {
+        "texto": "Aplicar regras de firewall em nível de instância",
+        "explicacao": "As regras de grupos de segurança são aplicadas em nível de instância, regulando o acesso a elas."
+      }
+    ],
+    "respostaCorreta": [
+      "Controlar o tráfego de entrada e saída para instâncias EC2",
+      "Aplicar regras de firewall em nível de instância"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que os ACLs de rede (Access Control Lists) fazem? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Controlar o tráfego de entrada e saída de sub-redes",
+        "explicacao": "As ACLs de rede permitem ou negam o tráfego em nível de sub-rede, controlando acessos mais amplos que grupos de segurança."
+      },
+      {
+        "texto": "Substituir os grupos de segurança",
+        "explicacao": "As ACLs de rede e grupos de segurança são usados em conjunto; uma não substitui a outra."
+      },
+      {
+        "texto": "Aplicar regras de firewall em nível de instância",
+        "explicacao": "As ACLs de rede aplicam regras em nível de sub-rede, enquanto grupos de segurança são em nível de instância."
+      },
+      {
+        "texto": "Registrar o tráfego da rede",
+        "explicacao": "As ACLs não registram tráfego; elas apenas controlam o acesso."
+      }
+    ],
+    "respostaCorreta": [
+      "Controlar o tráfego de entrada e saída de sub-redes",
+      "Aplicar regras de firewall em nível de sub-rede"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma característica importante do AWS WAF? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Filtrar o tráfego com base em regras definidas pelo usuário",
+        "explicacao": "O AWS WAF permite que os usuários definam regras personalizadas para filtrar o tráfego da web."
+      },
+      {
+        "texto": "Bloquear automaticamente todas as requisições",
+        "explicacao": "O AWS WAF não bloqueia automaticamente requisições; depende das regras configuradas pelo usuário."
+      },
+      {
+        "texto": "Integração com Amazon CloudFront",
+        "explicacao": "O AWS WAF pode ser integrado ao Amazon CloudFront para proteger aplicações na borda da rede."
+      },
+      {
+        "texto": "Proteger somente aplicações hospedadas em EC2",
+        "explicacao": "O AWS WAF pode proteger aplicações em vários serviços, não apenas em EC2."
+      }
+    ],
+    "respostaCorreta": [
+      "Filtrar o tráfego com base em regras definidas pelo usuário",
+      "Integração com Amazon CloudFront"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de usar grupos de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "A capacidade de permitir ou negar tráfego específico",
+        "explicacao": "Os grupos de segurança permitem definir regras específicas para tráfego de entrada e saída."
+      },
+      {
+        "texto": "Regras aplicadas em todas as instâncias da VPC automaticamente",
+        "explicacao": "Os grupos de segurança devem ser associados a instâncias específicas e não são aplicados automaticamente a todas as instâncias."
+      },
+      {
+        "texto": "Eliminação de necessidades de configuração adicional",
+        "explicacao": "Embora os grupos de segurança forneçam controle, eles ainda requerem configuração manual."
+      },
+      {
+        "texto": "Aplicar regras de maneira stateful",
+        "explicacao": "Os grupos de segurança são stateful, o que significa que as regras aplicadas ao tráfego de entrada também se aplicam ao tráfego de saída correspondente."
+      }
+    ],
+    "respostaCorreta": [
+      "A capacidade de permitir ou negar tráfego específico",
+      "Aplicar regras de maneira stateful"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como os ACLs de rede diferem dos grupos de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "ACLs de rede são stateless, enquanto grupos de segurança são stateful",
+        "explicacao": "As ACLs de rede não mantêm informações sobre o estado do tráfego, enquanto os grupos de segurança sim."
+      },
+      {
+        "texto": "Grupos de segurança se aplicam a sub-redes inteiras",
+        "explicacao": "Grupos de segurança se aplicam a instâncias específicas, enquanto ACLs de rede se aplicam a sub-redes."
+      },
+      {
+        "texto": "Grupos de segurança podem bloquear tráfego, enquanto ACLs não podem",
+        "explicacao": "Tanto grupos de segurança quanto ACLs podem permitir ou bloquear tráfego."
+      },
+      {
+        "texto": "ACLs de rede têm prioridade sobre grupos de segurança",
+        "explicacao": "As ACLs de rede e grupos de segurança operam em níveis diferentes e não têm prioridade direta entre si."
+      }
+    ],
+    "respostaCorreta": [
+      "ACLs de rede são stateless, enquanto grupos de segurança são stateful",
+      "Grupos de segurança se aplicam a instâncias específicas, enquanto ACLs de rede se aplicam a sub-redes."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais tipos de tráfego o AWS WAF pode filtrar? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Tráfego HTTP e HTTPS",
+        "explicacao": "O AWS WAF é projetado para filtrar tráfego web, especificamente HTTP e HTTPS."
+      },
+      {
+        "texto": "Tráfego FTP",
+        "explicacao": "O AWS WAF não filtra tráfego FTP; é focado em aplicações da web."
+      },
+      {
+        "texto": "Tráfego de rede não relacionado à web",
+        "explicacao": "O AWS WAF não filtra tráfego que não é específico da web."
+      },
+      {
+        "texto": "Tráfego do Amazon API Gateway",
+        "explicacao": "O AWS WAF pode ser usado para filtrar tráfego que passa pelo Amazon API Gateway."
+      }
+    ],
+    "respostaCorreta": [
+      "Tráfego HTTP e HTTPS",
+      "Tráfego do Amazon API Gateway"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas recomendadas devem ser seguidas ao usar grupos de segurança e ACLs de rede? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Usar regras específicas e mínimas necessárias",
+        "explicacao": "Definir regras específicas e limitar o acesso ao mínimo necessário é uma prática recomendada para segurança."
+      },
+      {
+        "texto": "Permitir todo o tráfego por padrão",
+        "explicacao": "Permitir todo o tráfego é inseguro e deve ser evitado."
+      },
+      {
+        "texto": "Revisar e atualizar regras regularmente",
+        "explicacao": "Revisar e atualizar regras de segurança regularmente é fundamental para manter a segurança."
+      },
+      {
+        "texto": "Configurar regras apenas uma vez e não revisá-las",
+        "explicacao": "As regras devem ser revisadas e ajustadas conforme necessário para garantir a segurança contínua."
+      }
+    ],
+    "respostaCorreta": [
+      "Usar regras específicas e mínimas necessárias",
+      "Revisar e atualizar regras regularmente"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os componentes principais do AWS WAF? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Regras",
+        "explicacao": "As regras são fundamentais no AWS WAF para definir o que filtrar."
+      },
+      {
+        "texto": "Políticas de IAM",
+        "explicacao": "Políticas de IAM não são componentes do AWS WAF; elas controlam o acesso aos serviços da AWS."
+      },
+      {
+        "texto": "Web ACLs",
+        "explicacao": "Web ACLs são usadas para aplicar regras do AWS WAF a um ou mais recursos."
+      },
+      {
+        "texto": "Dashboards de monitoramento",
+        "explicacao": "Os dashboards de monitoramento são úteis, mas não são componentes principais do AWS WAF."
+      }
+    ],
+    "respostaCorreta": [
+      "Regras",
+      "Web ACLs"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais fatores devem ser considerados ao configurar grupos de segurança? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "As instâncias que o grupo de segurança protegerá",
+        "explicacao": "É fundamental saber quais instâncias o grupo de segurança protegerá ao configurar suas regras."
+      },
+      {
+        "texto": "As VPCs que não têm instâncias",
+        "explicacao": "As VPCs sem instâncias não devem ser consideradas ao configurar grupos de segurança."
+      },
+      {
+        "texto": "Os tipos de tráfego que precisam ser permitidos ou negados",
+        "explicacao": "Definir os tipos de tráfego é crucial ao configurar grupos de segurança."
+      },
+      {
+        "texto": "O custo da configuração do grupo de segurança",
+        "explicacao": "Os grupos de segurança não têm custo direto associado à configuração."
+      }
+    ],
+    "respostaCorreta": [
+      "As instâncias que o grupo de segurança protegerá",
+      "Os tipos de tráfego que precisam ser permitidos ou negados"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os principais tipos de gerenciamento de identidade na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento de identidade baseado em nuvem",
+        "explicacao": "Esse tipo envolve o gerenciamento de identidades em serviços de nuvem, permitindo acesso a recursos de maneira centralizada."
+      },
+      {
+        "texto": "Gerenciamento de identidade local",
+        "explicacao": "O gerenciamento de identidade local refere-se a identidades gerenciadas em servidores físicos, não relacionados à nuvem."
+      },
+      {
+        "texto": "Gerenciamento de identidade federado",
+        "explicacao": "O gerenciamento de identidade federado permite que usuários de diferentes domínios acessem recursos sem a necessidade de criar novas identidades."
+      },
+      {
+        "texto": "Gerenciamento de identidade de rede",
+        "explicacao": "Esse tipo refere-se ao controle de identidades em uma rede local, geralmente usando diretórios."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciamento de identidade baseado em nuvem",
+      "Gerenciamento de identidade federado"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o propósito do gerenciamento de identidade federado? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Permitir acesso a recursos sem múltiplas credenciais",
+        "explicacao": "O gerenciamento de identidade federado permite que usuários acessem recursos com credenciais existentes de outros domínios."
+      },
+      {
+        "texto": "Criar múltiplas contas de usuário em diferentes serviços",
+        "explicacao": "O gerenciamento de identidade federado evita a necessidade de múltiplas contas, facilitando o acesso unificado."
+      },
+      {
+        "texto": "Aumentar o número de senhas a serem gerenciadas",
+        "explicacao": "O objetivo do gerenciamento de identidade federado é reduzir, não aumentar, o número de senhas a serem gerenciadas."
+      },
+      {
+        "texto": "Impedir o acesso a serviços de terceiros",
+        "explicacao": "O gerenciamento de identidade federado é projetado para facilitar o acesso, não para bloqueá-lo."
+      }
+    ],
+    "respostaCorreta": [
+      "Permitir acesso a recursos sem múltiplas credenciais",
+      "Criar múltiplas contas de usuário em diferentes serviços"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é AWS IAM? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Um serviço de gerenciamento de identidades",
+        "explicacao": "O AWS IAM (Identity and Access Management) é um serviço que permite gerenciar o acesso a serviços e recursos da AWS."
+      },
+      {
+        "texto": "Uma ferramenta para monitoramento de redes",
+        "explicacao": "O AWS IAM não é uma ferramenta de monitoramento; seu foco é no gerenciamento de identidades e permissões."
+      },
+      {
+        "texto": "Uma forma de autenticação multifator",
+        "explicacao": "O AWS IAM suporta autenticação multifator, mas não é uma forma de autenticação em si."
+      },
+      {
+        "texto": "Um serviço que permite a criação de políticas de acesso",
+        "explicacao": "O AWS IAM permite a criação de políticas de acesso que definem permissões para usuários e grupos."
+      }
+    ],
+    "respostaCorreta": [
+      "Um serviço de gerenciamento de identidades",
+      "Um serviço que permite a criação de políticas de acesso"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as vantagens de usar o gerenciamento de identidade baseado em nuvem? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Redução de custos com infraestrutura local",
+        "explicacao": "O gerenciamento de identidade em nuvem elimina a necessidade de servidores locais, reduzindo custos."
+      },
+      {
+        "texto": "Maior complexidade na configuração",
+        "explicacao": "O gerenciamento de identidade baseado em nuvem geralmente simplifica a configuração, não a aumenta."
+      },
+      {
+        "texto": "Acesso em qualquer lugar e a qualquer hora",
+        "explicacao": "Serviços baseados em nuvem permitem que usuários acessem suas identidades de qualquer lugar com conexão à Internet."
+      },
+      {
+        "texto": "Dependência de serviços de terceiros",
+        "explicacao": "Embora haja dependência de provedores, o gerenciamento de identidade baseado em nuvem pode oferecer mais segurança e flexibilidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Redução de custos com infraestrutura local",
+      "Acesso em qualquer lugar e a qualquer hora"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os componentes principais do gerenciamento de identidade na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Usuários e grupos",
+        "explicacao": "Usuários e grupos são fundamentais para o gerenciamento de identidades, permitindo atribuição de permissões."
+      },
+      {
+        "texto": "Instâncias EC2",
+        "explicacao": "Instâncias EC2 não são componentes de gerenciamento de identidade, mas sim recursos que podem ser acessados."
+      },
+      {
+        "texto": "Políticas de acesso",
+        "explicacao": "Políticas de acesso definem permissões e são essenciais para o gerenciamento de identidades na AWS."
+      },
+      {
+        "texto": "Serviços de banco de dados",
+        "explicacao": "Serviços de banco de dados não são componentes do gerenciamento de identidade."
+      }
+    ],
+    "respostaCorreta": [
+      "Usuários e grupos",
+      "Políticas de acesso"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas recomendadas devem ser seguidas ao gerenciar identidades? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Usar o princípio do menor privilégio",
+        "explicacao": "Aplicar o princípio do menor privilégio garante que usuários tenham apenas as permissões necessárias."
+      },
+      {
+        "texto": "Criar contas de usuário com permissões amplas",
+        "explicacao": "Permissões amplas devem ser evitadas para proteger recursos de acessos indevidos."
+      },
+      {
+        "texto": "Ativar autenticação multifator sempre que possível",
+        "explicacao": "A autenticação multifator aumenta a segurança ao exigir mais do que uma única forma de autenticação."
+      },
+      {
+        "texto": "Usar senhas fracas para simplificar o acesso",
+        "explicacao": "Senhas fracas não são recomendadas; senhas fortes são essenciais para a segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Usar o princípio do menor privilégio",
+      "Ativar autenticação multifator sempre que possível"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a função do AWS IAM Identity Center? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar acesso em várias contas da AWS",
+        "explicacao": "O AWS IAM Identity Center permite gerenciar o acesso a várias contas AWS a partir de um único ponto."
+      },
+      {
+        "texto": "Criar senhas fortes para usuários",
+        "explicacao": "O AWS IAM Identity Center não cria senhas; a segurança de senhas deve ser gerida pelos usuários."
+      },
+      {
+        "texto": "Centralizar o gerenciamento de identidades",
+        "explicacao": "Centralizar o gerenciamento de identidades é uma das funções principais do AWS IAM Identity Center."
+      },
+      {
+        "texto": "Bloquear acessos a recursos específicos",
+        "explicacao": "O AWS IAM Identity Center permite gerenciar permissões, mas não bloqueia acessos por si só."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar acesso em várias contas da AWS",
+      "Centralizar o gerenciamento de identidades"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o propósito das políticas de IAM na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Definir permissões para usuários e grupos",
+        "explicacao": "As políticas de IAM são usadas para conceder ou negar permissões a usuários e grupos."
+      },
+      {
+        "texto": "Armazenar dados de usuários",
+        "explicacao": "Políticas de IAM não armazenam dados; elas definem como os dados podem ser acessados."
+      },
+      {
+        "texto": "Controlar o acesso a serviços da AWS",
+        "explicacao": "As políticas de IAM controlam quais serviços os usuários podem acessar e quais ações podem realizar."
+      },
+      {
+        "texto": "Configurar redes VPC",
+        "explicacao": "As políticas de IAM não configuram redes; elas se concentram no controle de acesso a recursos."
+      }
+    ],
+    "respostaCorreta": [
+      "Definir permissões para usuários e grupos",
+      "Controlar o acesso a serviços da AWS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser integrados com o gerenciamento de identidade na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 pode ser integrado ao gerenciamento de identidade para controlar acesso a objetos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda pode utilizar políticas de IAM para gerenciar permissões de execução de funções."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS também pode se beneficiar do gerenciamento de identidade para controlar acesso ao banco de dados."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Amazon CloudFront, como rede de distribuição de conteúdo, não usa gerenciamento de identidade da mesma forma que os serviços de armazenamento."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios do gerenciamento de identidade na nuvem? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Escalabilidade e flexibilidade",
+        "explicacao": "O gerenciamento de identidade na nuvem permite escalar facilmente conforme as necessidades da organização mudam."
+      },
+      {
+        "texto": "Maior necessidade de hardware local",
+        "explicacao": "O gerenciamento de identidade em nuvem reduz a necessidade de hardware local, não aumenta."
+      },
+      {
+        "texto": "Acesso centralizado e unificado",
+        "explicacao": "Gerenciamento de identidade em nuvem permite acesso unificado a todos os serviços em nuvem."
+      },
+      {
+        "texto": "Menos segurança em comparação com soluções locais",
+        "explicacao": "As soluções de gerenciamento de identidade na nuvem podem ser tão seguras quanto as soluções locais, dependendo de como são configuradas."
+      }
+    ],
+    "respostaCorreta": [
+      "Escalabilidade e flexibilidade",
+      "Acesso centralizado e unificado"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as melhores práticas para proteger o usuário-raiz na AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Ativar a autenticação multifator (MFA)",
+        "explicacao": "Ativar a autenticação multifator adiciona uma camada extra de segurança ao acesso do usuário-raiz."
+      },
+      {
+        "texto": "Compartilhar credenciais com outros usuários",
+        "explicacao": "Compartilhar credenciais com outros usuários é uma prática insegura e deve ser evitada."
+      },
+      {
+        "texto": "Usar o usuário-raiz apenas para tarefas administrativas essenciais",
+        "explicacao": "Usar o usuário-raiz apenas para tarefas críticas minimiza a exposição e o risco."
+      },
+      {
+        "texto": "Desativar a autenticação multifator (MFA)",
+        "explicacao": "Desativar a MFA aumenta o risco de acesso não autorizado e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Ativar a autenticação multifator (MFA)",
+      "Usar o usuário-raiz apenas para tarefas administrativas essenciais"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ações são recomendadas para proteger o acesso do usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Alterar a senha do usuário-raiz regularmente",
+        "explicacao": "Alterar a senha do usuário-raiz regularmente ajuda a evitar o acesso não autorizado."
+      },
+      {
+        "texto": "Registrar todas as atividades do usuário-raiz",
+        "explicacao": "Registrar atividades é fundamental para monitorar e auditar o uso do usuário-raiz."
+      },
+      {
+        "texto": "Usar o usuário-raiz para todas as operações diárias",
+        "explicacao": "Usar o usuário-raiz para operações diárias aumenta o risco e deve ser evitado."
+      },
+      {
+        "texto": "Desativar o acesso à AWS Management Console para o usuário-raiz",
+        "explicacao": "Desativar o acesso à interface de gerenciamento é uma prática recomendada para limitar o uso do usuário-raiz."
+      }
+    ],
+    "respostaCorreta": [
+      "Alterar a senha do usuário-raiz regularmente",
+      "Desativar o acesso à AWS Management Console para o usuário-raiz"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais métodos podem ajudar a restringir o uso do usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Criar usuários IAM para tarefas diárias",
+        "explicacao": "Criar usuários IAM para operações diárias ajuda a minimizar o uso do usuário-raiz."
+      },
+      {
+        "texto": "Usar a função de usuário-raiz para tudo",
+        "explicacao": "Usar a função de usuário-raiz para todas as operações não é seguro e deve ser evitado."
+      },
+      {
+        "texto": "Implementar políticas de acesso restrito",
+        "explicacao": "Políticas de acesso restrito ajudam a controlar o que cada usuário pode fazer, incluindo o usuário-raiz."
+      },
+      {
+        "texto": "Deixar as credenciais do usuário-raiz em local acessível",
+        "explicacao": "Deixar credenciais acessíveis aumenta o risco e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Criar usuários IAM para tarefas diárias",
+      "Implementar políticas de acesso restrito"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a importância da autenticação multifator (MFA) para o usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Aumenta a segurança do acesso ao usuário-raiz",
+        "explicacao": "A MFA adiciona uma camada extra de segurança, dificultando o acesso não autorizado."
+      },
+      {
+        "texto": "Elimina a necessidade de senhas",
+        "explicacao": "A MFA não elimina a necessidade de senhas, mas a complementa com outra forma de autenticação."
+      },
+      {
+        "texto": "Reduz a complexidade da gestão de credenciais",
+        "explicacao": "A MFA pode aumentar a complexidade, mas oferece segurança adicional importante."
+      },
+      {
+        "texto": "Impede o acesso não autorizado, mesmo com a senha comprometida",
+        "explicacao": "A MFA é eficaz para impedir acessos não autorizados, mesmo que a senha do usuário-raiz seja comprometida."
+      }
+    ],
+    "respostaCorreta": [
+      "Aumenta a segurança do acesso ao usuário-raiz",
+      "Impede o acesso não autorizado, mesmo com a senha comprometida"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a prática recomendada em relação ao armazenamento das credenciais do usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Armazenar em um gerenciador de senhas seguro",
+        "explicacao": "Um gerenciador de senhas seguro é uma boa prática para armazenar credenciais de forma protegida."
+      },
+      {
+        "texto": "Deixar escrito em um local visível",
+        "explicacao": "Deixar credenciais escritas em locais visíveis aumenta o risco de comprometimento."
+      },
+      {
+        "texto": "Usar a mesma senha em diferentes serviços",
+        "explicacao": "Usar a mesma senha em vários serviços não é seguro e deve ser evitado."
+      },
+      {
+        "texto": "Alterar a senha regularmente e não reutilizar senhas",
+        "explicacao": "Alterar a senha regularmente e evitar reutilização de senhas são práticas recomendadas para proteger credenciais."
+      }
+    ],
+    "respostaCorreta": [
+      "Armazenar em um gerenciador de senhas seguro",
+      "Alterar a senha regularmente e não reutilizar senhas"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são os benefícios de monitorar o uso do usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Identificar atividades suspeitas rapidamente",
+        "explicacao": "Monitorar o uso do usuário-raiz ajuda a identificar atividades que podem indicar comprometimento."
+      },
+      {
+        "texto": "Aumentar o número de senhas a serem geridas",
+        "explicacao": "Monitorar não aumenta o número de senhas; ajuda a gerenciar o uso de credenciais existentes."
+      },
+      {
+        "texto": "Melhorar a conformidade com políticas de segurança",
+        "explicacao": "O monitoramento garante que as práticas de segurança sejam seguidas, melhorando a conformidade."
+      },
+      {
+        "texto": "Eliminar a necessidade de autenticação",
+        "explicacao": "Monitorar o uso não elimina a necessidade de autenticação; é uma camada adicional de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Identificar atividades suspeitas rapidamente",
+      "Melhorar a conformidade com políticas de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é o objetivo de restringir o acesso ao usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Minimizar o risco de comprometimento",
+        "explicacao": "Restringir o acesso ao usuário-raiz ajuda a minimizar o risco de compromissos de segurança."
+      },
+      {
+        "texto": "Facilitar o compartilhamento de credenciais",
+        "explicacao": "Restringir o acesso não facilita o compartilhamento; é o oposto, aumenta a segurança."
+      },
+      {
+        "texto": "Aumentar a segurança geral da conta",
+        "explicacao": "Menos uso do usuário-raiz aumenta a segurança geral da conta ao reduzir a superfície de ataque."
+      },
+      {
+        "texto": "Eliminar a necessidade de auditoria",
+        "explicacao": "Restringir o acesso não elimina a necessidade de auditoria; na verdade, a auditoria se torna ainda mais importante."
+      }
+    ],
+    "respostaCorreta": [
+      "Minimizar o risco de comprometimento",
+      "Aumentar a segurança geral da conta"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a importância de criar usuários IAM em vez de usar o usuário-raiz para acesso diário? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Reduzir a exposição do usuário-raiz",
+        "explicacao": "Criar usuários IAM para acesso diário reduz a exposição do usuário-raiz e limita riscos."
+      },
+      {
+        "texto": "Melhorar a velocidade de acesso",
+        "explicacao": "Embora possa melhorar a experiência do usuário, a criação de usuários IAM é mais sobre segurança do que velocidade."
+      },
+      {
+        "texto": "Fornecer controle granular sobre permissões",
+        "explicacao": "Usuários IAM permitem definir permissões específicas, garantindo que os usuários tenham apenas o acesso necessário."
+      },
+      {
+        "texto": "Eliminar a necessidade de gerenciamento de credenciais",
+        "explicacao": "A criação de usuários IAM não elimina o gerenciamento de credenciais, mas o torna mais seguro e organizado."
+      }
+    ],
+    "respostaCorreta": [
+      "Reduzir a exposição do usuário-raiz",
+      "Fornecer controle granular sobre permissões"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ferramentas podem ajudar na proteção do usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O AWS CloudTrail permite rastrear e registrar a atividade da conta, incluindo ações do usuário-raiz."
+      },
+      {
+        "texto": "AWS Cost Explorer",
+        "explicacao": "O AWS Cost Explorer é voltado para monitoramento de custos, não para segurança de acesso."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "AWS Config ajuda a monitorar alterações de configuração e compliance, auxiliando na proteção de acesso."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 é um serviço de computação e não é uma ferramenta específica para proteger o usuário-raiz."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS CloudTrail",
+      "AWS Config"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é a melhor abordagem para gerenciar as credenciais do usuário-raiz? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Usar credenciais temporárias sempre que possível",
+        "explicacao": "Credenciais temporárias ajudam a reduzir o risco associado a credenciais permanentes."
+      },
+      {
+        "texto": "Reutilizar senhas entre serviços",
+        "explicacao": "Reutilizar senhas entre serviços não é seguro e deve ser evitado."
+      },
+      {
+        "texto": "Utilizar senhas complexas e únicas",
+        "explicacao": "Senhas complexas e únicas aumentam a segurança e dificultam o acesso não autorizado."
+      },
+      {
+        "texto": "Registrar credenciais em locais não seguros",
+        "explicacao": "Registrar credenciais em locais não seguros aumenta o risco de comprometimento."
+      }
+    ],
+    "respostaCorreta": [
+      "Usar credenciais temporárias sempre que possível",
+      "Utilizar senhas complexas e únicas"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
   }
 ]
