@@ -1,8 +1,10 @@
+/* Estilos gerais para telas grandes (desktop) */
 .navbar {
   background-color: #007ACC;
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-link {
@@ -11,16 +13,52 @@
   padding: 10px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-
 }
 
 .nav-link:hover {
   background-color: #005999;
 }
+
 .total-perguntas {
-   float: right;
-   display: flex;
-  margin: 20px; /* Adiciona margem ao redor do texto (opcional) */
-  font-size: 16px; /* Define o tamanho da fonte (opcional) */
-  font-weight: bold; /* Deixa o texto em negrito (opcional) */
+  display: flex;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Estilos para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Coloca a barra de navegação em formato de coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+  }
+
+  .nav-link {
+    padding: 10px 0; /* Reduz o padding para links em telas menores */
+    width: 100%; /* Expande os links para 100% da largura */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .total-perguntas {
+    margin: 10px 0; /* Reduz a margem para telas menores */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    align-self: center; /* Centraliza o contador em relação à barra de navegação */
+  }
+}
+
+/* Estilos para telas muito pequenas (smartphones em modo paisagem ou menor) */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 5px;
+  }
+
+  .nav-link {
+    padding: 8px 0;
+    font-size: 14px; /* Reduz o tamanho do texto nos links */
+  }
+
+  .total-perguntas {
+    font-size: 12px; /* Reduz ainda mais o tamanho da fonte */
+    margin: 5px 0; /* Menos espaço ao redor do texto */
+  }
 }

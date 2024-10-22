@@ -21116,5 +21116,1220 @@
     ],
     "dominio": "Segurança e conformidade",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa deseja implementar uma solução de banco de dados gerenciado com segurança na AWS. Quais práticas recomendadas podem ser usadas para proteger o Amazon RDS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Habilitar criptografia em repouso e em trânsito",
+        "explicacao": "Correto! A criptografia protege os dados tanto em trânsito quanto em repouso."
+      },
+      {
+        "texto": "Desativar backups automáticos",
+        "explicacao": "Desativar backups automáticos pode aumentar o risco de perda de dados e não é uma prática recomendada."
+      },
+      {
+        "texto": "Usar AWS Identity and Access Management (IAM) para controlar o acesso",
+        "explicacao": "Correto! O IAM permite gerenciar de forma segura quem pode acessar o Amazon RDS."
+      },
+      {
+        "texto": "Permitir acesso irrestrito à instância RDS pela internet",
+        "explicacao": "Permitir acesso irrestrito aumenta a vulnerabilidade e não é recomendado."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar criptografia em repouso e em trânsito",
+      "Usar AWS Identity and Access Management (IAM) para controlar o acesso"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como uma empresa pode garantir que suas funções AWS Lambda sejam executadas de forma segura? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Usar variáveis de ambiente para armazenar chaves de API sem criptografia",
+        "explicacao": "Armazenar chaves de API sem criptografia é uma prática insegura e não recomendada."
+      },
+      {
+        "texto": "Controlar permissões de execução com AWS Identity and Access Management (IAM)",
+        "explicacao": "Correto! O uso do IAM permite que as permissões sejam estritamente controladas para funções Lambda."
+      },
+      {
+        "texto": "Habilitar o AWS X-Ray para monitorar e rastrear a execução das funções",
+        "explicacao": "Correto! O AWS X-Ray ajuda a monitorar o desempenho e segurança das funções Lambda."
+      },
+      {
+        "texto": "Habilitar o log completo de todas as funções Lambda no Amazon S3",
+        "explicacao": "Os logs devem ser habilitados no Amazon CloudWatch, não no Amazon S3."
+      }
+    ],
+    "respostaCorreta": [
+      "Controlar permissões de execução com AWS Identity and Access Management (IAM)",
+      "Habilitar o AWS X-Ray para monitorar e rastrear a execução das funções"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Para garantir a segurança das instâncias do Amazon EC2, quais práticas de segurança devem ser seguidas? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Configurar grupos de segurança para limitar o tráfego de entrada e saída",
+        "explicacao": "Correto! Grupos de segurança ajudam a controlar o tráfego que pode acessar a instância."
+      },
+      {
+        "texto": "Permitir login SSH root diretamente",
+        "explicacao": "Permitir logins root diretamente é uma prática insegura e deve ser evitada."
+      },
+      {
+        "texto": "Habilitar a criptografia de volume EBS",
+        "explicacao": "Correto! A criptografia do volume EBS aumenta a segurança dos dados armazenados na instância."
+      },
+      {
+        "texto": "Compartilhar chaves privadas SSH publicamente",
+        "explicacao": "Compartilhar chaves privadas SSH compromete a segurança e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Configurar grupos de segurança para limitar o tráfego de entrada e saída",
+      "Habilitar a criptografia de volume EBS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Uma empresa precisa garantir conformidade e monitorar as atividades nas instâncias do Amazon EC2. Quais serviços AWS podem ser usados para alcançar isso? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch Logs",
+        "explicacao": "Correto! O Amazon CloudWatch Logs pode monitorar atividades e gerar logs de segurança."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "Correto! O AWS Config monitora alterações na configuração de recursos da AWS, incluindo o EC2."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "O AWS Direct Connect é um serviço de rede e não se destina a monitoramento de conformidade."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento e não é usado para monitorar instâncias EC2."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch Logs",
+      "AWS Config"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como uma empresa pode proteger os dados em trânsito entre seu Amazon RDS e outros serviços da AWS? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Utilizar TLS/SSL para criptografar a comunicação",
+        "explicacao": "Correto! TLS/SSL é uma maneira eficaz de proteger os dados em trânsito."
+      },
+      {
+        "texto": "Desabilitar a criptografia para melhorar a performance",
+        "explicacao": "Desabilitar a criptografia coloca os dados em risco e não é recomendado."
+      },
+      {
+        "texto": "Configurar VPC Peering para comunicação segura entre VPCs",
+        "explicacao": "Correto! O VPC Peering permite uma comunicação segura entre VPCs, protegendo os dados."
+      },
+      {
+        "texto": "Desativar os logs de auditoria do RDS",
+        "explicacao": "Desativar os logs de auditoria pode comprometer a capacidade de monitorar eventos de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "Utilizar TLS/SSL para criptografar a comunicação",
+      "Configurar VPC Peering para comunicação segura entre VPCs"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas devem ser seguidas para proteger as funções do AWS Lambda? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Definir permissões mínimas com base no princípio de privilégio mínimo",
+        "explicacao": "Correto! O princípio do privilégio mínimo garante que as funções Lambda tenham apenas as permissões necessárias."
+      },
+      {
+        "texto": "Armazenar segredos diretamente no código da função Lambda",
+        "explicacao": "Armazenar segredos no código é uma prática insegura e deve ser evitada."
+      },
+      {
+        "texto": "Usar o AWS Secrets Manager para gerenciar segredos de forma segura",
+        "explicacao": "Correto! O AWS Secrets Manager gerencia segredos e credenciais de forma segura."
+      },
+      {
+        "texto": "Permitir que todas as funções Lambda tenham acesso irrestrito a todos os serviços",
+        "explicacao": "Permissões irrestritas comprometem a segurança e devem ser evitadas."
+      }
+    ],
+    "respostaCorreta": [
+      "Definir permissões mínimas com base no princípio de privilégio mínimo",
+      "Usar o AWS Secrets Manager para gerenciar segredos de forma segura"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais práticas de segurança devem ser seguidas ao usar instâncias Amazon EC2? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Configurar Multi-Factor Authentication (MFA) para acessar instâncias EC2",
+        "explicacao": "Correto! O MFA adiciona uma camada extra de segurança ao acesso das instâncias EC2."
+      },
+      {
+        "texto": "Desabilitar logs de auditoria",
+        "explicacao": "Desabilitar logs compromete a capacidade de monitorar incidentes de segurança."
+      },
+      {
+        "texto": "Configurar grupos de segurança com regras restritivas de acesso",
+        "explicacao": "Correto! Regras restritivas de acesso em grupos de segurança ajudam a proteger as instâncias EC2."
+      },
+      {
+        "texto": "Armazenar credenciais de acesso no sistema de arquivos da instância",
+        "explicacao": "Armazenar credenciais no sistema de arquivos é uma prática insegura e deve ser evitada."
+      }
+    ],
+    "respostaCorreta": [
+      "Configurar Multi-Factor Authentication (MFA) para acessar instâncias EC2",
+      "Configurar grupos de segurança com regras restritivas de acesso"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como garantir a segurança e conformidade dos dados armazenados em um Amazon RDS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Habilitar a criptografia de armazenamento do RDS",
+        "explicacao": "Correto! A criptografia de armazenamento protege os dados em repouso."
+      },
+      {
+        "texto": "Usar uma senha fraca para a instância do RDS",
+        "explicacao": "Usar uma senha fraca aumenta a vulnerabilidade e deve ser evitado."
+      },
+      {
+        "texto": "Realizar backups regulares da instância do RDS",
+        "explicacao": "Correto! Backups regulares garantem que os dados possam ser recuperados em caso de falha."
+      },
+      {
+        "texto": "Desativar o acesso de rede para a instância RDS",
+        "explicacao": "Desativar o acesso de rede pode impedir a funcionalidade necessária para a aplicação."
+      }
+    ],
+    "respostaCorreta": [
+      "Habilitar a criptografia de armazenamento do RDS",
+      "Realizar backups regulares da instância do RDS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais abordagens podem ser usadas para monitorar a segurança das funções do AWS Lambda? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Ativar logs do Amazon CloudWatch para funções Lambda",
+        "explicacao": "Correto! O Amazon CloudWatch pode coletar e monitorar logs das funções Lambda."
+      },
+      {
+        "texto": "Desativar o rastreamento de execução das funções Lambda",
+        "explicacao": "Desativar o rastreamento impede a análise de desempenho e segurança."
+      },
+      {
+        "texto": "Usar o AWS CloudTrail para auditar chamadas de API do Lambda",
+        "explicacao": "Correto! O AWS CloudTrail permite auditar as atividades realizadas pelas funções Lambda."
+      },
+      {
+        "texto": "Permitir que as funções Lambda acessem todos os recursos sem controle",
+        "explicacao": "Permitir acesso irrestrito pode comprometer a segurança e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Ativar logs do Amazon CloudWatch para funções Lambda",
+      "Usar o AWS CloudTrail para auditar chamadas de API do Lambda"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Ao utilizar serviços da AWS, quais responsabilidades são da AWS em relação à segurança? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física dos datacenters",
+        "explicacao": "Correto! A AWS é responsável pela segurança física dos seus datacenters."
+      },
+      {
+        "texto": "Gerenciar os dados armazenados no Amazon S3",
+        "explicacao": "Os clientes são responsáveis por gerenciar os dados, não a AWS."
+      },
+      {
+        "texto": "Fornecer segurança de rede e controle de acesso ao hypervisor",
+        "explicacao": "Correto! A AWS garante a segurança da infraestrutura subjacente, incluindo a rede."
+      },
+      {
+        "texto": "Implementar autenticação de usuários nas aplicações do cliente",
+        "explicacao": "Os clientes são responsáveis pela autenticação de usuários em suas aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a segurança física dos datacenters",
+      "Fornecer segurança de rede e controle de acesso ao hypervisor"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as responsabilidades dos clientes em relação à segurança na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Proteger os dados em trânsito e em repouso",
+        "explicacao": "Correto! Os clientes são responsáveis por proteger seus próprios dados."
+      },
+      {
+        "texto": "Gerenciar a infraestrutura de hardware subjacente",
+        "explicacao": "A infraestrutura de hardware é gerenciada pela AWS, não pelos clientes."
+      },
+      {
+        "texto": "Configurar políticas de IAM para controle de acesso",
+        "explicacao": "Correto! Os clientes devem configurar suas próprias políticas de IAM."
+      },
+      {
+        "texto": "Gerar e armazenar chaves de criptografia de gerenciamento da AWS",
+        "explicacao": "A AWS fornece ferramentas, mas os clientes são responsáveis pela gestão de suas chaves."
+      }
+    ],
+    "respostaCorreta": [
+      "Proteger os dados em trânsito e em repouso",
+      "Configurar políticas de IAM para controle de acesso"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Em relação ao modelo de responsabilidade compartilhada da AWS, o que a AWS não é responsável? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Manter a segurança física das instalações",
+        "explicacao": "A AWS é responsável pela segurança física das instalações."
+      },
+      {
+        "texto": "Gerenciar a configuração e segurança das instâncias EC2",
+        "explicacao": "Correto! Os clientes devem gerenciar a configuração e segurança das suas instâncias EC2."
+      },
+      {
+        "texto": "Implementar medidas de segurança de rede, como firewalls",
+        "explicacao": "Correto! A configuração de firewalls e segurança de rede é responsabilidade do cliente."
+      },
+      {
+        "texto": "Manter o software de infraestrutura subjacente",
+        "explicacao": "A AWS mantém o software de infraestrutura, enquanto os clientes gerenciam suas aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a configuração e segurança das instâncias EC2",
+      "Implementar medidas de segurança de rede, como firewalls"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre as responsabilidades do cliente e da AWS é verdadeira? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "A AWS é responsável por garantir que as instâncias EC2 estejam sempre atualizadas com patches de segurança.",
+        "explicacao": "Falso! Os clientes são responsáveis por manter suas instâncias atualizadas."
+      },
+      {
+        "texto": "Os clientes devem implementar medidas de segurança para suas aplicações e dados na AWS.",
+        "explicacao": "Correto! Os clientes têm a responsabilidade de proteger suas aplicações e dados."
+      },
+      {
+        "texto": "A AWS gerencia a segurança da rede e fornece ferramentas para monitoramento.",
+        "explicacao": "Correto! A AWS gerencia a segurança da rede e fornece ferramentas de monitoramento."
+      },
+      {
+        "texto": "Os clientes não precisam se preocupar com a segurança física das instalações da AWS.",
+        "explicacao": "Correto! A segurança física é uma responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Os clientes devem implementar medidas de segurança para suas aplicações e dados na AWS.",
+      "A AWS gerencia a segurança da rede e fornece ferramentas para monitoramento."
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é um exemplo de responsabilidade do cliente em um ambiente AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança do banco de dados no Amazon RDS",
+        "explicacao": "Correto! Os clientes são responsáveis pela segurança e configuração do banco de dados."
+      },
+      {
+        "texto": "Manter a infraestrutura física de servidores da AWS",
+        "explicacao": "A infraestrutura física é responsabilidade da AWS."
+      },
+      {
+        "texto": "Configurar os grupos de segurança para instâncias EC2",
+        "explicacao": "Correto! Os clientes configuram os grupos de segurança de suas instâncias."
+      },
+      {
+        "texto": "Proteger a segurança física dos datacenters da AWS",
+        "explicacao": "A segurança física é responsabilidade da AWS, não dos clientes."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a segurança do banco de dados no Amazon RDS",
+      "Configurar os grupos de segurança para instâncias EC2"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são algumas das responsabilidades compartilhadas entre os clientes e a AWS em um ambiente de nuvem? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Segurança dos dados armazenados na nuvem",
+        "explicacao": "Correto! A segurança dos dados é uma responsabilidade compartilhada."
+      },
+      {
+        "texto": "Manter a integridade física dos datacenters",
+        "explicacao": "A integridade física é responsabilidade da AWS."
+      },
+      {
+        "texto": "Configuração de firewall e regras de acesso",
+        "explicacao": "Correto! A configuração de firewall é uma responsabilidade do cliente."
+      },
+      {
+        "texto": "Atualização de software de infraestrutura da AWS",
+        "explicacao": "A AWS é responsável pela atualização do software de infraestrutura."
+      }
+    ],
+    "respostaCorreta": [
+      "Segurança dos dados armazenados na nuvem",
+      "Configuração de firewall e regras de acesso"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços pode ajudar os clientes a gerenciar suas responsabilidades de segurança na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "Correto! O AWS Security Hub agrega informações de segurança e fornece insights sobre as práticas de segurança."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "Correto! O AWS IAM ajuda os clientes a gerenciar o acesso e as permissões de segurança."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento e não gerencia responsabilidades de segurança diretamente."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O AWS CloudFormation é para gerenciamento de infraestrutura e não especificamente para segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Hub",
+      "AWS IAM"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como os clientes podem monitorar suas responsabilidades de segurança na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Usar o AWS CloudTrail para auditar atividades de API",
+        "explicacao": "Correto! O AWS CloudTrail registra e audita atividades em sua conta AWS."
+      },
+      {
+        "texto": "Depender apenas da segurança física da AWS",
+        "explicacao": "Os clientes não devem depender apenas da segurança física da AWS; devem implementar suas próprias medidas de segurança."
+      },
+      {
+        "texto": "Implementar alertas de segurança com Amazon CloudWatch",
+        "explicacao": "Correto! O Amazon CloudWatch pode ser usado para configurar alertas de segurança."
+      },
+      {
+        "texto": "Desativar todos os logs para evitar armazenamento excessivo",
+        "explicacao": "Desativar logs compromete a capacidade de monitoramento e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Usar o AWS CloudTrail para auditar atividades de API",
+      "Implementar alertas de segurança com Amazon CloudWatch"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que os clientes devem considerar ao gerenciar suas responsabilidades de segurança na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Avaliar regularmente a configuração de segurança das instâncias",
+        "explicacao": "Correto! A avaliação regular é crucial para manter a segurança."
+      },
+      {
+        "texto": "Depender exclusivamente dos serviços gerenciados da AWS",
+        "explicacao": "Os clientes não devem depender exclusivamente de serviços gerenciados para a segurança."
+      },
+      {
+        "texto": "Manter políticas de controle de acesso e autorização atualizadas",
+        "explicacao": "Correto! Manter políticas atualizadas é fundamental para a segurança."
+      },
+      {
+        "texto": "Desconsiderar as melhores práticas recomendadas de segurança",
+        "explicacao": "Ignorar as melhores práticas compromete a segurança e deve ser evitado."
+      }
+    ],
+    "respostaCorreta": [
+      "Avaliar regularmente a configuração de segurança das instâncias",
+      "Manter políticas de controle de acesso e autorização atualizadas"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as responsabilidades da AWS em relação à segurança da infraestrutura? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança física dos datacenters",
+        "explicacao": "Correto! A AWS é responsável pela segurança física dos seus datacenters."
+      },
+      {
+        "texto": "Gerenciar a configuração de segurança das instâncias EC2",
+        "explicacao": "Os clientes são responsáveis pela configuração de segurança de suas instâncias EC2."
+      },
+      {
+        "texto": "Fornecer segurança de rede para os serviços oferecidos",
+        "explicacao": "Correto! A AWS garante a segurança da rede que conecta os serviços."
+      },
+      {
+        "texto": "Gerar e gerenciar as chaves de criptografia dos dados do cliente",
+        "explicacao": "Os clientes são responsáveis por gerenciar suas próprias chaves de criptografia."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a segurança física dos datacenters",
+      "Fornecer segurança de rede para os serviços oferecidos"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Em que aspectos a AWS é responsável por garantir a conformidade? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Manter as certificações e auditorias necessárias dos serviços",
+        "explicacao": "Correto! A AWS mantém certificações e auditorias para demonstrar conformidade."
+      },
+      {
+        "texto": "Implementar controles de acesso nos dados do cliente",
+        "explicacao": "Os clientes são responsáveis por implementar controles de acesso nos dados."
+      },
+      {
+        "texto": "Gerenciar a segurança física e lógica da infraestrutura de nuvem",
+        "explicacao": "Correto! A AWS gerencia tanto a segurança física quanto a lógica de sua infraestrutura."
+      },
+      {
+        "texto": "Fornecer ferramentas para os clientes gerenciarem suas próprias auditorias",
+        "explicacao": "A AWS fornece ferramentas, mas a responsabilidade pela auditoria é do cliente."
+      }
+    ],
+    "respostaCorreta": [
+      "Manter as certificações e auditorias necessárias dos serviços",
+      "Gerenciar a segurança física e lógica da infraestrutura de nuvem"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais responsabilidades a AWS assume para garantir a segurança da rede? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a configuração de firewalls de rede",
+        "explicacao": "Os clientes gerenciam suas próprias configurações de firewall."
+      },
+      {
+        "texto": "Implementar controles de segurança na infraestrutura de rede",
+        "explicacao": "Correto! A AWS implementa controles de segurança na infraestrutura de rede."
+      },
+      {
+        "texto": "Fornecer suporte para VPNs e conexões de rede",
+        "explicacao": "Correto! A AWS fornece suporte para VPNs e conexões de rede seguras."
+      },
+      {
+        "texto": "Gerenciar a segurança dos dados armazenados em S3",
+        "explicacao": "Os clientes são responsáveis pela segurança dos dados armazenados no S3."
+      }
+    ],
+    "respostaCorreta": [
+      "Implementar controles de segurança na infraestrutura de rede",
+      "Fornecer suporte para VPNs e conexões de rede"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma das responsabilidades da AWS no modelo de responsabilidade compartilhada? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Manter a segurança física dos datacenters",
+        "explicacao": "Correto! A AWS é responsável pela segurança física dos datacenters."
+      },
+      {
+        "texto": "Gerenciar a segurança de todas as aplicações do cliente",
+        "explicacao": "Os clientes gerenciam a segurança de suas próprias aplicações."
+      },
+      {
+        "texto": "Fornecer proteção contra DDoS com AWS Shield",
+        "explicacao": "Correto! A AWS oferece proteção contra ataques DDoS através do AWS Shield."
+      },
+      {
+        "texto": "Gerar e manter os certificados de conformidade para os dados dos clientes",
+        "explicacao": "Os clientes são responsáveis pela conformidade de seus dados."
+      }
+    ],
+    "respostaCorreta": [
+      "Manter a segurança física dos datacenters",
+      "Fornecer proteção contra DDoS com AWS Shield"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais atividades a AWS realiza para garantir a segurança de seus serviços? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Realizar auditorias regulares de segurança em sua infraestrutura",
+        "explicacao": "Correto! A AWS realiza auditorias para garantir a segurança de sua infraestrutura."
+      },
+      {
+        "texto": "Proteger os dados dos clientes sem a necessidade de criptografia por parte deles",
+        "explicacao": "Os clientes devem criptografar seus próprios dados; a AWS fornece ferramentas, mas não assume essa responsabilidade."
+      },
+      {
+        "texto": "Implementar controles de acesso físico aos datacenters",
+        "explicacao": "Correto! A AWS implementa controles de acesso físico em seus datacenters."
+      },
+      {
+        "texto": "Gerenciar a segurança de rede de aplicações do cliente",
+        "explicacao": "Os clientes gerenciam a segurança de rede de suas próprias aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Realizar auditorias regulares de segurança em sua infraestrutura",
+      "Implementar controles de acesso físico aos datacenters"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Como a AWS ajuda a garantir a segurança da infraestrutura para os clientes? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Fornecendo certificações de segurança e conformidade",
+        "explicacao": "Correto! A AWS fornece certificações para demonstrar sua conformidade com padrões de segurança."
+      },
+      {
+        "texto": "Configurando automaticamente as instâncias dos clientes",
+        "explicacao": "Os clientes são responsáveis pela configuração de suas próprias instâncias."
+      },
+      {
+        "texto": "Oferecendo serviços como AWS Shield para proteção contra DDoS",
+        "explicacao": "Correto! O AWS Shield ajuda a proteger contra ataques DDoS."
+      },
+      {
+        "texto": "Gerenciando o software e aplicações do cliente",
+        "explicacao": "Os clientes são responsáveis por gerenciar seu próprio software e aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Fornecendo certificações de segurança e conformidade",
+      "Oferecendo serviços como AWS Shield para proteção contra DDoS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços a AWS fornece para ajudar os clientes a manter a segurança da infraestrutura? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "AWS Security Hub",
+        "explicacao": "Correto! O AWS Security Hub fornece uma visão centralizada da segurança em todos os serviços da AWS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento e não é especificamente focado em segurança."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "Correto! O AWS CloudTrail ajuda os clientes a monitorar e auditar atividades em sua conta."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação e, embora possa ter aspectos de segurança, não é um serviço especificamente de segurança."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Security Hub",
+      "AWS CloudTrail"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são algumas das medidas que a AWS toma para proteger sua infraestrutura? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Implementar criptografia de dados em trânsito",
+        "explicacao": "Correto! A AWS implementa criptografia de dados em trânsito como parte de suas medidas de segurança."
+      },
+      {
+        "texto": "Gerenciar a criptografia de dados dos clientes",
+        "explicacao": "Os clientes são responsáveis pela criptografia de seus próprios dados."
+      },
+      {
+        "texto": "Utilizar tecnologia de monitoramento de segurança em tempo real",
+        "explicacao": "Correto! A AWS utiliza tecnologia de monitoramento em tempo real para segurança."
+      },
+      {
+        "texto": "Proteger a segurança lógica dos datacenters",
+        "explicacao": "Correto! A AWS é responsável pela segurança lógica de seus datacenters."
+      }
+    ],
+    "respostaCorreta": [
+      "Implementar criptografia de dados em trânsito",
+      "Utilizar tecnologia de monitoramento de segurança em tempo real"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que a AWS fornece para ajudar os clientes a entender suas responsabilidades em segurança? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Documentação detalhada sobre o modelo de responsabilidade compartilhada",
+        "explicacao": "Correto! A AWS fornece documentação sobre o modelo de responsabilidade compartilhada."
+      },
+      {
+        "texto": "Suporte técnico para todos os serviços gerenciados",
+        "explicacao": "Embora a AWS forneça suporte técnico, a responsabilidade pela segurança ainda é do cliente."
+      },
+      {
+        "texto": "Recursos de treinamento e educação sobre segurança",
+        "explicacao": "Correto! A AWS oferece recursos de treinamento sobre segurança e conformidade."
+      },
+      {
+        "texto": "Relatórios de auditoria para os clientes",
+        "explicacao": "Os clientes devem conduzir suas próprias auditorias, mas a AWS oferece informações que podem ajudar."
+      }
+    ],
+    "respostaCorreta": [
+      "Documentação detalhada sobre o modelo de responsabilidade compartilhada",
+      "Recursos de treinamento e educação sobre segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as responsabilidades do cliente em relação à segurança dos dados na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a criptografia de dados armazenados",
+        "explicacao": "Correto! O cliente é responsável por gerenciar a criptografia dos dados que armazena."
+      },
+      {
+        "texto": "Proteger a segurança física dos datacenters da AWS",
+        "explicacao": "Incorreto. A AWS é responsável pela segurança física dos datacenters."
+      },
+      {
+        "texto": "Configurar controles de acesso adequados",
+        "explicacao": "Correto! O cliente deve configurar os controles de acesso para seus recursos na AWS."
+      },
+      {
+        "texto": "Realizar a manutenção do hardware da infraestrutura da AWS",
+        "explicacao": "Incorreto. A AWS é responsável pela manutenção do hardware."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a criptografia de dados armazenados",
+      "Configurar controles de acesso adequados"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade crítica do cliente em relação à conformidade na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerar relatórios de auditoria para suas aplicações",
+        "explicacao": "Correto! Os clientes devem gerar relatórios de auditoria para suas aplicações na AWS."
+      },
+      {
+        "texto": "Fornecer segurança física aos datacenters da AWS",
+        "explicacao": "Incorreto. A segurança física é responsabilidade da AWS."
+      },
+      {
+        "texto": "Gerenciar as permissões de usuários e grupos",
+        "explicacao": "Correto! O cliente deve gerenciar as permissões de acesso de usuários e grupos."
+      },
+      {
+        "texto": "Manter a infraestrutura de hardware da AWS",
+        "explicacao": "Incorreto. A AWS é responsável pela manutenção de sua infraestrutura de hardware."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerar relatórios de auditoria para suas aplicações",
+      "Gerenciar as permissões de usuários e grupos"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais responsabilidades o cliente tem em relação à segurança de suas instâncias EC2? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Configurar as regras de firewall usando grupos de segurança",
+        "explicacao": "Correto! O cliente é responsável por configurar as regras de firewall das suas instâncias EC2."
+      },
+      {
+        "texto": "Proteger a infraestrutura física das instâncias",
+        "explicacao": "Incorreto. A AWS cuida da segurança física da infraestrutura."
+      },
+      {
+        "texto": "Instalar e gerenciar atualizações de software",
+        "explicacao": "Correto! O cliente deve instalar e gerenciar as atualizações de software nas instâncias."
+      },
+      {
+        "texto": "Implementar a segurança lógica dos datacenters",
+        "explicacao": "Incorreto. A AWS é responsável pela segurança lógica dos datacenters."
+      }
+    ],
+    "respostaCorreta": [
+      "Configurar as regras de firewall usando grupos de segurança",
+      "Instalar e gerenciar atualizações de software"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais ações devem ser tomadas pelos clientes para garantir a segurança da rede na AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Configurar VPNs para conexões seguras",
+        "explicacao": "Correto! Os clientes devem configurar VPNs para garantir conexões seguras."
+      },
+      {
+        "texto": "Fornecer segurança física aos datacenters da AWS",
+        "explicacao": "Incorreto. A segurança física é responsabilidade da AWS."
+      },
+      {
+        "texto": "Gerenciar os endereços IP de suas instâncias",
+        "explicacao": "Correto! O cliente deve gerenciar os endereços IP e a configuração de rede de suas instâncias."
+      },
+      {
+        "texto": "Realizar a manutenção do hardware da AWS",
+        "explicacao": "Incorreto. A AWS cuida da manutenção do hardware."
+      }
+    ],
+    "respostaCorreta": [
+      "Configurar VPNs para conexões seguras",
+      "Gerenciar os endereços IP de suas instâncias"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "O que é uma responsabilidade do cliente ao usar o AWS Identity and Access Management (IAM)? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Criar e gerenciar usuários e grupos",
+        "explicacao": "Correto! O cliente deve criar e gerenciar usuários e grupos no IAM."
+      },
+      {
+        "texto": "Garantir a segurança física dos servidores IAM",
+        "explicacao": "Incorreto. A AWS é responsável pela segurança física."
+      },
+      {
+        "texto": "Definir políticas de acesso para recursos",
+        "explicacao": "Correto! O cliente deve definir políticas de acesso para controlar o acesso aos recursos."
+      },
+      {
+        "texto": "Monitorar a segurança dos datacenters da AWS",
+        "explicacao": "Incorreto. A segurança dos datacenters é responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Criar e gerenciar usuários e grupos",
+      "Definir políticas de acesso para recursos"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade do cliente em relação à proteção dos dados? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Implementar criptografia para dados em repouso",
+        "explicacao": "Correto! O cliente é responsável por implementar criptografia para proteger os dados em repouso."
+      },
+      {
+        "texto": "Gerenciar a segurança física dos datacenters",
+        "explicacao": "Incorreto. A segurança física é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Definir políticas de backup e recuperação de dados",
+        "explicacao": "Correto! O cliente deve definir políticas para backup e recuperação de seus dados."
+      },
+      {
+        "texto": "Proteger a segurança lógica da infraestrutura da AWS",
+        "explicacao": "Incorreto. A AWS gerencia a segurança lógica da infraestrutura."
+      }
+    ],
+    "respostaCorreta": [
+      "Implementar criptografia para dados em repouso",
+      "Definir políticas de backup e recuperação de dados"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais responsabilidades o cliente tem em relação ao monitoramento e auditoria? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Usar AWS CloudTrail para monitorar atividades na conta",
+        "explicacao": "Correto! O cliente deve usar o AWS CloudTrail para monitorar e auditar atividades."
+      },
+      {
+        "texto": "Realizar auditorias de segurança nos datacenters da AWS",
+        "explicacao": "Incorreto. A AWS realiza auditorias em seus datacenters."
+      },
+      {
+        "texto": "Gerar logs de acesso e eventos das aplicações",
+        "explicacao": "Correto! O cliente deve gerar logs de acesso e eventos para suas aplicações."
+      },
+      {
+        "texto": "Proteger a infraestrutura física da AWS",
+        "explicacao": "Incorreto. A proteção da infraestrutura física é uma responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Usar AWS CloudTrail para monitorar atividades na conta",
+      "Gerar logs de acesso e eventos das aplicações"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são algumas responsabilidades do cliente em um ambiente de nuvem AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar e configurar segurança de redes e sub-redes",
+        "explicacao": "Correto! O cliente é responsável por gerenciar a segurança de suas redes."
+      },
+      {
+        "texto": "Fornecer proteção física aos datacenters",
+        "explicacao": "Incorreto. A proteção física é uma responsabilidade da AWS."
+      },
+      {
+        "texto": "Controlar e proteger dados em trânsito",
+        "explicacao": "Correto! O cliente deve garantir a proteção dos dados em trânsito."
+      },
+      {
+        "texto": "Gerenciar a segurança lógica dos servidores AWS",
+        "explicacao": "Incorreto. A segurança lógica é responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar e configurar segurança de redes e sub-redes",
+      "Controlar e proteger dados em trânsito"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais responsabilidades o cliente deve ter ao usar o AWS Config? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Definir e aplicar regras de conformidade",
+        "explicacao": "Correto! O cliente deve definir e aplicar regras de conformidade usando o AWS Config."
+      },
+      {
+        "texto": "Garantir a segurança física do AWS Config",
+        "explicacao": "Incorreto. A segurança física é responsabilidade da AWS."
+      },
+      {
+        "texto": "Auditar e monitorar as configurações de recursos",
+        "explicacao": "Correto! O cliente deve auditar e monitorar as configurações de seus recursos."
+      },
+      {
+        "texto": "Proteger a segurança lógica do AWS Config",
+        "explicacao": "Incorreto. A segurança lógica é responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Definir e aplicar regras de conformidade",
+      "Auditar e monitorar as configurações de recursos"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual das seguintes responsabilidades é da AWS no Modelo de Responsabilidade Compartilhada? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Manutenção da segurança física dos datacenters",
+        "explicacao": "Correto! A AWS é responsável pela segurança física dos datacenters."
+      },
+      {
+        "texto": "Criptografia de dados em trânsito",
+        "explicacao": "Incorreto. O cliente deve gerenciar a criptografia de dados em trânsito."
+      },
+      {
+        "texto": "Gerenciamento da segurança da infraestrutura subjacente",
+        "explicacao": "Correto! A AWS gerencia a segurança da infraestrutura que suporta os serviços."
+      },
+      {
+        "texto": "Gerenciamento das permissões de acesso a recursos",
+        "explicacao": "Incorreto. O cliente é responsável por gerenciar as permissões de acesso."
+      }
+    ],
+    "respostaCorreta": [
+      "Manutenção da segurança física dos datacenters",
+      "Gerenciamento da segurança da infraestrutura subjacente"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "No Modelo de Responsabilidade Compartilhada da AWS, qual responsabilidade é do cliente? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança de suas aplicações",
+        "explicacao": "Correto! O cliente é responsável por gerenciar a segurança de suas aplicações na AWS."
+      },
+      {
+        "texto": "Proteger a rede elétrica dos datacenters",
+        "explicacao": "Incorreto. A AWS é responsável pela segurança física dos datacenters, incluindo a rede elétrica."
+      },
+      {
+        "texto": "Configurar e aplicar regras de firewall",
+        "explicacao": "Correto! O cliente deve configurar e aplicar regras de firewall para seus recursos."
+      },
+      {
+        "texto": "Realizar manutenção do hardware da AWS",
+        "explicacao": "Incorreto. A manutenção do hardware é responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a segurança de suas aplicações",
+      "Configurar e aplicar regras de firewall"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade da AWS em relação à conformidade e segurança? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Garantir a segurança física das instalações",
+        "explicacao": "Correto! A AWS é responsável pela segurança física das instalações onde os serviços são hospedados."
+      },
+      {
+        "texto": "Gerenciar as credenciais dos usuários",
+        "explicacao": "Incorreto. O cliente é responsável por gerenciar as credenciais de seus usuários."
+      },
+      {
+        "texto": "Realizar auditorias de segurança nos serviços",
+        "explicacao": "Correto! A AWS realiza auditorias de segurança em seus serviços para garantir conformidade."
+      },
+      {
+        "texto": "Implementar a segurança lógica dos servidores",
+        "explicacao": "Incorreto. A AWS é responsável pela segurança lógica da infraestrutura, enquanto o cliente protege suas aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Garantir a segurança física das instalações",
+      "Realizar auditorias de segurança nos serviços"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Em que aspecto o cliente é responsável de acordo com o Modelo de Responsabilidade Compartilhada da AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar as chaves de criptografia",
+        "explicacao": "Correto! O cliente é responsável por gerenciar suas chaves de criptografia."
+      },
+      {
+        "texto": "Garantir a segurança física dos datacenters",
+        "explicacao": "Incorreto. A segurança física é responsabilidade da AWS."
+      },
+      {
+        "texto": "Configurar a proteção contra DDoS",
+        "explicacao": "Correto! O cliente deve implementar proteções adequadas contra DDoS em suas aplicações."
+      },
+      {
+        "texto": "Instalar atualizações de hardware nos servidores da AWS",
+        "explicacao": "Incorreto. A AWS cuida da manutenção de hardware."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar as chaves de criptografia",
+      "Configurar a proteção contra DDoS"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais responsabilidades estão incluídas no Modelo de Responsabilidade Compartilhada da AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar logs de acesso a recursos",
+        "explicacao": "Correto! O cliente deve gerenciar e monitorar logs de acesso a recursos."
+      },
+      {
+        "texto": "Realizar manutenção do software de virtualização",
+        "explicacao": "Incorreto. A AWS é responsável pela manutenção do software de virtualização."
+      },
+      {
+        "texto": "Configurar controles de acesso em suas aplicações",
+        "explicacao": "Correto! O cliente deve configurar controles de acesso em suas aplicações."
+      },
+      {
+        "texto": "Proteger a segurança física dos datacenters da AWS",
+        "explicacao": "Incorreto. A segurança física é uma responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar logs de acesso a recursos",
+      "Configurar controles de acesso em suas aplicações"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais elementos estão sob a responsabilidade da AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Segurança física dos datacenters",
+        "explicacao": "Correto! A AWS é responsável pela segurança física dos datacenters."
+      },
+      {
+        "texto": "Gerenciamento de usuários e permissões",
+        "explicacao": "Incorreto. O cliente gerencia usuários e permissões."
+      },
+      {
+        "texto": "Atualizações de software de infraestrutura",
+        "explicacao": "Correto! A AWS gerencia as atualizações de software de infraestrutura."
+      },
+      {
+        "texto": "Configuração de firewalls de aplicativos",
+        "explicacao": "Incorreto. O cliente deve configurar firewalls de aplicativos."
+      }
+    ],
+    "respostaCorreta": [
+      "Segurança física dos datacenters",
+      "Atualizações de software de infraestrutura"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais responsabilidades o cliente deve assumir ao utilizar serviços AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança de suas aplicações",
+        "explicacao": "Correto! O cliente deve gerenciar a segurança de suas aplicações na AWS."
+      },
+      {
+        "texto": "Manter o hardware dos servidores AWS",
+        "explicacao": "Incorreto. A AWS mantém o hardware dos servidores."
+      },
+      {
+        "texto": "Configurar e aplicar políticas de segurança",
+        "explicacao": "Correto! O cliente deve configurar e aplicar políticas de segurança para seus recursos."
+      },
+      {
+        "texto": "Proteger a infraestrutura física da AWS",
+        "explicacao": "Incorreto. A proteção da infraestrutura física é responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a segurança de suas aplicações",
+      "Configurar e aplicar políticas de segurança"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual é uma responsabilidade do cliente ao usar a AWS? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Configurar a segurança de rede",
+        "explicacao": "Correto! O cliente é responsável por configurar a segurança de rede para seus recursos."
+      },
+      {
+        "texto": "Realizar manutenção física dos datacenters",
+        "explicacao": "Incorreto. A AWS cuida da manutenção física dos datacenters."
+      },
+      {
+        "texto": "Implementar controles de acesso a dados",
+        "explicacao": "Correto! O cliente deve implementar controles de acesso para proteger seus dados."
+      },
+      {
+        "texto": "Manter a segurança lógica dos serviços AWS",
+        "explicacao": "Incorreto. A segurança lógica é responsabilidade da AWS."
+      }
+    ],
+    "respostaCorreta": [
+      "Configurar a segurança de rede",
+      "Implementar controles de acesso a dados"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais são as responsabilidades da AWS de acordo com o Modelo de Responsabilidade Compartilhada? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança do hardware",
+        "explicacao": "Correto! A AWS gerencia a segurança do hardware e da infraestrutura."
+      },
+      {
+        "texto": "Gerenciar as permissões de acesso a dados",
+        "explicacao": "Incorreto. O cliente gerencia as permissões de acesso a dados."
+      },
+      {
+        "texto": "Proteger a integridade dos serviços",
+        "explicacao": "Correto! A AWS é responsável por proteger a integridade dos serviços que oferece."
+      },
+      {
+        "texto": "Controlar a segurança das aplicações do cliente",
+        "explicacao": "Incorreto. O cliente deve controlar a segurança de suas aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Gerenciar a segurança do hardware",
+      "Proteger a integridade dos serviços"
+    ],
+    "dominio": "Segurança e conformidade",
+    "tipo": "multiple"
   }
 ]

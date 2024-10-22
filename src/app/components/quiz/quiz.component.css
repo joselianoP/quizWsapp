@@ -1,5 +1,4 @@
-/* src/app/components/quiz/quiz.component.css */
-
+/* Estilos gerais para telas grandes (desktop) */
 :host {
   display: block;
   margin: 20px auto;
@@ -10,16 +9,16 @@
 }
 
 ul {
-  list-style-type: none; /* Remove o estilo padrão de lista (sem bullets) */
+  list-style-type: none;
   padding-left: 0;
-  margin-top: 0; /* Remove o espaçamento superior */
+  margin-top: 0;
 }
 
 li {
-  font-size: 1rem; /* Tamanho de texto moderado */
-  color: #9e9e9e; /* Cor cinza para itens da legenda */
-  margin: 3px 0; /* Espaçamento menor entre os itens */
-  text-align: left; /* Centraliza o texto da lista */
+  font-size: 1rem;
+  color: #9e9e9e;
+  margin: 3px 0;
+  text-align: left;
 }
 
 .question {
@@ -36,7 +35,7 @@ li {
   font-size: 1rem;
   font-weight: bold;
   color: #ffffff;
-  background-color: #6366f1; /* cor do botão de enviar */
+  background-color: #6366f1;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -52,27 +51,28 @@ li {
 .feedback {
   margin-top: 20px;
   font-size: 1rem;
-  color: #dc2626; /* cor do feedback */
+  color: #dc2626;
   text-align: center;
 }
 
 .nao-clicavel {
-  pointer-events: none; /* Impede a interação com o elemento */
+  pointer-events: none;
 }
 
 .correta {
-  color: green; /* Cor para respostas corretas */
+  color: green;
   font-weight: bold;
 }
 
 .incorreta {
-  color: red; /* Cor para respostas incorretas */
-  text-decoration: line-through; /* Riscar as opções incorretas */
+  color: red;
+  text-decoration: line-through;
 }
+
 .quiz-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Alinha os itens à esquerda */
+  align-items: flex-start;
 }
 
 mat-radio-group {
@@ -81,160 +81,158 @@ mat-radio-group {
 }
 
 mat-radio-button {
-  margin-bottom: 10px; /* Para adicionar espaço entre os botões */
+  margin-bottom: 10px;
 }
 
 .verificar-respostas {
-  margin-bottom: 20px; /* Espaço entre o botão e as perguntas */
-  padding: 10px 20px; /* Espaçamento interno do botão */
-  font-size: 16px; /* Tamanho da fonte */
-  background-color: #007bff; /* Cor de fundo do botão */
-  color: white; /* Cor do texto */
-  border: none; /* Sem borda */
-  border-radius: 5px; /* Bordas arredondadas */
-  cursor: pointer; /* Cursor pointer ao passar o mouse */
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Ocultar os elementos padrão dos botões de rádio e checkboxes */
 input[type="radio"],
 input[type="checkbox"] {
-  display: none; /* Esconde o input padrão */
+  display: none;
 }
 
 /* Estilo para o container do botão de rádio e checkbox */
 input[type="radio"] + span,
 input[type="checkbox"] + span {
-  display: inline-block; /* Para manter o texto ao lado do círculo ou quadrado */
-  cursor: pointer; /* Indica que é clicável */
-  margin-bottom: 10px; /* Espaçamento entre as opções */
-  padding-left: 30px; /* Espaço à esquerda do texto */
-  position: relative; /* Para posicionamento do círculo/quadrado */
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
 }
 
 /* Círculo do botão de rádio */
 input[type="radio"] + span:before {
   content: "";
   position: absolute;
-  left: 0; /* Alinha à esquerda */
-  top: 50%; /* Centraliza verticalmente */
-  transform: translateY(-50%); /* Ajusta para o centro */
-  width: 20px; /* Tamanho do círculo */
-  height: 20px; /* Tamanho do círculo */
-  border-radius: 50%; /* Forma redonda */
-  border: 2px solid #007bff; /* Cor da borda do círculo */
-  background-color: white; /* Cor de fundo do círculo */
-  transition: background-color 0.3s; /* Efeito de transição */
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  background-color: white;
+  transition: background-color 0.3s;
 }
 
 /* Estilo quando o botão de rádio está selecionado */
 input[type="radio"]:checked + span:before {
-  background-color: #007bff; /* Cor de fundo quando selecionado */
+  background-color: #007bff;
 }
 
 /* Círculo do checkbox */
 input[type="checkbox"] + span:before {
   content: "";
   position: absolute;
-  left: 0; /* Alinha à esquerda */
-  top: 50%; /* Centraliza verticalmente */
-  transform: translateY(-50%); /* Ajusta para o centro */
-  width: 20px; /* Tamanho do quadrado */
-  height: 20px; /* Tamanho do quadrado */
-  border: 2px solid #007bff; /* Cor da borda do quadrado */
-  background-color: white; /* Cor de fundo do quadrado */
-  transition: background-color 0.3s; /* Efeito de transição */
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  background-color: white;
+  transition: background-color 0.3s;
 }
 
 /* Estilo quando o checkbox está selecionado */
 input[type="checkbox"]:checked + span:before {
-  background-color: #007bff; /* Cor de fundo quando selecionado */
+  background-color: #007bff;
 }
 
 /* Adiciona um efeito ao container quando o mouse está sobre ele */
 input[type="radio"] + span:hover:before,
 input[type="checkbox"] + span:hover:before {
-  border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  border-color: #0056b3;
 }
 
 /* Estilo do texto do label */
 span {
-  color: #333; /* Cor do texto */
+  color: #333;
 }
 
 .verificar-respostas-btn {
-  background-color: #4caf50; /* Verde */
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 10px 2px;
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  float: right; /* Alinha à esquerda */
+  float: right;
 }
 
 .verificar-respostas-btn:hover {
-  background-color: #45a049; /* Cor mais escura ao passar o mouse */
+  background-color: #45a049;
 }
 
 .verificar-respostas-btn:active {
-  background-color: #3e8e41; /* Cor ao clicar */
+  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-/* Estilo para o botão desativado */
 .verificar-respostas-btn:disabled {
-  background-color: #ccc; /* Cor do botão desativado */
-  cursor: not-allowed; /* Cursor de "não permitido" */
-  color: #666; /* Cor do texto no botão desativado */
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
 }
 
 .question-counter {
-  float: right; /* Posiciona no lado direito */
+  float: right;
   text-align: right;
-  margin: 0px; /* Ajusta o espaçamento à direita */
+  margin: 0px;
   font: 100 2.25rem / 2.75rem Roboto, sans-serif !important;
-  font-size: 16px !important; /* Diminui o tamanho da fonte */
+  font-size: 16px !important;
 }
 
 .small-font {
-  font-size: 16px; /* Ajuste o tamanho de acordo com sua necessidade */
+  font-size: 16px;
 }
 
 .tituloCentralizado h1 {
   display: flex;
-  justify-content: center; /* Alinha horizontalmente */
-  align-items: center; /* Alinha verticalmente, se necessário */
+  justify-content: center;
+  align-items: center;
   font: 500 2.562rem / 4rem Roboto, sans-serif !important;
 }
 
 .tituloLegenda {
-  margin-top: 20px; /* Espaçamento acima da legenda */
+  margin-top: 20px;
   text-align: left;
-  font: 1 1.022rem / 1px Roboto, sans-serif !important ;
+  font: 1 1.022rem / 1px Roboto, sans-serif !important;
 }
 
 .listaLegenda li {
-  list-style-type: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o preenchimento padrão */
-  text-align: left; /* Centraliza a lista */
-  font-size: 12px; /* Tamanho da legenda */
-  color: gray; /* Cor da legenda */
-  margin: 1px; /* Espaçamento acima da legenda */
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  font-size: 12px;
+  color: gray;
+  margin: 1px;
 }
 
 .table-container {
   width: 90%;
-  margin: 0 auto; /* Centraliza a tabela na página */
+  margin: 0 auto;
 }
 
 .table-container table {
-  width: 100%; /* A tabela ocupa todo o espaço do contêiner */
+  width: 100%;
   border-collapse: collapse;
   text-align: left;
 }
@@ -242,32 +240,108 @@ span {
 .table-container th,
 .table-container td {
   padding: 12px;
-  border: 1px solid #ddd; /* Adiciona bordas */
+  border: 1px solid #ddd;
 }
 
 .table-container th {
-  background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
+  background-color: #f2f2f2;
 }
+
 .resultados-title {
-  font-size: 1.5rem; /* Ajuste o tamanho conforme desejado */
-  text-align: center; /* Centraliza o título, opcional */
-  margin-bottom: -10px; /* Ajusta o espaçamento inferior */
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: -10px;
 }
 
 .explicacao {
-  font-size: 0.9em; /* Ajuste o tamanho da fonte conforme necessário */
-  color: #666; /* Cor da fonte para a explicação */
-  margin-left:45px; /* Espaçamento acima da explicação */
-  margin-right:15px;
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 45px;
+  margin-right: 15px;
   margin-top: -10px;
   background: #dfe9f5;
 }
 
-
 .explicacaoRadio {
-  font-size: 0.9em; /* Ajuste o tamanho da fonte conforme necessário */
-  color: #666; /* Cor da fonte para a explicação */
-  margin-left:5px; /* Espaçamento acima da explicação */
-  margin-right:15px;
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 5px;
+  margin-right: 15px;
   background: #dfe9f5;
+}
+
+/* Responsividade */
+
+/* Para telas menores que 768px (tablets e smartphones) */
+@media (max-width: 768px) {
+  :host {
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .question {
+    font-size: 1.1rem;
+  }
+
+  .submit-btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  .verificar-respostas-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .table-container {
+    width: 100%;
+  }
+
+  .question-counter {
+    font-size: 14px !important;
+  }
+
+.tituloCentralizado h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 500 2.562rem / 2rem Roboto, sans-serif !important;
+}
+}
+
+/* Para telas muito pequenas, como smartphones (480px ou menos) */
+@media (max-width: 480px) {
+  :host {
+    padding: 10px;
+  }
+
+  .question {
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+
+  .verificar-respostas-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .table-container th,
+  .table-container td {
+    padding: 8px;
+  }
+
+  .question-counter {
+    font-size: 12px !important;
+  }
+
+.tituloCentralizado h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 500 2.562rem / 1rem Roboto, sans-serif !important;
+}
 }

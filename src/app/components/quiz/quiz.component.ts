@@ -129,30 +129,34 @@ export class QuizComponent implements OnInit {
 
   verificarResposta() {
     const pergunta = this.perguntas[this.currentQuestionIndex];
-    //const respostaCorreta = pergunta.respostaCorreta;
     const respostaSelecionada =
       this.respostasSelecionadas[this.currentQuestionIndex];
 
-    this.respostasVerificadas[this.currentQuestionIndex] = true;
+    if (respostaSelecionada == undefined) {
+      alert('Por favor, responda a pergunta ');
+      return;
+    } else {
+      this.respostasVerificadas[this.currentQuestionIndex] = true;
 
-    const respostaCorreta = Array.isArray(pergunta.respostaCorreta)
-      ? pergunta.respostaCorreta.sort()
-      : [pergunta.respostaCorreta];
+      const respostaCorreta = Array.isArray(pergunta.respostaCorreta)
+        ? pergunta.respostaCorreta.sort()
+        : [pergunta.respostaCorreta];
 
-    const respSelecionada = Array.isArray(respostaSelecionada)
-      ? respostaSelecionada.sort()
-      : [respostaSelecionada];
+      const respSelecionada = Array.isArray(respostaSelecionada)
+        ? respostaSelecionada.sort()
+        : [respostaSelecionada];
 
-    // Armazena as informações de corretude
-    this.respostasCorretas[this.currentQuestionIndex] = pergunta.opcoes.map(
-      (opcao) =>
-        Array.isArray(respostaCorreta)
-          ? respostaCorreta.includes(opcao.texto)
-          : opcao.texto === respostaCorreta
-    );
+      // Armazena as informações de corretude
+      this.respostasCorretas[this.currentQuestionIndex] = pergunta.opcoes.map(
+        (opcao) =>
+          Array.isArray(respostaCorreta)
+            ? respostaCorreta.includes(opcao.texto)
+            : opcao.texto === respostaCorreta
+      );
 
-    if (JSON.stringify(respostaCorreta) === JSON.stringify(respSelecionada)) {
-      this.acertos++;
+      if (JSON.stringify(respostaCorreta) === JSON.stringify(respSelecionada)) {
+        this.acertos++;
+      }
     }
   }
 
