@@ -9621,5 +9621,221 @@
     "respostaCorreta": "Amazon CloudWatch",
     "dominio": "Conceitos da nuvem",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é um banco de dados relacional gerenciado?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS (Relational Database Service) é um serviço gerenciado para bancos de dados relacionais."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é um banco de dados NoSQL, não relacional."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS é um serviço de orquestração de contêineres, não um banco de dados."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS é um serviço de orquestração de Kubernetes, não um banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é utilizado para orquestrar contêineres Docker?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS (Elastic Container Service) é o serviço da AWS para orquestração de contêineres Docker."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados, não de orquestração de contêineres."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento de objetos, não de orquestração de contêineres."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é um banco de dados NoSQL, não um serviço de orquestração."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para executar clusters Kubernetes?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS (Elastic Kubernetes Service) é um serviço gerenciado para executar clusters Kubernetes."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados, não um serviço de Kubernetes."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento e não lida com Kubernetes."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Amazon EC2 fornece instâncias de computação, mas não é específico para Kubernetes."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é um banco de dados NoSQL gerenciado?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é um banco de dados NoSQL totalmente gerenciado pela AWS."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados relacional, não NoSQL."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS é um serviço de orquestração de contêineres, não um banco de dados."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS é um serviço de Kubernetes, não um banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon DynamoDB",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite o dimensionamento automático de contêineres?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS permite o dimensionamento automático de contêineres baseando-se na demanda de tráfego."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS oferece recursos de dimensionamento, mas é para bancos de dados, não para contêineres."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Amazon S3 é um serviço de armazenamento e não é usado para dimensionamento de contêineres."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB oferece escalabilidade, mas não se relaciona diretamente com contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece suporte a transações ACID?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS oferece suporte a transações ACID, garantindo a integridade dos dados."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB oferece suporte a transações, mas com algumas limitações em comparação com RDS."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS é um serviço de orquestração de contêineres e não oferece suporte a transações ACID."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS é um serviço de Kubernetes, que não está diretamente relacionado a transações ACID."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual dos serviços abaixo é ideal para armazenamento de dados em larga escala e com alta disponibilidade?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é ideal para armazenamento de dados em larga escala e oferece alta disponibilidade."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um banco de dados relacional, mas pode não ser ideal para grandes volumes não estruturados."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS é um serviço de orquestração de contêineres e não é um serviço de armazenamento."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS é um serviço de Kubernetes e não é um serviço de armazenamento de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon DynamoDB",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço pode ser usado para implantar aplicações em contêineres usando Kubernetes?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS permite implantar e gerenciar aplicações em contêineres usando Kubernetes."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é um serviço de banco de dados, não de implantação de contêineres."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS também pode implantar contêineres, mas não usa Kubernetes."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é um banco de dados e não é usado para implantação de aplicações."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para aplicações que exigem uma arquitetura sem servidor?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Amazon DynamoDB é uma boa escolha para aplicações sem servidor devido à sua escalabilidade automática."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Amazon RDS é usado para bancos de dados, mas não é especificamente uma arquitetura sem servidor."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Amazon ECS pode ser usado com uma arquitetura sem servidor, mas não é uma solução sem servidor por si só."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Amazon EKS é um serviço de Kubernetes, que não se encaixa no conceito de arquitetura sem servidor."
+      }
+    ],
+    "respostaCorreta": "Amazon DynamoDB",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "multiple"
   }
 ]
