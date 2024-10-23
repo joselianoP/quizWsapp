@@ -25163,5 +25163,485 @@
     "respostaCorreta": "O custo da solução",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios dos locais de borda na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Aumento da latência para usuários finais",
+        "explicacao": "Incorreto. Os locais de borda visam reduzir a latência, não aumentá-la."
+      },
+      {
+        "texto": "Melhoria na experiência do usuário com tempos de resposta mais rápidos",
+        "explicacao": "Correto! Os locais de borda permitem que os dados sejam processados mais próximos dos usuários."
+      },
+      {
+        "texto": "Maior necessidade de infraestrutura centralizada",
+        "explicacao": "Incorreto. Os locais de borda reduzem a dependência de infraestrutura centralizada."
+      },
+      {
+        "texto": "Redução da segurança dos dados",
+        "explicacao": "Incorreto. Os locais de borda podem melhorar a segurança com proteção local."
+      }
+    ],
+    "respostaCorreta": "Melhoria na experiência do usuário com tempos de resposta mais rápidos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os locais de borda ajudam a reduzir os custos de largura de banda?",
+    "opcoes": [
+      {
+        "texto": "Movendo a maior parte do tráfego para o núcleo da rede",
+        "explicacao": "Incorreto. Os locais de borda processam dados localmente, reduzindo a necessidade de tráfego para o núcleo."
+      },
+      {
+        "texto": "Permitindo que mais dados sejam enviados para a nuvem",
+        "explicacao": "Incorreto. Eles minimizam a quantidade de dados que precisam ser enviados para a nuvem."
+      },
+      {
+        "texto": "Minimizando a transferência de dados entre regiões",
+        "explicacao": "Correto! Isso reduz os custos de largura de banda ao evitar transferências longas."
+      },
+      {
+        "texto": "Eliminando a necessidade de qualquer transferência de dados",
+        "explicacao": "Incorreto. Algumas transferências ainda são necessárias, mas são minimizadas."
+      }
+    ],
+    "respostaCorreta": "Minimizando a transferência de dados entre regiões",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos impactos dos locais de borda na latência?",
+    "opcoes": [
+      {
+        "texto": "Aumento da latência devido a mais hops na rede",
+        "explicacao": "Incorreto. Os locais de borda diminuem a latência, processando dados mais próximos do usuário."
+      },
+      {
+        "texto": "Redução da latência devido ao processamento local",
+        "explicacao": "Correto! O processamento local nos locais de borda resulta em tempos de resposta mais rápidos."
+      },
+      {
+        "texto": "Latência irrelevante em locais de borda",
+        "explicacao": "Incorreto. A latência ainda é um fator importante a ser considerado."
+      },
+      {
+        "texto": "Latência aumentada durante picos de tráfego",
+        "explicacao": "Incorreto. Os locais de borda ajudam a distribuir a carga, reduzindo a latência durante picos."
+      }
+    ],
+    "respostaCorreta": "Redução da latência devido ao processamento local",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os locais de borda melhoram a resiliência da aplicação?",
+    "opcoes": [
+      {
+        "texto": "Eliminando completamente a necessidade de redundância",
+        "explicacao": "Incorreto. A redundância ainda é importante para a resiliência."
+      },
+      {
+        "texto": "Distribuindo a carga de trabalho em várias localizações",
+        "explicacao": "Correto! Isso aumenta a resiliência ao permitir que a aplicação continue funcionando mesmo se uma localidade falhar."
+      },
+      {
+        "texto": "Centralizando o processamento de dados em um único local",
+        "explicacao": "Incorreto. A centralização pode criar um único ponto de falha."
+      },
+      {
+        "texto": "Aumentando o tempo de resposta da aplicação",
+        "explicacao": "Incorreto. Os locais de borda visam melhorar o tempo de resposta."
+      }
+    ],
+    "respostaCorreta": "Distribuindo a carga de trabalho em várias localizações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos benefícios de segurança dos locais de borda?",
+    "opcoes": [
+      {
+        "texto": "Menos controle sobre os dados",
+        "explicacao": "Incorreto. Os locais de borda podem oferecer mais controle sobre onde os dados são processados."
+      },
+      {
+        "texto": "Processamento local reduzindo a exposição dos dados",
+        "explicacao": "Correto! O processamento local pode ajudar a proteger dados sensíveis."
+      },
+      {
+        "texto": "Maior latência, tornando os dados mais difíceis de acessar",
+        "explicacao": "Incorreto. A latência não é um benefício de segurança."
+      },
+      {
+        "texto": "Necessidade de menos segurança de rede",
+        "explicacao": "Incorreto. A segurança de rede continua sendo uma prioridade, mesmo em locais de borda."
+      }
+    ],
+    "respostaCorreta": "Processamento local reduzindo a exposição dos dados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os locais de borda podem ajudar a melhorar a experiência do usuário em aplicações em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Processando dados mais longe dos usuários finais",
+        "explicacao": "Incorreto. Os locais de borda processam dados perto dos usuários para reduzir a latência."
+      },
+      {
+        "texto": "Reduzindo a distância que os dados precisam viajar",
+        "explicacao": "Correto! Isso resulta em respostas mais rápidas e melhor desempenho."
+      },
+      {
+        "texto": "Limitando o número de usuários que podem acessar a aplicação",
+        "explicacao": "Incorreto. Os locais de borda geralmente melhoram a capacidade de atender a mais usuários."
+      },
+      {
+        "texto": "Aumentando a complexidade do sistema",
+        "explicacao": "Incorreto. Os locais de borda podem simplificar a arquitetura de uma aplicação."
+      }
+    ],
+    "respostaCorreta": "Reduzindo a distância que os dados precisam viajar",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um fator chave na implementação de locais de borda?",
+    "opcoes": [
+      {
+        "texto": "A localização geográfica dos usuários",
+        "explicacao": "Correto! Escolher locais de borda próximos aos usuários pode melhorar a latência."
+      },
+      {
+        "texto": "A quantidade de dados armazenados na nuvem",
+        "explicacao": "Incorreto. A quantidade de dados não determina a eficácia dos locais de borda."
+      },
+      {
+        "texto": "Centralização da infraestrutura de TI",
+        "explicacao": "Incorreto. Os locais de borda visam descentralizar o processamento."
+      },
+      {
+        "texto": "Aumento do tempo de inatividade planejado",
+        "explicacao": "Incorreto. Os locais de borda devem ajudar a reduzir o tempo de inatividade."
+      }
+    ],
+    "respostaCorreta": "A localização geográfica dos usuários",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a implementação de locais de borda pode afetar o desempenho geral de uma aplicação?",
+    "opcoes": [
+      {
+        "texto": "Aumentando o tempo de carregamento",
+        "explicacao": "Incorreto. Os locais de borda geralmente melhoram o tempo de carregamento."
+      },
+      {
+        "texto": "Melhorando a escalabilidade e a resposta",
+        "explicacao": "Correto! Os locais de borda melhoram a escalabilidade e o desempenho geral."
+      },
+      {
+        "texto": "Reduzindo a eficiência dos recursos",
+        "explicacao": "Incorreto. Os locais de borda são projetados para otimizar o uso de recursos."
+      },
+      {
+        "texto": "Aumentando a complexidade da rede",
+        "explicacao": "Incorreto. A implementação adequada pode simplificar a arquitetura de rede."
+      }
+    ],
+    "respostaCorreta": "Melhorando a escalabilidade e a resposta",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício de usar locais de borda para aplicações que dependem de dados sensíveis?",
+    "opcoes": [
+      {
+        "texto": "Maior exposição dos dados a ameaças",
+        "explicacao": "Incorreto. O objetivo dos locais de borda é reduzir a exposição dos dados."
+      },
+      {
+        "texto": "Processamento local para maior segurança e controle",
+        "explicacao": "Correto! Processar dados próximos à fonte pode aumentar a segurança."
+      },
+      {
+        "texto": "Necessidade de mais recursos de computação na nuvem",
+        "explicacao": "Incorreto. Os locais de borda ajudam a reduzir a carga sobre os recursos de nuvem."
+      },
+      {
+        "texto": "Aumento da latência ao acessar dados",
+        "explicacao": "Incorreto. Os locais de borda visam diminuir a latência."
+      }
+    ],
+    "respostaCorreta": "Processamento local para maior segurança e controle",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios dos locais de borda em termos de conformidade?",
+    "opcoes": [
+      {
+        "texto": "Facilitar o armazenamento de dados em uma única localização",
+        "explicacao": "Incorreto. Os locais de borda distribuem dados, o que pode ajudar na conformidade."
+      },
+      {
+        "texto": "Aumentar a conformidade com regulamentações locais",
+        "explicacao": "Correto! Processar dados localmente pode ajudar a atender a requisitos de conformidade."
+      },
+      {
+        "texto": "Reduzir a necessidade de conformidade",
+        "explicacao": "Incorreto. A conformidade continua sendo uma consideração importante."
+      },
+      {
+        "texto": "Concentração de dados em um único servidor",
+        "explicacao": "Incorreto. Os locais de borda visam descentralizar o armazenamento e o processamento."
+      }
+    ],
+    "respostaCorreta": "Aumentar a conformidade com regulamentações locais",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do Amazon CloudFront?",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento de identidades e acesso",
+        "explicacao": "Incorreto. O CloudFront não gerencia identidades, sua função é a entrega de conteúdo."
+      },
+      {
+        "texto": "Distribuição de conteúdo com baixa latência",
+        "explicacao": "Correto! O CloudFront é um serviço de CDN que distribui conteúdo com baixa latência."
+      },
+      {
+        "texto": "Armazenamento de dados em bloco",
+        "explicacao": "Incorreto. O CloudFront não é um serviço de armazenamento, mas sim de entrega de conteúdo."
+      },
+      {
+        "texto": "Desempenho de computação em nuvem",
+        "explicacao": "Incorreto. O CloudFront não fornece recursos de computação."
+      }
+    ],
+    "respostaCorreta": "Distribuição de conteúdo com baixa latência",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Global Accelerator melhora a experiência do usuário?",
+    "opcoes": [
+      {
+        "texto": "Aumentando a latência de rede",
+        "explicacao": "Incorreto. O objetivo do Global Accelerator é reduzir a latência."
+      },
+      {
+        "texto": "Otimização do caminho de rede para as aplicações",
+        "explicacao": "Correto! O Global Accelerator otimiza o caminho de rede, melhorando o desempenho."
+      },
+      {
+        "texto": "Fornecendo armazenamento local para dados",
+        "explicacao": "Incorreto. O Global Accelerator não é um serviço de armazenamento."
+      },
+      {
+        "texto": "Reduzindo a segurança da rede",
+        "explicacao": "Incorreto. O Global Accelerator não compromete a segurança."
+      }
+    ],
+    "respostaCorreta": "Otimização do caminho de rede para as aplicações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do Amazon CloudFront?",
+    "opcoes": [
+      {
+        "texto": "Armazenamento de dados de forma persistente",
+        "explicacao": "Incorreto. O CloudFront é uma rede de distribuição, não um serviço de armazenamento."
+      },
+      {
+        "texto": "Distribuição de conteúdo estático e dinâmico",
+        "explicacao": "Correto! O CloudFront pode distribuir tanto conteúdo estático quanto dinâmico."
+      },
+      {
+        "texto": "Gerenciamento de recursos de computação",
+        "explicacao": "Incorreto. O CloudFront não gerencia recursos de computação."
+      },
+      {
+        "texto": "Oferecimento de banco de dados em tempo real",
+        "explicacao": "Incorreto. O CloudFront não fornece serviços de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Distribuição de conteúdo estático e dinâmico",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício do AWS Global Accelerator em relação à alta disponibilidade?",
+    "opcoes": [
+      {
+        "texto": "Aumenta a complexidade da rede",
+        "explicacao": "Incorreto. O Global Accelerator visa simplificar a entrega de aplicações."
+      },
+      {
+        "texto": "Redirecionamento automático para regiões saudáveis",
+        "explicacao": "Correto! O Global Accelerator pode redirecionar tráfego para regiões disponíveis."
+      },
+      {
+        "texto": "Eliminação da necessidade de redundância",
+        "explicacao": "Incorreto. A redundância continua sendo uma prática recomendada."
+      },
+      {
+        "texto": "Restrição de acesso a uma única região",
+        "explicacao": "Incorreto. O Global Accelerator permite o acesso a várias regiões."
+      }
+    ],
+    "respostaCorreta": "Redirecionamento automático para regiões saudáveis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do Amazon CloudFront permite a personalização do conteúdo entregue?",
+    "opcoes": [
+      {
+        "texto": "Configuração de grupos de segurança",
+        "explicacao": "Incorreto. Grupos de segurança são usados para controle de acesso, não para personalização de conteúdo."
+      },
+      {
+        "texto": "Funcionalidade de cache",
+        "explicacao": "Correto! O cache do CloudFront pode ser configurado para armazenar versões personalizadas do conteúdo."
+      },
+      {
+        "texto": "Provisionamento de VPCs",
+        "explicacao": "Incorreto. O CloudFront não está relacionado ao provisionamento de VPCs."
+      },
+      {
+        "texto": "Gerenciamento de instâncias EC2",
+        "explicacao": "Incorreto. O CloudFront não gerencia instâncias EC2 diretamente."
+      }
+    ],
+    "respostaCorreta": "Funcionalidade de cache",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o Amazon CloudFront lida com conteúdo dinâmico?",
+    "opcoes": [
+      {
+        "texto": "Apenas fornece conteúdo estático",
+        "explicacao": "Incorreto. O CloudFront pode manipular conteúdo dinâmico com funcionalidades específicas."
+      },
+      {
+        "texto": "Utiliza pontos de presença para cache e entrega",
+        "explicacao": "Correto! O CloudFront utiliza a rede de pontos de presença para entregar conteúdo dinâmico."
+      },
+      {
+        "texto": "Exige configuração manual para cada requisição",
+        "explicacao": "Incorreto. O CloudFront automatiza o processo de entrega de conteúdo dinâmico."
+      },
+      {
+        "texto": "Não suporta HTTPS",
+        "explicacao": "Incorreto. O CloudFront suporta HTTPS para entrega segura de conteúdo."
+      }
+    ],
+    "respostaCorreta": "Utiliza pontos de presença para cache e entrega",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do AWS Global Accelerator oferece a melhor experiência ao usuário?",
+    "opcoes": [
+      {
+        "texto": "Escalabilidade horizontal",
+        "explicacao": "Incorreto. Embora a escalabilidade seja importante, não é o principal recurso do Global Accelerator."
+      },
+      {
+        "texto": "Roteamento inteligente de tráfego",
+        "explicacao": "Correto! O roteamento inteligente melhora a experiência do usuário ao otimizar o caminho do tráfego."
+      },
+      {
+        "texto": "Limitação de banda",
+        "explicacao": "Incorreto. O Global Accelerator visa maximizar a largura de banda, não limitá-la."
+      },
+      {
+        "texto": "Armazenamento em cache de dados",
+        "explicacao": "Incorreto. O Global Accelerator não é um serviço de cache."
+      }
+    ],
+    "respostaCorreta": "Roteamento inteligente de tráfego",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais objetivos do Amazon CloudFront?",
+    "opcoes": [
+      {
+        "texto": "Reduzir a segurança do conteúdo",
+        "explicacao": "Incorreto. O CloudFront melhora a segurança do conteúdo através de várias funcionalidades."
+      },
+      {
+        "texto": "Aumentar a latência da entrega",
+        "explicacao": "Incorreto. O CloudFront visa reduzir a latência na entrega de conteúdo."
+      },
+      {
+        "texto": "Entregar conteúdo com baixa latência e alta transferência de dados",
+        "explicacao": "Correto! O CloudFront é projetado para entregar conteúdo rapidamente."
+      },
+      {
+        "texto": "Centralizar o armazenamento de dados",
+        "explicacao": "Incorreto. O CloudFront não centraliza o armazenamento, mas distribui o conteúdo."
+      }
+    ],
+    "respostaCorreta": "Entregar conteúdo com baixa latência e alta transferência de dados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Global Accelerator garante a continuidade do serviço?",
+    "opcoes": [
+      {
+        "texto": "Com um único ponto de falha",
+        "explicacao": "Incorreto. O Global Accelerator evita pontos únicos de falha."
+      },
+      {
+        "texto": "Monitorando a saúde das aplicações e redirecionando o tráfego",
+        "explicacao": "Correto! O Global Accelerator monitora a saúde das aplicações para garantir disponibilidade."
+      },
+      {
+        "texto": "Centralizando o tráfego em uma única região",
+        "explicacao": "Incorreto. O Global Accelerator distribui o tráfego entre várias regiões."
+      },
+      {
+        "texto": "Desabilitando a proteção DDoS",
+        "explicacao": "Incorreto. O Global Accelerator tem funcionalidades que ajudam a proteger contra DDoS."
+      }
+    ],
+    "respostaCorreta": "Monitorando a saúde das aplicações e redirecionando o tráfego",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem de usar o Amazon CloudFront com o AWS Global Accelerator?",
+    "opcoes": [
+      {
+        "texto": "Maior complexidade de configuração",
+        "explicacao": "Incorreto. O CloudFront e o Global Accelerator são projetados para simplificar a entrega."
+      },
+      {
+        "texto": "Melhoria na performance global das aplicações",
+        "explicacao": "Correto! Juntos, eles melhoram a performance global ao otimizar a entrega de conteúdo e tráfego."
+      },
+      {
+        "texto": "Diminuição da segurança do tráfego",
+        "explicacao": "Incorreto. O uso combinado melhora a segurança do tráfego."
+      },
+      {
+        "texto": "Aumento dos custos operacionais",
+        "explicacao": "Incorreto. A integração pode resultar em melhor eficiência e, potencialmente, redução de custos."
+      }
+    ],
+    "respostaCorreta": "Melhoria na performance global das aplicações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
