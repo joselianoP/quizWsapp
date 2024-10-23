@@ -23051,5 +23051,1181 @@
     "respostaCorreta": "Quando busca alta disponibilidade e deseja evitar falhas de um único provedor",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal característica do modelo de implantação on-premises?",
+    "opcoes": [
+      {
+        "texto": "Recursos de infraestrutura de TI são gerenciados localmente",
+        "explicacao": "Correto! O modelo on-premises envolve a execução de recursos em data centers locais."
+      },
+      {
+        "texto": "Escalabilidade automática baseada na demanda",
+        "explicacao": "Incorreto. A escalabilidade automática é característica da nuvem pública, não do on-premises."
+      },
+      {
+        "texto": "Uso de múltiplos provedores de nuvem",
+        "explicacao": "Incorreto. Esse é um atributo do modelo multicloud, não do on-premises."
+      },
+      {
+        "texto": "Infraestrutura gerenciada pela AWS",
+        "explicacao": "Incorreto. No modelo on-premises, o cliente gerencia a própria infraestrutura."
+      }
+    ],
+    "respostaCorreta": "Recursos de infraestrutura de TI são gerenciados localmente",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma organização pode preferir uma implantação em nuvem pública em vez de on-premises?",
+    "opcoes": [
+      {
+        "texto": "Quando deseja gerenciar seus próprios servidores",
+        "explicacao": "Incorreto. Gerenciar servidores é uma característica do modelo on-premises, não da nuvem pública."
+      },
+      {
+        "texto": "Quando busca escalabilidade elástica e menor custo inicial",
+        "explicacao": "Correto! A nuvem pública oferece escalabilidade elástica e elimina os custos iniciais de hardware."
+      },
+      {
+        "texto": "Quando deseja controle físico sobre a infraestrutura",
+        "explicacao": "Incorreto. O controle físico sobre a infraestrutura é uma característica do on-premises."
+      },
+      {
+        "texto": "Quando a segurança local é prioridade",
+        "explicacao": "Incorreto. Embora a segurança seja uma prioridade em ambos, o on-premises oferece controle físico direto."
+      }
+    ],
+    "respostaCorreta": "Quando busca escalabilidade elástica e menor custo inicial",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem do modelo de implantação híbrido?",
+    "opcoes": [
+      {
+        "texto": "Oferece controle total sobre todos os recursos em um ambiente local",
+        "explicacao": "Incorreto. O modelo híbrido combina ambientes locais e em nuvem, não oferece controle total sobre um único ambiente."
+      },
+      {
+        "texto": "Permite operar parte dos recursos em data centers locais e parte na nuvem",
+        "explicacao": "Correto! O modelo híbrido oferece flexibilidade ao combinar recursos locais e na nuvem."
+      },
+      {
+        "texto": "É sempre mais barato do que uma implantação on-premises",
+        "explicacao": "Incorreto. O custo do modelo híbrido pode variar dependendo da arquitetura e requisitos."
+      },
+      {
+        "texto": "Aumenta a dependência de um único provedor de nuvem",
+        "explicacao": "Incorreto. O modelo híbrido reduz a dependência de um único provedor, combinando nuvem e local."
+      }
+    ],
+    "respostaCorreta": "Permite operar parte dos recursos em data centers locais e parte na nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma organização deve optar pelo modelo de implantação on-premises?",
+    "opcoes": [
+      {
+        "texto": "Quando precisa de escalabilidade automática com base no uso",
+        "explicacao": "Incorreto. Esse é um benefício da nuvem pública, não do on-premises."
+      },
+      {
+        "texto": "Quando deseja controle físico total sobre sua infraestrutura",
+        "explicacao": "Correto! O modelo on-premises oferece controle físico total sobre a infraestrutura."
+      },
+      {
+        "texto": "Quando deseja uma redução significativa dos custos operacionais",
+        "explicacao": "Incorreto. O on-premises tende a ter custos operacionais mais altos devido à manutenção local."
+      },
+      {
+        "texto": "Quando quer aproveitar os benefícios de múltiplos provedores de nuvem",
+        "explicacao": "Incorreto. Isso seria um cenário multicloud, não on-premises."
+      }
+    ],
+    "respostaCorreta": "Quando deseja controle físico total sobre sua infraestrutura",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício do modelo de implantação em nuvem pública em comparação com o on-premises?",
+    "opcoes": [
+      {
+        "texto": "Maior controle físico sobre os servidores",
+        "explicacao": "Incorreto. O controle físico é uma vantagem do modelo on-premises, não da nuvem pública."
+      },
+      {
+        "texto": "Escalabilidade mais fácil e rápida",
+        "explicacao": "Correto! A nuvem pública permite escalabilidade automática e elástica com base na demanda."
+      },
+      {
+        "texto": "Menor latência para todas as aplicações",
+        "explicacao": "Incorreto. A latência pode variar dependendo da localização dos data centers da nuvem pública."
+      },
+      {
+        "texto": "Controle total sobre os custos de manutenção de hardware",
+        "explicacao": "Incorreto. Na nuvem pública, os custos de manutenção de hardware são gerenciados pelo provedor."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade mais fácil e rápida",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em qual cenário o modelo híbrido pode ser mais adequado?",
+    "opcoes": [
+      {
+        "texto": "Quando a organização deseja executar todos os recursos exclusivamente na nuvem",
+        "explicacao": "Incorreto. Esse cenário corresponde à nuvem pública, e não ao modelo híbrido."
+      },
+      {
+        "texto": "Quando a organização quer combinar infraestrutura local com a nuvem",
+        "explicacao": "Correto! O modelo híbrido é ideal para empresas que desejam combinar infraestrutura local e em nuvem."
+      },
+      {
+        "texto": "Quando deseja evitar a dependência de qualquer infraestrutura local",
+        "explicacao": "Incorreto. Isso seria uma característica do modelo de nuvem pública."
+      },
+      {
+        "texto": "Quando deseja maximizar o controle físico sobre toda a infraestrutura",
+        "explicacao": "Incorreto. O controle físico é mais característico do on-premises."
+      }
+    ],
+    "respostaCorreta": "Quando a organização quer combinar infraestrutura local com a nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do modelo de implantação on-premises?",
+    "opcoes": [
+      {
+        "texto": "Escalabilidade automática com base na demanda",
+        "explicacao": "Incorreto. A escalabilidade automática é uma vantagem da nuvem pública, não do on-premises."
+      },
+      {
+        "texto": "Controle físico total sobre os servidores e armazenamento",
+        "explicacao": "Correto! No modelo on-premises, as empresas têm controle físico total sobre sua infraestrutura."
+      },
+      {
+        "texto": "Custo reduzido com infraestrutura e manutenção",
+        "explicacao": "Incorreto. O modelo on-premises geralmente envolve custos mais altos com infraestrutura e manutenção."
+      },
+      {
+        "texto": "Menor flexibilidade para integrações com serviços de nuvem",
+        "explicacao": "Correto! O controle físico total é uma característica importante do modelo on-premises."
+      }
+    ],
+    "respostaCorreta": "Controle físico total sobre os servidores e armazenamento",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa deve considerar a migração para um modelo em nuvem híbrida?",
+    "opcoes": [
+      {
+        "texto": "Quando todos os dados e aplicativos precisam estar em data centers locais",
+        "explicacao": "Incorreto. Esse cenário corresponde ao modelo on-premises."
+      },
+      {
+        "texto": "Quando a empresa deseja manter parte da infraestrutura no local e migrar o restante para a nuvem",
+        "explicacao": "Correto! O modelo híbrido permite essa combinação de infraestrutura local e na nuvem."
+      },
+      {
+        "texto": "Quando a empresa deseja usar exclusivamente serviços de nuvem pública",
+        "explicacao": "Incorreto. Esse seria um cenário de nuvem pública, não híbrida."
+      },
+      {
+        "texto": "Quando a empresa quer consolidar toda a infraestrutura em um único provedor de nuvem",
+        "explicacao": "Incorreto. O modelo híbrido envolve o uso de múltiplos ambientes, não a consolidação em um único provedor."
+      }
+    ],
+    "respostaCorreta": "Quando a empresa deseja manter parte da infraestrutura no local e migrar o restante para a nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir é uma vantagem do modelo de nuvem pública?",
+    "opcoes": [
+      {
+        "texto": "Controle físico total sobre a infraestrutura",
+        "explicacao": "Incorreto. O controle físico total é característico do on-premises."
+      },
+      {
+        "texto": "Escalabilidade elástica e sob demanda",
+        "explicacao": "Correto! A nuvem pública permite escalabilidade automática com base na demanda de uso."
+      },
+      {
+        "texto": "Necessidade de maior investimento inicial em infraestrutura",
+        "explicacao": "Incorreto. A nuvem pública elimina os altos investimentos iniciais em infraestrutura."
+      },
+      {
+        "texto": "Maior segurança por meio de controle físico dos servidores",
+        "explicacao": "Incorreto. Na nuvem pública, a segurança é gerenciada pelo provedor de nuvem."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade elástica e sob demanda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em que situação uma empresa pode escolher um modelo de implantação em nuvem privada?",
+    "opcoes": [
+      {
+        "texto": "Quando busca o menor custo inicial e maior flexibilidade",
+        "explicacao": "Incorreto. Esse cenário é mais adequado para a nuvem pública, não privada."
+      },
+      {
+        "texto": "Quando deseja manter maior controle e segurança sobre os dados",
+        "explicacao": "Correto! A nuvem privada permite maior controle sobre dados e segurança em comparação à pública."
+      },
+      {
+        "texto": "Quando quer evitar o gerenciamento de infraestrutura",
+        "explicacao": "Incorreto. O gerenciamento de infraestrutura ainda é necessário em nuvens privadas."
+      },
+      {
+        "texto": "Quando precisa de escalabilidade elástica instantânea",
+        "explicacao": "Incorreto. A escalabilidade instantânea é mais comum na nuvem pública."
+      }
+    ],
+    "respostaCorreta": "Quando deseja manter maior controle e segurança sobre os dados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal característica do modelo de implantação on-premises?",
+    "opcoes": [
+      {
+        "texto": "Recursos de infraestrutura de TI são gerenciados localmente",
+        "explicacao": "Correto! O modelo on-premises envolve a execução de recursos em data centers locais."
+      },
+      {
+        "texto": "Escalabilidade automática baseada na demanda",
+        "explicacao": "Incorreto. A escalabilidade automática é característica da nuvem pública, não do on-premises."
+      },
+      {
+        "texto": "Uso de múltiplos provedores de nuvem",
+        "explicacao": "Incorreto. Esse é um atributo do modelo multicloud, não do on-premises."
+      },
+      {
+        "texto": "Infraestrutura gerenciada pela AWS",
+        "explicacao": "Incorreto. No modelo on-premises, o cliente gerencia a própria infraestrutura."
+      }
+    ],
+    "respostaCorreta": "Recursos de infraestrutura de TI são gerenciados localmente",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma organização pode preferir uma implantação em nuvem pública em vez de on-premises?",
+    "opcoes": [
+      {
+        "texto": "Quando deseja gerenciar seus próprios servidores",
+        "explicacao": "Incorreto. Gerenciar servidores é uma característica do modelo on-premises, não da nuvem pública."
+      },
+      {
+        "texto": "Quando busca escalabilidade elástica e menor custo inicial",
+        "explicacao": "Correto! A nuvem pública oferece escalabilidade elástica e elimina os custos iniciais de hardware."
+      },
+      {
+        "texto": "Quando deseja controle físico sobre a infraestrutura",
+        "explicacao": "Incorreto. O controle físico sobre a infraestrutura é uma característica do on-premises."
+      },
+      {
+        "texto": "Quando a segurança local é prioridade",
+        "explicacao": "Incorreto. Embora a segurança seja uma prioridade em ambos, o on-premises oferece controle físico direto."
+      }
+    ],
+    "respostaCorreta": "Quando busca escalabilidade elástica e menor custo inicial",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem do modelo de implantação híbrido?",
+    "opcoes": [
+      {
+        "texto": "Oferece controle total sobre todos os recursos em um ambiente local",
+        "explicacao": "Incorreto. O modelo híbrido combina ambientes locais e em nuvem, não oferece controle total sobre um único ambiente."
+      },
+      {
+        "texto": "Permite operar parte dos recursos em data centers locais e parte na nuvem",
+        "explicacao": "Correto! O modelo híbrido oferece flexibilidade ao combinar recursos locais e na nuvem."
+      },
+      {
+        "texto": "É sempre mais barato do que uma implantação on-premises",
+        "explicacao": "Incorreto. O custo do modelo híbrido pode variar dependendo da arquitetura e requisitos."
+      },
+      {
+        "texto": "Aumenta a dependência de um único provedor de nuvem",
+        "explicacao": "Incorreto. O modelo híbrido reduz a dependência de um único provedor, combinando nuvem e local."
+      }
+    ],
+    "respostaCorreta": "Permite operar parte dos recursos em data centers locais e parte na nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma organização deve optar pelo modelo de implantação on-premises?",
+    "opcoes": [
+      {
+        "texto": "Quando precisa de escalabilidade automática com base no uso",
+        "explicacao": "Incorreto. Esse é um benefício da nuvem pública, não do on-premises."
+      },
+      {
+        "texto": "Quando deseja controle físico total sobre sua infraestrutura",
+        "explicacao": "Correto! O modelo on-premises oferece controle físico total sobre a infraestrutura."
+      },
+      {
+        "texto": "Quando deseja uma redução significativa dos custos operacionais",
+        "explicacao": "Incorreto. O on-premises tende a ter custos operacionais mais altos devido à manutenção local."
+      },
+      {
+        "texto": "Quando quer aproveitar os benefícios de múltiplos provedores de nuvem",
+        "explicacao": "Incorreto. Isso seria um cenário multicloud, não on-premises."
+      }
+    ],
+    "respostaCorreta": "Quando deseja controle físico total sobre sua infraestrutura",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício do modelo de implantação em nuvem pública em comparação com o on-premises?",
+    "opcoes": [
+      {
+        "texto": "Maior controle físico sobre os servidores",
+        "explicacao": "Incorreto. O controle físico é uma vantagem do modelo on-premises, não da nuvem pública."
+      },
+      {
+        "texto": "Escalabilidade mais fácil e rápida",
+        "explicacao": "Correto! A nuvem pública permite escalabilidade automática e elástica com base na demanda."
+      },
+      {
+        "texto": "Menor latência para todas as aplicações",
+        "explicacao": "Incorreto. A latência pode variar dependendo da localização dos data centers da nuvem pública."
+      },
+      {
+        "texto": "Controle total sobre os custos de manutenção de hardware",
+        "explicacao": "Incorreto. Na nuvem pública, os custos de manutenção de hardware são gerenciados pelo provedor."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade mais fácil e rápida",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em qual cenário o modelo híbrido pode ser mais adequado?",
+    "opcoes": [
+      {
+        "texto": "Quando a organização deseja executar todos os recursos exclusivamente na nuvem",
+        "explicacao": "Incorreto. Esse cenário corresponde à nuvem pública, e não ao modelo híbrido."
+      },
+      {
+        "texto": "Quando a organização quer combinar infraestrutura local com a nuvem",
+        "explicacao": "Correto! O modelo híbrido é ideal para empresas que desejam combinar infraestrutura local e em nuvem."
+      },
+      {
+        "texto": "Quando deseja evitar a dependência de qualquer infraestrutura local",
+        "explicacao": "Incorreto. Isso seria uma característica do modelo de nuvem pública."
+      },
+      {
+        "texto": "Quando deseja maximizar o controle físico sobre toda a infraestrutura",
+        "explicacao": "Incorreto. O controle físico é mais característico do on-premises."
+      }
+    ],
+    "respostaCorreta": "Quando a organização quer combinar infraestrutura local com a nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do modelo de implantação on-premises?",
+    "opcoes": [
+      {
+        "texto": "Escalabilidade automática com base na demanda",
+        "explicacao": "Incorreto. A escalabilidade automática é uma vantagem da nuvem pública, não do on-premises."
+      },
+      {
+        "texto": "Controle físico total sobre os servidores e armazenamento",
+        "explicacao": "Correto! No modelo on-premises, as empresas têm controle físico total sobre sua infraestrutura."
+      },
+      {
+        "texto": "Custo reduzido com infraestrutura e manutenção",
+        "explicacao": "Incorreto. O modelo on-premises geralmente envolve custos mais altos com infraestrutura e manutenção."
+      },
+      {
+        "texto": "Menor flexibilidade para integrações com serviços de nuvem",
+        "explicacao": "Correto! O controle físico total é uma característica importante do modelo on-premises."
+      }
+    ],
+    "respostaCorreta": "Controle físico total sobre os servidores e armazenamento",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa deve considerar a migração para um modelo em nuvem híbrida?",
+    "opcoes": [
+      {
+        "texto": "Quando todos os dados e aplicativos precisam estar em data centers locais",
+        "explicacao": "Incorreto. Esse cenário corresponde ao modelo on-premises."
+      },
+      {
+        "texto": "Quando a empresa deseja manter parte da infraestrutura no local e migrar o restante para a nuvem",
+        "explicacao": "Correto! O modelo híbrido permite essa combinação de infraestrutura local e na nuvem."
+      },
+      {
+        "texto": "Quando a empresa deseja usar exclusivamente serviços de nuvem pública",
+        "explicacao": "Incorreto. Esse seria um cenário de nuvem pública, não híbrida."
+      },
+      {
+        "texto": "Quando a empresa quer consolidar toda a infraestrutura em um único provedor de nuvem",
+        "explicacao": "Incorreto. O modelo híbrido envolve o uso de múltiplos ambientes, não a consolidação em um único provedor."
+      }
+    ],
+    "respostaCorreta": "Quando a empresa deseja manter parte da infraestrutura no local e migrar o restante para a nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir é uma vantagem do modelo de nuvem pública?",
+    "opcoes": [
+      {
+        "texto": "Controle físico total sobre a infraestrutura",
+        "explicacao": "Incorreto. O controle físico total é característico do on-premises."
+      },
+      {
+        "texto": "Escalabilidade elástica e sob demanda",
+        "explicacao": "Correto! A nuvem pública permite escalabilidade automática com base na demanda de uso."
+      },
+      {
+        "texto": "Necessidade de maior investimento inicial em infraestrutura",
+        "explicacao": "Incorreto. A nuvem pública elimina os altos investimentos iniciais em infraestrutura."
+      },
+      {
+        "texto": "Maior segurança por meio de controle físico dos servidores",
+        "explicacao": "Incorreto. Na nuvem pública, a segurança é gerenciada pelo provedor de nuvem."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade elástica e sob demanda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em que situação uma empresa pode escolher um modelo de implantação em nuvem privada?",
+    "opcoes": [
+      {
+        "texto": "Quando busca o menor custo inicial e maior flexibilidade",
+        "explicacao": "Incorreto. Esse cenário é mais adequado para a nuvem pública, não privada."
+      },
+      {
+        "texto": "Quando deseja manter maior controle e segurança sobre os dados",
+        "explicacao": "Correto! A nuvem privada permite maior controle sobre dados e segurança em comparação à pública."
+      },
+      {
+        "texto": "Quando quer evitar o gerenciamento de infraestrutura",
+        "explicacao": "Incorreto. O gerenciamento de infraestrutura ainda é necessário em nuvens privadas."
+      },
+      {
+        "texto": "Quando precisa de escalabilidade elástica instantânea",
+        "explicacao": "Incorreto. A escalabilidade instantânea é mais comum na nuvem pública."
+      }
+    ],
+    "respostaCorreta": "Quando deseja manter maior controle e segurança sobre os dados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir oferece conectividade privada entre uma infraestrutura local e a AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Correto! O AWS Direct Connect permite uma conexão privada e dedicada entre uma rede local e a AWS."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Incorreto. Embora a AWS VPN também ofereça conectividade, ela utiliza a internet pública, não uma conexão privada dedicada."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma rede de distribuição de conteúdo (CDN) e não uma solução de conectividade direta."
+      },
+      {
+        "texto": "AWS Snowball",
+        "explicacao": "Incorreto. O Snowball é usado para transferência física de grandes volumes de dados, e não para conectividade contínua."
+      }
+    ],
+    "respostaCorreta": "AWS Direct Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ser utilizado para configurar uma rede privada virtual (VPN) entre uma rede local e a AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! O AWS VPN permite a criação de uma conexão segura entre uma rede local e a AWS por meio da internet."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Route 53 é um serviço de DNS, não de conectividade VPN."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O AWS Direct Connect é uma conexão privada direta, não baseada em VPN."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O AWS Lambda é um serviço de computação sem servidor, não uma solução de conectividade."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem de usar o AWS Direct Connect em vez de uma VPN baseada em internet?",
+    "opcoes": [
+      {
+        "texto": "Baixa latência e conectividade mais estável",
+        "explicacao": "Correto! O AWS Direct Connect oferece uma conexão dedicada, garantindo baixa latência e maior estabilidade."
+      },
+      {
+        "texto": "Custo inicial menor",
+        "explicacao": "Incorreto. O custo inicial do Direct Connect pode ser mais alto do que o de uma VPN."
+      },
+      {
+        "texto": "Mais segurança para dados em trânsito",
+        "explicacao": "Incorreto. Tanto o Direct Connect quanto a VPN oferecem segurança, mas a VPN usa criptografia, enquanto o Direct Connect pode requerer VPN adicional."
+      },
+      {
+        "texto": "Maior flexibilidade para conexões temporárias",
+        "explicacao": "Incorreto. A VPN é geralmente mais adequada para conexões temporárias devido à sua configuração mais simples e flexível."
+      }
+    ],
+    "respostaCorreta": "Baixa latência e conectividade mais estável",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda a otimizar a conectividade de rede para usuários distribuídos globalmente?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Correto! O Amazon CloudFront é uma rede de distribuição de conteúdo (CDN) que melhora a conectividade e o desempenho global."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Incorreto. A AWS VPN é usada para conectar redes privadas, não para distribuição de conteúdo global."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O Amazon EC2 oferece instâncias de computação, não conectividade global otimizada."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O AWS Direct Connect oferece conectividade privada, mas não é focado em usuários distribuídos globalmente."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudFront",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual solução permite a criação de uma rede privada com segurança entre várias VPCs na AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Transit Gateway",
+        "explicacao": "Correto! O AWS Transit Gateway permite conectar várias VPCs e redes locais de maneira centralizada e segura."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O AWS Direct Connect fornece uma conexão dedicada, mas não é projetado para conectar várias VPCs."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma CDN e não oferece conectividade entre VPCs."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Route 53 é um serviço de DNS e não conecta diretamente VPCs."
+      }
+    ],
+    "respostaCorreta": "AWS Transit Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite que uma aplicação configure balanceamento de carga entre várias regiões?",
+    "opcoes": [
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Correto! O Amazon Route 53 permite roteamento geográfico e balanceamento de carga entre várias regiões."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O Direct Connect oferece conectividade privada, mas não balanceamento de carga."
+      },
+      {
+        "texto": "Amazon VPC",
+        "explicacao": "Incorreto. O Amazon VPC é um serviço de redes virtuais privadas e não realiza balanceamento de carga entre regiões."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation é usado para provisionamento de infraestrutura como código, e não para balanceamento de carga."
+      }
+    ],
+    "respostaCorreta": "Amazon Route 53",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é necessária para configurar uma conexão segura entre uma rede local e uma VPC na AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! A AWS VPN permite criar uma conexão segura entre uma rede local e uma VPC na AWS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O Amazon S3 é um serviço de armazenamento e não oferece conectividade de rede."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados gerenciado, não de conectividade de rede."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "Incorreto. O AWS CloudTrail é um serviço de auditoria e monitoramento, não de conectividade."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS pode ser usado para otimizar a entrega de conteúdo com baixa latência para usuários globais?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Correto! O Amazon CloudFront melhora a entrega de conteúdo com baixa latência por meio de sua rede global de distribuição."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados, não uma solução para entrega de conteúdo."
+      },
+      {
+        "texto": "Amazon VPC",
+        "explicacao": "Incorreto. A Amazon VPC é usada para criar redes virtuais privadas, e não para entrega de conteúdo."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O AWS Lambda é um serviço de computação sem servidor, e não otimiza diretamente a entrega de conteúdo."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudFront",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual solução de conectividade permite uma comunicação segura entre instâncias EC2 em diferentes VPCs sem passar pela internet?",
+    "opcoes": [
+      {
+        "texto": "VPC Peering",
+        "explicacao": "Correto! O VPC Peering permite a comunicação privada entre VPCs sem passar pela internet."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Incorreto. A AWS VPN é usada para conectar redes locais e a AWS, e não entre VPCs."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Route 53 é um serviço de DNS e não oferece conectividade entre VPCs."
+      },
+      {
+        "texto": "AWS Snowball",
+        "explicacao": "Incorreto. O Snowball é um serviço de transferência física de dados, e não uma solução de conectividade."
+      }
+    ],
+    "respostaCorreta": "VPC Peering",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa pode optar por usar o AWS Global Accelerator?",
+    "opcoes": [
+      {
+        "texto": "Para melhorar a disponibilidade e a performance de aplicativos globais",
+        "explicacao": "Correto! O AWS Global Accelerator otimiza o tráfego de rede global para melhorar a performance e disponibilidade de aplicativos."
+      },
+      {
+        "texto": "Para criar uma rede privada entre várias regiões",
+        "explicacao": "Incorreto. O AWS Global Accelerator melhora a performance, mas não é usado para criar redes privadas entre regiões."
+      },
+      {
+        "texto": "Para provisionar instâncias EC2 em diferentes regiões",
+        "explicacao": "Incorreto. O AWS Global Accelerator otimiza o tráfego, mas não realiza o provisionamento de instâncias."
+      },
+      {
+        "texto": "Para gerenciar uma rede de distribuição de conteúdo",
+        "explicacao": "Incorreto. Embora ajude a otimizar a performance, o AWS Global Accelerator não gerencia diretamente a distribuição de conteúdo."
+      }
+    ],
+    "respostaCorreta": "Para melhorar a disponibilidade e a performance de aplicativos globais",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual solução da AWS oferece uma conexão dedicada entre a sua rede local e a AWS, evitando o uso da internet pública?",
+    "opcoes": [
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Correto! O AWS Direct Connect oferece uma conexão dedicada, evitando o tráfego pela internet pública."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Incorreto. A AWS VPN utiliza a internet pública, apesar de ser criptografada para maior segurança."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O Amazon CloudFront é uma rede de distribuição de conteúdo e não uma solução de conectividade direta."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O Amazon S3 é um serviço de armazenamento de objetos e não de conectividade de rede."
+      }
+    ],
+    "respostaCorreta": "AWS Direct Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual opção de conectividade oferece uma conexão criptografada entre sua rede local e a AWS, utilizando a internet pública?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! A AWS VPN cria uma conexão criptografada segura sobre a internet pública entre sua rede local e a AWS."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O AWS Direct Connect oferece uma conexão dedicada que não passa pela internet pública."
+      },
+      {
+        "texto": "Internet pública sem VPN",
+        "explicacao": "Incorreto. Conexões via internet pública sem VPN não oferecem criptografia."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O Amazon EC2 é um serviço de instâncias de computação, e não uma solução de conectividade."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem do uso da AWS Direct Connect em comparação com a AWS VPN?",
+    "opcoes": [
+      {
+        "texto": "Menor latência e maior largura de banda",
+        "explicacao": "Correto! O AWS Direct Connect oferece menor latência e maior largura de banda em comparação à VPN."
+      },
+      {
+        "texto": "Configuração mais simples",
+        "explicacao": "Incorreto. O AWS Direct Connect geralmente requer uma configuração mais complexa do que a AWS VPN."
+      },
+      {
+        "texto": "Uso da internet pública",
+        "explicacao": "Incorreto. O AWS Direct Connect evita o uso da internet pública, oferecendo uma conexão dedicada."
+      },
+      {
+        "texto": "Custo inicial mais baixo",
+        "explicacao": "Incorreto. O AWS Direct Connect pode ter um custo inicial mais alto comparado à VPN."
+      }
+    ],
+    "respostaCorreta": "Menor latência e maior largura de banda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual método de conexão pode ser mais apropriado para conexões temporárias entre sua rede local e a AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! A AWS VPN é uma solução adequada para conexões temporárias ou de curto prazo, pois é fácil de configurar."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O AWS Direct Connect é mais indicado para conexões de longo prazo devido ao seu custo e complexidade."
+      },
+      {
+        "texto": "Internet pública sem criptografia",
+        "explicacao": "Incorreto. O uso da internet pública sem criptografia não é seguro para conexões corporativas."
+      },
+      {
+        "texto": "Amazon S3 Transfer Acceleration",
+        "explicacao": "Incorreto. O S3 Transfer Acceleration acelera a transferência de dados, mas não é uma solução para conectividade de redes."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é uma desvantagem do uso da internet pública para conectar sua rede local à AWS sem uma VPN?",
+    "opcoes": [
+      {
+        "texto": "Falta de criptografia e segurança",
+        "explicacao": "Correto! A internet pública sem uma VPN não oferece criptografia, o que pode comprometer a segurança dos dados."
+      },
+      {
+        "texto": "Alta latência garantida",
+        "explicacao": "Incorreto. A latência da internet pública pode variar, mas não é garantidamente alta."
+      },
+      {
+        "texto": "Custo elevado",
+        "explicacao": "Incorreto. O custo de usar a internet pública geralmente é menor do que soluções dedicadas como o Direct Connect."
+      },
+      {
+        "texto": "Falta de largura de banda",
+        "explicacao": "Incorreto. A largura de banda da internet pública pode ser variável, mas não é necessariamente limitada."
+      }
+    ],
+    "respostaCorreta": "Falta de criptografia e segurança",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual solução seria mais adequada para uma empresa que necessita de uma conexão estável e de alta largura de banda para transferir grandes volumes de dados para a AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Correto! O AWS Direct Connect oferece uma conexão dedicada com maior estabilidade e largura de banda para grandes volumes de dados."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Incorreto. A AWS VPN é adequada, mas a largura de banda e a latência podem ser limitadas pela internet pública."
+      },
+      {
+        "texto": "Internet pública",
+        "explicacao": "Incorreto. A internet pública não garante estabilidade nem alta largura de banda para grandes transferências de dados."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Amazon Route 53 é um serviço de DNS, não de conectividade de rede."
+      }
+    ],
+    "respostaCorreta": "AWS Direct Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual solução seria ideal para uma startup com baixo orçamento que precisa de uma conexão rápida e segura com a AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! A AWS VPN é uma opção econômica para startups que precisam de segurança, utilizando a internet pública com criptografia."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O Direct Connect oferece alta performance, mas pode ser caro e complexo para pequenas startups."
+      },
+      {
+        "texto": "Internet pública sem VPN",
+        "explicacao": "Incorreto. A internet pública sem VPN não oferece a segurança necessária para conexões empresariais."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O Amazon CloudFront é uma CDN e não uma solução de conectividade para redes locais."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir permite uma conexão segura e criptografada entre diferentes redes da AWS e a sua rede local?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! A AWS VPN permite uma conexão segura e criptografada entre a rede local e a AWS."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O AWS Direct Connect oferece uma conexão dedicada, mas não é criptografada automaticamente."
+      },
+      {
+        "texto": "Internet pública",
+        "explicacao": "Incorreto. A internet pública sem uma VPN não oferece criptografia para a conexão."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Route 53 é um serviço de DNS e não uma solução de conectividade segura."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS seria o mais indicado para uma empresa que precisa de uma conexão de alta velocidade, mas também deseja evitar custos elevados de tráfego pela internet?",
+    "opcoes": [
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Correto! O AWS Direct Connect oferece uma conexão de alta velocidade sem os custos de tráfego pela internet."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Incorreto. A AWS VPN utiliza a internet pública, podendo gerar custos com tráfego de dados."
+      },
+      {
+        "texto": "Amazon S3 Transfer Acceleration",
+        "explicacao": "Incorreto. O Transfer Acceleration melhora a velocidade de transferências para o S3, mas não resolve o tráfego geral pela internet."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma CDN que melhora a entrega de conteúdo, mas não é uma solução de conectividade."
+      }
+    ],
+    "respostaCorreta": "AWS Direct Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa que deseja conectar sua rede local à AWS de maneira econômica e segura deve escolher qual das opções a seguir?",
+    "opcoes": [
+      {
+        "texto": "AWS VPN",
+        "explicacao": "Correto! A AWS VPN é uma solução econômica e segura, utilizando a internet pública com criptografia."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. Embora seja altamente estável, o Direct Connect pode ser caro para pequenas empresas."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O Amazon CloudFront é uma CDN, não uma solução de conectividade para redes locais."
+      },
+      {
+        "texto": "Internet pública sem VPN",
+        "explicacao": "Incorreto. A internet pública sem VPN não oferece segurança adequada para conexões empresariais."
+      }
+    ],
+    "respostaCorreta": "AWS VPN",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que caracteriza uma Região da AWS?",
+    "opcoes": [
+      {
+        "texto": "Uma coleção de Zonas de Disponibilidade interconectadas",
+        "explicacao": "Correto! Uma Região é composta por várias Zonas de Disponibilidade que são interconectadas para alta disponibilidade."
+      },
+      {
+        "texto": "Uma única data center localizado em um país específico",
+        "explicacao": "Incorreto. Uma Região abrange múltiplas Zonas de Disponibilidade, não apenas um único data center."
+      },
+      {
+        "texto": "Um local para armazenar dados temporários",
+        "explicacao": "Incorreto. Regiões são usadas para implantar recursos de computação, não apenas para armazenamento temporário."
+      },
+      {
+        "texto": "Um serviço de distribuição de conteúdo global",
+        "explicacao": "Incorreto. Um serviço de distribuição de conteúdo é oferecido por meio de locais de borda, não por Regiões."
+      }
+    ],
+    "respostaCorreta": "Uma coleção de Zonas de Disponibilidade interconectadas",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito das Zonas de Disponibilidade em uma Região da AWS?",
+    "opcoes": [
+      {
+        "texto": "Fornecer redundância e alta disponibilidade para aplicações",
+        "explicacao": "Correto! As Zonas de Disponibilidade oferecem redundância e alta disponibilidade para garantir a continuidade dos serviços."
+      },
+      {
+        "texto": "Servir como locais de armazenamento de dados permanentes",
+        "explicacao": "Incorreto. Embora possam armazenar dados, o principal objetivo das Zonas de Disponibilidade é garantir a alta disponibilidade."
+      },
+      {
+        "texto": "Aumentar a latência de rede entre os usuários",
+        "explicacao": "Incorreto. As Zonas de Disponibilidade são projetadas para reduzir a latência e aumentar a eficiência."
+      },
+      {
+        "texto": "Realizar backup de dados em tempo real",
+        "explicacao": "Incorreto. O backup pode ser feito em várias Zonas de Disponibilidade, mas esse não é o único objetivo delas."
+      }
+    ],
+    "respostaCorreta": "Fornecer redundância e alta disponibilidade para aplicações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que são locais de borda na AWS?",
+    "opcoes": [
+      {
+        "texto": "Pontos de presença que melhoram a entrega de conteúdo e reduzem a latência",
+        "explicacao": "Correto! Os locais de borda são usados para otimizar a entrega de conteúdo e reduzir a latência para os usuários finais."
+      },
+      {
+        "texto": "Data centers localizados em diferentes países",
+        "explicacao": "Incorreto. Locais de borda são mais sobre otimização de entrega do que sobre serem data centers tradicionais."
+      },
+      {
+        "texto": "Zonas de Disponibilidade especializadas em armazenamento de dados",
+        "explicacao": "Incorreto. Locais de borda não são Zonas de Disponibilidade; eles otimizam a entrega de conteúdo."
+      },
+      {
+        "texto": "Serviços dedicados apenas a aplicações críticas",
+        "explicacao": "Incorreto. Os locais de borda podem beneficiar qualquer tipo de aplicação, não apenas as críticas."
+      }
+    ],
+    "respostaCorreta": "Pontos de presença que melhoram a entrega de conteúdo e reduzem a latência",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as Regiões, Zonas de Disponibilidade e locais de borda trabalham juntos na AWS?",
+    "opcoes": [
+      {
+        "texto": "As Regiões fornecem a infraestrutura, enquanto as Zonas de Disponibilidade garantem resiliência e locais de borda otimizam o acesso",
+        "explicacao": "Correto! Essa combinação garante infraestrutura robusta, resiliência e entrega eficiente de conteúdo."
+      },
+      {
+        "texto": "As Zonas de Disponibilidade funcionam independentes das Regiões e locais de borda",
+        "explicacao": "Incorreto. As Zonas de Disponibilidade estão sempre associadas a uma Região específica e trabalham em conjunto com os locais de borda."
+      },
+      {
+        "texto": "Os locais de borda substituem a necessidade de Zonas de Disponibilidade",
+        "explicacao": "Incorreto. Os locais de borda complementam as Zonas de Disponibilidade, mas não as substituem."
+      },
+      {
+        "texto": "As Regiões e Zonas de Disponibilidade são utilizadas apenas para backup de dados",
+        "explicacao": "Incorreto. Elas são usadas para uma variedade de serviços, incluindo computação, armazenamento e rede."
+      }
+    ],
+    "respostaCorreta": "As Regiões fornecem a infraestrutura, enquanto as Zonas de Disponibilidade garantem resiliência e locais de borda otimizam o acesso",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Por que é importante escolher a Região correta para seus recursos na AWS?",
+    "opcoes": [
+      {
+        "texto": "Para minimizar a latência e atender a requisitos de conformidade",
+        "explicacao": "Correto! A escolha da Região pode ajudar a reduzir a latência para os usuários e a atender a regulamentações de conformidade."
+      },
+      {
+        "texto": "Porque cada Região tem diferentes custos de operação",
+        "explicacao": "Incorreto. Embora os preços possam variar, o principal fator é a latência e a conformidade."
+      },
+      {
+        "texto": "Para garantir acesso ilimitado a todos os serviços AWS",
+        "explicacao": "Incorreto. A disponibilidade de serviços pode variar entre Regiões, mas o acesso não é ilimitado."
+      },
+      {
+        "texto": "Para ter acesso a locais de borda específicos",
+        "explicacao": "Incorreto. Os locais de borda não estão diretamente ligados à escolha da Região, mas sim à entrega de conteúdo."
+      }
+    ],
+    "respostaCorreta": "Para minimizar a latência e atender a requisitos de conformidade",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as Zonas de Disponibilidade são projetadas para garantir a continuidade dos serviços na AWS?",
+    "opcoes": [
+      {
+        "texto": "Elas são isoladas fisicamente e interconectadas por uma rede de alta velocidade",
+        "explicacao": "Correto! O isolamento físico ajuda a evitar que falhas em uma Zona afetem as outras."
+      },
+      {
+        "texto": "Elas compartilham a mesma infraestrutura de rede",
+        "explicacao": "Incorreto. Compartilhar a infraestrutura pode aumentar o risco de falhas entre Zonas."
+      },
+      {
+        "texto": "Elas têm limites de capacidade que garantem a disponibilidade",
+        "explicacao": "Incorreto. Embora haja limites, o design é mais sobre redundância e isolamento."
+      },
+      {
+        "texto": "Elas operam em ambientes de teste somente",
+        "explicacao": "Incorreto. As Zonas de Disponibilidade são ambientes de produção, não apenas de teste."
+      }
+    ],
+    "respostaCorreta": "Elas são isoladas fisicamente e interconectadas por uma rede de alta velocidade",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o papel dos locais de borda em relação ao conteúdo estático e dinâmico na AWS?",
+    "opcoes": [
+      {
+        "texto": "Melhorar a entrega de conteúdo estático e dinâmico ao reduzir a latência",
+        "explicacao": "Correto! Os locais de borda são projetados para otimizar a entrega de ambos os tipos de conteúdo para os usuários finais."
+      },
+      {
+        "texto": "Aumentar o tempo de carregamento de sites",
+        "explicacao": "Incorreto. Os locais de borda têm como objetivo reduzir o tempo de carregamento, não aumentá-lo."
+      },
+      {
+        "texto": "Servir apenas conteúdo dinâmico",
+        "explicacao": "Incorreto. Eles servem tanto conteúdo dinâmico quanto estático."
+      },
+      {
+        "texto": "Substituir a necessidade de Zonas de Disponibilidade",
+        "explicacao": "Incorreto. Locais de borda complementam as Zonas de Disponibilidade, mas não as substituem."
+      }
+    ],
+    "respostaCorreta": "Melhorar a entrega de conteúdo estático e dinâmico ao reduzir a latência",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Por que a AWS usa múltiplas Zonas de Disponibilidade em cada Região?",
+    "opcoes": [
+      {
+        "texto": "Para garantir alta disponibilidade e resiliência a falhas",
+        "explicacao": "Correto! A utilização de múltiplas Zonas de Disponibilidade ajuda a garantir a continuidade do serviço mesmo em caso de falhas."
+      },
+      {
+        "texto": "Para aumentar a complexidade da arquitetura",
+        "explicacao": "Incorreto. A complexidade não é o objetivo; a resiliência e a alta disponibilidade são."
+      },
+      {
+        "texto": "Para otimizar o custo de serviços em nuvem",
+        "explicacao": "Incorreto. O custo é um fator, mas o principal objetivo é a resiliência."
+      },
+      {
+        "texto": "Para permitir a migração fácil de dados entre regiões",
+        "explicacao": "Incorreto. As Zonas de Disponibilidade são projetadas para manter a disponibilidade, não necessariamente para migração."
+      }
+    ],
+    "respostaCorreta": "Para garantir alta disponibilidade e resiliência a falhas",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como a AWS garante a segurança de dados em Regiões e Zonas de Disponibilidade?",
+    "opcoes": [
+      {
+        "texto": "Implementando controles de segurança em várias camadas",
+        "explicacao": "Correto! A AWS utiliza uma abordagem em camadas para proteger dados e aplicações em todas as suas infraestruturas."
+      },
+      {
+        "texto": "Isolando todas as Zonas de Disponibilidade em ambientes não seguros",
+        "explicacao": "Incorreto. As Zonas são projetadas para serem seguras e confiáveis."
+      },
+      {
+        "texto": "Proporcionando acesso irrestrito a todas as Zonas",
+        "explicacao": "Incorreto. O acesso é controlado e deve ser gerenciado adequadamente."
+      },
+      {
+        "texto": "Utilizando apenas criptografia para proteger os dados",
+        "explicacao": "Incorreto. Embora a criptografia seja importante, a segurança envolve várias camadas e práticas."
+      }
+    ],
+    "respostaCorreta": "Implementando controles de segurança em várias camadas",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
