@@ -8,8 +8,6 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule
 import { MatCardModule } from '@angular/material/card';
 import { Router, RouterModule, Routes } from '@angular/router';
-import { EmailConfirmationDialogComponent } from '../email-confirmation-dialog/email-confirmation-dialog.component';
-import { MatDialog } from '@angular/material/dialog';
 import { ResultadoService } from '../../services/resultado.service';
 
 @Component({
@@ -28,7 +26,7 @@ import { ResultadoService } from '../../services/resultado.service';
 })
 export class QuizComponent implements OnInit {
   perguntas: Pergunta[] = [];
-  respostasSelecionadas: string[][] = [];
+  respostasSelecionadas: (string[] | null)[] = [];
   respostasCorretas: boolean[][] = [];
   resultadosAnteriores: any[] = []; // Armazena os resultados anteriores
   respostasVerificadas: boolean[] = []; // Novo estado para verificar se as respostas foram checadas
@@ -44,7 +42,6 @@ export class QuizComponent implements OnInit {
 
   constructor(
     private perguntaService: PerguntaService,
-    private dialog: MatDialog,
     private router: Router,
     private resultadoService: ResultadoService
   ) {}
@@ -55,24 +52,7 @@ export class QuizComponent implements OnInit {
   }
 
   openEmailConfirmationDialog(): void {
-    /* const dialogRef = this.dialog.open(EmailConfirmationDialogComponent);
-
-    dialogRef.afterClosed().subscribe((email) => {
-      if (email) {
-        this.email = email;
-        this.openPerguntas(); // Carrega as perguntas apenas após a confirmação do e-mail
-        this.resultadosAnteriores =
-          this.resultadoService.recuperarResultadosPorEmail(email);
-      } else {
-        this.router.navigate(['/home']);
-      }
-    });*/
-    this.resultadoService.limparTudo();
-
-    this.email = 'joseliano@yahoo.com.br';
     this.openPerguntas(); // Carrega as perguntas apenas após a confirmação do e-mail
-    this.resultadosAnteriores =
-      this.resultadoService.recuperarResultadosPorEmail(this.email);
   }
 
   openPerguntas(): void {
