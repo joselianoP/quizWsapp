@@ -32243,5 +32243,917 @@
     "respostaCorreta": "Volumes EBS SSD de uso geral.",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para criar um sistema de arquivos na nuvem que pode ser acessado por instâncias do Amazon EC2?",
+    "opcoes": [
+      {
+        "texto": "Amazon EFS",
+        "explicacao": "O Amazon Elastic File System (EFS) é um sistema de arquivos em nuvem que pode ser acessado por várias instâncias EC2."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento de objetos, não um sistema de arquivos."
+      },
+      {
+        "texto": "Amazon Glacier",
+        "explicacao": "O Amazon Glacier é um serviço de arquivamento de dados, não um sistema de arquivos."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados gerenciado, não um sistema de arquivos."
+      }
+    ],
+    "respostaCorreta": "Amazon EFS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do Amazon S3 permite que os dados sejam acessados como se fossem arquivos em um sistema de arquivos tradicional?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3 Select",
+        "explicacao": "O S3 Select permite recuperar apenas partes dos dados, não fornece um sistema de arquivos."
+      },
+      {
+        "texto": "Amazon S3 Object Lambda",
+        "explicacao": "O S3 Object Lambda permite modificar objetos durante a recuperação, mas não é um sistema de arquivos."
+      },
+      {
+        "texto": "Amazon S3 File Gateway",
+        "explicacao": "O S3 File Gateway permite que dados do Amazon S3 sejam acessados como um sistema de arquivos."
+      },
+      {
+        "texto": "Amazon EFS",
+        "explicacao": "O EFS é um sistema de arquivos, mas não é uma funcionalidade do S3."
+      }
+    ],
+    "respostaCorreta": "Amazon S3 File Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do Amazon EFS?",
+    "opcoes": [
+      {
+        "texto": "Suporte a sistemas de arquivos NFS.",
+        "explicacao": "O Amazon EFS suporta o protocolo NFS, permitindo acesso simultâneo de várias instâncias."
+      },
+      {
+        "texto": "Armazenamento de objetos.",
+        "explicacao": "O EFS é um sistema de arquivos, não um serviço de armazenamento de objetos."
+      },
+      {
+        "texto": "Integração exclusiva com instâncias do EC2 na mesma região.",
+        "explicacao": "O EFS pode ser acessado por instâncias EC2 em diferentes zonas de disponibilidade na mesma região."
+      },
+      {
+        "texto": "Criptografia obrigatória apenas em repouso.",
+        "explicacao": "O EFS pode ser criptografado tanto em repouso quanto em trânsito."
+      }
+    ],
+    "respostaCorreta": "Suporte a sistemas de arquivos NFS.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para que tipo de cargas de trabalho o Amazon EFS é mais adequado?",
+    "opcoes": [
+      {
+        "texto": "Cargas de trabalho que exigem acesso compartilhado e simultâneo.",
+        "explicacao": "O EFS é ideal para aplicações que requerem acesso simultâneo a arquivos por múltiplas instâncias."
+      },
+      {
+        "texto": "Cargas de trabalho com baixa latência e IOPS altas.",
+        "explicacao": "O EFS pode ter latências maiores em comparação com volumes de armazenamento em bloco."
+      },
+      {
+        "texto": "Cargas de trabalho que não exigem redundância.",
+        "explicacao": "O EFS oferece alta disponibilidade e durabilidade para dados."
+      },
+      {
+        "texto": "Cargas de trabalho que requerem armazenamento de longo prazo.",
+        "explicacao": "Embora o EFS possa ser usado para armazenamento, o Amazon S3 é mais adequado para arquivamento."
+      }
+    ],
+    "respostaCorreta": "Cargas de trabalho que exigem acesso compartilhado e simultâneo.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que você integre o Amazon S3 com aplicações de terceiros que precisam acessar dados como arquivos?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3 Access Points",
+        "explicacao": "Os Access Points são usados para simplificar o acesso a conjuntos de dados no S3, mas não integram aplicações de terceiros."
+      },
+      {
+        "texto": "Amazon S3 File Gateway",
+        "explicacao": "O S3 File Gateway fornece uma interface de sistema de arquivos para acessar objetos no S3."
+      },
+      {
+        "texto": "AWS DataSync",
+        "explicacao": "O DataSync é usado para transferir dados para o S3, mas não integra aplicações de terceiros."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não uma solução de integração de arquivos."
+      }
+    ],
+    "respostaCorreta": "Amazon S3 File Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma vantagem do Amazon EFS em relação ao armazenamento local de instâncias EC2?",
+    "opcoes": [
+      {
+        "texto": "Persistência de dados após a interrupção da instância EC2.",
+        "explicacao": "O EFS armazena dados persistentemente, enquanto o armazenamento local é volátil."
+      },
+      {
+        "texto": "Maior latência.",
+        "explicacao": "O EFS tem latência que pode ser maior em comparação ao armazenamento local."
+      },
+      {
+        "texto": "Necessidade de provisionamento manual.",
+        "explicacao": "O EFS é escalável automaticamente, não requerendo provisionamento manual."
+      },
+      {
+        "texto": "Limitação a uma única instância EC2.",
+        "explicacao": "O EFS pode ser acessado por várias instâncias EC2 simultaneamente."
+      }
+    ],
+    "respostaCorreta": "Persistência de dados após a interrupção da instância EC2.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre o Amazon EFS e o Amazon FSx?",
+    "opcoes": [
+      {
+        "texto": "O EFS é otimizado para workloads Linux, enquanto o FSx suporta sistemas de arquivos do Windows.",
+        "explicacao": "O EFS é otimizado para Linux, enquanto o FSx é projetado para Windows e outros sistemas."
+      },
+      {
+        "texto": "O EFS é um serviço gerenciado, enquanto o FSx não é.",
+        "explicacao": "Ambos os serviços são gerenciados pela AWS."
+      },
+      {
+        "texto": "O EFS suporta armazenamento de objetos, enquanto o FSx é um sistema de arquivos de bloco.",
+        "explicacao": "Ambos são sistemas de arquivos, mas com características diferentes."
+      },
+      {
+        "texto": "O EFS é mais caro que o FSx.",
+        "explicacao": "O custo depende do uso, mas não é uma regra geral."
+      }
+    ],
+    "respostaCorreta": "O EFS é otimizado para workloads Linux, enquanto o FSx suporta sistemas de arquivos do Windows.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um caso de uso típico para o Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Armazenamento de backups e dados não estruturados.",
+        "explicacao": "O Amazon S3 é ideal para armazenar backups, dados não estruturados e grandes quantidades de dados."
+      },
+      {
+        "texto": "Armazenamento de arquivos de sistema de arquivos em tempo real.",
+        "explicacao": "O S3 não é um sistema de arquivos em tempo real, mas um serviço de armazenamento de objetos."
+      },
+      {
+        "texto": "Executar aplicações de banco de dados.",
+        "explicacao": "O S3 não é um serviço de banco de dados."
+      },
+      {
+        "texto": "Armazenar volumes EBS.",
+        "explicacao": "Os volumes EBS são armazenados em blocos, enquanto o S3 armazena objetos."
+      }
+    ],
+    "respostaCorreta": "Armazenamento de backups e dados não estruturados.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o Amazon FSx?",
+    "opcoes": [
+      {
+        "texto": "Um serviço de armazenamento de objetos.",
+        "explicacao": "O FSx é um serviço de sistema de arquivos gerenciado, não de armazenamento de objetos."
+      },
+      {
+        "texto": "Um serviço que oferece sistemas de arquivos otimizados para Windows e Lustre.",
+        "explicacao": "O Amazon FSx fornece sistemas de arquivos gerenciados para Windows e Lustre."
+      },
+      {
+        "texto": "Um serviço de banco de dados relacional.",
+        "explicacao": "O FSx não é um banco de dados, mas um serviço de arquivos."
+      },
+      {
+        "texto": "Um serviço de armazenamento em bloco.",
+        "explicacao": "O FSx é um sistema de arquivos, enquanto o armazenamento em bloco é diferente."
+      }
+    ],
+    "respostaCorreta": "Um serviço que oferece sistemas de arquivos otimizados para Windows e Lustre.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para mover dados entre o Amazon S3 e o Amazon EFS?",
+    "opcoes": [
+      {
+        "texto": "AWS DataSync",
+        "explicacao": "O AWS DataSync pode ser usado para transferir dados entre o S3 e o EFS."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "O CloudFront é um serviço de entrega de conteúdo, não de transferência de dados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados, não relacionado à transferência de arquivos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação sem servidor e não é especificamente para mover dados."
+      }
+    ],
+    "respostaCorreta": "AWS DataSync",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece um sistema de arquivos em cache que acelera o acesso a dados em armazenamento em nuvem?",
+    "opcoes": [
+      {
+        "texto": "Amazon FSx for Windows File Server",
+        "explicacao": "O FSx for Windows File Server é um sistema de arquivos gerenciado, mas não é especificamente um sistema de arquivos em cache."
+      },
+      {
+        "texto": "Amazon ElastiCache",
+        "explicacao": "O ElastiCache é um serviço de cache para dados em memória, não um sistema de arquivos em cache."
+      },
+      {
+        "texto": "AWS Storage Gateway",
+        "explicacao": "O AWS Storage Gateway fornece um sistema de arquivos em cache para dados armazenados no Amazon S3."
+      },
+      {
+        "texto": "Amazon EFS",
+        "explicacao": "O EFS é um sistema de arquivos em nuvem, mas não é um sistema de arquivos em cache."
+      }
+    ],
+    "respostaCorreta": "AWS Storage Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS Storage Gateway como um sistema de arquivos em cache?",
+    "opcoes": [
+      {
+        "texto": "Aumentar a latência de acesso aos dados.",
+        "explicacao": "O objetivo do Storage Gateway é reduzir a latência de acesso aos dados, não aumentá-la."
+      },
+      {
+        "texto": "Armazenar dados permanentemente no local.",
+        "explicacao": "O Storage Gateway armazena dados temporariamente em cache para acesso rápido, mas os dados são mantidos no S3."
+      },
+      {
+        "texto": "Facilitar o acesso local a dados armazenados no S3.",
+        "explicacao": "O Storage Gateway permite que as aplicações locais acessem dados no S3 com baixa latência."
+      },
+      {
+        "texto": "Transformar dados em objetos para armazenamento.",
+        "explicacao": "O Storage Gateway não transforma dados em objetos, mas facilita o acesso a objetos armazenados."
+      }
+    ],
+    "respostaCorreta": "Facilitar o acesso local a dados armazenados no S3.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de gateway é usado para configurar um sistema de arquivos em cache com o AWS Storage Gateway?",
+    "opcoes": [
+      {
+        "texto": "Gateway de arquivos",
+        "explicacao": "O gateway de arquivos do Storage Gateway é usado para fornecer acesso a arquivos em cache."
+      },
+      {
+        "texto": "Gateway de armazenamento em bloco",
+        "explicacao": "O gateway de armazenamento em bloco é para volumes, não para arquivos em cache."
+      },
+      {
+        "texto": "Gateway de fita",
+        "explicacao": "O gateway de fita é usado para arquivamento em nuvem, não para sistemas de arquivos em cache."
+      },
+      {
+        "texto": "Gateway de dados",
+        "explicacao": "Não existe um 'gateway de dados' no contexto do AWS Storage Gateway."
+      }
+    ],
+    "respostaCorreta": "Gateway de arquivos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício de usar um sistema de arquivos em cache com o AWS Storage Gateway?",
+    "opcoes": [
+      {
+        "texto": "Eliminação da necessidade de armazenamento em nuvem.",
+        "explicacao": "O Storage Gateway não elimina a necessidade de armazenamento em nuvem, mas complementa-o."
+      },
+      {
+        "texto": "Redução da largura de banda necessária para acessar dados na nuvem.",
+        "explicacao": "O sistema de arquivos em cache reduz a quantidade de dados que precisa ser transferida entre o local e a nuvem."
+      },
+      {
+        "texto": "Aumento da complexidade na recuperação de dados.",
+        "explicacao": "O sistema de arquivos em cache visa simplificar o acesso aos dados."
+      },
+      {
+        "texto": "Limitação ao acesso a dados em um único formato.",
+        "explicacao": "O Storage Gateway pode trabalhar com vários formatos de arquivo."
+      }
+    ],
+    "respostaCorreta": "Redução da largura de banda necessária para acessar dados na nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Storage Gateway se comunica com o Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Através de uma conexão direta de internet.",
+        "explicacao": "O Storage Gateway utiliza redes seguras para se conectar ao S3."
+      },
+      {
+        "texto": "Através de APIs REST.",
+        "explicacao": "O Storage Gateway usa APIs REST para interagir com o Amazon S3."
+      },
+      {
+        "texto": "Usando o protocolo FTP.",
+        "explicacao": "O FTP não é utilizado pelo Storage Gateway para comunicação com o S3."
+      },
+      {
+        "texto": "Com comunicação baseada em RPC.",
+        "explicacao": "O Storage Gateway não utiliza chamadas RPC para se conectar ao S3."
+      }
+    ],
+    "respostaCorreta": "Através de APIs REST.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual cenário é mais apropriado para utilizar o AWS Storage Gateway como um sistema de arquivos em cache?",
+    "opcoes": [
+      {
+        "texto": "Quando os dados precisam ser acessados rapidamente e frequentemente.",
+        "explicacao": "O sistema de arquivos em cache é ideal para dados que precisam ser acessados com frequência e rapidez."
+      },
+      {
+        "texto": "Quando os dados são raramente acessados.",
+        "explicacao": "O sistema de arquivos em cache não é otimizado para dados que são raramente acessados."
+      },
+      {
+        "texto": "Quando não há necessidade de backups.",
+        "explicacao": "O Storage Gateway deve ser utilizado independentemente da necessidade de backups."
+      },
+      {
+        "texto": "Quando todos os dados são armazenados localmente.",
+        "explicacao": "O Storage Gateway é usado para integrar armazenamento local e em nuvem."
+      }
+    ],
+    "respostaCorreta": "Quando os dados precisam ser acessados rapidamente e frequentemente.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que acontece com os dados em cache no AWS Storage Gateway quando uma instância é interrompida?",
+    "opcoes": [
+      {
+        "texto": "Os dados em cache são excluídos permanentemente.",
+        "explicacao": "Os dados em cache podem ser recuperados quando a instância é reiniciada."
+      },
+      {
+        "texto": "Os dados em cache são transferidos para o Amazon S3.",
+        "explicacao": "Os dados em cache são sincronizados com o Amazon S3 quando a instância é reiniciada."
+      },
+      {
+        "texto": "Os dados em cache ficam inacessíveis até que a instância seja reiniciada.",
+        "explicacao": "Os dados em cache permanecem acessíveis enquanto a instância estiver ativa."
+      },
+      {
+        "texto": "Os dados em cache são automaticamente arquivados.",
+        "explicacao": "O armazenamento em cache não é arquivado automaticamente."
+      }
+    ],
+    "respostaCorreta": "Os dados em cache são transferidos para o Amazon S3.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre um sistema de arquivos em cache e um sistema de arquivos tradicional?",
+    "opcoes": [
+      {
+        "texto": "O sistema de arquivos em cache armazena dados localmente, enquanto o tradicional armazena na nuvem.",
+        "explicacao": "Ambos podem armazenar dados localmente, mas o sistema de arquivos em cache foca em otimizar o acesso aos dados da nuvem."
+      },
+      {
+        "texto": "O sistema de arquivos em cache oferece acesso mais rápido a dados armazenados na nuvem.",
+        "explicacao": "O sistema de arquivos em cache é projetado para acelerar o acesso a dados armazenados na nuvem."
+      },
+      {
+        "texto": "Os sistemas de arquivos tradicionais não têm suporte para dados em nuvem.",
+        "explicacao": "Sistemas de arquivos tradicionais podem acessar dados em nuvem, mas não são otimizados para isso."
+      },
+      {
+        "texto": "O sistema de arquivos em cache não requer configuração.",
+        "explicacao": "O sistema de arquivos em cache ainda requer configuração para integrar com a nuvem."
+      }
+    ],
+    "respostaCorreta": "O sistema de arquivos em cache oferece acesso mais rápido a dados armazenados na nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é um sistema de arquivos em cache que permite que aplicações locais acessem dados no Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Amazon EBS",
+        "explicacao": "O EBS é um serviço de armazenamento em bloco, não um sistema de arquivos em cache."
+      },
+      {
+        "texto": "Amazon EFS",
+        "explicacao": "O EFS é um serviço de sistema de arquivos em nuvem, não especificamente um sistema de arquivos em cache."
+      },
+      {
+        "texto": "AWS Storage Gateway",
+        "explicacao": "O AWS Storage Gateway fornece acesso a dados no S3 através de um sistema de arquivos em cache."
+      },
+      {
+        "texto": "Amazon FSx",
+        "explicacao": "O FSx é um serviço de sistema de arquivos, mas não é especificamente um sistema de arquivos em cache."
+      }
+    ],
+    "respostaCorreta": "AWS Storage Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é o AWS Storage Gateway?",
+    "opcoes": [
+      {
+        "texto": "Um serviço de backup e recuperação de dados.",
+        "explicacao": "O Storage Gateway é uma solução de armazenamento híbrido, não apenas um serviço de backup."
+      },
+      {
+        "texto": "Um serviço que conecta aplicativos locais ao armazenamento em nuvem da AWS.",
+        "explicacao": "O Storage Gateway permite que os aplicativos locais acessem o armazenamento em nuvem da AWS de maneira eficiente."
+      },
+      {
+        "texto": "Um serviço de monitoramento de recursos da AWS.",
+        "explicacao": "O Storage Gateway não é um serviço de monitoramento, mas de armazenamento."
+      },
+      {
+        "texto": "Um serviço de banco de dados relacional.",
+        "explicacao": "O Storage Gateway não é um serviço de banco de dados, mas um sistema de arquivos híbrido."
+      }
+    ],
+    "respostaCorreta": "Um serviço que conecta aplicativos locais ao armazenamento em nuvem da AWS.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes tipos de gateways o AWS Storage Gateway oferece?",
+    "opcoes": [
+      {
+        "texto": "Gateway de Arquivos",
+        "explicacao": "O Storage Gateway oferece um gateway de arquivos para acesso a dados em nuvem."
+      },
+      {
+        "texto": "Gateway de Dados",
+        "explicacao": "Não existe um 'gateway de dados' como uma categoria no Storage Gateway."
+      },
+      {
+        "texto": "Gateway de Rede",
+        "explicacao": "O Storage Gateway não oferece um gateway de rede como parte de suas funcionalidades."
+      },
+      {
+        "texto": "Gateway de Aplicação",
+        "explicacao": "O Storage Gateway não é classificado como um gateway de aplicação."
+      }
+    ],
+    "respostaCorreta": "Gateway de Arquivos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma função do gateway de arquivos no AWS Storage Gateway?",
+    "opcoes": [
+      {
+        "texto": "Armazenar dados permanentemente no local.",
+        "explicacao": "O gateway de arquivos não armazena dados permanentemente, mas fornece acesso a dados no S3."
+      },
+      {
+        "texto": "Permitir que aplicações acessem dados armazenados no Amazon S3 como se fossem arquivos locais.",
+        "explicacao": "O gateway de arquivos permite que os aplicativos acessem dados no S3 com latência reduzida."
+      },
+      {
+        "texto": "Executar backups automáticos dos dados.",
+        "explicacao": "O Storage Gateway não executa backups automáticos, embora os dados possam ser armazenados no S3."
+      },
+      {
+        "texto": "Converter dados em objetos para armazenamento.",
+        "explicacao": "O gateway de arquivos não converte dados, mas facilita o acesso a objetos armazenados."
+      }
+    ],
+    "respostaCorreta": "Permitir que aplicações acessem dados armazenados no Amazon S3 como se fossem arquivos locais.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal benefício de usar o AWS Storage Gateway?",
+    "opcoes": [
+      {
+        "texto": "Acesso mais lento a dados em nuvem.",
+        "explicacao": "O Storage Gateway visa acelerar o acesso a dados em nuvem."
+      },
+      {
+        "texto": "Integração entre armazenamento local e em nuvem.",
+        "explicacao": "O Storage Gateway permite uma integração eficiente entre armazenamento local e em nuvem."
+      },
+      {
+        "texto": "Eliminação da necessidade de armazenamento local.",
+        "explicacao": "O Storage Gateway não elimina o armazenamento local, mas o complementa."
+      },
+      {
+        "texto": "Solução de segurança de dados.",
+        "explicacao": "Embora o Storage Gateway tenha segurança, não é seu principal benefício."
+      }
+    ],
+    "respostaCorreta": "Integração entre armazenamento local e em nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de dados o AWS Storage Gateway armazena?",
+    "opcoes": [
+      {
+        "texto": "Dados estruturados exclusivamente.",
+        "explicacao": "O Storage Gateway pode armazenar tanto dados estruturados quanto não estruturados."
+      },
+      {
+        "texto": "Dados não estruturados, como arquivos e objetos.",
+        "explicacao": "O Storage Gateway é projetado para armazenar dados não estruturados, como arquivos e objetos."
+      },
+      {
+        "texto": "Somente dados de aplicações.",
+        "explicacao": "O Storage Gateway pode armazenar dados de diferentes fontes, não apenas de aplicações."
+      },
+      {
+        "texto": "Dados em tempo real apenas.",
+        "explicacao": "O Storage Gateway armazena dados de forma abrangente, não apenas em tempo real."
+      }
+    ],
+    "respostaCorreta": "Dados não estruturados, como arquivos e objetos.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso permite que o AWS Storage Gateway funcione como um sistema de arquivos em cache?",
+    "opcoes": [
+      {
+        "texto": "Cache de dados em memória.",
+        "explicacao": "O Storage Gateway não utiliza cache em memória da mesma forma que os bancos de dados."
+      },
+      {
+        "texto": "Armazenamento em bloco.",
+        "explicacao": "O armazenamento em bloco é diferente da funcionalidade de cache do Storage Gateway."
+      },
+      {
+        "texto": "Armazenamento em cache de arquivos locais.",
+        "explicacao": "O Storage Gateway pode armazenar em cache arquivos locais para acesso rápido aos dados em nuvem."
+      },
+      {
+        "texto": "Transformação de dados.",
+        "explicacao": "O Storage Gateway não transforma dados, mas facilita o acesso a eles."
+      }
+    ],
+    "respostaCorreta": "Armazenamento em cache de arquivos locais.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual opção descreve melhor o gateway de fita do AWS Storage Gateway?",
+    "opcoes": [
+      {
+        "texto": "Um sistema de arquivos em cache para dados em nuvem.",
+        "explicacao": "O gateway de fita é para arquivamento e não um sistema de arquivos em cache."
+      },
+      {
+        "texto": "Um serviço para backup de dados em fita na nuvem.",
+        "explicacao": "O gateway de fita é projetado para migrar e armazenar dados em fita para a nuvem."
+      },
+      {
+        "texto": "Um sistema de armazenamento de arquivos tradicional.",
+        "explicacao": "O gateway de fita é um serviço especializado, não um sistema tradicional."
+      },
+      {
+        "texto": "Um serviço de armazenamento em bloco.",
+        "explicacao": "O gateway de fita não é um serviço de armazenamento em bloco, mas de arquivamento."
+      }
+    ],
+    "respostaCorreta": "Um serviço para backup de dados em fita na nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações sobre o AWS Storage Gateway é verdadeira?",
+    "opcoes": [
+      {
+        "texto": "O Storage Gateway não oferece suporte para integração com serviços de armazenamento em nuvem.",
+        "explicacao": "O Storage Gateway é projetado para integrar com serviços de armazenamento em nuvem da AWS."
+      },
+      {
+        "texto": "O Storage Gateway pode ser utilizado apenas em ambientes locais.",
+        "explicacao": "O Storage Gateway é uma solução híbrida que funciona tanto em locais quanto na nuvem."
+      },
+      {
+        "texto": "O Storage Gateway permite a transferência de dados entre ambientes locais e a nuvem da AWS.",
+        "explicacao": "O Storage Gateway permite transferir dados entre locais e nuvem de forma eficiente."
+      },
+      {
+        "texto": "O Storage Gateway não suporta a sincronização de dados.",
+        "explicacao": "O Storage Gateway oferece funcionalidades de sincronização de dados."
+      }
+    ],
+    "respostaCorreta": "O Storage Gateway permite a transferência de dados entre ambientes locais e a nuvem da AWS.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o método de conexão do AWS Storage Gateway para acessar os serviços de armazenamento em nuvem?",
+    "opcoes": [
+      {
+        "texto": "Conexão VPN apenas.",
+        "explicacao": "O Storage Gateway pode utilizar diferentes métodos de conexão, não apenas VPN."
+      },
+      {
+        "texto": "Conexão com a Internet ou uma VPN.",
+        "explicacao": "O Storage Gateway pode se conectar aos serviços de armazenamento por meio da Internet ou de uma VPN."
+      },
+      {
+        "texto": "Conexão dedicada somente.",
+        "explicacao": "O Storage Gateway não se limita a conexões dedicadas."
+      },
+      {
+        "texto": "Conexão somente via Direct Connect.",
+        "explicacao": "O Storage Gateway não requer exclusivamente o Direct Connect para operação."
+      }
+    ],
+    "respostaCorreta": "Conexão com a Internet ou uma VPN.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Storage Gateway ajuda na migração de dados para a nuvem?",
+    "opcoes": [
+      {
+        "texto": "Elimina a necessidade de armazenamento local.",
+        "explicacao": "O Storage Gateway complementa o armazenamento local, não o elimina."
+      },
+      {
+        "texto": "Facilita o arquivamento e o backup de dados locais na nuvem.",
+        "explicacao": "O Storage Gateway facilita a migração e o arquivamento de dados locais para a nuvem."
+      },
+      {
+        "texto": "Fornece uma interface de usuário para gerenciar dados.",
+        "explicacao": "O Storage Gateway não fornece uma interface de gerenciamento de dados, mas facilita a integração."
+      },
+      {
+        "texto": "Converte dados locais em objetos no S3 automaticamente.",
+        "explicacao": "O Storage Gateway não converte dados automaticamente, mas facilita o acesso a eles."
+      }
+    ],
+    "respostaCorreta": "Facilita o arquivamento e o backup de dados locais na nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função das políticas de ciclo de vida no Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar o acesso de usuários a objetos.",
+        "explicacao": "Políticas de ciclo de vida não gerenciam o acesso de usuários, mas sim o gerenciamento de armazenamento."
+      },
+      {
+        "texto": "Transferir objetos entre diferentes classes de armazenamento.",
+        "explicacao": "As políticas de ciclo de vida permitem transferir objetos entre diferentes classes de armazenamento."
+      },
+      {
+        "texto": "Realizar backups automáticos dos dados.",
+        "explicacao": "Embora o S3 ofereça recursos de backup, as políticas de ciclo de vida não são para backups automáticos."
+      },
+      {
+        "texto": "Proteger dados contra exclusões acidentais.",
+        "explicacao": "As políticas de ciclo de vida não têm como objetivo a proteção contra exclusões."
+      }
+    ],
+    "respostaCorreta": "Transferir objetos entre diferentes classes de armazenamento.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando é apropriado usar uma política de ciclo de vida no Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Quando os dados precisam ser armazenados indefinidamente.",
+        "explicacao": "Políticas de ciclo de vida são mais úteis para dados que não precisam ser mantidos indefinidamente."
+      },
+      {
+        "texto": "Para otimizar custos de armazenamento de dados acessados com menos frequência.",
+        "explicacao": "Usar políticas de ciclo de vida ajuda a otimizar os custos para dados que são acessados com menos frequência."
+      },
+      {
+        "texto": "Para garantir a segurança de dados em nuvem.",
+        "explicacao": "Embora as políticas de ciclo de vida ajudem a gerenciar o armazenamento, não garantem segurança."
+      },
+      {
+        "texto": "Para migrar dados entre regiões AWS.",
+        "explicacao": "Políticas de ciclo de vida não são usadas para migrações entre regiões."
+      }
+    ],
+    "respostaCorreta": "Para otimizar custos de armazenamento de dados acessados com menos frequência.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual classe de armazenamento do Amazon S3 é ideal para dados acessados raramente?",
+    "opcoes": [
+      {
+        "texto": "S3 Standard",
+        "explicacao": "A classe S3 Standard é para dados frequentemente acessados."
+      },
+      {
+        "texto": "S3 Intelligent-Tiering",
+        "explicacao": "Esta classe é para dados com padrões de acesso desconhecidos."
+      },
+      {
+        "texto": "S3 Glacier",
+        "explicacao": "O S3 Glacier é ideal para dados acessados raramente e para arquivamento."
+      },
+      {
+        "texto": "S3 One Zone-IA",
+        "explicacao": "Embora seja para dados acessados raramente, é menos ideal do que o Glacier para arquivamento."
+      }
+    ],
+    "respostaCorreta": "S3 Glacier",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como as políticas de ciclo de vida ajudam na conformidade com regulamentações?",
+    "opcoes": [
+      {
+        "texto": "Aumentando o tempo de retenção de dados.",
+        "explicacao": "Políticas de ciclo de vida podem reduzir o tempo de retenção, dependendo da configuração."
+      },
+      {
+        "texto": "Facilitando a exclusão de dados antigos conforme as diretrizes.",
+        "explicacao": "As políticas ajudam a excluir dados conforme as diretrizes de conformidade."
+      },
+      {
+        "texto": "Gerenciando o acesso a dados sensíveis.",
+        "explicacao": "As políticas de ciclo de vida não gerenciam o acesso, mas a gestão do armazenamento."
+      },
+      {
+        "texto": "Mantendo cópias de segurança em várias regiões.",
+        "explicacao": "Políticas de ciclo de vida não tratam diretamente de cópias de segurança."
+      }
+    ],
+    "respostaCorreta": "Facilitando a exclusão de dados antigos conforme as diretrizes.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício da classe de armazenamento S3 One Zone-IA?",
+    "opcoes": [
+      {
+        "texto": "É mais caro que o S3 Standard.",
+        "explicacao": "O S3 One Zone-IA é uma opção mais econômica para armazenamento de dados acessados raramente."
+      },
+      {
+        "texto": "Os dados são armazenados em várias zonas de disponibilidade.",
+        "explicacao": "O S3 One Zone-IA armazena dados em uma única zona de disponibilidade."
+      },
+      {
+        "texto": "É otimizado para dados acessados frequentemente.",
+        "explicacao": "O S3 One Zone-IA é projetado para dados acessados raramente."
+      },
+      {
+        "texto": "Oferece redução de custos em comparação com outras classes.",
+        "explicacao": "O S3 One Zone-IA oferece uma opção de armazenamento de menor custo."
+      }
+    ],
+    "respostaCorreta": "Oferece redução de custos em comparação com outras classes.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes cenários seria apropriado para aplicar uma política de ciclo de vida?",
+    "opcoes": [
+      {
+        "texto": "Armazenar dados financeiros críticos que precisam ser acessados rapidamente.",
+        "explicacao": "Dados financeiros críticos requerem acesso rápido, não são ideais para políticas de ciclo de vida."
+      },
+      {
+        "texto": "Arquivar dados de registros antigos que não são acessados com frequência.",
+        "explicacao": "Arquivar dados de registros antigos é um ótimo uso de políticas de ciclo de vida."
+      },
+      {
+        "texto": "Guardar imagens de produtos que são atualizadas frequentemente.",
+        "explicacao": "Imagens de produtos em atualização constante não são adequadas para políticas de ciclo de vida."
+      },
+      {
+        "texto": "Manter backups ativos de sistemas críticos.",
+        "explicacao": "Backups ativos devem estar disponíveis rapidamente, não são ideais para políticas de ciclo de vida."
+      }
+    ],
+    "respostaCorreta": "Arquivar dados de registros antigos que não são acessados com frequência.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que ocorre com um objeto quando a política de ciclo de vida do Amazon S3 é aplicada para movê-lo para o S3 Glacier?",
+    "opcoes": [
+      {
+        "texto": "O objeto é excluído imediatamente.",
+        "explicacao": "O objeto não é excluído; ele é movido para a classe de armazenamento do Glacier."
+      },
+      {
+        "texto": "O objeto é convertido em um arquivo de texto.",
+        "explicacao": "O objeto mantém seu formato original ao ser movido para o Glacier."
+      },
+      {
+        "texto": "O objeto fica disponível para acesso, mas com latência aumentada.",
+        "explicacao": "Após mover para o Glacier, o acesso ao objeto pode ter maior latência."
+      },
+      {
+        "texto": "O objeto se torna público automaticamente.",
+        "explicacao": "A visibilidade do objeto não muda automaticamente ao ser movido para o Glacier."
+      }
+    ],
+    "respostaCorreta": "O objeto fica disponível para acesso, mas com latência aumentada.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes é uma ação que uma política de ciclo de vida do S3 pode realizar?",
+    "opcoes": [
+      {
+        "texto": "Transferir objetos para o Amazon RDS.",
+        "explicacao": "As políticas de ciclo de vida não transferem objetos para o Amazon RDS."
+      },
+      {
+        "texto": "Excluir objetos que não foram acessados por um período específico.",
+        "explicacao": "As políticas de ciclo de vida podem excluir objetos inativos após um período específico."
+      },
+      {
+        "texto": "Migrar dados para o Amazon EC2.",
+        "explicacao": "As políticas de ciclo de vida não são usadas para migrar dados para o EC2."
+      },
+      {
+        "texto": "Criar backups automáticos de objetos.",
+        "explicacao": "As políticas de ciclo de vida não criam backups automáticos."
+      }
+    ],
+    "respostaCorreta": "Excluir objetos que não foram acessados por um período específico.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o efeito de aplicar uma política de ciclo de vida para transferir objetos de uma classe S3 Standard para S3 Intelligent-Tiering?",
+    "opcoes": [
+      {
+        "texto": "Reduzir custos de armazenamento ao otimizar o acesso a dados.",
+        "explicacao": "Essa transferência ajuda a otimizar custos, movendo dados entre classes conforme o acesso."
+      },
+      {
+        "texto": "Aumentar a latência no acesso aos dados.",
+        "explicacao": "A latência não necessariamente aumenta com a transferência para Intelligent-Tiering."
+      },
+      {
+        "texto": "Garantir a preservação de objetos permanentemente.",
+        "explicacao": "Transferências não garantem a preservação permanente dos objetos."
+      },
+      {
+        "texto": "Converter dados em um formato de arquivo comprimido.",
+        "explicacao": "A transferência não envolve a conversão de dados."
+      }
+    ],
+    "respostaCorreta": "Reduzir custos de armazenamento ao otimizar o acesso a dados.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
