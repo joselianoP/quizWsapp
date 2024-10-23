@@ -28235,5 +28235,725 @@
     "respostaCorreta": "Amazon Aurora",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS oferece um banco de dados relacional otimizado para a nuvem, com desempenho e escalabilidade superiores, e é compatível com MySQL e PostgreSQL?",
+    "opcoes": [
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Correto! O Amazon Aurora é um banco de dados relacional otimizado para a nuvem, compatível com MySQL e PostgreSQL."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Parcialmente correto. O Amazon RDS é um serviço gerenciado que inclui o Aurora como um de seus mecanismos."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O Amazon S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL, não relacional."
+      }
+    ],
+    "respostaCorreta": "Amazon Aurora",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes recursos do Amazon RDS permite backups automáticos de suas instâncias de banco de dados?",
+    "opcoes": [
+      {
+        "texto": "Backups Automáticos",
+        "explicacao": "Correto! O Amazon RDS permite configurar backups automáticos para suas instâncias."
+      },
+      {
+        "texto": "Snapshots",
+        "explicacao": "Parcialmente correto. Snapshots são backups manuais, enquanto os backups automáticos são configuráveis."
+      },
+      {
+        "texto": "Read Replicas",
+        "explicacao": "Incorreto. Read Replicas são usadas para escalabilidade de leitura, não para backups."
+      },
+      {
+        "texto": "Multi-AZ Deployments",
+        "explicacao": "Incorreto. Multi-AZ é para alta disponibilidade, não especificamente para backups."
+      }
+    ],
+    "respostaCorreta": "Backups Automáticos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece suporte a alta disponibilidade e failover automático para bancos de dados?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS com Multi-AZ",
+        "explicacao": "Correto! O Amazon RDS pode ser configurado para Multi-AZ para alta disponibilidade."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 é um serviço de computação, não um serviço de banco de dados com failover."
+      },
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Parcialmente correto. O Aurora pode ser usado em configurações de Multi-AZ para alta disponibilidade."
+      },
+      {
+        "texto": "Amazon EFS",
+        "explicacao": "Incorreto. O EFS é um sistema de arquivos, não um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS com Multi-AZ",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do Amazon Aurora permite escalar automaticamente o armazenamento de dados?",
+    "opcoes": [
+      {
+        "texto": "Armazenamento Escalável",
+        "explicacao": "Correto! O Amazon Aurora oferece armazenamento escalável automaticamente até 64 TB."
+      },
+      {
+        "texto": "Read Replicas",
+        "explicacao": "Incorreto. Read Replicas são para melhorar a escalabilidade de leitura, não para armazenamento."
+      },
+      {
+        "texto": "Backups Automáticos",
+        "explicacao": "Incorreto. Os backups automáticos não afetam a escalabilidade do armazenamento."
+      },
+      {
+        "texto": "Multi-AZ Deployments",
+        "explicacao": "Incorreto. O Multi-AZ é para alta disponibilidade, não para escalabilidade do armazenamento."
+      }
+    ],
+    "respostaCorreta": "Armazenamento Escalável",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios do uso de Amazon Aurora em comparação com bancos de dados tradicionais?",
+    "opcoes": [
+      {
+        "texto": "Maior desempenho e escalabilidade",
+        "explicacao": "Correto! O Amazon Aurora é projetado para oferecer desempenho e escalabilidade superiores."
+      },
+      {
+        "texto": "Menor segurança",
+        "explicacao": "Incorreto. Aurora oferece vários recursos de segurança para proteger dados."
+      },
+      {
+        "texto": "Gerenciamento manual complexo",
+        "explicacao": "Incorreto. O Aurora é um serviço gerenciado, minimizando a necessidade de gerenciamento manual."
+      },
+      {
+        "texto": "Backup manual obrigatório",
+        "explicacao": "Incorreto. Aurora oferece backups automáticos como padrão."
+      }
+    ],
+    "respostaCorreta": "Maior desempenho e escalabilidade",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para monitorar o desempenho do Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "Correto! O Amazon CloudWatch permite monitorar métricas de desempenho do RDS."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é um serviço de computação, não um serviço de monitoramento."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de monitoramento."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Route 53 é um serviço de DNS, não um serviço de monitoramento."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudWatch",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica única do Amazon Aurora em comparação com o Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Suporte a várias regiões com replicação",
+        "explicacao": "Correto! O Amazon Aurora suporta replicação entre várias regiões para alta disponibilidade."
+      },
+      {
+        "texto": "Necessidade de backups manuais somente",
+        "explicacao": "Incorreto. O Aurora oferece backups automáticos e manuais."
+      },
+      {
+        "texto": "Suporte a bancos de dados NoSQL",
+        "explicacao": "Incorreto. O Aurora é um banco de dados relacional."
+      },
+      {
+        "texto": "Gerenciamento de hardware",
+        "explicacao": "Incorreto. O Aurora é um serviço gerenciado que elimina a necessidade de gerenciamento de hardware."
+      }
+    ],
+    "respostaCorreta": "Suporte a várias regiões com replicação",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o propósito das Read Replicas no Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Aumentar a capacidade de leitura",
+        "explicacao": "Correto! As Read Replicas permitem escalar a capacidade de leitura das aplicações."
+      },
+      {
+        "texto": "Aumentar a segurança",
+        "explicacao": "Incorreto. Embora possam oferecer alguma redundância, o objetivo principal é a escalabilidade."
+      },
+      {
+        "texto": "Fazer backups automáticos",
+        "explicacao": "Incorreto. Read Replicas não são usadas para backups."
+      },
+      {
+        "texto": "Reduzir o custo do armazenamento",
+        "explicacao": "Incorreto. O custo do armazenamento não é necessariamente reduzido com Read Replicas."
+      }
+    ],
+    "respostaCorreta": "Aumentar a capacidade de leitura",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando deve-se considerar o uso do Amazon Aurora?",
+    "opcoes": [
+      {
+        "texto": "Quando a aplicação requer alta escalabilidade e desempenho",
+        "explicacao": "Correto! O Amazon Aurora é ideal para aplicações que exigem alto desempenho."
+      },
+      {
+        "texto": "Quando a aplicação precisa de um banco de dados NoSQL",
+        "explicacao": "Incorreto. O Aurora é um banco de dados relacional, não NoSQL."
+      },
+      {
+        "texto": "Quando o custo não é uma preocupação",
+        "explicacao": "Incorreto. O custo deve sempre ser considerado na escolha do serviço."
+      },
+      {
+        "texto": "Quando não há necessidade de backups",
+        "explicacao": "Incorreto. Aurora ainda fornece backups automáticos como padrão."
+      }
+    ],
+    "respostaCorreta": "Quando a aplicação requer alta escalabilidade e desempenho",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções oferece recursos de segurança para proteger dados no Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Criptografia em repouso e em trânsito",
+        "explicacao": "Correto! O Amazon RDS suporta criptografia para proteger dados em repouso e em trânsito."
+      },
+      {
+        "texto": "Acesso aberto a todos",
+        "explicacao": "Incorreto. O RDS requer autenticação para acesso."
+      },
+      {
+        "texto": "Backups manuais apenas",
+        "explicacao": "Incorreto. O RDS oferece tanto backups automáticos quanto manuais."
+      },
+      {
+        "texto": "Suporte exclusivo para uma região",
+        "explicacao": "Incorreto. O RDS pode ser configurado para operar em várias regiões."
+      }
+    ],
+    "respostaCorreta": "Criptografia em repouso e em trânsito",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é um banco de dados NoSQL totalmente gerenciado que oferece armazenamento de chave-valor?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Correto! O Amazon DynamoDB é um banco de dados NoSQL que armazena dados em formato de chave-valor."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados relacional, não NoSQL."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      },
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Incorreto. O Amazon Aurora é um banco de dados relacional otimizado para a nuvem."
+      }
+    ],
+    "respostaCorreta": "Amazon DynamoDB",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de banco de dados NoSQL é mais adequado para armazenar documentos JSON?",
+    "opcoes": [
+      {
+        "texto": "Banco de Dados de Documentos",
+        "explicacao": "Correto! Os bancos de dados de documentos, como MongoDB, são ideais para armazenar dados em formato JSON."
+      },
+      {
+        "texto": "Banco de Dados Relacional",
+        "explicacao": "Incorreto. Bancos de dados relacionais usam tabelas e não são ideais para JSON."
+      },
+      {
+        "texto": "Banco de Dados de Colunas",
+        "explicacao": "Incorreto. Os bancos de dados de colunas são usados para dados estruturados, mas não especificamente para JSON."
+      },
+      {
+        "texto": "Banco de Dados de Grafos",
+        "explicacao": "Incorreto. Bancos de dados de grafos são usados para armazenar dados em forma de grafos."
+      }
+    ],
+    "respostaCorreta": "Banco de Dados de Documentos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes bancos de dados NoSQL é mais adequado para armazenar dados em formato de coluna?",
+    "opcoes": [
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Correto! O Amazon Redshift é um banco de dados analítico baseado em colunas."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados de chave-valor e não um banco de dados de colunas."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados relacional."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos."
+      }
+    ],
+    "respostaCorreta": "Amazon Redshift",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma característica comum de bancos de dados NoSQL?",
+    "opcoes": [
+      {
+        "texto": "Escalabilidade horizontal",
+        "explicacao": "Correto! Bancos de dados NoSQL geralmente suportam escalabilidade horizontal."
+      },
+      {
+        "texto": "Estrutura de dados rígida",
+        "explicacao": "Incorreto. Bancos de dados NoSQL são conhecidos por sua flexibilidade de esquema."
+      },
+      {
+        "texto": "ACID completo",
+        "explicacao": "Incorreto. Muitos bancos de dados NoSQL não garantem as propriedades ACID completas."
+      },
+      {
+        "texto": "Modelo de dados relacional",
+        "explicacao": "Incorreto. Bancos de dados NoSQL não usam o modelo de dados relacional."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade horizontal",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é projetado para fornecer um banco de dados de grafos NoSQL?",
+    "opcoes": [
+      {
+        "texto": "Amazon Neptune",
+        "explicacao": "Correto! O Amazon Neptune é um banco de dados de grafos totalmente gerenciado."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é para bancos de dados relacionais."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não um banco de dados."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Parcialmente correto. O DynamoDB é um banco de dados de chave-valor, mas não é um banco de grafos."
+      }
+    ],
+    "respostaCorreta": "Amazon Neptune",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes bancos de dados NoSQL é mais adequado para armazenamento de dados em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Correto! O Amazon DynamoDB é otimizado para desempenho em tempo real."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um banco de dados relacional e pode não ser ideal para dados em tempo real."
+      },
+      {
+        "texto": "Amazon ElastiCache",
+        "explicacao": "Parcialmente correto. O ElastiCache é um serviço de cache, mas não é um banco de dados NoSQL."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon DynamoDB",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um dos principais benefícios de usar bancos de dados NoSQL em vez de bancos de dados relacionais?",
+    "opcoes": [
+      {
+        "texto": "Maior flexibilidade de esquema",
+        "explicacao": "Correto! Bancos de dados NoSQL permitem maior flexibilidade de esquema."
+      },
+      {
+        "texto": "Estrutura de dados rígida",
+        "explicacao": "Incorreto. Bancos de dados NoSQL são conhecidos por sua flexibilidade."
+      },
+      {
+        "texto": "Suporte garantido para transações ACID",
+        "explicacao": "Incorreto. Muitos bancos de dados NoSQL não garantem transações ACID."
+      },
+      {
+        "texto": "Limitação de escalabilidade",
+        "explicacao": "Incorreto. Bancos de dados NoSQL são projetados para escalabilidade."
+      }
+    ],
+    "respostaCorreta": "Maior flexibilidade de esquema",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual banco de dados NoSQL é melhor para armazenar dados com relacionamentos complexos?",
+    "opcoes": [
+      {
+        "texto": "Banco de Dados de Grafos",
+        "explicacao": "Correto! Bancos de dados de grafos são ideais para armazenar dados com relacionamentos complexos."
+      },
+      {
+        "texto": "Banco de Dados de Documentos",
+        "explicacao": "Incorreto. Embora os bancos de dados de documentos possam armazenar dados complexos, não são otimizados para relacionamentos."
+      },
+      {
+        "texto": "Banco de Dados de Colunas",
+        "explicacao": "Incorreto. Bancos de dados de colunas são para dados estruturados, mas não são ideais para relacionamentos complexos."
+      },
+      {
+        "texto": "Banco de Dados de Chave-Valor",
+        "explicacao": "Incorreto. Bancos de dados de chave-valor não são adequados para relacionamentos complexos."
+      }
+    ],
+    "respostaCorreta": "Banco de Dados de Grafos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um exemplo de banco de dados NoSQL de documentos?",
+    "opcoes": [
+      {
+        "texto": "MongoDB",
+        "explicacao": "Correto! MongoDB é um popular banco de dados NoSQL de documentos."
+      },
+      {
+        "texto": "MySQL",
+        "explicacao": "Incorreto. MySQL é um banco de dados relacional."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados relacional."
+      },
+      {
+        "texto": "PostgreSQL",
+        "explicacao": "Incorreto. PostgreSQL é um banco de dados relacional com suporte a JSON, mas não é NoSQL."
+      }
+    ],
+    "respostaCorreta": "MongoDB",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um benefício do uso de bancos de dados NoSQL para grandes volumes de dados?",
+    "opcoes": [
+      {
+        "texto": "Desempenho otimizado para leitura e escrita",
+        "explicacao": "Correto! Bancos de dados NoSQL são otimizados para operações de leitura e escrita em grandes volumes de dados."
+      },
+      {
+        "texto": "Complexidade na estruturação dos dados",
+        "explicacao": "Incorreto. Bancos de dados NoSQL são projetados para simplicidade e flexibilidade."
+      },
+      {
+        "texto": "Baixa disponibilidade",
+        "explicacao": "Incorreto. Bancos de dados NoSQL geralmente oferecem alta disponibilidade."
+      },
+      {
+        "texto": "Dependência de transações ACID",
+        "explicacao": "Incorreto. Muitos bancos de dados NoSQL não seguem o modelo ACID."
+      }
+    ],
+    "respostaCorreta": "Desempenho otimizado para leitura e escrita",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços da AWS é um banco de dados em memória que pode ser usado para acelerar aplicativos por meio de caching?",
+    "opcoes": [
+      {
+        "texto": "Amazon ElastiCache",
+        "explicacao": "Correto! O Amazon ElastiCache é um serviço de caching em memória que suporta Redis e Memcached."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados relacional, não um banco de dados em memória."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL que pode usar armazenamento em disco."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon ElastiCache",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções descreve um banco de dados baseado em memória?",
+    "opcoes": [
+      {
+        "texto": "Armazena dados principalmente em RAM para acesso rápido.",
+        "explicacao": "Correto! Bancos de dados baseados em memória armazenam dados na memória RAM para um acesso mais rápido."
+      },
+      {
+        "texto": "Armazena dados exclusivamente em discos rígidos.",
+        "explicacao": "Incorreto. Bancos de dados baseados em memória dependem principalmente de RAM, não de discos."
+      },
+      {
+        "texto": "Utiliza exclusivamente armazenamento em nuvem.",
+        "explicacao": "Incorreto. Enquanto podem operar na nuvem, a característica principal é o uso da RAM."
+      },
+      {
+        "texto": "Garantem transações ACID completas.",
+        "explicacao": "Incorreto. Embora possam suportar transações, muitos bancos de dados em memória não seguem estritamente o modelo ACID."
+      }
+    ],
+    "respostaCorreta": "Armazena dados principalmente em RAM para acesso rápido.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um exemplo típico de um banco de dados baseado em memória?",
+    "opcoes": [
+      {
+        "texto": "Redis",
+        "explicacao": "Correto! Redis é um popular banco de dados em memória usado para caching e armazenamento de dados em tempo real."
+      },
+      {
+        "texto": "MySQL",
+        "explicacao": "Incorreto. MySQL é um banco de dados relacional que armazena dados em disco."
+      },
+      {
+        "texto": "MongoDB",
+        "explicacao": "Incorreto. MongoDB é um banco de dados NoSQL de documentos, não um banco de dados em memória."
+      },
+      {
+        "texto": "PostgreSQL",
+        "explicacao": "Incorreto. PostgreSQL é um banco de dados relacional que não é exclusivamente baseado em memória."
+      }
+    ],
+    "respostaCorreta": "Redis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais das seguintes características são comuns em bancos de dados baseados em memória?",
+    "opcoes": [
+      {
+        "texto": "Acesso ultra-rápido a dados.",
+        "explicacao": "Correto! A principal vantagem dos bancos de dados em memória é o acesso rápido aos dados."
+      },
+      {
+        "texto": "Baixa capacidade de escalabilidade.",
+        "explicacao": "Incorreto. Muitos bancos de dados em memória são projetados para serem escaláveis."
+      },
+      {
+        "texto": "Armazenamento persistente de dados.",
+        "explicacao": "Incorreto. Dados em memória podem ser voláteis, a menos que sejam salvos em um armazenamento persistente."
+      },
+      {
+        "texto": "Uso exclusivo de consultas SQL.",
+        "explicacao": "Incorreto. Alguns bancos de dados em memória usam outras formas de consulta além de SQL."
+      }
+    ],
+    "respostaCorreta": "Acesso ultra-rápido a dados.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual caso de uso os bancos de dados baseados em memória são frequentemente mais adequados?",
+    "opcoes": [
+      {
+        "texto": "Aplicações de tempo real, como jogos online.",
+        "explicacao": "Correto! Bancos de dados em memória são ideais para aplicações que exigem baixa latência e acesso rápido aos dados."
+      },
+      {
+        "texto": "Armazenamento de grandes quantidades de dados históricos.",
+        "explicacao": "Incorreto. Para grandes volumes de dados históricos, bancos de dados baseados em disco são mais adequados."
+      },
+      {
+        "texto": "Análises de dados complexas.",
+        "explicacao": "Incorreto. Embora possam ser usados para análises rápidas, não são ideais para análises complexas que exigem armazenamento em disco."
+      },
+      {
+        "texto": "Backup de dados.",
+        "explicacao": "Incorreto. Bancos de dados em memória não são projetados para backup, mas para acesso rápido."
+      }
+    ],
+    "respostaCorreta": "Aplicações de tempo real, como jogos online.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções é uma limitação comum de bancos de dados baseados em memória?",
+    "opcoes": [
+      {
+        "texto": "Limitações de capacidade devido ao armazenamento em RAM.",
+        "explicacao": "Correto! A capacidade de um banco de dados em memória é limitada pela quantidade de RAM disponível."
+      },
+      {
+        "texto": "Acesso muito lento a dados.",
+        "explicacao": "Incorreto. Acesso a dados em bancos de dados em memória é geralmente muito rápido."
+      },
+      {
+        "texto": "Armazenamento de dados em formato de tabela.",
+        "explicacao": "Incorreto. Embora possam armazenar dados em formato de tabela, a estrutura não é uma limitação."
+      },
+      {
+        "texto": "Compatibilidade apenas com bancos de dados relacionais.",
+        "explicacao": "Incorreto. Bancos de dados em memória podem ser usados com uma variedade de modelos de dados."
+      }
+    ],
+    "respostaCorreta": "Limitações de capacidade devido ao armazenamento em RAM.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes bancos de dados em memória pode ser usado como um serviço de cache distribuído?",
+    "opcoes": [
+      {
+        "texto": "Amazon ElastiCache",
+        "explicacao": "Correto! O Amazon ElastiCache pode ser usado como um cache distribuído para acelerar aplicativos."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um banco de dados relacional e não um serviço de cache."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não um banco de dados."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. Embora seja um banco de dados NoSQL, não é um serviço de cache."
+      }
+    ],
+    "respostaCorreta": "Amazon ElastiCache",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais tipos de dados os bancos de dados em memória podem armazenar?",
+    "opcoes": [
+      {
+        "texto": "Dados estruturados e não estruturados.",
+        "explicacao": "Correto! Bancos de dados em memória podem armazenar ambos os tipos de dados, dependendo do modelo usado."
+      },
+      {
+        "texto": "Apenas dados estruturados.",
+        "explicacao": "Incorreto. Eles podem armazenar dados não estruturados também."
+      },
+      {
+        "texto": "Somente dados em formato de tabela.",
+        "explicacao": "Incorreto. Eles não se limitam a dados em tabela."
+      },
+      {
+        "texto": "Apenas dados em formato JSON.",
+        "explicacao": "Incorreto. Podem armazenar dados em vários formatos."
+      }
+    ],
+    "respostaCorreta": "Dados estruturados e não estruturados.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um uso comum de bancos de dados baseados em memória em aplicativos web?",
+    "opcoes": [
+      {
+        "texto": "Armazenamento de sessões de usuário.",
+        "explicacao": "Correto! Bancos de dados em memória são frequentemente usados para armazenar sessões de usuário devido à sua velocidade."
+      },
+      {
+        "texto": "Armazenamento de dados de longo prazo.",
+        "explicacao": "Incorreto. Para dados de longo prazo, bancos de dados em disco são mais adequados."
+      },
+      {
+        "texto": "Realização de backup.",
+        "explicacao": "Incorreto. Bancos de dados em memória não são usados para backups, mas para acesso rápido."
+      },
+      {
+        "texto": "Análises de dados complexas.",
+        "explicacao": "Incorreto. Embora possam ser usados para análises rápidas, não são ideais para análises complexas."
+      }
+    ],
+    "respostaCorreta": "Armazenamento de sessões de usuário.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os bancos de dados em memória geralmente garantem a durabilidade dos dados?",
+    "opcoes": [
+      {
+        "texto": "Usando persistência de dados em disco.",
+        "explicacao": "Correto! Muitos bancos de dados em memória oferecem opções de persistência para garantir que os dados não sejam perdidos."
+      },
+      {
+        "texto": "Não oferecem opções de durabilidade.",
+        "explicacao": "Incorreto. Eles podem usar persistência, mas não todos os bancos de dados em memória fazem isso."
+      },
+      {
+        "texto": "Apenas armazenando dados em caches temporários.",
+        "explicacao": "Incorreto. Eles podem armazenar dados de forma mais duradoura, se configurados corretamente."
+      },
+      {
+        "texto": "Usando exclusivamente RAM.",
+        "explicacao": "Incorreto. Embora usem RAM, muitos também têm opções de persistência."
+      }
+    ],
+    "respostaCorreta": "Usando persistência de dados em disco.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
