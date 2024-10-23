@@ -33395,5 +33395,3972 @@
     "respostaCorreta": "A quantidade de dados e a frequência dos backups.",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para rotear eventos de aplicativos em uma arquitetura orientada a eventos?",
+    "opcoes": [
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O Amazon EventBridge permite rotear eventos entre aplicativos de maneira flexível."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O SNS é usado para enviar notificações, não para rotear eventos."
+      },
+      {
+        "texto": "Amazon SQS",
+        "explicacao": "O SQS é um serviço de fila de mensagens, não de roteamento de eventos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode processar eventos, mas não roteia eventos entre serviços."
+      }
+    ],
+    "respostaCorreta": "Amazon EventBridge",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite que você envie mensagens para múltiplos assinantes de forma escalável?",
+    "opcoes": [
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O Amazon SNS permite enviar mensagens para múltiplos destinatários simultaneamente."
+      },
+      {
+        "texto": "Amazon SQS",
+        "explicacao": "O SQS é usado para mensagens entre aplicativos, mas não envia para múltiplos assinantes."
+      },
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge é para rotear eventos, não enviar mensagens."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é uma ferramenta de provisionamento, não de mensageria."
+      }
+    ],
+    "respostaCorreta": "Amazon SNS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do Amazon Simple Queue Service (SQS)?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar filas de mensagens entre aplicativos.",
+        "explicacao": "O SQS é projetado para permitir a comunicação assíncrona entre serviços."
+      },
+      {
+        "texto": "Enviar notificações para dispositivos móveis.",
+        "explicacao": "Essa função é realizada pelo Amazon SNS."
+      },
+      {
+        "texto": "Roteamento de eventos entre aplicativos.",
+        "explicacao": "O roteamento de eventos é feito pelo Amazon EventBridge."
+      },
+      {
+        "texto": "Armazenar dados de forma não relacional.",
+        "explicacao": "O armazenamento não relacional é uma função do Amazon DynamoDB."
+      }
+    ],
+    "respostaCorreta": "Gerenciar filas de mensagens entre aplicativos.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para criar regras que desencadeiam ações com base em eventos?",
+    "opcoes": [
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge permite a criação de regras que acionam ações em resposta a eventos."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O SNS é para envio de notificações, não para regras baseadas em eventos."
+      },
+      {
+        "texto": "Amazon SQS",
+        "explicacao": "O SQS é um serviço de mensageria, não de regras de eventos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode ser acionado por eventos, mas não cria regras."
+      }
+    ],
+    "respostaCorreta": "Amazon EventBridge",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o Amazon Simple Notification Service (SNS) oferece além do envio de mensagens?",
+    "opcoes": [
+      {
+        "texto": "Entrega de mensagens em várias plataformas.",
+        "explicacao": "O SNS pode entregar mensagens a e-mail, SMS e outros endpoints."
+      },
+      {
+        "texto": "Filas para processamento assíncrono.",
+        "explicacao": "Essa função é do Amazon SQS."
+      },
+      {
+        "texto": "Roteamento de eventos complexos.",
+        "explicacao": "O roteamento de eventos é feito pelo Amazon EventBridge."
+      },
+      {
+        "texto": "Armazenamento de dados.",
+        "explicacao": "O SNS não é um serviço de armazenamento."
+      }
+    ],
+    "respostaCorreta": "Entrega de mensagens em várias plataformas.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para desacoplar a comunicação entre componentes de um aplicativo?",
+    "opcoes": [
+      {
+        "texto": "Amazon SQS",
+        "explicacao": "O SQS permite que diferentes partes de um aplicativo se comuniquem sem estarem diretamente ligadas."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O SNS é para notificações, não desacoplamento de componentes."
+      },
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge é mais focado em eventos do que em desacoplamento."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não gerencia comunicação entre componentes."
+      }
+    ],
+    "respostaCorreta": "Amazon SQS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do Amazon EventBridge?",
+    "opcoes": [
+      {
+        "texto": "Suporte a eventos de aplicativos SaaS.",
+        "explicacao": "O EventBridge pode integrar eventos de aplicativos SaaS com serviços AWS."
+      },
+      {
+        "texto": "Processamento de mensagens em ordem.",
+        "explicacao": "O processamento em ordem é uma característica do SQS, não do EventBridge."
+      },
+      {
+        "texto": "Armazenamento de mensagens.",
+        "explicacao": "O EventBridge não armazena mensagens, ele roteia eventos."
+      },
+      {
+        "texto": "Mensageria entre filas.",
+        "explicacao": "Essa função é do SQS, não do EventBridge."
+      }
+    ],
+    "respostaCorreta": "Suporte a eventos de aplicativos SaaS.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais adequado para mensagens de longa duração e processamento assíncrono?",
+    "opcoes": [
+      {
+        "texto": "Amazon SQS",
+        "explicacao": "O SQS é projetado para mensagens assíncronas e de longa duração entre componentes."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O SNS é mais para notificações instantâneas."
+      },
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge não é focado em mensagens, mas em eventos."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions são usadas para orquestração, não para mensageria."
+      }
+    ],
+    "respostaCorreta": "Amazon SQS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser usado para enviar uma única mensagem a várias filas de mensagens?",
+    "opcoes": [
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O SNS pode enviar uma única mensagem para múltiplos assinantes, incluindo filas SQS."
+      },
+      {
+        "texto": "Amazon SQS",
+        "explicacao": "O SQS é uma fila de mensagens, não envia mensagens para várias filas."
+      },
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge não envia mensagens, ele roteia eventos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa funções, mas não é um serviço de mensageria."
+      }
+    ],
+    "respostaCorreta": "Amazon SNS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite a criação de uma central de atendimento ao cliente baseada em nuvem?",
+    "opcoes": [
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Amazon Connect é uma solução de central de atendimento em nuvem que facilita a criação de experiências de atendimento ao cliente."
+      },
+      {
+        "texto": "Amazon SES",
+        "explicacao": "O Amazon SES é um serviço de envio de e-mails, não uma central de atendimento."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação que executa código, mas não é uma central de atendimento."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento de objetos, não relacionado a centrais de atendimento."
+      }
+    ],
+    "respostaCorreta": "Amazon Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do Amazon Simple Email Service (SES)?",
+    "opcoes": [
+      {
+        "texto": "Enviar e-mails em massa e notificações.",
+        "explicacao": "O Amazon SES é projetado para enviar e-mails em massa e comunicações de notificações."
+      },
+      {
+        "texto": "Gerenciar chamadas telefônicas.",
+        "explicacao": "O gerenciamento de chamadas é a função do Amazon Connect."
+      },
+      {
+        "texto": "Armazenar dados de e-mails.",
+        "explicacao": "O SES não armazena e-mails, apenas os envia."
+      },
+      {
+        "texto": "Gerar relatórios de atendimento ao cliente.",
+        "explicacao": "Isso é mais relacionado ao Amazon Connect."
+      }
+    ],
+    "respostaCorreta": "Enviar e-mails em massa e notificações.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual recurso do Amazon Connect permite a análise do desempenho de agentes de atendimento?",
+    "opcoes": [
+      {
+        "texto": "Amazon Connect Metrics",
+        "explicacao": "O Amazon Connect fornece métricas e relatórios detalhados sobre o desempenho dos agentes."
+      },
+      {
+        "texto": "Amazon SES Dashboard",
+        "explicacao": "O SES fornece relatórios de entrega, mas não é focado no desempenho de agentes."
+      },
+      {
+        "texto": "AWS CloudWatch",
+        "explicacao": "O CloudWatch monitora serviços, mas não é específico para agentes do Connect."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não fornece análises de desempenho."
+      }
+    ],
+    "respostaCorreta": "Amazon Connect Metrics",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do Amazon Simple Email Service (SES)?",
+    "opcoes": [
+      {
+        "texto": "Baixo custo para envio de e-mails.",
+        "explicacao": "O Amazon SES oferece preços competitivos para o envio de e-mails."
+      },
+      {
+        "texto": "Suporte a chamadas de voz.",
+        "explicacao": "O SES não suporta chamadas de voz, essa é uma função do Amazon Connect."
+      },
+      {
+        "texto": "Integração com serviços de mensagens SMS.",
+        "explicacao": "O SES é focado em e-mail, não em SMS."
+      },
+      {
+        "texto": "Criação de aplicativos de atendimento ao cliente.",
+        "explicacao": "Isso é mais relacionado ao Amazon Connect."
+      }
+    ],
+    "respostaCorreta": "Baixo custo para envio de e-mails.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser utilizado para configurar uma resposta automática a e-mails recebidos?",
+    "opcoes": [
+      {
+        "texto": "Amazon SES",
+        "explicacao": "O Amazon SES pode ser configurado para respostas automáticas a e-mails recebidos."
+      },
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Amazon Connect é voltado para chamadas, não para e-mails."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode ser usado em conjunto, mas não é específico para e-mails."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento, não relacionado a e-mails."
+      }
+    ],
+    "respostaCorreta": "Amazon SES",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece recursos de IVR (Interactive Voice Response)?",
+    "opcoes": [
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Amazon Connect fornece recursos de IVR para interações de chamadas."
+      },
+      {
+        "texto": "Amazon SES",
+        "explicacao": "O SES não oferece funcionalidades de IVR, é um serviço de e-mail."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não fornece IVR."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não possui IVR."
+      }
+    ],
+    "respostaCorreta": "Amazon Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite a verificação de domínios para envio de e-mails com Amazon SES?",
+    "opcoes": [
+      {
+        "texto": "Verificação de Domínio no SES",
+        "explicacao": "O Amazon SES permite verificar domínios para autenticar e-mails enviados."
+      },
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Connect não fornece serviços de verificação de domínios para e-mail."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda não gerencia verificação de domínios."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não verifica domínios."
+      }
+    ],
+    "respostaCorreta": "Verificação de Domínio no SES",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício do uso do Amazon Connect em relação a soluções de central de atendimento tradicionais?",
+    "opcoes": [
+      {
+        "texto": "Escalabilidade e flexibilidade em nuvem.",
+        "explicacao": "O Amazon Connect oferece escalabilidade e flexibilidade que as soluções tradicionais não têm."
+      },
+      {
+        "texto": "Maior controle sobre a infraestrutura.",
+        "explicacao": "Soluções tradicionais oferecem mais controle sobre a infraestrutura local."
+      },
+      {
+        "texto": "Maior custo de implementação.",
+        "explicacao": "O Connect normalmente é mais econômico do que soluções tradicionais."
+      },
+      {
+        "texto": "Dependência de hardware específico.",
+        "explicacao": "O Amazon Connect não depende de hardware específico, enquanto soluções tradicionais geralmente dependem."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade e flexibilidade em nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma maneira de melhorar a entrega de e-mails com o Amazon SES?",
+    "opcoes": [
+      {
+        "texto": "Implementar autenticação DKIM.",
+        "explicacao": "A autenticação DKIM melhora a entrega de e-mails, reduzindo a probabilidade de serem marcados como spam."
+      },
+      {
+        "texto": "Enviar e-mails apenas para contatos desconhecidos.",
+        "explicacao": "Enviar para contatos desconhecidos pode resultar em baixa taxa de entrega."
+      },
+      {
+        "texto": "Usar listas de distribuição muito grandes.",
+        "explicacao": "Listas muito grandes podem resultar em problemas de entrega."
+      },
+      {
+        "texto": "Ignorar taxas de rejeição de e-mails.",
+        "explicacao": "Ignorar taxas de rejeição pode afetar negativamente a reputação do domínio."
+      }
+    ],
+    "respostaCorreta": "Implementar autenticação DKIM.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece suporte e recursos específicos para ajudar startups a crescerem?",
+    "opcoes": [
+      {
+        "texto": "AWS Activate",
+        "explicacao": "O AWS Activate fornece recursos, créditos e suporte para startups em estágio inicial."
+      },
+      {
+        "texto": "AWS IQ",
+        "explicacao": "O AWS IQ conecta startups a especialistas em AWS, mas não fornece recursos específicos."
+      },
+      {
+        "texto": "AWS Managed Services (AMS)",
+        "explicacao": "O AMS gerencia operações na nuvem, mas não é exclusivo para startups."
+      },
+      {
+        "texto": "AWS Support",
+        "explicacao": "O AWS Support oferece suporte técnico, mas não é um programa específico para startups."
+      }
+    ],
+    "respostaCorreta": "AWS Activate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função do AWS IQ?",
+    "opcoes": [
+      {
+        "texto": "Conectar empresas a especialistas em AWS para ajuda em projetos.",
+        "explicacao": "O AWS IQ conecta clientes a profissionais qualificados para assistência técnica."
+      },
+      {
+        "texto": "Gerenciar serviços na nuvem.",
+        "explicacao": "O gerenciamento de serviços é a função do AWS Managed Services."
+      },
+      {
+        "texto": "Fornecer créditos para startups.",
+        "explicacao": "Isso é parte do AWS Activate, não do AWS IQ."
+      },
+      {
+        "texto": "Fornecer suporte técnico básico.",
+        "explicacao": "O suporte técnico é mais abrangente no AWS Support."
+      }
+    ],
+    "respostaCorreta": "Conectar empresas a especialistas em AWS para ajuda em projetos.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício dos AWS Managed Services (AMS)?",
+    "opcoes": [
+      {
+        "texto": "Gerenciamento contínuo de operações de nuvem.",
+        "explicacao": "O AMS fornece gerenciamento contínuo, permitindo que os clientes se concentrem em inovações."
+      },
+      {
+        "texto": "Suporte exclusivo para startups.",
+        "explicacao": "O AMS não é exclusivo para startups; atende a todos os tipos de clientes."
+      },
+      {
+        "texto": "Entrega de créditos para serviços AWS.",
+        "explicacao": "A entrega de créditos é uma função do AWS Activate, não do AMS."
+      },
+      {
+        "texto": "Integração com especialistas em AWS.",
+        "explicacao": "Isso é mais relacionado ao AWS IQ."
+      }
+    ],
+    "respostaCorreta": "Gerenciamento contínuo de operações de nuvem.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que o AWS Support oferece aos clientes?",
+    "opcoes": [
+      {
+        "texto": "Suporte técnico em várias camadas.",
+        "explicacao": "O AWS Support oferece suporte técnico em diferentes níveis, dependendo do plano escolhido."
+      },
+      {
+        "texto": "Serviços de gerenciamento de infraestrutura.",
+        "explicacao": "Os serviços de gerenciamento são oferecidos pelo AWS Managed Services."
+      },
+      {
+        "texto": "Créditos para uso de serviços AWS.",
+        "explicacao": "Créditos são parte do AWS Activate, não do AWS Support."
+      },
+      {
+        "texto": "Conexão com especialistas em AWS.",
+        "explicacao": "Conexão com especialistas é a função do AWS IQ."
+      }
+    ],
+    "respostaCorreta": "Suporte técnico em várias camadas.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica do programa AWS Activate?",
+    "opcoes": [
+      {
+        "texto": "Oferece créditos e recursos para startups.",
+        "explicacao": "O AWS Activate oferece suporte financeiro e técnico para startups."
+      },
+      {
+        "texto": "Gerenciamento de serviços na nuvem.",
+        "explicacao": "Gerenciamento de serviços é uma função do AMS."
+      },
+      {
+        "texto": "Suporte técnico de especialistas.",
+        "explicacao": "Suporte técnico é mais relacionado ao AWS Support e AWS IQ."
+      },
+      {
+        "texto": "Treinamento em práticas de segurança.",
+        "explicacao": "Embora o treinamento seja importante, o AWS Activate não é focado apenas em segurança."
+      }
+    ],
+    "respostaCorreta": "Oferece créditos e recursos para startups.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ajudar uma startup a implementar soluções na nuvem com a ajuda de profissionais?",
+    "opcoes": [
+      {
+        "texto": "AWS IQ",
+        "explicacao": "O AWS IQ conecta startups a especialistas para ajudá-las a implementar soluções na nuvem."
+      },
+      {
+        "texto": "AWS Activate",
+        "explicacao": "O AWS Activate oferece recursos, mas não conecta diretamente a profissionais."
+      },
+      {
+        "texto": "AWS Managed Services",
+        "explicacao": "O AMS oferece gerenciamento de serviços, não conexão com profissionais."
+      },
+      {
+        "texto": "AWS Support",
+        "explicacao": "O AWS Support fornece suporte técnico, mas não necessariamente ajuda na implementação."
+      }
+    ],
+    "respostaCorreta": "AWS IQ",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como os AWS Managed Services (AMS) ajudam as empresas?",
+    "opcoes": [
+      {
+        "texto": "Assumindo operações de nuvem para permitir foco em inovações.",
+        "explicacao": "O AMS permite que as empresas se concentrem em inovações, enquanto gerencia suas operações de nuvem."
+      },
+      {
+        "texto": "Gerenciando exclusivamente startups.",
+        "explicacao": "O AMS atende empresas de todos os tamanhos, não apenas startups."
+      },
+      {
+        "texto": "Oferecendo créditos de serviços.",
+        "explicacao": "Créditos são fornecidos pelo AWS Activate, não pelo AMS."
+      },
+      {
+        "texto": "Conectando a especialistas em nuvem.",
+        "explicacao": "Conexão com especialistas é uma função do AWS IQ."
+      }
+    ],
+    "respostaCorreta": "Assumindo operações de nuvem para permitir foco em inovações.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece suporte técnico especializado 24 horas por dia, 7 dias por semana?",
+    "opcoes": [
+      {
+        "texto": "AWS Support",
+        "explicacao": "O AWS Support oferece suporte técnico em várias camadas, incluindo suporte 24/7 em planos premium."
+      },
+      {
+        "texto": "AWS Managed Services",
+        "explicacao": "O AMS gerencia serviços, mas não fornece suporte técnico direto."
+      },
+      {
+        "texto": "AWS IQ",
+        "explicacao": "O AWS IQ conecta clientes a especialistas, mas não oferece suporte contínuo."
+      },
+      {
+        "texto": "AWS Activate",
+        "explicacao": "O AWS Activate oferece recursos, mas não suporte técnico direto."
+      }
+    ],
+    "respostaCorreta": "AWS Support",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem de usar o AWS IQ para startups?",
+    "opcoes": [
+      {
+        "texto": "Acesso a talentos especializados para projetos específicos.",
+        "explicacao": "O AWS IQ conecta startups a profissionais qualificados para atender necessidades específicas."
+      },
+      {
+        "texto": "Gerenciamento de infraestrutura de TI.",
+        "explicacao": "O gerenciamento de infraestrutura é mais uma função do AWS Managed Services."
+      },
+      {
+        "texto": "Suporte técnico em diferentes níveis.",
+        "explicacao": "O suporte técnico é uma função do AWS Support."
+      },
+      {
+        "texto": "Fornecimento de créditos para startups.",
+        "explicacao": "Créditos são oferecidos pelo AWS Activate, não pelo AWS IQ."
+      }
+    ],
+    "respostaCorreta": "Acesso a talentos especializados para projetos específicos.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para gerenciar configurações de aplicativos em diferentes ambientes?",
+    "opcoes": [
+      {
+        "texto": "AWS AppConfig",
+        "explicacao": "O AWS AppConfig permite que você gerencie e implante configurações de aplicativos com segurança."
+      },
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O AWS Cloud9 é um ambiente de desenvolvimento integrado, mas não é especificamente para gerenciamento de configurações."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, não para gerenciar configurações."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é uma ferramenta de entrega contínua, não de gerenciamento de configurações."
+      }
+    ],
+    "respostaCorreta": "AWS AppConfig",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece um ambiente de desenvolvimento baseado em nuvem que permite escrever, executar e depurar código?",
+    "opcoes": [
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O AWS Cloud9 é um IDE baseado em nuvem que permite desenvolvimento colaborativo."
+      },
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O CodeCommit é um repositório de código, não um ambiente de desenvolvimento."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de construção, não um IDE."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, não para desenvolvimento."
+      }
+    ],
+    "respostaCorreta": "AWS Cloud9",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que os desenvolvedores executem comandos de shell em um navegador da web?",
+    "opcoes": [
+      {
+        "texto": "AWS CloudShell",
+        "explicacao": "O AWS CloudShell fornece um terminal baseado na web para interação com serviços da AWS."
+      },
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O X-Ray é usado para analisar e depurar aplicativos, não para executar comandos de shell."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de construção e não fornece um terminal."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é uma ferramenta de entrega contínua e não oferece um shell."
+      }
+    ],
+    "respostaCorreta": "AWS CloudShell",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para armazenar e gerenciar dependências de software?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeArtifact",
+        "explicacao": "O AWS CodeArtifact é um serviço de repositório para gerenciar pacotes de software e suas dependências."
+      },
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O CodeCommit é um repositório de código-fonte, não um gerenciador de dependências."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é usado para compilar código, mas não para gerenciar dependências."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, não para gerenciar dependências."
+      }
+    ],
+    "respostaCorreta": "AWS CodeArtifact",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é utilizado para automatizar a construção e testes de aplicativos?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O AWS CodeBuild compila código-fonte, executa testes e produz pacotes de software."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é utilizado para implantar aplicativos, não para construção."
+      },
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O CodeCommit é um repositório de código, não um serviço de construção."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline orquestra o fluxo de trabalho, mas não realiza a construção por si só."
+      }
+    ],
+    "respostaCorreta": "AWS CodeBuild",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite que os desenvolvedores versionem seu código-fonte?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O AWS CodeCommit é um serviço de repositório de código-fonte que permite versionar o código."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de construção e não de versionamento de código."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, não para versionar código."
+      },
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O X-Ray é usado para rastreamento e análise de aplicativos, não para versionamento."
+      }
+    ],
+    "respostaCorreta": "AWS CodeCommit",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é usado para implantar aplicativos em instâncias do Amazon EC2 ou em contêineres?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O AWS CodeDeploy automatiza a implantação de aplicativos em instâncias EC2 e contêineres."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline orquestra a entrega contínua, mas não realiza a implantação por si só."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de construção e não de implantação."
+      },
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O X-Ray é usado para rastreamento e não para implantação."
+      }
+    ],
+    "respostaCorreta": "AWS CodeDeploy",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS oferece uma maneira de gerenciar a entrega contínua de software?",
+    "opcoes": [
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O AWS CodePipeline permite orquestrar o fluxo de trabalho de entrega contínua de software."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de construção e não de orquestração de entrega contínua."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é focado na implantação e não na orquestração do fluxo de trabalho."
+      },
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O Cloud9 é um IDE e não um serviço de entrega contínua."
+      }
+    ],
+    "respostaCorreta": "AWS CodePipeline",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite monitorar e analisar o desempenho de aplicativos?",
+    "opcoes": [
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O AWS X-Ray ajuda a rastrear e analisar o desempenho de aplicativos distribuídos."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de construção, não de monitoramento."
+      },
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O CodeCommit é um repositório de código e não fornece monitoramento."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, não para monitoramento."
+      }
+    ],
+    "respostaCorreta": "AWS X-Ray",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para desenvolver, implantar e gerenciar aplicativos em um único console?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeStar",
+        "explicacao": "O AWS CodeStar fornece uma interface unificada para desenvolver, implantar e gerenciar aplicativos."
+      },
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O Cloud9 é um IDE, mas não fornece uma interface para gerenciar aplicativos completos."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é focado na entrega contínua e não na gestão completa de aplicativos."
+      },
+      {
+        "texto": "AWS CloudShell",
+        "explicacao": "O CloudShell é um terminal e não um serviço de gerenciamento de aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS CodeStar",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para fornecer aplicativos de desktop virtualizados sob demanda?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O Amazon AppStream 2.0 permite que você forneça aplicativos de desktop em um ambiente gerenciado na nuvem."
+      },
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces fornece desktops virtuais, mas não é especificamente para aplicativos."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web é focado em acesso a aplicativos baseados na web, não aplicativos de desktop."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação em nuvem, mas não fornece desktops virtuais."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece desktops gerenciados na nuvem para usuários finais?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces é um serviço de desktop como serviço (DaaS) que fornece desktops virtuais."
+      },
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 fornece aplicativos de desktop, mas não desktops completos."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web fornece acesso a aplicativos baseados na web, não a desktops virtuais."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento e não fornece desktops."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite acesso a aplicativos web em um ambiente gerenciado, sem a necessidade de um desktop completo?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O Amazon WorkSpaces Web permite acesso a aplicativos baseados na web de forma gerenciada."
+      },
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O WorkSpaces fornece desktops completos, não apenas acesso a aplicativos web."
+      },
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 fornece aplicativos de desktop, mas não é focado em aplicativos web."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 é um serviço de computação e não fornece acesso direto a aplicativos web."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces Web",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que os usuários transmitam aplicativos de desktop em vez de instalá-los localmente?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O Amazon AppStream 2.0 permite a transmissão de aplicativos de desktop na nuvem."
+      },
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O WorkSpaces fornece desktops, mas não se concentra em transmissão de aplicativos."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web é focado em aplicativos web, não em aplicativos de desktop."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é um serviço de computação sem servidor, não de desktop."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços AWS é mais adequado para empresas que precisam de desktops virtuais gerenciados para usuários remotos?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces é ideal para fornecer desktops virtuais gerenciados para usuários remotos."
+      },
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 é mais focado em aplicativos do que em desktops completos."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web é mais adequado para aplicativos baseados na web, não para desktops."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é uma infraestrutura de computação e não um serviço de desktop gerenciado."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece uma solução de virtualização de aplicativos para acessar softwares gráficos intensivos na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 é ideal para aplicativos gráficos intensivos, permitindo seu uso na nuvem."
+      },
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O WorkSpaces fornece desktops, mas não é focado em virtualização de aplicativos."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web não é projetado para aplicações gráficas intensivas."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda não é um serviço de virtualização de aplicativos."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite gerenciar desktops e aplicativos na nuvem com suporte para integração de Active Directory?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces permite a integração com Active Directory para gerenciamento de usuários."
+      },
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 é focado em aplicativos e não gerencia desktops."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web não oferece gerenciamento de desktops."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 não fornece gerenciamento de desktops ou integração com Active Directory."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços é ideal para fornecer acesso a aplicações web para usuários em diferentes dispositivos?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O Amazon WorkSpaces Web é projetado para fornecer acesso a aplicativos web em vários dispositivos."
+      },
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O WorkSpaces é um desktop virtual, não focado apenas em aplicativos web."
+      },
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 é para transmissão de aplicativos, mas não é focado exclusivamente em web."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é um serviço sem servidor e não fornece acesso a aplicativos."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces Web",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite que usuários finais acessem suas aplicações e desktops de qualquer lugar?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces fornece desktops virtuais acessíveis de qualquer lugar com conexão à Internet."
+      },
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 permite acesso a aplicativos na nuvem, mas não fornece desktops completos."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web oferece acesso a aplicativos web, mas não a desktops."
+      },
+      {
+        "texto": "AWS EC2",
+        "explicacao": "O EC2 é uma infraestrutura de computação, não um serviço de desktop gerenciado."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos serviços AWS pode ser utilizado para executar aplicativos desktop em um navegador web?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O Amazon AppStream 2.0 permite que aplicativos desktop sejam executados diretamente em um navegador."
+      },
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O WorkSpaces fornece desktops virtuais, mas não se concentra em execução em navegador."
+      },
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O WorkSpaces Web é para acesso a aplicações web, não para aplicativos desktop."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é um serviço de computação sem servidor, não projetado para aplicativos de desktop."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é projetado para facilitar a construção de aplicativos web e móveis com recursos de back-end em nuvem?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify é uma plataforma que ajuda a desenvolver aplicativos web e móveis rapidamente."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync é usado para criar APIs GraphQL, mas não é uma plataforma de desenvolvimento completa."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é um serviço de computação sem servidor, não especificamente para front-end."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é uma infraestrutura de computação, não uma plataforma de desenvolvimento de aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite a criação de APIs GraphQL que conectam aplicativos a fontes de dados em tempo real?",
+    "opcoes": [
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AWS AppSync é projetado para criar APIs GraphQL e fornece suporte a dados em tempo real."
+      },
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O Amplify pode integrar-se ao AppSync, mas não é especificamente para a criação de APIs."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "O Step Functions é usado para orquestrar serviços, não para criar APIs."
+      },
+      {
+        "texto": "Amazon API Gateway",
+        "explicacao": "O API Gateway cria APIs REST, não GraphQL."
+      }
+    ],
+    "respostaCorreta": "AWS AppSync",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que desenvolvedores integrem facilmente autenticação e armazenamento em seus aplicativos front-end?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify oferece integração fácil com serviços de autenticação e armazenamento."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync foca em APIs e não em autenticação ou armazenamento diretamente."
+      },
+      {
+        "texto": "AWS Cognito",
+        "explicacao": "O Cognito é um serviço de autenticação, mas não uma plataforma de desenvolvimento de aplicativos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação, não específico para integração de front-end."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite que aplicativos se conectem a dados em tempo real usando subscriptions?",
+    "opcoes": [
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync permite que os aplicativos usem subscriptions para receber atualizações em tempo real."
+      },
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O Amplify usa o AppSync para permitir conexões em tempo real, mas não fornece isso sozinho."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não fornece recursos de dados em tempo real."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "Step Functions é para orquestração e não para conexão de dados em tempo real."
+      }
+    ],
+    "respostaCorreta": "AWS AppSync",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite a construção de aplicativos com uma interface de usuário altamente responsiva e recursos de backend integrados?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify facilita a construção de aplicativos web e móveis com interfaces de usuário responsivas."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync se concentra em APIs e não diretamente na construção de interfaces de usuário."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de recursos, não para construção de aplicativos."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é um serviço de entrega contínua, não de construção de aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece um fluxo de trabalho para criar, implantar e gerenciar aplicativos front-end?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify fornece um fluxo de trabalho integrado para desenvolver e gerenciar aplicativos front-end."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync é usado para criar APIs, não para gerenciar o ciclo de vida de aplicativos front-end."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação sem servidor e não fornece fluxos de trabalho para aplicativos."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é uma infraestrutura de computação, não um serviço de gerenciamento de aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para sincronizar dados entre dispositivos móveis e a nuvem em tempo real?",
+    "opcoes": [
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync oferece funcionalidades para sincronização de dados em tempo real entre dispositivos e a nuvem."
+      },
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O Amplify pode usar o AppSync para sincronização, mas não é seu foco principal."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço sem servidor e não se foca em sincronização de dados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não oferece sincronização em tempo real diretamente."
+      }
+    ],
+    "respostaCorreta": "AWS AppSync",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite a criação de aplicativos com autenticação, APIs e armazenamento sem necessidade de configuração de infraestrutura?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify facilita a criação de aplicativos com recursos prontos, como autenticação e APIs."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync é focado na criação de APIs e não na configuração de infraestrutura."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é um serviço de provisionamento e não para a construção de aplicativos."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é um serviço de entrega contínua e não de desenvolvimento de aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite que desenvolvedores criem interfaces de usuário usando GraphQL?",
+    "opcoes": [
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AWS AppSync permite que desenvolvedores usem GraphQL para criar APIs e interfaces de usuário."
+      },
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O Amplify pode integrar-se ao AppSync, mas não é um serviço para criar APIs diretamente."
+      },
+      {
+        "texto": "AWS S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento, não um serviço para interfaces de usuário."
+      },
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O Cloud9 é um IDE, mas não se concentra em criar interfaces de usuário com GraphQL."
+      }
+    ],
+    "respostaCorreta": "AWS AppSync",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais adequado para enviar notificações push para dispositivos móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O Amazon SNS é ideal para enviar notificações push a dispositivos móveis."
+      },
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O Amazon SQS é um serviço de fila e não é projetado para enviar notificações push."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é um serviço de computação sem servidor, não um serviço de notificação."
+      },
+      {
+        "texto": "Amazon Chime",
+        "explicacao": "O Amazon Chime é um serviço de comunicação, não especificamente para notificações push."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Notification Service (Amazon SNS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite o envio de mensagens entre componentes de aplicativos de forma assíncrona?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O Amazon SQS permite a comunicação assíncrona entre componentes de aplicativos."
+      },
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS é para notificações, não para comunicação assíncrona entre componentes."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync é focado em APIs GraphQL, não em mensagens assíncronas."
+      },
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Amazon Connect é uma solução de atendimento ao cliente, não um serviço de mensagens."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Queue Service (Amazon SQS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é melhor para enviar mensagens e alertas a um grande número de assinantes simultaneamente?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O Amazon SNS é projetado para enviar mensagens a múltiplos assinantes de forma escalável."
+      },
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O SQS é uma fila de mensagens, mas não é ideal para enviar alertas em massa."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions orquestram serviços, mas não são usadas para envio de mensagens."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é um serviço de entrega contínua, não para notificações."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Notification Service (Amazon SNS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite a criação de filas que armazenam mensagens até que sejam processadas?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O Amazon SQS armazena mensagens em filas até que sejam processadas pelos consumidores."
+      },
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS envia mensagens instantaneamente e não armazena mensagens."
+      },
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge é usado para integrar serviços e não para armazenar mensagens."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail registra atividades na conta, mas não é um serviço de mensagens."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Queue Service (Amazon SQS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para enviar notificações por e-mail e SMS?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS permite o envio de notificações por e-mail e SMS."
+      },
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O SQS não envia notificações, apenas armazena mensagens."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync é para APIs e não oferece envio de notificações por e-mail ou SMS."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação e não envia notificações por conta própria."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Notification Service (Amazon SNS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser usado para integrar aplicativos com eventos e mensagens em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Amazon EventBridge",
+        "explicacao": "O EventBridge é ideal para integração de aplicativos com eventos e mensagens em tempo real."
+      },
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O SQS é focado em filas e não em eventos em tempo real."
+      },
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS envia notificações, mas não é especificamente para integração de eventos."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é um serviço de entrega de software, não para integração de eventos."
+      }
+    ],
+    "respostaCorreta": "Amazon EventBridge",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é adequado para gerenciar e monitorar o desempenho de filas de mensagens?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O SQS fornece métricas e monitoramento para gerenciar filas de mensagens."
+      },
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS não oferece gerenciamento de filas, apenas envio de notificações."
+      },
+      {
+        "texto": "AWS CloudWatch",
+        "explicacao": "O CloudWatch monitora recursos da AWS, mas não é um serviço de mensagens por si só."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não é usado para gerenciar filas de mensagens."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Queue Service (Amazon SQS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais adequado para enviar notificações em resposta a eventos de aplicação?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS é ideal para enviar notificações em resposta a eventos de aplicação."
+      },
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O SQS é para filas de mensagens, não especificamente para notificações de eventos."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não para notificações."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions orquestram fluxos de trabalho, não enviam notificações."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Notification Service (Amazon SNS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite a entrega de mensagens diretamente em uma fila, que pode ser processada posteriormente?",
+    "opcoes": [
+      {
+        "texto": "Amazon Simple Queue Service (Amazon SQS)",
+        "explicacao": "O SQS permite a entrega de mensagens em uma fila para processamento posterior."
+      },
+      {
+        "texto": "Amazon Simple Notification Service (Amazon SNS)",
+        "explicacao": "O SNS entrega mensagens instantaneamente e não em filas."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AppSync é para APIs GraphQL e não para entrega de mensagens."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não gerencia filas de mensagens."
+      }
+    ],
+    "respostaCorreta": "Amazon Simple Queue Service (Amazon SQS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais adequado para hospedar um site estático?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é ideal para hospedar sites estáticos com alta disponibilidade."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 pode hospedar sites, mas é mais complexo e não é necessário para sites estáticos."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é usado para executar código, não para hospedar sites estáticos."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é usado para hospedar sites."
+      }
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para desenvolver e implantar aplicativos móveis rapidamente?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify permite o desenvolvimento rápido de aplicativos móveis e web."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação, mas não é otimizado para desenvolvimento de aplicativos móveis."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um banco de dados e não é usado para desenvolvimento de aplicativos."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não para desenvolvimento de aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para gerenciar a entrega contínua de software?",
+    "opcoes": [
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O AWS CodePipeline é projetado para automação de entrega contínua de software."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não gerencia a entrega contínua por si só."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 armazena dados, mas não é usado para gerenciar a entrega de software."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação, mas não é específico para entrega contínua."
+      }
+    ],
+    "respostaCorreta": "AWS CodePipeline",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é adequado para armazenar e gerenciar dados não estruturados?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é ideal para armazenar e gerenciar dados não estruturados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um banco de dados relacional, não adequado para dados não estruturados."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "O DynamoDB é um banco de dados NoSQL, mas S3 é melhor para grandes volumes de dados não estruturados."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não um serviço de armazenamento."
+      }
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para implementar APIs RESTful?",
+    "opcoes": [
+      {
+        "texto": "Amazon API Gateway",
+        "explicacao": "O Amazon API Gateway é projetado para criar, publicar e gerenciar APIs RESTful."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode ser usado com API Gateway, mas não é um serviço de gerenciamento de API."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento, não um serviço para implementar APIs."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 pode hospedar APIs, mas o API Gateway é mais adequado para esse propósito."
+      }
+    ],
+    "respostaCorreta": "Amazon API Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para análise em tempo real de dados em streaming?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Amazon Kinesis é projetado para análise em tempo real de dados em streaming."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é para bancos de dados relacionais e não para dados em streaming."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um armazenamento de dados, não um serviço de análise em tempo real."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "O Glue é usado para ETL, mas não para análise em tempo real."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais apropriado para construir aplicativos de machine learning?",
+    "opcoes": [
+      {
+        "texto": "Amazon SageMaker",
+        "explicacao": "O Amazon SageMaker é projetado para construir, treinar e implantar modelos de machine learning."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode executar código, mas não é específico para machine learning."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação, mas não é otimizado para machine learning."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "O Glue é um serviço de ETL e não específico para machine learning."
+      }
+    ],
+    "respostaCorreta": "Amazon SageMaker",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para executar contêineres em escala?",
+    "opcoes": [
+      {
+        "texto": "Amazon Elastic Kubernetes Service (EKS)",
+        "explicacao": "O EKS é ideal para executar e gerenciar contêineres Kubernetes em escala."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 pode executar contêineres, mas o EKS é mais otimizado para isso."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode executar código, mas não é um serviço específico para contêineres."
+      },
+      {
+        "texto": "AWS Elastic Beanstalk",
+        "explicacao": "O Elastic Beanstalk pode gerenciar aplicativos, mas não é específico para contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon Elastic Kubernetes Service (EKS)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é melhor para implementar uma solução de backup e recuperação de desastres?",
+    "opcoes": [
+      {
+        "texto": "AWS Backup",
+        "explicacao": "O AWS Backup é projetado para automatizar backup e recuperação de desastres."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 pode armazenar backups, mas não é uma solução completa de backup."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não é específico para backup."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não é uma solução de backup."
+      }
+    ],
+    "respostaCorreta": "AWS Backup",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para implementar uma arquitetura de microsserviços?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS (Elastic Container Service)",
+        "explicacao": "O Amazon ECS é projetado para executar microsserviços em contêineres."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 pode executar microsserviços, mas o ECS é mais otimizado para isso."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode executar microsserviços, mas não é uma solução completa para gerenciamento."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é adequado para microsserviços."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS (Elastic Container Service)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para fornecer suporte técnico 24/7 para aplicações críticas?",
+    "opcoes": [
+      {
+        "texto": "AWS Support",
+        "explicacao": "O AWS Support oferece suporte técnico 24/7, ideal para aplicações críticas."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não fornece suporte técnico."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação serverless, não um serviço de suporte."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar recursos, não para suporte."
+      }
+    ],
+    "respostaCorreta": "AWS Support",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para criar um portal de suporte ao cliente?",
+    "opcoes": [
+      {
+        "texto": "AWS Service Catalog",
+        "explicacao": "O Service Catalog permite criar catálogos de serviços, útil para portais de suporte."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação e não para criar portais."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 armazena dados, mas não é usado para criar portais de suporte."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é para automação de entrega de software, não para portais de suporte."
+      }
+    ],
+    "respostaCorreta": "AWS Service Catalog",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para monitorar a saúde e o desempenho de suas aplicações na AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O CloudWatch fornece monitoramento e logs para recursos e aplicações na AWS."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é para automação de implantações, não para monitoramento."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não fornece monitoramento de aplicações."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados, não uma ferramenta de monitoramento."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudWatch",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS ajuda a gerenciar tickets de suporte e solicitações de clientes?",
+    "opcoes": [
+      {
+        "texto": "AWS Support Center",
+        "explicacao": "O AWS Support Center permite gerenciar tickets de suporte e solicitações."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail rastreia atividades, mas não gerencia tickets de suporte."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é para armazenamento, não para gerenciamento de tickets."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não gerenciamento de tickets."
+      }
+    ],
+    "respostaCorreta": "AWS Support Center",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser utilizado para fornecer documentação técnica aos clientes?",
+    "opcoes": [
+      {
+        "texto": "AWS Documentation",
+        "explicacao": "O AWS Documentation fornece acesso a manuais e guias técnicos."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 pode armazenar documentos, mas não fornece documentação técnica por si só."
+      },
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O Cloud9 é um ambiente de desenvolvimento, não um serviço de documentação."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "O Glue é um serviço de ETL e não fornece documentação técnica."
+      }
+    ],
+    "respostaCorreta": "AWS Documentation",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para fornecer suporte automatizado ao cliente através de chatbots?",
+    "opcoes": [
+      {
+        "texto": "Amazon Lex",
+        "explicacao": "O Amazon Lex permite criar chatbots que oferecem suporte automatizado."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode ser usado para executar lógica de backend, mas não é um serviço de chatbot."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não oferece suporte automatizado."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "O Glue é um serviço de ETL e não é adequado para suporte automatizado."
+      }
+    ],
+    "respostaCorreta": "Amazon Lex",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS fornece insights sobre a experiência do cliente e feedback?",
+    "opcoes": [
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Amazon Connect é uma solução de contact center que pode coletar feedback do cliente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não coleta feedback diretamente."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não fornece insights sobre a experiência do cliente."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail registra atividades, mas não fornece feedback do cliente."
+      }
+    ],
+    "respostaCorreta": "Amazon Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais adequado para fornecer análises detalhadas sobre o suporte ao cliente?",
+    "opcoes": [
+      {
+        "texto": "Amazon QuickSight",
+        "explicacao": "O Amazon QuickSight fornece visualizações e análises de dados de suporte ao cliente."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não fornece análises diretamente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode executar funções, mas não é um serviço de análise."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não para análises."
+      }
+    ],
+    "respostaCorreta": "Amazon QuickSight",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para automatizar o gerenciamento de tickets de suporte?",
+    "opcoes": [
+      {
+        "texto": "AWS Service Catalog",
+        "explicacao": "O Service Catalog pode ajudar a automatizar a gestão de serviços e tickets."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions permitem automatizar fluxos de trabalho, úteis para gerenciamento de tickets."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode ser usado para automatizar tarefas, mas não é um serviço específico de gerenciamento de tickets."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 armazena dados, mas não automatiza o gerenciamento de tickets."
+      }
+    ],
+    "respostaCorreta": "AWS Step Functions",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é adequado para implementar uma solução de feedback do cliente em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Amazon Kinesis é ideal para análise de dados em tempo real, incluindo feedback do cliente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode processar dados, mas não é um serviço de feedback."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados, não uma solução de feedback."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não para feedback."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser utilizado para implementar um sistema de suporte ao cliente baseado em chat?",
+    "opcoes": [
+      {
+        "texto": "Amazon Connect",
+        "explicacao": "O Amazon Connect é uma solução de contact center que permite criar um sistema de suporte ao cliente através de chat."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não é um serviço de suporte ao cliente por si só."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar recursos, não para suporte ao cliente."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação que pode ser usado para hospedagem, mas não é específico para suporte ao cliente."
+      }
+    ],
+    "respostaCorreta": "Amazon Connect",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual opção é ideal para gerenciar tickets de suporte e solicitações de clientes na AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS Support Center",
+        "explicacao": "O AWS Support Center é projetado para gerenciar tickets de suporte e solicitações dos clientes."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não gerencia tickets de suporte."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail registra atividades, mas não gerencia tickets de suporte."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM gerencia permissões de acesso e não está relacionado ao suporte ao cliente."
+      }
+    ],
+    "respostaCorreta": "AWS Support Center",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite coletar feedback de clientes em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Amazon Kinesis permite coletar e analisar dados em tempo real, incluindo feedback de clientes."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode processar eventos, mas não coleta feedback diretamente."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não coleta feedback de clientes."
+      },
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O CloudWatch monitora recursos, mas não é uma ferramenta de feedback do cliente."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a melhor opção para fornecer relatórios e análises sobre a experiência do cliente?",
+    "opcoes": [
+      {
+        "texto": "Amazon QuickSight",
+        "explicacao": "O Amazon QuickSight é uma ferramenta de BI que fornece relatórios e análises sobre a experiência do cliente."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar recursos, não para relatórios."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é para automação de entrega, não para relatórios de experiência do cliente."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não fornece relatórios de experiência do cliente."
+      }
+    ],
+    "respostaCorreta": "Amazon QuickSight",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais adequado para a criação de um portal de autoatendimento para clientes?",
+    "opcoes": [
+      {
+        "texto": "AWS Service Catalog",
+        "explicacao": "O AWS Service Catalog permite criar catálogos de serviços, útil para portais de autoatendimento."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação, não um serviço para portais de autoatendimento."
+      },
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O Cloud9 é um ambiente de desenvolvimento e não para portais de autoatendimento."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados, não um portal de autoatendimento."
+      }
+    ],
+    "respostaCorreta": "AWS Service Catalog",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite o gerenciamento de credenciais e acesso seguro para aplicações comerciais?",
+    "opcoes": [
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O AWS Identity and Access Management (IAM) gerencia o acesso e as permissões de usuários."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não gerencia credenciais."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail registra atividades, mas não gerencia credenciais de acesso."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "O CloudFront é uma rede de entrega de conteúdo e não gerencia credenciais."
+      }
+    ],
+    "respostaCorreta": "AWS IAM",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é adequado para armazenar e gerenciar documentos de suporte ao cliente?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é ideal para armazenar e gerenciar documentos de suporte ao cliente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação e não armazena documentos."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é um serviço de compilação e não armazena documentos."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "O Step Functions orquestra fluxos de trabalho, mas não armazena documentos."
+      }
+    ],
+    "respostaCorreta": "Amazon S3",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite o acesso a dados em tempo real para melhorar o suporte ao cliente?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Amazon Kinesis permite processamento e análise de dados em tempo real, melhorando o suporte ao cliente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa funções em resposta a eventos, mas não fornece dados em tempo real diretamente."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não fornece acesso a dados em tempo real."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é uma ferramenta de entrega e não fornece dados em tempo real."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é recomendado para integrar sistemas de suporte comercial com outras aplicações?",
+    "opcoes": [
+      {
+        "texto": "Amazon API Gateway",
+        "explicacao": "O Amazon API Gateway permite criar APIs para integrar diferentes aplicações de suporte comercial."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode processar eventos, mas não integra diretamente aplicações."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não integra sistemas."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não integração de sistemas."
+      }
+    ],
+    "respostaCorreta": "Amazon API Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é mais adequado para a criação de um sistema de feedback do cliente em um aplicativo?",
+    "opcoes": [
+      {
+        "texto": "Amazon Lex",
+        "explicacao": "O Amazon Lex pode ser usado para criar chatbots que coletam feedback do cliente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço de computação que pode processar feedback, mas não o coleta diretamente."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um banco de dados e não coleta feedback diretamente."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail monitora atividades, mas não coleta feedback do cliente."
+      }
+    ],
+    "respostaCorreta": "Amazon Lex",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para gerenciar e versionar código fonte?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O AWS CodeCommit é um serviço de controle de versão de código que permite gerenciar repositórios Git."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar infraestrutura, não para gerenciamento de código fonte."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é utilizado para implantar aplicações, não para gerenciar código fonte."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é usado para compilar código, não para gerenciamento de versão."
+      }
+    ],
+    "respostaCorreta": "AWS CodeCommit",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite automatizar o processo de implantação de aplicações?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O AWS CodeDeploy automatiza a implantação de aplicações em instâncias do EC2 ou em containers."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código em resposta a eventos, mas não é um serviço de implantação."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não para automação de implantação."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions orquestram fluxos de trabalho, mas não gerenciam implantações."
+      }
+    ],
+    "respostaCorreta": "AWS CodeDeploy",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para construir e implantar APIs de maneira fácil e escalável?",
+    "opcoes": [
+      {
+        "texto": "Amazon API Gateway",
+        "explicacao": "O Amazon API Gateway permite criar, publicar e monitorar APIs com facilidade e escalabilidade."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para auditoria de atividades, não para construção de APIs."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é um serviço de entrega contínua, não para construção de APIs."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é usado para criar APIs."
+      }
+    ],
+    "respostaCorreta": "Amazon API Gateway",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta AWS é utilizada para monitorar o desempenho de aplicações em tempo real?",
+    "opcoes": [
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O AWS X-Ray ajuda a analisar e depurar aplicações distribuídas, monitorando o desempenho em tempo real."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é usado para monitorar desempenho."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é utilizado para compilar código e não para monitoramento de desempenho."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionamento de infraestrutura, não para monitoramento."
+      }
+    ],
+    "respostaCorreta": "AWS X-Ray",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite o gerenciamento do ciclo de vida de desenvolvimento de software na AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O AWS CodePipeline é um serviço de entrega contínua que automatiza o ciclo de vida de desenvolvimento de software."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM gerencia permissões e não o ciclo de vida de desenvolvimento."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para infraestrutura como código, não para gerenciamento de ciclo de vida de software."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um banco de dados e não está relacionado ao ciclo de vida de desenvolvimento."
+      }
+    ],
+    "respostaCorreta": "AWS CodePipeline",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para desenvolvimento de aplicações em tempo real usando containers?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "O Amazon Elastic Container Service (ECS) é ideal para desenvolver e gerenciar aplicações em containers."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é para executar código em resposta a eventos, não é específico para containers."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento, não de desenvolvimento de aplicações."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation provisiona recursos, não desenvolve aplicações."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta AWS pode ser usada para criar e testar aplicações em um ambiente baseado em navegador?",
+    "opcoes": [
+      {
+        "texto": "AWS Cloud9",
+        "explicacao": "O AWS Cloud9 é um ambiente de desenvolvimento integrado que permite criar e testar aplicações no navegador."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicações, não para criar ou testar."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions orquestram fluxos de trabalho, mas não são ambientes de desenvolvimento."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um banco de dados e não serve para criar ou testar aplicações."
+      }
+    ],
+    "respostaCorreta": "AWS Cloud9",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que desenvolvedores façam o upload de artefatos de construção e os compartilhem?",
+    "opcoes": [
+      {
+        "texto": "AWS CodeArtifact",
+        "explicacao": "O AWS CodeArtifact é um repositório de gerenciamento de pacotes que permite compartilhar artefatos de construção."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não gerencia artefatos."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é usado para armazenar dados, mas não é um repositório de gerenciamento de pacotes."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionar recursos e não para gerenciar artefatos de construção."
+      }
+    ],
+    "respostaCorreta": "AWS CodeArtifact",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual ferramenta AWS é mais adequada para ajudar a identificar e corrigir falhas em uma aplicação?",
+    "opcoes": [
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O AWS X-Ray ajuda a identificar e corrigir falhas em aplicações distribuídas, fornecendo dados de rastreamento."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar, mas não para identificar falhas."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código, mas não fornece ferramentas para solucionar problemas."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionar infraestrutura e não auxilia na solução de problemas."
+      }
+    ],
+    "respostaCorreta": "AWS X-Ray",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para integrar ferramentas de desenvolvimento e automação de CI/CD?",
+    "opcoes": [
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O AWS CodePipeline integra várias ferramentas de desenvolvimento e automação CI/CD."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é para gerenciamento de permissões, não para integração de ferramentas de desenvolvimento."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é para auditoria de atividades, não para CI/CD."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é usado para integração de CI/CD."
+      }
+    ],
+    "respostaCorreta": "AWS CodePipeline",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite que usuários finais acessem aplicações desktop virtuais a partir de qualquer lugar?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces fornece desktops virtuais que os usuários podem acessar de qualquer lugar."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 fornece instâncias de máquinas virtuais, mas não é um serviço específico para usuários finais."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda executa código sob demanda, mas não oferece desktops virtuais."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionamento de infraestrutura, não para acesso a desktops virtuais."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite streaming de aplicações e desktops virtuais na AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O Amazon AppStream 2.0 permite o streaming de aplicações e desktops virtuais para usuários finais."
+      },
+      {
+        "texto": "AWS Batch",
+        "explicacao": "O AWS Batch é usado para processamento em lote, não para streaming de aplicações."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é utilizado para streaming de aplicações."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicações, não para streaming."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que os usuários finais acessem uma interface gráfica de suas aplicações em um ambiente virtualizado?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces Web",
+        "explicacao": "O Amazon WorkSpaces Web permite acesso a aplicações em um ambiente virtualizado via navegador."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é para entrega contínua e não fornece interfaces gráficas."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é um serviço de gerenciamento de identidade e acesso, não uma interface de aplicação."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 fornece máquinas virtuais, mas não oferece uma interface gráfica diretamente."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces Web",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é mais apropriado para fornecer desktops virtuais escaláveis para empresas?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces é projetado para fornecer desktops virtuais escaláveis para empresas."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "O Fargate é usado para executar containers, não para fornecer desktops virtuais."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para monitoramento de atividades, não para fornecer desktops."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados, não um serviço de desktop virtual."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que os usuários finais acessem aplicações empresariais com base em navegador de forma remota?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O AppStream 2.0 permite o acesso remoto a aplicações empresariais com base em navegador."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é usado para criar máquinas virtuais, mas não fornece acesso direto a aplicações empresariais."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é para execução de código, não para fornecer acesso a aplicações."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é um serviço de implantação e não oferece acesso a aplicações."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece uma solução de desktop virtual como serviço (DaaS) para empresas?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces fornece uma solução de desktop virtual como serviço (DaaS) para empresas."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não oferece desktop virtual como serviço."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "O Fargate é para execução de containers, não para desktop virtual."
+      },
+      {
+        "texto": "AWS Batch",
+        "explicacao": "O AWS Batch é usado para processamento em lote, não para desktop virtual."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço pode ser utilizado para fornecer máquinas virtuais para testes de software de forma rápida e escalável?",
+    "opcoes": [
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 permite a criação rápida e escalável de máquinas virtuais para testes de software."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar infraestrutura, não para fornecer máquinas virtuais diretamente."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é um serviço de entrega contínua e não fornece VMs."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é usado para fornecer máquinas virtuais."
+      }
+    ],
+    "respostaCorreta": "Amazon EC2",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é recomendado para executar aplicações gráficas em VMs para usuários finais?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces pode ser usado para executar aplicações gráficas em ambientes de desktop virtual."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é um serviço sem servidor e não é usado para executar VMs."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não executa aplicações."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicações e não fornece ambientes de desktop virtual."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS permite a criação e a gestão de clusters de VMs para aplicações de desktop?",
+    "opcoes": [
+      {
+        "texto": "Amazon AppStream 2.0",
+        "explicacao": "O Amazon AppStream 2.0 permite a criação e gestão de clusters de VMs para aplicações de desktop."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "O Fargate é usado para containers e não para VMs de desktop."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para auditoria e não para gestão de VMs."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um banco de dados e não se relaciona com a criação de VMs para desktop."
+      }
+    ],
+    "respostaCorreta": "Amazon AppStream 2.0",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para fornecer acesso remoto a máquinas virtuais de forma segura?",
+    "opcoes": [
+      {
+        "texto": "Amazon WorkSpaces",
+        "explicacao": "O Amazon WorkSpaces oferece acesso remoto seguro a máquinas virtuais."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é para gerenciamento de identidade e acesso, não para acesso a VMs."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não fornece acesso a máquinas virtuais."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar infraestrutura, não para acesso remoto."
+      }
+    ],
+    "respostaCorreta": "Amazon WorkSpaces",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é projetado para desenvolver e implantar aplicativos móveis de forma rápida e fácil?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify é uma plataforma que ajuda a desenvolver e implantar aplicativos móveis e web."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 fornece infraestrutura como serviço, mas não é especificamente para desenvolvimento de aplicativos móveis."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é usado para execução de código, mas não é uma plataforma de desenvolvimento de aplicativos móveis."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é utilizado para desenvolvimento de aplicativos móveis."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite criar APIs para aplicativos móveis e web usando uma abordagem sem servidor?",
+    "opcoes": [
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AWS AppSync é usado para criar APIs GraphQL para aplicativos móveis e web de forma sem servidor."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicações, mas não para criar APIs."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é uma ferramenta de infraestrutura como código, não para criação de APIs."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não cria APIs."
+      }
+    ],
+    "respostaCorreta": "AWS AppSync",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece uma plataforma para hospedar aplicativos web e back-end, incluindo recursos de autenticação e armazenamento?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify fornece recursos completos para hospedar aplicativos web e back-end com autenticação."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "O Fargate é usado para executar containers, não para hospedagem de aplicativos completos."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para auditoria de atividades, não para hospedagem de aplicativos."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é uma opção de infraestrutura, mas requer configuração manual para hospedar aplicativos."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é ideal para desenvolver aplicações de frontend utilizando um modelo de desenvolvimento de aplicações de página única (SPA)?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify é ótimo para desenvolver SPAs com recursos de backend integrados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é utilizado para desenvolvimento de frontend."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é para execução de funções sem servidor, não para desenvolvimento de frontend."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para gerenciar recursos, não para desenvolver frontend."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite a criação de aplicativos móveis com gerenciamento simplificado de autenticação e dados?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify oferece gerenciamento de autenticação e dados para aplicativos móveis de forma simplificada."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não fornece gerenciamento de aplicativos móveis."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é uma ferramenta de infraestrutura como código e não para gerenciamento de aplicativos móveis."
+      },
+      {
+        "texto": "AWS CodeCommit",
+        "explicacao": "O CodeCommit é um serviço de controle de versão e não para gerenciamento de aplicativos móveis."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é usado para implementar funções backend para aplicativos móveis que exigem lógica personalizada?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda permite executar código em resposta a eventos, ideal para lógica personalizada em aplicativos móveis."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é usado para lógica de backend."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é usado para implantar aplicativos, mas não para lógica de backend."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é um serviço de gerenciamento de acesso e não fornece lógica de backend."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS facilita a adição de análises em tempo real aos aplicativos móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Amazon Kinesis é ideal para análise de dados em tempo real em aplicativos móveis."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para auditoria e não para análises em tempo real."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é utilizado para análises em tempo real."
+      },
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O Amplify facilita a criação de aplicações, mas o Kinesis é mais adequado para análises em tempo real."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço permite que desenvolvedores construam, testem e implementem aplicações móveis em um único fluxo de trabalho?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify oferece um fluxo de trabalho unificado para construção, teste e implementação de aplicações móveis."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é uma parte do fluxo de CI/CD, mas não é uma solução completa para aplicativos móveis."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 fornece infraestrutura, mas não um fluxo de trabalho completo para aplicativos móveis."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionar recursos, não um fluxo de trabalho para aplicativos móveis."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS pode ser usado para integrar facilmente serviços de backend em um aplicativo móvel?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify facilita a integração de serviços de backend em aplicativos móveis."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é útil para lógica, mas o Amplify é mais focado na integração de serviços de backend."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é utilizado para integrar serviços de backend."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é para gerenciamento de identidade e acesso, não para integração de serviços."
+      }
+    ],
+    "respostaCorreta": "AWS Amplify",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é projetado para conectar dispositivos de IoT à nuvem e gerenciar a comunicação entre eles?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Core",
+        "explicacao": "O AWS IoT Core é o serviço principal para conectar e gerenciar dispositivos de IoT na nuvem."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não é especificamente projetado para gerenciar dispositivos de IoT."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não gerencia dispositivos de IoT."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é usado para executar código em resposta a eventos, mas não gerencia dispositivos de IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Core",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece uma plataforma para gerenciar a segurança de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Defender",
+        "explicacao": "O AWS IoT Device Defender ajuda a proteger e monitorar dispositivos IoT."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é utilizado para gerenciar a segurança de dispositivos IoT."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para gerenciar infraestrutura como código, não para segurança de IoT."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é para gerenciamento de identidade e acesso, mas não é específico para dispositivos de IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Device Defender",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço é usado para coletar, processar e analisar dados de dispositivos IoT em tempo real?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Analytics",
+        "explicacao": "O AWS IoT Analytics é projetado para processar e analisar dados de dispositivos IoT."
+      },
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Kinesis é usado para streaming de dados em tempo real, mas não é específico para IoT."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é usado para executar código, mas não é um serviço específico para análise de dados de IoT."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento, não de análise de dados de IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Analytics",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite criar e gerenciar regras para processar dados de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Rules Engine",
+        "explicacao": "O AWS IoT Rules Engine permite definir regras para processar e direcionar dados de dispositivos IoT."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não é usado para processar dados de dispositivos IoT."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions são usadas para orquestração de serviços, mas não são específicas para IoT."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é uma ferramenta de infraestrutura como código, não de processamento de dados de IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Rules Engine",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS fornece uma plataforma para simular dispositivos IoT para testes e desenvolvimento?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Simulator",
+        "explicacao": "O AWS IoT Device Simulator permite criar simulações de dispositivos IoT para testes."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para auditoria e não para simulação de dispositivos IoT."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O CodeBuild é uma ferramenta de CI/CD e não para simulação de dispositivos IoT."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não é usado para simulação de dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Device Simulator",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para gerenciar o ciclo de vida de dispositivos IoT, desde o provisionamento até a desconexão?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Management",
+        "explicacao": "O AWS IoT Device Management permite gerenciar o ciclo de vida dos dispositivos IoT."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não gerencia o ciclo de vida dos dispositivos IoT."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionar infraestrutura, não para gerenciar dispositivos IoT."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O IAM é para gerenciamento de identidade e acesso, não para dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Device Management",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite a coleta de dados de dispositivos IoT e a geração de insights em tempo real?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Analytics",
+        "explicacao": "O AWS IoT Analytics coleta dados de dispositivos IoT e gera insights em tempo real."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O RDS é um serviço de banco de dados e não coleta dados de dispositivos IoT."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail é usado para auditoria de atividades, não para coleta de dados de IoT."
+      },
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Kinesis é para streaming de dados, mas não é específico para coleta de dados de dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Analytics",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço fornece ferramentas para desenvolver aplicativos que interagem com dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT SDKs",
+        "explicacao": "Os AWS IoT SDKs fornecem bibliotecas para desenvolver aplicativos que se conectam a dispositivos IoT."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é usado para execução de funções, mas não fornece ferramentas para desenvolvimento de aplicativos IoT."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não oferece ferramentas específicas para IoT."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionar infraestrutura e não para desenvolvimento de aplicativos IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT SDKs",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS oferece uma interface visual para gerenciar dispositivos IoT e suas interações?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Console",
+        "explicacao": "O AWS IoT Console oferece uma interface visual para gerenciar dispositivos e suas interações."
+      },
+      {
+        "texto": "AWS Management Console",
+        "explicacao": "O Management Console é a interface geral da AWS, mas não é específica para IoT."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não oferece uma interface para gerenciar dispositivos IoT."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é para implantação de aplicações e não gerencia dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": "AWS IoT Console",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são utilizados para conectar e gerenciar dispositivos de IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Core",
+        "explicacao": "O AWS IoT Core é um serviço central para conectar dispositivos IoT à nuvem."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é projetado para gerenciar dispositivos de IoT."
+      },
+      {
+        "texto": "AWS IoT Device Management",
+        "explicacao": "O AWS IoT Device Management permite gerenciar o ciclo de vida dos dispositivos IoT."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda permite executar código em resposta a eventos, mas não gerencia dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Core",
+      "AWS IoT Device Management"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS ajudam na segurança de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Defender",
+        "explicacao": "O AWS IoT Device Defender oferece segurança e monitoramento para dispositivos IoT."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O CloudTrail fornece auditoria de atividades, mas não é específico para segurança de IoT."
+      },
+      {
+        "texto": "AWS WAF",
+        "explicacao": "O AWS WAF protege aplicações web, mas não é focado em dispositivos IoT."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "O AWS Shield protege contra DDoS, mas não é especificamente para dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Device Defender"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços permitem coletar e analisar dados de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Analytics",
+        "explicacao": "O AWS IoT Analytics processa e analisa dados de dispositivos IoT."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "O Redshift é um armazém de dados, mas não é especificamente para IoT."
+      },
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "O Kinesis é para streaming de dados em tempo real, podendo ser usado com IoT."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "O AWS Glue é uma ferramenta de ETL, mas não é focada em dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Analytics",
+      "Amazon Kinesis"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são usados para simular dispositivos IoT para testes?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Simulator",
+        "explicacao": "O AWS IoT Device Simulator permite criar simulações de dispositivos IoT para testes."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é para provisionar infraestrutura, não para simulação de dispositivos IoT."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda é para execução de código, mas não é para simulação de dispositivos IoT."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O EC2 é um serviço de computação e não oferece simulação específica para IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Device Simulator"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser utilizados para gerenciar e monitorar a conectividade de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Core",
+        "explicacao": "O AWS IoT Core é utilizado para gerenciar a conectividade entre dispositivos IoT e a nuvem."
+      },
+      {
+        "texto": "AWS IoT Device Management",
+        "explicacao": "O AWS IoT Device Management ajuda a monitorar e gerenciar dispositivos IoT."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions são usadas para orquestração de serviços, mas não para monitoramento de dispositivos IoT."
+      },
+      {
+        "texto": "AWS CloudWatch",
+        "explicacao": "O CloudWatch pode ser usado para monitorar métricas, mas não é específico para dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Core",
+      "AWS IoT Device Management"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser utilizados para implementar práticas recomendadas de segurança em dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Defender",
+        "explicacao": "O AWS IoT Device Defender fornece recursos de segurança para proteger dispositivos IoT."
+      },
+      {
+        "texto": "AWS Identity and Access Management (IAM)",
+        "explicacao": "O IAM é fundamental para gerenciar permissões e acessos a dispositivos IoT."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config é usado para monitorar e gerenciar configurações de recursos, mas não é específico para IoT."
+      },
+      {
+        "texto": "AWS Trusted Advisor",
+        "explicacao": "O Trusted Advisor fornece recomendações de melhores práticas, mas não é focado em segurança de IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Device Defender",
+      "AWS Identity and Access Management (IAM)"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços ajudam na integração de dispositivos IoT com outras aplicações?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Rules Engine",
+        "explicacao": "O AWS IoT Rules Engine permite definir regras para integrar dados de dispositivos IoT com outras aplicações."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode ser acionado por eventos de dispositivos IoT, permitindo integração com outras aplicações."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é uma ferramenta de CI/CD e não se integra diretamente com dispositivos IoT."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O Amazon SNS pode ser usado para enviar notificações, mas não é específico para integração de IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Rules Engine",
+      "AWS Lambda"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são usados para gerenciamento de dados de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Analytics",
+        "explicacao": "O AWS IoT Analytics processa e analisa dados coletados de dispositivos IoT."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento, mas não é específico para gerenciamento de dados de IoT."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "O AWS Glue é um serviço de ETL e pode ser utilizado em conjunto com dados de IoT."
+      },
+      {
+        "texto": "AWS Data Pipeline",
+        "explicacao": "O Data Pipeline é usado para mover e processar dados, mas não é específico para IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Analytics",
+      "AWS Glue"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços são utilizados para monitorar a integridade e desempenho de dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Device Defender",
+        "explicacao": "O AWS IoT Device Defender ajuda a monitorar a segurança e integridade de dispositivos IoT."
+      },
+      {
+        "texto": "AWS CloudWatch",
+        "explicacao": "O CloudWatch é usado para monitorar métricas e logs, sendo útil para dispositivos IoT."
+      },
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O AWS X-Ray é para análise de desempenho de aplicações, mas não é específico para dispositivos IoT."
+      },
+      {
+        "texto": "Amazon Inspector",
+        "explicacao": "O Amazon Inspector é uma ferramenta de avaliação de segurança, não focada em dispositivos IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Device Defender",
+      "AWS CloudWatch"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços podem ser utilizados para garantir a comunicação segura entre dispositivos IoT?",
+    "opcoes": [
+      {
+        "texto": "AWS IoT Core",
+        "explicacao": "O AWS IoT Core suporta comunicação segura entre dispositivos IoT e a nuvem."
+      },
+      {
+        "texto": "AWS IoT Device Defender",
+        "explicacao": "O AWS IoT Device Defender oferece recursos de segurança para proteger a comunicação de dispositivos IoT."
+      },
+      {
+        "texto": "AWS VPN",
+        "explicacao": "A AWS VPN é uma solução para conectar redes de forma segura, mas não é específica para dispositivos IoT."
+      },
+      {
+        "texto": "AWS Firewall Manager",
+        "explicacao": "O Firewall Manager é usado para gerenciar políticas de firewall, não para comunicação de IoT."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS IoT Core",
+      "AWS IoT Device Defender"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS podem ser utilizados para desenvolver aplicações frontend?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify é um serviço que facilita o desenvolvimento de aplicações web e móveis."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "O Amazon EC2 fornece capacidade de computação, mas não é específico para desenvolvimento frontend."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda permite a execução de código sem provisionar servidores, mas não é focado em frontend."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionamento de infraestrutura, não para desenvolvimento de frontend."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Amplify"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS ajudam na criação de APIs para aplicações móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon API Gateway",
+        "explicacao": "O Amazon API Gateway é um serviço para criar, publicar e gerenciar APIs."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "As Step Functions são usadas para orquestração de serviços, mas não para criação de APIs."
+      },
+      {
+        "texto": "AWS IoT Core",
+        "explicacao": "O AWS IoT Core é focado em dispositivos IoT e não na criação de APIs para aplicações móveis."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é projetado para criação de APIs."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon API Gateway"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são utilizados para hospedar aplicações web?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 pode ser usado para hospedar sites estáticos."
+      },
+      {
+        "texto": "AWS App Runner",
+        "explicacao": "O AWS App Runner é uma opção para hospedar aplicações web baseadas em contêineres."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O Lambda pode ser usado para lógica de backend, mas não hospeda diretamente aplicações web."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados e não de hospedagem de aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon S3",
+      "AWS App Runner"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são usados para autenticação e autorização de usuários em aplicações móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon Cognito",
+        "explicacao": "O Amazon Cognito fornece serviços de autenticação e gerenciamento de usuários."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "O AWS IAM é para gerenciamento de acesso a recursos da AWS, não específico para aplicações móveis."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode ser usado em conjunto com autenticação, mas não é um serviço de autenticação por si só."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O Amazon SNS é usado para notificações e não para autenticação de usuários."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon Cognito"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS ajudam na implementação de aplicativos móveis em tempo real?",
+    "opcoes": [
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AWS AppSync facilita a criação de APIs GraphQL em tempo real para aplicações móveis."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O CloudFormation é usado para provisionamento de infraestrutura e não para aplicações em tempo real."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode ser usado como backend, mas não é especificamente para aplicações em tempo real."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O S3 é um serviço de armazenamento e não é adequado para aplicações em tempo real."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS AppSync"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços permitem a criação e o gerenciamento de backend para aplicações móveis?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify fornece ferramentas para criar e gerenciar o backend de aplicações móveis."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode ser usado para lógica de backend em aplicações móveis."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "O CodeDeploy é para implantação de aplicações, não para gerenciamento de backend."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados, não um serviço de backend completo."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Amplify",
+      "AWS Lambda"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são usados para armazenar dados de aplicações móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "O Amazon DynamoDB é um banco de dados NoSQL ideal para armazenar dados de aplicações móveis."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 pode ser usado para armazenar arquivos e dados não estruturados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um banco de dados relacional, útil para algumas aplicações móveis."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O CodePipeline é uma ferramenta de CI/CD e não é utilizada para armazenamento de dados."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon DynamoDB",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços são utilizados para monitorar o desempenho de aplicações móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "O Amazon CloudWatch é usado para monitorar métricas e logs de aplicações."
+      },
+      {
+        "texto": "AWS X-Ray",
+        "explicacao": "O AWS X-Ray é usado para analisar e depurar aplicações, incluindo as móveis."
+      },
+      {
+        "texto": "AWS Config",
+        "explicacao": "O AWS Config é para monitorar configurações de recursos, não o desempenho de aplicações."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AWS AppSync é para criar APIs em tempo real, mas não para monitoramento."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon CloudWatch",
+      "AWS X-Ray"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços da AWS são ideais para desenvolvimento de aplicações móveis híbridas?",
+    "opcoes": [
+      {
+        "texto": "AWS Amplify",
+        "explicacao": "O AWS Amplify fornece ferramentas e recursos para desenvolver aplicações móveis híbridas."
+      },
+      {
+        "texto": "AWS CodeBuild",
+        "explicacao": "O AWS CodeBuild é um serviço de construção de código, não específico para desenvolvimento de aplicações móveis."
+      },
+      {
+        "texto": "AWS Device Farm",
+        "explicacao": "O AWS Device Farm permite testar aplicações móveis em dispositivos reais."
+      },
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O Amazon SNS é usado para notificações, não para desenvolvimento de aplicações."
+      }
+    ],
+    "respostaCorreta": [
+      "AWS Amplify",
+      "AWS Device Farm"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Quais serviços são usados para implementar notificações em aplicações móveis?",
+    "opcoes": [
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "O Amazon SNS é usado para enviar notificações push para dispositivos móveis."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda pode ser usado para processar notificações, mas não para enviá-las diretamente."
+      },
+      {
+        "texto": "AWS AppSync",
+        "explicacao": "O AWS AppSync é focado em APIs e não é utilizado para envio de notificações."
+      },
+      {
+        "texto": "Amazon Pinpoint",
+        "explicacao": "O Amazon Pinpoint é utilizado para enviar mensagens e notificações personalizadas a usuários."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon SNS",
+      "Amazon Pinpoint"
+    ],
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "multiple"
+  },
+  {
+    "pergunta": "Qual opção de compra da AWS é mais adequada para cargas de trabalho previsíveis e que exigem capacidade constante?",
+    "opcoes": [
+      {
+        "texto": "Instâncias sob demanda",
+        "explicacao": "As instâncias sob demanda são flexíveis, mas podem ser mais caras para cargas previsíveis."
+      },
+      {
+        "texto": "Instâncias reservadas",
+        "explicacao": "As instâncias reservadas oferecem um preço reduzido para uso contínuo e previsível."
+      },
+      {
+        "texto": "Instâncias Spot",
+        "explicacao": "As instâncias Spot são econômicas, mas não são garantidas para disponibilidade."
+      },
+      {
+        "texto": "AWS Savings Plans",
+        "explicacao": "Os Savings Plans oferecem flexibilidade, mas exigem um compromisso de uso."
+      }
+    ],
+    "respostaCorreta": "Instâncias reservadas",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções de compra é mais adequada para cargas de trabalho variáveis e imprevisíveis?",
+    "opcoes": [
+      {
+        "texto": "Instâncias sob demanda",
+        "explicacao": "As instâncias sob demanda são ideais para cargas de trabalho variáveis e imprevisíveis."
+      },
+      {
+        "texto": "Instâncias reservadas",
+        "explicacao": "As instâncias reservadas não são recomendadas para cargas de trabalho imprevisíveis."
+      },
+      {
+        "texto": "Instâncias Spot",
+        "explicacao": "As instâncias Spot são econômicas, mas podem não estar sempre disponíveis."
+      },
+      {
+        "texto": "AWS Savings Plans",
+        "explicacao": "Os Savings Plans oferecem uma alternativa para uso previsto, não para imprevisível."
+      }
+    ],
+    "respostaCorreta": "Instâncias sob demanda",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal benefício das instâncias Spot na AWS?",
+    "opcoes": [
+      {
+        "texto": "Custo reduzido",
+        "explicacao": "As instâncias Spot oferecem preços significativamente mais baixos em comparação com instâncias sob demanda."
+      },
+      {
+        "texto": "Disponibilidade garantida",
+        "explicacao": "As instâncias Spot não garantem disponibilidade e podem ser interrompidas."
+      },
+      {
+        "texto": "Previsibilidade de preço",
+        "explicacao": "As instâncias Spot têm preços que variam com a demanda."
+      },
+      {
+        "texto": "Capacidade reservada",
+        "explicacao": "As instâncias Spot não fornecem capacidade reservada."
+      }
+    ],
+    "respostaCorreta": "Custo reduzido",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções permite que você comprometa um uso mínimo em troca de preços mais baixos?",
+    "opcoes": [
+      {
+        "texto": "Instâncias sob demanda",
+        "explicacao": "As instâncias sob demanda não exigem compromisso, resultando em preços mais altos."
+      },
+      {
+        "texto": "Instâncias reservadas",
+        "explicacao": "As instâncias reservadas exigem um compromisso de uso por um período, oferecendo preços reduzidos."
+      },
+      {
+        "texto": "Instâncias Spot",
+        "explicacao": "As instâncias Spot são econômicas, mas não exigem compromisso."
+      },
+      {
+        "texto": "AWS Free Tier",
+        "explicacao": "O Free Tier permite uso gratuito por um período, mas não é uma opção de compromisso."
+      }
+    ],
+    "respostaCorreta": "Instâncias reservadas",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais fatores você deve considerar ao escolher entre instâncias sob demanda e instâncias reservadas?",
+    "opcoes": [
+      {
+        "texto": "Flexibilidade de uso",
+        "explicacao": "As instâncias sob demanda oferecem flexibilidade, enquanto as reservadas requerem compromisso."
+      },
+      {
+        "texto": "Tipo de aplicação",
+        "explicacao": "O tipo de aplicação pode influenciar a escolha, mas não é o único fator."
+      },
+      {
+        "texto": "Previsibilidade de carga de trabalho",
+        "explicacao": "A previsibilidade da carga de trabalho é um fator importante na decisão."
+      },
+      {
+        "texto": "Todos os anteriores",
+        "explicacao": "Todos os fatores mencionados são relevantes ao escolher entre essas opções."
+      }
+    ],
+    "respostaCorreta": "Todos os anteriores",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre AWS Savings Plans e instâncias reservadas?",
+    "opcoes": [
+      {
+        "texto": "Flexibilidade",
+        "explicacao": "Os Savings Plans oferecem mais flexibilidade em comparação com instâncias reservadas."
+      },
+      {
+        "texto": "Compromisso de tempo",
+        "explicacao": "Ambas exigem um compromisso, mas os Savings Plans podem ser mais amplos em termos de uso."
+      },
+      {
+        "texto": "Tipo de pagamento",
+        "explicacao": "Ambas as opções oferecem pagamento em diferentes formatos, mas a estrutura de preços pode variar."
+      },
+      {
+        "texto": "Complexidade de gerenciamento",
+        "explicacao": "As instâncias reservadas podem ser mais simples de gerenciar em comparação com Savings Plans."
+      }
+    ],
+    "respostaCorreta": "Flexibilidade",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando você deve considerar o uso de instâncias Spot?",
+    "opcoes": [
+      {
+        "texto": "Para cargas de trabalho críticas e ininterruptas",
+        "explicacao": "As instâncias Spot não são recomendadas para cargas de trabalho críticas devido à sua natureza interrompível."
+      },
+      {
+        "texto": "Para tarefas de processamento em lote e não críticas",
+        "explicacao": "As instâncias Spot são ideais para tarefas de processamento em lote que podem ser interrompidas."
+      },
+      {
+        "texto": "Para aplicações de alta disponibilidade",
+        "explicacao": "As instâncias Spot não garantem alta disponibilidade."
+      },
+      {
+        "texto": "Para aplicações com requisitos de computação contínuos",
+        "explicacao": "Instâncias Spot não são adequadas para aplicações com requisitos de computação contínuos."
+      }
+    ],
+    "respostaCorreta": "Para tarefas de processamento em lote e não críticas",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual opção de compra da AWS pode resultar em custos reduzidos em troca de um compromisso de uso a longo prazo?",
+    "opcoes": [
+      {
+        "texto": "Instâncias sob demanda",
+        "explicacao": "As instâncias sob demanda não requerem compromisso, resultando em preços mais altos."
+      },
+      {
+        "texto": "Instâncias reservadas",
+        "explicacao": "As instâncias reservadas oferecem preços mais baixos para um compromisso de um ou três anos."
+      },
+      {
+        "texto": "Instâncias Spot",
+        "explicacao": "As instâncias Spot oferecem economia, mas não requerem compromisso."
+      },
+      {
+        "texto": "AWS Free Tier",
+        "explicacao": "O Free Tier permite uso gratuito, mas não é um compromisso de longo prazo."
+      }
+    ],
+    "respostaCorreta": "Instâncias reservadas",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo de usar o AWS Cost Explorer?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar instâncias Spot",
+        "explicacao": "O AWS Cost Explorer não gerencia instâncias Spot, mas analisa custos."
+      },
+      {
+        "texto": "Prever e analisar gastos",
+        "explicacao": "O AWS Cost Explorer ajuda a prever e analisar gastos com serviços da AWS."
+      },
+      {
+        "texto": "Provisionar novos recursos",
+        "explicacao": "O AWS Cost Explorer não é usado para provisionamento de recursos."
+      },
+      {
+        "texto": "Criar instâncias reservadas",
+        "explicacao": "O AWS Cost Explorer não cria instâncias, mas ajuda a entender os custos."
+      }
+    ],
+    "respostaCorreta": "Prever e analisar gastos",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual opção de compra oferece a maior economia em comparação com instâncias sob demanda?",
+    "opcoes": [
+      {
+        "texto": "Instâncias sob demanda",
+        "explicacao": "As instâncias sob demanda não oferecem economia em relação a si mesmas."
+      },
+      {
+        "texto": "Instâncias reservadas",
+        "explicacao": "As instâncias reservadas podem oferecer economia significativa para uso previsível."
+      },
+      {
+        "texto": "Instâncias Spot",
+        "explicacao": "As instâncias Spot oferecem economia, mas não são garantidas para disponibilidade."
+      },
+      {
+        "texto": "AWS Savings Plans",
+        "explicacao": "Os Savings Plans oferecem preços reduzidos, mas dependem de um compromisso de uso."
+      }
+    ],
+    "respostaCorreta": "Instâncias reservadas",
+    "dominio": "Cobrança, preços e suporte",
+    "tipo": "single"
   }
 ]
