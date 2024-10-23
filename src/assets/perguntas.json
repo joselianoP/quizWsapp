@@ -22570,6 +22570,486 @@
     ],
     "respostaCorreta": "Conservar as credenciais em um local seguro e acessível",
     "dominio": "Tecnologia e serviços da nuvem",
+    "tipo,": "single"
+  },
+  {
+    "pergunta": "Quando você deve optar por usar uma operação única em vez de um processo repetível na AWS?",
+    "opcoes": [
+      {
+        "texto": "Quando a tarefa precisa ser automatizada para execução recorrente",
+        "explicacao": "Incorreto. Nesse caso, seria mais adequado um processo repetível."
+      },
+      {
+        "texto": "Quando a tarefa é executada uma vez e não precisará ser repetida",
+        "explicacao": "Correto! Uma operação única é ideal para tarefas que não serão repetidas."
+      },
+      {
+        "texto": "Quando o volume de dados processado é extremamente alto",
+        "explicacao": "Incorreto. Para grandes volumes de dados, processos repetíveis são mais eficientes."
+      },
+      {
+        "texto": "Quando é necessário garantir consistência entre execuções",
+        "explicacao": "Incorreto. Um processo repetível é mais indicado para garantir consistência."
+      }
+    ],
+    "respostaCorreta": "Quando a tarefa é executada uma vez e não precisará ser repetida",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em qual situação o uso de processos repetíveis é mais apropriado na AWS?",
+    "opcoes": [
+      {
+        "texto": "Execução única de uma migração de dados",
+        "explicacao": "Incorreto. Uma migração única geralmente é tratada como uma operação única."
+      },
+      {
+        "texto": "Execução automática de backups diários",
+        "explicacao": "Correto! Backups diários são um processo repetível que se beneficia da automação."
+      },
+      {
+        "texto": "Realização de uma mudança pontual de configuração",
+        "explicacao": "Incorreto. Mudanças pontuais de configuração são operações únicas."
+      },
+      {
+        "texto": "Gerenciamento de logs de uma instância específica",
+        "explicacao": "Incorreto. Esse pode ser um processo contínuo, mas não requer necessariamente um processo repetível."
+      }
+    ],
+    "respostaCorreta": "Execução automática de backups diários",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem de usar um processo repetível em vez de uma operação única?",
+    "opcoes": [
+      {
+        "texto": "Execução mais rápida",
+        "explicacao": "Incorreto. A velocidade de execução depende do tipo de tarefa e não necessariamente se é repetível ou única."
+      },
+      {
+        "texto": "Automatização de tarefas recorrentes",
+        "explicacao": "Correto! Processos repetíveis permitem automatizar tarefas que precisam ser realizadas com frequência."
+      },
+      {
+        "texto": "Maior flexibilidade para ajustes manuais",
+        "explicacao": "Incorreto. Processos repetíveis são geralmente automatizados, reduzindo a necessidade de ajustes manuais."
+      },
+      {
+        "texto": "Redução no uso de recursos computacionais",
+        "explicacao": "Incorreto. O uso de recursos depende da complexidade da tarefa e não da repetição."
+      }
+    ],
+    "respostaCorreta": "Automatização de tarefas recorrentes",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma operação única é mais adequada do que um processo repetível?",
+    "opcoes": [
+      {
+        "texto": "Quando a tarefa precisa ser executada diariamente",
+        "explicacao": "Incorreto. Tarefas diárias são melhores tratadas como processos repetíveis."
+      },
+      {
+        "texto": "Quando o custo de automação é maior do que a execução manual",
+        "explicacao": "Correto! Se o custo de automação for muito alto, uma operação única pode ser mais eficiente."
+      },
+      {
+        "texto": "Quando a tarefa exige monitoramento contínuo",
+        "explicacao": "Incorreto. Monitoramento contínuo se beneficia mais de processos repetíveis."
+      },
+      {
+        "texto": "Quando a tarefa envolve múltiplas etapas complexas",
+        "explicacao": "Incorreto. Processos complexos e recorrentes são melhores tratados como processos repetíveis."
+      }
+    ],
+    "respostaCorreta": "Quando o custo de automação é maior do que a execução manual",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes cenários justifica o uso de um processo repetível na AWS?",
+    "opcoes": [
+      {
+        "texto": "Execução de uma restauração única de backup",
+        "explicacao": "Incorreto. Uma restauração única de backup não requer um processo repetível."
+      },
+      {
+        "texto": "Monitoramento contínuo de métricas de desempenho",
+        "explicacao": "Correto! O monitoramento contínuo é um bom exemplo de um processo repetível."
+      },
+      {
+        "texto": "Desligamento de uma instância EC2 não utilizada",
+        "explicacao": "Incorreto. Essa ação única seria considerada uma operação única."
+      },
+      {
+        "texto": "Atualização manual de software em uma instância",
+        "explicacao": "Incorreto. Atualizações manuais geralmente são operações únicas."
+      }
+    ],
+    "respostaCorreta": "Monitoramento contínuo de métricas de desempenho",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Por que você deve escolher um processo repetível ao lidar com atualizações de sistema frequentes?",
+    "opcoes": [
+      {
+        "texto": "Para garantir que as atualizações sejam aplicadas de forma consistente em todas as execuções",
+        "explicacao": "Correto! Processos repetíveis garantem consistência em atualizações frequentes."
+      },
+      {
+        "texto": "Para reduzir o número de atualizações necessárias",
+        "explicacao": "Incorreto. O processo repetível não reduz o número de atualizações, apenas as automatiza."
+      },
+      {
+        "texto": "Para permitir ajustes manuais em cada execução",
+        "explicacao": "Incorreto. Processos repetíveis são automatizados e não dependem de ajustes manuais."
+      },
+      {
+        "texto": "Para executar atualizações manualmente em grande escala",
+        "explicacao": "Incorreto. Processos repetíveis visam eliminar a necessidade de execução manual."
+      }
+    ],
+    "respostaCorreta": "Para garantir que as atualizações sejam aplicadas de forma consistente em todas as execuções",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual cenário é melhor atendido por uma operação única?",
+    "opcoes": [
+      {
+        "texto": "Executar backups diários de um banco de dados",
+        "explicacao": "Incorreto. Backups diários requerem um processo repetível e automatizado."
+      },
+      {
+        "texto": "Realizar uma migração pontual de dados",
+        "explicacao": "Correto! Uma migração de dados geralmente é uma operação única e não precisa ser repetida."
+      },
+      {
+        "texto": "Monitoramento contínuo de logs de sistema",
+        "explicacao": "Incorreto. Monitoramento contínuo é mais adequado para processos repetíveis."
+      },
+      {
+        "texto": "Gerenciamento automático de versões de software",
+        "explicacao": "Incorreto. O gerenciamento de versões geralmente requer um processo repetível."
+      }
+    ],
+    "respostaCorreta": "Realizar uma migração pontual de dados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a razão para usar um processo repetível para implantações de software frequentes?",
+    "opcoes": [
+      {
+        "texto": "Para automatizar o processo e garantir consistência entre versões",
+        "explicacao": "Correto! Processos repetíveis garantem que cada implantação siga os mesmos procedimentos."
+      },
+      {
+        "texto": "Para reduzir o tempo de cada implantação manual",
+        "explicacao": "Incorreto. O processo repetível automatiza, mas não necessariamente reduz o tempo das implantações manuais."
+      },
+      {
+        "texto": "Para realizar ajustes manuais em cada etapa da implantação",
+        "explicacao": "Incorreto. Processos repetíveis minimizam ou eliminam ajustes manuais."
+      },
+      {
+        "texto": "Para aplicar a implantação uma única vez",
+        "explicacao": "Incorreto. Se a implantação é única, um processo repetível não seria necessário."
+      }
+    ],
+    "respostaCorreta": "Para automatizar o processo e garantir consistência entre versões",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício principal de usar processos repetíveis na automação de infraestrutura na nuvem?",
+    "opcoes": [
+      {
+        "texto": "A capacidade de lidar com tarefas uma única vez",
+        "explicacao": "Incorreto. Processos repetíveis são destinados a tarefas recorrentes."
+      },
+      {
+        "texto": "A eliminação da necessidade de monitoramento de sistemas",
+        "explicacao": "Incorreto. Processos repetíveis não eliminam o monitoramento, mas podem ajudar a automatizá-lo."
+      },
+      {
+        "texto": "A criação de uma infraestrutura consistente e reproduzível",
+        "explicacao": "Correto! A automação de infraestrutura com processos repetíveis garante consistência em todas as implantações."
+      },
+      {
+        "texto": "A redução do número de backups necessários",
+        "explicacao": "Incorreto. O número de backups depende da política de backup, não do processo repetível."
+      }
+    ],
+    "respostaCorreta": "A criação de uma infraestrutura consistente e reproduzível",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em qual cenário o uso de operações únicas pode ser mais eficiente do que processos repetíveis?",
+    "opcoes": [
+      {
+        "texto": "Quando uma tarefa precisa ser automatizada para execução diária",
+        "explicacao": "Incorreto. Para tarefas diárias, processos repetíveis são mais eficientes."
+      },
+      {
+        "texto": "Quando uma tarefa é executada apenas uma vez e não será necessária novamente",
+        "explicacao": "Correto! Operações únicas são adequadas para tarefas que não se repetem."
+      },
+      {
+        "texto": "Quando o monitoramento contínuo é necessário",
+        "explicacao": "Incorreto. Monitoramento contínuo é melhor implementado por processos repetíveis."
+      },
+      {
+        "texto": "Quando a tarefa requer alta escalabilidade",
+        "explicacao": "Incorreto. Processos repetíveis são ideais para lidar com escalabilidade."
+      }
+    ],
+    "respostaCorreta": "Quando uma tarefa é executada apenas uma vez e não será necessária novamente",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual modelo de implantação da AWS é ideal para clientes que desejam executar toda a sua infraestrutura de TI na nuvem?",
+    "opcoes": [
+      {
+        "texto": "Implantação no local (on-premises)",
+        "explicacao": "Incorreto. Implantação no local envolve a execução de recursos no data center do cliente, não na nuvem."
+      },
+      {
+        "texto": "Implantação em nuvem pública",
+        "explicacao": "Correto! A nuvem pública permite que os clientes executem toda a sua infraestrutura de TI na AWS."
+      },
+      {
+        "texto": "Implantação híbrida",
+        "explicacao": "Incorreto. A implantação híbrida combina infraestrutura local e em nuvem, não se limitando à nuvem."
+      },
+      {
+        "texto": "Implantação multicloud",
+        "explicacao": "Incorreto. A implantação multicloud envolve o uso de múltiplos provedores de nuvem."
+      }
+    ],
+    "respostaCorreta": "Implantação em nuvem pública",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa deve optar por um modelo de implantação híbrido?",
+    "opcoes": [
+      {
+        "texto": "Quando a empresa deseja executar todos os serviços em um único provedor de nuvem",
+        "explicacao": "Incorreto. O modelo de implantação híbrido combina infraestrutura local e em nuvem."
+      },
+      {
+        "texto": "Quando a empresa quer aproveitar tanto a infraestrutura local quanto a nuvem",
+        "explicacao": "Correto! O modelo híbrido permite que as empresas utilizem ambos os ambientes de forma integrada."
+      },
+      {
+        "texto": "Quando a empresa está migrando 100% dos seus serviços para a nuvem",
+        "explicacao": "Incorreto. Nesse caso, a nuvem pública seria o modelo mais adequado."
+      },
+      {
+        "texto": "Quando a empresa utiliza múltiplos provedores de nuvem",
+        "explicacao": "Incorreto. Isso é característico do modelo multicloud, e não do híbrido."
+      }
+    ],
+    "respostaCorreta": "Quando a empresa quer aproveitar tanto a infraestrutura local quanto a nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem de utilizar um modelo de implantação em nuvem privada?",
+    "opcoes": [
+      {
+        "texto": "Maior controle sobre os dados e a segurança",
+        "explicacao": "Correto! A nuvem privada permite que as empresas tenham controle total sobre a segurança e os dados."
+      },
+      {
+        "texto": "Acesso ilimitado aos serviços da AWS",
+        "explicacao": "Incorreto. O acesso a serviços da AWS depende do modelo de implantação escolhido."
+      },
+      {
+        "texto": "Melhor escalabilidade em comparação com a nuvem pública",
+        "explicacao": "Incorreto. A nuvem pública geralmente oferece maior escalabilidade do que a nuvem privada."
+      },
+      {
+        "texto": "Custos mais baixos para pequenas empresas",
+        "explicacao": "Incorreto. A nuvem privada tende a ser mais cara, especialmente para pequenas empresas."
+      }
+    ],
+    "respostaCorreta": "Maior controle sobre os dados e a segurança",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em qual situação uma organização pode preferir um modelo de implantação multicloud?",
+    "opcoes": [
+      {
+        "texto": "Quando deseja reduzir a dependência de um único provedor de nuvem",
+        "explicacao": "Correto! O modelo multicloud permite o uso de múltiplos provedores, reduzindo a dependência de um único fornecedor."
+      },
+      {
+        "texto": "Quando todos os recursos são executados em data centers locais",
+        "explicacao": "Incorreto. Nesse caso, a implantação seria on-premises e não multicloud."
+      },
+      {
+        "texto": "Quando deseja operar exclusivamente na infraestrutura da AWS",
+        "explicacao": "Incorreto. Isso seria um modelo de implantação em nuvem pública, não multicloud."
+      },
+      {
+        "texto": "Quando a segurança é a principal prioridade",
+        "explicacao": "Incorreto. Embora o multicloud possa oferecer vantagens, o modelo de nuvem privada pode ser mais adequado para controle de segurança."
+      }
+    ],
+    "respostaCorreta": "Quando deseja reduzir a dependência de um único provedor de nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma característica comum do modelo de implantação em nuvem pública?",
+    "opcoes": [
+      {
+        "texto": "Infraestrutura de TI hospedada em servidores privados dedicados",
+        "explicacao": "Incorreto. A nuvem pública compartilha infraestrutura entre vários clientes, não utiliza servidores privados dedicados."
+      },
+      {
+        "texto": "Escalabilidade elástica e baseada na demanda",
+        "explicacao": "Correto! A nuvem pública oferece escalabilidade dinâmica e elástica com base na demanda dos usuários."
+      },
+      {
+        "texto": "Custos fixos independentemente do uso",
+        "explicacao": "Incorreto. Os custos na nuvem pública são baseados no uso dos recursos."
+      },
+      {
+        "texto": "Necessidade de gerenciamento local de hardware",
+        "explicacao": "Incorreto. O gerenciamento do hardware é feito pelo provedor de nuvem."
+      }
+    ],
+    "respostaCorreta": "Escalabilidade elástica e baseada na demanda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Por que uma empresa pode escolher uma implantação em nuvem privada em vez de uma nuvem pública?",
+    "opcoes": [
+      {
+        "texto": "Para reduzir os custos de infraestrutura",
+        "explicacao": "Incorreto. A nuvem privada tende a ser mais cara do que a nuvem pública."
+      },
+      {
+        "texto": "Para obter controle total sobre seus dados e a infraestrutura de segurança",
+        "explicacao": "Correto! A nuvem privada oferece controle total sobre a infraestrutura e os dados."
+      },
+      {
+        "texto": "Para maximizar a escalabilidade automática",
+        "explicacao": "Incorreto. A nuvem pública geralmente oferece maior escalabilidade automática."
+      },
+      {
+        "texto": "Para integrar múltiplos provedores de nuvem",
+        "explicacao": "Incorreto. Esse seria um cenário de implantação multicloud, não nuvem privada."
+      }
+    ],
+    "respostaCorreta": "Para obter controle total sobre seus dados e a infraestrutura de segurança",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual modelo de implantação da AWS combina data centers locais e recursos de nuvem?",
+    "opcoes": [
+      {
+        "texto": "Nuvem pública",
+        "explicacao": "Incorreto. A nuvem pública não envolve o uso de data centers locais."
+      },
+      {
+        "texto": "Nuvem privada",
+        "explicacao": "Incorreto. A nuvem privada utiliza recursos isolados, mas não combina diretamente com data centers locais."
+      },
+      {
+        "texto": "Multicloud",
+        "explicacao": "Incorreto. Multicloud utiliza múltiplos provedores de nuvem, mas não necessariamente combina com data centers locais."
+      },
+      {
+        "texto": "Implantação híbrida",
+        "explicacao": "Correto! O modelo híbrido combina recursos de nuvem e data centers locais."
+      }
+    ],
+    "respostaCorreta": "Implantação híbrida",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual modelo de implantação seria mais adequado para uma empresa que requer conformidade estrita com regulamentações de dados?",
+    "opcoes": [
+      {
+        "texto": "Implantação em nuvem pública",
+        "explicacao": "Incorreto. Embora a nuvem pública tenha segurança robusta, a nuvem privada pode oferecer mais controle para conformidade rigorosa."
+      },
+      {
+        "texto": "Implantação em nuvem privada",
+        "explicacao": "Correto! A nuvem privada oferece maior controle sobre a segurança e pode atender a regulamentações mais rigorosas."
+      },
+      {
+        "texto": "Implantação multicloud",
+        "explicacao": "Incorreto. Multicloud envolve o uso de múltiplos provedores de nuvem e não oferece o mesmo nível de controle direto."
+      },
+      {
+        "texto": "Implantação híbrida",
+        "explicacao": "Incorreto. A implantação híbrida pode ser útil, mas a nuvem privada oferece mais controle direto sobre os dados."
+      }
+    ],
+    "respostaCorreta": "Implantação em nuvem privada",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir é um benefício do modelo de implantação híbrido?",
+    "opcoes": [
+      {
+        "texto": "Custo mais baixo em comparação com nuvem pública",
+        "explicacao": "Incorreto. O modelo híbrido geralmente não é mais barato do que a nuvem pública."
+      },
+      {
+        "texto": "A flexibilidade de operar cargas de trabalho em data centers locais e na nuvem",
+        "explicacao": "Correto! O modelo híbrido oferece flexibilidade para operar em ambos os ambientes."
+      },
+      {
+        "texto": "Escalabilidade automática sem necessidade de supervisão",
+        "explicacao": "Incorreto. A escalabilidade automática é mais característica da nuvem pública."
+      },
+      {
+        "texto": "Menor complexidade de gerenciamento",
+        "explicacao": "Incorreto. O modelo híbrido pode aumentar a complexidade devido à necessidade de gerenciar dois ambientes."
+      }
+    ],
+    "respostaCorreta": "A flexibilidade de operar cargas de trabalho em data centers locais e na nuvem",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma organização deve considerar o uso de um modelo multicloud?",
+    "opcoes": [
+      {
+        "texto": "Quando busca alta disponibilidade e deseja evitar falhas de um único provedor",
+        "explicacao": "Correto! O modelo multicloud permite maior resiliência ao utilizar múltiplos provedores."
+      },
+      {
+        "texto": "Quando deseja executar todas as suas cargas de trabalho em data centers locais",
+        "explicacao": "Incorreto. Esse seria um cenário de implantação no local (on-premises), e não multicloud."
+      },
+      {
+        "texto": "Quando deseja reduzir a dependência de nuvens privadas",
+        "explicacao": "Incorreto. Multicloud envolve o uso de múltiplos provedores, não necessariamente a redução da nuvem privada."
+      },
+      {
+        "texto": "Quando busca reduzir a segurança e o controle sobre os dados",
+        "explicacao": "Incorreto. A segurança e o controle sobre os dados ainda são essenciais no modelo multicloud."
+      }
+    ],
+    "respostaCorreta": "Quando busca alta disponibilidade e deseja evitar falhas de um único provedor",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
   }
 ]
