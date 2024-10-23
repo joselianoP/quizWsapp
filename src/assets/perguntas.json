@@ -33155,5 +33155,245 @@
     "respostaCorreta": "Reduzir custos de armazenamento ao otimizar o acesso a dados.",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal propósito do AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "Gerenciar a segurança de dados em tempo real.",
+        "explicacao": "O AWS Backup não é um serviço de segurança em tempo real, mas sim de backup."
+      },
+      {
+        "texto": "Centralizar o gerenciamento de backups de recursos AWS.",
+        "explicacao": "O AWS Backup permite gerenciar backups de múltiplos serviços AWS a partir de um único console."
+      },
+      {
+        "texto": "Transferir dados entre regiões AWS.",
+        "explicacao": "O AWS Backup não é projetado para transferir dados entre regiões."
+      },
+      {
+        "texto": "Executar migrações de dados entre serviços AWS.",
+        "explicacao": "O AWS Backup não realiza migrações, mas sim backups."
+      }
+    ],
+    "respostaCorreta": "Centralizar o gerenciamento de backups de recursos AWS.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais serviços podem ser protegidos pelo AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "Somente Amazon EC2.",
+        "explicacao": "O AWS Backup pode proteger uma variedade de serviços, não apenas EC2."
+      },
+      {
+        "texto": "Amazon RDS, Amazon EFS, e Amazon DynamoDB.",
+        "explicacao": "Esses serviços são suportados pelo AWS Backup para gerenciamento de backups."
+      },
+      {
+        "texto": "Apenas serviços de armazenamento, como S3.",
+        "explicacao": "O AWS Backup protege uma gama de serviços, não só armazenamento."
+      },
+      {
+        "texto": "Exclusivamente serviços de computação.",
+        "explicacao": "O AWS Backup cobre tanto serviços de computação quanto de armazenamento."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS, Amazon EFS, e Amazon DynamoDB.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o AWS Backup garante a recuperação de dados?",
+    "opcoes": [
+      {
+        "texto": "Armazenando dados em uma única região AWS.",
+        "explicacao": "O AWS Backup pode armazenar dados em várias regiões para maior resiliência."
+      },
+      {
+        "texto": "Fornecendo backups automáticos e agendados.",
+        "explicacao": "O AWS Backup pode ser configurado para criar backups automáticos de recursos."
+      },
+      {
+        "texto": "Realizando migrações frequentes de dados.",
+        "explicacao": "O AWS Backup não realiza migrações, apenas backups."
+      },
+      {
+        "texto": "Protegendo dados apenas em instâncias de EC2.",
+        "explicacao": "O AWS Backup protege diversos serviços, não apenas EC2."
+      }
+    ],
+    "respostaCorreta": "Fornecendo backups automáticos e agendados.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das principais vantagens de usar AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "Reduzir a complexidade da configuração de segurança.",
+        "explicacao": "O AWS Backup é focado em backups, não na configuração de segurança."
+      },
+      {
+        "texto": "Garantir que os dados estejam disponíveis somente localmente.",
+        "explicacao": "O AWS Backup pode armazenar dados em várias regiões para maior disponibilidade."
+      },
+      {
+        "texto": "Automatizar o gerenciamento de backups em múltiplos serviços AWS.",
+        "explicacao": "O AWS Backup simplifica e automatiza o gerenciamento de backups em vários serviços."
+      },
+      {
+        "texto": "Eliminação automática de dados obsoletos.",
+        "explicacao": "O AWS Backup não elimina dados; ele os protege com backups."
+      }
+    ],
+    "respostaCorreta": "Automatizar o gerenciamento de backups em múltiplos serviços AWS.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais são as políticas de backup no AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "Diretrizes que definem como e quando os backups devem ser realizados.",
+        "explicacao": "As políticas de backup determinam a frequência e os métodos de backup."
+      },
+      {
+        "texto": "Regras de segurança para proteger dados em trânsito.",
+        "explicacao": "Políticas de backup não são sobre segurança de dados em trânsito."
+      },
+      {
+        "texto": "Protocolos para migração de dados entre regiões.",
+        "explicacao": "Políticas de backup não se aplicam à migração de dados."
+      },
+      {
+        "texto": "Configurações de desempenho para otimizar recursos.",
+        "explicacao": "Políticas de backup são específicas para gerenciamento de backups."
+      }
+    ],
+    "respostaCorreta": "Diretrizes que definem como e quando os backups devem ser realizados.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o benefício de usar AWS Backup para a conformidade com regulamentações?",
+    "opcoes": [
+      {
+        "texto": "Permitir exclusões de dados não regulamentadas.",
+        "explicacao": "O AWS Backup não permite exclusões, mas ajuda a manter dados conforme regulamentações."
+      },
+      {
+        "texto": "Facilitar auditorias e relatórios de backup.",
+        "explicacao": "O AWS Backup ajuda a rastrear e auditar backups para atender a requisitos de conformidade."
+      },
+      {
+        "texto": "Aumentar a frequência de backups manualmente.",
+        "explicacao": "O AWS Backup automatiza, não aumenta a frequência manualmente."
+      },
+      {
+        "texto": "Eliminar a necessidade de manter dados antigos.",
+        "explicacao": "O AWS Backup mantém dados antigos conforme políticas de retenção."
+      }
+    ],
+    "respostaCorreta": "Facilitar auditorias e relatórios de backup.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é necessário para restaurar dados usando o AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "Acesso ao console AWS e a uma cópia do backup.",
+        "explicacao": "Para restaurar dados, você precisa acessar o console e localizar o backup."
+      },
+      {
+        "texto": "Um procedimento complexo de linha de comando.",
+        "explicacao": "Restaurar dados é feito através do console AWS, não requerendo procedimentos complexos."
+      },
+      {
+        "texto": "Uma solicitação de suporte à AWS.",
+        "explicacao": "Não é necessário solicitar suporte, pois a restauração pode ser feita pelo console."
+      },
+      {
+        "texto": "Exclusivamente permissões de administrador.",
+        "explicacao": "As permissões necessárias variam, não apenas as de administrador."
+      }
+    ],
+    "respostaCorreta": "Acesso ao console AWS e a uma cópia do backup.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o impacto da retenção de backup no AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "Aumenta a segurança dos dados.",
+        "explicacao": "A retenção de backup não é diretamente relacionada à segurança dos dados."
+      },
+      {
+        "texto": "Controla por quanto tempo os backups são mantidos.",
+        "explicacao": "A retenção determina o período durante o qual os backups são armazenados."
+      },
+      {
+        "texto": "Elimina a necessidade de backups regulares.",
+        "explicacao": "A retenção não substitui a necessidade de realizar backups regulares."
+      },
+      {
+        "texto": "Limita a quantidade de dados que podem ser restaurados.",
+        "explicacao": "A retenção não limita a quantidade de dados restauráveis."
+      }
+    ],
+    "respostaCorreta": "Controla por quanto tempo os backups são mantidos.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um caso de uso típico do AWS Backup em empresas?",
+    "opcoes": [
+      {
+        "texto": "Armazenar dados em locais físicos.",
+        "explicacao": "O AWS Backup é um serviço baseado na nuvem, não armazena em locais físicos."
+      },
+      {
+        "texto": "Garantir a continuidade dos negócios em caso de falha de sistema.",
+        "explicacao": "O AWS Backup ajuda a restaurar dados rapidamente após falhas de sistema."
+      },
+      {
+        "texto": "Realizar migrações de dados em massa.",
+        "explicacao": "O AWS Backup não é projetado para migrações, mas para backups."
+      },
+      {
+        "texto": "Aumentar a latência em operações de leitura e gravação.",
+        "explicacao": "O AWS Backup não aumenta a latência de operações."
+      }
+    ],
+    "respostaCorreta": "Garantir a continuidade dos negócios em caso de falha de sistema.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que deve ser considerado ao planejar uma estratégia de backup com AWS Backup?",
+    "opcoes": [
+      {
+        "texto": "A quantidade de dados e a frequência dos backups.",
+        "explicacao": "A quantidade de dados e a frequência impactam a estratégia de backup."
+      },
+      {
+        "texto": "Apenas a segurança de dados em trânsito.",
+        "explicacao": "É necessário considerar mais do que apenas segurança em trânsito."
+      },
+      {
+        "texto": "Exclusivamente o custo de armazenamento.",
+        "explicacao": "Embora o custo seja importante, outros fatores também devem ser considerados."
+      },
+      {
+        "texto": "O número de usuários que acessarão os dados.",
+        "explicacao": "O número de usuários não é um fator crítico na estratégia de backup."
+      }
+    ],
+    "respostaCorreta": "A quantidade de dados e a frequência dos backups.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
