@@ -25643,5 +25643,2165 @@
     "respostaCorreta": "Melhoria na performance global das aplicações",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância do EC2 é mais adequado para aplicações que requerem um balanceamento entre computação e memória?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são otimizadas para tarefas com alta demanda de CPU."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Essas instâncias são projetadas para cargas de trabalho que exigem muita memória."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Correto! As instâncias de uso geral oferecem um equilíbrio entre CPU, memória e rede."
+      },
+      {
+        "texto": "Instâncias para Aceleração de GPU",
+        "explicacao": "Incorreto. Essas instâncias são mais adequadas para tarefas de machine learning e gráficos."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Uso Geral",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual tipo de carga de trabalho as instâncias otimizadas para computação são mais indicadas?",
+    "opcoes": [
+      {
+        "texto": "Aplicações de banco de dados com alta demanda de I/O",
+        "explicacao": "Incorreto. Essas instâncias não são otimizadas para operações de I/O."
+      },
+      {
+        "texto": "Processamento de dados em larga escala",
+        "explicacao": "Correto! Elas são ideais para aplicações que exigem alta capacidade de processamento."
+      },
+      {
+        "texto": "Hospedagem de sites estáticos",
+        "explicacao": "Incorreto. Para isso, instâncias de uso geral são mais apropriadas."
+      },
+      {
+        "texto": "Armazenamento de dados de longa duração",
+        "explicacao": "Incorreto. O armazenamento de dados não é uma função das instâncias otimizadas para computação."
+      }
+    ],
+    "respostaCorreta": "Processamento de dados em larga escala",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual instância EC2 é recomendada para cargas de trabalho que necessitam de alta memória, como bancos de dados em memória?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são otimizadas para altas demandas de memória."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Correto! Elas são projetadas especificamente para aplicações que exigem muita memória."
+      },
+      {
+        "texto": "Instâncias de Carga de Trabalho Leve",
+        "explicacao": "Incorreto. Essas instâncias não suportam altas demandas de memória."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são focadas em tarefas que exigem processamento, não memória."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Memória",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para que tipo de aplicações são indicadas as instâncias com GPU?",
+    "opcoes": [
+      {
+        "texto": "Hospedagem de aplicativos da web simples",
+        "explicacao": "Incorreto. Aplicações simples não exigem recursos gráficos intensivos."
+      },
+      {
+        "texto": "Desenvolvimento de jogos e machine learning",
+        "explicacao": "Correto! Elas são ideais para tarefas que requerem processamento gráfico intensivo."
+      },
+      {
+        "texto": "Armazenamento em nuvem",
+        "explicacao": "Incorreto. As instâncias com GPU não são adequadas para armazenamento."
+      },
+      {
+        "texto": "Aplicações de processamento de texto",
+        "explicacao": "Incorreto. Essas aplicações não exigem alta capacidade gráfica."
+      }
+    ],
+    "respostaCorreta": "Desenvolvimento de jogos e machine learning",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância do EC2 é mais adequado para aplicações que exigem um processamento intenso, mas não requerem muita memória?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Essas instâncias são projetadas para cargas de trabalho que exigem muita memória."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Correto! Essas instâncias são ideais para processamento intenso."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas oferecem um equilíbrio e não são otimizadas apenas para computação."
+      },
+      {
+        "texto": "Instâncias de Baixo Custo",
+        "explicacao": "Incorreto. O custo não é um indicador de performance para tarefas intensivas."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Computação",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais instâncias do EC2 são indicadas para cargas de trabalho de armazenamento intensivo?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são especificamente otimizadas para armazenamento."
+      },
+      {
+        "texto": "Instâncias Otimizadas para I/O",
+        "explicacao": "Correto! Essas instâncias são projetadas para operações de entrada/saída intensivas."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são focadas em computação, não em I/O."
+      },
+      {
+        "texto": "Instâncias de Carga de Trabalho Leve",
+        "explicacao": "Incorreto. Essas instâncias não suportam operações de armazenamento intensivas."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para I/O",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância EC2 é mais indicado para o desenvolvimento e teste de aplicativos?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Correto! Elas são versáteis e adequadas para desenvolvimento e teste."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são mais adequadas para processamento intenso."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Essas instâncias são para aplicações com alta demanda de memória."
+      },
+      {
+        "texto": "Instâncias com GPU",
+        "explicacao": "Incorreto. Instâncias com GPU são específicas para tarefas de computação gráfica."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Uso Geral",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual cenário as instâncias EC2 de alto desempenho são mais indicadas?",
+    "opcoes": [
+      {
+        "texto": "Aplicações de monitoramento",
+        "explicacao": "Incorreto. Monitoramento não exige instâncias de alto desempenho."
+      },
+      {
+        "texto": "Análises em tempo real e big data",
+        "explicacao": "Correto! Elas são ideais para cenários que exigem alto desempenho de computação."
+      },
+      {
+        "texto": "Serviços de e-mail",
+        "explicacao": "Incorreto. Serviços de e-mail não necessitam de alto desempenho."
+      },
+      {
+        "texto": "Armazenamento de arquivos estáticos",
+        "explicacao": "Incorreto. O armazenamento de arquivos não requer alta performance."
+      }
+    ],
+    "respostaCorreta": "Análises em tempo real e big data",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual instância do EC2 deve ser usada para aplicações que requerem baixa latência em grandes transferências de dados?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Elas são projetadas para computação e não para latência de rede."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Focam em alta capacidade de memória, não necessariamente em latência."
+      },
+      {
+        "texto": "Instâncias de Alto Desempenho",
+        "explicacao": "Correto! Elas são projetadas para minimizar a latência em grandes transferências de dados."
+      },
+      {
+        "texto": "Instâncias de Baixo Custo",
+        "explicacao": "Incorreto. O custo não está diretamente relacionado à latência."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Alto Desempenho",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância EC2 é ideal para aplicações que exigem escalabilidade horizontal?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Correto! Elas oferecem flexibilidade e escalabilidade para aplicações que necessitam de crescimento."
+      },
+      {
+        "texto": "Instâncias Otimizadas para I/O",
+        "explicacao": "Incorreto. Elas são mais adequadas para cargas de trabalho que exigem alta performance de I/O."
+      },
+      {
+        "texto": "Instâncias com GPU",
+        "explicacao": "Incorreto. Elas são destinadas a aplicações que exigem alto desempenho gráfico."
+      },
+      {
+        "texto": "Instâncias de Carga de Trabalho Leve",
+        "explicacao": "Incorreto. Essas instâncias não suportam cargas de trabalho intensivas que exigem escalabilidade."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Uso Geral",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância do EC2 é mais adequado para aplicações que requerem um balanceamento entre computação e memória?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são otimizadas para tarefas com alta demanda de CPU."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Essas instâncias são projetadas para cargas de trabalho que exigem muita memória."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Correto! As instâncias de uso geral oferecem um equilíbrio entre CPU, memória e rede."
+      },
+      {
+        "texto": "Instâncias para Aceleração de GPU",
+        "explicacao": "Incorreto. Essas instâncias são mais adequadas para tarefas de machine learning e gráficos."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Uso Geral",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual tipo de carga de trabalho as instâncias otimizadas para computação são mais indicadas?",
+    "opcoes": [
+      {
+        "texto": "Aplicações de banco de dados com alta demanda de I/O",
+        "explicacao": "Incorreto. Essas instâncias não são otimizadas para operações de I/O."
+      },
+      {
+        "texto": "Processamento de dados em larga escala",
+        "explicacao": "Correto! Elas são ideais para aplicações que exigem alta capacidade de processamento."
+      },
+      {
+        "texto": "Hospedagem de sites estáticos",
+        "explicacao": "Incorreto. Para isso, instâncias de uso geral são mais apropriadas."
+      },
+      {
+        "texto": "Armazenamento de dados de longa duração",
+        "explicacao": "Incorreto. O armazenamento de dados não é uma função das instâncias otimizadas para computação."
+      }
+    ],
+    "respostaCorreta": "Processamento de dados em larga escala",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual instância EC2 é recomendada para cargas de trabalho que necessitam de alta memória, como bancos de dados em memória?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são otimizadas para altas demandas de memória."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Correto! Elas são projetadas especificamente para aplicações que exigem muita memória."
+      },
+      {
+        "texto": "Instâncias de Carga de Trabalho Leve",
+        "explicacao": "Incorreto. Essas instâncias não suportam altas demandas de memória."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são focadas em tarefas que exigem processamento, não memória."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Memória",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para que tipo de aplicações são indicadas as instâncias com GPU?",
+    "opcoes": [
+      {
+        "texto": "Hospedagem de aplicativos da web simples",
+        "explicacao": "Incorreto. Aplicações simples não exigem recursos gráficos intensivos."
+      },
+      {
+        "texto": "Desenvolvimento de jogos e machine learning",
+        "explicacao": "Correto! Elas são ideais para tarefas que requerem processamento gráfico intensivo."
+      },
+      {
+        "texto": "Armazenamento em nuvem",
+        "explicacao": "Incorreto. As instâncias com GPU não são adequadas para armazenamento."
+      },
+      {
+        "texto": "Aplicações de processamento de texto",
+        "explicacao": "Incorreto. Essas aplicações não exigem alta capacidade gráfica."
+      }
+    ],
+    "respostaCorreta": "Desenvolvimento de jogos e machine learning",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância do EC2 é mais adequado para aplicações que exigem um processamento intenso, mas não requerem muita memória?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Essas instâncias são projetadas para cargas de trabalho que exigem muita memória."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Correto! Essas instâncias são ideais para processamento intenso."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas oferecem um equilíbrio e não são otimizadas apenas para computação."
+      },
+      {
+        "texto": "Instâncias de Baixo Custo",
+        "explicacao": "Incorreto. O custo não é um indicador de performance para tarefas intensivas."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Computação",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais instâncias do EC2 são indicadas para cargas de trabalho de armazenamento intensivo?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são especificamente otimizadas para armazenamento."
+      },
+      {
+        "texto": "Instâncias Otimizadas para I/O",
+        "explicacao": "Correto! Essas instâncias são projetadas para operações de entrada/saída intensivas."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são focadas em computação, não em I/O."
+      },
+      {
+        "texto": "Instâncias de Carga de Trabalho Leve",
+        "explicacao": "Incorreto. Essas instâncias não suportam operações de armazenamento intensivas."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para I/O",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância EC2 é mais indicado para o desenvolvimento e teste de aplicativos?",
+    "opcoes": [
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Correto! Elas são versáteis e adequadas para desenvolvimento e teste."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são mais adequadas para processamento intenso."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Memória",
+        "explicacao": "Incorreto. Essas instâncias são para aplicações com alta demanda de memória."
+      },
+      {
+        "texto": "Instâncias com GPU",
+        "explicacao": "Incorreto. Instâncias com GPU são específicas para tarefas de computação gráfica."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Uso Geral",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual cenário as instâncias EC2 de alto desempenho são mais indicadas?",
+    "opcoes": [
+      {
+        "texto": "Aplicações de monitoramento",
+        "explicacao": "Incorreto. Monitoramento não exige instâncias de alto desempenho."
+      },
+      {
+        "texto": "Análises em tempo real e big data",
+        "explicacao": "Correto! Elas são ideais para cenários que exigem alto desempenho de computação."
+      },
+      {
+        "texto": "Serviços de e-mail",
+        "explicacao": "Incorreto. Serviços de e-mail não necessitam de alto desempenho."
+      },
+      {
+        "texto": "Armazenamento de arquivos estáticos",
+        "explicacao": "Incorreto. O armazenamento de arquivos não requer alta performance."
+      }
+    ],
+    "respostaCorreta": "Análises em tempo real e big data",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual instância do EC2 deve ser usada para aplicações que requerem baixa latência em grandes transferências de dados?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Elas são projetadas para computação e não para latência de rede."
+      },
+      {
+        "texto": "Instâncias Otimizadas para I/O",
+        "explicacao": "Correto! Elas são ideais para aplicações que exigem operações de I/O com baixa latência."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são especializadas em latência de rede."
+      },
+      {
+        "texto": "Instâncias de Baixo Custo",
+        "explicacao": "Incorreto. O custo não é um fator de desempenho de latência."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para I/O",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando você deve optar por instâncias EC2 reservadas em vez de instâncias sob demanda?",
+    "opcoes": [
+      {
+        "texto": "Quando a carga de trabalho é esporádica",
+        "explicacao": "Incorreto. Instâncias sob demanda são mais adequadas para cargas esporádicas."
+      },
+      {
+        "texto": "Quando a carga de trabalho é previsível e de longo prazo",
+        "explicacao": "Correto! Instâncias reservadas são ideais para cargas de trabalho previsíveis."
+      },
+      {
+        "texto": "Quando o custo é a única preocupação",
+        "explicacao": "Incorreto. O tipo de carga de trabalho deve ser considerado também."
+      },
+      {
+        "texto": "Quando se requer flexibilidade total",
+        "explicacao": "Incorreto. Instâncias sob demanda oferecem mais flexibilidade."
+      }
+    ],
+    "respostaCorreta": "Quando a carga de trabalho é previsível e de longo prazo",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância do EC2 é ideal para aplicações que exigem um alto nível de computação e processamento?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Armazenamento",
+        "explicacao": "Incorreto. Essas instâncias são projetadas para cargas de trabalho que exigem alta capacidade de armazenamento."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Correto! Elas são projetadas especificamente para fornecer alto desempenho em tarefas computacionais."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Embora versáteis, elas não são otimizadas apenas para computação."
+      },
+      {
+        "texto": "Instâncias com GPU",
+        "explicacao": "Incorreto. Essas instâncias são mais adequadas para tarefas que requerem processamento gráfico intensivo."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Computação",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual cenário as instâncias otimizadas para armazenamento são mais apropriadas?",
+    "opcoes": [
+      {
+        "texto": "Processamento de big data",
+        "explicacao": "Incorreto. Para big data, instâncias otimizadas para computação são mais adequadas."
+      },
+      {
+        "texto": "Armazenamento de dados de longo prazo",
+        "explicacao": "Correto! Essas instâncias são projetadas para cargas de trabalho que exigem alta capacidade de armazenamento."
+      },
+      {
+        "texto": "Aplicações de jogos",
+        "explicacao": "Incorreto. Jogos geralmente exigem instâncias com alto desempenho computacional."
+      },
+      {
+        "texto": "Desenvolvimento e teste de software",
+        "explicacao": "Incorreto. Isso pode ser feito em instâncias de uso geral."
+      }
+    ],
+    "respostaCorreta": "Armazenamento de dados de longo prazo",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância deve ser usado para cargas de trabalho que requerem tanto alta computação quanto armazenamento?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Armazenamento",
+        "explicacao": "Incorreto. Elas são projetadas principalmente para armazenamento, não para computação."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Elas não são otimizadas para armazenamento."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Correto! Elas oferecem um equilíbrio entre computação e armazenamento."
+      },
+      {
+        "texto": "Instâncias de Baixo Custo",
+        "explicacao": "Incorreto. O custo não é um indicador de desempenho otimizado."
+      }
+    ],
+    "respostaCorreta": "Instâncias de Uso Geral",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quais instâncias do EC2 são mais adequadas para aplicações que precisam de alta capacidade de I/O?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Incorreto. Essas instâncias são projetadas para alto desempenho computacional."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Armazenamento",
+        "explicacao": "Correto! Elas são otimizadas para oferecer alta capacidade de I/O."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são otimizadas especificamente para I/O."
+      },
+      {
+        "texto": "Instâncias com GPU",
+        "explicacao": "Incorreto. Elas são mais adequadas para processamento gráfico."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Armazenamento",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual instância EC2 é mais adequada para tarefas de machine learning que requerem intensivo poder de processamento?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Armazenamento",
+        "explicacao": "Incorreto. Essas instâncias não são projetadas para computação intensiva."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Correto! Elas são ideais para tarefas que exigem processamento intensivo."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Embora versáteis, não são especializadas para computação intensa."
+      },
+      {
+        "texto": "Instâncias de Carga de Trabalho Leve",
+        "explicacao": "Incorreto. Essas instâncias não são adequadas para machine learning."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Computação",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes afirmações é verdadeira sobre instâncias otimizadas para armazenamento?",
+    "opcoes": [
+      {
+        "texto": "Elas são projetadas para alta capacidade de processamento.",
+        "explicacao": "Incorreto. Elas são projetadas para alta capacidade de armazenamento, não para processamento."
+      },
+      {
+        "texto": "Elas são adequadas para aplicações que exigem alta I/O e baixa latência.",
+        "explicacao": "Correto! Essas instâncias são otimizadas para oferecer alta I/O e baixa latência."
+      },
+      {
+        "texto": "Elas devem ser usadas apenas para cargas de trabalho temporárias.",
+        "explicacao": "Incorreto. Elas são adequadas para cargas de trabalho permanentes que exigem armazenamento."
+      },
+      {
+        "texto": "Elas não suportam armazenamento em bloco.",
+        "explicacao": "Incorreto. Elas suportam armazenamento em bloco e são otimizadas para isso."
+      }
+    ],
+    "respostaCorreta": "Elas são adequadas para aplicações que exigem alta I/O e baixa latência.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando é mais vantajoso usar instâncias otimizadas para computação?",
+    "opcoes": [
+      {
+        "texto": "Para cargas de trabalho com requisitos de armazenamento elevados.",
+        "explicacao": "Incorreto. Essas instâncias não são otimizadas para armazenamento."
+      },
+      {
+        "texto": "Para aplicações que requerem processamento paralelo intenso.",
+        "explicacao": "Correto! Elas são projetadas para fornecer alto desempenho em tarefas computacionais."
+      },
+      {
+        "texto": "Para serviços de streaming de vídeo.",
+        "explicacao": "Incorreto. Streaming pode ser feito em instâncias de uso geral."
+      },
+      {
+        "texto": "Para bancos de dados de larga escala.",
+        "explicacao": "Incorreto. Bancos de dados podem exigir instâncias otimizadas para I/O."
+      }
+    ],
+    "respostaCorreta": "Para aplicações que requerem processamento paralelo intenso.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem significativa das instâncias otimizadas para armazenamento?",
+    "opcoes": [
+      {
+        "texto": "Elas têm um custo inferior em todas as situações.",
+        "explicacao": "Incorreto. O custo varia dependendo do tipo de carga de trabalho."
+      },
+      {
+        "texto": "Elas oferecem alta capacidade de I/O para aplicações de grande escala.",
+        "explicacao": "Correto! Elas são projetadas para suportar operações de I/O intensivas."
+      },
+      {
+        "texto": "Elas não são escaláveis.",
+        "explicacao": "Incorreto. Essas instâncias podem ser escaladas conforme necessário."
+      },
+      {
+        "texto": "Elas são ideais apenas para tarefas de armazenamento em nuvem.",
+        "explicacao": "Incorreto. Elas podem ser usadas para várias cargas de trabalho que exigem armazenamento."
+      }
+    ],
+    "respostaCorreta": "Elas oferecem alta capacidade de I/O para aplicações de grande escala.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de instância é mais apropriada para aplicações de análise de dados em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Instâncias Otimizadas para Computação",
+        "explicacao": "Correto! Elas são ideais para análise de dados em tempo real, exigindo alto desempenho computacional."
+      },
+      {
+        "texto": "Instâncias Otimizadas para Armazenamento",
+        "explicacao": "Incorreto. Embora possam armazenar dados, não são otimizadas para análise em tempo real."
+      },
+      {
+        "texto": "Instâncias de Baixo Custo",
+        "explicacao": "Incorreto. O custo não deve ser o único fator na escolha da instância."
+      },
+      {
+        "texto": "Instâncias de Uso Geral",
+        "explicacao": "Incorreto. Elas não são tão otimizadas quanto as instâncias de computação."
+      }
+    ],
+    "respostaCorreta": "Instâncias Otimizadas para Computação",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual tipo de carga de trabalho as instâncias de armazenamento são especialmente adequadas?",
+    "opcoes": [
+      {
+        "texto": "Processamento em tempo real de dados financeiros",
+        "explicacao": "Incorreto. Para isso, instâncias otimizadas para computação são melhores."
+      },
+      {
+        "texto": "Armazenamento de grandes volumes de dados não estruturados",
+        "explicacao": "Correto! Essas instâncias são projetadas para gerenciar grandes volumes de dados."
+      },
+      {
+        "texto": "Desenvolvimento de aplicativos móveis",
+        "explicacao": "Incorreto. Isso pode ser feito em instâncias de uso geral."
+      },
+      {
+        "texto": "Execução de algoritmos de machine learning",
+        "explicacao": "Incorreto. Para machine learning, instâncias otimizadas para computação são mais adequadas."
+      }
+    ],
+    "respostaCorreta": "Armazenamento de grandes volumes de dados não estruturados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está planejando migrar suas aplicações para contêineres. Qual serviço da AWS oferece uma plataforma gerenciada para executar contêineres sem a necessidade de gerenciar servidores?",
+    "opcoes": [
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. Embora o EC2 possa executar contêineres, ele exige gerenciamento de servidores."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite executar contêineres sem gerenciar servidores."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de execução de contêineres."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é usado para orquestrar contêineres em um cluster e oferece funcionalidades como escalabilidade e gerenciamento de carga?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Correto! O Amazon ECS é um serviço de orquestração de contêineres que facilita a execução e o gerenciamento de contêineres."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é usado para executar código em resposta a eventos, não para orquestração de contêineres."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos."
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "Incorreto. As Step Functions são usadas para orquestrar microserviços, não especificamente contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma startup deseja executar contêineres Docker em uma infraestrutura escalável na AWS. Qual serviço deve usar?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Correto! O Amazon EKS é um serviço gerenciado que facilita a execução de contêineres usando Kubernetes."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation é um serviço de gerenciamento de infraestrutura como código."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "AWS Batch",
+        "explicacao": "Incorreto. O AWS Batch é usado para executar trabalhos em lote, não para contêineres em tempo real."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para um aplicativo que exige execução de funções serverless dentro de um contêiner, qual opção é a mais adequada?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda pode executar contêineres como funções serverless."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Incorreto. O ECS é usado para orquestrar contêineres, mas não é serverless."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é um serviço gerenciado, mas não se aplica diretamente a funções serverless."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é o principal benefício do uso de contêineres em comparação com máquinas virtuais?",
+    "opcoes": [
+      {
+        "texto": "Menor sobrecarga de sistema",
+        "explicacao": "Correto! Contêineres têm menos sobrecarga, permitindo um uso mais eficiente dos recursos."
+      },
+      {
+        "texto": "Maior segurança",
+        "explicacao": "Incorreto. Contêineres compartilham o mesmo kernel, o que pode apresentar riscos de segurança."
+      },
+      {
+        "texto": "Melhor desempenho em todas as situações",
+        "explicacao": "Incorreto. O desempenho pode variar dependendo da carga de trabalho."
+      },
+      {
+        "texto": "Compatibilidade total com aplicativos legados",
+        "explicacao": "Incorreto. Contêineres podem ter problemas de compatibilidade com alguns aplicativos legados."
+      }
+    ],
+    "respostaCorreta": "Menor sobrecarga de sistema",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços da AWS é mais adequado para armazenamento de imagens de contêineres?",
+    "opcoes": [
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. Embora o S3 possa armazenar objetos, não é específico para imagens de contêineres."
+      },
+      {
+        "texto": "Amazon ECR",
+        "explicacao": "Correto! O Amazon ECR é um registro de contêiner gerenciado para armazenamento de imagens de contêiner."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é para bancos de dados, não para imagens de contêineres."
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "Incorreto. O CodeDeploy é usado para implantação de aplicativos."
+      }
+    ],
+    "respostaCorreta": "Amazon ECR",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Ao escolher entre o uso de Amazon ECS e EKS, qual consideração deve ser levada em conta?",
+    "opcoes": [
+      {
+        "texto": "Tipo de aplicação que será implantada",
+        "explicacao": "Correto! O tipo de aplicação pode determinar qual orquestrador usar."
+      },
+      {
+        "texto": "Somente custo",
+        "explicacao": "Incorreto. Embora o custo seja importante, não é a única consideração."
+      },
+      {
+        "texto": "Regiões geográficas",
+        "explicacao": "Incorreto. Ambas as opções estão disponíveis em várias regiões."
+      },
+      {
+        "texto": "Tipo de instância EC2 usada",
+        "explicacao": "Incorreto. O tipo de instância pode não ser relevante para a escolha do orquestrador."
+      }
+    ],
+    "respostaCorreta": "Tipo de aplicação que será implantada",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para uma equipe de desenvolvimento que precisa de uma solução rápida para contêineres, qual serviço oferece a menor complexidade de gerenciamento?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS com AWS Fargate",
+        "explicacao": "Correto! Essa combinação permite executar contêineres sem gerenciar a infraestrutura subjacente."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Incorreto. O EKS requer gerenciamento do Kubernetes, que pode ser complexo."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores."
+      },
+      {
+        "texto": "AWS Batch",
+        "explicacao": "Incorreto. O AWS Batch é mais adequado para tarefas em lote."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS com AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um benefício de usar contêineres em ambientes de desenvolvimento?",
+    "opcoes": [
+      {
+        "texto": "Consistência entre ambientes",
+        "explicacao": "Correto! Contêineres garantem que a aplicação funcione da mesma maneira em diferentes ambientes."
+      },
+      {
+        "texto": "Menor tempo de desenvolvimento",
+        "explicacao": "Incorreto. Embora contêineres ajudem, o tempo de desenvolvimento pode variar."
+      },
+      {
+        "texto": "Maior necessidade de hardware",
+        "explicacao": "Incorreto. Contêineres geralmente exigem menos recursos que VMs."
+      },
+      {
+        "texto": "Segurança superior a VMs",
+        "explicacao": "Incorreto. A segurança depende da configuração e uso, não dos contêineres em si."
+      }
+    ],
+    "respostaCorreta": "Consistência entre ambientes",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é um caso de uso típico para o AWS Fargate?",
+    "opcoes": [
+      {
+        "texto": "Executar aplicações que requerem controle total sobre a infraestrutura",
+        "explicacao": "Incorreto. O Fargate é para execução sem gerenciamento de servidores."
+      },
+      {
+        "texto": "Executar contêineres para aplicações sem servidor",
+        "explicacao": "Correto! O Fargate é ideal para contêineres em um ambiente serverless."
+      },
+      {
+        "texto": "Gerenciar clusters de instâncias EC2",
+        "explicacao": "Incorreto. O Fargate não gerencia instâncias EC2."
+      },
+      {
+        "texto": "Armazenar dados em um banco de dados relacional",
+        "explicacao": "Incorreto. O Fargate não é usado para armazenamento de dados."
+      }
+    ],
+    "respostaCorreta": "Executar contêineres para aplicações sem servidor",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando uma solução de orquestração de contêineres para suas aplicações. Qual serviço da AWS oferece uma solução gerenciada para Kubernetes?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Correto! O Amazon EKS é um serviço gerenciado para Kubernetes."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Incorreto. O ECS é uma solução de orquestração de contêineres da AWS, mas não usa Kubernetes."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é um serviço para executar contêineres, mas não é especificamente uma plataforma Kubernetes."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados gerenciado."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir permite que uma empresa execute contêineres sem precisar gerenciar as instâncias EC2 subjacentes?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite executar contêineres sem gerenciar servidores."
+      },
+      {
+        "texto": "Amazon ECS com EC2",
+        "explicacao": "Incorreto. O Amazon ECS com EC2 requer o gerenciamento das instâncias."
+      },
+      {
+        "texto": "Amazon EKS com EC2",
+        "explicacao": "Incorreto. O Amazon EKS com EC2 também requer o gerenciamento de servidores."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é usado para execução de código sem servidor, não para orquestração de contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma equipe de TI está buscando um serviço AWS que suporte clusters de contêineres e forneça compatibilidade nativa com o Docker. Qual das seguintes opções atende a esse requisito?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Correto! O Amazon ECS oferece suporte nativo ao Docker para execução de contêineres."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados, não de contêineres."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de execução de contêineres."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda executa código, mas não oferece suporte direto ao Docker."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja executar contêineres em larga escala usando Kubernetes e busca um serviço AWS gerenciado para isso. Qual das opções a seguir é a mais adequada?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Correto! O Amazon EKS é o serviço gerenciado da AWS para Kubernetes."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Incorreto. O Amazon ECS não utiliza Kubernetes como orquestrador padrão."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é usado para execução de código sem servidor, não para orquestração de contêineres."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS deve ser usado para orquestrar contêineres se a empresa preferir usar o Docker como padrão, mas não quer gerenciar a infraestrutura subjacente?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS com AWS Fargate",
+        "explicacao": "Correto! O ECS com Fargate permite executar contêineres Docker sem gerenciar servidores."
+      },
+      {
+        "texto": "Amazon EKS com EC2",
+        "explicacao": "Incorreto. O EKS com EC2 requer o gerenciamento de servidores."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de execução de contêineres."
+      },
+      {
+        "texto": "AWS Batch",
+        "explicacao": "Incorreto. O AWS Batch é utilizado para executar tarefas em lote."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS com AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma equipe de desenvolvimento deseja automatizar a implantação de contêineres usando Kubernetes. Qual serviço da AWS deve ser considerado para essa solução?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Correto! O Amazon EKS é um serviço gerenciado que facilita a execução de contêineres com Kubernetes."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Incorreto. O ECS é uma solução de orquestração de contêineres, mas não usa Kubernetes."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é usado para executar contêineres sem gerenciar servidores, mas não é um orquestrador Kubernetes."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de orquestração de contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja implantar e gerenciar contêineres de forma simplificada sem gerenciar servidores. Qual combinação de serviços AWS é a mais adequada?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS com AWS Fargate",
+        "explicacao": "Correto! Essa combinação permite implantar e gerenciar contêineres sem a necessidade de gerenciar servidores."
+      },
+      {
+        "texto": "Amazon ECS com EC2",
+        "explicacao": "Incorreto. O ECS com EC2 requer o gerenciamento de servidores."
+      },
+      {
+        "texto": "Amazon EKS com EC2",
+        "explicacao": "Incorreto. O EKS com EC2 também exige o gerenciamento de servidores."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda não é usado para orquestração de contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS com AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para uma aplicação que requer contêineres e alta disponibilidade em um cluster Kubernetes, qual serviço da AWS é o mais recomendado?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "Correto! O Amazon EKS oferece alta disponibilidade para contêineres Kubernetes."
+      },
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "Incorreto. O ECS não utiliza Kubernetes para orquestração."
+      },
+      {
+        "texto": "AWS Batch",
+        "explicacao": "Incorreto. O AWS Batch é usado para execução de tarefas em lote."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é adequado para empresas que precisam de uma solução de contêineres que suporte tanto workloads Docker quanto workloads Kubernetes?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS e Amazon EKS",
+        "explicacao": "Correto! O Amazon ECS suporta Docker e o Amazon EKS suporta Kubernetes."
+      },
+      {
+        "texto": "Amazon S3 e Amazon RDS",
+        "explicacao": "Incorreto. Esses serviços não suportam workloads de contêineres."
+      },
+      {
+        "texto": "AWS Lambda e AWS Batch",
+        "explicacao": "Incorreto. O Lambda e o Batch não são orquestradores de contêineres."
+      },
+      {
+        "texto": "Amazon Lightsail e Amazon EC2",
+        "explicacao": "Incorreto. Esses serviços não são soluções específicas para contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS e Amazon EKS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa precisa orquestrar contêineres, mas não quer lidar com a complexidade de gerenciar o Kubernetes manualmente. Qual solução AWS é mais adequada?",
+    "opcoes": [
+      {
+        "texto": "Amazon EKS com AWS Fargate",
+        "explicacao": "Correto! O EKS com Fargate permite executar contêineres Kubernetes sem gerenciar servidores."
+      },
+      {
+        "texto": "Amazon ECS com EC2",
+        "explicacao": "Incorreto. O ECS com EC2 requer o gerenciamento de servidores."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados, não de contêineres."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é um serviço de distribuição de conteúdo."
+      }
+    ],
+    "respostaCorreta": "Amazon EKS com AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é mais adequado para executar código em resposta a eventos sem gerenciar servidores?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda permite executar código em resposta a eventos sem a necessidade de gerenciar servidores."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores para executar código."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja reduzir a latência e os custos ao executar funções de maneira distribuída em diversos locais. Qual serviço da AWS é mais adequado?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda@Edge",
+        "explicacao": "Correto! O Lambda@Edge permite executar funções em resposta a eventos próximos ao local onde os dados são gerados, reduzindo latência."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores e não é distribuído globalmente de forma automática."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation é usado para gerenciar infraestrutura como código, não para executar funções sem servidor."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda@Edge",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual solução AWS permite a execução de contêineres sem precisar gerenciar as instâncias subjacentes?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite executar contêineres sem gerenciar instâncias EC2."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 exige o gerenciamento de servidores para executar contêineres."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado, não de contêineres."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é utilizado para executar código, não para contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para qual tipo de tarefa o AWS Lambda é mais indicado?",
+    "opcoes": [
+      {
+        "texto": "Execução de código em resposta a eventos",
+        "explicacao": "Correto! O AWS Lambda é projetado para executar código em resposta a eventos, como mudanças em objetos S3 ou atualizações em uma tabela DynamoDB."
+      },
+      {
+        "texto": "Execução de contêineres com requisitos de computação específicos",
+        "explicacao": "Incorreto. Para esse cenário, o AWS Fargate seria mais adequado."
+      },
+      {
+        "texto": "Execução de cargas de trabalho de Big Data",
+        "explicacao": "Incorreto. Para Big Data, serviços como Amazon EMR são mais indicados."
+      },
+      {
+        "texto": "Execução de bancos de dados relacionais",
+        "explicacao": "Incorreto. O AWS Lambda não é usado para gerenciar bancos de dados, como o Amazon RDS."
+      }
+    ],
+    "respostaCorreta": "Execução de código em resposta a eventos",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma equipe deseja utilizar a arquitetura de microsserviços e procura uma solução sem servidor para lidar com comunicações assíncronas entre os serviços. Qual serviço da AWS seria o mais adequado?",
+    "opcoes": [
+      {
+        "texto": "Amazon SNS",
+        "explicacao": "Correto! O Amazon SNS é um serviço de mensagens sem servidor que permite comunicações assíncronas entre microsserviços."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer servidores gerenciados, o que não se alinha com uma solução sem servidor."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation é usado para gerenciar a infraestrutura como código, não para comunicação entre microsserviços."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda executa código em resposta a eventos, mas não lida diretamente com a comunicação assíncrona entre microsserviços."
+      }
+    ],
+    "respostaCorreta": "Amazon SNS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das opções a seguir é um exemplo de computação sem servidor?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda é um exemplo de computação sem servidor, onde o código é executado sem a necessidade de gerenciar a infraestrutura subjacente."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 exige o gerenciamento de servidores, não é um exemplo de computação sem servidor."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado, mas ainda requer provisionamento e manutenção de servidores."
+      },
+      {
+        "texto": "Amazon EBS",
+        "explicacao": "Incorreto. O EBS é um serviço de armazenamento em bloco, não uma solução de computação sem servidor."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções de computação sem servidor é mais adequada para executar aplicativos de longa duração em contêineres?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate é ideal para executar contêineres sem gerenciar a infraestrutura, incluindo aplicativos de longa duração."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda tem uma limitação de tempo de execução para as funções e não é ideal para aplicativos de longa duração."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 exige o gerenciamento de instâncias de servidores."
+      },
+      {
+        "texto": "Amazon Lightsail",
+        "explicacao": "Incorreto. O Lightsail é uma solução de servidor simplificada, não uma opção de computação sem servidor."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma equipe de desenvolvimento quer processar grandes volumes de dados de forma escalável e sem gerenciar infraestrutura. Qual serviço da AWS eles devem usar?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O Lambda permite executar código em resposta a eventos e é altamente escalável, sem a necessidade de gerenciar servidores."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 exige o gerenciamento de servidores, o que não é o ideal para uma abordagem sem servidor."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não de processamento de dados."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem de usar AWS Lambda em comparação com instâncias Amazon EC2 para processamento de dados esporádico?",
+    "opcoes": [
+      {
+        "texto": "A Lambda cobra apenas pelo tempo de execução do código.",
+        "explicacao": "Correto! O Lambda cobra pelo tempo de execução real do código, enquanto o EC2 cobra pelo tempo de instância, mesmo quando inativa."
+      },
+      {
+        "texto": "A Lambda pode executar cargas de trabalho mais intensivas em computação.",
+        "explicacao": "Incorreto. O EC2 pode ser mais adequado para cargas de trabalho pesadas em computação, enquanto a Lambda é mais indicada para tarefas de curta duração."
+      },
+      {
+        "texto": "O Lambda oferece uma interface gráfica mais amigável.",
+        "explicacao": "Incorreto. O Lambda é controlado principalmente por APIs e não oferece uma interface gráfica mais amigável que o EC2."
+      },
+      {
+        "texto": "A Lambda permite o gerenciamento manual de servidores.",
+        "explicacao": "Incorreto. O Lambda não requer gerenciamento de servidores."
+      }
+    ],
+    "respostaCorreta": "A Lambda cobra apenas pelo tempo de execução do código.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é mais indicado para executar aplicativos em contêineres sem provisionar e gerenciar servidores?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite executar contêineres sem gerenciar a infraestrutura subjacente."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer o provisionamento e gerenciamento de servidores."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados, não uma solução para contêineres."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é usado para executar código em resposta a eventos, não para contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja executar contêineres sem precisar gerenciar a infraestrutura subjacente. Qual serviço da AWS seria mais adequado para essa tarefa?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite executar contêineres sem a necessidade de gerenciar a infraestrutura."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O Amazon EC2 requer o gerenciamento de servidores subjacentes."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O AWS Lambda executa funções em resposta a eventos, mas não gerencia contêineres diretamente."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados gerenciado e não executa contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS seria mais adequado para executar código em resposta a eventos sem a necessidade de gerenciar servidores?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda permite executar código em resposta a eventos, sem necessidade de gerenciar servidores."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O AWS Fargate é usado para executar contêineres, não código diretamente em resposta a eventos."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores e não é uma solução sem servidor."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de execução de código."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma equipe de desenvolvimento quer processar grandes volumes de dados de maneira escalável sem gerenciar servidores. Qual serviço da AWS deve ser utilizado?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda permite executar código em resposta a eventos de forma escalável, sem gerenciar servidores."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer o gerenciamento de servidores, o que não é adequado para uma solução sem servidor."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é usado para contêineres, não diretamente para processamento de grandes volumes de dados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados, não para execução de código."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite que as empresas executem aplicações de contêiner sem a necessidade de provisionar e gerenciar instâncias EC2?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite que os desenvolvedores executem contêineres sem gerenciar instâncias de EC2."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores subjacentes."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda executa código em resposta a eventos, mas não é uma solução para contêineres."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado, não relacionado à execução de contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções seria mais adequada para uma empresa que deseja automatizar a execução de funções em resposta a eventos, como o upload de um arquivo no S3?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda pode executar funções em resposta a eventos, como o upload de um arquivo no S3."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é usado para contêineres e não para executar funções em resposta a eventos."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer servidores gerenciados e não é adequado para a execução de funções em resposta a eventos."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento e não executa funções diretamente."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma equipe deseja processar dados em contêineres de maneira escalável sem precisar gerenciar servidores subjacentes. Qual serviço da AWS seria mais adequado?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite a execução de contêineres de forma escalável sem a necessidade de gerenciar servidores."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O AWS Lambda executa funções em resposta a eventos e não é adequado para a execução de contêineres."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de instâncias, o que não é necessário com o Fargate."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados e não processa contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja automatizar a execução de código em resposta a eventos sem gerenciar servidores ou contêineres. Qual serviço AWS é o mais apropriado?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda permite a execução de código em resposta a eventos sem a necessidade de gerenciar servidores ou contêineres."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é usado para executar contêineres, não diretamente código em resposta a eventos."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores, o que não atende à necessidade de automação sem gerenciamento de infraestrutura."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados e não serve para executar código em resposta a eventos."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS seria mais apropriado para uma empresa que deseja implementar uma arquitetura de microsserviços baseada em contêineres, sem gerenciar a infraestrutura?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite a execução de contêineres em uma arquitetura de microsserviços sem necessidade de gerenciamento de infraestrutura."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é usado para executar funções em resposta a eventos, mas não gerencia diretamente contêineres em uma arquitetura de microsserviços."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer gerenciamento de servidores, o que não é necessário com o Fargate."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento e não está relacionado à execução de microsserviços."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja reduzir os custos ao executar código esporadicamente sem manter instâncias de servidor ociosas. Qual serviço AWS deve ser utilizado?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Correto! O AWS Lambda cobra apenas pelo tempo de execução do código, eliminando a necessidade de manter instâncias de servidor ociosas."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é para execução de contêineres e não é a melhor escolha para código esporádico."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 cobra pelo tempo de execução das instâncias, independentemente do uso do código."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não uma solução de execução de código."
+      }
+    ],
+    "respostaCorreta": "AWS Lambda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite que as empresas executem contêineres sem provisionar e gerenciar a infraestrutura subjacente?",
+    "opcoes": [
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Correto! O AWS Fargate permite a execução de contêineres sem a necessidade de provisionamento e gerenciamento da infraestrutura subjacente."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda executa funções em resposta a eventos, mas não é uma solução para contêineres."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 requer o provisionamento e gerenciamento de servidores."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento e não está relacionado à execução de contêineres."
+      }
+    ],
+    "respostaCorreta": "AWS Fargate",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem do Auto Scaling em um ambiente AWS?",
+    "opcoes": [
+      {
+        "texto": "Proporcionar elasticidade ao ajustar automaticamente a capacidade com base na demanda",
+        "explicacao": "Correto! O Auto Scaling ajusta automaticamente os recursos com base na demanda, proporcionando elasticidade."
+      },
+      {
+        "texto": "Reduzir o tempo de resposta dos servidores",
+        "explicacao": "Incorreto. O Auto Scaling não se concentra no tempo de resposta, mas na escalabilidade."
+      },
+      {
+        "texto": "Gerenciar a segurança dos dados em instâncias EC2",
+        "explicacao": "Incorreto. O Auto Scaling é responsável pela elasticidade, não pela segurança."
+      },
+      {
+        "texto": "Prover uma solução de backup para instâncias EC2",
+        "explicacao": "Incorreto. O Auto Scaling não é uma solução de backup."
+      }
+    ],
+    "respostaCorreta": "Proporcionar elasticidade ao ajustar automaticamente a capacidade com base na demanda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o Auto Scaling ajuda a garantir a disponibilidade das aplicações na AWS?",
+    "opcoes": [
+      {
+        "texto": "Aumentando ou diminuindo automaticamente a capacidade conforme a demanda muda",
+        "explicacao": "Correto! O Auto Scaling ajusta automaticamente a capacidade de acordo com a demanda, assegurando a disponibilidade das aplicações."
+      },
+      {
+        "texto": "Gerenciando backups de dados automaticamente",
+        "explicacao": "Incorreto. O Auto Scaling não gerencia backups de dados."
+      },
+      {
+        "texto": "Proporcionando criptografia em todas as instâncias",
+        "explicacao": "Incorreto. O Auto Scaling não lida diretamente com criptografia."
+      },
+      {
+        "texto": "Monitorando a segurança da rede",
+        "explicacao": "Incorreto. O Auto Scaling está focado em escalabilidade, não em monitoramento de segurança."
+      }
+    ],
+    "respostaCorreta": "Aumentando ou diminuindo automaticamente a capacidade conforme a demanda muda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços da AWS oferece elasticidade através da capacidade de ajustar o número de instâncias EC2 em resposta a mudanças de demanda?",
+    "opcoes": [
+      {
+        "texto": "Auto Scaling",
+        "explicacao": "Correto! O Auto Scaling ajusta automaticamente o número de instâncias EC2 com base na demanda."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados gerenciado, não responsável pela elasticidade das instâncias EC2."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não está relacionado ao Auto Scaling de EC2."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma CDN, e não controla diretamente a elasticidade de instâncias EC2."
+      }
+    ],
+    "respostaCorreta": "Auto Scaling",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o Auto Scaling melhora a eficiência de custos na AWS?",
+    "opcoes": [
+      {
+        "texto": "Ajustando automaticamente a capacidade para corresponder à demanda e evitar o provisionamento excessivo",
+        "explicacao": "Correto! O Auto Scaling ajuda a otimizar custos ao ajustar automaticamente os recursos de acordo com a demanda."
+      },
+      {
+        "texto": "Garantindo que todos os dados estejam criptografados",
+        "explicacao": "Incorreto. O Auto Scaling não lida com criptografia de dados."
+      },
+      {
+        "texto": "Fornecendo segurança avançada para instâncias EC2",
+        "explicacao": "Incorreto. A principal função do Auto Scaling é ajustar a capacidade, não a segurança."
+      },
+      {
+        "texto": "Gerando relatórios detalhados de uso de recursos",
+        "explicacao": "Incorreto. O Auto Scaling não gera relatórios, ele ajusta a capacidade conforme a demanda."
+      }
+    ],
+    "respostaCorreta": "Ajustando automaticamente a capacidade para corresponder à demanda e evitar o provisionamento excessivo",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está experimentando um aumento no tráfego de sua aplicação web hospedada na AWS. Como o Auto Scaling pode ajudar a lidar com essa situação?",
+    "opcoes": [
+      {
+        "texto": "Aumentando automaticamente o número de instâncias EC2 em resposta ao aumento de tráfego",
+        "explicacao": "Correto! O Auto Scaling ajusta automaticamente a capacidade para lidar com aumentos de tráfego."
+      },
+      {
+        "texto": "Realizando backups automáticos das instâncias",
+        "explicacao": "Incorreto. O Auto Scaling não realiza backups, ele gerencia a escalabilidade das instâncias."
+      },
+      {
+        "texto": "Garantindo que todas as instâncias estejam atualizadas com os patches de segurança mais recentes",
+        "explicacao": "Incorreto. O Auto Scaling não gerencia atualizações de segurança."
+      },
+      {
+        "texto": "Reduzindo automaticamente o tráfego para a aplicação",
+        "explicacao": "Incorreto. O Auto Scaling não reduz o tráfego, ele ajusta a capacidade de acordo com a demanda."
+      }
+    ],
+    "respostaCorreta": "Aumentando automaticamente o número de instâncias EC2 em resposta ao aumento de tráfego",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal função do Auto Scaling em termos de elasticidade?",
+    "opcoes": [
+      {
+        "texto": "Aumentar ou diminuir automaticamente a capacidade de acordo com a demanda",
+        "explicacao": "Correto! O Auto Scaling proporciona elasticidade ao ajustar automaticamente a capacidade de acordo com a demanda."
+      },
+      {
+        "texto": "Garantir a segurança dos dados",
+        "explicacao": "Incorreto. O Auto Scaling lida com escalabilidade, não com segurança de dados."
+      },
+      {
+        "texto": "Prover relatórios de desempenho detalhados",
+        "explicacao": "Incorreto. O Auto Scaling ajusta a capacidade, mas não gera relatórios detalhados."
+      },
+      {
+        "texto": "Gerenciar backups automáticos",
+        "explicacao": "Incorreto. O Auto Scaling não está relacionado ao gerenciamento de backups."
+      }
+    ],
+    "respostaCorreta": "Aumentar ou diminuir automaticamente a capacidade de acordo com a demanda",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer garantir que sua aplicação tenha a capacidade adequada para lidar com picos de tráfego, mas sem pagar por capacidade ociosa. Qual recurso AWS pode ajudá-la?",
+    "opcoes": [
+      {
+        "texto": "Auto Scaling",
+        "explicacao": "Correto! O Auto Scaling ajusta a capacidade automaticamente, evitando custos com capacidade ociosa."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento e não gerencia a capacidade da aplicação."
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "Incorreto. O IAM é um serviço de gerenciamento de acesso, não de escalabilidade."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um banco de dados gerenciado, não lida com a escalabilidade de aplicações."
+      }
+    ],
+    "respostaCorreta": "Auto Scaling",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Como o Auto Scaling pode ajudar uma aplicação a lidar com uma carga variável de usuários?",
+    "opcoes": [
+      {
+        "texto": "Ajustando automaticamente a capacidade de instâncias de acordo com a carga de usuários",
+        "explicacao": "Correto! O Auto Scaling ajusta automaticamente a capacidade para lidar com variações na carga de usuários."
+      },
+      {
+        "texto": "Gerenciando a segurança das instâncias EC2",
+        "explicacao": "Incorreto. O Auto Scaling lida com escalabilidade, não com segurança."
+      },
+      {
+        "texto": "Realizando backups de instâncias automaticamente",
+        "explicacao": "Incorreto. O Auto Scaling não realiza backups, ele ajusta a capacidade."
+      },
+      {
+        "texto": "Reduzindo o tempo de resposta das instâncias",
+        "explicacao": "Incorreto. O Auto Scaling não ajusta diretamente o tempo de resposta, ele ajusta a quantidade de instâncias para lidar com a carga."
+      }
+    ],
+    "respostaCorreta": "Ajustando automaticamente a capacidade de instâncias de acordo com a carga de usuários",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa tem um site que experimenta tráfego variável ao longo do dia. Qual recurso AWS pode ajustar automaticamente o número de instâncias para otimizar a capacidade?",
+    "opcoes": [
+      {
+        "texto": "Auto Scaling",
+        "explicacao": "Correto! O Auto Scaling ajusta o número de instâncias automaticamente para lidar com variações no tráfego."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não responsável por gerenciar a capacidade das instâncias."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation gerencia a infraestrutura como código, mas não ajusta a capacidade automaticamente."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Route 53 é um serviço de DNS, não gerencia a escalabilidade das instâncias."
+      }
+    ],
+    "respostaCorreta": "Auto Scaling",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos serviços a seguir oferece elasticidade automática em resposta a mudanças de demanda em uma aplicação AWS?",
+    "opcoes": [
+      {
+        "texto": "Auto Scaling",
+        "explicacao": "Correto! O Auto Scaling ajusta automaticamente a capacidade de acordo com a demanda."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é um serviço de distribuição de conteúdo, não de escalabilidade automática."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento e não gerencia a elasticidade."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda ajusta a capacidade de funções de forma sem servidor, mas o Auto Scaling ajusta a capacidade de instâncias EC2."
+      }
+    ],
+    "respostaCorreta": "Auto Scaling",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando ajuda para construir uma infraestrutura de aplicativo segura e de alto desempenho usando as práticas recomendadas de arquitetura da AWS mais recentes. Qual das opções a seguir pode fornecer orientação sobre o uso de balanceadores de carga gratuitamente?",
+    "opcoes": [
+      {
+        "texto": "AWS Well-Architected Tool",
+        "explicacao": "Correto! A AWS Well-Architected Tool oferece orientação gratuita sobre as melhores práticas, incluindo o uso de balanceadores de carga."
+      },
+      {
+        "texto": "AWS Enterprise Support",
+        "explicacao": "Incorreto. O AWS Enterprise Support é um serviço pago, não gratuito."
+      },
+      {
+        "texto": "AWS Professional Services",
+        "explicacao": "Incorreto. O AWS Professional Services é um serviço pago."
+      },
+      {
+        "texto": "Consultoria de terceiros",
+        "explicacao": "Incorreto. Consultorias de terceiros geralmente são serviços pagos."
+      }
+    ],
+    "respostaCorreta": "AWS Well-Architected Tool",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços AWS é utilizado para distribuir o tráfego de rede entre várias instâncias para garantir alta disponibilidade?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O Elastic Load Balancing (ELB) distribui automaticamente o tráfego de entrada para várias instâncias, garantindo alta disponibilidade."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é um serviço sem servidor, não usado para balanceamento de carga."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de balanceamento de carga."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um banco de dados gerenciado, não um balanceador de carga."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer garantir que sua aplicação web possa lidar com grandes volumes de tráfego de forma eficiente. Qual recurso AWS pode ajudar a distribuir esse tráfego entre várias instâncias?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O Elastic Load Balancing (ELB) distribui o tráfego automaticamente entre várias instâncias, ajudando a gerenciar grandes volumes."
+      },
+      {
+        "texto": "Amazon Route 53",
+        "explicacao": "Incorreto. O Amazon Route 53 é um serviço de DNS, não um balanceador de carga."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma CDN para distribuição de conteúdo, mas não para balanceamento de carga."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O Amazon S3 é um serviço de armazenamento."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja manter alta disponibilidade de suas aplicações, mesmo que uma instância falhe. Qual serviço AWS pode distribuir automaticamente o tráfego de rede para instâncias saudáveis?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O ELB distribui o tráfego para instâncias saudáveis, ajudando a garantir alta disponibilidade."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation gerencia infraestrutura como código, mas não distribui tráfego."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados gerenciado."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O Direct Connect é uma solução de conectividade, não de balanceamento de carga."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual benefício principal o Elastic Load Balancing (ELB) oferece a uma empresa que busca construir uma infraestrutura de aplicação segura e de alto desempenho?",
+    "opcoes": [
+      {
+        "texto": "Distribuição automática de tráfego de rede para várias instâncias",
+        "explicacao": "Correto! O ELB distribui o tráfego entre várias instâncias para garantir alto desempenho e disponibilidade."
+      },
+      {
+        "texto": "Gerenciamento de backups de instâncias EC2",
+        "explicacao": "Incorreto. O ELB não lida com backups."
+      },
+      {
+        "texto": "Redução de latência através da distribuição de conteúdo globalmente",
+        "explicacao": "Incorreto. Isso é feito pelo CloudFront, não pelo ELB."
+      },
+      {
+        "texto": "Segurança avançada de rede para aplicações",
+        "explicacao": "Incorreto. O ELB não é um serviço dedicado à segurança de rede, mas à distribuição de tráfego."
+      }
+    ],
+    "respostaCorreta": "Distribuição automática de tráfego de rede para várias instâncias",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa precisa garantir que seu tráfego seja distribuído uniformemente entre várias instâncias EC2 em diferentes Zonas de Disponibilidade. Qual serviço AWS atende a essa necessidade?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O ELB distribui automaticamente o tráfego entre várias instâncias em diferentes Zonas de Disponibilidade."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados gerenciado, não de balanceamento de tráfego."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor, não de balanceamento de tráfego."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma CDN, não um balanceador de carga."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a função principal do Elastic Load Balancing (ELB) ao lidar com alta demanda de tráfego?",
+    "opcoes": [
+      {
+        "texto": "Distribuir o tráfego de entrada entre várias instâncias de forma automática",
+        "explicacao": "Correto! O ELB distribui automaticamente o tráfego de entrada entre várias instâncias para lidar com alta demanda."
+      },
+      {
+        "texto": "Reduzir os custos de armazenamento de dados",
+        "explicacao": "Incorreto. O ELB não lida com armazenamento de dados."
+      },
+      {
+        "texto": "Fornecer backups automáticos das instâncias EC2",
+        "explicacao": "Incorreto. O ELB não gerencia backups."
+      },
+      {
+        "texto": "Monitorar a integridade das instâncias EC2",
+        "explicacao": "Correto em parte. O ELB pode monitorar a integridade das instâncias, mas sua principal função é distribuir tráfego."
+      }
+    ],
+    "respostaCorreta": "Distribuir o tráfego de entrada entre várias instâncias de forma automática",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer distribuir tráfego de forma eficaz entre várias instâncias EC2 para evitar sobrecarga em uma única instância. Qual serviço AWS deve ser usado?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O ELB distribui o tráfego de maneira equilibrada entre várias instâncias EC2."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de balanceamento de tráfego."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O Amazon RDS é um serviço de banco de dados."
+      },
+      {
+        "texto": "AWS Auto Scaling",
+        "explicacao": "Incorreto. O Auto Scaling aumenta ou reduz o número de instâncias, mas não distribui o tráfego entre elas."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Para garantir que o tráfego de uma aplicação web seja distribuído de maneira eficiente entre várias instâncias EC2, mesmo em diferentes Zonas de Disponibilidade, qual serviço AWS deve ser utilizado?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O ELB distribui o tráfego de forma eficiente entre várias instâncias em diferentes Zonas de Disponibilidade."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O Direct Connect oferece conectividade dedicada, não balanceamento de carga."
+      },
+      {
+        "texto": "Amazon CloudFront",
+        "explicacao": "Incorreto. O CloudFront é uma CDN, não um balanceador de carga."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de balanceamento de tráfego."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS ajuda a distribuir tráfego de rede de maneira equilibrada entre várias instâncias EC2 para garantir o desempenho da aplicação?",
+    "opcoes": [
+      {
+        "texto": "Elastic Load Balancing (ELB)",
+        "explicacao": "Correto! O ELB distribui o tráfego de maneira equilibrada para garantir o desempenho."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de balanceamento de tráfego."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "Incorreto. O CloudFormation é usado para gerenciar a infraestrutura como código, não para balancear tráfego."
+      },
+      {
+        "texto": "AWS Direct Connect",
+        "explicacao": "Incorreto. O Direct Connect é uma solução de conectividade, não um balanceador de carga."
+      }
+    ],
+    "respostaCorreta": "Elastic Load Balancing (ELB)",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
