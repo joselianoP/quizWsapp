@@ -23,7 +23,7 @@ export class PerguntaService {
 
   getPerguntasAleatorias(quantity: number): Observable<Pergunta[]> {
     const distribuicao: { [dominio: string]: number } = {
-      'Conceitos da nuvem': 40,
+      'Conceitos da nuvem': 30,
       'Migração para a nuvem': 30,
       'AWS Framework': 30,
       'Aspectos econômicos da nuvem': 30,
@@ -32,7 +32,7 @@ export class PerguntaService {
       'Faturamento e Preços': 60,
       'Aspectos econômicos da nuvem AWS': 60,
       'Tecnologia e serviços da nuvem': 40,
-      'Cobrança, preços e suporte': 30,
+      'Cobrança, preços e suporte': 20,
     };
 
     return this.http.get<Pergunta[]>(this.jsonUrl).pipe(
