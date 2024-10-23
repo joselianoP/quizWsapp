@@ -27803,5 +27803,437 @@
     "respostaCorreta": "Elastic Load Balancing (ELB)",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está considerando usar um banco de dados gerenciado para simplificar a administração. Qual serviço AWS oferece bancos de dados gerenciados que reduzem a sobrecarga de manutenção?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS é um serviço de banco de dados gerenciado que automatiza tarefas de administração como backups e atualizações."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 oferece instâncias para hospedar bancos de dados, mas sem a automação de manutenção."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor, não um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa quer ter controle total sobre a configuração e manutenção do banco de dados. Qual é a melhor opção para hospedar o banco de dados?",
+    "opcoes": [
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Correto! O Amazon EC2 permite que a empresa tenha controle total sobre a configuração e manutenção do banco de dados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um serviço de banco de dados gerenciado, o que significa que a AWS cuida da manutenção."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL totalmente gerenciado pela AWS."
+      },
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Incorreto. O Aurora é um banco de dados relacional gerenciado, que automatiza a manutenção."
+      }
+    ],
+    "respostaCorreta": "Amazon EC2",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem de usar o Amazon RDS em vez de hospedar um banco de dados no Amazon EC2?",
+    "opcoes": [
+      {
+        "texto": "Automação de backups e atualizações",
+        "explicacao": "Correto! O Amazon RDS oferece automação de backups, atualizações e outras tarefas administrativas."
+      },
+      {
+        "texto": "Capacidade de personalizar a configuração do banco de dados",
+        "explicacao": "Incorreto. O Amazon EC2 oferece mais flexibilidade para personalizar a configuração do banco de dados."
+      },
+      {
+        "texto": "Custo mais baixo para bancos de dados pequenos",
+        "explicacao": "Incorreto. O custo depende do caso de uso, mas a principal vantagem do RDS é a automação, não o custo."
+      },
+      {
+        "texto": "Suporte para bancos de dados NoSQL",
+        "explicacao": "Incorreto. O Amazon RDS é usado para bancos de dados relacionais, não NoSQL."
+      }
+    ],
+    "respostaCorreta": "Automação de backups e atualizações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando uma solução de banco de dados relacional que não exija gerenciamento manual de hardware e backups. Qual serviço AWS deve ser considerado?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS é um banco de dados relacional gerenciado que automatiza tarefas como backups e gerenciamento de hardware."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O Amazon EC2 oferece controle total, mas exige gerenciamento manual."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorreto. O Redshift é um data warehouse, não uma solução de banco de dados relacional."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual das seguintes opções seria mais adequada para uma empresa que precisa de personalização avançada e controle total sobre a configuração do banco de dados?",
+    "opcoes": [
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Correto! O Amazon EC2 permite personalização avançada e controle total sobre a configuração do banco de dados."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Incorreto. O RDS é um banco de dados gerenciado, o que limita a personalização."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL gerenciado."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor, não relacionada ao controle avançado de bancos de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon EC2",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa precisa de uma solução de banco de dados que reduza a necessidade de manutenção e gerencie automaticamente atualizações e backups. Qual serviço AWS atende melhor a essa necessidade?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS automatiza atualizações, backups e outras tarefas administrativas."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 oferece mais controle, mas exige que a empresa cuide da manutenção manualmente."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não de banco de dados."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "Incorreto. O Fargate é uma solução de contêiner sem servidor, não um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma das desvantagens de hospedar um banco de dados no Amazon EC2, em comparação com o uso do Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Requer gerenciamento manual de atualizações e backups",
+        "explicacao": "Correto! O Amazon EC2 requer que a empresa gerencie atualizações e backups manualmente."
+      },
+      {
+        "texto": "Falta de controle sobre a configuração do banco de dados",
+        "explicacao": "Incorreto. O Amazon EC2 oferece controle total sobre a configuração."
+      },
+      {
+        "texto": "Impossibilidade de personalizar a instância do banco de dados",
+        "explicacao": "Incorreto. O EC2 permite total personalização da instância do banco de dados."
+      },
+      {
+        "texto": "Alta latência nas consultas de banco de dados",
+        "explicacao": "Incorreto. A latência depende da configuração e da rede, não do uso de EC2 ou RDS."
+      }
+    ],
+    "respostaCorreta": "Requer gerenciamento manual de atualizações e backups",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa deve considerar hospedar seu banco de dados em instâncias Amazon EC2 em vez de usar um banco de dados gerenciado no Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Quando precisar de controle total sobre o sistema operacional e o software do banco de dados",
+        "explicacao": "Correto! O Amazon EC2 oferece controle total sobre o sistema operacional e o software do banco de dados."
+      },
+      {
+        "texto": "Quando precisar de backups e atualizações automatizadas",
+        "explicacao": "Incorreto. O Amazon RDS é a opção para automação de backups e atualizações."
+      },
+      {
+        "texto": "Quando o banco de dados for NoSQL",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL gerenciado pela AWS."
+      },
+      {
+        "texto": "Quando quiser reduzir a sobrecarga administrativa",
+        "explicacao": "Incorreto. O RDS reduz a sobrecarga administrativa com automação."
+      }
+    ],
+    "respostaCorreta": "Quando precisar de controle total sobre o sistema operacional e o software do banco de dados",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual é uma vantagem significativa do uso do Amazon RDS em relação a hospedar um banco de dados no Amazon EC2?",
+    "opcoes": [
+      {
+        "texto": "Automação de tarefas administrativas como backups e atualizações",
+        "explicacao": "Correto! O Amazon RDS automatiza tarefas administrativas, o que é uma vantagem sobre o EC2."
+      },
+      {
+        "texto": "Maior flexibilidade na escolha de sistemas operacionais",
+        "explicacao": "Incorreto. O EC2 oferece maior flexibilidade em relação a sistemas operacionais."
+      },
+      {
+        "texto": "Custo significativamente menor",
+        "explicacao": "Incorreto. O custo depende do uso e dos requisitos, e não é necessariamente mais barato."
+      },
+      {
+        "texto": "Maior controle sobre a configuração do banco de dados",
+        "explicacao": "Incorreto. O EC2 oferece maior controle sobre a configuração."
+      }
+    ],
+    "respostaCorreta": "Automação de tarefas administrativas como backups e atualizações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Quando uma empresa deve considerar o uso do Amazon RDS em vez de hospedar seu banco de dados em uma instância EC2?",
+    "opcoes": [
+      {
+        "texto": "Quando quiser automatizar a manutenção do banco de dados, como backups e atualizações",
+        "explicacao": "Correto! O RDS automatiza a manutenção, o que é útil para reduzir a sobrecarga administrativa."
+      },
+      {
+        "texto": "Quando precisar de controle total sobre o sistema operacional",
+        "explicacao": "Incorreto. O EC2 é mais adequado para controle total sobre o sistema operacional."
+      },
+      {
+        "texto": "Quando precisar de personalização avançada da configuração do banco de dados",
+        "explicacao": "Incorreto. O EC2 permite mais personalização do que o RDS."
+      },
+      {
+        "texto": "Quando usar um banco de dados NoSQL",
+        "explicacao": "Incorreto. O RDS é para bancos de dados relacionais, enquanto o DynamoDB é usado para NoSQL."
+      }
+    ],
+    "respostaCorreta": "Quando quiser automatizar a manutenção do banco de dados, como backups e atualizações",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes serviços AWS oferece uma solução de banco de dados relacional gerenciado?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS é um serviço de banco de dados relacional gerenciado."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL, não relacional."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados relacional."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor, não um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é uma implementação gerenciada de banco de dados relacional compatível com MySQL e PostgreSQL?",
+    "opcoes": [
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Correto! O Amazon Aurora é uma implementação gerenciada e otimizada compatível com MySQL e PostgreSQL."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL, não relacional."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorreto. O Redshift é um data warehouse, não um banco de dados relacional."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados relacional."
+      }
+    ],
+    "respostaCorreta": "Amazon Aurora",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS oferece suporte para múltiplos mecanismos de banco de dados relacionais, como MySQL, PostgreSQL, MariaDB e Oracle?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS suporta vários mecanismos de banco de dados, como MySQL, PostgreSQL, MariaDB e Oracle."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos e não oferece suporte para mecanismos de banco de dados relacionais."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor e não oferece suporte para bancos de dados relacionais."
+      },
+      {
+        "texto": "Amazon ElastiCache",
+        "explicacao": "Incorreto. O ElastiCache é um serviço de cache, não de banco de dados relacional."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um banco de dados relacional escalável e otimizado para a nuvem oferecido pela AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Correto! O Amazon Aurora é um banco de dados relacional altamente escalável e otimizado para a nuvem."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 é um serviço de computação, não um banco de dados."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados relacional."
+      }
+    ],
+    "respostaCorreta": "Amazon Aurora",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa está procurando um banco de dados relacional que seja fácil de escalar e ofereça alta disponibilidade com réplicas automáticas. Qual serviço AWS deve ser considerado?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS oferece escalabilidade e alta disponibilidade com réplicas automáticas."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento, não um banco de dados relacional."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 oferece flexibilidade para hospedar bancos de dados, mas não é um banco de dados gerenciado."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor, não um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual dos seguintes é um exemplo de um banco de dados relacional oferecido pela AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Correto! O Amazon Aurora é um banco de dados relacional escalável e gerenciado pela AWS."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados relacional."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorreto. O Glue é um serviço de ETL, não um banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon Aurora",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Uma empresa deseja usar um banco de dados relacional gerenciado pela AWS com suporte para alta disponibilidade e failover automático. Qual serviço ela deve escolher?",
+    "opcoes": [
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "Correto! O Amazon RDS oferece alta disponibilidade e failover automático em configurações Multi-AZ."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL, não relacional."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O S3 é um serviço de armazenamento de objetos, não um banco de dados relacional."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O Lambda é uma solução de computação sem servidor, não um serviço de banco de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon RDS",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual serviço AWS é uma opção de banco de dados relacional gerenciado, otimizado para a nuvem e compatível com MySQL e PostgreSQL?",
+    "opcoes": [
+      {
+        "texto": "Amazon Aurora",
+        "explicacao": "Correto! O Amazon Aurora é uma opção de banco de dados relacional compatível com MySQL e PostgreSQL."
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "Incorreto. O EC2 é um serviço de computação que pode hospedar bancos de dados, mas não é gerenciado."
+      },
+      {
+        "texto": "Amazon DynamoDB",
+        "explicacao": "Incorreto. O DynamoDB é um banco de dados NoSQL, não relacional."
+      },
+      {
+        "texto": "Amazon ElastiCache",
+        "explicacao": "Incorreto. O ElastiCache é um serviço de cache, não de banco de dados relacional."
+      }
+    ],
+    "respostaCorreta": "Amazon Aurora",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single"
   }
 ]
