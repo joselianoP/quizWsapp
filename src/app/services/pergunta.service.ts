@@ -8,6 +8,7 @@ import { map, Observable } from 'rxjs';
 })
 export class PerguntaService {
   private jsonUrl = '/assets/perguntas.json';
+  private perguntasSelecionadasNaSessao: Set<string> = new Set(); // Armazena perguntas já usadas na sessão
 
   constructor(private http: HttpClient) {}
 
@@ -16,9 +17,9 @@ export class PerguntaService {
   }
 
   getTotalPerguntas(): Observable<number> {
-    return this.http.get<Pergunta[]>(this.jsonUrl).pipe(
-      map((perguntas) => perguntas.length) // Retorna o total de perguntas
-    );
+    return this.http
+      .get<Pergunta[]>(this.jsonUrl)
+      .pipe(map((perguntas) => perguntas.length));
   }
 
   getPerguntasAleatorias(quantity: number): Observable<Pergunta[]> {
@@ -37,7 +38,7 @@ export class PerguntaService {
 
     return this.http.get<Pergunta[]>(this.jsonUrl).pipe(
       map((perguntas) => {
-        // Organiza as perguntas por domínio
+        // Agrupa perguntas por domínio
         const perguntasPorDominio: { [key: string]: Pergunta[] } =
           perguntas.reduce((acc, pergunta) => {
             acc[pergunta.dominio] = acc[pergunta.dominio] || [];
@@ -47,7 +48,7 @@ export class PerguntaService {
 
         let perguntasSelecionadas: Pergunta[] = [];
 
-        // Para cada domínio na distribuição de porcentagem
+        // Para cada domínio, seleciona as perguntas
         Object.keys(distribuicao).forEach((dominio: string) => {
           const porcentagem = distribuicao[dominio];
 
@@ -58,11 +59,12 @@ export class PerguntaService {
               Math.floor((porcentagem / 100) * quantity)
             );
 
-            // Embaralha e seleciona as perguntas desse domínio
-            const perguntasAleatorias = this.getAleatorias(
+            // Seleciona perguntas aleatórias sem repetição
+            const perguntasAleatorias = this.getAleatoriasSemRepeticao(
               perguntasDominio,
               quantidadePorDominio
             );
+
             perguntasSelecionadas = [
               ...perguntasSelecionadas,
               ...perguntasAleatorias,
@@ -70,18 +72,10 @@ export class PerguntaService {
           }
         });
 
-        // Selecione as perguntas aleatoriamente entre todos os domínios
+        // Embaralha e retorna a quantidade solicitada de perguntas
         return this.embaralhar(perguntasSelecionadas).slice(0, quantity);
       })
     );
-
-    /* return this.http.get<Pergunta[]>(this.jsonUrl).pipe(
-      map((perguntas) => {
-        // Embaralha as perguntas e seleciona as 70 primeiras
-        const shuffled = perguntas.sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, quantity);
-      })
-    );*/
   }
 
   // Função para embaralhar o array de perguntas
@@ -89,9 +83,22 @@ export class PerguntaService {
     return perguntas.sort(() => 0.5 - Math.random());
   }
 
-  // Função para pegar perguntas aleatórias dentro de um domínio
-  private getAleatorias(perguntas: Pergunta[], quantidade: number): Pergunta[] {
-    const shuffled = this.embaralhar(perguntas);
-    return shuffled.slice(0, quantidade);
+  // Função para pegar perguntas aleatórias dentro de um domínio, sem repetir
+  private getAleatoriasSemRepeticao(
+    perguntas: Pergunta[],
+    quantidade: number
+  ): Pergunta[] {
+    const perguntasDisponiveis = perguntas.filter(
+      (pergunta) => !this.perguntasSelecionadasNaSessao.has(pergunta.pergunta) // Filtra perguntas já usadas
+    );
+    const shuffled = this.embaralhar(perguntasDisponiveis);
+    const selecionadas = shuffled.slice(0, quantidade);
+
+    // Armazena as perguntas selecionadas na sessão
+    selecionadas.forEach((pergunta) =>
+      this.perguntasSelecionadasNaSessao.add(pergunta.pergunta)
+    );
+
+    return selecionadas;
   }
 }

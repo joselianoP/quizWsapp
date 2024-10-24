@@ -8543,7 +8543,7 @@
     "tipo": "multiple"
   },
   {
-    "pergunta": "O que caracteriza o modelo Bring-Your-Own-License (BYOL)? (Escolha duas)",
+    "pergunta": "O que caracteriza o modelo modelo de licenciamento (Bring-Your-Own-License (BYOL))? (Escolha duas)",
     "opcoes": [
       {
         "texto": "O cliente utiliza suas próprias licenças de software",
@@ -8570,34 +8570,7 @@
     "tipo": "multiple"
   },
   {
-    "pergunta": "Qual é uma vantagem do modelo Bring-Your-Own-License (BYOL)? (Escolha duas)",
-    "opcoes": [
-      {
-        "texto": "Redução de custos com licenciamento",
-        "explicacao": "O uso de licenças já adquiridas pode resultar em economia significativa em comparação à compra de novas licenças."
-      },
-      {
-        "texto": "Acesso a software sempre atualizado",
-        "explicacao": "O modelo de licenças incluídas geralmente oferece acesso a versões atualizadas automaticamente."
-      },
-      {
-        "texto": "Maior controle sobre as licenças",
-        "explicacao": "Com BYOL, as empresas têm mais controle sobre como e onde suas licenças são usadas."
-      },
-      {
-        "texto": "Maior flexibilidade na escolha de software",
-        "explicacao": "O modelo BYOL permite que os clientes escolham softwares que melhor atendem às suas necessidades."
-      }
-    ],
-    "respostaCorreta": [
-      "Redução de custos com licenciamento",
-      "Maior controle sobre as licenças"
-    ],
-    "dominio": "Conceitos da nuvem",
-    "tipo": "multiple"
-  },
-  {
-    "pergunta": "Qual das seguintes situações é mais adequada para o uso do modelo BYOL? (Escolha duas)",
+    "pergunta": "Qual das seguintes situações é mais adequada para o uso do modelo de licenciamento (Bring-Your-Own-License BYOL)? (Escolha duas)",
     "opcoes": [
       {
         "texto": "A empresa já possui licenças de software pagas",
@@ -8651,7 +8624,7 @@
     "tipo": "multiple"
   },
   {
-    "pergunta": "Quais são desvantagens do modelo Bring-Your-Own-License (BYOL)? (Escolha duas)",
+    "pergunta": "Quais são desvantagens do  modelo de licenciamento (Bring-Your-Own-License (BYOL))? (Escolha duas)",
     "opcoes": [
       {
         "texto": "Necessidade de manter licenças atualizadas",
