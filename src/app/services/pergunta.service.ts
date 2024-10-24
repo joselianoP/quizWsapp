@@ -8,9 +8,41 @@ import { map, Observable } from 'rxjs';
 })
 export class PerguntaService {
   private jsonUrl = '/assets/perguntas.json';
-  private perguntasSelecionadasNaSessao: Set<string> = new Set(); // Armazena perguntas já usadas na sessão
+  private storageKey = 'perguntasSelecionadas'; // Chave para o sessionStorage
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    this.inicializarPerguntasSelecionadas(); // Inicializa as perguntas selecionadas da sessão
+  }
+
+  // Inicializa perguntas selecionadas no sessionStorage
+  private inicializarPerguntasSelecionadas(): void {
+    if (typeof window !== 'undefined' && window.sessionStorage) {
+      const perguntasSalvas = sessionStorage.getItem(this.storageKey);
+      if (!perguntasSalvas) {
+        sessionStorage.setItem(this.storageKey, JSON.stringify([]));
+      }
+    }
+  }
+
+  // Obtém as perguntas selecionadas do sessionStorage
+  private getPerguntasSelecionadasNaSessao(): Pergunta[] {
+    let perguntasSalvas;
+
+    if (typeof window !== 'undefined' && window.sessionStorage) {
+      perguntasSalvas = sessionStorage.getItem(this.storageKey);
+    }
+
+    return perguntasSalvas ? JSON.parse(perguntasSalvas) : [];
+  }
+
+  // Atualiza o sessionStorage com as novas perguntas selecionadas
+  private atualizarPerguntasSelecionadasNaSessao(perguntas: Pergunta[]): void {
+    try {
+      const perguntasSalvas = this.getPerguntasSelecionadasNaSessao();
+      const novasPerguntas = [...perguntasSalvas, ...perguntas];
+      sessionStorage.setItem(this.storageKey, JSON.stringify(novasPerguntas));
+    } catch (error) {}
+  }
 
   getPerguntas(): Observable<Pergunta[]> {
     return this.http.get<Pergunta[]>(this.jsonUrl);
@@ -88,16 +120,30 @@ export class PerguntaService {
     perguntas: Pergunta[],
     quantidade: number
   ): Pergunta[] {
-    const perguntasDisponiveis = perguntas.filter(
-      (pergunta) => !this.perguntasSelecionadasNaSessao.has(pergunta.pergunta) // Filtra perguntas já usadas
+    const perguntasSelecionadasNaSessao =
+      this.getPerguntasSelecionadasNaSessao();
+
+    console.log(
+      'perguntasSelecionadasNaSessao',
+      perguntasSelecionadasNaSessao.length
     );
+    if (perguntasSelecionadasNaSessao.length > 1000) {
+      sessionStorage.clear();
+    }
+
+    // Remove perguntas já selecionadas
+    const perguntasDisponiveis = perguntas.filter(
+      (pergunta) =>
+        !perguntasSelecionadasNaSessao.some(
+          (p) => p.pergunta === pergunta.pergunta
+        )
+    );
+
     const shuffled = this.embaralhar(perguntasDisponiveis);
     const selecionadas = shuffled.slice(0, quantidade);
 
-    // Armazena as perguntas selecionadas na sessão
-    selecionadas.forEach((pergunta) =>
-      this.perguntasSelecionadasNaSessao.add(pergunta.pergunta)
-    );
+    // Atualiza o sessionStorage com as perguntas selecionadas
+    this.atualizarPerguntasSelecionadasNaSessao(selecionadas);
 
     return selecionadas;
   }

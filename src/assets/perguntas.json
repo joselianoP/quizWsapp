@@ -42404,7 +42404,7 @@
     "pergunta": "Se uma empresa deseja encontrar e adquirir software de terceiros para melhorar sua solução de análise de dados na AWS, qual serviço da AWS é o mais adequado?",
     "opcoes": [
       {
-        "texto": "AWS Marketplace.",
+        "texto": "AWS Marketplace",
         "explicacao": "O AWS Marketplace é a plataforma adequada para adquirir software de terceiros para melhorar soluções de análise de dados."
       },
       {

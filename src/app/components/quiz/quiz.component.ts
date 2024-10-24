@@ -159,14 +159,14 @@ export class QuizComponent implements OnInit {
       const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
       const passou = percentualAcertos >= 85; // Verifica se passou com 85% de acertos
 
-      this.resultado += `Requisito para aprovação 85% de acertos:<br>`;
+      this.resultado += `<b>Requisito para aprovação 85% de acertos:</b><br>`;
       this.resultado += `Você acertou ${this.acertos} de ${totalPerguntas} perguntas!`;
       this.resultado += ` <br>Porcentagem de acertos: ${percentualAcertos.toFixed(
         2
       )}%`;
       this.resultado += passou
-        ? ' <br>Parabéns! Você passou!'
-        : ' <br>Você não passou. Tente novamente!';
+        ? ' <br><b>Parabéns! Você passou!</b>'
+        : ' <br><b>Você não passou. Tente novamente!</b>';
 
       this.simuladoFinalizado = true;
     }
@@ -184,5 +184,9 @@ export class QuizComponent implements OnInit {
     if (this.currentQuestionIndex > 0) {
       this.currentQuestionIndex--;
     }
+  }
+
+  navigateToQuiz() {
+    window.location.reload();
   }
 }

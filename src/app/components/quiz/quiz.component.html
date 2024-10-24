@@ -103,24 +103,13 @@
         </div>
       </ng-container>
 
-      <!-- Botões de navegação -->
-      <div class="navigation-buttons">
-        <button routerLink="/" class="verificar-respostas-btn">Home</button>
-
+      <div>
         <button
-          class="verificar-respostas-btn"
-          (click)="nextQuestion()"
-          [disabled]="currentQuestionIndex === perguntas.length - 1"
-        >
-          Próxima
-        </button>
-
-        <button
-          class="verificar-respostas-btn"
-          (click)="previousQuestion()"
-          [disabled]="currentQuestionIndex === 0"
-        >
-          Anterior
+         *ngIf="
+            simuladoFinalizado
+          "
+        (click)="navigateToQuiz()" class="verificar-respostas-btn">
+          Nova Simulação
         </button>
 
         <!-- Botão Verificar Respostas -->
@@ -142,6 +131,27 @@
           class="verificar-respostas-btn"
         >
           Finalizar
+        </button>
+      </div>
+
+      <!-- Botões de navegação -->
+      <div class="navigation-buttons">
+        <button routerLink="/" class="verificar-respostas-btn">Home</button>
+
+        <button
+          class="verificar-respostas-btn"
+          (click)="nextQuestion()"
+          [disabled]="currentQuestionIndex === perguntas.length - 1"
+        >
+          Próxima
+        </button>
+
+        <button
+          class="verificar-respostas-btn"
+          (click)="previousQuestion()"
+          [disabled]="currentQuestionIndex === 0"
+        >
+          Anterior
         </button>
       </div>
 
