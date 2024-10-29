@@ -4,17 +4,20 @@
 
 <div *ngIf="perguntas.length > 0">
   <!-- Exibe a pergunta atual e o total de perguntas -->
-  <div class="question-counter">
+  <div class="col-md-12">
     <h3 class="question-counter">
       Pergunta {{ currentQuestionIndex + 1 }} de {{ perguntas.length }}
     </h3>
   </div>
 
-  <h4 class="small-font">
-    {{ currentQuestionIndex + 1 }}.
-    {{ perguntas[currentQuestionIndex].pergunta }}
-  </h4>
-  <div>
+  <div class="col-md-12">
+    <h4 class="small-font">
+      {{ currentQuestionIndex + 1 }}.
+      {{ perguntas[currentQuestionIndex].pergunta }}
+    </h4>
+  </div>
+
+  <div class="col-md-12">
     <mat-card>
       <ng-container
         *ngIf="
@@ -82,9 +85,6 @@
                   ],
                 incorreta:
                   respostasVerificadas[currentQuestionIndex] &&
-                  respostasSelecionadas[currentQuestionIndex]?.includes(
-                    opcao.texto
-                  ) &&
                   !respostasCorretas[currentQuestionIndex][
                     perguntas[currentQuestionIndex].opcoes.indexOf(opcao)
                   ]
@@ -102,23 +102,56 @@
           </div>
         </div>
       </ng-container>
+    </mat-card>
+  </div>
 
-      <div>
+  <div class="row">
+    <div  class="col-sm-4">
+      <div *ngIf="perguntas.length > 0">
+        <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
+        <ul class="listaLegenda">
+          <li *ngFor="let domain of domainQuestionCount | keyvalue">
+            {{ domain.key }}: {{ domain.value }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-8 ">
+      <div class="col-sm-12 align-right">
         <button
-         *ngIf="
-            simuladoFinalizado
-          "
-        (click)="navigateToQuiz()" class="verificar-respostas-btn">
+          class="verificar-respostas-btn col-sm-3"
+          (click)="nextQuestion()"
+          [disabled]="currentQuestionIndex === perguntas.length - 1"
+        >
+          Próxima
+        </button>
+
+        <button
+          class="verificar-respostas-btn col-sm-3"
+          (click)="previousQuestion()"
+          [disabled]="currentQuestionIndex === 0"
+        >
+          Anterior
+        </button>
+      </div>
+      <div class="col-sm-12 align-right">
+        <button   routerLink="/" class="verificar-respostas-btn  col-sm-3">Home</button>
+
+        <button
+          *ngIf="simuladoFinalizado"
+          (click)="navigateToQuiz()"
+          class="verificar-respostas-btn  col-sm-3"
+        >
           Nova Simulação
         </button>
 
-        <!-- Botão Verificar Respostas -->
         <button
           (click)="verificarResposta()"
           *ngIf="
             !simuladoFinalizado && currentQuestionIndex != perguntas.length - 1
           "
-          class="verificar-respostas-btn"
+          class="verificar-respostas-btn  col-sm-4"
         >
           Verificar Resposta
         </button>
@@ -128,49 +161,16 @@
           *ngIf="
             !simuladoFinalizado && currentQuestionIndex === perguntas.length - 1
           "
-          class="verificar-respostas-btn"
+          class="verificar-respostas-btn  col-sm-3"
         >
           Finalizar
         </button>
       </div>
-
-      <!-- Botões de navegação -->
-      <div class="navigation-buttons">
-        <button routerLink="/" class="verificar-respostas-btn">Home</button>
-
-        <button
-          class="verificar-respostas-btn"
-          (click)="nextQuestion()"
-          [disabled]="currentQuestionIndex === perguntas.length - 1"
-        >
-          Próxima
-        </button>
-
-        <button
-          class="verificar-respostas-btn"
-          (click)="previousQuestion()"
-          [disabled]="currentQuestionIndex === 0"
-        >
-          Anterior
-        </button>
-      </div>
-
-      <!-- Resultado -->
-      <div *ngIf="resultado">
-        <p [innerHTML]="resultado"></p>
-      </div>
-
-      <div *ngIf="acertosPorDominioMensagem">
-        <p [innerHTML]="acertosPorDominioMensagem"></p>
-      </div>
-    </mat-card>
-    <div *ngIf="perguntas.length > 0">
-      <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
-      <ul class="listaLegenda">
-        <li *ngFor="let domain of domainQuestionCount | keyvalue">
-          {{ domain.key }}: {{ domain.value }}
-        </li>
-      </ul>
     </div>
+  </div>
+
+  <!-- Resultado -->
+  <div *ngIf="resultado">
+    <p [innerHTML]="resultado"></p>
   </div>
 </div>

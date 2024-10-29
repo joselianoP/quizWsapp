@@ -35,6 +35,7 @@ export class QuizComponent implements OnInit {
   domainQuestionCount: { [domain: string]: number } = {};
   currentQuestionIndex = 0; // Índice da pergunta atual para navegação
   acertos = 0;
+  erros = 0;
 
   acertosPorDominioMensagem: any;
   email: string = '';
@@ -56,15 +57,13 @@ export class QuizComponent implements OnInit {
   }
 
   openPerguntas(): void {
-    this.perguntaService.getPerguntasAleatorias(90).subscribe((data) => {
+    this.perguntaService.getPerguntasAleatorias(70).subscribe((data) => {
       this.perguntas = data;
       this.respostasCorretas = Array(this.perguntas.length)
         .fill(false)
         .map(() => []);
       this.domainQuestionCount = this.getQuestionsCountByDomain();
     });
-
-    console.log('perguntas', this.perguntas);
   }
   // Função para contar perguntas por domínio
   getQuestionsCountByDomain(): { [domain: string]: number } {
@@ -136,7 +135,20 @@ export class QuizComponent implements OnInit {
 
       if (JSON.stringify(respostaCorreta) === JSON.stringify(respSelecionada)) {
         this.acertos++;
+      } else {
+        this.erros++;
       }
+
+      const totalPerguntas = this.perguntas.length;
+      const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
+      const passou = percentualAcertos >= 85; // Verifica se passou com 85% de acertos
+
+      this.resultado = `<b>Requisito para aprovação 85% de acertos:</b>`;
+      this.resultado += `<br>Você acertou ${this.acertos}`;
+      this.resultado += `<br>Você errou ${this.erros}`;
+      this.resultado += `<br>Porcentagem de acertos: ${percentualAcertos.toFixed(
+        2
+      )}%`;
     }
   }
 
@@ -159,7 +171,7 @@ export class QuizComponent implements OnInit {
       const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
       const passou = percentualAcertos >= 85; // Verifica se passou com 85% de acertos
 
-      this.resultado += `<b>Requisito para aprovação 85% de acertos:</b><br>`;
+      this.resultado = `<b>Requisito para aprovação 85% de acertos:</b><br>`;
       this.resultado += `Você acertou ${this.acertos} de ${totalPerguntas} perguntas!`;
       this.resultado += ` <br>Porcentagem de acertos: ${percentualAcertos.toFixed(
         2

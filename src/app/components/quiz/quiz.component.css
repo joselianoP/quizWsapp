@@ -161,11 +161,16 @@ span {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px 2px;
+  margin: 2px 2px;
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  float: right;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap; /* Permite que os botões quebrem linha, se necessário */
 }
 
 .verificar-respostas-btn:hover {
@@ -185,7 +190,6 @@ span {
 }
 
 .question-counter {
-  float: right;
   text-align: right;
   margin: 0px;
   font: 100 2.25rem / 2.75rem Roboto, sans-serif !important;
