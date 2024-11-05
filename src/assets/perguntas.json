@@ -1,5 +1,45 @@
 [
   {
+    "pergunta": " De acordo com o modelo de responsabilidade compartilhada, qual tipo de serviço de nuvem coloca a maior responsabilidade sobre o cliente?",
+    "opcoes": [
+      {
+        "texto": "IaaS (infraestrutura como serviço)",
+        "explicacao": "A IaaS coloca a maior responsabilidade sobre o consumidor, com o provedor de nuvem sendo responsável pelas questões básicas de segurança física, energia e conectividade"
+      },
+      {
+        "texto": "SaaS (software como serviço)",
+        "explicacao": "O SaaS coloca a maior parte da responsabilidade com o provedor de nuvem, com o cliente focado no uso do software fornecido, mas o provedor de nuvem responsável pela manutenção, pela segurança, pelas atualizações e assim por diante"
+      },
+      {
+        "texto": "PaaS (plataforma como serviço)",
+        "explicacao": "O PaaS fica em algum lugar entre os demais e distribui uniformemente a responsabilidade entre o provedor de nuvem e o consumidor."
+      }
+    ],
+    "respostaCorreta": "IaaS (infraestrutura como serviço)",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual modelo de nuvem usa alguns datacenters focados em fornecer serviços de nuvem para quem quiser e alguns data centers que estão focados em um único cliente?",
+    "opcoes": [
+      {
+        "texto": "Nuvem pública",
+        "explicacao": "O modelo de nuvem pública fornece serviços de nuvem para praticamente qualquer pessoa interessada em usar os serviços de nuvem. Os datacenters são dedicados a qualquer pessoa que consuma recursos de nuvem e não a um único cliente."
+      },
+      {
+        "texto": "Nuvem híbrida",
+        "explicacao": "O modelo de nuvem híbrida é uma combinação de nuvem pública e nuvem privada, usando datacenters dedicados exclusivamente a um cliente e datacenters que são compartilhados com o público."
+      },
+      {
+        "texto": "Multinuvem",
+        "explicacao": "O modelo multinuvem utiliza vários provedores de nuvem pública para atender às necessidades da nuvem."
+      }
+    ],
+    "respostaCorreta": "Nuvem híbrida",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
     "pergunta": "O que é computação em nuvem?",
     "opcoes": [
       {
