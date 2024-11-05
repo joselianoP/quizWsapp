@@ -20,7 +20,6 @@ export class HomeComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-
     if (typeof window !== 'undefined' && window.sessionStorage) {
       sessionStorage.clear();
     }
