@@ -3583,19 +3583,19 @@
     "opcoes": [
       {
         "texto": "Melhora na segurança de dados",
-        "explicacao": "O AWS CAF ajuda as empresas a implementar melhores práticas de segurança, reduzindo assim o risco de vazamentos e perdas de dados"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) ajuda as empresas a implementar melhores práticas de segurança, reduzindo assim o risco de vazamentos e perdas de dados"
       },
       {
         "texto": "Aumento de custos operacionais",
-        "explicacao": "O AWS CAF visa a otimização de custos, não o aumento deles"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa a otimização de custos, não o aumento deles"
       },
       {
         "texto": "Dependência de fornecedores locais",
-        "explicacao": "O AWS CAF permite que as empresas se afastem da dependência de fornecedores locais, adotando soluções baseadas em nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) permite que as empresas se afastem da dependência de fornecedores locais, adotando soluções baseadas em nuvem"
       },
       {
         "texto": "Desempenho inconsistente",
-        "explicacao": "O AWS CAF visa melhorar o desempenho e a consistência em toda a organização"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa melhorar o desempenho e a consistência em toda a organização"
       }
     ],
     "respostaCorreta": "Melhora na segurança de dados",
@@ -3607,19 +3607,19 @@
     "opcoes": [
       {
         "texto": "Através da redução de desperdícios e otimização de recursos",
-        "explicacao": "O AWS CAF promove a eficiência, ajudando as empresas a reduzir desperdícios e utilizar recursos de forma mais sustentável"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a eficiência, ajudando as empresas a reduzir desperdícios e utilizar recursos de forma mais sustentável"
       },
       {
         "texto": "Aumentando a complexidade da infraestrutura",
-        "explicacao": "O AWS CAF visa simplificar a infraestrutura, não aumentá-la"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa simplificar a infraestrutura, não aumentá-la"
       },
       {
         "texto": "Eliminando todos os riscos",
-        "explicacao": "Embora o AWS CAF minimize riscos, a eliminação total não é possível"
+        "explicacao": "Embora o AWS Cloud Adoption Framework (AWS CAF) minimize riscos, a eliminação total não é possível"
       },
       {
         "texto": "Focando apenas em aspectos financeiros",
-        "explicacao": "O AWS CAF considera aspectos sociais e ambientais, além dos financeiros"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) considera aspectos sociais e ambientais, além dos financeiros"
       }
     ],
     "respostaCorreta": "Através da redução de desperdícios e otimização de recursos",
@@ -3631,19 +3631,19 @@
     "opcoes": [
       {
         "texto": "Aumento na inovação e no lançamento de produtos",
-        "explicacao": "O AWS CAF permite que as empresas se concentrem na inovação, acelerando o desenvolvimento e o lançamento de novos produtos"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) permite que as empresas se concentrem na inovação, acelerando o desenvolvimento e o lançamento de novos produtos"
       },
       {
         "texto": "Diminuição da receita devido a custos operacionais altos",
-        "explicacao": "O AWS CAF busca reduzir custos operacionais, não aumentá-los"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) busca reduzir custos operacionais, não aumentá-los"
       },
       {
         "texto": "Estagnação no crescimento do mercado",
-        "explicacao": "O AWS CAF promove a agilidade, permitindo que as empresas se adaptem rapidamente ao mercado"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a agilidade, permitindo que as empresas se adaptem rapidamente ao mercado"
       },
       {
         "texto": "Maior dependência de tecnologia legada",
-        "explicacao": "O AWS CAF visa modernizar a infraestrutura, reduzindo a dependência de sistemas legados"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa modernizar a infraestrutura, reduzindo a dependência de sistemas legados"
       }
     ],
     "respostaCorreta": "Aumento na inovação e no lançamento de produtos",
@@ -3655,19 +3655,19 @@
     "opcoes": [
       {
         "texto": "Automatizando processos manuais",
-        "explicacao": "O AWS CAF incentiva a automação, permitindo que as empresas operem de maneira mais eficiente e reduzam erros"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) incentiva a automação, permitindo que as empresas operem de maneira mais eficiente e reduzam erros"
       },
       {
         "texto": "Reduzindo a colaboração entre equipes",
-        "explicacao": "O AWS CAF promove a colaboração entre equipes, não a sua redução"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a colaboração entre equipes, não a sua redução"
       },
       {
         "texto": "Aumentando a quantidade de relatórios necessários",
-        "explicacao": "O AWS CAF visa simplificar e melhorar os relatórios, não aumentá-los"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa simplificar e melhorar os relatórios, não aumentá-los"
       },
       {
         "texto": "Focando apenas na redução de custos",
-        "explicacao": "O AWS CAF considera a eficiência operacional de forma abrangente, incluindo qualidade e agilidade"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) considera a eficiência operacional de forma abrangente, incluindo qualidade e agilidade"
       }
     ],
     "respostaCorreta": "Automatizando processos manuais",
@@ -3679,19 +3679,19 @@
     "opcoes": [
       {
         "texto": "Redução da pegada de carbono",
-        "explicacao": "O AWS CAF ajuda as empresas a operar de forma mais sustentável, reduzindo a pegada de carbono através da eficiência energética"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) ajuda as empresas a operar de forma mais sustentável, reduzindo a pegada de carbono através da eficiência energética"
       },
       {
         "texto": "Aumento no uso de energia não renovável",
-        "explicacao": "O AWS CAF promove o uso responsável de recursos e a eficiência energética, não o aumento do uso de energia não renovável"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove o uso responsável de recursos e a eficiência energética, não o aumento do uso de energia não renovável"
       },
       {
         "texto": "Dependência de infraestrutura física",
-        "explicacao": "O AWS CAF promove a adoção da nuvem, reduzindo a dependência de infraestrutura física"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a adoção da nuvem, reduzindo a dependência de infraestrutura física"
       },
       {
         "texto": "Maior desperdício de recursos",
-        "explicacao": "O AWS CAF visa minimizar desperdícios através da otimização e automação"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa minimizar desperdícios através da otimização e automação"
       }
     ],
     "respostaCorreta": "Redução da pegada de carbono",
@@ -3703,19 +3703,19 @@
     "opcoes": [
       {
         "texto": "Promovendo uma mentalidade de inovação",
-        "explicacao": "O AWS CAF incentiva as empresas a adotarem uma mentalidade de inovação e melhoria contínua"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) incentiva as empresas a adotarem uma mentalidade de inovação e melhoria contínua"
       },
       {
         "texto": "Impondo rigidez nas operações",
-        "explicacao": "O AWS CAF visa aumentar a flexibilidade e a agilidade, não a rigidez"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa aumentar a flexibilidade e a agilidade, não a rigidez"
       },
       {
         "texto": "Desencorajando a colaboração entre departamentos",
-        "explicacao": "O AWS CAF promove a colaboração entre diferentes áreas da organização"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a colaboração entre diferentes áreas da organização"
       },
       {
         "texto": "Mantendo práticas tradicionais",
-        "explicacao": "O AWS CAF incentiva a modernização e a adoção de novas práticas"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) incentiva a modernização e a adoção de novas práticas"
       }
     ],
     "respostaCorreta": "Promovendo uma mentalidade de inovação",
@@ -3727,19 +3727,19 @@
     "opcoes": [
       {
         "texto": "Facilitando a transição para a nuvem",
-        "explicacao": "O AWS CAF fornece orientações e melhores práticas que ajudam as empresas a realizar a transição para a nuvem de forma mais suave"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) fornece orientações e melhores práticas que ajudam as empresas a realizar a transição para a nuvem de forma mais suave"
       },
       {
         "texto": "Aumentando a complexidade das operações",
-        "explicacao": "O AWS CAF visa simplificar e modernizar operações, não aumentá-las"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa simplificar e modernizar operações, não aumentá-las"
       },
       {
         "texto": "Impedindo a inovação",
-        "explicacao": "O AWS CAF visa facilitar a inovação e a adaptação às novas tecnologias"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa facilitar a inovação e a adaptação às novas tecnologias"
       },
       {
         "texto": "Focando apenas em aspectos financeiros",
-        "explicacao": "O AWS CAF considera uma ampla gama de fatores, incluindo tecnologia e cultura"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) considera uma ampla gama de fatores, incluindo tecnologia e cultura"
       }
     ],
     "respostaCorreta": "Facilitando a transição para a nuvem",
@@ -3751,19 +3751,19 @@
     "opcoes": [
       {
         "texto": "Através da personalização de serviços",
-        "explicacao": "O AWS CAF permite que as empresas adotem tecnologias que personalizam a experiência do cliente, tornando-a mais eficiente"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) permite que as empresas adotem tecnologias que personalizam a experiência do cliente, tornando-a mais eficiente"
       },
       {
         "texto": "Aumentando os tempos de resposta",
-        "explicacao": "O AWS CAF visa reduzir tempos de resposta e melhorar o desempenho, não aumentá-los"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa reduzir tempos de resposta e melhorar o desempenho, não aumentá-los"
       },
       {
         "texto": "Desencorajando a inovação",
-        "explicacao": "O AWS CAF promove a inovação, ajudando as empresas a oferecer melhores serviços"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a inovação, ajudando as empresas a oferecer melhores serviços"
       },
       {
         "texto": "Mantendo serviços limitados",
-        "explicacao": "O AWS CAF ajuda as empresas a expandirem seus serviços e capacidades"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) ajuda as empresas a expandirem seus serviços e capacidades"
       }
     ],
     "respostaCorreta": "Através da personalização de serviços",
@@ -3775,19 +3775,19 @@
     "opcoes": [
       {
         "texto": "Avaliações de prontidão",
-        "explicacao": "O AWS CAF inclui avaliações regulares para garantir que as empresas estejam no caminho certo em sua jornada de adoção"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) inclui avaliações regulares para garantir que as empresas estejam no caminho certo em sua jornada de adoção"
       },
       {
         "texto": "Rigidez na implementação",
-        "explicacao": "O AWS CAF promove flexibilidade, não rigidez"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove flexibilidade, não rigidez"
       },
       {
         "texto": "Redução de feedback",
-        "explicacao": "O AWS CAF incentiva o feedback contínuo e a melhoria dos processos"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) incentiva o feedback contínuo e a melhoria dos processos"
       },
       {
         "texto": "Isolamento de equipes",
-        "explicacao": "O AWS CAF promove a colaboração entre equipes para melhoria contínua"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a colaboração entre equipes para melhoria contínua"
       }
     ],
     "respostaCorreta": "Avaliações de prontidão",
@@ -3799,19 +3799,19 @@
     "opcoes": [
       {
         "texto": "Facilidade para escalar recursos de acordo com a demanda",
-        "explicacao": "O AWS CAF permite que as empresas escalem facilmente seus recursos na nuvem para atender à demanda"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) permite que as empresas escalem facilmente seus recursos na nuvem para atender à demanda"
       },
       {
         "texto": "Aumento da dependência de infraestrutura física",
-        "explicacao": "O AWS CAF promove a utilização da nuvem, reduzindo a dependência de infraestrutura física"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a utilização da nuvem, reduzindo a dependência de infraestrutura física"
       },
       {
         "texto": "Dificuldade em gerenciar recursos",
-        "explicacao": "O AWS CAF visa simplificar a gestão de recursos, não dificultá-la"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) visa simplificar a gestão de recursos, não dificultá-la"
       },
       {
         "texto": "Rigidez na capacidade de resposta ao mercado",
-        "explicacao": "O AWS CAF promove agilidade e adaptabilidade, não rigidez"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove agilidade e adaptabilidade, não rigidez"
       }
     ],
     "respostaCorreta": "Facilidade para escalar recursos de acordo com a demanda",
@@ -7035,15 +7035,15 @@
     "opcoes": [
       {
         "texto": "Ajuda a alinhar estratégias de TI e negócios",
-        "explicacao": "O AWS CAF proporciona uma estrutura para alinhar as estratégias de TI e negócios, permitindo uma adoção mais eficaz da nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) proporciona uma estrutura para alinhar as estratégias de TI e negócios, permitindo uma adoção mais eficaz da nuvem"
       },
       {
         "texto": "Reduz a necessidade de segurança na nuvem",
-        "explicacao": "O AWS CAF não reduz a necessidade de segurança; ele a incorpora como um dos pilares críticos para a adoção"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) não reduz a necessidade de segurança; ele a incorpora como um dos pilares críticos para a adoção"
       },
       {
         "texto": "Facilita a migração de sistemas legados",
-        "explicacao": "O AWS CAF ajuda a migrar sistemas legados para a nuvem, garantindo uma transição suave"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) ajuda a migrar sistemas legados para a nuvem, garantindo uma transição suave"
       },
       {
         "texto": "Elimina a necessidade de planejamento financeiro",
@@ -7062,19 +7062,19 @@
     "opcoes": [
       {
         "texto": "Proporciona uma estrutura de governança na nuvem",
-        "explicacao": "O AWS CAF oferece uma estrutura que auxilia a governança durante a transformação digital para a nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) oferece uma estrutura que auxilia a governança durante a transformação digital para a nuvem"
       },
       {
         "texto": "Elimina a necessidade de equipes especializadas em nuvem",
-        "explicacao": "O AWS CAF promove a capacitação e o desenvolvimento de equipes especializadas, ao invés de eliminá-las"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) promove a capacitação e o desenvolvimento de equipes especializadas, ao invés de eliminá-las"
       },
       {
         "texto": "Acelera o desenvolvimento e a inovação",
-        "explicacao": "O AWS CAF permite que as empresas acelerem o desenvolvimento e a inovação, aproveitando as capacidades da nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) permite que as empresas acelerem o desenvolvimento e a inovação, aproveitando as capacidades da nuvem"
       },
       {
         "texto": "Garante economia imediata nos custos operacionais",
-        "explicacao": "Embora possa otimizar custos, o AWS CAF não garante economias imediatas; isso depende da implementação correta"
+        "explicacao": "Embora possa otimizar custos, o AWS Cloud Adoption Framework (AWS CAF) não garante economias imediatas; isso depende da implementação correta"
       }
     ],
     "respostaCorreta": [
@@ -7085,11 +7085,11 @@
     "tipo": "multiple"
   },
   {
-    "pergunta": "Quais pilares do AWS CAF ajudam as empresas a maximizar o valor de seus investimentos em nuvem? (Escolha dois)",
+    "pergunta": "Quais pilares do AWS Cloud Adoption Framework (AWS CAF) ajudam as empresas a maximizar o valor de seus investimentos em nuvem? (Escolha dois)",
     "opcoes": [
       {
         "texto": "Pilar de Operações",
-        "explicacao": "O pilar de Operações do AWS CAF ajuda a maximizar o valor dos investimentos ao otimizar o gerenciamento de operações na nuvem"
+        "explicacao": "O pilar de Operações do AWS Cloud Adoption Framework (AWS CAF) ajuda a maximizar o valor dos investimentos ao otimizar o gerenciamento de operações na nuvem"
       },
       {
         "texto": "Pilar de Negócios",
@@ -7151,7 +7151,7 @@
       },
       {
         "texto": "Reduz os riscos associados à migração",
-        "explicacao": "Ao implementar práticas recomendadas de segurança, o AWS CAF ajuda a mitigar riscos durante a migração para a nuvem"
+        "explicacao": "Ao implementar práticas recomendadas de segurança, o AWS Cloud Adoption Framework (AWS CAF) ajuda a mitigar riscos durante a migração para a nuvem"
       },
       {
         "texto": "Garante a redução de custos com ferramentas de segurança",
@@ -7193,11 +7193,11 @@
     "tipo": "multiple"
   },
   {
-    "pergunta": "Como o AWS CAF ajuda a gerenciar os custos durante a jornada de adoção da nuvem? (Escolha dois)",
+    "pergunta": "Como o AWS Cloud Adoption Framework (AWS CAF) ajuda a gerenciar os custos durante a jornada de adoção da nuvem? (Escolha dois)",
     "opcoes": [
       {
         "texto": "Permite prever e otimizar os custos",
-        "explicacao": "O AWS CAF oferece diretrizes para prever e otimizar os custos durante a adoção e uso contínuo da nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) oferece diretrizes para prever e otimizar os custos durante a adoção e uso contínuo da nuvem"
       },
       {
         "texto": "Reduz automaticamente todos os custos de operação",
@@ -7205,7 +7205,7 @@
       },
       {
         "texto": "Facilita o planejamento financeiro para a adoção da nuvem",
-        "explicacao": "O AWS CAF ajuda no planejamento financeiro para garantir que os investimentos sejam eficazes e controlados"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) ajuda no planejamento financeiro para garantir que os investimentos sejam eficazes e controlados"
       },
       {
         "texto": "Garante custos fixos em todas as fases de adoção",
@@ -7220,11 +7220,11 @@
     "tipo": "multiple"
   },
   {
-    "pergunta": "Qual é o impacto do pilar de Governança do AWS CAF na adoção da nuvem? (Escolha dois)",
+    "pergunta": "Qual é o impacto do pilar de Governança do AWS Cloud Adoption Framework (AWS CAF) na adoção da nuvem? (Escolha dois)",
     "opcoes": [
       {
         "texto": "Garante o cumprimento de políticas e regulamentações",
-        "explicacao": "O pilar de Governança do AWS CAF garante que a adoção da nuvem siga políticas internas e regulamentações externas"
+        "explicacao": "O pilar de Governança do AWS Cloud Adoption Framework (AWS CAF) garante que a adoção da nuvem siga políticas internas e regulamentações externas"
       },
       {
         "texto": "Elimina a necessidade de auditorias de conformidade",
@@ -7232,7 +7232,7 @@
       },
       {
         "texto": "Facilita a supervisão de processos e riscos",
-        "explicacao": "A Governança no AWS CAF ajuda a supervisionar os processos e identificar riscos na adoção da nuvem"
+        "explicacao": "A Governança no AWS Cloud Adoption Framework (AWS CAF) ajuda a supervisionar os processos e identificar riscos na adoção da nuvem"
       },
       {
         "texto": "Reduz o número de equipes de segurança",
@@ -7251,11 +7251,11 @@
     "opcoes": [
       {
         "texto": "Governança e conformidade",
-        "explicacao": "O AWS CAF inclui governança e conformidade como aspectos essenciais para otimizar o uso seguro e eficiente da nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) inclui governança e conformidade como aspectos essenciais para otimizar o uso seguro e eficiente da nuvem"
       },
       {
         "texto": "Eliminação de todas as falhas operacionais",
-        "explicacao": "Embora o AWS CAF promova melhores práticas, ele não garante a eliminação total de falhas operacionais"
+        "explicacao": "Embora o AWS Cloud Adoption Framework (AWS CAF) promova melhores práticas, ele não garante a eliminação total de falhas operacionais"
       },
       {
         "texto": "Adoção de práticas recomendadas de segurança",
@@ -7263,7 +7263,7 @@
       },
       {
         "texto": "Garante redução dos custos operacionais",
-        "explicacao": "O AWS CAF ajuda a otimizar os custos, mas a redução depende da forma como os recursos são utilizados"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) ajuda a otimizar os custos, mas a redução depende da forma como os recursos são utilizados"
       }
     ],
     "respostaCorreta": [
@@ -7282,15 +7282,15 @@
       },
       {
         "texto": "Adoção automática de novas tecnologias",
-        "explicacao": "O AWS CAF oferece uma estrutura, mas a adoção de novas tecnologias ainda requer planejamento e execução adequados"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) oferece uma estrutura, mas a adoção de novas tecnologias ainda requer planejamento e execução adequados"
       },
       {
         "texto": "Melhor alinhamento entre TI e negócios",
-        "explicacao": "O AWS CAF facilita o alinhamento entre as necessidades de negócios e TI, maximizando os benefícios da nuvem"
+        "explicacao": "O AWS Cloud Adoption Framework (AWS CAF) facilita o alinhamento entre as necessidades de negócios e TI, maximizando os benefícios da nuvem"
       },
       {
         "texto": "Garantia de nenhuma falha de segurança",
-        "explicacao": "Embora o AWS CAF ajude a implementar segurança, não pode garantir ausência total de falhas de segurança"
+        "explicacao": "Embora o AWS Cloud Adoption Framework (AWS CAF) ajude a implementar segurança, não pode garantir ausência total de falhas de segurança"
       }
     ],
     "respostaCorreta": [
@@ -7335,7 +7335,7 @@
         "explicacao": "Os provedores de nuvem geralmente otimizam seus datacenters para serem mais eficientes em termos energéticos"
       },
       {
-        "texto": "Aumento da pegada de carbono",
+        "texto": "Redução da pegada de carbono",
         "explicacao": "A computação em nuvem tende a reduzir a pegada de carbono em comparação com a infraestrutura local"
       },
       {
