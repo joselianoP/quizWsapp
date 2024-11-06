@@ -1,5 +1,85 @@
 [
   {
+    "pergunta": "Qual tipo de serviço de nuvem é mais adequado para uma migração lift-and-shift de um datacenter local para uma implantação de nuvem?",
+    "opcoes": [
+      {
+        "texto": "IaaS (infraestrutura como serviço)",
+        "explicacao": "O IaaS é adequado para migrações lift-and-shift, pois permite mover recursos de infraestrutura para a nuvem sem grandes mudanças na aplicação."
+      },
+      {
+        "texto": "PaaS (plataforma como serviço)",
+        "explicacao": "O PaaS oferece um nível mais alto de abstração e geralmente requer adaptações na aplicação, o que pode não ser ideal para migrações lift-and-shift."
+      },
+      {
+        "texto": "SaaS (software como serviço)",
+        "explicacao": "O SaaS é uma solução pronta de software e não é utilizado para migrações de infraestrutura, mas sim para consumo direto de aplicações."
+      }
+    ],
+    "respostaCorreta": "IaaS (infraestrutura como serviço)",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Em que tipo de serviço de nuvem geralmente estaria uma solução de controle de finanças e despesas?",
+    "opcoes": [
+      {
+        "texto": "IaaS (infraestrutura como serviço)",
+        "explicacao": "O IaaS fornece a infraestrutura básica e não é normalmente usado para soluções específicas, como controle financeiro."
+      },
+      {
+        "texto": "PaaS (plataforma como serviço)",
+        "explicacao": "O PaaS permite criar e desenvolver soluções, mas não é comum para aplicações completas de controle financeiro prontas para uso."
+      },
+      {
+        "texto": "SaaS (software como serviço)",
+        "explicacao": "O SaaS é frequentemente utilizado para aplicações completas, como controle de finanças e despesas, pois é uma solução pronta para uso."
+      }
+    ],
+    "respostaCorreta": "SaaS (software como serviço)",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "O que é caracterizado como a capacidade de um sistema de se recuperar de falhas e continuar funcionando?",
+    "opcoes": [
+      {
+        "texto": "Confiabilidade",
+        "explicacao": "A confiabilidade é a capacidade de um sistema de se recuperar de falhas e continuar funcionando, além de ser um dos pilares da Microsoft Azure Well-Architected Framework."
+      },
+      {
+        "texto": "Previsibilidade",
+        "explicacao": "A previsibilidade refere-se à capacidade de um sistema de se comportar de maneira consistente e confiável ao longo do tempo, mas não está diretamente relacionada à recuperação de falhas."
+      },
+      {
+        "texto": "Escalabilidade",
+        "explicacao": "A escalabilidade é a capacidade de um sistema de aumentar ou diminuir seus recursos de acordo com a demanda, mas não está relacionada diretamente à recuperação de falhas."
+      }
+    ],
+    "respostaCorreta": "Confiabilidade",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Qual tipo de expansão envolve adicionar ou remover recursos (como máquinas virtuais ou contêineres) para atender à demanda?",
+    "opcoes": [
+      {
+        "texto": "Dimensionamento vertical",
+        "explicacao": "O dimensionamento vertical envolve aumentar ou diminuir os recursos de uma única máquina virtual ou servidor, como aumentar a memória ou o poder de processamento."
+      },
+      {
+        "texto": "Dimensionamento horizontal",
+        "explicacao": "O dimensionamento horizontal envolve adicionar ou remover máquinas virtuais ou contêineres para distribuir a carga de trabalho entre múltiplos recursos."
+      },
+      {
+        "texto": "Escala direta",
+        "explicacao": "Escala direta refere-se à prática de aumentar ou diminuir diretamente os recursos de um sistema, mas o termo é menos comum e pode ser confundido com dimensionamento vertical ou horizontal."
+      }
+    ],
+    "respostaCorreta": "Dimensionamento horizontal",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single"
+  },
+  {
     "pergunta": " De acordo com o modelo de responsabilidade compartilhada, qual tipo de serviço de nuvem coloca a maior responsabilidade sobre o cliente?",
     "opcoes": [
       {
@@ -45246,5 +45326,5 @@
     "respostaCorreta": "Amazon CloudWatch",
     "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single"
-    }
+  }
 ]
