@@ -23602,30 +23602,6 @@
     "tipo": "single"
   },
   {
-    "pergunta": "Em que situação uma empresa pode escolher um modelo de implantação em nuvem privada?",
-    "opcoes": [
-      {
-        "texto": "Quando busca o menor custo inicial e maior flexibilidade",
-        "explicacao": "Esse cenário é mais adequado para a nuvem pública, não privada"
-      },
-      {
-        "texto": "Quando deseja manter maior controle e segurança sobre os dados",
-        "explicacao": "A nuvem privada permite maior controle sobre dados e segurança em comparação à pública"
-      },
-      {
-        "texto": "Quando quer evitar o gerenciamento de infraestrutura",
-        "explicacao": "O gerenciamento de infraestrutura ainda é necessário em nuvens privadas"
-      },
-      {
-        "texto": "Quando precisa de escalabilidade elástica instantânea",
-        "explicacao": "A escalabilidade instantânea é mais comum na nuvem pública"
-      }
-    ],
-    "respostaCorreta": "Quando deseja manter maior controle e segurança sobre os dados",
-    "dominio": "Tecnologia e serviços da nuvem",
-    "tipo": "single"
-  },
-  {
     "pergunta": "Qual das opções a seguir oferece conectividade privada entre uma infraestrutura local e a AWS?",
     "opcoes": [
       {
