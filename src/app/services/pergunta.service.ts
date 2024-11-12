@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Pergunta } from '../model/pergunta/pergunta.module';
 import { map, Observable } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root',
 })
@@ -104,7 +105,8 @@ export class PerguntaService {
             // Seleciona perguntas aleatórias sem repetição
             const perguntasAleatorias = this.getAleatoriasSemRepeticao(
               perguntasDominio,
-              quantidadePorDominio
+              quantidadePorDominio,
+              perguntasFiltradas.length
             );
 
             perguntasSelecionadas = [
@@ -141,18 +143,19 @@ export class PerguntaService {
 
   // Função para pegar perguntas aleatórias dentro de um domínio, sem repetir
   private getAleatoriasSemRepeticao(
-    perguntas: Pergunta[],
-    quantidade: number
+    perguntasDominio: Pergunta[],
+    quantidade: number,
+    perguntaQuantidade: number
   ): Pergunta[] {
     const perguntasSelecionadasNaSessao =
       this.getPerguntasSelecionadasNaSessao();
 
-    if (perguntasSelecionadasNaSessao.length >= perguntas.length) {
+    if (perguntasSelecionadasNaSessao.length >= perguntaQuantidade) {
       sessionStorage.clear();
     }
 
     // Remove perguntas já selecionadas
-    const perguntasDisponiveis = perguntas.filter(
+    const perguntasDisponiveis = perguntasDominio.filter(
       (pergunta) =>
         !perguntasSelecionadasNaSessao.some(
           (p) => p.pergunta === pergunta.pergunta
@@ -169,6 +172,9 @@ export class PerguntaService {
     // Atualiza o sessionStorage com as perguntas selecionadas
     this.atualizarPerguntasSelecionadasNaSessao(selecionadas);
 
+    if (selecionadas.length == 0) {
+      this.getAleatoriasSemRepeticao(perguntasDominio, quantidade, 0);
+    }
     return selecionadas;
   }
 }

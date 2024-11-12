@@ -11,5 +11,6 @@ import { environment } from '../../src/environments/environment';
 })
 export class AppComponent {
   version = environment.version;
+  dataUltimaVersao = environment.dataUltimaVersao;
   title = 'quizWsapp';
 }
