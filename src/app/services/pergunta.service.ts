@@ -114,17 +114,29 @@ export class PerguntaService {
           }
         });
 
-        console.log('perguntasSelecionadas - >> ', perguntasSelecionadas);
-
         // Embaralha e retorna a quantidade solicitada de perguntas
-        return this.embaralhar(perguntasSelecionadas).slice(0, quantity);
+        return this.embaralharPerguntasComOpcoes(perguntasSelecionadas).slice(
+          0,
+          quantity
+        );
       })
     );
   }
 
-  // Função para embaralhar o array de perguntas
-  private embaralhar(perguntas: Pergunta[]): Pergunta[] {
-    return perguntas.sort(() => 0.5 - Math.random());
+  // Função para embaralhar um array genérico
+  private embaralharArray<T>(array: T[]): T[] {
+    return array.sort(() => 0.5 - Math.random());
+  }
+
+  // Função para embaralhar perguntas e suas opções
+  private embaralharPerguntasComOpcoes(perguntas: Pergunta[]): Pergunta[] {
+    return this.embaralharArray(perguntas).map((pergunta) => {
+      // Embaralha as opções de cada pergunta individualmente
+      return {
+        ...pergunta,
+        opcoes: this.embaralharArray(pergunta.opcoes),
+      };
+    });
   }
 
   // Função para pegar perguntas aleatórias dentro de um domínio, sem repetir
@@ -151,7 +163,7 @@ export class PerguntaService {
     const quantidadeFinal = Math.min(quantidade, perguntasDisponiveis.length);
 
     // Embaralha as perguntas disponíveis e seleciona a quantidade final
-    const shuffled = this.embaralhar(perguntasDisponiveis);
+    const shuffled = this.embaralharPerguntasComOpcoes(perguntasDisponiveis);
     const selecionadas = shuffled.slice(0, quantidadeFinal);
 
     // Atualiza o sessionStorage com as perguntas selecionadas

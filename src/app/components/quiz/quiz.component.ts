@@ -8,7 +8,6 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule
 import { MatCardModule } from '@angular/material/card';
 import { ActivatedRoute, Router, RouterModule, Routes } from '@angular/router';
-import { ResultadoService } from '../../services/resultado.service';
 
 @Component({
   selector: 'app-quiz',
@@ -53,8 +52,6 @@ export class QuizComponent implements OnInit {
 
   openPerguntas(): void {
     const fonteSimulado = this.route.snapshot.queryParamMap.get('tp');
-
-    console.log('fonteSimulado>> ', fonteSimulado);
 
     this.perguntaService
       .getPerguntasAleatorias(70, fonteSimulado)
