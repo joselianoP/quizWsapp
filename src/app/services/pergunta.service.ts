@@ -114,6 +114,8 @@ export class PerguntaService {
           }
         });
 
+        console.log('perguntasSelecionadas - >> ', perguntasSelecionadas);
+
         // Embaralha e retorna a quantidade solicitada de perguntas
         return this.embaralhar(perguntasSelecionadas).slice(0, quantity);
       })
@@ -133,11 +135,7 @@ export class PerguntaService {
     const perguntasSelecionadasNaSessao =
       this.getPerguntasSelecionadasNaSessao();
 
-    console.log(
-      'perguntasSelecionadasNaSessao',
-      perguntasSelecionadasNaSessao.length
-    );
-    if (perguntasSelecionadasNaSessao.length > 1000) {
+    if (perguntasSelecionadasNaSessao.length >= perguntas.length) {
       sessionStorage.clear();
     }
 
@@ -149,8 +147,12 @@ export class PerguntaService {
         )
     );
 
+    // Verifica se há perguntas suficientes
+    const quantidadeFinal = Math.min(quantidade, perguntasDisponiveis.length);
+
+    // Embaralha as perguntas disponíveis e seleciona a quantidade final
     const shuffled = this.embaralhar(perguntasDisponiveis);
-    const selecionadas = shuffled.slice(0, quantidade);
+    const selecionadas = shuffled.slice(0, quantidadeFinal);
 
     // Atualiza o sessionStorage com as perguntas selecionadas
     this.atualizarPerguntasSelecionadasNaSessao(selecionadas);
