@@ -1,4 +1,79 @@
 [
+  {
+    "pergunta": "Você atua em uma multinacional que está na fase de escolher um plano de suporte na AWS. Como o seu sistema é de missão crítica, ele não pode ficar sem serviço (fora do ar) por mais de 15 minutos. Também é um desejo do board da empresa que um arquiteto da AWS venha a revisar o seu ambiente na Nuvem. Qual o melhor plano de suporte que você sugere?",
+    "opcoes": [
+      {
+        "texto": "Basic",
+        "explicacao": "O plano Basic não oferece suporte técnico e não atende a requisitos de SLA de 15 minutos ou revisões de ambiente."
+      },
+      {
+        "texto": "Developer",
+        "explicacao": "O plano Developer oferece suporte em horário comercial, mas não inclui SLA de 15 minutos nem revisões arquiteturais de ambiente."
+      },
+      {
+        "texto": "Business",
+        "explicacao": "O plano Business oferece SLA de 1 hora para sistemas de produção inativos e suporte técnico avançado, mas não atende ao requisito de 15 minutos de SLA e nem inclui revisões arquiteturais da AWS."
+      },
+      {
+        "texto": "Enterprise",
+        "explicacao": "O plano Enterprise é o único que oferece SLA de 15 minutos para sistemas de produção inativos e inclui revisões arquiteturais com arquitetos da AWS, atendendo às necessidades críticas de disponibilidade e consultoria do ambiente."
+      }
+    ],
+    "respostaCorreta": "Enterprise",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Um grupo de desenvolvedores de uma startup está procurando o melhor plano de suporte da AWS. Eles atuam em horário comercial e um dos desenvolvedores ficou responsável na abertura dos tickets. Qual é o melhor plano de suporte para eles?",
+    "opcoes": [
+      {
+        "texto": "Basic",
+        "explicacao": "O plano Basic é gratuito e oferece suporte limitado, apenas para questões gerais e informações de faturamento, sem suporte técnico em horário comercial."
+      },
+      {
+        "texto": "Developer",
+        "explicacao": "O plano Developer é adequado para startups, oferece suporte em horário comercial com respostas a dúvidas técnicas e um desenvolvedor pode abrir tickets quando necessário."
+      },
+      {
+        "texto": "Business",
+        "explicacao": "O plano Business oferece suporte técnico mais avançado, com SLA para incidentes de produção e acesso a um gerente técnico de conta, mas pode ser um investimento elevado para startups."
+      },
+      {
+        "texto": "Enterprise",
+        "explicacao": "O plano Enterprise oferece o suporte mais completo, com resposta em até 15 minutos e serviços de consultoria técnica, mas é o mais caro e pode ser excessivo para startups em fase inicial."
+      }
+    ],
+    "respostaCorreta": "Developer",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "A sua empresa deseja assinar um plano de suporte em que o acordo de nível de serviço (SLA) - caso o sistema de produção fique inativo - seja respondido em até 01 hora. Qual é o plano de suporte mais barato e que atende essa solicitação?",
+    "opcoes": [
+      {
+        "texto": "Basic",
+        "explicacao": "O plano Basic não inclui SLA de suporte técnico em 1 hora."
+      },
+      {
+        "texto": "Developer",
+        "explicacao": "O plano Developer oferece suporte em horário comercial, mas não inclui resposta em 1 hora para sistemas de produção inativos."
+      },
+      {
+        "texto": "Business",
+        "explicacao": "O plano Business oferece suporte com SLA de 1 hora para sistemas de produção inativos e é o plano mais barato que atende a essa necessidade."
+      },
+      {
+        "texto": "Enterprise",
+        "explicacao": "O plano Enterprise oferece suporte em 15 minutos para sistemas de produção inativos, mas é mais caro que o plano Business."
+      }
+    ],
+    "respostaCorreta": "Business",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
 {
   "pergunta": "Qual serviço fornece visibilidade da atividade do usuário, registrando as ações realizadas em sua conta?",
   "opcoes": [
