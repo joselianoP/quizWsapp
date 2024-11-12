@@ -398,10 +398,6 @@
     {
       "texto": "Básico",
       "explicacao": "O plano Básico não inclui suporte técnico."
-    },
-    {
-      "texto": "Enterprise on-ramp",
-      "explicacao": "O plano Enterprise on-ramp oferece um tempo de resposta de até 30 minutos para problemas críticos, não 15 minutos."
     }
   ],
   "respostaCorreta": "Enterprise",
@@ -921,7 +917,14 @@
     {
       "texto": "AWS CodePipeline",
       "explicacao": "AWS CodePipeline é um serviço de integração contínua e entrega contínua, não de infraestrutura como código."
+    },
+    {
+      "texto": "AWS CloudFormation",
+      "explicacao": "O AWS CloudFormation é um serviço que permite criar e gerenciar recursos de infraestrutura na AWS usando código, conhecido como modelos CloudFormation. Com o CloudFormation, você pode descrever toda a sua infraestrutura, incluindo instâncias EC2, grupos de segurança, bancos de dados, redes e muito mais, em um único arquivo de modelo. Em seguida, você pode implantar e gerenciar essa infraestrutura usando comandos simples, o que torna a infraestrutura tão flexível e escalável quanto o código de aplicativo"
     }
+
+
+
   ],
   "respostaCorreta": "AWS CloudFormation",
   "explicacao": "AWS CloudFormation permite que você crie e gerencie recursos de infraestrutura usando código, proporcionando automação e flexibilidade na gestão da infraestrutura.",
@@ -1105,7 +1108,12 @@
     {
       "texto": "Amazon Athena",
       "explicacao": "Amazon Athena é um serviço de consulta de dados no S3 usando SQL."
+    },
+    {
+      "texto": "AWS Marketplace",
+      "explicacao": "O AWS Marketplace é uma plataforma online onde você pode descobrir, adquirir e implantar facilmente uma ampla variedade de software e soluções de terceiros que são compatíveis com a AWS"
     }
+
   ],
   "respostaCorreta": "AWS Marketplace",
   "explicacao": "O AWS Marketplace é uma plataforma online onde você pode descobrir, adquirir e implantar facilmente uma ampla variedade de software e soluções de terceiros compatíveis com a AWS.",
