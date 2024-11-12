@@ -1,4 +1,1217 @@
 [
+{
+  "pergunta": "Qual serviço fornece visibilidade da atividade do usuário, registrando as ações realizadas em sua conta?",
+  "opcoes": [
+    {
+      "texto": "Amazon CloudWatch",
+      "explicacao": "O CloudWatch monitora recursos e desempenho, mas não registra atividades específicas de usuário."
+    },
+    {
+      "texto": "Amazon CloudFormation",
+      "explicacao": "O CloudFormation gerencia infraestrutura como código, mas não registra atividades de usuário."
+    },
+    {
+      "texto": "Amazon CloudTrail",
+      "explicacao": "O CloudTrail registra todas as ações e atividades realizadas na conta, fornecendo um registro completo para auditoria."
+    },
+    {
+      "texto": "Amazon CloudHSM",
+      "explicacao": "O CloudHSM é um serviço de criptografia com hardware seguro e não registra atividades de usuário."
+    }
+  ],
+  "respostaCorreta": "Amazon CloudTrail",
+  "dominio": "Segurança e auditoria na AWS",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quais das seguintes são medidas de segurança recomendadas ao criar acesso a uma conta da AWS? (escolha dois)",
+  "opcoes": [
+    {
+      "texto": "Conceda acesso de privilégio de administrador",
+      "explicacao": "É uma prática não recomendada conceder privilégios de administrador sem necessidade."
+    },
+    {
+      "texto": "Conceda acesso com o menor privilégio necessário",
+      "explicacao": "Conceder o menor privilégio necessário reduz o risco e melhora a segurança."
+    },
+    {
+      "texto": "Habilitar AWS CloudTrail",
+      "explicacao": "O CloudTrail registra ações na conta, mas habilitar MFA é mais crucial para segurança do acesso."
+    },
+    {
+      "texto": "Habilitar MFA",
+      "explicacao": "A MFA adiciona uma camada de segurança extra ao acesso à conta."
+    }
+  ],
+  "respostaCorreta": [
+    "Conceda acesso com o menor privilégio necessário",
+    "Habilitar MFA"
+  ],
+  "dominio": "Segurança e conformidade",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é uma prática recomendada de arquitetura?",
+  "opcoes": [
+    {
+      "texto": "Distribuir em várias zonas de disponibilidade",
+      "explicacao": "Distribuir em várias zonas aumenta a resiliência e disponibilidade da aplicação."
+    },
+    {
+      "texto": "Implementar em uma única zona de disponibilidade",
+      "explicacao": "Ficar em uma única zona reduz a resiliência, uma prática não recomendada."
+    },
+    {
+      "texto": "Implementar Acoplamento Tenso",
+      "explicacao": "O acoplamento tenso reduz a flexibilidade e escalabilidade, sendo evitado em boas práticas de arquitetura."
+    },
+    {
+      "texto": "Crie arquiteturas monolíticas",
+      "explicacao": "Arquiteturas monolíticas são menos escaláveis e resilientes do que arquiteturas distribuídas."
+    }
+  ],
+  "respostaCorreta": "Distribuir em várias zonas de disponibilidade",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é um dos princípios de design relacionados à confiabilidade na nuvem?",
+  "opcoes": [
+    {
+      "texto": "Proteja os dados em trânsito e em repouso",
+      "explicacao": "Embora seja importante para a segurança, isso não está diretamente relacionado à confiabilidade."
+    },
+    {
+      "texto": "Recuperar-se automaticamente de uma falha",
+      "explicacao": "Esse princípio implica que sistemas devem ser projetados para se recuperar de falhas automaticamente, garantindo confiabilidade."
+    },
+    {
+      "texto": "Executar operações como código",
+      "explicacao": "É uma prática recomendada na nuvem, mas não está diretamente ligada à confiabilidade."
+    },
+    {
+      "texto": "Torne-se global em minutos",
+      "explicacao": "Relaciona-se à rapidez de implantação global, mas não é diretamente um princípio de confiabilidade."
+    }
+  ],
+  "respostaCorreta": "Recuperar-se automaticamente de uma falha",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é um serviço da AWS que atua como Domain Name System (DNS)?",
+  "opcoes": [
+    {
+      "texto": "Amazon Route 53",
+      "explicacao": "O Amazon Route 53 é um serviço de DNS escalável e altamente disponível."
+    },
+    {
+      "texto": "Amazon Lightsail",
+      "explicacao": "Amazon Lightsail é um serviço de hospedagem e não atua como um DNS."
+    },
+    {
+      "texto": "AWS Snowball",
+      "explicacao": "AWS Snowball é uma solução de transporte de dados e não é um serviço de DNS."
+    },
+    {
+      "texto": "AWS Direct Connect",
+      "explicacao": "AWS Direct Connect é uma solução de conexão de rede dedicada, não é um serviço de DNS."
+    }
+  ],
+  "respostaCorreta": "Amazon Route 53",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual característica da AWS permite que uma empresa internacional forneça aplicativos de baixa latência para seus clientes em todo o mundo?",
+  "opcoes": [
+    {
+      "texto": "Elasticidade",
+      "explicacao": "A elasticidade refere-se à capacidade de ajuste de recursos, não especificamente à baixa latência global."
+    },
+    {
+      "texto": "Tolerância a falha",
+      "explicacao": "A tolerância a falha ajuda na resiliência, mas não garante baixa latência em escala global."
+    },
+    {
+      "texto": "Alta disponibilidade",
+      "explicacao": "A alta disponibilidade é crucial para tempo de atividade, mas não se refere diretamente à baixa latência global."
+    },
+    {
+      "texto": "Alcance global",
+      "explicacao": "O alcance global permite baixa latência, colocando recursos próximos dos clientes em várias regiões."
+    }
+  ],
+  "respostaCorreta": "Alcance global",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Uma empresa está procurando ajuda para construir uma infraestrutura de aplicativo segura e de alto desempenho usando as práticas recomendadas de arquitetura da AWS mais recentes. Qual das opções a seguir pode fornecer orientação gratuitamente?",
+  "opcoes": [
+    {
+      "texto": "Entre em contato com um parceiro de consultoria da AWS",
+      "explicacao": "Parceiros de consultoria da AWS podem cobrar por serviços adicionais de arquitetura."
+    },
+    {
+      "texto": "Abra um tíquete com AWS Managed Services",
+      "explicacao": "AWS Managed Services oferece suporte gerenciado, mas pode ter custo adicional."
+    },
+    {
+      "texto": "Use uma ferramenta AWS Well-Architected",
+      "explicacao": "A ferramenta AWS Well-Architected é gratuita e permite avaliar e otimizar a arquitetura com as melhores práticas."
+    },
+    {
+      "texto": "Abra um caso com o AWS Support",
+      "explicacao": "O suporte da AWS pode oferecer assistência, mas normalmente envolve custos, dependendo do plano."
+    }
+  ],
+  "respostaCorreta": "Use uma ferramenta AWS Well-Architected",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das seguintes opções descreve a arquitetura de nuvem híbrida na AWS?",
+  "opcoes": [
+    {
+      "texto": "Todos os recursos sendo executados na AWS",
+      "explicacao": "Isso descreve uma arquitetura totalmente em nuvem, não híbrida."
+    },
+    {
+      "texto": "Todos os recursos sendo executados na infraestrutura local",
+      "explicacao": "Isso descreve uma arquitetura local (on-premises), não híbrida."
+    },
+    {
+      "texto": "Alguns recursos disponíveis na AWS e outros disponíveis na infraestrutura local",
+      "explicacao": "A arquitetura híbrida envolve a combinação de nuvem pública (AWS) com infraestrutura local."
+    },
+    {
+      "texto": "Alguns recursos sendo executados na AWS e outros disponibilizados com outro provedor de nuvem pública",
+      "explicacao": "Isso descreve uma arquitetura multicloud, não híbrida."
+    }
+  ],
+  "respostaCorreta": "Alguns recursos disponíveis na AWS e outros disponíveis na infraestrutura local",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é uma maneira da AWS de ajudar as empresas a reduzir seus custos de TI ao hospedar seus recursos na nuvem da AWS?",
+  "opcoes": [
+    {
+      "texto": "A AWS reduz continuamente os preços da computação em nuvem",
+      "explicacao": "A AWS frequentemente reduz preços para beneficiar os clientes e competir no mercado."
+    },
+    {
+      "texto": "A AWS lida com a segurança para que as empresas não precisem se preocupar com isso",
+      "explicacao": "Embora a AWS ajude com segurança, as empresas ainda têm responsabilidades na segurança em nuvem."
+    },
+    {
+      "texto": "AWS permite que as empresas conectem sua infraestrutura local aos serviços em nuvem da AWS",
+      "explicacao": "Isso é possível, mas não impacta diretamente na redução de custos de TI."
+    },
+    {
+      "texto": "A AWS oferece regularmente promoções de preços em seus serviços em nuvem",
+      "explicacao": "A AWS ocasionalmente faz promoções, mas a redução de preços é uma prática contínua."
+    }
+  ],
+  "respostaCorreta": "A AWS reduz continuamente os preços da computação em nuvem",
+  "dominio": "Cobrança, preços e suporte",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Uma empresa tem um aplicativo que deve estar disponível globalmente o tempo todo. Qual dos seguintes mecanismos de implantação ele deve usar?",
+  "opcoes": [
+    {
+      "texto": "Implantação em várias zonas de disponibilidade",
+      "explicacao": "Isso ajuda com a alta disponibilidade dentro de uma região, mas não garante disponibilidade global."
+    },
+    {
+      "texto": "Implantação em várias regiões",
+      "explicacao": "A implantação em várias regiões garante disponibilidade e baixa latência globalmente."
+    },
+    {
+      "texto": "Implantação usando CodeDeploy, pois gerencia por padrão a disponibilidade de aplicativos globalmente",
+      "explicacao": "O CodeDeploy gerencia implantações, mas não assegura disponibilidade global por si só."
+    },
+    {
+      "texto": "Implantação em vários locais de presença",
+      "explicacao": "Locais de presença suportam entrega de conteúdo, mas não fornecem total disponibilidade para um aplicativo global."
+    }
+  ],
+  "respostaCorreta": "Implantação em várias regiões",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das seguintes afirmações são verdadeiras? (Escolha dois)",
+  "opcoes": [
+    {
+      "texto": "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
+      "explicacao": "O Amazon CloudFront usa Locais de Borda para armazenar em cache e distribuir conteúdo rapidamente aos clientes, melhorando a experiência de entrega de conteúdo."
+    },
+    {
+      "texto": "Existem mais zonas de disponibilidade do que locais de borda e mais locais de borda que regiões.",
+      "explicacao": "Essa afirmação é incorreta. Existem mais locais de borda do que zonas de disponibilidade, pois eles são projetados para proporcionar uma entrega de conteúdo mais próxima dos usuários."
+    },
+    {
+      "texto": "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões.",
+      "explicacao": "Essa afirmação está correta. Locais de borda superam em quantidade as zonas de disponibilidade, e zonas de disponibilidade são mais numerosas que regiões."
+    },
+    {
+      "texto": "Existem mais regiões do que locais de borda e mais locais de borda que zonas de disponibilidade.",
+      "explicacao": "Essa afirmação é incorreta. As regiões são unidades geográficas maiores, com menos unidades em relação a locais de borda e zonas de disponibilidade."
+    }
+  ],
+  "respostaCorreta": [
+    "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
+    "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões."
+  ],
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual característica da AWS descreve a capacidade de adquirir recursos conforme você precisa deles e liberar recursos quando não precisar mais deles?",
+  "opcoes": [
+    {
+      "texto": "Alta disponibilidade",
+      "explicacao": "Alta disponibilidade refere-se à capacidade do sistema de continuar funcionando mesmo diante de falhas de componentes."
+    },
+    {
+      "texto": "Agilidade",
+      "explicacao": "Agilidade refere-se à capacidade de rapidamente implementar e adaptar infraestrutura e serviços para atender às demandas do negócio."
+    },
+    {
+      "texto": "Elasticidade",
+      "explicacao": "Elasticidade descreve a capacidade de ajustar automaticamente a quantidade de recursos computacionais, aumentando ou diminuindo conforme a necessidade."
+    },
+    {
+      "texto": "Durabilidade",
+      "explicacao": "Durabilidade refere-se à capacidade de preservar dados a longo prazo, garantindo que eles não serão perdidos."
+    }
+  ],
+  "respostaCorreta": "Elasticidade",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual dos serviços a seguir fornece acesso sob demanda aos relatórios de segurança e conformidade da AWS?",
+  "opcoes": [
+    {
+      "texto": "AWS Artifact",
+      "explicacao": "O AWS Artifact fornece acesso sob demanda a relatórios de segurança e conformidade, permitindo que os clientes visualizem relatórios de auditoria."
+    },
+    {
+      "texto": "AWS Trusted Advisor",
+      "explicacao": "O AWS Trusted Advisor fornece recomendações para ajudar a otimizar a infraestrutura da AWS, mas não fornece acesso a relatórios de conformidade."
+    },
+    {
+      "texto": "AWS CloudTrail",
+      "explicacao": "O AWS CloudTrail registra atividades de API para auditoria e rastreamento, mas não fornece relatórios de conformidade específicos."
+    },
+    {
+      "texto": "Amazon Inspector",
+      "explicacao": "O Amazon Inspector é um serviço que avalia a segurança das instâncias da AWS, mas não fornece relatórios de conformidade e segurança."
+    }
+  ],
+  "respostaCorreta": "AWS Artifact",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "No modelo de responsabilidade compartilhada da AWS, qual das opções a seguir NÃO é um controle compartilhado?",
+  "opcoes": [
+    {
+      "texto": "Gerenciamento de patches",
+      "explicacao": "O gerenciamento de patches é um controle compartilhado entre o cliente e a AWS, onde a AWS cuida da infraestrutura e o cliente é responsável pelo sistema operacional e aplicativos."
+    },
+    {
+      "texto": "Gerenciamento de configurações",
+      "explicacao": "O gerenciamento de configurações também é um controle compartilhado, pois o cliente define configurações específicas para seus recursos, enquanto a AWS gerencia a segurança e a conformidade da infraestrutura subjacente."
+    },
+    {
+      "texto": "Controles Físicos e Ambientais",
+      "explicacao": "A AWS é totalmente responsável pelos controles físicos e ambientais em seus data centers, sem envolvimento do cliente."
+    },
+    {
+      "texto": "Conscientização e treinamento",
+      "explicacao": "A conscientização e o treinamento são responsabilidade do cliente, pois ele deve garantir que sua equipe compreenda as práticas de segurança e uso dos serviços na nuvem."
+    }
+  ],
+  "respostaCorreta": "Controles Físicos e Ambientais",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é um serviço de transferência de dados da AWS usado para migrar e transportar conjuntos de dados em escala de petabytes para dentro e fora da AWS?",
+  "opcoes": [
+    {
+      "texto": "AWS Snowball",
+      "explicacao": "O AWS Snowball é projetado para migrar grandes volumes de dados em escala de petabytes de forma rápida e segura."
+    },
+    {
+      "texto": "AWS Snowcone",
+      "explicacao": "O Snowcone é adequado para transferências menores e não para grandes volumes de dados."
+    },
+    {
+      "texto": "AWS Direct Connect",
+      "explicacao": "O Direct Connect é uma conexão de rede dedicada, mas não é adequado para migração em larga escala de dados físicos."
+    },
+    {
+      "texto": "AWS Storage Gateway",
+      "explicacao": "O Storage Gateway conecta ambientes locais com a AWS, mas não é um serviço de transporte de dados físicos em larga escala."
+    }
+  ],
+  "respostaCorreta": "AWS Snowball",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual plano de suporte da AWS oferece um tempo de até 15 minutos de resposta, quando o sistema essencial do negócio está inativo?",
+  "opcoes": [
+    {
+      "texto": "Enterprise",
+      "explicacao": "O plano Enterprise é o único que oferece um tempo de resposta de até 15 minutos para problemas críticos."
+    },
+    {
+      "texto": "Business",
+      "explicacao": "O plano Business oferece suporte rápido, mas o tempo de resposta não é de 15 minutos para todos os problemas."
+    },
+    {
+      "texto": "Desenvolvedor",
+      "explicacao": "O plano Desenvolvedor é destinado a testes e desenvolvimento, sem suporte crítico rápido."
+    },
+    {
+      "texto": "Básico",
+      "explicacao": "O plano Básico não inclui suporte técnico."
+    },
+    {
+      "texto": "Enterprise on-ramp",
+      "explicacao": "O plano Enterprise on-ramp oferece um tempo de resposta de até 30 minutos para problemas críticos, não 15 minutos."
+    }
+  ],
+  "respostaCorreta": "Enterprise",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual dos cenários a seguir é um exemplo de escalabilidade vertical? (escolha dois)",
+  "opcoes": [
+    {
+      "texto": "Adicionando mais instâncias EC2 AWS via recurso de escalonamento automático",
+      "explicacao": "Isso é um exemplo de escalabilidade horizontal, aumentando o número de instâncias."
+    },
+    {
+      "texto": "Aumentando a capacidade de uma instância EC2",
+      "explicacao": "Aumentar a capacidade de uma instância existente é um exemplo de escalabilidade vertical."
+    },
+    {
+      "texto": "Diminuindo a capacidade de uma instância EC2",
+      "explicacao": "Diminuir a capacidade de uma instância existente é outro exemplo de escalabilidade vertical."
+    },
+    {
+      "texto": "Habilitando uma execução paralela de cargas de trabalho e distribuindo-as em muitos computadores diferentes",
+      "explicacao": "Isso é um exemplo de escalabilidade horizontal, distribuindo a carga de trabalho."
+    }
+  ],
+  "respostaCorreta": [
+    "Aumentando a capacidade de uma instância EC2",
+    "Diminuindo a capacidade de uma instância EC2"
+  ],
+  "dominio": "Conceitos da nuvem",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço da AWS você deve usar para ter uma visão geral da utilização de suas instâncias reservadas e cálculos sobre instâncias reservadas recomendadas?",
+  "opcoes": [
+    {
+      "texto": "Calculadora de preços AWS",
+      "explicacao": "A Calculadora de Preços AWS ajuda a estimar os custos, mas não fornece visão sobre utilização e recomendações de instâncias reservadas."
+    },
+    {
+      "texto": "AWS Trusted Advisor",
+      "explicacao": "O Trusted Advisor oferece recomendações de custo, mas o Cost Explorer é mais completo para análise de uso e custo de instâncias reservadas."
+    },
+    {
+      "texto": "AWS Personal Health Dashboard",
+      "explicacao": "O AWS Personal Health Dashboard é usado para alertas de saúde da conta, não para análise de custo de instâncias reservadas."
+    },
+    {
+      "texto": "AWS Cost Explorer",
+      "explicacao": "O Cost Explorer permite análises detalhadas de custos e uso, incluindo uma visão abrangente das instâncias reservadas e recomendações."
+    }
+  ],
+  "respostaCorreta": "AWS Cost Explorer",
+  "dominio": "Cobrança, preços e suporte",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quando uma instância spot do Windows e Linux (com exceção de SUSE) é interrompida pelo Amazon EC2, o que acontece com o faturamento?",
+  "opcoes": [
+    {
+      "texto": "Se o Amazon EC2 interromper a instância spot na primeira hora, você será cobrado pelos segundos usados.",
+      "explicacao": "Se a instância for interrompida dentro da primeira hora, você será cobrado pelos segundos usados."
+    },
+    {
+      "texto": "Se o Amazon EC2 interromper a instância spot na primeira hora, não haverá cobrança.",
+      "explicacao": "Se a instância for interrompida dentro da primeira hora, você não será cobrado."
+    },
+    {
+      "texto": "Se o Amazon EC2 interromper a instância spot, após a primeira hora, você não será tarifado.",
+      "explicacao": "Se a interrupção ocorrer após a primeira hora, a cobrança é ajustada conforme o tempo utilizado."
+    }
+  ],
+  "respostaCorreta": "Se o Amazon EC2 interromper a instância spot na primeira hora, não haverá cobrança.",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço de segurança da AWS avalia os aplicativos para melhorar sua segurança e conformidade?",
+  "opcoes": [
+    {
+      "texto": "AWS Service Health Dashboard",
+      "explicacao": "AWS Service Health Dashboard exibe o status de serviços da AWS, mas não avalia segurança de aplicativos."
+    },
+    {
+      "texto": "AWS X-Ray",
+      "explicacao": "AWS X-Ray é usado para depuração e rastreamento de aplicativos, mas não para segurança."
+    },
+    {
+      "texto": "AWS Inspector",
+      "explicacao": "AWS Inspector é projetado para avaliar a segurança de aplicativos e identificar vulnerabilidades."
+    },
+    {
+      "texto": "AWS Trusted Advisor",
+      "explicacao": "AWS Trusted Advisor oferece recomendações gerais de segurança, mas não realiza avaliação de segurança de aplicativos."
+    }
+  ],
+  "respostaCorreta": "AWS Inspector",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir indica como funciona o preço do AWS Lambda?",
+  "opcoes": [
+    {
+      "texto": "O cliente paga um preço inicial por um contrato de 1 ano",
+      "explicacao": "Isso não se aplica ao AWS Lambda, que é cobrado com base no uso."
+    },
+    {
+      "texto": "Os clientes são cobrados com base no número de solicitações de funções Lambda e na duração da execução do código.",
+      "explicacao": "AWS Lambda cobra com base na quantidade de solicitações e tempo de execução do código."
+    },
+    {
+      "texto": "O cliente é responsável com base apenas no número de solicitações de funções Lambda.",
+      "explicacao": "O preço também depende da duração da execução do código."
+    },
+    {
+      "texto": "Os clientes são cobrados com base na duração que leva para uma função lambda do código ser executado.",
+      "explicacao": "O preço inclui tanto o número de solicitações quanto a duração da execução."
+    }
+  ],
+  "respostaCorreta": "Os clientes são cobrados com base no número de solicitações de funções Lambda e na duração da execução do código.",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço da AWS é usado para compilar seu código automaticamente, permitindo a criação, teste e implantação contínuos de aplicativos?",
+  "opcoes": [
+    {
+      "texto": "AWS CodeDeploy",
+      "explicacao": "AWS CodeDeploy é usado para automatizar a implantação, mas não para compilar o código."
+    },
+    {
+      "texto": "AWS CodePipeline",
+      "explicacao": "AWS CodePipeline orquestra o processo de CI/CD, mas não compila o código."
+    },
+    {
+      "texto": "AWS CodeBuild",
+      "explicacao": "AWS CodeBuild é o serviço que compila o código e executa os testes de integração."
+    },
+    {
+      "texto": "AWS CodeCommit",
+      "explicacao": "AWS CodeCommit é um serviço de controle de versão, mas não compila ou testa código automaticamente."
+    }
+  ],
+  "respostaCorreta": "AWS CodeBuild",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "No modelo de responsabilidade compartilhada da AWS, qual das opções a seguir NÃO é um controle compartilhado?",
+  "opcoes": [
+    {
+      "texto": "Gerenciamento de patches",
+      "explicacao": "O gerenciamento de patches é uma responsabilidade compartilhada entre o cliente e a AWS."
+    },
+    {
+      "texto": "Gerenciamento de configurações",
+      "explicacao": "O gerenciamento de configurações também é responsabilidade compartilhada."
+    },
+    {
+      "texto": "Controles Físicos e Ambientais",
+      "explicacao": "Os controles físicos e ambientais são de responsabilidade exclusiva da AWS."
+    },
+    {
+      "texto": "Conscientização e treinamento",
+      "explicacao": "A conscientização e o treinamento são responsabilidades compartilhadas entre a AWS e o cliente."
+    }
+  ],
+  "respostaCorreta": "Controles Físicos e Ambientais",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é usada para gerenciar o faturamento e o pagamento de várias contas da AWS em uma conta mestre?",
+  "opcoes": [
+    {
+      "texto": "AWS IAM",
+      "explicacao": "AWS IAM é usado para gerenciar permissões e acesso aos recursos, não para faturamento."
+    },
+    {
+      "texto": "Faturamento central",
+      "explicacao": "Faturamento central não é um serviço da AWS, embora o faturamento consolidado seja."
+    },
+    {
+      "texto": "AWS Orçamentos",
+      "explicacao": "AWS Orçamentos permite definir orçamentos para controlar custos, mas não gerencia o faturamento de múltiplas contas."
+    },
+    {
+      "texto": "Faturamento consolidado",
+      "explicacao": "Faturamento consolidado permite gerenciar o faturamento de várias contas em uma única conta mestre."
+    }
+  ],
+  "respostaCorreta": "Faturamento consolidado",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir é o modelo de precificação do Amazon EC2 que oferece o maior desconto?",
+  "opcoes": [
+    {
+      "texto": "Não fazer reserva e não pagar nada antecipadamente, ao escolher um período de 3 anos",
+      "explicacao": "Este modelo oferece um preço padrão e não oferece o maior desconto possível."
+    },
+    {
+      "texto": "Reservar e pagar tudo antecipadamente, por um período de 1 ano",
+      "explicacao": "Este modelo oferece desconto, mas não é o modelo com o maior desconto."
+    },
+    {
+      "texto": "Reservar e pagar instâncias de forma parcial, por um período de 1 ano",
+      "explicacao": "Este modelo oferece um desconto moderado, mas o maior desconto vem com o pagamento total antecipado por 3 anos."
+    },
+    {
+      "texto": "Reservar e pagar tudo antecipadamente, por um período de 3 anos",
+      "explicacao": "Este modelo oferece o maior desconto possível, permitindo que você pague tudo adiantado e garanta o maior desconto nas instâncias do EC2."
+    }
+  ],
+  "respostaCorreta": "Reservar e pagar tudo antecipadamente, por um período de 3 anos",
+  "dominio": "Cobrança, preços e suporte",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual dos seguintes serviços da AWS pode ser usado para armazenar e arquivar dados por 5 anos com o menor custo?",
+  "opcoes": [
+    {
+      "texto": "Amazon S3",
+      "explicacao": "O Amazon S3 é ideal para armazenamento geral, mas não é a opção mais barata para arquivamento de longo prazo."
+    },
+    {
+      "texto": "Amazon EFS",
+      "explicacao": "O Amazon EFS é usado para armazenamento compartilhado de arquivos, mas não é a solução mais barata para arquivamento a longo prazo."
+    },
+    {
+      "texto": "Amazon Snowball",
+      "explicacao": "O Amazon Snowball é utilizado para transferência de grandes volumes de dados, mas não é a melhor opção para arquivamento de longo prazo."
+    },
+    {
+      "texto": "Amazon S3 Glacier",
+      "explicacao": "O Amazon S3 Glacier oferece armazenamento de baixo custo para arquivamento de dados a longo prazo e é a melhor solução para esse cenário."
+    }
+  ],
+  "respostaCorreta": "Amazon S3 Glacier",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço permite que você expanda e diminua automaticamente seu aplicativo em resposta à demanda?",
+  "opcoes": [
+    {
+      "texto": "AWS ElastiCache",
+      "explicacao": "O AWS ElastiCache é um serviço de cache, não um serviço para escalabilidade automática."
+    },
+    {
+      "texto": "Amazon Elastic Load Balancing",
+      "explicacao": "O Elastic Load Balancing distribui o tráfego entre instâncias, mas não escala as instâncias automaticamente."
+    },
+    {
+      "texto": "Amazon EC2 Auto Scaling",
+      "explicacao": "O Amazon EC2 Auto Scaling permite que você configure regras e políticas para aumentar ou diminuir automaticamente o número de instâncias EC2 com base na demanda."
+    },
+    {
+      "texto": "Amazon DynamoDB",
+      "explicacao": "O Amazon DynamoDB é um banco de dados gerenciado, mas não é um serviço de escalabilidade automática de instâncias."
+    }
+  ],
+  "respostaCorreta": "Amazon EC2 Auto Scaling",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Em comparação com data centers tradicionais, a nuvem AWS tem:",
+  "opcoes": [
+    {
+      "texto": "Uso fixo e custo inicial",
+      "explicacao": "Na nuvem, você não precisa investir em infraestrutura fixa, pagando apenas pelo que usa."
+    },
+    {
+      "texto": "Custos variáveis mais baixos e custo inicial mais alto",
+      "explicacao": "Na nuvem AWS, os custos variáveis são mais baixos, e não há custos iniciais elevados, diferentemente dos data centers tradicionais."
+    },
+    {
+      "texto": "Custos variáveis mais baixos e custos iniciais mais baixos",
+      "explicacao": "A nuvem oferece custos variáveis mais baixos e não exige grandes investimentos iniciais, ao contrário de data centers tradicionais."
+    },
+    {
+      "texto": "Maiores custos variáveis e maiores custos iniciais",
+      "explicacao": "A nuvem oferece menores custos variáveis e custos iniciais mais baixos, em comparação com data centers tradicionais."
+    }
+  ],
+  "respostaCorreta": "Custos variáveis mais baixos e custos iniciais mais baixos",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das opções a seguir ajuda a proteger o acesso a uma conta da AWS?",
+  "opcoes": [
+    {
+      "texto": "Utilizar o Cloudwatch Logs Insights",
+      "explicacao": "O Cloudwatch Logs Insights é usado para análise de logs e não protege diretamente o acesso à conta AWS."
+    },
+    {
+      "texto": "Habilitar o AWS Organizations",
+      "explicacao": "O AWS Organizations ajuda no gerenciamento de contas, mas não é diretamente responsável por proteger o acesso à conta AWS."
+    },
+    {
+      "texto": "Utilizar a autenticação de duas etapas (MFA)",
+      "explicacao": "A autenticação de duas etapas (MFA) requer que os usuários forneçam duas formas de autenticação antes de acessar uma conta, adicionando uma camada extra de segurança."
+    },
+    {
+      "texto": "Habilitar o AWS Config",
+      "explicacao": "O AWS Config é usado para monitoramento de configurações, mas não tem impacto direto na proteção do acesso à conta."
+    }
+  ],
+  "respostaCorreta": "Utilizar a autenticação de duas etapas (MFA)",
+  "dominio": "Segurança e conformidade",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço da AWS fornece gerenciamento centralizado e faturamento consolidado para todas as suas contas da AWS?",
+  "opcoes": [
+    {
+      "texto": "AWS CloudTrail",
+      "explicacao": "O AWS CloudTrail é um serviço de auditoria e monitoramento, não oferece gerenciamento centralizado de contas ou faturamento."
+    },
+    {
+      "texto": "AWS Organizations",
+      "explicacao": "O AWS Organizations permite o gerenciamento centralizado de contas, controle de acesso e faturamento consolidado, facilitando a administração de múltiplas contas."
+    },
+    {
+      "texto": "AWS CloudWatch",
+      "explicacao": "O AWS CloudWatch é usado para monitoramento de recursos e aplicações na AWS, não para faturamento consolidado."
+    },
+    {
+      "texto": "AWS Direct Connect",
+      "explicacao": "O AWS Direct Connect oferece uma conexão dedicada à AWS, mas não está relacionado ao gerenciamento de contas ou faturamento."
+    }
+  ],
+  "respostaCorreta": "AWS Organizations",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Você precisa implementar uma fila de mensagens gerenciada em trânsito, entre os servidores de aplicativos. Qual serviço você deve usar?",
+  "opcoes": [
+    {
+      "texto": "Amazon SWF",
+      "explicacao": "O Amazon SWF é um serviço de orquestração de workflows e não é ideal para gerenciar filas de mensagens."
+    },
+    {
+      "texto": "Amazon SNS",
+      "explicacao": "O Amazon SNS é um serviço de notificação, ideal para enviar mensagens para múltiplos assinantes, mas não é uma fila de mensagens."
+    },
+    {
+      "texto": "Amazon SQS",
+      "explicacao": "O Amazon SQS é um serviço de fila de mensagens totalmente gerenciado, ideal para transmitir mensagens de forma confiável entre servidores de aplicativos."
+    },
+    {
+      "texto": "Amazon DynamoDB",
+      "explicacao": "O Amazon DynamoDB é um serviço de banco de dados NoSQL, não é um serviço de fila de mensagens."
+    }
+  ],
+  "respostaCorreta": "Amazon SQS",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quais dos serviços a seguir possuem recurso de mitigação de ataques DDoS de negação de serviços distribuída?",
+  "opcoes": [
+    {
+      "texto": "AWS KMS",
+      "explicacao": "O AWS KMS é um serviço de gerenciamento de chaves e não oferece mitigação contra ataques DDoS."
+    },
+    {
+      "texto": "Grupos de Segurança",
+      "explicacao": "Os Grupos de Segurança controlam o acesso a instâncias na AWS, mas não são especificamente projetados para mitigação de DDoS."
+    },
+    {
+      "texto": "AWS Shield",
+      "explicacao": "O AWS Shield é um serviço gerenciado de proteção contra ataques DDoS, oferecendo mitigação automática contra esses ataques."
+    },
+    {
+      "texto": "AWS Inspector",
+      "explicacao": "O AWS Inspector é um serviço de avaliação de segurança, não especializado em mitigação de DDoS."
+    }
+  ],
+  "respostaCorreta": "AWS Shield",
+  "dominio": "Segurança e conformidade",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "No modelo de responsabilidade compartilhada da AWS, quem é responsável pela segurança e conformidade?",
+  "opcoes": [
+    {
+      "texto": "AWS é responsável",
+      "explicacao": "No modelo de responsabilidade compartilhada, a AWS é responsável pela segurança da infraestrutura, mas a conformidade também é compartilhada."
+    },
+    {
+      "texto": "O cliente é o responsável",
+      "explicacao": "No modelo de responsabilidade compartilhada, o cliente é responsável pela segurança de suas instâncias, mas a conformidade é uma responsabilidade compartilhada."
+    },
+    {
+      "texto": "A AWS e o cliente compartilham a responsabilidade",
+      "explicacao": "A AWS e o cliente compartilham a responsabilidade pela segurança e conformidade. A AWS cuida da segurança da infraestrutura, enquanto o cliente é responsável pela configuração e uso seguro dos recursos."
+    },
+    {
+      "texto": "A AWS é responsável pela segurança, e o cliente é responsável pela conformidade",
+      "explicacao": "Na realidade, a segurança e a conformidade são responsabilidades compartilhadas entre a AWS e o cliente."
+    }
+  ],
+  "respostaCorreta": "A AWS e o cliente compartilham a responsabilidade",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Uma empresa deseja migrar para a AWS, um aplicativo que atuará como ininterrupto por um período de 3 anos. Qual das opções a seguir é o modelo de precificação EC2 que oferece a solução mais econômica?",
+  "opcoes": [
+    {
+      "texto": "Host Dedicados",
+      "explicacao": "Não se aplica à questão, pois o modelo de precificação mais econômico para um período de 3 anos seria uma instância reservada."
+    },
+    {
+      "texto": "Instâncias reservadas",
+      "explicacao": "As instâncias reservadas permitem às empresas economizarem significativamente em custos de infraestrutura ao comprometer a capacidade de instâncias EC2 por um período prolongado."
+    },
+    {
+      "texto": "Instâncias Spot",
+      "explicacao": "Instâncias Spot são mais baratas, mas não são recomendadas para períodos longos como 3 anos, devido à possibilidade de interrupção."
+    },
+    {
+      "texto": "Instâncias sob demanda",
+      "explicacao": "As instâncias sob demanda são mais caras em comparação com as instâncias reservadas, especialmente para períodos prolongados."
+    }
+  ],
+  "respostaCorreta": "Instâncias reservadas",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single"
+},
+{
+  "pergunta": "Você deseja ser notificado quando o custo de uso da AWS exceder (ou houver previsão de que excederá) um valor específico em dólares. Qual dos seguintes serviços da AWS oferece esse recurso?",
+  "opcoes": [
+    {
+      "texto": "Orçamentos da AWS",
+      "explicacao": "Os Orçamentos da AWS permitem configurar notificações para quando os custos ultrapassarem os limites definidos."
+    },
+    {
+      "texto": "AWS Cost Explorer",
+      "explicacao": "AWS Cost Explorer ajuda a analisar os gastos passados, mas não oferece notificações de limite de gastos."
+    },
+    {
+      "texto": "AWS Trusted Advisor",
+      "explicacao": "AWS Trusted Advisor fornece recomendações para otimização, mas não permite definir notificações de custos."
+    },
+    {
+      "texto": "AWS QuickSight",
+      "explicacao": "AWS QuickSight é uma ferramenta de análise de dados, sem funcionalidades de controle de custos."
+    }
+  ],
+  "respostaCorreta": "Orçamentos da AWS",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual dos serviços a seguir permite que você avalie, audite e avalie as configurações de seus recursos da AWS?",
+  "opcoes": [
+    {
+      "texto": "Amazon Inspector",
+      "explicacao": "Amazon Inspector avalia a segurança de instâncias EC2, mas não audita as configurações de todos os recursos."
+    },
+    {
+      "texto": "AWS Config",
+      "explicacao": "AWS Config fornece um registro contínuo das configurações e relacionamentos dos recursos da AWS, permitindo a auditoria e avaliação."
+    },
+    {
+      "texto": "Amazon GuardDuty",
+      "explicacao": "Amazon GuardDuty detecta ameaças, mas não audita as configurações de recursos."
+    },
+    {
+      "texto": "Amazon CloudWatch",
+      "explicacao": "Amazon CloudWatch monitora recursos, mas não oferece auditoria de configurações."
+    }
+  ],
+  "respostaCorreta": "AWS Config",
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço da AWS permite codificar sua infraestrutura e tratá-la apenas como código?",
+  "opcoes": [
+    {
+      "texto": "AWS CodeDeploy",
+      "explicacao": "AWS CodeDeploy é usado para automação de implantação, não para infraestrutura como código."
+    },
+    {
+      "texto": "AWS OpsWorks",
+      "explicacao": "AWS OpsWorks é uma plataforma de gerenciamento de configuração e automação de tarefas, mas não trata da infraestrutura como código."
+    },
+    {
+      "texto": "AWS CodePipeline",
+      "explicacao": "AWS CodePipeline é um serviço de integração contínua e entrega contínua, não de infraestrutura como código."
+    }
+  ],
+  "respostaCorreta": "AWS CloudFormation",
+  "explicacao": "AWS CloudFormation permite que você crie e gerencie recursos de infraestrutura usando código, proporcionando automação e flexibilidade na gestão da infraestrutura.",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Se você suspeitar que sua conta da AWS está comprometida, o que deve fazer? (escolha dois)",
+  "opcoes": [
+    {
+      "texto": "Exclua o usuário raiz da sua conta AWS",
+      "explicacao": "Excluindo o usuário raiz não é a solução recomendada para um possível comprometimento da conta."
+    },
+    {
+      "texto": "Excluir todos os seus recursos da AWS",
+      "explicacao": "Excluir todos os recursos não resolve o problema de segurança e pode causar mais danos."
+    },
+    {
+      "texto": "Excluir todos os usuários IAM potencialmente comprometidos e todos os recursos que você não criou e alterar a senha de todos os outros usuários IAM.",
+      "explicacao": "A ação correta seria remover usuários IAM comprometidos e alterar senhas para proteger sua conta."
+    },
+    {
+      "texto": "Responda a todas as notificações do AWS Support por meio do AWS Support Center",
+      "explicacao": "Responder a notificações do AWS Support é uma etapa importante para garantir a segurança da conta."
+    }
+  ],
+  "respostaCorreta": [
+    "Excluir todos os usuários IAM potencialmente comprometidos e todos os recursos que você não criou e alterar a senha de todos os outros usuários IAM.",
+    "Responda a todas as notificações do AWS Support por meio do AWS Support Center"
+  ],
+  "dominio": "Segurança e conformidade",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Como você pode ativar a autenticação multifator (MFA) para uma conta da AWS por meio de uma interface baseada no navegador?",
+  "opcoes": [
+    {
+      "texto": "Usando o serviço IAM por meio das ferramentas de linha de comando da AWS",
+      "explicacao": "Embora possível, a configuração do MFA por linha de comando não é feita por meio de uma interface baseada no navegador."
+    },
+    {
+      "texto": "Usando o serviço IAM por meio do Console de Gerenciamento AWS",
+      "explicacao": "A maneira correta de ativar o MFA é através do Console de Gerenciamento AWS, uma interface baseada no navegador."
+    },
+    {
+      "texto": "Usando o serviço Amazon EC2 por meio dos SDKs da AWS",
+      "explicacao": "Amazon EC2 não é usado para ativar MFA, que é configurado via IAM."
+    },
+    {
+      "texto": "Usando um API IAM HTTPS",
+      "explicacao": "Usar API para configurar MFA não é a solução baseada no navegador."
+    }
+  ],
+  "respostaCorreta": "Usando o serviço IAM por meio do Console de Gerenciamento AWS",
+  "dominio": "Segurança e conformidade",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual serviço da AWS você pode usar para estabelecer uma conexão de rede dedicada entre seus aplicativos locais e recursos da AWS?",
+  "opcoes": [
+    {
+      "texto": "AWS Snowball",
+      "explicacao": "O AWS Snowball é um dispositivo físico utilizado para transferir grandes volumes de dados entre sua infraestrutura local e a AWS, mas não é utilizado para conexões de rede dedicadas."
+    },
+    {
+      "texto": "AWS Storage Gateway",
+      "explicacao": "O AWS Storage Gateway conecta ambientes locais com a AWS para armazenamento, mas não oferece uma conexão de rede dedicada."
+    },
+    {
+      "texto": "AWS Shield",
+      "explicacao": "O AWS Shield é um serviço de proteção contra ataques DDoS e não fornece uma conexão de rede dedicada."
+    },
+    {
+      "texto": "AWS Direct Connect",
+      "explicacao": "O AWS Direct Connect oferece uma conexão de rede dedicada e privada entre a sua infraestrutura local e a AWS, proporcionando maior largura de banda, baixa latência e alta confiabilidade."
+    }
+  ],
+  "respostaCorreta": "AWS Direct Connect",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quais são as vantagens da computação em nuvem? (escolha duas)",
+  "opcoes": [
+    {
+      "texto": "Pare de se preocupar com segurança",
+      "explicacao": "Embora a nuvem ofereça vantagens de segurança, a responsabilidade pela segurança é compartilhada entre o provedor de nuvem e o cliente."
+    },
+    {
+      "texto": "Mudar de despesas CAPEX, para despesas variáveis",
+      "explicacao": "A nuvem permite que as empresas transitem de investimentos fixos (CAPEX) para despesas operacionais (OPEX), pagando apenas pelo uso dos serviços, o que facilita a flexibilidade e a escalabilidade."
+    },
+    {
+      "texto": "Conformidade com todos os regulamentos locais",
+      "explicacao": "A conformidade com os regulamentos locais é responsabilidade do cliente, embora a AWS ofereça ferramentas para ajudar na conformidade."
+    },
+    {
+      "texto": "Beneficiar-se da economia em escala",
+      "explicacao": "A computação em nuvem permite que as empresas se beneficiem da economia de escala, pagando apenas pelo que utilizam e obtendo preços mais baixos devido ao uso compartilhado de recursos."
+    }
+  ],
+  "respostaCorreta": [
+    "Mudar de despesas CAPEX, para despesas variáveis",
+    "Beneficiar-se da economia em escala"
+  ],
+  "dominio": "Conceitos da nuvem",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quais das seguintes opções estão incluídas no plano de suporte Enterprise da AWS? (escolha dois)",
+  "opcoes": [
+    {
+      "texto": "Um Gerente Técnico de Conta (TAM) designado",
+      "explicacao": "O plano de suporte Enterprise inclui um Gerente Técnico de Conta (TAM), que ajuda a planejar, melhorar e otimizar os recursos AWS de forma personalizada."
+    },
+    {
+      "texto": "Desenvolvimento do código",
+      "explicacao": "O desenvolvimento do código não é uma parte do plano de suporte Enterprise da AWS. O TAM pode fornecer orientação sobre arquitetura, mas não desenvolve código."
+    },
+    {
+      "texto": "Revisões Well-Architected e análises de operações",
+      "explicacao": "O plano de suporte Enterprise inclui revisões Well-Architected, que ajudam a garantir que suas arquiteturas sigam as melhores práticas, além de análises de operações para otimização e melhoria contínua."
+    },
+    {
+      "texto": "Executar tarefas de administração do sistema",
+      "explicacao": "A administração do sistema não é parte do plano de suporte Enterprise. O suporte oferece consultoria, mas a administração continua sendo responsabilidade do cliente."
+    }
+  ],
+  "respostaCorreta": [
+    "Um Gerente Técnico de Conta (TAM) designado",
+    "Revisões Well-Architected e análises de operações"
+  ],
+  "dominio": "Conceitos da nuvem",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quais das opções a seguir são princípios de design importantes para a arquitetura em nuvem da AWS? (escolha dois)",
+  "opcoes": [
+    {
+      "texto": "Use software de código aberto",
+      "explicacao": "O uso de software de código aberto não é um princípio específico para arquitetura em nuvem da AWS."
+    },
+    {
+      "texto": "Implementar acoplamento solto",
+      "explicacao": "Implementar acoplamento solto facilita escalabilidade e flexibilidade ao reduzir dependências entre componentes."
+    },
+    {
+      "texto": "Remover pontos no seu ambiente que podem causar falhas",
+      "explicacao": "Eliminar pontos únicos de falha é essencial para aumentar a disponibilidade e confiabilidade."
+    },
+    {
+      "texto": "Implementar acoplamento estreito",
+      "explicacao": "O acoplamento estreito aumenta a interdependência entre componentes, o que não é recomendado para a arquitetura em nuvem."
+    }
+  ],
+  "respostaCorreta": [
+    "Implementar acoplamento solto",
+    "Remover pontos no seu ambiente que podem causar falhas"
+  ],
+  "dominio": "Tecnologia e serviços da nuvem",
+  "tipo": "multiple",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Onde você pode encontrar a listagem de software de fornecedores independentes, que tornam mais fácil encontrar, testar, comprar e implantar software executado na AWS?",
+  "opcoes": [
+    {
+      "texto": "AWS CloudSearch",
+      "explicacao": "AWS CloudSearch é um serviço de pesquisa na AWS."
+    },
+    {
+      "texto": "Amazon Lightsail",
+      "explicacao": "Amazon Lightsail é uma solução para serviços de computação simples e custos previsíveis."
+    },
+    {
+      "texto": "Amazon Athena",
+      "explicacao": "Amazon Athena é um serviço de consulta de dados no S3 usando SQL."
+    }
+  ],
+  "respostaCorreta": "AWS Marketplace",
+  "explicacao": "O AWS Marketplace é uma plataforma online onde você pode descobrir, adquirir e implantar facilmente uma ampla variedade de software e soluções de terceiros compatíveis com a AWS.",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual das seguintes afirmações são verdadeiras? (Escolha dois)",
+  "opcoes": [
+    {
+      "texto": "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
+      "explicacao": "O Amazon CloudFront usa Locais de Borda para armazenar em cache e distribuir conteúdo rapidamente aos clientes, melhorando a experiência de entrega de conteúdo."
+    },
+    {
+      "texto": "Existem mais zonas de disponibilidade do que locais de borda e mais locais de borda que regiões.",
+      "explicacao": "Essa afirmação é incorreta. Existem mais locais de borda do que zonas de disponibilidade, pois eles são projetados para proporcionar uma entrega de conteúdo mais próxima dos usuários."
+    },
+    {
+      "texto": "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões.",
+      "explicacao": "Essa afirmação está correta. Locais de borda superam em quantidade as zonas de disponibilidade, e zonas de disponibilidade são mais numerosas que regiões."
+    },
+    {
+      "texto": "Existem mais regiões do que locais de borda e mais locais de borda que zonas de disponibilidade.",
+      "explicacao": "Essa afirmação é incorreta. As regiões são unidades geográficas maiores, com menos unidades em relação a locais de borda e zonas de disponibilidade."
+    }
+  ],
+  "respostaCorreta": [
+    "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
+    "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões."
+  ],
+  "dominio": "Infraestrutura AWS",
+  "tipo": "multiple"
+},
+{
+  "pergunta": "Qual característica da AWS descreve a capacidade de adquirir recursos conforme você precisa deles e liberar recursos quando não precisar mais deles?",
+  "opcoes": [
+    {
+      "texto": "Alta disponibilidade",
+      "explicacao": "Alta disponibilidade refere-se à capacidade do sistema de continuar funcionando mesmo diante de falhas de componentes."
+    },
+    {
+      "texto": "Agilidade",
+      "explicacao": "Agilidade refere-se à capacidade de rapidamente implementar e adaptar infraestrutura e serviços para atender às demandas do negócio."
+    },
+    {
+      "texto": "Elasticidade",
+      "explicacao": "Elasticidade descreve a capacidade de ajustar automaticamente a quantidade de recursos computacionais, aumentando ou diminuindo conforme a necessidade."
+    },
+    {
+      "texto": "Durabilidade",
+      "explicacao": "Durabilidade refere-se à capacidade de preservar dados a longo prazo, garantindo que eles não serão perdidos."
+    }
+  ],
+  "respostaCorreta": "Elasticidade",
+  "dominio": "simulado",
+  "tipo": "single"
+},
+{
+  "pergunta": "Qual dos serviços a seguir fornece acesso sob demanda aos relatórios de segurança e conformidade da AWS?",
+  "opcoes": [
+    {
+      "texto": "AWS Artifact",
+      "explicacao": "O AWS Artifact fornece acesso sob demanda a relatórios de segurança e conformidade, permitindo que os clientes visualizem relatórios de auditoria."
+    },
+    {
+      "texto": "AWS Trusted Advisor",
+      "explicacao": "O AWS Trusted Advisor fornece recomendações para ajudar a otimizar a infraestrutura da AWS, mas não fornece acesso a relatórios de conformidade."
+    },
+    {
+      "texto": "AWS CloudTrail",
+      "explicacao": "O AWS CloudTrail registra atividades de API para auditoria e rastreamento, mas não fornece relatórios de conformidade específicos."
+    },
+    {
+      "texto": "Amazon Inspector",
+      "explicacao": "O Amazon Inspector é um serviço que avalia a segurança das instâncias da AWS, mas não fornece relatórios de conformidade e segurança."
+    }
+  ],
+  "respostaCorreta": "AWS Artifact",
+  "dominio": "simulado",
+  "tipo": "single"
+},
+{
+  "pergunta": "No modelo de responsabilidade compartilhada da AWS, qual das opções a seguir NÃO é um controle compartilhado?",
+  "opcoes": [
+    {
+      "texto": "Gerenciamento de patches",
+      "explicacao": "O gerenciamento de patches é um controle compartilhado entre o cliente e a AWS, onde a AWS cuida da infraestrutura e o cliente é responsável pelo sistema operacional e aplicativos."
+    },
+    {
+      "texto": "Gerenciamento de configurações",
+      "explicacao": "O gerenciamento de configurações também é um controle compartilhado, pois o cliente define configurações específicas para seus recursos, enquanto a AWS gerencia a segurança e a conformidade da infraestrutura subjacente."
+    },
+    {
+      "texto": "Controles Físicos e Ambientais",
+      "explicacao": "A AWS é totalmente responsável pelos controles físicos e ambientais em seus data centers, sem envolvimento do cliente."
+    },
+    {
+      "texto": "Conscientização e treinamento",
+      "explicacao": "A conscientização e o treinamento são responsabilidade do cliente, pois ele deve garantir que sua equipe compreenda as práticas de segurança e uso dos serviços na nuvem."
+    }
+  ],
+  "respostaCorreta": "Controles Físicos e Ambientais",
+  "dominio": "simulado",
+  "tipo": "single"
+},
   {
     "pergunta": "Qual tipo de serviço de nuvem é mais adequado para uma migração lift-and-shift de um datacenter local para uma implantação de nuvem?",
     "opcoes": [

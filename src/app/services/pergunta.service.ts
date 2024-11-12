@@ -54,7 +54,10 @@ export class PerguntaService {
       .pipe(map((perguntas) => perguntas.length));
   }
 
-  getPerguntasAleatorias(quantity: number): Observable<Pergunta[]> {
+  getPerguntasAleatorias(
+    quantity: number,
+    fonteSimulado: any
+  ): Observable<Pergunta[]> {
     const distribuicao: { [dominio: string]: number } = {
       'Conceitos da nuvem': 30,
       'Migração para a nuvem': 30,
@@ -70,9 +73,16 @@ export class PerguntaService {
 
     return this.http.get<Pergunta[]>(this.jsonUrl).pipe(
       map((perguntas) => {
-        // Agrupa perguntas por domínio
+        // Filtra as perguntas pela fonteSimulado
+        const perguntasFiltradas = fonteSimulado
+          ? perguntas.filter(
+              (pergunta) => pergunta.fonteSimulado === fonteSimulado
+            )
+          : perguntas;
+
+        // Agrupa perguntas filtradas por domínio
         const perguntasPorDominio: { [key: string]: Pergunta[] } =
-          perguntas.reduce((acc, pergunta) => {
+          perguntasFiltradas.reduce((acc, pergunta) => {
             acc[pergunta.dominio] = acc[pergunta.dominio] || [];
             acc[pergunta.dominio].push(pergunta);
             return acc;

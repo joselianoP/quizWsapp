@@ -7,7 +7,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule
 import { MatCardModule } from '@angular/material/card';
-import { Router, RouterModule, Routes } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule, Routes } from '@angular/router';
 import { ResultadoService } from '../../services/resultado.service';
 
 @Component({
@@ -43,27 +43,28 @@ export class QuizComponent implements OnInit {
 
   constructor(
     private perguntaService: PerguntaService,
-    private router: Router,
-    private resultadoService: ResultadoService
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
     this.respostasCorretas = []; // Limpa as respostas corretas antes de verificar
-    this.openEmailConfirmationDialog();
-  }
-
-  openEmailConfirmationDialog(): void {
-    this.openPerguntas(); // Carrega as perguntas apenas após a confirmação do e-mail
+    this.openPerguntas();
   }
 
   openPerguntas(): void {
-    this.perguntaService.getPerguntasAleatorias(70).subscribe((data) => {
-      this.perguntas = data;
-      this.respostasCorretas = Array(this.perguntas.length)
-        .fill(false)
-        .map(() => []);
-      this.domainQuestionCount = this.getQuestionsCountByDomain();
-    });
+    const fonteSimulado = this.route.snapshot.queryParamMap.get('tp');
+
+    console.log('fonteSimulado>> ', fonteSimulado);
+
+    this.perguntaService
+      .getPerguntasAleatorias(70, fonteSimulado)
+      .subscribe((data) => {
+        this.perguntas = data;
+        this.respostasCorretas = Array(this.perguntas.length)
+          .fill(false)
+          .map(() => []);
+        this.domainQuestionCount = this.getQuestionsCountByDomain();
+      });
   }
   // Função para contar perguntas por domínio
   getQuestionsCountByDomain(): { [domain: string]: number } {
