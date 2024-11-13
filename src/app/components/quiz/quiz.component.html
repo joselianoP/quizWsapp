@@ -18,50 +18,52 @@
   </div>
 
   <div class="col-md-12">
-    <mat-card>
+    <mat-card class="cardPergunta">
       <ng-container
         *ngIf="
           !isMultipleChoice(perguntas[currentQuestionIndex].respostaCorreta)
         "
       >
-        <mat-radio-group
-          [(ngModel)]="respostasSelecionadas[currentQuestionIndex]"
+        <ng-container
+          *ngFor="
+            let opcao of perguntas[currentQuestionIndex].opcoes;
+            let i = index
+          "
         >
-          <mat-radio-button
-            *ngFor="
-              let opcao of perguntas[currentQuestionIndex].opcoes;
-              let i = index
-            "
-            [ngClass]="{
-              'nao-clicavel': respostasVerificadas[currentQuestionIndex]
-            }"
-            [value]="opcao.texto"
-            (click)="onSelectOption(currentQuestionIndex, opcao.texto, false)"
+          <mat-radio-group
+            [(ngModel)]="respostasSelecionadas[currentQuestionIndex]"
           >
-            <label
+            <mat-radio-button
               [ngClass]="{
-                correta:
-                  respostasVerificadas[currentQuestionIndex] &&
-                  respostasCorretas[currentQuestionIndex][i],
-                incorreta:
-                  respostasVerificadas[currentQuestionIndex] &&
-                  !respostasCorretas[currentQuestionIndex][i]
+                'nao-clicavel': respostasVerificadas[currentQuestionIndex]
               }"
+              [value]="opcao.texto"
+              (click)="onSelectOption(currentQuestionIndex, opcao.texto, false)"
             >
-              {{ opcao.texto }}
-            </label>
-
+              <label
+                [ngClass]="{
+                  correta:
+                    respostasVerificadas[currentQuestionIndex] &&
+                    respostasCorretas[currentQuestionIndex][i],
+                  incorreta:
+                    respostasVerificadas[currentQuestionIndex] &&
+                    !respostasCorretas[currentQuestionIndex][i]
+                }"
+              >
+                {{ opcao.texto }}
+              </label>
+            </mat-radio-button>
             <div
               *ngIf="respostasVerificadas[currentQuestionIndex]"
-              class="explicacaoRadio"
+               class="explicacaoRadio"
             >
               <p>{{ opcao.explicacao }}&nbsp;</p>
             </div>
             <div *ngIf="!respostasVerificadas[currentQuestionIndex]">
               <p>&nbsp;</p>
             </div>
-          </mat-radio-button>
-        </mat-radio-group>
+          </mat-radio-group>
+        </ng-container>
       </ng-container>
 
       <ng-container
@@ -98,7 +100,7 @@
           </mat-checkbox>
           <div
             *ngIf="respostasVerificadas[currentQuestionIndex]"
-            class="explicacao"
+            class="explicacaoRadio"
           >
             <p>{{ opcao.explicacao }}</p>
             <!-- Exibir explicação da opção -->

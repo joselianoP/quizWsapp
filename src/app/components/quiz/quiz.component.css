@@ -21,10 +21,14 @@ li {
 }
 
 .question {
-  font-size: 1.25rem;
+ font-size: 1.25rem;
   font-weight: 500;
   color: #1f2937;
   margin-bottom: 10px;
+}
+label{
+font-size: 1.05rem;
+  font-weight: 200;
 }
 
 .submit-btn {
@@ -54,29 +58,11 @@ li {
   text-align: center;
 }
 
-.nao-clicavel {
-  pointer-events: none;
+.cardPergunta {
+  padding-top: 1cap;
 }
 
-.mdc-form-field.mat-internal-form-field {
-  display: flex !important;
-  flex-direction: row !important; /* Coloca os itens em linha */
-  align-items: flex-start !important; /* Alinha ao topo */
-  justify-content: flex-start !important; /* Alinha à esquerda */
-  margin: 0 !important; /* Remove margens desnecessárias */
-}
 
-.mdc-form-field.mat-internal-form-field .mat-radio-button {
-  display: inline-flex !important; /* Garante que o botão de rádio e o label fiquem na mesma linha */
-  align-items: flex-start !important; /* Alinha o botão de rádio ao topo */
-  margin-right: 10px !important; /* Ajuste de espaço entre o botão de rádio e o texto */
-}
-
-.mdc-form-field.mat-internal-form-field .mat-radio-label {
-  align-self: flex-start !important; /* Garante que o label fique alinhado ao topo */
-  margin-top: 10 !important; /* Remove qualquer margem no topo do label */
-  margin-bottom: 0 !important; /* Remove margem no fundo do label */
-}
 
 
 
@@ -97,12 +83,17 @@ li {
 }
 
 mat-radio-group {
-  display: flex;
+ display: inline-flex;
   flex-direction: column;
 }
 
 mat-radio-button {
-  margin-bottom: 10px;
+  display: inline-flex;
+  margin-bottom: 5px;
+  vertical-align: top;
+
+  vertical-align: top;
+  align-items: flex-start;
 }
 
 .verificar-respostas {
@@ -134,7 +125,7 @@ input[type="radio"] + span:before {
   content: "";
   position: absolute;
   left: 0;
-  top: 50%;
+
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
@@ -282,8 +273,8 @@ span {
 
 .explicacaoRadio {
   font-size: 0.9em;
-  color: #666;
+  color: #454343;
   margin-left: 5px;
   margin-right: 15px;
-  background: #dfe9f5;
+  background: #afc7e4;
 }
