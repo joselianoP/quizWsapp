@@ -1,4 +1,154 @@
 [
+{
+  "pergunta": "O que você NÃO pode fazer segundo o AWS Acceptable Use Policy?",
+  "opcoes": [
+    {
+      "texto": "Iniciar serviços na Nuvem como código",
+      "explicacao": "Isso é permitido pela AWS, pois envolve o uso de infraestrutura como código para iniciar serviços na Nuvem."
+    },
+    {
+      "texto": "Comprar um domínio com o Route 53",
+      "explicacao": "Comprar domínios através do serviço Route 53 é permitido pela AWS."
+    },
+    {
+      "texto": "Executar processamento analítico em dados que não lhe pertencem ou que foram vazados na Internet",
+      "explicacao": "Isso é proibido pelo AWS Acceptable Use Policy, pois envolve o uso de dados sem autorização ou dados vazados."
+    },
+    {
+      "texto": "Conceder acesso de usuário e senhas para os usuários",
+      "explicacao": "A AWS permite a criação e gerenciamento de contas e credenciais de acesso para usuários autorizados."
+    }
+  ],
+  "respostaCorreta": "Executar processamento analítico em dados que não lhe pertencem ou que foram vazados na Internet",
+  "dominio": "Computação em Nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Quais são os modelos de implantação que a AWS quer que você conheça?",
+  "opcoes": [
+    {
+      "texto": "On-Premises, Hybrid, Cloud",
+      "explicacao": "Esses são os três principais modelos de implantação de infraestrutura recomendados pela AWS: On-Premises, Hybrid, e Cloud."
+    },
+    {
+      "texto": "On-Premises, Full, Cloud",
+      "explicacao": "O modelo 'Full' não é um modelo de implantação recomendado pela AWS."
+    },
+    {
+      "texto": "On-Premises, Hybrid, Full",
+      "explicacao": "O modelo 'Full' não é um modelo de implantação recomendado pela AWS."
+    },
+    {
+      "texto": "Full, Hybrid, Cloud",
+      "explicacao": "O modelo 'Full' não é um modelo de implantação recomendado pela AWS."
+    }
+  ],
+  "respostaCorreta": "On-Premises, Hybrid, Cloud",
+  "dominio": "Computação em Nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Qual é o modelo computacional na Nuvem em que serei responsável pelo meu aplicativo, meus dados e o sistema operacional do computador?",
+  "opcoes": [
+    {
+      "texto": "Tradicional",
+      "explicacao": "O modelo tradicional não é baseado em Nuvem e requer que você seja responsável por toda a infraestrutura, desde o hardware até o software."
+    },
+    {
+      "texto": "IaaS - Infraestrutura como Serviço",
+      "explicacao": "No modelo IaaS, você gerencia o sistema operacional, aplicativos e dados, mas a infraestrutura física é gerida pelo provedor de Nuvem."
+    },
+    {
+      "texto": "SaaS - Software como Serviço",
+      "explicacao": "No modelo SaaS, o provedor de Nuvem gerencia tudo, incluindo o aplicativo, sistema operacional e dados."
+    },
+    {
+      "texto": "PaaS - Plataforma como Serviço",
+      "explicacao": "No modelo PaaS, você é responsável pelo aplicativo e dados, mas o provedor de Nuvem gerencia o sistema operacional e a infraestrutura."
+    }
+  ],
+  "respostaCorreta": "IaaS - Infraestrutura como Serviço",
+  "dominio": "Computação em Nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Na prospecção de um novo cliente, você é questionado sobre qual a vantagem de ir para a Nuvem. Qual a melhor argumentação comercial para perguntas assim?",
+  "opcoes": [
+    {
+      "texto": "Still Guessing: Ir para a Nuvem é fazer várias tentativas até encontrar o melhor poder computacional.",
+      "explicacao": "Essa afirmação não é precisa e pode confundir o cliente sobre a eficiência e facilidade de uso da Nuvem."
+    },
+    {
+      "texto": "Go Global in minutes: Você não precisa mais esperar a compra de um novo servidor para melhorar seu desempenho. Na Nuvem você escolhe um serviço, configura e já começa a usar.",
+      "explicacao": "Essa é a resposta correta, pois destaca a rapidez, escalabilidade e facilidade de acesso a recursos da Nuvem, o que são grandes atrativos comerciais."
+    },
+    {
+      "texto": "Slow Speed: Ir para a Nuvem é enfrentar latência, mas é um ambiente muito seguro.",
+      "explicacao": "Essa afirmação enfatiza a latência, o que pode ser visto como uma desvantagem, e não aborda a principal vantagem comercial da Nuvem."
+    },
+    {
+      "texto": "Expensive: Ir para a Nuvem pode ser caro no começo, mas possui vantagens competitivas.",
+      "explicacao": "Essa resposta foca no custo inicial e não enfatiza a principal vantagem de velocidade e agilidade da Nuvem."
+    }
+  ],
+  "respostaCorreta": "Go Global in minutes: Você não precisa mais esperar a compra de um novo servidor para melhorar seu desempenho. Na Nuvem você escolhe um serviço, configura e já começa a usar.",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Em uma reunião com a diretoria da sua empresa para apresentar o projeto de ir para a Nuvem, o gerente financeiro levanta a mão e pergunta sobre qual será a vantagem financeira. Qual o melhor argumento para responder questionamentos assim?",
+  "opcoes": [
+    {
+      "texto": "Teremos uma redução de custo ao longo do tempo, diminuindo o Capex e aumentando nosso Opex.",
+      "explicacao": "Essa é a resposta correta, pois a migração para a Nuvem reduz despesas de capital (Capex) ao eliminar a necessidade de infraestrutura local, enquanto aumenta o Opex devido ao pagamento contínuo pelos recursos utilizados."
+    },
+    {
+      "texto": "Teremos uma redução de custo ao longo do tempo, diminuindo o Opex e aumentando nosso Capex.",
+      "explicacao": "Essa afirmação está incorreta, pois a migração para a Nuvem tende a reduzir o Capex e aumentar o Opex, não o contrário."
+    },
+    {
+      "texto": "Não teremos uma redução de custo, porque o Capex é maior que o Opex.",
+      "explicacao": "Essa afirmação está incorreta, pois a Nuvem geralmente reduz o Capex e permite mais flexibilidade em custos operacionais."
+    },
+    {
+      "texto": "Não teremos uma redução de custo, porque o Opex é maior que o Capex.",
+      "explicacao": "Essa afirmação é incorreta e não representa a realidade de custos na Nuvem, que geralmente reduz Capex em favor de Opex."
+    }
+  ],
+  "respostaCorreta": "Teremos uma redução de custo ao longo do tempo, diminuindo o Capex e aumentando nosso Opex.",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
+{
+  "pergunta": "Seu estagiário pergunta sobre o que é computação na Nuvem. Qual a melhor resposta que você pode dar para ele?",
+  "opcoes": [
+    {
+      "texto": "São computadores quânticos que possuem alta disponibilidade e durabilidade.",
+      "explicacao": "Computadores quânticos não são a mesma coisa que computação na Nuvem e não definem o conceito de forma correta."
+    },
+    {
+      "texto": "São os computadores on-premises, que você realiza acesso remoto.",
+      "explicacao": "Essa descrição é incorreta, pois on-premises refere-se a servidores locais e não à Nuvem."
+    },
+    {
+      "texto": "É um conjunto de programas que você adquire e configura no servidor da sua empresa.",
+      "explicacao": "Essa definição está incorreta, pois refere-se à infraestrutura local e não ao conceito de Nuvem."
+    },
+    {
+      "texto": "São aplicativos e/ou serviços, que estão em um datacenter fora do seu ambiente local (on-premises), respondendo às requisições vindas da Internet.",
+      "explicacao": "Essa é a resposta correta, pois descreve de forma clara que a computação na Nuvem é fornecida remotamente e acessada pela Internet."
+    }
+  ],
+  "respostaCorreta": "São aplicativos e/ou serviços, que estão em um datacenter fora do seu ambiente local (on-premises), respondendo às requisições vindas da Internet.",
+  "dominio": "Conceitos da nuvem",
+  "tipo": "single",
+  "fonteSimulado": "udemy"
+},
   {
     "pergunta": "Você atua em uma multinacional que está na fase de escolher um plano de suporte na AWS. Como o seu sistema é de missão crítica, ele não pode ficar sem serviço (fora do ar) por mais de 15 minutos. Também é um desejo do board da empresa que um arquiteto da AWS venha a revisar o seu ambiente na Nuvem. Qual o melhor plano de suporte que você sugere?",
     "opcoes": [

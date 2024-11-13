@@ -49,13 +49,16 @@
               }"
             >
               {{ opcao.texto }}
-              <!-- Ajuste para exibir o texto da opção -->
             </label>
+
             <div
               *ngIf="respostasVerificadas[currentQuestionIndex]"
               class="explicacaoRadio"
             >
-              <p>{{ opcao.explicacao }}</p>
+              <p>{{ opcao.explicacao }}&nbsp;</p>
+            </div>
+            <div *ngIf="!respostasVerificadas[currentQuestionIndex]">
+              <p>&nbsp;</p>
             </div>
           </mat-radio-button>
         </mat-radio-group>
@@ -100,13 +103,16 @@
             <p>{{ opcao.explicacao }}</p>
             <!-- Exibir explicação da opção -->
           </div>
+          <div *ngIf="!respostasVerificadas[currentQuestionIndex]">
+            <p>&nbsp;</p>
+          </div>
         </div>
       </ng-container>
     </mat-card>
   </div>
 
   <div class="row">
-    <div  class="col-sm-4">
+    <div class="col-sm-4">
       <div *ngIf="perguntas.length > 0">
         <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
         <ul class="listaLegenda">
@@ -117,7 +123,7 @@
       </div>
     </div>
 
-    <div class="col-sm-8 ">
+    <div class="col-sm-8">
       <div class="col-sm-12 align-right">
         <button
           class="verificar-respostas-btn col-sm-3"
@@ -136,12 +142,14 @@
         </button>
       </div>
       <div class="col-sm-12 align-right">
-        <button   routerLink="/" class="verificar-respostas-btn  col-sm-3">Home</button>
+        <button routerLink="/" class="verificar-respostas-btn col-sm-3">
+          Home
+        </button>
 
         <button
           *ngIf="simuladoFinalizado"
           (click)="navigateToQuiz()"
-          class="verificar-respostas-btn  col-sm-3"
+          class="verificar-respostas-btn col-sm-3"
         >
           Nova Simulação
         </button>
@@ -151,7 +159,7 @@
           *ngIf="
             !simuladoFinalizado && currentQuestionIndex != perguntas.length - 1
           "
-          class="verificar-respostas-btn  col-sm-4"
+          class="verificar-respostas-btn col-sm-4"
         >
           Verificar Resposta
         </button>
@@ -161,7 +169,7 @@
           *ngIf="
             !simuladoFinalizado && currentQuestionIndex === perguntas.length - 1
           "
-          class="verificar-respostas-btn  col-sm-3"
+          class="verificar-respostas-btn col-sm-3"
         >
           Finalizar
         </button>
