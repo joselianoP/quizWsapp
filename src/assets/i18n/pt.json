@@ -1,5 +1,5 @@
 {
-  "Welcome": "Bem Vindo",
+  "Welcome": "Bem Vindo ao",
   "rights_reserved": "Todos os direitos reservados",
   "version": "versão",
   "latest_update": "última atualização",
@@ -22,4 +22,4 @@
   "percentage_of_correct_answers": "Porcentagem de acertos",
   "congratulations_you_passed!": "Parabéns! Você passou!",
   "you_didn_pass_try_again":"Você não passou. Tente novamente!"
-} 
+}
