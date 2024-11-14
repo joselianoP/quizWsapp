@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const lg = this.route.snapshot.paramMap.get('lg');
+    const lg = this.route.snapshot.queryParamMap.get('lg');
 
     let translateUse =
       lg ?? this.sessionStorageService.getItem('translateUse') ?? 'pt';
@@ -48,12 +48,7 @@ export class HomeComponent implements OnInit {
     //this.accessCount = this.accessCounterService.getCounter(); // Obtém o contador
   }
   openUlr(lg: any) {
-    console.log(lg);
-    this.router
-      .navigateByUrl(`/home/${lg}`, { skipLocationChange: true })
-      .then(() => {
-        window.location.href = `/home/${lg}`;
-      });
+    window.location.href = `/home?lg=${lg}`;
   }
   getPerguntas() {
     this.perguntaService.getPerguntas().subscribe(
