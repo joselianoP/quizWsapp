@@ -6,7 +6,8 @@
   <!-- Exibe a pergunta atual e o total de perguntas -->
   <div class="col-md-12">
     <h3 class="question-counter">
-      Pergunta {{ currentQuestionIndex + 1 }} de {{ perguntas.length }}
+      {{ 'question' | translate }}
+        {{ currentQuestionIndex + 1 }} de {{ perguntas.length }}
     </h3>
   </div>
 
@@ -118,10 +119,10 @@
   <div class="row">
     <div class="col-sm-4">
       <div *ngIf="perguntas.length > 0">
-        <h1 class="tituloLegenda">Tipo de perguntas Selecionadas:</h1>
+        <h1 class="tituloLegenda">{{ 'selected_question_types' | translate }}:</h1>
         <ul class="listaLegenda">
           <li *ngFor="let domain of domainQuestionCount | keyvalue">
-            {{ domain.key }}: {{ domain.value }}
+            {{ domain.key  | translate }}: {{ domain.value }}
           </li>
         </ul>
       </div>
@@ -134,7 +135,7 @@
           (click)="nextQuestion()"
           [disabled]="currentQuestionIndex === perguntas.length - 1"
         >
-          Próxima
+         {{ 'next' | translate }}
         </button>
 
         <button
@@ -142,7 +143,7 @@
           (click)="previousQuestion()"
           [disabled]="currentQuestionIndex === 0"
         >
-          Anterior
+            {{ 'previous' | translate }}
         </button>
       </div>
       <div class="col-sm-12 align-right">
@@ -155,7 +156,7 @@
           (click)="navigateToQuiz()"
           class="verificar-respostas-btn col-sm-3"
         >
-          Nova Simulação
+            {{ 'new_Simulation' | translate }}
         </button>
 
         <button
@@ -165,7 +166,7 @@
           "
           class="verificar-respostas-btn col-sm-4"
         >
-          Verificar Resposta
+          {{ 'check_Answer' | translate }}
         </button>
 
         <button
@@ -175,7 +176,7 @@
           "
           class="verificar-respostas-btn col-sm-3"
         >
-          Finalizar
+           {{ 'finish' | translate }}
         </button>
       </div>
     </div>

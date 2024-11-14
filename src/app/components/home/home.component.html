@@ -1,30 +1,48 @@
-<h1>Bem-vindo ao Quiz!</h1>
+<table width="100%">
+  <tr>
+    <td  width="99%" align="right">
+     <button  (click)="openUlr('pt')">PT</button>
+    </td>
+    <td  width="1%" align="right">
+    <button  (click)="openUlr('en')">EN</button>
+    </td>
+  </tr>
+</table>
+
+
+<h1> {{ 'Welcome' | translate }} ao Quiz!</h1>
 
 <nav class="navbar">
   <a routerLink="/quiz" class="nav-link"
-    >Simulado AWS Certified Cloud Practitioner (CLF-C012)</a
+    >AWS Certified Cloud Practitioner (CLF-C012)</a
   >
   <div class="total-perguntas">
-    Total de perguntas na base: {{ totalPerguntasAws }}
+    {{ 'Total_questions_database' | translate }} : {{ totalPerguntasAws }}
   </div>
 </nav>
 
 <nav class="navbar">
   <a routerLink="#" class="nav-link">AWS Certified Developer – Associate</a>
-  <div class="total-perguntas">Total de perguntas na base: 0</div>
+  <div class="total-perguntas">{{ 'Total_questions_database' | translate }} : 0</div>
 </nav>
 
 <nav class="navbar">
   <a routerLink="#" class="nav-link">AWS Certified Solutions Architect – Associate </a>
-  <div class="total-perguntas">Total de perguntas na base: 0</div>
+  <div class="total-perguntas">{{ 'Total_questions_database' | translate }} : 0</div>
 </nav>
 
 <nav class="navbar">
-  <a routerLink="#" class="nav-link">Certificação Microsoft AZ-900 </a>
-  <div class="total-perguntas">Total de perguntas na base: 0</div>
+  <a routerLink="#" class="nav-link">Microsoft AZ-900 </a>
+  <div class="total-perguntas">{{ 'Total_questions_database' | translate }} : 0</div>
 </nav>
 
 <nav class="navbar">
-  <a routerLink="#" class="nav-link">Certificação Scrun (PSM I)</a>
-  <div class="total-perguntas">Total de perguntas na base: 0</div>
+  <a routerLink="#" class="nav-link">Scrun (PSM I)</a>
+  <div class="total-perguntas">{{ 'Total_questions_database' | translate }} : 0</div>
 </nav>
+<!--
+<button  (click)="getPerguntas()">
+export
+</button>
+-->
+

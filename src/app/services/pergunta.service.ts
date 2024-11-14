@@ -2,25 +2,29 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Pergunta } from '../model/pergunta/pergunta.module';
 import { map, Observable } from 'rxjs';
-
+import { SessionStorageService } from './SessionStorageService';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PerguntaService {
-  private jsonUrl = '/assets/perguntas.json';
   private storageKey = 'perguntasSelecionadas'; // Chave para o sessionStorage
 
-  constructor(private http: HttpClient) {
+  constructor(
+    private http: HttpClient,
+    private sessionStorageService: SessionStorageService
+  ) {
     this.inicializarPerguntasSelecionadas(); // Inicializa as perguntas selecionadas da sessão
   }
 
   // Inicializa perguntas selecionadas no sessionStorage
   private inicializarPerguntasSelecionadas(): void {
     if (typeof window !== 'undefined' && window.sessionStorage) {
-      const perguntasSalvas = sessionStorage.getItem(this.storageKey);
+      const perguntasSalvas = this.sessionStorageService.getItem(
+        this.storageKey
+      );
       if (!perguntasSalvas) {
-        sessionStorage.setItem(this.storageKey, JSON.stringify([]));
+        this.sessionStorageService.setItem(this.storageKey, JSON.stringify([]));
       }
     }
   }
@@ -30,7 +34,7 @@ export class PerguntaService {
     let perguntasSalvas;
 
     if (typeof window !== 'undefined' && window.sessionStorage) {
-      perguntasSalvas = sessionStorage.getItem(this.storageKey);
+      perguntasSalvas = this.sessionStorageService.getItem(this.storageKey);
     }
 
     return perguntasSalvas ? JSON.parse(perguntasSalvas) : [];
@@ -41,17 +45,35 @@ export class PerguntaService {
     try {
       const perguntasSalvas = this.getPerguntasSelecionadasNaSessao();
       const novasPerguntas = [...perguntasSalvas, ...perguntas];
-      sessionStorage.setItem(this.storageKey, JSON.stringify(novasPerguntas));
+      this.sessionStorageService.setItem(
+        this.storageKey,
+        JSON.stringify(novasPerguntas)
+      );
     } catch (error) {}
   }
 
+  getulrJson() {
+    const translateUse =
+      this.sessionStorageService.getItem('translateUse') || 'pt';
+
+    return `/assets/perguntas_${translateUse}.json`;
+  }
+
   getPerguntas(): Observable<Pergunta[]> {
-    return this.http.get<Pergunta[]>(this.jsonUrl);
+    return this.http.get<Pergunta[]>(this.getulrJson()).pipe(
+      map((perguntas) => {
+        return perguntas.filter(
+          (pergunta) =>
+            pergunta.dominio === 'Conceitos da nuvem' &&
+            pergunta.tipo === 'multiple'
+        );
+      })
+    );
   }
 
   getTotalPerguntas(): Observable<number> {
     return this.http
-      .get<Pergunta[]>(this.jsonUrl)
+      .get<Pergunta[]>(this.getulrJson())
       .pipe(map((perguntas) => perguntas.length));
   }
 
@@ -72,7 +94,7 @@ export class PerguntaService {
       'Cobrança, preços e suporte': 20,
     };
 
-    return this.http.get<Pergunta[]>(this.jsonUrl).pipe(
+    return this.http.get<Pergunta[]>(this.getulrJson()).pipe(
       map((perguntas) => {
         // Filtra as perguntas pela fonteSimulado
         const perguntasFiltradas = fonteSimulado
@@ -151,7 +173,7 @@ export class PerguntaService {
       this.getPerguntasSelecionadasNaSessao();
 
     if (perguntasSelecionadasNaSessao.length >= perguntaQuantidade) {
-      sessionStorage.clear();
+      this.sessionStorageService.removeItem('perguntasSelecionadas');
     }
 
     // Remove perguntas já selecionadas

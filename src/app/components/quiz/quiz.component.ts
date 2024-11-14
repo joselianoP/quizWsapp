@@ -1,4 +1,3 @@
-import { Opcao } from './../../model/pergunta/pergunta.module';
 import { Component, OnInit } from '@angular/core';
 import { PerguntaService } from '../../services/pergunta.service';
 import { Pergunta } from '../../model/pergunta/pergunta.module';
@@ -7,7 +6,10 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule
 import { MatCardModule } from '@angular/material/card';
-import { ActivatedRoute, Router, RouterModule, Routes } from '@angular/router';
+import { ActivatedRoute,  RouterModule} from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { SessionStorageService } from '../../services/SessionStorageService';
+import { TranslationService } from '../../services/translation.service';
 
 @Component({
   selector: 'app-quiz',
@@ -21,6 +23,7 @@ import { ActivatedRoute, Router, RouterModule, Routes } from '@angular/router';
     MatRadioModule,
     FormsModule,
     RouterModule,
+    TranslateModule,
   ],
 })
 export class QuizComponent implements OnInit {
@@ -40,14 +43,30 @@ export class QuizComponent implements OnInit {
   email: string = '';
   resultado: string = '';
 
+  msgAlerta = '';
+  msgRequirement_approval = '';
+  msgVoce_acertou = '';
+  msgVoce_errou = '';
+  msgPorcentagem_acertos = '';
+  msgParabens_voce_passou = '';
+  msgVoce_nao_passou = '';
+
   constructor(
     private perguntaService: PerguntaService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private translate: TranslateService,
+    private sessionStorageService: SessionStorageService,
+    private translationService: TranslationService
   ) {}
 
   ngOnInit(): void {
+    this.translate.use(
+      this.sessionStorageService.getItem('translateUse') || 'pt'
+    );
+
     this.respostasCorretas = []; // Limpa as respostas corretas antes de verificar
     this.openPerguntas();
+    this.carregarIdioma();
   }
 
   openPerguntas(): void {
@@ -60,6 +79,7 @@ export class QuizComponent implements OnInit {
         this.respostasCorretas = Array(this.perguntas.length)
           .fill(false)
           .map(() => []);
+
         this.domainQuestionCount = this.getQuestionsCountByDomain();
       });
   }
@@ -68,10 +88,10 @@ export class QuizComponent implements OnInit {
     const domainCounts: { [domain: string]: number } = {};
 
     this.perguntas.forEach((pergunta) => {
-      if (domainCounts[pergunta.dominio]) {
-        domainCounts[pergunta.dominio]++;
+      if (domainCounts[pergunta.dominioKey]) {
+        domainCounts[pergunta.dominioKey]++;
       } else {
-        domainCounts[pergunta.dominio] = 1;
+        domainCounts[pergunta.dominioKey] = 1;
       }
     });
 
@@ -110,7 +130,7 @@ export class QuizComponent implements OnInit {
       this.respostasSelecionadas[this.currentQuestionIndex];
 
     if (respostaSelecionada == undefined) {
-      alert('Por favor, responda a pergunta ');
+      alert(this.msgAlerta);
       return;
     } else {
       this.respostasVerificadas[this.currentQuestionIndex] = true;
@@ -139,14 +159,13 @@ export class QuizComponent implements OnInit {
 
       const totalPerguntas = this.perguntas.length;
       const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
-      const passou = percentualAcertos >= 80; // Verifica se passou com 80% de acertos
-
-      this.resultado = `<b>Requisito para aprovação 80% de acertos:</b>`;
-      this.resultado += `<br>Você acertou ${this.acertos}`;
-      this.resultado += `<br>Você errou ${this.erros}`;
-      this.resultado += `<br>Porcentagem de acertos: ${percentualAcertos.toFixed(
-        2
-      )}%`;
+ 
+      this.resultado = `<b>${this.msgRequirement_approval}:</b>`;
+      this.resultado += `<br>${this.msgVoce_acertou} ${this.acertos}`;
+      this.resultado += `<br>${this.msgVoce_errou} ${this.erros}`;
+      this.resultado += `<br>${
+        this.msgPorcentagem_acertos
+      }: ${percentualAcertos.toFixed(2)}%`;
     }
   }
 
@@ -161,22 +180,22 @@ export class QuizComponent implements OnInit {
     });
 
     if (!todasRespondidas) {
-      alert('Por favor, responda todas as perguntas antes de verificar!');
+      alert(this.msgAlerta);
       return;
     } else {
       this.verificarResposta();
 
-      const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
-      const passou = percentualAcertos >= 80; // Verifica se passou com 80% de acertos
+      const percentualAcertos = (this.acertos / totalPerguntas) * 100; 
+      const passou = percentualAcertos >= 80; 
 
-      this.resultado = `<b>Requisito para aprovação 80% de acertos:</b><br>`;
-      this.resultado += `Você acertou ${this.acertos} de ${totalPerguntas} perguntas!`;
-      this.resultado += ` <br>Porcentagem de acertos: ${percentualAcertos.toFixed(
-        2
-      )}%`;
+      this.resultado = `<b>${this.msgRequirement_approval}:</b><br>`;
+      this.resultado += `${this.msgVoce_acertou} ${this.acertos} de ${totalPerguntas} perguntas!`;
+      this.resultado += ` <br>${
+        this.msgPorcentagem_acertos
+      }: ${percentualAcertos.toFixed(2)}%`;
       this.resultado += passou
-        ? ' <br><b>Parabéns! Você passou!</b>'
-        : ' <br><b>Você não passou. Tente novamente!</b>';
+        ? ` <br><b>${this.msgParabens_voce_passou}</b>`
+        : ` <br><b>${this.msgVoce_nao_passou}</b>`;
 
       this.simuladoFinalizado = true;
     }
@@ -198,5 +217,26 @@ export class QuizComponent implements OnInit {
 
   navigateToQuiz() {
     window.location.reload();
+  }
+
+  carregarIdioma() {
+    const language = this.sessionStorageService.getItem('translateUse') || 'pt';
+
+    this.translationService.loadTranslations(language).subscribe(
+      (translations) => {
+        this.msgAlerta = translations.please_answer_the_question;
+        this.msgRequirement_approval = translations.requirement_for_approval;
+        this.msgVoce_acertou = translations.you_got_it_right;
+        this.msgVoce_errou = translations.you_got_it_wrong;
+        this.msgPorcentagem_acertos =
+          translations.percentage_of_correct_answers;
+       this.msgParabens_voce_passou = translations.congratulations_you_passed;
+       this.msgVoce_nao_passou = translations.you_didn_pass_try_again;
+        
+      },
+      (error) => {
+        console.error('Erro ao carregar as traduções:', error);
+      }
+    );
   }
 }

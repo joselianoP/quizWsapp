@@ -8,6 +8,7 @@ export interface Pergunta {
   opcoes: Opcao[]; // Array de opções, cada uma contendo texto e explicação
   respostaCorreta: string | string[]; // Resposta correta (pode ser uma string ou um array de strings)
   dominio: string; // Domínio da pergunta
+  dominioKey: string; // Domínio da pergunta
   tipo: string; // Tipo da pergunta (ex: single, multiple)
   fonteSimulado: string; // Tipo da pergunta (ex: single, multiple)
 }
