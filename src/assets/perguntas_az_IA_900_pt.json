@@ -1,0 +1,158 @@
+[
+  {
+    "pergunta": "Qual serviço do Azure é usado para criar bots de chat interativos que podem responder perguntas dos usuários?",
+    "opcoes": [
+      {
+        "texto": "Azure Bot Service",
+        "explicacao": "O Azure Bot Service permite criar e gerenciar bots interativos para diferentes plataformas."
+      },
+      {
+        "texto": "Azure Machine Learning",
+        "explicacao": "O Azure Machine Learning é usado para treinar e implantar modelos de aprendizado de máquina."
+      },
+      {
+        "texto": "Azure Cognitive Services",
+        "explicacao": "Embora forneça APIs para IA, não é especificamente usado para bots de chat."
+      },
+      {
+        "texto": "Azure Functions",
+        "explicacao": "As Azure Functions podem ser usadas como backend para bots, mas não são um serviço de bot específico."
+      }
+    ],
+    "respostaCorreta": "Azure Bot Service",
+    "dominio": "AI Services",
+    "dominioKey": "ai_services",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual serviço do Azure é usado para realizar análise de texto, como extração de sentimentos e identificação de palavras-chave?",
+    "opcoes": [
+      {
+        "texto": "Text Analytics",
+        "explicacao": "O Text Analytics faz parte do Azure Cognitive Services e realiza análise de texto."
+      },
+      {
+        "texto": "Azure Search",
+        "explicacao": "Azure Search é usado para criar mecanismos de busca, não análise de texto."
+      },
+      {
+        "texto": "Azure Machine Learning",
+        "explicacao": "O Azure Machine Learning treina modelos personalizados, mas não oferece análise de texto direta."
+      },
+      {
+        "texto": "Azure Data Factory",
+        "explicacao": "O Azure Data Factory é usado para integração de dados, não para análise de texto."
+      }
+    ],
+    "respostaCorreta": "Text Analytics",
+    "dominio": "AI Services",
+    "dominioKey": "ai_services",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual serviço do Azure permite treinar modelos de aprendizado de máquina com ferramentas visuais, sem precisar de código?",
+    "opcoes": [
+      {
+        "texto": "Azure Machine Learning Designer",
+        "explicacao": "O Designer oferece uma interface visual para construir e treinar modelos de aprendizado de máquina."
+      },
+      {
+        "texto": "Azure Data Factory",
+        "explicacao": "Azure Data Factory é usado para integração de dados, não para aprendizado de máquina."
+      },
+      {
+        "texto": "Azure DevOps",
+        "explicacao": "Azure DevOps é uma plataforma para gerenciamento de desenvolvimento, não aprendizado de máquina."
+      },
+      {
+        "texto": "Azure Cognitive Services",
+        "explicacao": "Azure Cognitive Services fornece APIs para IA, mas não treina modelos visuais."
+      }
+    ],
+    "respostaCorreta": "Azure Machine Learning Designer",
+    "dominio": "Machine Learning",
+    "dominioKey": "machine_learning",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual serviço do Azure é usado para transformar texto em fala e fala em texto?",
+    "opcoes": [
+      {
+        "texto": "Speech Service",
+        "explicacao": "O Speech Service do Azure Cognitive Services permite transformar texto em fala e vice-versa."
+      },
+      {
+        "texto": "Azure Synapse Analytics",
+        "explicacao": "Azure Synapse Analytics é usado para análise de dados, não para fala ou texto."
+      },
+      {
+        "texto": "Azure Bot Service",
+        "explicacao": "Embora usado para criar bots, ele não é responsável por converter texto em fala diretamente."
+      },
+      {
+        "texto": "Azure Functions",
+        "explicacao": "Azure Functions são usadas para executar código, mas não lidam com fala ou texto."
+      }
+    ],
+    "respostaCorreta": "Speech Service",
+    "dominio": "AI Services",
+    "dominioKey": "ai_services",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual serviço do Azure é usado para reconhecimento de imagens e objetos em fotos?",
+    "opcoes": [
+      {
+        "texto": "Computer Vision",
+        "explicacao": "O Computer Vision permite identificar objetos, texto e outras características em imagens."
+      },
+      {
+        "texto": "Azure Machine Learning",
+        "explicacao": "Azure Machine Learning é usado para criar modelos personalizados, mas não fornece APIs diretas para visão computacional."
+      },
+      {
+        "texto": "Azure Data Factory",
+        "explicacao": "Azure Data Factory é para integração de dados, não para análise de imagens."
+      },
+      {
+        "texto": "Azure Cognitive Services",
+        "explicacao": "Azure Cognitive Services é um conjunto de serviços, mas a visão computacional é fornecida pelo Computer Vision."
+      }
+    ],
+    "respostaCorreta": "Computer Vision",
+    "dominio": "AI Services",
+    "dominioKey": "ai_services",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual ferramenta do Azure permite simular e avaliar modelos de IA sem implantar em produção?",
+    "opcoes": [
+      {
+        "texto": "Azure Machine Learning Studio",
+        "explicacao": "O Azure Machine Learning Studio é usado para simular, treinar e avaliar modelos de IA."
+      },
+      {
+        "texto": "Azure Monitor",
+        "explicacao": "Azure Monitor é usado para monitorar recursos, não simular modelos de IA."
+      },
+      {
+        "texto": "Azure Data Lake",
+        "explicacao": "Azure Data Lake é uma solução de armazenamento, não de simulação de IA."
+      },
+      {
+        "texto": "Azure Synapse Analytics",
+        "explicacao": "Azure Synapse Analytics é usado para análise de dados em larga escala."
+      }
+    ],
+    "respostaCorreta": "Azure Machine Learning Studio",
+    "dominio": "Machine Learning",
+    "dominioKey": "machine_learning",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  }
+]

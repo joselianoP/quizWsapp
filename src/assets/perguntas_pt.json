@@ -1485,7 +1485,7 @@
       "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
       "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões."
     ],
-    "dominio": "Infraestrutura AWS",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "multiple"
   },
   {
@@ -48723,10 +48723,10 @@
       }
     ],
     "respostaCorreta": "Amazon Redshift",
-    "dominio": "Análise",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single",
     "fonteSimulado": "udemy",
-    "dominioKey": "analytics"
+    "dominioKey": "cloud_technology_and_services"
   },
   {
     "pergunta": "Qual ferramenta da AWS é usada para criar dashboards e relatórios interativos?",
@@ -48749,10 +48749,10 @@
       }
     ],
     "respostaCorreta": "Amazon QuickSight",
-    "dominio": "Análise",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single",
     "fonteSimulado": "udemy",
-    "dominioKey": "analytics"
+    "dominioKey": "cloud_technology_and_services"
   },
   {
     "pergunta": "Qual serviço é ideal para executar consultas SQL em dados armazenados no Amazon S3?",
@@ -48775,10 +48775,10 @@
       }
     ],
     "respostaCorreta": "Amazon Athena",
-    "dominio": "Análise",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single",
     "fonteSimulado": "udemy",
-    "dominioKey": "analytics"
+    "dominioKey": "cloud_technology_and_services"
   },
   {
     "pergunta": "Qual serviço da AWS permite processar grandes volumes de dados usando frameworks como Apache Spark e Hadoop?",
@@ -48801,9 +48801,9 @@
       }
     ],
     "respostaCorreta": "Amazon EMR",
-    "dominio": "Análise",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single",
-    "dominioKey": "analytics"
+    "dominioKey": "cloud_technology_and_services"
   },
   {
     "pergunta": "Qual serviço da AWS coleta, processa e analisa dados em tempo real?",
@@ -48826,10 +48826,10 @@
       }
     ],
     "respostaCorreta": "Amazon Kinesis",
-    "dominio": "Análise",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single",
     "fonteSimulado": "udemy",
-    "dominioKey": "analytics"
+    "dominioKey": "cloud_technology_and_services"
   },
   {
     "pergunta": "Qual serviço da AWS ajuda na descoberta automática de dados para ETL?",
@@ -48852,10 +48852,10 @@
       }
     ],
     "respostaCorreta": "AWS Glue",
-    "dominio": "Análise",
+    "dominio": "Tecnologia e serviços da nuvem",
     "tipo": "single",
     "fonteSimulado": "udemy",
-    "dominioKey": "analytics"
+    "dominioKey": "cloud_technology_and_services"
   },
   {
     "pergunta": "O que é o AWS WAF?",

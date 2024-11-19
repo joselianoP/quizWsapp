@@ -21,5 +21,7 @@
   "you_got_it_wrong": "Você errou",
   "percentage_of_correct_answers": "Porcentagem de acertos",
   "congratulations_you_passed": "Parabéns! Você passou!",
-  "you_didn_pass_try_again":"Você não passou. Tente novamente!"
+  "you_didn_pass_try_again": "Você não passou. Tente novamente!",
+  "ai_services": "AI Services",
+  "machine_learnin": "Machine Learning"
 }
