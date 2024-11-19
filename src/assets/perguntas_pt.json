@@ -48701,5 +48701,316 @@
     "dominio": "Tecnologia e serviços da nuvem",
     "dominioKey": "cloud_technology_and_services",
     "tipo": "single"
-  }
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite realizar análises de dados em larga escala?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorreto. O AWS Lambda é usado para computação sem servidor, não para análises de dados."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Correto. O Amazon Redshift é um armazém de dados projetado para análises em larga escala."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O Amazon S3 é usado para armazenamento de objetos, não para análise de dados."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "Incorreto. O AWS CloudTrail é usado para auditoria e monitoramento, não para análises de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon Redshift",
+    "dominio": "Análise",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Qual ferramenta da AWS é usada para criar dashboards e relatórios interativos?",
+    "opcoes": [
+      {
+        "texto": "Amazon QuickSight",
+        "explicacao": "Correto. O Amazon QuickSight é um serviço de BI para criar dashboards e relatórios."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorreto. O AWS Glue é usado para ETL, não para criação de dashboards."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Incorreto. O Amazon Athena é usado para consultas em dados no S3, mas não para dashboards."
+      },
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Incorreto. O Amazon EMR é usado para processar grandes volumes de dados, não para visualização."
+      }
+    ],
+    "respostaCorreta": "Amazon QuickSight",
+    "dominio": "Análise",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Qual serviço é ideal para executar consultas SQL em dados armazenados no Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorreto. O Amazon Redshift é um armazém de dados, mas não é usado diretamente para dados no S3."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Correto. O Amazon Athena é ideal para executar consultas SQL diretamente nos dados do S3."
+      },
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "Incorreto. O Amazon Kinesis é usado para processar dados em tempo real."
+      },
+      {
+        "texto": "AWS Data Pipeline",
+        "explicacao": "Incorreto. O AWS Data Pipeline é usado para orquestração de dados."
+      }
+    ],
+    "respostaCorreta": "Amazon Athena",
+    "dominio": "Análise",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Qual serviço da AWS permite processar grandes volumes de dados usando frameworks como Apache Spark e Hadoop?",
+    "opcoes": [
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorreto. O Amazon Redshift é um armazém de dados, não um serviço para frameworks como Spark."
+      },
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Correto. O Amazon EMR suporta frameworks como Apache Spark e Hadoop."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorreto. O AWS Glue é usado para ETL, não para processamento em larga escala com frameworks."
+      },
+      {
+        "texto": "Amazon QuickSight",
+        "explicacao": "Incorreto. O Amazon QuickSight é para visualização de dados, não para processamento."
+      }
+    ],
+    "respostaCorreta": "Amazon EMR",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Qual serviço da AWS coleta, processa e analisa dados em tempo real?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "Correto. O Amazon Kinesis é projetado para processar dados em tempo real."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorreto. O AWS Glue é usado para processos de ETL, não para análise em tempo real."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorreto. O Amazon Redshift é um armazém de dados e não lida com dados em tempo real."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Incorreto. O Amazon Athena é usado para consultas SQL em dados armazenados no S3."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Análise",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Qual serviço da AWS ajuda na descoberta automática de dados para ETL?",
+    "opcoes": [
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Correto. O AWS Glue possui um catálogo de dados para descoberta automática de esquemas."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Incorreto. O Amazon Athena é usado para consultas SQL, não para descoberta automática."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorreto. O Amazon Redshift é um armazém de dados, não uma ferramenta de ETL."
+      },
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Incorreto. O Amazon EMR é usado para processamento em larga escala, não para ETL."
+      }
+    ],
+    "respostaCorreta": "AWS Glue",
+    "dominio": "Análise",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "O que é o AWS WAF?",
+    "opcoes": [
+      {
+        "texto": "É um serviço que protege aplicações web contra ameaças comuns de segurança na web.",
+        "explicacao": "Correto. O AWS WAF protege contra ataques como SQL Injection e Cross-Site Scripting (XSS)."
+      },
+      {
+        "texto": "É uma ferramenta de gerenciamento de identidade e acesso na AWS.",
+        "explicacao": "Incorreto. Esse é o AWS IAM, não o AWS WAF."
+      },
+      {
+        "texto": "É um serviço para monitorar o tráfego de rede e detectar anomalias.",
+        "explicacao": "Incorreto. Esse é o Amazon GuardDuty."
+      },
+      {
+        "texto": "É um banco de dados relacional gerenciado pela AWS.",
+        "explicacao": "Incorreto. O AWS WAF não é relacionado a bancos de dados."
+      }
+    ],
+    "respostaCorreta": "É um serviço que protege aplicações web contra ameaças comuns de segurança na web.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "security_compliance"
+  },
+  {
+    "pergunta": "Qual é a principal função do AWS WAF?",
+    "opcoes": [
+      {
+        "texto": "Bloquear tráfego não autorizado para instâncias EC2.",
+        "explicacao": "Incorreto. Isso é função de um Security Group ou ACL de rede."
+      },
+      {
+        "texto": "Proteger aplicações web contra ataques como SQL Injection e Cross-Site Scripting (XSS).",
+        "explicacao": "Correto. Essa é a principal função do AWS WAF."
+      },
+      {
+        "texto": "Gerenciar autenticação de usuários na aplicação web.",
+        "explicacao": "Incorreto. A autenticação de usuários é feita por serviços como o Amazon Cognito."
+      },
+      {
+        "texto": "Armazenar logs de tráfego da aplicação web.",
+        "explicacao": "Incorreto. O AWS WAF pode gerar logs, mas essa não é sua principal função."
+      }
+    ],
+    "respostaCorreta": "Proteger aplicações web contra ataques como SQL Injection e Cross-Site Scripting (XSS).",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance"
+  },
+  {
+    "pergunta": "Qual recurso o AWS WAF utiliza para definir as regras de segurança?",
+    "opcoes": [
+      {
+        "texto": "Web ACL (Access Control List).",
+        "explicacao": "Correto. O AWS WAF utiliza Web ACLs para gerenciar regras de segurança."
+      },
+      {
+        "texto": "IAM Policies.",
+        "explicacao": "Incorreto. As IAM Policies são usadas para controle de acesso a recursos da AWS."
+      },
+      {
+        "texto": "Auto Scaling Groups.",
+        "explicacao": "Incorreto. Os Auto Scaling Groups são usados para escalar instâncias EC2."
+      },
+      {
+        "texto": "Elastic Load Balancer (ELB).",
+        "explicacao": "Incorreto. O ELB distribui tráfego, mas não gerencia regras de segurança diretamente."
+      }
+    ],
+    "respostaCorreta": "Web ACL (Access Control List).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "security_compliance"
+  },
+  {
+    "pergunta": "O AWS WAF pode ser integrado com quais serviços da AWS?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudFront e Application Load Balancer.",
+        "explicacao": "Correto. O AWS WAF é integrado com esses serviços para proteger tráfego de entrada."
+      },
+      {
+        "texto": "Amazon S3 e AWS Lambda.",
+        "explicacao": "Incorreto. O AWS WAF não é diretamente integrado ao S3 ou Lambda."
+      },
+      {
+        "texto": "Amazon RDS e AWS Glue.",
+        "explicacao": "Incorreto. O AWS WAF não é projetado para proteger bancos de dados ou serviços de ETL."
+      },
+      {
+        "texto": "AWS IAM e Amazon SNS.",
+        "explicacao": "Incorreto. Esses serviços não são integrados ao AWS WAF."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudFront e Application Load Balancer.",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance"
+  },
+  {
+    "pergunta": "Qual é o benefício de usar o AWS WAF Managed Rules?",
+    "opcoes": [
+      {
+        "texto": "Fornecer um conjunto pré-configurado de regras de segurança mantido por especialistas.",
+        "explicacao": "Correto. As Managed Rules são mantidas por fornecedores confiáveis e reduzem o trabalho de configuração manual."
+      },
+      {
+        "texto": "Reduzir o tráfego de rede usando compactação.",
+        "explicacao": "Incorreto. O AWS WAF não realiza compactação de tráfego."
+      },
+      {
+        "texto": "Armazenar logs de atividades de segurança.",
+        "explicacao": "Incorreto. O AWS WAF pode registrar logs, mas esse não é o propósito das Managed Rules."
+      },
+      {
+        "texto": "Configurar autenticação multi-fator para usuários da aplicação.",
+        "explicacao": "Incorreto. O AWS WAF não lida com autenticação de usuários."
+            }
+        ],
+        "respostaCorreta": "Fornecer um conjunto pré-configurado de regras de segurança mantido por especialistas.",
+        "tipo": "single",
+        "fonteSimulado": "udemy",
+        "dominio": "Segurança e conformidade",
+        "dominioKey": "security_compliance"
+      },
+      {
+        "pergunta": "Como o AWS WAF identifica padrões maliciosos no tráfego web?",
+        "opcoes": [
+          {
+            "texto": "Usando regras baseadas em padrões e listas de IP.",
+            "explicacao": "Correto. O AWS WAF usa regras e listas para detectar padrões maliciosos."
+          },
+          {
+            "texto": "Usando machine learning para prever ataques.",
+            "explicacao": "Incorreto. O AWS WAF não utiliza machine learning diretamente."
+          },
+          {
+            "texto": "Bloqueando todo o tráfego não autenticado.",
+            "explicacao": "Incorreto. O AWS WAF não bloqueia tráfego baseado apenas em autenticação."
+          },
+          {
+            "texto": "Criptografando todas as solicitações.",
+            "explicacao": "Incorreto. O AWS WAF não realiza criptografia de solicitações."
+          }
+        ],
+        "respostaCorreta": "Usando regras baseadas em padrões e listas de IP.",
+        "tipo": "single",
+        "fonteSimulado": "udemy",
+        "dominio": "Segurança e conformidade",
+        "dominioKey": "security_compliance"
+      }
 ]

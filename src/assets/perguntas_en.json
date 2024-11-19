@@ -9258,5 +9258,305 @@
     "dominio": "Segurança e conformidade",
     "dominioKey": "security_compliance",
     "tipo": "single"
-  }
+  },
+  {
+    "pergunta": "Which AWS service allows for large-scale data analysis?",
+    "opcoes": [
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Incorrect. AWS Lambda is used for serverless computing, not for data analysis."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Correct. Amazon Redshift is a data warehouse designed for large-scale analytics."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorrect. Amazon S3 is used for object storage, not for data analysis."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "Incorrect. AWS CloudTrail is used for auditing and monitoring, not for data analysis."
+      }
+    ],
+    "respostaCorreta": "Amazon Redshift",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Which AWS tool is used to create dashboards and interactive reports?",
+    "opcoes": [
+      {
+        "texto": "Amazon QuickSight",
+        "explicacao": "Correct. Amazon QuickSight is a BI service for creating dashboards and reports."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorrect. AWS Glue is used for ETL, not for creating dashboards."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Incorrect. Amazon Athena is used for querying data in S3, not for dashboards."
+      },
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Incorrect. Amazon EMR is used for processing large volumes of data, not for visualization."
+      }
+    ],
+    "respostaCorreta": "Amazon QuickSight",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Which service is ideal for executing SQL queries on data stored in Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorrect. Amazon Redshift is a data warehouse, but it is not used directly for data in S3."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Correct. Amazon Athena is ideal for executing SQL queries directly on data in S3."
+      },
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "Incorrect. Amazon Kinesis is used for processing real-time data."
+      },
+      {
+        "texto": "AWS Data Pipeline",
+        "explicacao": "Incorrect. AWS Data Pipeline is used for data orchestration."
+      }
+    ],
+    "respostaCorreta": "Amazon Athena",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Which AWS service allows processing large volumes of data using frameworks like Apache Spark and Hadoop?",
+    "opcoes": [
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorrect. Amazon Redshift is a data warehouse, not a service for frameworks like Spark."
+      },
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Correct. Amazon EMR supports frameworks like Apache Spark and Hadoop."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorrect. AWS Glue is used for ETL, not for large-scale processing with frameworks."
+      },
+      {
+        "texto": "Amazon QuickSight",
+        "explicacao": "Incorrect. Amazon QuickSight is for data visualization, not for processing."
+      }
+    ],
+    "respostaCorreta": "Amazon EMR",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Which AWS service collects, processes, and analyzes real-time data?",
+    "opcoes": [
+      {
+        "texto": "Amazon Kinesis",
+        "explicacao": "Correct. Amazon Kinesis is designed for processing real-time data."
+      },
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Incorrect. AWS Glue is used for ETL processes, not for real-time analysis."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorrect. Amazon Redshift is a data warehouse and does not handle real-time data."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Incorrect. Amazon Athena is used for SQL queries on data stored in S3."
+      }
+    ],
+    "respostaCorreta": "Amazon Kinesis",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "Which AWS service helps with the automatic discovery of data for ETL?",
+    "opcoes": [
+      {
+        "texto": "AWS Glue",
+        "explicacao": "Correct. AWS Glue has a data catalog for automatic schema discovery."
+      },
+      {
+        "texto": "Amazon Athena",
+        "explicacao": "Incorrect. Amazon Athena is used for SQL queries, not for automatic discovery."
+      },
+      {
+        "texto": "Amazon Redshift",
+        "explicacao": "Incorrect. Amazon Redshift is a data warehouse, not an ETL tool."
+      },
+      {
+        "texto": "Amazon EMR",
+        "explicacao": "Incorrect. Amazon EMR is used for large-scale processing, not for ETL."
+      }
+    ],
+    "respostaCorreta": "AWS Glue",
+    "dominio": "Análise",
+    "tipo": "single",
+    "dominioKey": "analytics"
+  },
+  {
+    "pergunta": "What is AWS WAF?",
+    "opcoes": [
+      {
+        "texto": "It is a service that protects web applications against common web security threats.",
+        "explicacao": "Correct. AWS WAF protects against attacks such as SQL Injection and Cross-Site Scripting (XSS)."
+      },
+      {
+        "texto": "It is an identity and access management tool in AWS.",
+        "explicacao": "Incorrect. That is AWS IAM, not AWS WAF."
+      },
+      {
+        "texto": "It is a service to monitor network traffic and detect anomalies.",
+        "explicacao": "Incorrect. This is Amazon GuardDuty."
+      },
+      {
+        "texto": "It is a relational database managed by AWS.",
+        "explicacao": "Incorrect. AWS WAF is not related to databases."
+      }
+    ],
+    "respostaCorreta": "It is a service that protects web applications against common web security threats.",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single",
+    "dominioKey": "security_compliance"
+  },
+  {
+    "pergunta": "What is the main function of AWS WAF?",
+    "opcoes": [
+      {
+        "texto": "Block unauthorized traffic to EC2 instances.",
+        "explicacao": "Incorrect. This is the role of a Security Group or Network ACL."
+      },
+      {
+        "texto": "Protect web applications against attacks such as SQL Injection and Cross-Site Scripting (XSS).",
+        "explicacao": "Correct. This is the main function of AWS WAF."
+      },
+      {
+        "texto": "Manage user authentication in the web application.",
+        "explicacao": "Incorrect. User authentication is done by services such as Amazon Cognito."
+      },
+      {
+        "texto": "Store web application traffic logs.",
+        "explicacao": "Incorrect. AWS WAF can generate logs, but this is not its main function."
+      }
+    ],
+    "respostaCorreta": "Protect web applications against attacks such as SQL Injection and Cross-Site Scripting (XSS).",
+    "dominio": "Segurança e conformidade",
+    "tipo": "single",
+    "dominioKey": "security_compliance"
+  },
+  {
+    "pergunta": "What resource does AWS WAF use to define security rules?",
+    "opcoes": [
+      {
+        "texto": "Web ACL (Access Control List).",
+        "explicacao": "Correct. AWS WAF uses Web ACLs to manage security rules."
+      },
+      {
+        "texto": "IAM Policies.",
+        "explicacao": "Incorrect. IAM Policies are used for access control to AWS resources."
+      },
+      {
+        "texto": "Auto Scaling Groups.",
+        "explicacao": "Incorrect. Auto Scaling Groups are used to scale EC2 instances."
+      },
+      {
+        "texto": "Elastic Load Balancer (ELB).",
+        "explicacao": "Incorrect. ELB distributes traffic, but it does not manage security rules directly."
+          }
+        ],
+        "respostaCorreta": "Web ACL (Access Control List).",
+        "dominio": "Segurança e conformidade",
+        "tipo": "single",
+        "dominioKey": "security_compliance"
+      },
+      {
+        "pergunta": "Which AWS services can AWS WAF be integrated with?",
+        "opcoes": [
+          {
+            "texto": "Amazon CloudFront and Application Load Balancer.",
+            "explicacao": "Correct. AWS WAF is integrated with these services to protect incoming traffic."
+          },
+          {
+            "texto": "Amazon S3 and AWS Lambda.",
+            "explicacao": "Incorrect. AWS WAF is not directly integrated with S3 or Lambda."
+          },
+          {
+            "texto": "Amazon RDS and AWS Glue.",
+            "explicacao": "Incorrect. AWS WAF is not designed to protect databases or ETL services."
+          },
+          {
+            "texto": "AWS IAM and Amazon SNS.",
+            "explicacao": "Incorrect. These services are not integrated with AWS WAF."
+          }
+        ],
+        "respostaCorreta": "Amazon CloudFront and Application Load Balancer.",
+        "dominio": "Segurança e conformidade",
+        "tipo": "single",
+        "dominioKey": "security_compliance"
+      },
+      {
+        "pergunta": "What is the benefit of using AWS WAF Managed Rules?",
+        "opcoes": [
+          {
+            "texto": "Provide a pre-configured set of security rules maintained by experts.",
+            "explicacao": "Correct. Managed Rules are maintained by trusted vendors and reduce the need for manual configuration."
+          },
+          {
+            "texto": "Reduce network traffic using compression.",
+            "explicacao": "Incorrect. AWS WAF does not perform traffic compression."
+          },
+          {
+            "texto": "Store security activity logs.",
+            "explicacao": "Incorrect. AWS WAF can log activities, but this is not the purpose of Managed Rules."
+          },
+          {
+            "texto": "Configure multi-factor authentication for application users.",
+            "explicacao": "Incorrect. AWS WAF does not handle user authentication."
+          }
+        ],
+        "respostaCorreta": "Provide a pre-configured set of security rules maintained by experts.",
+        "dominio": "Segurança e conformidade",
+        "tipo": "single",
+        "dominioKey": "security_compliance"
+      },
+      {
+        "pergunta": "How does AWS WAF identify malicious patterns in web traffic?",
+        "opcoes": [
+          {
+            "texto": "Using pattern-based rules and IP lists.",
+            "explicacao": "Correct. AWS WAF uses rules and lists to detect malicious patterns."
+          },
+          {
+            "texto": "Using machine learning to predict attacks.",
+            "explicacao": "Incorrect. AWS WAF does not use machine learning directly."
+          },
+          {
+            "texto": "Blocking all unauthenticated traffic.",
+            "explicacao": "Incorrect. AWS WAF does not block traffic based only on authentication."
+          },
+          {
+            "texto": "Encrypting all requests.",
+            "explicacao": "Incorrect. AWS WAF does not perform request encryption."
+          }
+        ],
+        "respostaCorreta": "Using pattern-based rules and IP lists.",
+        "dominio": "Segurança e conformidade",
+        "tipo": "single",
+        "dominioKey": "security_compliance"
+      }
 ]
