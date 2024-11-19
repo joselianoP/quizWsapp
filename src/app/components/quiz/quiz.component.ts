@@ -159,7 +159,7 @@ export class QuizComponent implements OnInit {
 
       const totalPerguntas = this.perguntas.length;
       const percentualAcertos = (this.acertos / totalPerguntas) * 100; // Cálculo da porcentagem de acertos
- 
+
       this.resultado = `<b>${this.msgRequirement_approval}:</b>`;
       this.resultado += `<br>${this.msgVoce_acertou} ${this.acertos}`;
       this.resultado += `<br>${this.msgVoce_errou} ${this.erros}`;
@@ -185,8 +185,8 @@ export class QuizComponent implements OnInit {
     } else {
       this.verificarResposta();
 
-      const percentualAcertos = (this.acertos / totalPerguntas) * 100; 
-      const passou = percentualAcertos >= 80; 
+      const percentualAcertos = (this.acertos / totalPerguntas) * 100;
+      const passou = percentualAcertos >= 80;
 
       this.resultado = `<b>${this.msgRequirement_approval}:</b><br>`;
       this.resultado += `${this.msgVoce_acertou} ${this.acertos} de ${totalPerguntas} perguntas!`;
@@ -232,7 +232,7 @@ export class QuizComponent implements OnInit {
           translations.percentage_of_correct_answers;
        this.msgParabens_voce_passou = translations.congratulations_you_passed;
        this.msgVoce_nao_passou = translations.you_didn_pass_try_again;
-        
+
       },
       (error) => {
         console.error('Erro ao carregar as traduções:', error);
