@@ -1,5 +1,71 @@
 [
   {
+    "pergunta": "O que são pontos de presença?",
+    "opcoes": [
+      {
+        "texto": "São data centers discretos na mesma zona de disponibilidade, que atuam na entrega da disponibilidade dos serviços.",
+        "explicacao": "Essa opção está incorreta. Pontos de presença (Points of Presence) não são data centers da zona de disponibilidade."
+      },
+      {
+        "texto": "É uma infraestrutura de servidores que atua como cache para diminuir a latência de usuários próximos.",
+        "explicacao": "Essa é a resposta correta. Pontos de presença são usados para serviços como Amazon CloudFront para melhorar o desempenho."
+      },
+      {
+        "texto": "É uma região geográfica da AWS.",
+        "explicacao": "Essa opção está incorreta. Pontos de presença não são regiões geográficas, mas sim locais distribuídos para otimizar serviços."
+      }
+    ],
+    "respostaCorreta": "É uma infraestrutura de servidores que atua como cache para diminuir a latência de usuários próximos.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "cloud_concepts"
+  },
+  {
+    "pergunta": "Você está recebendo uma equipe de auditoria na sua empresa e eles querem visitar o seu datacenter. Você explica que agora o seu datacenter está na Nuvem AWS e eles querem ir até lá por questão de compliance, segurança e conformidade. Podemos agendar uma visita ao datacenter da AWS?",
+    "opcoes": [
+      {
+        "texto": "Sim, é só agendar uma visita via página da AWS. E os relatórios de conformidade podem ser obtidos no AWS Artifact.",
+        "explicacao": "Essa opção está incorreta. Por questões de segurança, visitas aos datacenters da AWS não são permitidas. No entanto, relatórios de conformidade estão disponíveis no AWS Artifact."
+      },
+      {
+        "texto": "Não, as visitas são proibidas. Porém a AWS é continuamente auditada e os relatórios de conformidade podem ser obtidos no AWS Artifact.",
+        "explicacao": "Essa é a resposta correta. A AWS mantém seus datacenters em conformidade com padrões rigorosos, e os relatórios necessários podem ser acessados pelo AWS Artifact."
+      }
+    ],
+    "respostaCorreta": "Não, as visitas são proibidas. Porém a AWS é continuamente auditada e os relatórios de conformidade podem ser obtidos no AWS Artifact.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "cloud_concepts"
+  },
+  {
+    "pergunta": "Na Responsabilidade Compartilhada, quem é responsável por gerenciar a segurança?",
+    "opcoes": [
+      {
+        "texto": "While the AWS manages security IN the cloud, you are responsible for security OF the cloud. Enquanto a AWS gerencia a segurança NA nuvem, você é responsável pela segurança DA nuvem",
+        "explicacao": "A responsabilidade compartilhada implica que a AWS cuida da segurança na infraestrutura enquanto o cliente cuida dos dados, configurações e aplicações."
+      },
+      {
+        "texto": "While the AWS manages security OF the cloud, you are responsible for security IN the cloud. Enquanto a AWS gerencia a segurança DA nuvem, você é responsável pela segurança NA nuvem",
+        "explicacao": "A responsabilidade compartilhada significa que a AWS gerencia a segurança da infraestrutura, enquanto o cliente gerencia a segurança dentro do ambiente criado por ele."
+      },
+      {
+        "texto": "O gerenciamento da segurança é apenas da AWS",
+        "explicacao": "Essa afirmação está incorreta, pois a segurança é compartilhada entre a AWS e o cliente."
+      },
+      {
+        "texto": "O gerenciamento da segurança é apenas do cliente",
+        "explicacao": "Essa afirmação está incorreta, pois a AWS também é responsável por parte da segurança."
+      }
+    ],
+    "respostaCorreta": "While the AWS manages security OF the cloud, you are responsible for security IN the cloud. Enquanto a AWS gerencia a segurança DA nuvem, você é responsável pela segurança NA nuvem",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy",
+    "dominioKey": "cloud_concepts"
+  },
+  {
     "pergunta": "O que você NÃO pode fazer segundo o AWS Acceptable Use Policy?",
     "opcoes": [
       {
@@ -1827,7 +1893,7 @@
     "tipo": "single"
   },
   {
-    "pergunta": "O que são Zonas de Disponibilidade na AWS?",
+    "pergunta": "O que são Zonas de Disponibilidade?",
     "opcoes": [
       {
         "texto": "Data centers fisicamente separados dentro de uma região",
@@ -1849,7 +1915,8 @@
     "respostaCorreta": "Data centers fisicamente separados dentro de uma região",
     "dominio": "Conceitos da nuvem",
     "dominioKey": "cloud_concepts",
-    "tipo": "single"
+    "tipo": "single",
+    "fonteSimulado": "udemy"
   },
   {
     "pergunta": "O que é soberania de dados na computação em nuvem?",

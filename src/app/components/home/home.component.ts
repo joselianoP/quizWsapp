@@ -54,7 +54,6 @@ export class HomeComponent implements OnInit {
     this.perguntaService.getPerguntas().subscribe(
       (perguntas) => {
         console.log(perguntas);
-
         this.exportarEmLotes(perguntas);
       },
       (error) => {

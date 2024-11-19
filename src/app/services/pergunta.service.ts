@@ -63,9 +63,7 @@ export class PerguntaService {
     return this.http.get<Pergunta[]>(this.getulrJson()).pipe(
       map((perguntas) => {
         return perguntas.filter(
-          (pergunta) =>
-            pergunta.dominio === 'Conceitos da nuvem' &&
-            pergunta.tipo === 'multiple'
+          (pergunta) => pergunta.dominio === 'Segurança e conformidade'
         );
       })
     );

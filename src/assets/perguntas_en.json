@@ -1,5 +1,68 @@
 [
   {
+    "pergunta": "What are Points of Presence?",
+    "opcoes": [
+      {
+        "texto": "They are discrete data centers within the same availability zone, ensuring service availability.",
+        "explicacao": "This option is incorrect. Points of Presence are not data centers within an availability zone."
+      },
+      {
+        "texto": "It is a server infrastructure that acts as a cache to reduce latency for nearby users.",
+        "explicacao": "This is the correct answer. Points of Presence are used for services like Amazon CloudFront to enhance performance."
+      },
+      {
+        "texto": "It is an AWS geographic region.",
+        "explicacao": "This option is incorrect. Points of Presence are not geographic regions but distributed locations to optimize services."
+      }
+    ],
+    "respostaCorreta": "It is a server infrastructure that acts as a cache to reduce latency for nearby users.",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "dominioKey": "cloud_concepts"
+  },
+  {
+    "pergunta": "You are receiving an audit team in your company, and they want to visit your data center. You explain that your data center is now in the AWS Cloud, and they want to go there for compliance, security, and conformity purposes. Can we schedule a visit to the AWS data center?",
+    "opcoes": [
+      {
+        "texto": "Yes, just schedule a visit via the AWS website. Compliance reports can also be obtained through AWS Artifact.",
+        "explicacao": "This option is incorrect. For security reasons, visits to AWS data centers are not allowed. However, compliance reports are available through AWS Artifact."
+      },
+      {
+        "texto": "No, visits are prohibited. However, AWS is continuously audited, and compliance reports can be obtained through AWS Artifact.",
+        "explicacao": "This is the correct answer. AWS maintains its data centers in compliance with rigorous standards, and the required reports can be accessed through AWS Artifact."
+      }
+    ],
+    "respostaCorreta": "No, visits are prohibited. However, AWS is continuously audited, and compliance reports can be obtained through AWS Artifact.",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In Shared Responsibility, who is responsible for managing security?",
+    "opcoes": [
+      {
+        "texto": "While the AWS manages security IN the cloud, you are responsible for security OF the cloud. While AWS manages security IN the cloud, you are responsible for security OF the cloud",
+        "explicacao": "Shared responsibility implies that AWS takes care of the infrastructure's security while the client handles data, configurations, and applications."
+      },
+      {
+        "texto": "While the AWS manages security OF the cloud, you are responsible for security IN the cloud. While AWS manages security OF the cloud, you are responsible for security IN the cloud",
+        "explicacao": "Shared responsibility means AWS manages infrastructure security, while the client manages security within their created environment."
+      },
+      {
+        "texto": "The management of security is solely AWS's responsibility",
+        "explicacao": "This statement is incorrect because security is shared between AWS and the client."
+      },
+      {
+        "texto": "The management of security is solely the client's responsibility",
+        "explicacao": "This statement is incorrect because AWS is also responsible for part of the security."
+      }
+    ],
+    "respostaCorreta": "While the AWS manages security OF the cloud, you are responsible for security IN the cloud. While AWS manages security OF the cloud, you are responsible for security IN the cloud",
+    "dominio": "Conceitos da nuvem",
+    "tipo": "single",
+    "dominioKey": "cloud_concepts"
+  },
+  {
     "pergunta": "What are you NOT allowed to do according to the AWS Acceptable Use Policy?",
     "opcoes": [
       {
@@ -6683,5 +6746,2517 @@
     "dominio": "Conceitos da nuvem",
     "dominioKey": "cloud_concepts",
     "tipo": "multiple"
+  },
+  {
+    "pergunta": "Which service provides visibility into user activity, recording actions performed in your account?",
+    "opcoes": [
+      {
+        "texto": "Amazon CloudWatch",
+        "explicacao": "CloudWatch monitors resources and performance but does not log specific user activities."
+      },
+      {
+        "texto": "Amazon CloudFormation",
+        "explicacao": "CloudFormation manages infrastructure as code but does not log user activities."
+      },
+      {
+        "texto": "Amazon CloudTrail",
+        "explicacao": "CloudTrail logs all actions and activities performed in the account, providing a complete record for auditing."
+      },
+      {
+        "texto": "Amazon CloudHSM",
+        "explicacao": "CloudHSM is a hardware security encryption service and does not log user activities."
+      }
+    ],
+    "respostaCorreta": "Amazon CloudTrail",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Which of the following are recommended security measures when creating access to an AWS account? (choose two)",
+    "opcoes": [
+      {
+        "texto": "Grant administrator privilege access",
+        "explicacao": "Granting administrator privileges unnecessarily is not recommended."
+      },
+      {
+        "texto": "Grant least privilege access",
+        "explicacao": "Granting least privilege access reduces risks and improves security."
+      },
+      {
+        "texto": "Enable AWS CloudTrail",
+        "explicacao": "While CloudTrail logs account actions, enabling MFA is more crucial for securing access."
+      },
+      {
+        "texto": "Enable MFA",
+        "explicacao": "MFA adds an extra layer of security to account access."
+      }
+    ],
+    "respostaCorreta": [
+      "Grant least privilege access",
+      "Enable MFA"
+    ],
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "multiple",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Which of the following options help protect access to an AWS account?",
+    "opcoes": [
+      {
+        "texto": "Use CloudWatch Logs Insights",
+        "explicacao": "CloudWatch Logs Insights is used for log analysis and does not directly protect AWS account access."
+      },
+      {
+        "texto": "Enable AWS Organizations",
+        "explicacao": "AWS Organizations helps manage accounts but does not directly secure AWS account access."
+      },
+      {
+        "texto": "Use Multi-Factor Authentication (MFA)",
+        "explicacao": "MFA requires users to provide two forms of authentication before accessing an account, adding an extra layer of security."
+      },
+      {
+        "texto": "Enable AWS Config",
+        "explicacao": "AWS Config is used for configuration monitoring but does not directly impact securing account access."
+      }
+    ],
+    "respostaCorreta": "Use Multi-Factor Authentication (MFA)",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Which of the following services have Distributed Denial of Service (DDoS) attack mitigation features?",
+    "opcoes": [
+      {
+        "texto": "AWS KMS",
+        "explicacao": "AWS KMS is a key management service and does not offer DDoS mitigation."
+      },
+      {
+        "texto": "Security Groups",
+        "explicacao": "Security Groups control access to AWS instances but are not specifically designed for DDoS mitigation."
+      },
+      {
+        "texto": "AWS Shield",
+        "explicacao": "AWS Shield is a managed service for DDoS protection, offering automatic mitigation against such attacks."
+      },
+      {
+        "texto": "AWS Inspector",
+        "explicacao": "AWS Inspector is a security assessment service and not specialized in DDoS mitigation."
+      }
+    ],
+    "respostaCorreta": "AWS Shield",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "If you suspect your AWS account is compromised, what should you do? (choose two)",
+    "opcoes": [
+      {
+        "texto": "Delete the root user of your AWS account",
+        "explicacao": "Deleting the root user is not the recommended solution for a potential account compromise."
+      },
+      {
+        "texto": "Delete all your AWS resources",
+        "explicacao": "Deleting all resources does not solve the security issue and can cause further damage."
+      },
+      {
+        "texto": "Delete all potentially compromised IAM users and resources you did not create and change the passwords of all other IAM users.",
+        "explicacao": "The correct action is to remove compromised IAM users and change passwords to secure your account."
+      },
+      {
+        "texto": "Respond to all AWS Support notifications through the AWS Support Center",
+        "explicacao": "Responding to AWS Support notifications is an essential step to ensure account security."
+      }
+    ],
+    "respostaCorreta": [
+      "Delete all potentially compromised IAM users and resources you did not create and change the passwords of all other IAM users.",
+      "Respond to all AWS Support notifications through the AWS Support Center"
+    ],
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "multiple",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "How can you enable Multi-Factor Authentication (MFA) for an AWS account using a browser-based interface?",
+    "opcoes": [
+      {
+        "texto": "Using the IAM service through AWS command-line tools",
+        "explicacao": "While possible, configuring MFA via the command line is not done through a browser-based interface."
+      },
+      {
+        "texto": "Using the IAM service through the AWS Management Console",
+        "explicacao": "The correct way to enable MFA is through the AWS Management Console, a browser-based interface."
+      },
+      {
+        "texto": "Using the Amazon EC2 service through AWS SDKs",
+        "explicacao": "Amazon EC2 is not used to enable MFA, which is configured via IAM."
+      },
+      {
+        "texto": "Using an HTTPS IAM API",
+        "explicacao": "Using an API to configure MFA is not the browser-based solution."
+      }
+    ],
+    "respostaCorreta": "Using the IAM service through the AWS Management Console",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "What is the customer's responsibility in the AWS Shared Responsibility Model?",
+    "opcoes": [
+      {
+        "texto": "Manage the physical security of AWS facilities",
+        "explicacao": "This is AWS's responsibility, not the customer's."
+      },
+      {
+        "texto": "Manage the security of data stored in the cloud",
+        "explicacao": "Customers are responsible for securing the data they store in AWS."
+      },
+      {
+        "texto": "Ensure the resilience of AWS infrastructure",
+        "explicacao": "This responsibility lies with AWS."
+      },
+      {
+        "texto": "Protect the power grid of AWS regions",
+        "explicacao": "This is AWS's responsibility, not the customer's."
+      }
+    ],
+    "respostaCorreta": "Manage the security of data stored in the cloud",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which component is AWS's responsibility in the Shared Responsibility Model?",
+    "opcoes": [
+      {
+        "texto": "Physical security of facilities",
+        "explicacao": "AWS is responsible for the physical security of its facilities."
+      },
+      {
+        "texto": "Configuration of security groups",
+        "explicacao": "This responsibility belongs to the customer."
+      },
+      {
+        "texto": "Managing user credentials",
+        "explicacao": "This is a customer's responsibility."
+      },
+      {
+        "texto": "Implementing data encryption",
+        "explicacao": "This responsibility lies with the customer."
+      }
+    ],
+    "respostaCorreta": "Physical security of facilities",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following responsibilities belongs to the customer in AWS?",
+    "opcoes": [
+      {
+        "texto": "Updating security patches for AWS hardware",
+        "explicacao": "This is AWS's responsibility."
+      },
+      {
+        "texto": "Managing information security policies",
+        "explicacao": "The customer is responsible for managing their security policies."
+      },
+      {
+        "texto": "Protecting against natural disasters in AWS facilities",
+        "explicacao": "This is AWS's responsibility."
+      },
+      {
+        "texto": "Maintaining AWS network infrastructure",
+        "explicacao": "This responsibility lies with AWS."
+      }
+    ],
+    "respostaCorreta": "Managing information security policies",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is an example of a customer responsibility in the AWS Shared Responsibility Model?",
+    "opcoes": [
+      {
+        "texto": "Managing physical access to data centers",
+        "explicacao": "AWS manages the physical security of its data centers."
+      },
+      {
+        "texto": "Ensuring the physical resilience of AWS regions",
+        "explicacao": "This is AWS's responsibility."
+      },
+      {
+        "texto": "Configuring user access roles and policies",
+        "explicacao": "The customer is responsible for configuring user access roles and policies."
+      },
+      {
+        "texto": "Ensuring the availability of AWS services",
+        "explicacao": "This is AWS's responsibility."
+      }
+    ],
+    "respostaCorreta": "Configuring user access roles and policies",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which responsibility does not belong to the customer in the AWS Shared Responsibility Model?",
+    "opcoes": [
+      {
+        "texto": "Managing customer data",
+        "explicacao": "This responsibility belongs to the customer"
+      },
+      {
+        "texto": "Physical security of data centers",
+        "explicacao": "This responsibility belongs to AWS"
+      },
+      {
+        "texto": "Configuring security groups",
+        "explicacao": "This responsibility belongs to the customer"
+      },
+      {
+        "texto": "Identity and access management",
+        "explicacao": "This responsibility belongs to the customer"
+      }
+    ],
+    "respostaCorreta": "Physical security of data centers",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the context of the Shared Responsibility Model, who is responsible for configuring security measures at the application level?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "AWS provides the infrastructure, but application security is the customer's responsibility"
+      },
+      {
+        "texto": "Customer",
+        "explicacao": "The customer is responsible for configuring security measures at the application level"
+      },
+      {
+        "texto": "Both",
+        "explicacao": "Responsibility is shared, but the customer is responsible for configuration"
+      },
+      {
+        "texto": "Neither",
+        "explicacao": "Application security is the customer's responsibility"
+      }
+    ],
+    "respostaCorreta": "Customer",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is AWS responsible for in terms of data security?",
+    "opcoes": [
+      {
+        "texto": "Protecting customer data in transit and at rest",
+        "explicacao": "This is the customer's responsibility, although AWS provides tools for it"
+      },
+      {
+        "texto": "Security of the underlying hardware and infrastructure",
+        "explicacao": "AWS is responsible for hardware and infrastructure security"
+      },
+      {
+        "texto": "Implementing encryption for customer data",
+        "explicacao": "This responsibility belongs to the customer"
+      },
+      {
+        "texto": "Managing customer data backups",
+        "explicacao": "This responsibility belongs to the customer"
+      }
+    ],
+    "respostaCorreta": "Security of the underlying hardware and infrastructure",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the Shared Responsibility Model, who is responsible for ensuring compliance with regulations and policies?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "Although AWS helps, compliance responsibility lies with the customer"
+      },
+      {
+        "texto": "Customer",
+        "explicacao": "The customer is responsible for ensuring compliance with regulations and policies"
+      },
+      {
+        "texto": "Both",
+        "explicacao": "Responsibility is shared, but compliance lies with the customer"
+      },
+      {
+        "texto": "Neither",
+        "explicacao": "Compliance is the customer's responsibility"
+      }
+    ],
+    "respostaCorreta": "Customer",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following statements describes AWS's responsibility in the Shared Responsibility Model?",
+    "opcoes": [
+      {
+        "texto": "Managing data stored by the customer",
+        "explicacao": "This responsibility belongs to the customer"
+      },
+      {
+        "texto": "Maintaining the security of the infrastructure supporting services",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Configuring user access permissions",
+        "explicacao": "This responsibility belongs to the customer"
+      },
+      {
+        "texto": "Implementing encryption for customer data",
+        "explicacao": "This responsibility belongs to the customer"
+      }
+    ],
+    "respostaCorreta": "Maintaining the security of the infrastructure supporting services",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What must the customer do to ensure the security of their application on AWS?",
+    "opcoes": [
+      {
+        "texto": "Configure appropriate security credentials",
+        "explicacao": "The customer must ensure their security credentials are configured correctly"
+      },
+      {
+        "texto": "Maintain the physical security of data centers",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Install security hardware on their premises",
+        "explicacao": "This responsibility belongs to the customer but does not apply to cloud services"
+      },
+      {
+        "texto": "Manage the security of AWS's runtime environment",
+        "explicacao": "This responsibility belongs to the customer"
+      }
+    ],
+    "respostaCorreta": "Configure appropriate security credentials",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is one of the customer's primary responsibilities on AWS?",
+    "opcoes": [
+      {
+        "texto": "Managing the physical security of data centers",
+        "explicacao": "This responsibility belongs to AWS"
+      },
+      {
+        "texto": "Managing user credentials and access",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Maintaining AWS's network infrastructure",
+        "explicacao": "This responsibility belongs to AWS"
+      },
+      {
+        "texto": "Protecting AWS servers",
+        "explicacao": "This responsibility belongs to AWS"
+      }
+    ],
+    "respostaCorreta": "Managing user credentials and access",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the context of AWS, what must the customer do to protect their data?",
+    "opcoes": [
+      {
+        "texto": "Configure security groups and firewall rules",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Install and manage security hardware",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Maintain the security of AWS's infrastructure",
+        "explicacao": "This responsibility belongs to AWS"
+      },
+      {
+        "texto": "Manage the resilience of data centers",
+        "explicacao": "This responsibility belongs to AWS"
+      }
+    ],
+    "respostaCorreta": "Configure security groups and firewall rules",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following is the customer's responsibility regarding their applications on AWS?",
+    "opcoes": [
+      {
+        "texto": "Updating AWS's infrastructure software",
+        "explicacao": "This responsibility belongs to AWS"
+      },
+      {
+        "texto": "Implementing application-level security measures",
+        "explicacao": "The customer is responsible for implementing these measures"
+      },
+      {
+        "texto": "Managing the physical security of the runtime environment",
+        "explicacao": "This responsibility belongs to AWS"
+      },
+      {
+        "texto": "Maintaining AWS servers",
+        "explicacao": "This responsibility belongs to AWS"
+      }
+    ],
+    "respostaCorreta": "Implementing application-level security measures",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the Shared Responsibility Model, who is responsible for managing network configurations?",
+    "opcoes": [
+      {
+        "texto": "AWS",
+        "explicacao": "This responsibility belongs to the customer"
+      },
+      {
+        "texto": "Customer",
+        "explicacao": "The customer is responsible for managing network configurations"
+      },
+      {
+        "texto": "Both",
+        "explicacao": "While responsibility is shared, the customer manages their network configurations"
+      },
+      {
+        "texto": "Neither",
+        "explicacao": "Network configuration is the customer's responsibility"
+      }
+    ],
+    "respostaCorreta": "Customer",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the customer's responsibility regarding regulatory compliance in AWS?",
+    "opcoes": [
+      {
+        "texto": "Maintain compliance for the entire AWS infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Ensure their applications and data comply",
+        "explicacao": "The customer must ensure compliance"
+      },
+      {
+        "texto": "Implement security controls in the AWS runtime environment",
+        "explicacao": "This is a shared responsibility, but the customer must implement controls"
+      },
+      {
+        "texto": "Configure the physical security of the data center",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Ensure their applications and data comply",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following actions should the customer take to manage the security of their data in AWS?",
+    "opcoes": [
+      {
+        "texto": "Store data in a secure location provided by AWS",
+        "explicacao": "While AWS offers security, the customer must manage their data"
+      },
+      {
+        "texto": "Implement encryption for data in transit and at rest",
+        "explicacao": "This is a customer's responsibility"
+      },
+      {
+        "texto": "Protect the physical security of AWS facilities",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Manage the physical storage of data",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Implement encryption for data in transit and at rest",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Regarding identity management, what is a customer responsibility in AWS?",
+    "opcoes": [
+      {
+        "texto": "Manage AWS hardware security keys",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Create and manage users and permissions in AWS IAM",
+        "explicacao": "This is a customer responsibility"
+      },
+      {
+        "texto": "Protect AWS infrastructure from cyberattacks",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Maintain the physical security of servers",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Create and manage users and permissions in AWS IAM",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following statements is true about customer responsibilities in AWS?",
+    "opcoes": [
+      {
+        "texto": "AWS manages all application security",
+        "explicacao": "This is a customer responsibility"
+      },
+      {
+        "texto": "The customer is responsible for the security of the application they develop",
+        "explicacao": "The customer must ensure the security of their applications"
+      },
+      {
+        "texto": "AWS is responsible for ensuring compliance with local laws",
+        "explicacao": "While AWS provides tools, compliance is the customer's responsibility"
+      },
+      {
+        "texto": "Infrastructure security is entirely the customer's responsibility",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "The customer is responsible for the security of the application they develop",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What must the customer do to ensure the security of their infrastructure in AWS?",
+    "opcoes": [
+      {
+        "texto": "Configure and monitor audit logs",
+        "explicacao": "The customer must configure and monitor logs to ensure security"
+      },
+      {
+        "texto": "Maintain the physical security of AWS servers",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Manage the AWS data center",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Protect AWS facilities from natural disasters",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Configure and monitor audit logs",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the customer's responsibility when using AWS CloudTrail?",
+    "opcoes": [
+      {
+        "texto": "Automatically generate API activity logs",
+        "explicacao": "AWS CloudTrail generates logs automatically, but the customer must enable and configure it"
+      },
+      {
+        "texto": "Maintain the physical security of AWS facilities",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Manage the network infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Protect AWS servers",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Automatically generate API activity logs",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is one of AWS's primary responsibilities regarding security?",
+    "opcoes": [
+      {
+        "texto": "Manage the physical security of data centers",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Manage user credentials and access",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Implement application-level security",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Provide technical support to users",
+        "explicacao": "While AWS provides support, security responsibility differs"
+      }
+    ],
+    "respostaCorreta": "Manage the physical security of data centers",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following is AWS's responsibility?",
+    "opcoes": [
+      {
+        "texto": "Protect applications developed by customers",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Maintain the security of the underlying infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Manage user permissions",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Implement customer data security policies",
+        "explicacao": "This is the customer's responsibility"
+      }
+    ],
+    "respostaCorreta": "Maintain the security of the underlying infrastructure",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In AWS's Shared Responsibility Model, who is responsible for hardware security?",
+    "opcoes": [
+      {
+        "texto": "Customer",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "AWS",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Both",
+        "explicacao": "Although it's a shared model, hardware security is AWS's responsibility"
+      },
+      {
+        "texto": "Neither",
+        "explicacao": "Hardware security is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "AWS",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following is AWS's responsibility regarding its services?",
+    "opcoes": [
+      {
+        "texto": "Manage application security",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Provide physical and environmental security for data centers",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Implement authentication and access control",
+        "explicacao": "This is the customer's responsibility"
+      },
+      {
+        "texto": "Manage customer data",
+        "explicacao": "This is the customer's responsibility"
+      }
+    ],
+    "respostaCorreta": "Provide physical and environmental security for data centers",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is AWS responsible for providing in terms of compliance?",
+    "opcoes": [
+      {
+        "texto": "Compliance certifications for its services",
+        "explicacao": "AWS provides certifications to demonstrate compliance"
+      },
+      {
+        "texto": "Ensuring all client applications are compliant",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Managing client data",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Protecting client information across all regions",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Compliance certifications for its services",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is AWS's responsibility regarding security updates?",
+    "opcoes": [
+      {
+        "texto": "The client must apply all security updates",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "AWS must apply security updates to the infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "AWS is only responsible for physical security",
+        "explicacao": "This responsibility is broader"
+      },
+      {
+        "texto": "AWS has no responsibility for security updates",
+        "explicacao": "AWS is responsible for its infrastructure"
+      }
+    ],
+    "respostaCorreta": "AWS must apply security updates to the infrastructure",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In terms of data security, what is AWS responsible for?",
+    "opcoes": [
+      {
+        "texto": "Providing physical and environmental security",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Managing client data security",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Controlling who can access data",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Storing client data securely",
+        "explicacao": "While AWS stores data, the client must ensure security"
+      }
+    ],
+    "respostaCorreta": "Providing physical and environmental security",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In terms of customer support, what is AWS responsible for?",
+    "opcoes": [
+      {
+        "texto": "Managing the security of client applications",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Providing technical support and documentation",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Implementing access controls",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Protecting client infrastructure",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Providing technical support and documentation",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is AWS responsible for regarding infrastructure?",
+    "opcoes": [
+      {
+        "texto": "Managing the physical security of the infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Controlling who can access client infrastructure",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Implementing security measures in client applications",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Managing client user credentials",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Managing the physical security of the infrastructure",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following responsibilities belongs to AWS in the Shared Responsibility Model?",
+    "opcoes": [
+      {
+        "texto": "Controlling access to client applications",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Managing AWS's underlying infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Protecting client information",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Managing client data",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Managing AWS's underlying infrastructure",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which responsibility is shared between the client and AWS?",
+    "opcoes": [
+      {
+        "texto": "Physical infrastructure security",
+        "explicacao": "This responsibility is exclusive to AWS"
+      },
+      {
+        "texto": "Identity and access management",
+        "explicacao": "This responsibility is shared"
+      },
+      {
+        "texto": "Hardware maintenance",
+        "explicacao": "This responsibility is exclusive to AWS"
+      },
+      {
+        "texto": "Implementing network controls",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Identity and access management",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which is a shared responsibility between the client and AWS in terms of security?",
+    "opcoes": [
+      {
+        "texto": "Protecting the underlying infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Managing client data",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Providing physical security",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Updating operating system software",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Managing client data",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the AWS Shared Responsibility Model, who is responsible for application security configuration?",
+    "opcoes": [
+      {
+        "texto": "Client",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "AWS",
+        "explicacao": "This responsibility lies with the client"
+      },
+      {
+        "texto": "Both",
+        "explicacao": "This responsibility is shared"
+      },
+      {
+        "texto": "Neither",
+        "explicacao": "This is incorrect"
+      }
+    ],
+    "respostaCorreta": "Client",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What should AWS and the client do together to ensure security?",
+    "opcoes": [
+      {
+        "texto": "Monitor and audit access",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Manage physical security of data centers",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Protect hardware infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Control access to the public network",
+        "explicacao": "This responsibility lies with the client"
+      }
+    ],
+    "respostaCorreta": "Monitor and audit access",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following options is a shared responsibility in data protection?",
+    "opcoes": [
+      {
+        "texto": "Implement encryption for data at rest",
+        "explicacao": "This is the client's responsibility"
+      },
+      {
+        "texto": "Manage AWS infrastructure security",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Define data security policies",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Provide technical support to customers",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Define data security policies",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is a shared responsibility between the customer and AWS in managing security incidents?",
+    "opcoes": [
+      {
+        "texto": "Prevent physical attacks on data centers",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Develop an incident response plan",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Protect AWS cloud network",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Maintain the security of customer infrastructure",
+        "explicacao": "This is the client's responsibility"
+      }
+    ],
+    "respostaCorreta": "Develop an incident response plan",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following statements about shared responsibilities is correct?",
+    "opcoes": [
+      {
+        "texto": "AWS is responsible for all security matters",
+        "explicacao": "The client also has responsibilities"
+      },
+      {
+        "texto": "The client is responsible for managing the security of their applications",
+        "explicacao": "This is the client's responsibility"
+      },
+      {
+        "texto": "Both parties are responsible for physical security",
+        "explicacao": "This is AWS's exclusive responsibility"
+      },
+      {
+        "texto": "The client must ensure the security of AWS infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "The client is responsible for managing the security of their applications",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the context of compliance, what is a shared responsibility between the customer and AWS?",
+    "opcoes": [
+      {
+        "texto": "Manage AWS physical security",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Ensure compliance with data regulations",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Implement security measures for the infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Develop customer data security policies",
+        "explicacao": "This is the client's responsibility"
+      }
+    ],
+    "respostaCorreta": "Ensure compliance with data regulations",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is a shared responsibility regarding access control?",
+    "opcoes": [
+      {
+        "texto": "Manage access to physical infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Implement access controls to their applications",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Monitor AWS network traffic",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Provide security for underlying hardware",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Implement access controls to their applications",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What should AWS and the customer do together to ensure data security?",
+    "opcoes": [
+      {
+        "texto": "Protect physical infrastructure",
+        "explicacao": "This is AWS's responsibility"
+      },
+      {
+        "texto": "Perform security audits",
+        "explicacao": "This is a shared responsibility"
+      },
+      {
+        "texto": "Manage user credentials",
+        "explicacao": "This is the client's responsibility"
+      },
+      {
+        "texto": "Control physical access to data centers",
+        "explicacao": "This is AWS's responsibility"
+      }
+    ],
+    "respostaCorreta": "Perform security audits",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can AWS's security responsibilities change in a hybrid deployment model?",
+    "opcoes": [
+      {
+        "texto": "AWS takes over all security responsibilities",
+        "explicacao": "Responsibilities are shared"
+      },
+      {
+        "texto": "The client is responsible for local infrastructure security",
+        "explicacao": "In a hybrid model, the client assumes more responsibilities for local infrastructure"
+      },
+      {
+        "texto": "AWS's responsibilities are reduced",
+        "explicacao": "AWS still maintains responsibilities in its infrastructure"
+      },
+      {
+        "texto": "There are no changes in responsibilities",
+        "explicacao": "Responsibilities can change with the model"
+      }
+    ],
+    "respostaCorreta": "The client is responsible for local infrastructure security",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What can affect the customer's security responsibilities when using AWS managed services?",
+    "opcoes": [
+      {
+        "texto": "The customer has no responsibilities with managed services",
+        "explicacao": "The client still has responsibilities"
+      },
+      {
+        "texto": "The complexity of the managed service can alter responsibilities",
+        "explicacao": "The service complexity can affect responsibilities"
+      },
+      {
+        "texto": "All managed services transfer responsibility to AWS",
+        "explicacao": "Not all managed services are completely AWS's responsibility"
+      },
+      {
+        "texto": "There are no changes in responsibilities when using managed services",
+        "explicacao": "Responsibilities can change"
+      }
+    ],
+    "respostaCorreta": "The complexity of the managed service can alter responsibilities",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can responsibilities change if a customer decides to migrate to the public cloud?",
+    "opcoes": [
+      {
+        "texto": "The customer assumes all security responsibilities",
+        "explicacao": "AWS also assumes responsibilities"
+      },
+      {
+        "texto": "The customer may become less responsible for physical infrastructure",
+        "explicacao": "By migrating, the customer becomes less responsible for physical infrastructure"
+      },
+      {
+        "texto": "There are no changes in responsibilities",
+        "explicacao": "Responsibilities change with migration"
+      },
+      {
+        "texto": "AWS has no more responsibilities",
+        "explicacao": "AWS maintains its responsibilities"
+      }
+    ],
+    "respostaCorreta": "The customer may become less responsible for physical infrastructure",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What factors can alter a customer's responsibilities in AWS?",
+    "opcoes": [
+      {
+        "texto": "Type of service used",
+        "explicacao": "The type of service can change responsibilities"
+      },
+      {
+        "texto": "Number of users in the account",
+        "explicacao": "This is not necessarily a factor that changes responsibilities"
+      },
+      {
+        "texto": "Location of AWS data centers",
+        "explicacao": "This does not alter the client's responsibilities"
+      },
+      {
+        "texto": "Changes in AWS legislation",
+        "explicacao": "External legislation does not directly affect responsibilities in AWS"
+      }
+    ],
+    "respostaCorreta": "Type of service used",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can adopting new services change the customer's responsibilities?",
+    "opcoes": [
+      {
+        "texto": "Adopting services requires fewer customer responsibilities",
+        "explicacao": " it may increase responsibilities"
+      },
+      {
+        "texto": "New services may require new security controls",
+        "explicacao": " this can change the customer's responsibilities"
+      },
+      {
+        "texto": "New services are always fully AWS's responsibility",
+        "explicacao": " responsibilities are shared"
+      },
+      {
+        "texto": "There is no change in responsibilities when adopting new services",
+        "explicacao": " responsibilities may change"
+      }
+    ],
+    "respostaCorreta": "New services may require new security controls",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is one way customer responsibilities may increase with solution customization on AWS?",
+    "opcoes": [
+      {
+        "texto": "The customer is only responsible for initial setup",
+        "explicacao": " the customer is responsible for all configurations"
+      },
+      {
+        "texto": "Customization may require additional security measures",
+        "explicacao": " this increases the customer's responsibilities"
+      },
+      {
+        "texto": "AWS manages all customizations",
+        "explicacao": " the customer manages their customizations"
+      },
+      {
+        "texto": "There is no increase in responsibilities with customization",
+        "explicacao": " responsibilities may increase"
+      }
+    ],
+    "respostaCorreta": "Customization may require additional security measures",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can using development and test environments impact security responsibilities?",
+    "opcoes": [
+      {
+        "texto": "The customer has no responsibilities in development environments",
+        "explicacao": " the customer has responsibilities"
+      },
+      {
+        "texto": "Using additional environments can increase the customer's responsibilities",
+        "explicacao": " more environments can mean more responsibilities"
+      },
+      {
+        "texto": "AWS assumes all responsibilities in development environments",
+        "explicacao": " AWS maintains its responsibilities"
+      },
+      {
+        "texto": "There is no change in responsibilities when using development environments",
+        "explicacao": " responsibilities may change"
+      }
+    ],
+    "respostaCorreta": "Using additional environments can increase the customer's responsibilities",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can compliance responsibility change when transitioning to a new AWS service?",
+    "opcoes": [
+      {
+        "texto": "All AWS services guarantee automatic compliance",
+        "explicacao": " compliance still needs to be managed"
+      },
+      {
+        "texto": "The customer may need to adapt their compliance practices",
+        "explicacao": " this can change with new services"
+      },
+      {
+        "texto": "There is no change in compliance responsibilities",
+        "explicacao": " responsibilities may change"
+      },
+      {
+        "texto": "AWS assumes full responsibility for compliance",
+        "explicacao": " responsibilities are shared"
+      }
+    ],
+    "respostaCorreta": "The customer may need to adapt their compliance practices",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What can affect customer responsibility for data protection when using AWS?",
+    "opcoes": [
+      {
+        "texto": "The customer has no responsibilities for data protection",
+        "explicacao": " the customer is responsible for protecting their data"
+      },
+      {
+        "texto": "Adopting new services may require new protection measures",
+        "explicacao": " this can affect customer responsibilities"
+      },
+      {
+        "texto": "Customer responsibilities are always fixed",
+        "explicacao": " responsibilities may change"
+      },
+      {
+        "texto": "AWS manages all aspects of data protection",
+        "explicacao": " the customer also has responsibilities"
+      }
+    ],
+    "respostaCorreta": "Adopting new services may require new protection measures",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can using third-party tools change the customer's security responsibilities?",
+    "opcoes": [
+      {
+        "texto": "The customer does not need to worry about security",
+        "explicacao": " the customer still needs to manage security"
+      },
+      {
+        "texto": "The customer may have more integration and security responsibilities",
+        "explicacao": " using third-party tools can increase responsibilities"
+      },
+      {
+        "texto": "Customer responsibilities are always reduced with third-party tools",
+        "explicacao": " responsibilities may increase"
+      },
+      {
+        "texto": "There is no change in responsibilities when using third-party tools",
+        "explicacao": " responsibilities may change"
+      }
+    ],
+    "respostaCorreta": "The customer may have more integration and security responsibilities",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "When a company uses Amazon RDS, which customer responsibilities remain?",
+    "opcoes": [
+      {
+        "texto": "Managing backups and restores",
+        "explicacao": " AWS manages automatic backups, but the customer must configure them"
+      },
+      {
+        "texto": "Configuring and managing database security",
+        "explicacao": " the customer is responsible for setting and managing security configurations"
+      },
+      {
+        "texto": "Managing the underlying hardware",
+        "explicacao": " AWS manages the RDS hardware"
+      },
+      {
+        "texto": "Installing the operating system",
+        "explicacao": " AWS handles OS installation on RDS"
+      }
+    ],
+    "respostaCorreta": "Configuring and managing database security",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "With AWS Lambda, what is a responsibility the customer must assume?",
+    "opcoes": [
+      {
+        "texto": "Managing physical infrastructure",
+        "explicacao": " AWS manages physical infrastructure for Lambda"
+      },
+      {
+        "texto": "Defining and managing function code",
+        "explicacao": " the customer is responsible for managing Lambda function code"
+      },
+      {
+        "texto": "Configuring the underlying network",
+        "explicacao": " AWS manages the underlying network configuration"
+      },
+      {
+        "texto": "Managing load balancing",
+        "explicacao": " AWS manages load balancing for Lambda functions"
+      }
+    ],
+    "respostaCorreta": "Defining and managing function code",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "In the context of Amazon EC2, how can customer responsibilities change?",
+    "opcoes": [
+      {
+        "texto": "The customer is not responsible for instance security",
+        "explicacao": " the customer must manage instance security"
+      },
+      {
+        "texto": "The customer is responsible for all OS updates",
+        "explicacao": " the customer must manage OS updates and patches"
+      },
+      {
+        "texto": "AWS automatically manages EC2 scalability",
+        "explicacao": " the customer must configure EC2 scalability"
+      },
+      {
+        "texto": "AWS handles EC2 instance configuration",
+        "explicacao": " the customer configures their EC2 instances"
+      }
+    ],
+    "respostaCorreta": "The customer is responsible for all OS updates",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "When using Amazon RDS, what security aspects should the customer consider?",
+    "opcoes": [
+      {
+        "texto": "AWS fully manages database security",
+        "explicacao": " the customer must still manage some security aspects"
+      },
+      {
+        "texto": "Configuring security groups and access control",
+        "explicacao": " the customer must configure security groups and access control"
+      },
+      {
+        "texto": "The customer does not need to worry about encryption",
+        "explicacao": " the customer should consider data encryption"
+      },
+      {
+        "texto": "AWS manages all backups without customer intervention",
+        "explicacao": " the customer must configure and understand backup policies"
+      }
+    ],
+    "respostaCorreta": "Configuring security groups and access control",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How does using AWS Lambda change the customer's monitoring responsibilities?",
+    "opcoes": [
+      {
+        "texto": "The customer does not need to monitor Lambda functions",
+        "explicacao": " the customer must monitor their functions"
+      },
+      {
+        "texto": "The customer should configure monitoring and alarms for their functions",
+        "explicacao": " the customer is responsible for configuring monitoring"
+      },
+      {
+        "texto": "AWS automatically monitors all functions without customer intervention",
+        "explicacao": " the customer still needs to configure their monitoring"
+      },
+      {
+        "texto": "Monitoring is entirely unnecessary for Lambda functions",
+        "explicacao": " monitoring is essential"
+      }
+    ],
+    "respostaCorreta": "The customer should configure monitoring and alarms for their functions",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which customer responsibility is more relevant when using Amazon RDS compared to an on-premises solution?",
+    "opcoes": [
+      {
+        "texto": "Managing the underlying hardware",
+        "explicacao": " AWS manages the hardware"
+      },
+      {
+        "texto": "Managing database updates",
+        "explicacao": " the customer must manage and apply database updates"
+      },
+      {
+        "texto": "Physical security of the data center",
+        "explicacao": " physical security is AWS's responsibility"
+      },
+      {
+        "texto": "Installing the database",
+        "explicacao": " the customer does not need to install RDS"
+      }
+    ],
+    "respostaCorreta": "Managing database updates",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following responsibilities is shared when using AWS Lambda?",
+    "opcoes": [
+      {
+        "texto": "AWS manages the infrastructure and the customer manages the code",
+        "explicacao": " this is a shared responsibility"
+      },
+      {
+        "texto": "The customer manages all the infrastructure and AWS handles the code",
+        "explicacao": " AWS does not manage the customer's code"
+      },
+      {
+        "texto": "The customer is responsible for all function management",
+        "explicacao": " AWS also manages the infrastructure"
+      },
+      {
+        "texto": "Responsibility is entirely on AWS",
+        "explicacao": " responsibilities are shared"
+      }
+    ],
+    "respostaCorreta": "AWS manages the infrastructure and the customer manages the code",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "When using Amazon EC2, which of the following represents a customer responsibility?",
+    "opcoes": [
+      {
+        "texto": "Maintaining the physical security of the data center",
+        "explicacao": " AWS is responsible for physical security"
+      },
+      {
+        "texto": "Configuring the security of the EC2 instance",
+        "explicacao": " the customer must manage the instance's security"
+      },
+      {
+        "texto": "Managing the data center cooling system",
+        "explicacao": " AWS manages the data center infrastructure"
+      },
+      {
+        "texto": "Installing the operating system on the underlying infrastructure",
+        "explicacao": " AWS provides the operating system for EC2"
+      }
+    ],
+    "respostaCorreta": "Configuring the security of the EC2 instance",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How do responsibilities change when integrating AWS Lambda with other AWS services?",
+    "opcoes": [
+      {
+        "texto": "The customer no longer needs to manage anything",
+        "explicacao": " the customer still needs to manage their functions"
+      },
+      {
+        "texto": "The customer may have additional responsibilities depending on the integration",
+        "explicacao": " integrations can increase the customer's responsibilities"
+      },
+      {
+        "texto": "AWS assumes all responsibilities for integrations",
+        "explicacao": " the customer still has responsibilities in integrations"
+      },
+      {
+        "texto": "There is no change in responsibilities with integrations",
+        "explicacao": " responsibilities may change with integrations"
+      }
+    ],
+    "respostaCorreta": "The customer may have additional responsibilities depending on the integration",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following is an AWS responsibility when using Amazon RDS?",
+    "opcoes": [
+      {
+        "texto": "Managing the security and integrity of the database",
+        "explicacao": " AWS is responsible for managed database security"
+      },
+      {
+        "texto": "Configuring access to the database",
+        "explicacao": " the customer must configure database access"
+      },
+      {
+        "texto": "Managing specific user credentials",
+        "explicacao": " the customer manages access credentials"
+      },
+      {
+        "texto": "Performing queries on the database",
+        "explicacao": " the customer performs queries on RDS"
+      }
+    ],
+    "respostaCorreta": "Managing the security and integrity of the database",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Where can you find information about AWS compliance certifications?",
+    "opcoes": [
+      {
+        "texto": "On the AWS website's compliance section",
+        "explicacao": " the official AWS website provides detailed compliance certification information"
+      },
+      {
+        "texto": "On unverified third-party blogs",
+        "explicacao": " it is better to use official sources for reliable information"
+      },
+      {
+        "texto": "On AWS's social media portal",
+        "explicacao": " social media is not the primary source for compliance information"
+      },
+      {
+        "texto": "In online technology forums",
+        "explicacao": " forums may not have accurate compliance information"
+      }
+    ],
+    "respostaCorreta": "On the AWS website's compliance section",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which AWS document provides details about its security and compliance practices?",
+    "opcoes": [
+      {
+        "texto": "AWS Compliance Program",
+        "explicacao": " the AWS Compliance Program details AWS compliance practices"
+      },
+      {
+        "texto": "Environmental Impact Report",
+        "explicacao": " the environmental impact report does not focus on compliance"
+      },
+      {
+        "texto": "AWS Terms of Service",
+        "explicacao": " the terms of service do not detail compliance practices"
+      },
+      {
+        "texto": "AWS Product Documentation",
+        "explicacao": " product documentation may not address compliance"
+      }
+    ],
+    "respostaCorreta": "AWS Compliance Program",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Where can you access the AWS SOC 2 audit report?",
+    "opcoes": [
+      {
+        "texto": "In the compliance section of the AWS website",
+        "explicacao": " the AWS SOC 2 report can be found in the AWS website's compliance section"
+      },
+      {
+        "texto": "On a cloud provider comparison website",
+        "explicacao": " such information should be obtained directly from AWS"
+      },
+      {
+        "texto": "On the AWS blog",
+        "explicacao": " blogs do not contain audit reports"
+      },
+      {
+        "texto": "In technology discussion groups",
+        "explicacao": " such groups do not provide official reports"
+      }
+    ],
+    "respostaCorreta": "In the compliance section of the AWS website",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which resource provides access to AWS compliance certifications and documentation?",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": " AWS Artifact provides access to compliance and certification documents"
+      },
+      {
+        "texto": "AWS Well-Architected Tool",
+        "explicacao": " the Well-Architected Tool focuses on best practices, not compliance"
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": " CloudFormation is an infrastructure management tool"
+      },
+      {
+        "texto": "AWS Trusted Advisor",
+        "explicacao": " Trusted Advisor provides recommendations, not specifically on compliance"
+      }
+    ],
+    "respostaCorreta": "AWS Artifact",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the best way to check AWS privacy policies?",
+    "opcoes": [
+      {
+        "texto": "On AWS's official website in the privacy section",
+        "explicacao": "the privacy section on the official website provides the most updated policies"
+      },
+      {
+        "texto": "In news summaries about AWS",
+        "explicacao": "news may not have complete or accurate information"
+      },
+      {
+        "texto": "In user manuals for AWS products",
+        "explicacao": "product manuals do not detail privacy policies"
+      },
+      {
+        "texto": "In AWS tutorial videos",
+        "explicacao": "videos might not cover privacy policies"
+      }
+    ],
+    "respostaCorreta": "On AWS's official website in the privacy section",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How does AWS ensure compliance with regulations like GDPR?",
+    "opcoes": [
+      {
+        "texto": "By implementing security and privacy controls",
+        "explicacao": "AWS implements controls to meet regulations such as GDPR"
+      },
+      {
+        "texto": "By disregarding privacy regulations",
+        "explicacao": "AWS takes compliance seriously"
+      },
+      {
+        "texto": "By relying solely on customers for compliance",
+        "explicacao": "AWS also has its own compliance responsibilities"
+      },
+      {
+        "texto": "By only providing services in EU countries",
+        "explicacao": "AWS operates globally, not just in the EU"
+      }
+    ],
+    "respostaCorreta": "By implementing security and privacy controls",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Where can you find AWS's sector-specific compliance documentation?",
+    "opcoes": [
+      {
+        "texto": "In the compliance section of AWS's website",
+        "explicacao": "this section includes sector-specific documentation"
+      },
+      {
+        "texto": "In technical books about cloud computing",
+        "explicacao": "books might not have the most updated information"
+      },
+      {
+        "texto": "In AWS user forums",
+        "explicacao": "forums do not contain official documentation"
+      },
+      {
+        "texto": "Through AWS customer support",
+        "explicacao": "support can help, but documentation is found online"
+      }
+    ],
+    "respostaCorreta": "In the compliance section of AWS's website",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which AWS service allows customers to access and manage their compliance documents?",
+    "opcoes": [
+      {
+        "texto": "AWS Management Console",
+        "explicacao": "the Management Console allows access to compliance documents"
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "Lambda is for executing code, not managing documents"
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "CloudFormation is used for provisioning infrastructure"
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "CloudTrail is for auditing, not document management"
+      }
+    ],
+    "respostaCorreta": "AWS Management Console",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can AWS customers stay updated on changes to compliance policies?",
+    "opcoes": [
+      {
+        "texto": "Through official AWS announcements",
+        "explicacao": "AWS provides official announcements for compliance updates"
+      },
+      {
+        "texto": "By consulting unofficial blogs",
+        "explicacao": "it is better to use official sources"
+      },
+      {
+        "texto": "By following influencers on social media",
+        "explicacao": "social media may not have accurate information"
+      },
+      {
+        "texto": "In discussions in technology forums",
+        "explicacao": "forums are not a reliable source for compliance policies"
+      }
+    ],
+    "respostaCorreta": "Through official AWS announcements",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is one of the main resources AWS offers to assist with compliance?",
+    "opcoes": [
+      {
+        "texto": "AWS Compliance Center",
+        "explicacao": "the Compliance Center helps customers understand AWS compliance"
+      },
+      {
+        "texto": "AWS GameLift",
+        "explicacao": "GameLift is a solution for games, not compliance"
+      },
+      {
+        "texto": "AWS Elastic Beanstalk",
+        "explicacao": "Elastic Beanstalk is an application platform, not a compliance resource"
+      },
+      {
+        "texto": "AWS Step Functions",
+        "explicacao": "Step Functions is for application orchestration, not compliance"
+      }
+    ],
+    "respostaCorreta": "AWS Compliance Center",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "A tool from AWS to access compliance documents",
+        "explicacao": "AWS Artifact is a tool that provides access to audit reports and certifications"
+      },
+      {
+        "texto": "A cloud storage service",
+        "explicacao": "AWS Artifact is related to compliance, not storage"
+      },
+      {
+        "texto": "A tool for monitoring application performance",
+        "explicacao": "AWS Artifact is not used for performance monitoring"
+      },
+      {
+        "texto": "A solution for identity management",
+        "explicacao": "AWS Artifact focuses on compliance, not identity management"
+      }
+    ],
+    "respostaCorreta": "A tool from AWS to access compliance documents",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What type of document can you access through AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Audit reports and compliance certifications",
+        "explicacao": "AWS Artifact provides access to audit reports such as SOC and ISO"
+      },
+      {
+        "texto": "Infrastructure automation scripts",
+        "explicacao": "AWS Artifact focuses on compliance, not automation"
+      },
+      {
+        "texto": "Network configuration files",
+        "explicacao": "AWS Artifact does not store network configuration files"
+      },
+      {
+        "texto": "Real-time security logs",
+        "explicacao": "real-time security logs are not managed by AWS Artifact"
+      }
+    ],
+    "respostaCorreta": "Audit reports and compliance certifications",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can customers use AWS Artifact to support their compliance needs?",
+    "opcoes": [
+      {
+        "texto": "By downloading audit reports to meet regulatory requirements",
+        "explicacao": "customers can download reports like SOC 2, ISO 27001, and PCI to meet regulatory requirements"
+      },
+      {
+        "texto": "By creating secure database instances",
+        "explicacao": "AWS Artifact is not a database management tool"
+      },
+      {
+        "texto": "By monitoring network activity in real-time",
+        "explicacao": "Artifact does not provide network monitoring"
+      },
+      {
+        "texto": "By configuring automated security policies",
+        "explicacao": "Artifact is a document access tool, not a security configuration tool"
+      }
+    ],
+    "respostaCorreta": "By downloading audit reports to meet regulatory requirements",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following documents is available for download from AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "SOC 2 compliance report",
+        "explicacao": "the SOC 2 report is available for download from AWS Artifact"
+      },
+      {
+        "texto": "AWS billing reports",
+        "explicacao": "AWS Artifact focuses on compliance, not billing"
+      },
+      {
+        "texto": "Data backup files",
+        "explicacao": "AWS Artifact does not manage data backups"
+      },
+      {
+        "texto": "Resource usage logs",
+        "explicacao": "Artifact does not manage resource usage logs"
+      }
+    ],
+    "respostaCorreta": "SOC 2 compliance report",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What compliance standards does AWS Artifact provide access to reports for?",
+    "opcoes": [
+      {
+        "texto": "ISO 27001 and PCI DSS",
+        "explicacao": "AWS Artifact includes compliance reports for standards such as ISO 27001 and PCI DSS"
+      },
+      {
+        "texto": "NIST and CIS Controls",
+        "explicacao": "Although AWS supports NIST, AWS Artifact focuses on standards like ISO and PCI"
+      },
+      {
+        "texto": "GDPR only",
+        "explicacao": "Artifact covers a variety of standards, not just GDPR"
+      },
+      {
+        "texto": "FedRAMP only",
+        "explicacao": "Artifact also covers certifications beyond FedRAMP"
+      }
+    ],
+    "respostaCorreta": "ISO 27001 and PCI DSS",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the main benefit of using AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "Easy access to compliance reports to facilitate audits",
+        "explicacao": "AWS Artifact simplifies access to compliance documents for audits and regulatory requirements"
+      },
+      {
+        "texto": "Automatic provisioning of infrastructure resources",
+        "explicacao": "Artifact does not perform resource provisioning"
+      },
+      {
+        "texto": "Real-time security monitoring",
+        "explicacao": "Artifact does not offer security monitoring"
+      },
+      {
+        "texto": "Cost optimization for AWS services",
+        "explicacao": "Artifact focuses on compliance, not cost optimization"
+      }
+    ],
+    "respostaCorreta": "Easy access to compliance reports to facilitate audits",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How does AWS Artifact help businesses meet regulatory requirements?",
+    "opcoes": [
+      {
+        "texto": "By providing compliance reports and certifications for AWS services",
+        "explicacao": "AWS Artifact helps by providing compliance documents that can be used for audits"
+      },
+      {
+        "texto": "By monitoring the compliance of applications hosted on AWS",
+        "explicacao": "Artifact provides access to documents but does not directly monitor application compliance"
+      },
+      {
+        "texto": "By continuously assessing network compliance",
+        "explicacao": "Artifact does not perform automatic assessments"
+      },
+      {
+        "texto": "By managing user security permissions",
+        "explicacao": "Artifact is not a permission management tool"
+      }
+    ],
+    "respostaCorreta": "By providing compliance reports and certifications for AWS services",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following correctly describes AWS Artifact?",
+    "opcoes": [
+      {
+        "texto": "A tool to access and manage compliance documents",
+        "explicacao": "AWS Artifact is a tool used to access compliance reports and certifications"
+      },
+      {
+        "texto": "A service for monitoring application performance",
+        "explicacao": "AWS Artifact is not used for performance monitoring"
+      },
+      {
+        "texto": "A platform for creating custom compliance reports",
+        "explicacao": "AWS Artifact provides pre-defined reports, not custom ones"
+      },
+      {
+        "texto": "A compliance automation tool",
+        "explicacao": "Artifact does not automate compliance but facilitates access to documents"
+      }
+    ],
+    "respostaCorreta": "A tool to access and manage compliance documents",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which AWS service provides access to compliance reports like SOC and ISO?",
+    "opcoes": [
+      {
+        "texto": "AWS Artifact",
+        "explicacao": "AWS Artifact provides access to reports such as SOC and ISO"
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "CloudTrail is a service for activity logs, not compliance reports"
+      },
+      {
+        "texto": "AWS Trusted Advisor",
+        "explicacao": "Trusted Advisor provides optimization recommendations, not access to compliance reports"
+      },
+      {
+        "texto": "AWS IAM",
+        "explicacao": "IAM focuses on identity and access management, not compliance reports"
+      }
+    ],
+    "respostaCorreta": "AWS Artifact",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the primary role of AWS Artifact for AWS customers?",
+    "opcoes": [
+      {
+        "texto": "Providing access to compliance reports and certifications",
+        "explicacao": "AWS Artifact is a tool used to provide access to compliance documents"
+      },
+      {
+        "texto": "Providing automation tools for infrastructure provisioning",
+        "explicacao": "Artifact does not perform infrastructure automation"
+      },
+      {
+        "texto": "Managing user permissions and identities",
+        "explicacao": "Artifact does not manage identities and permissions"
+      },
+      {
+        "texto": "Monitoring AWS services usage in real-time",
+        "explicacao": "Artifact does not monitor usage in real-time"
+      }
+    ],
+    "respostaCorreta": "Providing access to compliance reports and certifications",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Why is it important to consider compliance needs in different geographic locations when using cloud services?",
+    "opcoes": [
+      {
+        "texto": "Because compliance regulations vary between countries",
+        "explicacao": "Different countries may have unique compliance and data privacy requirements"
+      },
+      {
+        "texto": "Because AWS availability zones are the same in all countries",
+        "explicacao": "Although there are global availability zones, compliance regulations vary"
+      },
+      {
+        "texto": "Because all data stored in the cloud is exempt from regulations",
+        "explicacao": "Data in the cloud is still subject to local regulations"
+      },
+      {
+        "texto": "Because AWS services are automatically compliant in all countries",
+        "explicacao": "Customers must ensure their services comply with local regulations"
+      }
+    ],
+    "respostaCorreta": "Because compliance regulations vary between countries",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following regulations affects data compliance in Europe?",
+    "opcoes": [
+      {
+        "texto": "General Data Protection Regulation (GDPR)",
+        "explicacao": "GDPR is a major data privacy regulation affecting all European Union countries"
+      },
+      {
+        "texto": "California Consumer Privacy Act (CCPA)",
+        "explicacao": "CCPA primarily applies to California residents in the US"
+      },
+      {
+        "texto": "FedRAMP",
+        "explicacao": "FedRAMP applies to US federal data and systems"
+      },
+      {
+        "texto": "Digital Millennium Copyright Act (DMCA)",
+        "explicacao": "DMCA is not directly related to data compliance in Europe"
+      }
+    ],
+    "respostaCorreta": "General Data Protection Regulation (GDPR)",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which sector is most impacted by regulations like HIPAA in the United States?",
+    "opcoes": [
+      {
+        "texto": "Healthcare sector",
+        "explicacao": "HIPAA (Health Insurance Portability and Accountability Act) regulates the protection of health information in the US"
+      },
+      {
+        "texto": "Financial sector",
+        "explicacao": "The financial sector is regulated by other standards like SOX"
+      },
+      {
+        "texto": "Manufacturing industry",
+        "explicacao": "HIPAA primarily targets the healthcare sector"
+      },
+      {
+        "texto": "Transportation sector",
+        "explicacao": "HIPAA is not directly related to the transportation sector"
+      }
+    ],
+    "respostaCorreta": "Healthcare sector",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which of the following regulations applies to financial data in the United States?",
+    "opcoes": [
+      {
+        "texto": "Sarbanes-Oxley (SOX)",
+        "explicacao": "SOX was created to enhance accountability in business management, especially in financial matters"
+      },
+      {
+        "texto": "GDPR",
+        "explicacao": "GDPR is mainly applicable in Europe"
+      },
+      {
+        "texto": "PCI DSS",
+        "explicacao": "While PCI DSS regulates credit card data, SOX governs broader financial data in the US"
+      },
+      {
+        "texto": "CCPA",
+        "explicacao": "CCPA regulates consumer data privacy in California, not specifically financial data"
+      }
+    ],
+    "respostaCorreta": "Sarbanes-Oxley (SOX)",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How does compliance with PCI DSS affect companies that process payments?",
+    "opcoes": [
+      {
+        "texto": "Companies must follow strict security standards to protect credit card information",
+        "explicacao": "PCI DSS imposes strict guidelines to protect customer payment data"
+      },
+      {
+        "texto": "Companies must file quarterly financial reports",
+        "explicacao": "PCI DSS focuses on payment data security, not financial reporting"
+      },
+      {
+        "texto": "Companies are automatically certified to operate in all regions",
+        "explicacao": "PCI DSS compliance requires ongoing validation processes"
+      },
+      {
+        "texto": "PCI DSS compliance exempts companies from other security regulations",
+        "explicacao": "Companies must comply with other relevant regulations in addition to PCI DSS"
+      }
+    ],
+    "respostaCorreta": "Companies must follow strict security standards to protect credit card information",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the impact of the General Data Protection Regulation (GDPR) for companies outside of Europe?",
+    "opcoes": [
+      {
+        "texto": "It affects companies that process data of European citizens, even if they are outside of Europe",
+        "explicacao": "GDPR applies to any company that processes data of EU citizens, regardless of their location"
+      },
+      {
+        "texto": "It only affects companies physically located in Europe",
+        "explicacao": "GDPR affects any company dealing with data of European citizens, regardless of location"
+      },
+      {
+        "texto": "It only applies to financial companies",
+        "explicacao": "GDPR is a privacy regulation that affects all sectors, not just financial"
+      },
+      {
+        "texto": "It has no impact outside of Europe",
+        "explicacao": "GDPR affects companies globally that process data of EU residents"
+      }
+    ],
+    "respostaCorreta": "It affects companies that process data of European citizens, even if they are outside of Europe",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "Which sectors are most impacted by compliance with the Health Insurance Portability and Accountability Act (HIPAA)?",
+    "opcoes": [
+      {
+        "texto": "Sectors dealing with health information",
+        "explicacao": "HIPAA regulates the protection of sensitive health information"
+      },
+      {
+        "texto": "Education sectors",
+        "explicacao": "HIPAA regulates health information, while FERPA regulates educational data"
+      },
+      {
+        "texto": "E-commerce sectors",
+        "explicacao": "HIPAA regulates health information, not e-commerce"
+      },
+      {
+        "texto": "Manufacturing sectors",
+        "explicacao": "HIPAA is focused on the healthcare sector"
+      }
+    ],
+    "respostaCorreta": "Sectors dealing with health information",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How does AWS help ensure compliance in different geographic locations?",
+    "opcoes": [
+      {
+        "texto": "By offering services in different regions with local compliance",
+        "explicacao": "AWS operates in multiple regions that comply with local privacy and security regulations"
+      },
+      {
+        "texto": "By ensuring all services are the same across all regions",
+        "explicacao": "Services may vary according to local compliance needs"
+      },
+      {
+        "texto": "By centralizing all data in a single region",
+        "explicacao": "AWS allows customers to choose regions to store data based on compliance requirements"
+      },
+      {
+        "texto": "By not allowing customer data to leave its originating region",
+        "explicacao": "AWS allows data transfer between regions but with compliance controls"
+      }
+    ],
+    "respostaCorreta": "By offering services in different regions with local compliance",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "What is the importance of regional compliance when using AWS services?",
+    "opcoes": [
+      {
+        "texto": "Compliance and privacy laws can vary between regions",
+        "explicacao": "Different regions may have different regulations affecting data storage and processing"
+      },
+      {
+        "texto": "All data is always treated the same way in any region",
+        "explicacao": "Compliance varies between regions"
+      },
+      {
+        "texto": "AWS services are automatically compliant in all regions",
+        "explicacao": "Customers need to ensure compliance according to the region's requirements"
+      },
+      {
+        "texto": "Data is always encrypted the same way across all regions",
+        "explicacao": "Encryption needs may vary based on local regulations"
+      }
+    ],
+    "respostaCorreta": "Compliance and privacy laws can vary between regions",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "How can AWS Artifact help customers with their compliance needs?",
+    "opcoes": [
+      {
+        "texto": "By providing access to compliance reports across multiple regions and sectors",
+        "explicacao": "AWS Artifact provides reports that help businesses ensure compliance with local and sector regulations"
+      },
+      {
+        "texto": "By generating quarterly financial reports",
+        "explicacao": "Artifact is not related to financial reporting"
+      },
+      {
+        "texto": "By managing user identity data",
+        "explicacao": "Artifact does not handle identity management"
+      },
+      {
+        "texto": "By automatically configuring security permissions",
+        "explicacao": "Artifact does not manage security permissions directly"
+      }
+    ],
+    "respostaCorreta": "By providing access to compliance reports across multiple regions and sectors",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "A company is looking to protect its resources in AWS. What security best practice does AWS recommend to protect accounts and access resources?",
+    "opcoes": [
+      {
+        "texto": "Enable multi-factor authentication (MFA)",
+        "explicacao": "AWS recommends enabling MFA to secure account access"
+      },
+      {
+        "texto": "Share access keys with the development team",
+        "explicacao": "Sharing access keys compromises security"
+      },
+      {
+        "texto": "Disable data encryption at rest",
+        "explicacao": "Data encryption is crucial for security"
+      },
+      {
+        "texto": "Use administrator credentials for all operations",
+        "explicacao": "It is recommended to use the principle of least privilege"
+      }
+    ],
+    "respostaCorreta": "Enable multi-factor authentication (MFA)",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "A company is developing a new application in AWS and wants to protect its data. Which option offers the best protection for data at rest?",
+    "opcoes": [
+      {
+        "texto": "Enable encryption on Amazon EBS volumes",
+        "explicacao": "Amazon EBS volume encryption protects data at rest"
+      },
+      {
+        "texto": "Store data without encryption",
+        "explicacao": "Storing data without encryption may compromise security"
+      },
+      {
+        "texto": "Share storage volumes with all users",
+        "explicacao": "Unrestricted sharing compromises security"
+      },
+      {
+        "texto": "Disable CloudWatch log records",
+        "explicacao": "Disabling logs can make auditing and security more difficult"
+      }
+    ],
+    "respostaCorreta": "Enable encryption on Amazon EBS volumes",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "To protect the company's network in AWS, which service can be used to monitor network traffic and detect malicious activities?",
+    "opcoes": [
+      {
+        "texto": "AWS GuardDuty",
+        "explicacao": "AWS GuardDuty monitors and detects malicious activities and threats"
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "S3 is used for data storage"
+      },
+      {
+        "texto": "Amazon EC2",
+        "explicacao": "EC2 is a computing service, not a security monitoring service"
+      },
+      {
+        "texto": "AWS CodeDeploy",
+        "explicacao": "CodeDeploy is used to automate deployments"
+      }
+    ],
+    "respostaCorreta": "AWS GuardDuty",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
+  },
+  {
+    "pergunta": "A company wants to protect access to its Amazon EC2 instances. What security measure should be implemented?",
+    "opcoes": [
+      {
+        "texto": "Use security groups to control inbound and outbound traffic",
+        "explicacao": "Security groups act as a virtual firewall to control traffic"
+      },
+      {
+        "texto": "Disable all inbound traffic to EC2 instances",
+        "explicacao": "Completely disabling inbound traffic may affect application functionality"
+      },
+      {
+        "texto": "Allow unrestricted inbound traffic from the internet",
+        "explicacao": "Unrestricted inbound traffic increases security risks"
+      },
+      {
+        "texto": "Disable encryption for Amazon EBS volumes",
+        "explicacao": "Encryption should be enabled to protect data at rest"
+      }
+    ],
+    "respostaCorreta": "Use security groups to control inbound and outbound traffic",
+    "dominio": "Segurança e conformidade",
+    "dominioKey": "security_compliance",
+    "tipo": "single"
   }
 ]
