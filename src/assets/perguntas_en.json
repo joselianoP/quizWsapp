@@ -1,5 +1,61 @@
 [
   {
+    "pergunta": "Your operational manager wants to be notified if the department's budget exceeds cloud expenses. Which service can we use to meet this request?",
+    "opcoes": [
+      {
+        "texto": "AWS Budgets",
+        "explicacao": "AWS Budgets is used to monitor and set alerts based on budget and spending."
+      },
+      {
+        "texto": "AWS Cost Explorer",
+        "explicacao": "Cost Explorer is used to analyze and visualize costs but does not provide automated alerts based on budget."
+      },
+      {
+        "texto": "AWS Pricing Calculator",
+        "explicacao": "Pricing Calculator is used to estimate costs before deploying services but does not provide alerts."
+      },
+      {
+        "texto": "Savings Plans",
+        "explicacao": "Savings Plans are cost-saving plans but do not provide monitoring or budget alerts."
+      },
+      {
+        "texto": "None of the above",
+        "explicacao": "The correct answer is among the options provided, which is AWS Budgets."
+      }
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "cloud_technology_and_services": "cloud_concepts",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "What is an AWS Free Tier account?",
+    "opcoes": [
+      {
+        "texto": "These are free tier offers that do not expire.",
+        "explicacao": "Offers that do not expire are part of the Free Tier but do not cover all conditions."
+      },
+      {
+        "texto": "These are free tier offers that expire in 12 months.",
+        "explicacao": "This is only part of the AWS Free Tier offers, which also include non-expiring options."
+      },
+      {
+        "texto": "These are paid offers.",
+        "explicacao": "The AWS Free Tier is free, not a paid tier."
+      },
+      {
+        "texto": "These are a set of free tier offers (that do not expire), free tier offers that expire in 12 months, and short-term trials.",
+        "explicacao": "This definition correctly covers all categories of offers included in the AWS Free Tier."
+      }
+    ],
+    "respostaCorreta": "These are a set of free tier offers (that do not expire), free tier offers that expire in 12 months, and short-term trials.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "cloud_technology_and_services": "cloud_concepts",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
     "pergunta": "What are Points of Presence?",
     "opcoes": [
       {
@@ -9558,5 +9614,2419 @@
         "dominio": "Segurança e conformidade",
         "tipo": "single",
         "dominioKey": "security_compliance"
+      },
+      {
+        "pergunta": "Which of the following is an AWS service that acts as a Domain Name System (DNS)?",
+        "opcoes": [
+          {
+            "texto": "Amazon Route 53",
+            "explicacao": "Amazon Route 53 is a scalable and highly available DNS service."
+          },
+          {
+            "texto": "Amazon Lightsail",
+            "explicacao": "Amazon Lightsail is a hosting service and does not function as a DNS."
+          },
+          {
+            "texto": "AWS Snowball",
+            "explicacao": "AWS Snowball is a data transport solution and not a DNS service."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect is a dedicated network connection solution, not a DNS service."
+          }
+        ],
+        "respostaCorreta": "Amazon Route 53",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which AWS feature allows an international company to deliver low-latency applications to its customers worldwide?",
+        "opcoes": [
+          {
+            "texto": "Elasticity",
+            "explicacao": "Elasticity refers to resource adjustment capabilities, not specifically to global low latency."
+          },
+          {
+            "texto": "Fault tolerance",
+            "explicacao": "Fault tolerance aids resilience but does not ensure global low latency."
+          },
+          {
+            "texto": "High availability",
+            "explicacao": "High availability is crucial for uptime but does not directly address global low latency."
+          },
+          {
+            "texto": "Global reach",
+            "explicacao": "Global reach enables low latency by placing resources close to customers in various regions."
+          }
+        ],
+        "respostaCorreta": "Global reach",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which of the following statements are true? (Choose two)",
+        "opcoes": [
+          {
+            "texto": "Amazon CloudFront allows caching content at Edge Locations for quick distribution to clients.",
+            "explicacao": "Amazon CloudFront uses Edge Locations to cache and quickly distribute content to clients, improving content delivery experience."
+          },
+          {
+            "texto": "There are more availability zones than edge locations and more edge locations than regions.",
+            "explicacao": "This statement is incorrect. There are more edge locations than availability zones, as they are designed to bring content delivery closer to users."
+          },
+          {
+            "texto": "There are more edge locations than availability zones and more availability zones than regions.",
+            "explicacao": "This statement is correct. Edge locations outnumber availability zones, and availability zones are more numerous than regions."
+          },
+          {
+            "texto": "There are more regions than edge locations and more edge locations than availability zones.",
+            "explicacao": "This statement is incorrect. Regions are larger geographic units, with fewer units compared to edge locations and availability zones."
+          }
+        ],
+        "respostaCorreta": [
+          "Amazon CloudFront allows caching content at Edge Locations for quick distribution to clients.",
+          "There are more edge locations than availability zones and more availability zones than regions."
+        ],
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "multiple",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which of the following is an AWS data transfer service used to migrate and transport petabyte-scale datasets in and out of AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS Snowball",
+            "explicacao": "AWS Snowball is designed to migrate large volumes of data at petabyte scale quickly and securely."
+          },
+          {
+            "texto": "AWS Snowcone",
+            "explicacao": "Snowcone is suitable for smaller transfers and not for large-scale data volumes."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "Direct Connect is a dedicated network connection but not suitable for large-scale physical data migration."
+          },
+          {
+            "texto": "AWS Storage Gateway",
+            "explicacao": "Storage Gateway connects on-premises environments to AWS but is not a physical large-scale data transfer service."
+          }
+        ],
+        "respostaCorreta": "AWS Snowball",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "When a Windows and Linux (excluding SUSE) spot instance is interrupted by Amazon EC2, what happens to the billing?",
+        "opcoes": [
+          {
+            "texto": "If Amazon EC2 interrupts the spot instance in the first hour, you are charged for the seconds used.",
+            "explicacao": "If the instance is interrupted within the first hour, you are charged for the seconds used."
+          },
+          {
+            "texto": "If Amazon EC2 interrupts the spot instance in the first hour, there is no charge.",
+            "explicacao": "If the instance is interrupted within the first hour, you are not charged."
+          },
+          {
+            "texto": "If Amazon EC2 interrupts the spot instance after the first hour, you are not billed.",
+            "explicacao": "If the interruption occurs after the first hour, billing is adjusted based on time used."
+          }
+        ],
+        "respostaCorreta": "If Amazon EC2 interrupts the spot instance in the first hour, there is no charge.",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which AWS security service assesses applications to enhance their security and compliance?",
+        "opcoes": [
+          {
+            "texto": "AWS Service Health Dashboard",
+            "explicacao": "AWS Service Health Dashboard displays the status of AWS services but does not assess application security."
+          },
+          {
+            "texto": "AWS X-Ray",
+            "explicacao": "AWS X-Ray is used for debugging and tracing applications but not for security."
+          },
+          {
+            "texto": "AWS Inspector",
+            "explicacao": "AWS Inspector is designed to assess application security and identify vulnerabilities."
+          },
+          {
+            "texto": "AWS Trusted Advisor",
+            "explicacao": "AWS Trusted Advisor offers general security recommendations but does not perform application security assessments."
+          }
+        ],
+        "respostaCorreta": "AWS Inspector",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which of the following indicates how AWS Lambda pricing works?",
+        "opcoes": [
+          {
+            "texto": "Customers pay an upfront fee for a 1-year contract",
+            "explicacao": "This does not apply to AWS Lambda, which is billed based on usage."
+          },
+          {
+            "texto": "Customers are charged based on the number of Lambda function requests and code execution duration.",
+            "explicacao": "AWS Lambda charges based on the number of requests and code execution duration."
+          },
+          {
+            "texto": "Customers are billed based solely on the number of Lambda function requests.",
+            "explicacao": "Pricing also depends on the duration of code execution."
+          },
+          {
+            "texto": "Customers are charged based on the duration it takes for a Lambda function code to execute.",
+            "explicacao": "Pricing includes both the number of requests and execution duration."
+          }
+        ],
+        "respostaCorreta": "Customers are charged based on the number of Lambda function requests and code execution duration.",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which AWS service is used to automatically build your code, enabling continuous build, test, and deployment of applications?",
+        "opcoes": [
+          {
+            "texto": "AWS CodeDeploy",
+            "explicacao": "AWS CodeDeploy automates deployments but does not build code."
+          },
+          {
+            "texto": "AWS CodePipeline",
+            "explicacao": "AWS CodePipeline orchestrates the CI/CD process but does not build code."
+          },
+          {
+            "texto": "AWS CodeBuild",
+            "explicacao": "AWS CodeBuild is the service that compiles the code and runs integration tests."
+          },
+          {
+            "texto": "AWS CodeCommit",
+            "explicacao": "AWS CodeCommit is a version control service but does not automatically build or test code."
+          }
+        ],
+        "respostaCorreta": "AWS CodeBuild",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which of the following AWS services can be used to store and archive data for 5 years at the lowest cost?",
+        "opcoes": [
+          {
+            "texto": "Amazon S3",
+            "explicacao": "Amazon S3 is ideal for general storage but is not the cheapest option for long-term archiving."
+          },
+          {
+            "texto": "Amazon EFS",
+            "explicacao": "Amazon EFS is used for shared file storage but is not the most cost-effective solution for long-term archiving."
+          },
+          {
+            "texto": "Amazon Snowball",
+            "explicacao": "Amazon Snowball is used for transferring large volumes of data but is not the best option for long-term archiving."
+          },
+          {
+            "texto": "Amazon S3 Glacier",
+            "explicacao": "Amazon S3 Glacier offers low-cost storage for long-term data archiving and is the best solution for this scenario."
+          }
+        ],
+        "respostaCorreta": "Amazon S3 Glacier",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "A company wants to migrate to AWS an application that will run uninterrupted for 3 years. Which of the following EC2 pricing models offers the most cost-effective solution?",
+        "opcoes": [
+          {
+            "texto": "Dedicated Hosts",
+            "explicacao": "This is not applicable to the question, as the most cost-effective pricing model for a 3-year period would be a Reserved Instance."
+          },
+          {
+            "texto": "Reserved Instances",
+            "explicacao": "Reserved Instances allow companies to significantly save on infrastructure costs by committing to EC2 instance capacity over a prolonged period."
+          },
+          {
+            "texto": "Spot Instances",
+            "explicacao": "Spot Instances are cheaper but not recommended for long periods like 3 years due to the possibility of interruption."
+          },
+          {
+            "texto": "On-Demand Instances",
+            "explicacao": "On-Demand Instances are more expensive compared to Reserved Instances, especially for prolonged periods."
+          }
+        ],
+        "respostaCorreta": "Reserved Instances",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "You want to be notified when AWS usage costs exceed (or are forecasted to exceed) a specific dollar amount. Which of the following AWS services offers this feature?",
+        "opcoes": [
+          {
+            "texto": "AWS Budgets",
+            "explicacao": "AWS Budgets allows you to set up notifications when costs exceed defined limits."
+          },
+          {
+            "texto": "AWS Cost Explorer",
+            "explicacao": "AWS Cost Explorer helps analyze past expenses but does not provide cost limit notifications."
+          },
+          {
+            "texto": "AWS Trusted Advisor",
+            "explicacao": "AWS Trusted Advisor provides optimization recommendations but does not allow for cost notifications."
+          },
+          {
+            "texto": "AWS QuickSight",
+            "explicacao": "AWS QuickSight is a data analytics tool and does not offer cost control features."
+          }
+        ],
+        "respostaCorreta": "AWS Budgets",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which of the following services allows you to assess, audit, and evaluate the configurations of your AWS resources?",
+        "opcoes": [
+          {
+            "texto": "Amazon Inspector",
+            "explicacao": "Amazon Inspector assesses the security of EC2 instances but does not audit configurations of all resources."
+          },
+          {
+            "texto": "AWS Config",
+            "explicacao": "AWS Config provides a continuous record of AWS resource configurations and relationships, allowing auditing and evaluation."
+          },
+          {
+            "texto": "Amazon GuardDuty",
+            "explicacao": "Amazon GuardDuty detects threats but does not audit resource configurations."
+          },
+          {
+            "texto": "Amazon CloudWatch",
+            "explicacao": "Amazon CloudWatch monitors resources but does not offer configuration auditing."
+          }
+        ],
+        "respostaCorreta": "AWS Config",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "Which of the following are important design principles for AWS cloud architecture? (choose two)",
+        "opcoes": [
+          {
+            "texto": "Use open-source software",
+            "explicacao": "Using open-source software is not a specific principle for AWS cloud architecture."
+          },
+          {
+            "texto": "Implement loose coupling",
+            "explicacao": "Implementing loose coupling facilitates scalability and flexibility by reducing dependencies between components."
+          },
+          {
+            "texto": "Eliminate single points of failure in your environment",
+            "explicacao": "Eliminating single points of failure is essential for increasing availability and reliability."
+          },
+          {
+            "texto": "Implement tight coupling",
+            "explicacao": "Tight coupling increases interdependence between components, which is not recommended for cloud architecture."
+          }
+        ],
+        "respostaCorreta": [
+          "Implement loose coupling",
+          "Eliminate single points of failure in your environment"
+        ],
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "multiple",
+        "fonteSimulado": "udemy"
+      },
+      {
+        "pergunta": "What is the main advantage of using the AWS API instead of the AWS Management Console?",
+        "opcoes": [
+          {
+            "texto": "More intuitive graphical interface",
+            "explicacao": "The API does not have a graphical interface; it is used for programmatic access."
+          },
+          {
+            "texto": "Automation of repetitive tasks",
+            "explicacao": "The API allows automation, making it easier to execute repetitive tasks without manual intervention."
+          },
+          {
+            "texto": "Exclusive access to premium resources",
+            "explicacao": "The API and Management Console provide access to the same resources."
+          },
+          {
+            "texto": "Limitation on the number of requests",
+            "explicacao": "The API allows for a higher number of requests compared to manual usage."
+          }
+        ],
+        "respostaCorreta": "Automation of repetitive tasks",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should you choose to use AWS CLI instead of the AWS SDK?",
+        "opcoes": [
+          {
+            "texto": "When you need a graphical interface",
+            "explicacao": "AWS CLI is a command-line tool and does not have a graphical interface."
+          },
+          {
+            "texto": "When you want to quickly execute simple commands",
+            "explicacao": "AWS CLI is ideal for quickly executing simple and straightforward commands."
+          },
+          {
+            "texto": "When you need support for multiple programming languages",
+            "explicacao": "The SDK offers support for multiple languages, while AWS CLI is specific to command-line usage."
+          },
+          {
+            "texto": "When you want to build complex applications",
+            "explicacao": "The SDK is better suited for building complex applications."
+          }
+        ],
+        "respostaCorreta": "When you want to quickly execute simple commands",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the benefit of using the AWS SDK for JavaScript instead of making direct REST API calls?",
+        "opcoes": [
+          {
+            "texto": "Simplification of asynchronous calls",
+            "explicacao": "The AWS SDK for JavaScript simplifies the execution of asynchronous calls."
+          },
+          {
+            "texto": "Complete elimination of errors",
+            "explicacao": "The SDK does not eliminate errors but helps manage them better."
+          },
+          {
+            "texto": "Manual configuration of authentication",
+            "explicacao": "The SDK manages authentication automatically in many cases."
+          },
+          {
+            "texto": "Requirement for local server installation",
+            "explicacao": "The AWS SDK can be used on the client side without needing a local server."
+          }
+        ],
+        "respostaCorreta": "Simplification of asynchronous calls",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "In which scenario would it be most appropriate to use Amazon API Gateway?",
+        "opcoes": [
+          {
+            "texto": "When you want to run background tasks",
+            "explicacao": "Amazon API Gateway is not intended for background tasks."
+          },
+          {
+            "texto": "When you need to expose REST APIs for mobile applications",
+            "explicacao": "Amazon API Gateway is ideal for exposing REST APIs for mobile and web applications."
+          },
+          {
+            "texto": "When you want to manage EC2 instances",
+            "explicacao": "API Gateway is not used for managing EC2 instances."
+          },
+          {
+            "texto": "When you need data storage",
+            "explicacao": "API Gateway is not a data storage service."
+          }
+        ],
+        "respostaCorreta": "When you need to expose REST APIs for mobile applications",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following is a reason to use programmatic access in AWS?",
+        "opcoes": [
+          {
+            "texto": "Access to resources with manual authentication",
+            "explicacao": "Programmatic access uses credentials and does not require constant manual authentication."
+          },
+          {
+            "texto": "Execution of large-scale operations",
+            "explicacao": "Programmatic access allows for easy execution of large-scale operations."
+          },
+          {
+            "texto": "Graphical navigation of resources",
+            "explicacao": "Programmatic access does not involve graphical navigation."
+          },
+          {
+            "texto": "Limitation of operations to a single region",
+            "explicacao": "Programmatic access can be used across multiple regions."
+          }
+        ],
+        "respostaCorreta": "Execution of large-scale operations",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "question": "What is a disadvantage of using programmatic access credentials instead of accessing through the AWS Management Console?",
+        "options": [
+          {
+            "text": "Higher risk of credential exposure",
+            "explanation": "Using programmatic credentials increases the risk of exposure if not managed properly"
+          },
+          {
+            "text": "Lower automation capability",
+            "explanation": "Programmatic access is generally better suited for automation"
+          },
+          {
+            "text": "Requirement of more steps for simple operations",
+            "explanation": "Programmatic access usually facilitates simple operations compared to manual usage"
+          },
+          {
+            "text": "Limitation to access a single account",
+            "explanation": "Credentials can be used across multiple accounts if configured properly"
+          }
+        ],
+        "correctAnswer": "Higher risk of credential exposure",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "When is it most appropriate to use multi-factor authentication (MFA) with programmatic access?",
+        "options": [
+          {
+            "text": "Whenever a critical operation is performed",
+            "explanation": "MFA should be used for critical operations to enhance security"
+          },
+          {
+            "text": "Only in development environments",
+            "explanation": "MFA should be used in all environments, not just in development"
+          },
+          {
+            "text": "When using the Management Console",
+            "explanation": "MFA should also be considered for programmatic access"
+          },
+          {
+            "text": "Only for non-administrative users",
+            "explanation": "All users, including administrators, should use MFA"
+          }
+        ],
+        "correctAnswer": "Whenever a critical operation is performed",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "What is one of the main reasons to use IAM Roles instead of static credentials?",
+        "options": [
+          {
+            "text": "Ease of password management",
+            "explanation": "IAM Roles do not manage passwords but avoid the use of static credentials"
+          },
+          {
+            "text": "Improved security by avoiding static credentials",
+            "explanation": "Using IAM Roles improves security by avoiding the use of static credentials that may be exposed"
+          },
+          {
+            "text": "Access to public resources only",
+            "explanation": "IAM Roles can also be used to access private resources"
+          },
+          {
+            "text": "Reduction in the execution time of operations",
+            "explanation": "Execution time may not be directly impacted by the choice between IAM Roles and static credentials"
+          }
+        ],
+        "correctAnswer": "Improved security by avoiding static credentials",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "What approach should be taken to manage programmatic access securely?",
+        "options": [
+          {
+            "text": "Use long-term credentials for all users",
+            "explanation": "Long-term credentials increase the risk of exposure"
+          },
+          {
+            "text": "Implement security practices like credential rotation and MFA",
+            "explanation": "Credential rotation and MFA improve the security of programmatic access"
+          },
+          {
+            "text": "Avoid using logs for monitoring",
+            "explanation": "Monitoring via logs is essential to identify unauthorized access"
+          },
+          {
+            "text": "Grant unrestricted access to all services",
+            "explanation": "Access should be restricted only to what is necessary for the user's functions"
+          }
+        ],
+        "correctAnswer": "Implement security practices like credential rotation and MFA",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "What is the best practice when using programmatic access credentials on AWS?",
+        "options": [
+          {
+            "text": "Store credentials in a secure and accessible location",
+            "explanation": "Credentials should be securely stored to prevent unauthorized access"
+          },
+          {
+            "text": "Share credentials among team members",
+            "explanation": "Credentials should not be shared among users to maintain security"
+          },
+          {
+            "text": "Use long-term credentials instead of temporary ones",
+            "explanation": "Using temporary credentials is more secure"
+          },
+          {
+            "text": "Document credentials in a plain text file",
+            "explanation": "Credentials should not be stored in plain text to avoid exposure"
+          }
+        ],
+        "correctAnswer": "Store credentials in a secure and accessible location",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "When should you opt to use a single operation instead of a repeatable process on AWS?",
+        "options": [
+          {
+            "text": "When the task needs to be automated for recurring execution",
+            "explanation": "In this case, a repeatable process would be more suitable"
+          },
+          {
+            "text": "When the task is performed once and will not need to be repeated",
+            "explanation": "A single operation is ideal for tasks that will not be repeated"
+          },
+          {
+            "text": "When the volume of data processed is extremely high",
+            "explanation": "For large data volumes, repeatable processes are more efficient"
+          },
+          {
+            "text": "When consistency between executions needs to be ensured",
+            "explanation": "A repeatable process is better suited to ensure consistency"
+          }
+        ],
+        "correctAnswer": "When the task is performed once and will not need to be repeated",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "In which situation is the use of repeatable processes more appropriate on AWS?",
+        "options": [
+          {
+            "text": "A one-time execution of data migration",
+            "explanation": "A one-time migration is typically treated as a single operation"
+          },
+          {
+            "text": "Automated execution of daily backups",
+            "explanation": "Daily backups are a repeatable process that benefits from automation"
+          },
+          {
+            "text": "Performing a one-off configuration change",
+            "explanation": "One-off configuration changes are single operations"
+          },
+          {
+            "text": "Managing logs of a specific instance",
+            "explanation": "This may be an ongoing process but does not necessarily require a repeatable process"
+          }
+        ],
+        "correctAnswer": "Automated execution of daily backups",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "What is an advantage of using a repeatable process instead of a single operation?",
+        "options": [
+          {
+            "text": "Faster execution",
+            "explanation": "Execution speed depends on the task type and not necessarily on whether it is repeatable or single"
+          },
+          {
+            "text": "Automation of recurring tasks",
+            "explanation": "Repeatable processes allow automating tasks that need to be performed frequently"
+          },
+          {
+            "text": "Greater flexibility for manual adjustments",
+            "explanation": "Repeatable processes are generally automated, reducing the need for manual adjustments"
+          },
+          {
+            "text": "Reduction in computational resource usage",
+            "explanation": "Resource usage depends on task complexity, not repetition"
+          }
+        ],
+        "correctAnswer": "Automation of recurring tasks",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "When is a single operation more suitable than a repeatable process?",
+        "options": [
+          {
+            "text": "When the task needs to be performed daily",
+            "explanation": "Daily tasks are better handled as repeatable processes"
+          },
+          {
+            "text": "When the cost of automation outweighs manual execution",
+            "explanation": "If automation costs are too high, a single operation may be more efficient"
+          },
+          {
+            "text": "When the task requires continuous monitoring",
+            "explanation": "Continuous monitoring benefits more from repeatable processes"
+          },
+          {
+            "text": "When the task involves multiple complex steps",
+            "explanation": "Complex and recurring processes are better treated as repeatable processes"
+          }
+        ],
+        "correctAnswer": "When the cost of automation outweighs manual execution",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "question": "Which of the following scenarios justifies the use of a repeatable process on AWS?",
+        "options": [
+          {
+            "text": "Execution of a one-time backup restoration",
+            "explanation": "A one-time backup restoration does not require a repeatable process"
+          },
+          {
+            "text": "Continuous monitoring of performance metrics",
+            "explanation": "Continuous monitoring is a good example of a repeatable process"
+          },
+          {
+            "text": "Creating an EC2 instance for an ad-hoc task",
+            "explanation": "Ad-hoc tasks do not typically require repeatable processes"
+          },
+          {
+            "text": "Generating a one-time report for stakeholders",
+            "explanation": "One-time reports are best handled as single operations"
+          }
+        ],
+        "correctAnswer": "Continuous monitoring of performance metrics",
+        "domain": "Tecnologia e serviços da nuvem",
+        "domainKey": "cloud_technology_and_services",
+        "type": "single"
+      },
+      {
+        "pergunta": "Why should you choose a repeatable process when dealing with frequent system updates?",
+        "opcoes": [
+          {
+            "texto": "To ensure updates are applied consistently across all runs",
+            "explicacao": "Repeatable processes ensure consistency in frequent updates."
+          },
+          {
+            "texto": "To reduce the number of updates required",
+            "explicacao": "A repeatable process does not reduce the number of updates, only automates them."
+          },
+          {
+            "texto": "To allow manual adjustments in each execution",
+            "explicacao": "Repeatable processes are automated and do not rely on manual adjustments."
+          },
+          {
+            "texto": "To perform updates manually on a large scale",
+            "explicacao": "Repeatable processes aim to eliminate the need for manual execution."
+          }
+        ],
+        "respostaCorreta": "To ensure updates are applied consistently across all runs",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which scenario is best served by a one-time operation?",
+        "opcoes": [
+          {
+            "texto": "Performing daily backups of a database",
+            "explicacao": "Daily backups require a repeatable and automated process."
+          },
+          {
+            "texto": "Conducting a one-time data migration",
+            "explicacao": "A data migration is usually a one-time operation and does not need to be repeated."
+          },
+          {
+            "texto": "Continuous monitoring of system logs",
+            "explicacao": "Continuous monitoring is more suitable for repeatable processes."
+          },
+          {
+            "texto": "Automatic management of software versions",
+            "explicacao": "Version management typically requires a repeatable process."
+          }
+        ],
+        "respostaCorreta": "Conducting a one-time data migration",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the reason for using a repeatable process for frequent software deployments?",
+        "opcoes": [
+          {
+            "texto": "To automate the process and ensure consistency between versions",
+            "explicacao": "Repeatable processes ensure each deployment follows the same procedures."
+          },
+          {
+            "texto": "To reduce the time of each manual deployment",
+            "explicacao": "The repeatable process automates but does not necessarily reduce the time of manual deployments."
+          },
+          {
+            "texto": "To make manual adjustments in each deployment step",
+            "explicacao": "Repeatable processes minimize or eliminate manual adjustments."
+          },
+          {
+            "texto": "To apply the deployment only once",
+            "explicacao": "If the deployment is one-time, a repeatable process would not be necessary."
+          }
+        ],
+        "respostaCorreta": "To automate the process and ensure consistency between versions",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a key benefit of using repeatable processes in cloud infrastructure automation?",
+        "opcoes": [
+          {
+            "texto": "The ability to handle tasks only once",
+            "explicacao": "Repeatable processes are intended for recurring tasks."
+          },
+          {
+            "texto": "The elimination of the need for system monitoring",
+            "explicacao": "Repeatable processes do not eliminate monitoring but can help automate it."
+          },
+          {
+            "texto": "Creating a consistent and reproducible infrastructure",
+            "explicacao": "Infrastructure automation with repeatable processes ensures consistency in all deployments."
+          },
+          {
+            "texto": "Reducing the number of backups required",
+            "explicacao": "The number of backups depends on the backup policy, not the repeatable process."
+          }
+        ],
+        "respostaCorreta": "Creating a consistent and reproducible infrastructure",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "In which scenario can one-time operations be more efficient than repeatable processes?",
+        "opcoes": [
+          {
+            "texto": "When a task needs to be automated for daily execution",
+            "explicacao": "For daily tasks, repeatable processes are more efficient."
+          },
+          {
+            "texto": "When a task is executed only once and will not be needed again",
+            "explicacao": "One-time operations are suitable for tasks that do not repeat."
+          },
+          {
+            "texto": "When continuous monitoring is required",
+            "explicacao": "Continuous monitoring is better implemented with repeatable processes."
+          },
+          {
+            "texto": "When the task requires high scalability",
+            "explicacao": "Repeatable processes are ideal for handling scalability."
+          }
+        ],
+        "respostaCorreta": "When a task is executed only once and will not be needed again",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS deployment model is ideal for customers who want to run their entire IT infrastructure in the cloud?",
+        "opcoes": [
+          {
+            "texto": "On-premises deployment",
+            "explicacao": "On-premises deployment involves running resources in the customer's data center, not in the cloud."
+          },
+          {
+            "texto": "Public cloud deployment",
+            "explicacao": "The public cloud allows customers to run their entire IT infrastructure on AWS."
+          },
+          {
+            "texto": "Hybrid deployment",
+            "explicacao": "Hybrid deployment combines on-premises and cloud infrastructure, not limited to the cloud."
+          },
+          {
+            "texto": "Multicloud deployment",
+            "explicacao": "Multicloud deployment involves using multiple cloud providers."
+          }
+        ],
+        "respostaCorreta": "Public cloud deployment",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should a company choose a hybrid deployment model?",
+        "opcoes": [
+          {
+            "texto": "When the company wants to run all services on a single cloud provider",
+            "explicacao": "The hybrid deployment model combines on-premises and cloud infrastructure."
+          },
+          {
+            "texto": "When the company wants to leverage both on-premises and cloud infrastructure",
+            "explicacao": "The hybrid model allows companies to use both environments in an integrated manner."
+          },
+          {
+            "texto": "When the company is migrating 100% of its services to the cloud",
+            "explicacao": "In this case, the public cloud would be the most suitable model."
+          },
+          {
+            "texto": "When the company uses multiple cloud providers",
+            "explicacao": "This is characteristic of the multicloud model, not the hybrid one."
+          }
+        ],
+        "respostaCorreta": "When the company wants to leverage both on-premises and cloud infrastructure",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the primary advantage of using a private cloud deployment model?",
+        "opcoes": [
+          {
+            "texto": "Greater control over data and security",
+            "explicacao": "The private cloud allows companies to have full control over security and data."
+          },
+          {
+            "texto": "Unlimited access to AWS services",
+            "explicacao": "Access to AWS services depends on the chosen deployment model."
+          },
+          {
+            "texto": "Better scalability compared to the public cloud",
+            "explicacao": "The public cloud generally offers greater scalability than the private cloud."
+          },
+          {
+            "texto": "Lower costs for small businesses",
+            "explicacao": "The private cloud tends to be more expensive, especially for small businesses."
+          }
+        ],
+        "respostaCorreta": "Greater control over data and security",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "In what situation might an organization prefer a multicloud deployment model?",
+        "opcoes": [
+          {
+            "texto": "When it wants to reduce reliance on a single cloud provider",
+            "explicacao": "The multicloud model allows the use of multiple providers, reducing dependency on a single vendor."
+          },
+          {
+            "texto": "When all resources are run in local data centers",
+            "explicacao": "In this case, the deployment would be on-premises, not multicloud."
+          },
+          {
+            "texto": "When it wants to operate exclusively on AWS infrastructure",
+            "explicacao": "This would be a public cloud deployment model, not multicloud."
+          },
+          {
+            "texto": "When security is the top priority",
+            "explicacao": "While multicloud may offer advantages, the private cloud model may be more suitable for security control."
+          }
+        ],
+        "respostaCorreta": "When it wants to reduce reliance on a single cloud provider",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a common feature of the public cloud deployment model?",
+        "opcoes": [
+          {
+            "texto": "IT infrastructure hosted on private dedicated servers",
+            "explicacao": "The public cloud shares infrastructure among multiple customers and does not use private dedicated servers."
+          },
+          {
+            "texto": "Elastic and on-demand scalability",
+            "explicacao": "The public cloud offers dynamic and elastic scalability based on user demand."
+          },
+          {
+            "texto": "Fixed costs regardless of usage",
+            "explicacao": "Costs in the public cloud are based on resource usage."
+          },
+          {
+            "texto": "Need for local hardware management",
+            "explicacao": "Hardware management is handled by the cloud provider."
+          }
+        ],
+        "respostaCorreta": "Elastic and on-demand scalability",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Why might a company choose a private cloud deployment over a public cloud?",
+        "opcoes": [
+          {
+            "texto": "To reduce infrastructure costs",
+            "explicacao": "Private cloud tends to be more expensive than public cloud"
+          },
+          {
+            "texto": "To have complete control over their data and security infrastructure",
+            "explicacao": "Private cloud offers full control over the infrastructure and data"
+          },
+          {
+            "texto": "To maximize auto scalability",
+            "explicacao": "Public cloud generally offers greater auto scalability"
+          },
+          {
+            "texto": "To integrate multiple cloud providers",
+            "explicacao": "This would be a multicloud deployment scenario, not private cloud"
+          }
+        ],
+        "respostaCorreta": "To have complete control over their data and security infrastructure",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS deployment model combines on-premises data centers and cloud resources?",
+        "opcoes": [
+          {
+            "texto": "Public cloud",
+            "explicacao": "Public cloud does not involve the use of on-premises data centers"
+          },
+          {
+            "texto": "Private cloud",
+            "explicacao": "Private cloud uses isolated resources but does not directly combine with on-premises data centers"
+          },
+          {
+            "texto": "Multicloud",
+            "explicacao": "Multicloud involves multiple cloud providers but does not necessarily combine with on-premises data centers"
+          },
+          {
+            "texto": "Hybrid deployment",
+            "explicacao": "The hybrid model combines cloud resources and on-premises data centers"
+          }
+        ],
+        "respostaCorreta": "Hybrid deployment",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which deployment model would be most suitable for a company requiring strict compliance with data regulations?",
+        "opcoes": [
+          {
+            "texto": "Public cloud deployment",
+            "explicacao": "While public cloud has robust security, private cloud can provide more control for strict compliance"
+          },
+          {
+            "texto": "Private cloud deployment",
+            "explicacao": "Private cloud offers greater control over security and can meet stricter regulations"
+          },
+          {
+            "texto": "Multicloud deployment",
+            "explicacao": "Multicloud involves using multiple cloud providers and does not offer the same level of direct control"
+          },
+          {
+            "texto": "Hybrid deployment",
+            "explicacao": "Hybrid deployment can be useful, but private cloud provides more direct control over data"
+          }
+        ],
+        "respostaCorreta": "Private cloud deployment",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following is a benefit of the hybrid deployment model?",
+        "opcoes": [
+          {
+            "texto": "Lower cost compared to public cloud",
+            "explicacao": "Hybrid model is generally not cheaper than public cloud"
+          },
+          {
+            "texto": "The flexibility to operate workloads in both on-premises data centers and the cloud",
+            "explicacao": "Hybrid model provides flexibility to operate in both environments"
+          },
+          {
+            "texto": "Auto scalability without the need for supervision",
+            "explicacao": "Auto scalability is more characteristic of public cloud"
+          },
+          {
+            "texto": "Lower management complexity",
+            "explicacao": "Hybrid model can increase complexity due to the need to manage two environments"
+          }
+        ],
+        "respostaCorreta": "The flexibility to operate workloads in both on-premises data centers and the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should an organization consider using a multicloud model?",
+        "opcoes": [
+          {
+            "texto": "When seeking high availability and wanting to avoid single-provider failures",
+            "explicacao": "The multicloud model provides greater resilience by using multiple providers"
+          },
+          {
+            "texto": "When wanting to run all workloads in on-premises data centers",
+            "explicacao": "This would be an on-premises deployment scenario, not multicloud"
+          },
+          {
+            "texto": "When aiming to reduce reliance on private clouds",
+            "explicacao": "Multicloud involves using multiple providers, not necessarily reducing private cloud reliance"
+          },
+          {
+            "texto": "When looking to reduce security and control over data",
+            "explicacao": "Security and control over data remain critical in the multicloud model"
+          }
+        ],
+        "respostaCorreta": "When seeking high availability and wanting to avoid single-provider failures",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the main characteristic of the on-premises deployment model?",
+        "opcoes": [
+          {
+            "texto": "IT infrastructure resources are managed locally",
+            "explicacao": "The on-premises model involves running resources in local data centers"
+          },
+          {
+            "texto": "Automatic scalability based on demand",
+            "explicacao": "Automatic scalability is a feature of public cloud, not on-premises"
+          },
+          {
+            "texto": "Use of multiple cloud providers",
+            "explicacao": "This is a feature of the multicloud model, not on-premises"
+          },
+          {
+            "texto": "Infrastructure managed by AWS",
+            "explicacao": "In the on-premises model, the customer manages their own infrastructure"
+          }
+        ],
+        "respostaCorreta": "IT infrastructure resources are managed locally",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When might an organization prefer public cloud deployment over on-premises?",
+        "opcoes": [
+          {
+            "texto": "When they want to manage their own servers",
+            "explicacao": "Managing servers is a characteristic of the on-premises model, not public cloud"
+          },
+          {
+            "texto": "When seeking elastic scalability and lower upfront costs",
+            "explicacao": "Public cloud offers elastic scalability and eliminates hardware upfront costs"
+          },
+          {
+            "texto": "When they want physical control over the infrastructure",
+            "explicacao": "Physical control over infrastructure is a characteristic of on-premises"
+          },
+          {
+            "texto": "When local security is a priority",
+            "explicacao": "While security is a priority for both, on-premises offers direct physical control"
+          }
+        ],
+        "respostaCorreta": "When seeking elastic scalability and lower upfront costs",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the main advantage of the hybrid deployment model?",
+        "opcoes": [
+          {
+            "texto": "Offers full control over all resources in a local environment",
+            "explicacao": "The hybrid model combines local and cloud environments, not full control over one"
+          },
+          {
+            "texto": "Allows operating part of the resources in on-premises data centers and part in the cloud",
+            "explicacao": "The hybrid model provides flexibility by combining local and cloud resources"
+          },
+          {
+            "texto": "Is always cheaper than an on-premises deployment",
+            "explicacao": "The cost of the hybrid model can vary depending on architecture and requirements"
+          },
+          {
+            "texto": "Increases reliance on a single cloud provider",
+            "explicacao": "The hybrid model reduces reliance on a single provider by combining cloud and local environments"
+          }
+        ],
+        "respostaCorreta": "Allows operating part of the resources in on-premises data centers and part in the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should an organization opt for the on-premises deployment model?",
+        "opcoes": [
+          {
+            "texto": "When needing automatic scalability based on usage",
+            "explicacao": "This is a benefit of public cloud, not on-premises"
+          },
+          {
+            "texto": "When wanting full physical control over their infrastructure",
+            "explicacao": "The on-premises model provides full physical control over infrastructure"
+          },
+          {
+            "texto": "When aiming for significant operational cost reduction",
+            "explicacao": "On-premises tends to have higher operational costs due to local maintenance"
+          },
+          {
+            "texto": "When seeking to leverage the benefits of multiple cloud providers",
+            "explicacao": "This would be a multicloud scenario, not on-premises"
+          }
+        ],
+        "respostaCorreta": "When wanting full physical control over their infrastructure",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "In which scenario could the hybrid model be more suitable?",
+        "opcoes": [
+          {
+            "texto": "When the organization wants to run all resources exclusively in the cloud",
+            "explicacao": "This scenario corresponds to the public cloud, not the hybrid model."
+          },
+          {
+            "texto": "When the organization wants to combine local infrastructure with the cloud",
+            "explicacao": "The hybrid model is ideal for companies that want to combine local and cloud infrastructure."
+          },
+          {
+            "texto": "When it wants to avoid relying on any local infrastructure",
+            "explicacao": "This would be a characteristic of the public cloud model."
+          },
+          {
+            "texto": "When it wants to maximize physical control over all infrastructure",
+            "explicacao": "Physical control is more characteristic of on-premises."
+          }
+        ],
+        "respostaCorreta": "When the organization wants to combine local infrastructure with the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a characteristic of the on-premises deployment model?",
+        "opcoes": [
+          {
+            "texto": "Automatic scalability based on demand",
+            "explicacao": "Automatic scalability is an advantage of the public cloud, not on-premises."
+          },
+          {
+            "texto": "Full physical control over servers and storage",
+            "explicacao": "In the on-premises model, companies have full physical control over their infrastructure."
+          },
+          {
+            "texto": "Reduced cost with infrastructure and maintenance",
+            "explicacao": "The on-premises model typically involves higher costs for infrastructure and maintenance."
+          },
+          {
+            "texto": "Lower flexibility for integrations with cloud services",
+            "explicacao": "Full physical control is an important characteristic of the on-premises model."
+          }
+        ],
+        "respostaCorreta": "Full physical control over servers and storage",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should a company consider migrating to a hybrid cloud model?",
+        "opcoes": [
+          {
+            "texto": "When all data and applications need to be in local data centers",
+            "explicacao": "This scenario corresponds to the on-premises model."
+          },
+          {
+            "texto": "When the company wants to keep part of the infrastructure on-site and migrate the rest to the cloud",
+            "explicacao": "The hybrid model allows this combination of local and cloud infrastructure."
+          },
+          {
+            "texto": "When the company wants to use exclusively public cloud services",
+            "explicacao": "This would be a public cloud scenario, not hybrid."
+          },
+          {
+            "texto": "When the company wants to consolidate all infrastructure into a single cloud provider",
+            "explicacao": "The hybrid model involves using multiple environments, not consolidation into a single provider."
+          }
+        ],
+        "respostaCorreta": "When the company wants to keep part of the infrastructure on-site and migrate the rest to the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following is an advantage of the public cloud model?",
+        "opcoes": [
+          {
+            "texto": "Full physical control over infrastructure",
+            "explicacao": "Full physical control is characteristic of on-premises."
+          },
+          {
+            "texto": "Elastic and on-demand scalability",
+            "explicacao": "The public cloud allows automatic scalability based on usage demand."
+          },
+          {
+            "texto": "Need for a higher initial investment in infrastructure",
+            "explicacao": "The public cloud eliminates high initial investments in infrastructure."
+          },
+          {
+            "texto": "Greater security through physical server control",
+            "explicacao": "In the public cloud, security is managed by the cloud provider."
+          }
+        ],
+        "respostaCorreta": "Elastic and on-demand scalability",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "In what situation might a company choose a private cloud deployment model?",
+        "opcoes": [
+          {
+            "texto": "When looking for the lowest initial cost and greater flexibility",
+            "explicacao": "This scenario is more suited for the public cloud, not private."
+          },
+          {
+            "texto": "When wanting to maintain greater control and security over the data",
+            "explicacao": "Private cloud allows greater control over data and security compared to public cloud."
+          },
+          {
+            "texto": "When it wants to avoid managing infrastructure",
+            "explicacao": "Infrastructure management is still necessary in private clouds."
+          },
+          {
+            "texto": "When it needs instant elastic scalability",
+            "explicacao": "Instant scalability is more common in public cloud."
+          }
+        ],
+        "respostaCorreta": "When wanting to maintain greater control and security over the data",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the main characteristic of the on-premises deployment model?",
+        "opcoes": [
+          {
+            "texto": "IT infrastructure resources are managed locally",
+            "explicacao": "The on-premises model involves running resources in local data centers."
+          },
+          {
+            "texto": "Automatic scalability based on demand",
+            "explicacao": "Automatic scalability is characteristic of the public cloud, not on-premises."
+          },
+          {
+            "texto": "Use of multiple cloud providers",
+            "explicacao": "This is an attribute of the multicloud model, not on-premises."
+          },
+          {
+            "texto": "Infrastructure managed by AWS",
+            "explicacao": "In the on-premises model, the customer manages their own infrastructure."
+          }
+        ],
+        "respostaCorreta": "IT infrastructure resources are managed locally",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When might an organization prefer a public cloud deployment over on-premises?",
+        "opcoes": [
+          {
+            "texto": "When it wants to manage its own servers",
+            "explicacao": "Managing servers is a characteristic of the on-premises model, not the public cloud."
+          },
+          {
+            "texto": "When seeking elastic scalability and lower initial cost",
+            "explicacao": "The public cloud offers elastic scalability and eliminates initial hardware costs."
+          },
+          {
+            "texto": "When wanting physical control over the infrastructure",
+            "explicacao": "Physical control over infrastructure is a characteristic of on-premises."
+          },
+          {
+            "texto": "When local security is a priority",
+            "explicacao": "While security is a priority in both, on-premises offers direct physical control."
+          }
+        ],
+        "respostaCorreta": "When seeking elastic scalability and lower initial cost",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the main advantage of the hybrid deployment model?",
+        "opcoes": [
+          {
+            "texto": "It offers total control over all resources in a local environment",
+            "explicacao": "The hybrid model combines local and cloud environments, not total control over a single environment."
+          },
+          {
+            "texto": "It allows operating part of the resources in local data centers and part in the cloud",
+            "explicacao": "The hybrid model provides flexibility by combining local and cloud resources."
+          },
+          {
+            "texto": "It is always cheaper than an on-premises deployment",
+            "explicacao": "The cost of the hybrid model can vary depending on the architecture and requirements."
+          },
+          {
+            "texto": "It increases dependency on a single cloud provider",
+            "explicacao": "The hybrid model reduces dependency on a single provider by combining cloud and local."
+          }
+        ],
+        "respostaCorreta": "It allows operating part of the resources in local data centers and part in the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should an organization opt for the on-premises deployment model?",
+        "opcoes": [
+          {
+            "texto": "When it needs automatic scalability based on usage",
+            "explicacao": "This is a benefit of the public cloud, not on-premises."
+          },
+          {
+            "texto": "When it wants full physical control over its infrastructure",
+            "explicacao": "The on-premises model offers full physical control over infrastructure."
+          },
+          {
+            "texto": "When it seeks significant operational cost reduction",
+            "explicacao": "On-premises tends to have higher operational costs due to local maintenance."
+          },
+          {
+            "texto": "When it wants to leverage the benefits of multiple cloud providers",
+            "explicacao": "This would be a multicloud scenario, not on-premises."
+          }
+        ],
+        "respostaCorreta": "When it wants full physical control over its infrastructure",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a benefit of the public cloud deployment model compared to on-premises?",
+        "opcoes": [
+          {
+            "texto": "Greater physical control over the servers",
+            "explicacao": "Physical control is an advantage of the on-premises model, not the public cloud."
+          },
+          {
+            "texto": "Easier and faster scalability",
+            "explicacao": "The public cloud allows automatic and elastic scalability based on demand."
+          },
+          {
+            "texto": "Lower latency for all applications",
+            "explicacao": "Latency can vary depending on the location of the public cloud data centers."
+          },
+          {
+            "texto": "Total control over hardware maintenance costs",
+            "explicacao": "In the public cloud, hardware maintenance costs are managed by the provider."
+          }
+        ],
+        "respostaCorreta": "Easier and faster scalability",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following is required to set up a secure connection between an on-premises network and a VPC in AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN allows you to establish a secure connection between an on-premises network and a VPC in AWS."
+          },
+          {
+            "texto": "Amazon S3",
+            "explicacao": "Amazon S3 is a storage service and does not offer network connectivity."
+          },
+          {
+            "texto": "Amazon RDS",
+            "explicacao": "Amazon RDS is a managed database service, not a network connectivity service."
+          },
+          {
+            "texto": "AWS CloudTrail",
+            "explicacao": "AWS CloudTrail is an auditing and monitoring service, not for connectivity."
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS service can be used to optimize content delivery with low latency for global users?",
+        "opcoes": [
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "Amazon CloudFront enhances content delivery with low latency through its global distribution network."
+          },
+          {
+            "texto": "Amazon RDS",
+            "explicacao": "Amazon RDS is a database service, not a content delivery solution."
+          },
+          {
+            "texto": "Amazon VPC",
+            "explicacao": "Amazon VPC is used to create virtual private networks, not for content delivery."
+          },
+          {
+            "texto": "AWS Lambda",
+            "explicacao": "AWS Lambda is a serverless computing service, and does not directly optimize content delivery."
+          }
+        ],
+        "respostaCorreta": "Amazon CloudFront",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which connectivity solution allows secure communication between EC2 instances in different VPCs without passing through the internet?",
+        "opcoes": [
+          {
+            "texto": "VPC Peering",
+            "explicacao": "VPC Peering allows private communication between VPCs without using the internet."
+          },
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN is used to connect on-premises networks to AWS, not between VPCs."
+          },
+          {
+            "texto": "Amazon Route 53",
+            "explicacao": "Route 53 is a DNS service and does not provide connectivity between VPCs."
+          },
+          {
+            "texto": "AWS Snowball",
+            "explicacao": "Snowball is a physical data transfer service, not a connectivity solution."
+          }
+        ],
+        "respostaCorreta": "VPC Peering",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When might a company choose to use AWS Global Accelerator?",
+        "opcoes": [
+          {
+            "texto": "To improve the availability and performance of global applications",
+            "explicacao": "AWS Global Accelerator optimizes global network traffic to improve performance and availability of applications."
+          },
+          {
+            "texto": "To create a private network between multiple regions",
+            "explicacao": "AWS Global Accelerator improves performance but is not used to create private networks between regions."
+          },
+          {
+            "texto": "To provision EC2 instances in different regions",
+            "explicacao": "AWS Global Accelerator optimizes traffic but does not provision instances."
+          },
+          {
+            "texto": "To manage a content delivery network",
+            "explicacao": "Although it helps optimize performance, AWS Global Accelerator does not directly manage content distribution."
+          }
+        ],
+        "respostaCorreta": "To improve the availability and performance of global applications",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS solution provides a dedicated connection between your on-premises network and AWS, avoiding the use of the public internet?",
+        "opcoes": [
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect provides a dedicated connection, avoiding traffic over the public internet."
+          },
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN uses the public internet, although it is encrypted for security."
+          },
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "Amazon CloudFront is a content delivery network and not a direct connectivity solution."
+          },
+          {
+            "texto": "Amazon S3",
+            "explicacao": "Amazon S3 is an object storage service, not a network connectivity service."
+          }
+        ],
+        "respostaCorreta": "AWS Direct Connect",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which connectivity option provides an encrypted connection between your on-premises network and AWS, using the public internet?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN creates a secure encrypted connection over the public internet between your on-premises network and AWS."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect offers a dedicated connection that does not pass through the public internet."
+          },
+          {
+            "texto": "Public internet without VPN",
+            "explicacao": "Connections over public internet without VPN do not offer encryption."
+          },
+          {
+            "texto": "Amazon EC2",
+            "explicacao": "Amazon EC2 is a computing instance service, not a connectivity solution."
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a benefit of using AWS Direct Connect compared to AWS VPN?",
+        "opcoes": [
+          {
+            "texto": "Lower latency and higher bandwidth",
+            "explicacao": "AWS Direct Connect offers lower latency and higher bandwidth compared to VPN."
+          },
+          {
+            "texto": "Simpler setup",
+            "explicacao": "AWS Direct Connect generally requires a more complex setup than AWS VPN."
+          },
+          {
+            "texto": "Uses public internet",
+            "explicacao": "AWS Direct Connect avoids using the public internet, providing a dedicated connection."
+          },
+          {
+            "texto": "Lower initial cost",
+            "explicacao": "AWS Direct Connect may have a higher initial cost compared to VPN."
+          }
+        ],
+        "respostaCorreta": "Lower latency and higher bandwidth",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which connection method might be more appropriate for temporary connections between your on-premises network and AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN is a suitable solution for temporary or short-term connections, as it is easy to set up."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect is more suitable for long-term connections due to its cost and complexity."
+          },
+          {
+            "texto": "Public internet without encryption",
+            "explicacao": "Using public internet without encryption is not secure for corporate connections."
+          },
+          {
+            "texto": "Amazon S3 Transfer Acceleration",
+            "explicacao": "S3 Transfer Acceleration speeds up data transfers but is not a network connectivity solution."
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a disadvantage of using the public internet to connect your on-premises network to AWS without a VPN?",
+        "opcoes": [
+          {
+            "texto": "Lack of encryption and security",
+            "explicacao": "Public internet without a VPN does not offer encryption, which can compromise data security."
+          },
+          {
+            "texto": "Guaranteed high latency",
+            "explicacao": "Public internet latency can vary, but it is not guaranteed to be high."
+          },
+          {
+            "texto": "High cost",
+            "explicacao": "Using public internet is generally cheaper than dedicated solutions like Direct Connect."
+          },
+          {
+            "texto": "Lack of bandwidth",
+            "explicacao": "Public internet bandwidth can be variable, but it is not necessarily limited."
+          }
+        ],
+        "respostaCorreta": "Lack of encryption and security",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which solution would be more appropriate for a company needing a stable, high-bandwidth connection to transfer large volumes of data to AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect offers a dedicated connection with greater stability and bandwidth for large data volumes."
+          },
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN is suitable, but bandwidth and latency may be limited by the public internet."
+          },
+          {
+            "texto": "Public internet",
+            "explicacao": "Public internet does not guarantee stability or high bandwidth for large data transfers."
+          },
+          {
+            "texto": "Amazon Route 53",
+            "explicacao": "Amazon Route 53 is a DNS service, not a network connectivity service."
+          }
+        ],
+        "respostaCorreta": "AWS Direct Connect",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "In which scenario is the hybrid model most suitable?",
+        "opcoes": [
+          {
+            "texto": "When the organization wants to run all resources exclusively in the cloud",
+            "explicacao": "This scenario corresponds to the public cloud, not the hybrid model"
+          },
+          {
+            "texto": "When the organization wants to combine on-premises infrastructure with the cloud",
+            "explicacao": "The hybrid model is ideal for organizations that want to combine on-premises and cloud infrastructure"
+          },
+          {
+            "texto": "When it wants to avoid reliance on any on-premises infrastructure",
+            "explicacao": "This would be a characteristic of the public cloud model"
+          },
+          {
+            "texto": "When it wants to maximize physical control over its entire infrastructure",
+            "explicacao": "Physical control is more characteristic of on-premises"
+          }
+        ],
+        "respostaCorreta": "When the organization wants to combine on-premises infrastructure with the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a characteristic of the on-premises deployment model?",
+        "opcoes": [
+          {
+            "texto": "Automatic scalability based on demand",
+            "explicacao": "Automatic scalability is an advantage of the public cloud, not on-premises"
+          },
+          {
+            "texto": "Full physical control over servers and storage",
+            "explicacao": "In the on-premises model, companies have full physical control over their infrastructure"
+          },
+          {
+            "texto": "Reduced cost for infrastructure and maintenance",
+            "explicacao": "The on-premises model usually involves higher costs for infrastructure and maintenance"
+          },
+          {
+            "texto": "Less flexibility for integrations with cloud services",
+            "explicacao": "Full physical control is an important characteristic of the on-premises model"
+          }
+        ],
+        "respostaCorreta": "Full physical control over servers and storage",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "When should a company consider migrating to a hybrid cloud model?",
+        "opcoes": [
+          {
+            "texto": "When all data and applications need to be in local data centers",
+            "explicacao": "This scenario corresponds to the on-premises model"
+          },
+          {
+            "texto": "When the company wants to keep part of the infrastructure on-premises and migrate the rest to the cloud",
+            "explicacao": "The hybrid model allows this combination of on-premises and cloud infrastructure"
+          },
+          {
+            "texto": "When the company wants to exclusively use public cloud services",
+            "explicacao": "This would be a public cloud scenario, not hybrid"
+          },
+          {
+            "texto": "When the company wants to consolidate all infrastructure in a single cloud provider",
+            "explicacao": "The hybrid model involves using multiple environments, not consolidating with a single provider"
+          }
+        ],
+        "respostaCorreta": "When the company wants to keep part of the infrastructure on-premises and migrate the rest to the cloud",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following is an advantage of the public cloud model?",
+        "opcoes": [
+          {
+            "texto": "Full physical control over infrastructure",
+            "explicacao": "Full physical control is a characteristic of on-premises"
+          },
+          {
+            "texto": "Elastic scalability and on-demand capacity",
+            "explicacao": "The public cloud provides automatic scalability based on usage demand"
+          },
+          {
+            "texto": "Lower initial investment in infrastructure",
+            "explicacao": "The public cloud eliminates high initial infrastructure investments"
+          },
+          {
+            "texto": "Greater security through physical control of servers",
+            "explicacao": "In the public cloud, security is managed by the cloud provider"
+          }
+        ],
+        "respostaCorreta": "Elastic scalability and on-demand capacity",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following offers private connectivity between on-premises infrastructure and AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect provides a private and dedicated connection between an on-premises network and AWS"
+          },
+          {
+            "texto": "AWS VPN",
+            "explicacao": "While AWS VPN also offers connectivity, it uses the public internet, not a dedicated private connection"
+          },
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "CloudFront is a content delivery network (CDN), not a direct connectivity solution"
+          },
+          {
+            "texto": "AWS Snowball",
+            "explicacao": "Snowball is used for physical data transfer, not continuous connectivity"
+          }
+        ],
+        "respostaCorreta": "AWS Direct Connect",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS service can be used to set up a virtual private network (VPN) between an on-premises network and AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN enables the creation of a secure connection between an on-premises network and AWS over the internet"
+          },
+          {
+            "texto": "Amazon Route 53",
+            "explicacao": "Route 53 is a DNS service, not a VPN connectivity service"
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect is a private connection, not based on VPN"
+          },
+          {
+            "texto": "AWS Lambda",
+            "explicacao": "AWS Lambda is a serverless computing service, not a connectivity solution"
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is an advantage of using AWS Direct Connect over an internet-based VPN?",
+        "opcoes": [
+          {
+            "texto": "Low latency and more stable connectivity",
+            "explicacao": "AWS Direct Connect provides a dedicated connection, ensuring low latency and higher stability"
+          },
+          {
+            "texto": "Lower initial cost",
+            "explicacao": "The initial cost of Direct Connect might be higher than a VPN"
+          },
+          {
+            "texto": "More security for data in transit",
+            "explicacao": "Both Direct Connect and VPN offer security, but VPN uses encryption while Direct Connect may require additional VPN"
+          },
+          {
+            "texto": "More flexibility for temporary connections",
+            "explicacao": "VPN is generally more suitable for temporary connections due to its simpler and more flexible setup"
+          }
+        ],
+        "respostaCorreta": "Low latency and more stable connectivity",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS service helps optimize network connectivity for globally distributed users?",
+        "opcoes": [
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "Amazon CloudFront is a content delivery network (CDN) that enhances global connectivity and performance"
+          },
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN is used to connect private networks, not for global content distribution"
+          },
+          {
+            "texto": "Amazon EC2",
+            "explicacao": "Amazon EC2 provides computing instances, not optimized global connectivity"
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect offers private connectivity but is not focused on globally distributed users"
+          }
+        ],
+        "respostaCorreta": "Amazon CloudFront",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which solution allows the creation of a secure private network between multiple VPCs in AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS Transit Gateway",
+            "explicacao": "AWS Transit Gateway allows connecting multiple VPCs and on-premises networks in a centralized and secure manner"
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect provides a dedicated connection, but it is not designed to connect multiple VPCs"
+          },
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "CloudFront is a CDN and does not offer connectivity between VPCs"
+          },
+          {
+            "texto": "Amazon Route 53",
+            "explicacao": "Route 53 is a DNS service, not a VPC connectivity solution"
+          }
+        ],
+        "respostaCorreta": "AWS Transit Gateway",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What solution would be ideal for a startup with a low budget that needs a fast and secure connection to AWS?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN is an affordable option for startups needing security, using public internet with encryption."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "Direct Connect offers high performance, but it may be expensive and complex for small startups."
+          },
+          {
+            "texto": "Public internet without VPN",
+            "explicacao": "Public internet without VPN does not offer the necessary security for business connections."
+          },
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "Amazon CloudFront is a CDN, not a local network connectivity solution."
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which of the following options allows for a secure, encrypted connection between different AWS networks and your local network?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN allows for a secure, encrypted connection between your local network and AWS."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect offers a dedicated connection, but it is not automatically encrypted."
+          },
+          {
+            "texto": "Public internet",
+            "explicacao": "Public internet without a VPN does not provide encryption for the connection."
+          },
+          {
+            "texto": "Amazon Route 53",
+            "explicacao": "Route 53 is a DNS service, not a secure connectivity solution."
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which AWS service would be best for a company needing a high-speed connection but also wants to avoid high internet traffic costs?",
+        "opcoes": [
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "AWS Direct Connect provides a high-speed connection without internet traffic costs."
+          },
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN uses public internet, which may generate data traffic costs."
+          },
+          {
+            "texto": "Amazon S3 Transfer Acceleration",
+            "explicacao": "Transfer Acceleration improves transfer speeds to S3, but does not solve general internet traffic issues."
+          },
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "CloudFront is a CDN that improves content delivery but is not a connectivity solution."
+          }
+        ],
+        "respostaCorreta": "AWS Direct Connect",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Which option should a company choose if it wants to connect its local network to AWS in an affordable and secure way?",
+        "opcoes": [
+          {
+            "texto": "AWS VPN",
+            "explicacao": "AWS VPN is an affordable and secure solution using public internet with encryption."
+          },
+          {
+            "texto": "AWS Direct Connect",
+            "explicacao": "While highly stable, Direct Connect may be expensive for small companies."
+          },
+          {
+            "texto": "Amazon CloudFront",
+            "explicacao": "Amazon CloudFront is a CDN, not a local network connectivity solution."
+          },
+          {
+            "texto": "Public internet without VPN",
+            "explicacao": "Public internet without VPN does not offer adequate security for business connections."
+          }
+        ],
+        "respostaCorreta": "AWS VPN",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What characterizes an AWS Region?",
+        "opcoes": [
+          {
+            "texto": "A collection of interconnected Availability Zones",
+            "explicacao": "A Region consists of multiple Availability Zones that are interconnected for high availability."
+          },
+          {
+            "texto": "A single data center located in a specific country",
+            "explicacao": "A Region covers multiple Availability Zones, not just a single data center."
+          },
+          {
+            "texto": "A place to store temporary data",
+            "explicacao": "Regions are used to deploy computing resources, not just for temporary storage."
+          },
+          {
+            "texto": "A global content distribution service",
+            "explicacao": "Content distribution services are provided via edge locations, not Regions."
+          }
+        ],
+        "respostaCorreta": "A collection of interconnected Availability Zones",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the purpose of Availability Zones in an AWS Region?",
+        "opcoes": [
+          {
+            "texto": "Provide redundancy and high availability for applications",
+            "explicacao": "Availability Zones offer redundancy and high availability to ensure service continuity."
+          },
+          {
+            "texto": "Serve as permanent data storage locations",
+            "explicacao": "While they may store data, the primary goal of Availability Zones is to ensure high availability."
+          },
+          {
+            "texto": "Increase network latency between users",
+            "explicacao": "Availability Zones are designed to reduce latency and increase efficiency."
+          },
+          {
+            "texto": "Perform real-time data backup",
+            "explicacao": "Backup can be done across multiple Availability Zones, but that is not their only purpose."
+          }
+        ],
+        "respostaCorreta": "Provide redundancy and high availability for applications",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What are edge locations in AWS?",
+        "opcoes": [
+          {
+            "texto": "Points of presence that improve content delivery and reduce latency",
+            "explicacao": "Edge locations are used to optimize content delivery and reduce latency for end users."
+          },
+          {
+            "texto": "Data centers located in different countries",
+            "explicacao": "Edge locations are more about content optimization than being traditional data centers."
+          },
+          {
+            "texto": "Availability Zones specialized in data storage",
+            "explicacao": "Edge locations are not Availability Zones; they optimize content delivery."
+          },
+          {
+            "texto": "Services dedicated only to critical applications",
+            "explicacao": "Edge locations can benefit any type of application, not just critical ones."
+          }
+        ],
+        "respostaCorreta": "Points of presence that improve content delivery and reduce latency",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "How do Regions, Availability Zones, and edge locations work together in AWS?",
+        "opcoes": [
+          {
+            "texto": "Regions provide infrastructure, Availability Zones ensure resilience, and edge locations optimize access",
+            "explicacao": "This combination ensures robust infrastructure, resilience, and efficient content delivery."
+          },
+          {
+            "texto": "Availability Zones work independently from Regions and edge locations",
+            "explicacao": "Availability Zones are always associated with a specific Region and work together with edge locations."
+          },
+          {
+            "texto": "Edge locations replace the need for Availability Zones",
+            "explicacao": "Edge locations complement Availability Zones but do not replace them."
+          },
+          {
+            "texto": "Regions and Availability Zones are used only for data backup",
+            "explicacao": "They are used for a variety of services, including compute, storage, and networking."
+          }
+        ],
+        "respostaCorreta": "Regions provide infrastructure, Availability Zones ensure resilience, and edge locations optimize access",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Why is it important to choose the correct Region for your resources in AWS?",
+        "opcoes": [
+          {
+            "texto": "To minimize latency and meet compliance requirements",
+            "explicacao": "Choosing the right Region can help reduce latency for users and meet compliance regulations."
+          },
+          {
+            "texto": "Because each Region has different operational costs",
+            "explicacao": "While prices may vary, the main factors are latency and compliance."
+          },
+          {
+            "texto": "To ensure unlimited access to all AWS services",
+            "explicacao": "The availability of services may vary between Regions, but access is not unlimited."
+          },
+          {
+            "texto": "To access specific edge locations",
+            "explicacao": "Edge locations are not directly tied to Region choice but are about content delivery."
+          }
+        ],
+        "respostaCorreta": "To minimize latency and meet compliance requirements",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "How are Availability Zones designed to ensure service continuity in AWS?",
+        "opcoes": [
+          {
+            "texto": "They are physically isolated and interconnected by high-speed networks",
+            "explicacao": "Physical isolation helps prevent failures in one Zone from affecting others."
+          },
+          {
+            "texto": "They share the same network infrastructure",
+            "explicacao": "Sharing infrastructure may increase the risk of failures between Zones."
+          },
+          {
+            "texto": "They have capacity limits to ensure availability",
+            "explicacao": "While there are limits, the design is focused on redundancy and isolation."
+          },
+          {
+            "texto": "They operate in test-only environments",
+            "explicacao": "Availability Zones are production environments, not just for testing."
+          }
+        ],
+        "respostaCorreta": "They are physically isolated and interconnected by high-speed networks",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the role of edge locations in relation to static and dynamic content in AWS?",
+        "opcoes": [
+          {
+            "texto": "Improve delivery of static and dynamic content by reducing latency",
+            "explicacao": "Edge locations are designed to optimize the delivery of both types of content to end-users"
+          },
+          {
+            "texto": "Increase website load time",
+            "explicacao": "Edge locations aim to reduce load time, not increase it"
+          },
+          {
+            "texto": "Serve only dynamic content",
+            "explicacao": "They serve both dynamic and static content"
+          },
+          {
+            "texto": "Replace the need for Availability Zones",
+            "explicacao": "Edge locations complement Availability Zones but do not replace them"
+          }
+        ],
+        "respostaCorreta": "Improve delivery of static and dynamic content by reducing latency",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Why does AWS use multiple Availability Zones in each Region?",
+        "opcoes": [
+          {
+            "texto": "To ensure high availability and fault tolerance",
+            "explicacao": "Using multiple Availability Zones helps ensure service continuity even in case of failures"
+          },
+          {
+            "texto": "To increase the complexity of the architecture",
+            "explicacao": "Complexity is not the goal; resilience and high availability are"
+          },
+          {
+            "texto": "To optimize cloud service costs",
+            "explicacao": "Cost is a factor, but the primary goal is resilience"
+          },
+          {
+            "texto": "To allow easy migration of data between regions",
+            "explicacao": "Availability Zones are designed to maintain availability, not necessarily for migration"
+          }
+        ],
+        "respostaCorreta": "To ensure high availability and fault tolerance",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "How does AWS ensure data security in Regions and Availability Zones?",
+        "opcoes": [
+          {
+            "texto": "Implementing multi-layered security controls",
+            "explicacao": "AWS uses a layered approach to protect data and applications across its infrastructures"
+          },
+          {
+            "texto": "Isolating all Availability Zones in insecure environments",
+            "explicacao": "Zones are designed to be secure and reliable"
+          },
+          {
+            "texto": "Providing unrestricted access to all Zones",
+            "explicacao": "Access is controlled and must be properly managed"
+          },
+          {
+            "texto": "Using only encryption to protect data",
+            "explicacao": "While encryption is important, security involves multiple layers and practices"
+          }
+        ],
+        "respostaCorreta": "Implementing multi-layered security controls",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is the main advantage of using multiple Availability Zones in AWS?",
+        "opcoes": [
+          {
+            "texto": "Increase service availability and resilience",
+            "explicacao": "Multiple Availability Zones ensure that if one fails, others can continue to operate"
+          },
+          {
+            "texto": "Reduce cloud service costs",
+            "explicacao": "While implementing multiple Zones may incur additional costs, the primary benefit is high availability"
+          },
+          {
+            "texto": "Increase application latency",
+            "explicacao": "Using multiple Availability Zones aims to reduce latency and improve performance"
+          },
+          {
+            "texto": "Allow unrestricted access to all data",
+            "explicacao": "Security and access control are essential regardless of the number of Zones"
+          }
+        ],
+        "respostaCorreta": "Increase service availability and resilience",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "How does AWS enable load balancing across multiple Availability Zones?",
+        "opcoes": [
+          {
+            "texto": "Through load balancers that direct traffic",
+            "explicacao": "Load balancers are used to distribute traffic across instances in different Availability Zones"
+          },
+          {
+            "texto": "Only through custom scripts",
+            "explicacao": "While scripts can be used, AWS provides dedicated load balancers for this purpose"
+          },
+          {
+            "texto": "Limiting traffic to a single Zone",
+            "explicacao": "Limiting traffic to a single Availability Zone goes against the goal of high availability"
+          },
+          {
+            "texto": "Disabling redundancy in Availability Zones",
+            "explicacao": "Redundancy is essential to ensure availability and service continuity"
+          }
+        ],
+        "respostaCorreta": "Through load balancers that direct traffic",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What should be considered when designing an application for high availability in AWS?",
+        "opcoes": [
+          {
+            "texto": "Distribute resources across multiple Availability Zones",
+            "explicacao": "Distributing resources across Zones helps avoid a single point of failure"
+          },
+          {
+            "texto": "Rely on a single Availability Zone",
+            "explicacao": "Relying on a single Zone compromises high availability"
+          },
+          {
+            "texto": "Not using backups",
+            "explicacao": "Backups are important, but distributing across Zones is crucial for high availability"
+          },
+          {
+            "texto": "Increase design complexity",
+            "explicacao": "The design should be efficient, not overly complex, to ensure continuous operation"
+          }
+        ],
+        "respostaCorreta": "Distribute resources across multiple Availability Zones",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What approach can be used to ensure recovery in case of failures in Availability Zones?",
+        "opcoes": [
+          {
+            "texto": "Implement automatic failover",
+            "explicacao": "Automatic failover allows traffic to be redirected to a healthy Availability Zone"
+          },
+          {
+            "texto": "Increase allowed downtime",
+            "explicacao": "The goal is to minimize downtime, not increase it"
+          },
+          {
+            "texto": "Use only one Availability Zone for all operations",
+            "explicacao": "This does not provide redundancy and compromises recovery"
+          },
+          {
+            "texto": "Disable service monitoring",
+            "explicacao": "Monitoring is vital to detect failures quickly and trigger failover"
+          }
+        ],
+        "respostaCorreta": "Implement automatic failover",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "Why is it important to test the disaster recovery plan in an environment with multiple Availability Zones?",
+        "opcoes": [
+          {
+            "texto": "To ensure recovery happens as planned",
+            "explicacao": "Testing the plan helps identify issues and improve recovery time"
+          },
+          {
+            "texto": "To increase planned downtime",
+            "explicacao": "The goal is to reduce downtime, not increase it"
+          },
+          {
+            "texto": "To avoid changes to the application design",
+            "explicacao": "Design changes may be necessary based on test results"
+          },
+          {
+            "texto": "To eliminate the need for backups",
+            "explicacao": "Backups are still essential, even with a tested recovery plan"
+          }
+        ],
+        "respostaCorreta": "To ensure recovery happens as planned",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "How do Availability Zones help protect against service disruptions?",
+        "opcoes": [
+          {
+            "texto": "Providing physical isolation between resources",
+            "explicacao": "Physical isolation helps minimize the impact of failures in one Zone on others"
+          },
+          {
+            "texto": "Keeping all services in a single Zone",
+            "explicacao": "Keeping everything in a single Zone does not offer protection against disruptions"
+          },
+          {
+            "texto": "Using the same network infrastructure for all Zones",
+            "explicacao": "Each Zone should have its own infrastructure to avoid failure propagation"
+          },
+          {
+            "texto": "Disabling redundancy in some Zones",
+            "explicacao": "Redundancy is essential to ensure service continuity"
+          }
+        ],
+        "respostaCorreta": "Providing physical isolation between resources",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
+      },
+      {
+        "pergunta": "What is a best practice when using multiple Availability Zones in AWS?",
+        "opcoes": [
+          {
+            "texto": "Ensure that critical resources are deployed across multiple Zones",
+            "explicacao": "Deploying critical resources across multiple Zones minimizes the risk of downtime"
+          },
+          {
+            "texto": "Use only one Zone for cost efficiency",
+            "explicacao": "This approach reduces availability and increases risk"
+          },
+          {
+            "texto": "Limit scaling to a single Zone",
+            "explicacao": "Scaling should be done across multiple Zones for high availability"
+          },
+          {
+            "texto": "Ignore health checks",
+            "explicacao": "Health checks are vital for monitoring the health of instances across Zones"
+          }
+        ],
+        "respostaCorreta": "Ensure that critical resources are deployed across multiple Zones",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       }
 ]

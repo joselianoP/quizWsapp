@@ -1,5 +1,61 @@
 [
   {
+    "pergunta": "O seu gerente operacional deseja ser avisado caso o orçamento da área ultrapasse os gastos na Nuvem. Qual serviço podemos utilizar para atender este pedido?",
+    "opcoes": [
+      {
+        "texto": "AWS Budgets",
+        "explicacao": "O AWS Budgets é usado para monitorar e definir alertas baseados no orçamento e gastos."
+      },
+      {
+        "texto": "AWS Cost Explorer",
+        "explicacao": "O Cost Explorer é usado para analisar e visualizar os custos, mas não oferece alertas automáticos baseados em orçamento."
+      },
+      {
+        "texto": "AWS Pricing Calculator",
+        "explicacao": "O Pricing Calculator é usado para estimar custos antes de implementar serviços, mas não oferece alertas."
+      },
+      {
+        "texto": "Savings Plans",
+        "explicacao": "Os Savings Plans são planos de economia, mas não fornecem monitoramento ou alertas sobre orçamento."
+      },
+      {
+        "texto": "Nenhuma das anteriores",
+        "explicacao": "A resposta correta está entre as opções fornecidas, sendo o AWS Budgets."
+      }
+    ],
+    "respostaCorreta": "AWS Budgets",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "cloud_technology_and_services": "cloud_concepts",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "O que é uma conta Free Tier AWS?",
+    "opcoes": [
+      {
+        "texto": "São ofertas de nível gratuito que não expiram.",
+        "explicacao": "As ofertas que não expiram fazem parte do Free Tier, mas não abrangem todas as condições."
+      },
+      {
+        "texto": "São ofertas de nível gratuito que expiram em 12 meses.",
+        "explicacao": "Esta é apenas uma parte das ofertas do Free Tier AWS, que também inclui opções não expiradas."
+      },
+      {
+        "texto": "São ofertas de nível pago.",
+        "explicacao": "O Free Tier AWS é gratuito, não sendo de nível pago."
+      },
+      {
+        "texto": "São um conjunto de ofertas de nível gratuito (que não expiram), de nível gratuito que expiram em 12 meses e de testes de curto prazo.",
+        "explicacao": "Essa definição abrange corretamente todas as categorias de ofertas incluídas no Free Tier AWS."
+      }
+    ],
+    "respostaCorreta": "São um conjunto de ofertas de nível gratuito (que não expiram), de nível gratuito que expiram em 12 meses e de testes de curto prazo.",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "cloud_technology_and_services": "cloud_concepts",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
     "pergunta": "O que são pontos de presença?",
     "opcoes": [
       {
