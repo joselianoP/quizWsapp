@@ -24,8 +24,8 @@
       }
     ],
     "respostaCorreta": "AWS Budgets",
-    "dominio": "Tecnologia e serviços da nuvem",
-    "cloud_technology_and_services": "cloud_concepts",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
@@ -51,7 +51,7 @@
     ],
     "respostaCorreta": "São um conjunto de ofertas de nível gratuito (que não expiram), de nível gratuito que expiram em 12 meses e de testes de curto prazo.",
     "dominio": "Tecnologia e serviços da nuvem",
-    "cloud_technology_and_services": "cloud_concepts",
+    "dominioKey": "cloud_concepts",
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
@@ -1517,33 +1517,7 @@
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
-  {
-    "pergunta": "Qual das seguintes afirmações são verdadeiras? (Escolha dois)",
-    "opcoes": [
-      {
-        "texto": "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
-        "explicacao": "O Amazon CloudFront usa Locais de Borda para armazenar em cache e distribuir conteúdo rapidamente aos clientes, melhorando a experiência de entrega de conteúdo."
-      },
-      {
-        "texto": "Existem mais zonas de disponibilidade do que locais de borda e mais locais de borda que regiões.",
-        "explicacao": "Essa afirmação é incorreta. Existem mais locais de borda do que zonas de disponibilidade, pois eles são projetados para proporcionar uma entrega de conteúdo mais próxima dos usuários."
-      },
-      {
-        "texto": "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões.",
-        "explicacao": "Essa afirmação está correta. Locais de borda superam em quantidade as zonas de disponibilidade, e zonas de disponibilidade são mais numerosas que regiões."
-      },
-      {
-        "texto": "Existem mais regiões do que locais de borda e mais locais de borda que zonas de disponibilidade.",
-        "explicacao": "Essa afirmação é incorreta. As regiões são unidades geográficas maiores, com menos unidades em relação a locais de borda e zonas de disponibilidade."
-      }
-    ],
-    "respostaCorreta": [
-      "O serviço Amazon CloudFront permite o armazenamento em cache de conteúdo em Locais de Borda para distribuição rápida aos clientes.",
-      "Existem mais locais de borda do que zonas de disponibilidade e mais zonas de disponibilidade que regiões."
-    ],
-    "dominio": "Tecnologia e serviços da nuvem",
-    "tipo": "multiple"
-  },
+
   {
     "pergunta": "Qual característica da AWS descreve a capacidade de adquirir recursos conforme você precisa deles e liberar recursos quando não precisar mais deles?",
     "opcoes": [

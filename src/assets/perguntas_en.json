@@ -24,8 +24,8 @@
       }
     ],
     "respostaCorreta": "AWS Budgets",
-    "dominio": "Tecnologia e serviços da nuvem",
-    "cloud_technology_and_services": "cloud_concepts",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
@@ -50,8 +50,8 @@
       }
     ],
     "respostaCorreta": "These are a set of free tier offers (that do not expire), free tier offers that expire in 12 months, and short-term trials.",
-    "dominio": "Tecnologia e serviços da nuvem",
-    "cloud_technology_and_services": "cloud_concepts",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
@@ -1248,254 +1248,254 @@
     "tipo": "single"
   },
   {
-    "question": "What is a Container in the cloud?",
-    "options": [
+    "explicacao": "What is a Container in the cloud?",
+    "opcoes": [
       {
-        "text": "A unit that packages software and its dependencies for execution",
-        "explanation": "Containers allow applications to run consistently across different environments by isolating their dependencies"
+        "texto": "A unit that packages software and its dependencies for execution",
+        "explicacao": "Containers allow applications to run consistently across different environments by isolating their dependencies"
       },
       {
-        "text": "A physical server dedicated to an application",
-        "explanation": "Containers are virtual, not physical dedicated servers"
+        "texto": "A physical server dedicated to an application",
+        "explicacao": "Containers are virtual, not physical dedicated servers"
       },
       {
-        "text": "A form of data storage",
-        "explanation": "Containers are used for packaging software, not for storage"
+        "texto": "A form of data storage",
+        "explicacao": "Containers are used for packaging software, not for storage"
       },
       {
-        "text": "A method of data backup in the cloud",
-        "explanation": "Containers are not methods of backup, but rather software units"
+        "texto": "A method of data backup in the cloud",
+        "explicacao": "Containers are not methods of backup, but rather software units"
       }
     ],
-    "correctAnswer": "A unit that packages software and its dependencies for execution",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "A unit that packages software and its dependencies for execution",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What is SLA in cloud services?",
-    "options": [
+    "explicacao": "What is SLA in cloud services?",
+    "opcoes": [
       {
-        "text": "An agreement on the service levels a provider must offer",
-        "explanation": "The SLA (Service Level Agreement) defines performance and availability expectations between providers and customers"
+        "texto": "An agreement on the service levels a provider must offer",
+        "explicacao": "The SLA (Service Level Agreement) defines performance and availability expectations between providers and customers"
       },
       {
-        "text": "A price list of services",
-        "explanation": "The SLA is not a price list, but an agreement on service levels"
+        "texto": "A price list of services",
+        "explicacao": "The SLA is not a price list, but an agreement on service levels"
       },
       {
-        "text": "A method of user authentication",
-        "explanation": "SLA refers to service levels, not authentication methods"
+        "texto": "A method of user authentication",
+        "explicacao": "SLA refers to service levels, not authentication methods"
       },
       {
-        "text": "A type of data backup",
-        "explanation": "The SLA is not a type of backup, but rather an agreement on provided services"
+        "texto": "A type of data backup",
+        "explicacao": "The SLA is not a type of backup, but rather an agreement on provided services"
       }
     ],
-    "correctAnswer": "An agreement on the service levels a provider must offer",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "An agreement on the service levels a provider must offer",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "A company is looking for a solution that allows them to quickly scale their applications during demand spikes. Which of the following cloud services is most suitable for this?",
-    "options": [
+    "explicacao": "A company is looking for a solution that allows them to quickly scale their applications during demand spikes. Which of the following cloud services is most suitable for this?",
+    "opcoes": [
       {
-        "text": "Dedicated server instances",
-        "explanation": "Dedicated instances are not efficiently scalable in response to demand"
+        "texto": "Dedicated server instances",
+        "explicacao": "Dedicated instances are not efficiently scalable in response to demand"
       },
       {
-        "text": "Scalable cloud computing",
-        "explanation": "Cloud computing allows you to scale resources quickly as needed"
+        "texto": "Scalable cloud computing",
+        "explicacao": "Cloud computing allows you to scale resources quickly as needed"
       },
       {
-        "text": "Local hard drive storage",
-        "explanation": "Local storage does not allow scalability during demand spikes"
+        "texto": "Local hard drive storage",
+        "explicacao": "Local storage does not allow scalability during demand spikes"
       },
       {
-        "text": "Physical servers in a data center",
-        "explanation": "Physical servers require time and resources to scale, making them impractical for variable demand"
+        "texto": "Physical servers in a data center",
+        "explicacao": "Physical servers require time and resources to scale, making them impractical for variable demand"
       }
     ],
-    "correctAnswer": "Scalable cloud computing",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "Scalable cloud computing",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What does 'high availability' mean in a cloud environment?",
-    "options": [
+    "explicacao": "What does 'high availability' mean in a cloud environment?",
+    "opcoes": [
       {
-        "text": "Services are always accessible and functional, even during failures",
-        "explanation": "High availability means that services are designed to remain operational even during failures"
+        "texto": "Services are always accessible and functional, even during failures",
+        "explicacao": "High availability means that services are designed to remain operational even during failures"
       },
       {
-        "text": "Only backup services are maintained",
-        "explanation": "High availability refers to all services, not just backups"
+        "texto": "Only backup services are maintained",
+        "explicacao": "High availability refers to all services, not just backups"
       },
       {
-        "text": "The ability to serve a single client",
-        "explanation": "High availability is about general accessibility, not individual client access"
+        "texto": "The ability to serve a single client",
+        "explicacao": "High availability is about general accessibility, not individual client access"
       },
       {
-        "text": "Reduction of operational costs",
-        "explanation": "High availability focuses on reliability, not necessarily on cost reduction"
+        "texto": "Reduction of operational costs",
+        "explicacao": "High availability focuses on reliability, not necessarily on cost reduction"
       }
     ],
-    "correctAnswer": "Services are always accessible and functional, even during failures",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "Services are always accessible and functional, even during failures",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What is the main function of a load balancer in the cloud?",
-    "options": [
+    "explicacao": "What is the main function of a load balancer in the cloud?",
+    "opcoes": [
       {
-        "text": "Distribute traffic across multiple server instances",
-        "explanation": "A load balancer distributes network traffic to ensure that no instance is overloaded"
+        "texto": "Distribute traffic across multiple server instances",
+        "explicacao": "A load balancer distributes network traffic to ensure that no instance is overloaded"
       },
       {
-        "text": "Store data securely",
-        "explanation": "Load balancers do not store data, they manage traffic"
+        "texto": "Store data securely",
+        "explicacao": "Load balancers do not store data, they manage traffic"
       },
       {
-        "text": "Protect the network from attacks",
-        "explanation": "Although load balancers can help with security, their primary function is traffic distribution"
+        "texto": "Protect the network from attacks",
+        "explicacao": "Although load balancers can help with security, their primary function is traffic distribution"
       },
       {
-        "text": "Increase network bandwidth",
-        "explanation": "Load balancers manage traffic, but they do not increase bandwidth"
+        "texto": "Increase network bandwidth",
+        "explicacao": "Load balancers manage traffic, but they do not increase bandwidth"
       }
     ],
-    "correctAnswer": "Distribute traffic across multiple server instances",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "Distribute traffic across multiple server instances",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What is a Data Lake in the cloud?",
-    "options": [
+    "explicacao": "What is a Data Lake in the cloud?",
+    "opcoes": [
       {
-        "text": "A repository that stores large volumes of raw data",
-        "explanation": "A Data Lake allows data to be stored in its original format for later analysis"
+        "texto": "A repository that stores large volumes of raw data",
+        "explicacao": "A Data Lake allows data to be stored in its original format for later analysis"
       },
       {
-        "text": "A location to store only structured data",
-        "explanation": "Data Lakes store both structured and unstructured data"
+        "texto": "A location to store only structured data",
+        "explicacao": "Data Lakes store both structured and unstructured data"
       },
       {
-        "text": "A type of relational database",
-        "explanation": "Data Lakes are not relational databases; they are more flexible and support various types of data"
+        "texto": "A type of relational database",
+        "explicacao": "Data Lakes are not relational databases; they are more flexible and support various types of data"
       },
       {
-        "text": "A method of data backup",
-        "explanation": "Data Lakes are used for storage, not as backup methods"
+        "texto": "A method of data backup",
+        "explicacao": "Data Lakes are used for storage, not as backup methods"
       }
     ],
-    "correctAnswer": "A repository that stores large volumes of raw data",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "A repository that stores large volumes of raw data",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "How does serverless architecture work in the cloud?",
-    "options": [
+    "explicacao": "How does serverless architecture work in the cloud?",
+    "opcoes": [
       {
-        "text": "Allows developers to write code without worrying about servers",
-        "explanation": "In serverless architecture, the cloud provider manages the infrastructure, allowing developers to focus on code"
+        "texto": "Allows developers to write code without worrying about servers",
+        "explicacao": "In serverless architecture, the cloud provider manages the infrastructure, allowing developers to focus on code"
       },
       {
-        "text": "Requires developers to manage all servers manually",
-        "explanation": "Serverless architecture eliminates the need for manual server management"
+        "texto": "Requires developers to manage all servers manually",
+        "explicacao": "Serverless architecture eliminates the need for manual server management"
       },
       {
-        "text": "It is a solution for data storage",
-        "explanation": "Serverless is about code execution, not storage"
+        "texto": "It is a solution for data storage",
+        "explicacao": "Serverless is about code execution, not storage"
       },
       {
-        "text": "Imposes strict restrictions on application development",
-        "explanation": "Serverless offers flexibility, not restrictions"
+        "texto": "Imposes strict restrictions on application development",
+        "explicacao": "Serverless offers flexibility, not restrictions"
       }
     ],
-    "correctAnswer": "Allows developers to write code without worrying about servers",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "Allows developers to write code without worrying about servers",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What is the advantage of using containers in the cloud?",
-    "options": [
+    "explicacao": "What is the advantage of using containers in the cloud?",
+    "opcoes": [
       {
-        "text": "Portability and consistency across environments",
-        "explanation": "Containers allow applications to run consistently across different environments"
+        "texto": "Portability and consistency across environments",
+        "explicacao": "Containers allow applications to run consistently across different environments"
       },
       {
-        "text": "Need for specific hardware",
-        "explanation": "Containers are designed to be hardware-independent"
+        "texto": "Need for specific hardware",
+        "explicacao": "Containers are designed to be hardware-independent"
       },
       {
-        "text": "Increase in operational costs",
-        "explanation": "Containers can help reduce costs through resource efficiency"
+        "texto": "Increase in operational costs",
+        "explicacao": "Containers can help reduce costs through resource efficiency"
       },
       {
-        "text": "Dependence on physical servers",
-        "explanation": "Containers are independent of physical servers and can run in any cloud environment"
+        "texto": "Dependence on physical servers",
+        "explicacao": "Containers are independent of physical servers and can run in any cloud environment"
       }
     ],
-    "correctAnswer": "Portability and consistency across environments",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "Portability and consistency across environments",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What is the role of an authentication service in the cloud?",
-    "options": [
+    "explicacao": "What is the role of an authentication service in the cloud?",
+    "opcoes": [
       {
-        "text": "Manage and verify user identities",
-        "explanation": "Authentication services ensure that only authorized users have access to resources"
+        "texto": "Manage and verify user identities",
+        "explicacao": "Authentication services ensure that only authorized users have access to resources"
       },
       {
-        "text": "Store data securely",
-        "explanation": "Secure storage is a separate function from authentication"
+        "texto": "Store data securely",
+        "explicacao": "Secure storage is a separate function from authentication"
       },
       {
-        "text": "Provision new servers",
-        "explanation": "Server provisioning is a different task from authentication"
+        "texto": "Provision new servers",
+        "explicacao": "Server provisioning is a different task from authentication"
       },
       {
-        "text": "Create automatic backups",
-        "explanation": "Authentication services do not handle data backups"
+        "texto": "Create automatic backups",
+        "explicacao": "Authentication services do not handle data backups"
       }
     ],
-    "correctAnswer": "Manage and verify user identities",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "Manage and verify user identities",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
-    "question": "What is a cloud backup service?",
-    "options": [
+    "explicacao": "What is a cloud backup service?",
+    "opcoes": [
       {
-        "text": "A service that stores copies of data securely",
-        "explanation": "Cloud backup services store copies of data, allowing recovery in case of loss"
+        "texto": "A service that stores copies of data securely",
+        "explicacao": "Cloud backup services store copies of data, allowing recovery in case of loss"
       },
       {
-        "text": "A database management system",
-        "explanation": "Backup is different from database management"
+        "texto": "A database management system",
+        "explicacao": "Backup is different from database management"
       },
       {
-        "text": "A high-performance computing service",
-        "explanation": "Backup services do not focus on performance, but on data security"
+        "texto": "A high-performance computing service",
+        "explicacao": "Backup services do not focus on performance, but on data security"
       },
       {
-        "text": "A method of local storage",
-        "explanation": "Cloud backup is a remote method, not local storage"
+        "texto": "A method of local storage",
+        "explicacao": "Cloud backup is a remote method, not local storage"
       }
     ],
-    "correctAnswer": "A service that stores copies of data securely",
-    "domain": "Conceitos da nuvem",
-    "domainKey": "cloud_concepts",
-    "type": "single"
+    "respostaCorreta": "A service that stores copies of data securely",
+    "dominio": "Conceitos da nuvem",
+    "dominioKey": "cloud_concepts",
+    "tipo": "single"
   },
   {
     "pergunta": "What is the purpose of cloud cost management?",
@@ -10080,254 +10080,254 @@
         "tipo": "single"
       },
       {
-        "question": "What is a disadvantage of using programmatic access credentials instead of accessing through the AWS Management Console?",
-        "options": [
+        "explicacao": "What is a disadvantage of using programmatic access credentials instead of accessing through the AWS Management Console?",
+        "opcoes": [
           {
-            "text": "Higher risk of credential exposure",
-            "explanation": "Using programmatic credentials increases the risk of exposure if not managed properly"
+            "texto": "Higher risk of credential exposure",
+            "explicacao": "Using programmatic credentials increases the risk of exposure if not managed properly"
           },
           {
-            "text": "Lower automation capability",
-            "explanation": "Programmatic access is generally better suited for automation"
+            "texto": "Lower automation capability",
+            "explicacao": "Programmatic access is generally better suited for automation"
           },
           {
-            "text": "Requirement of more steps for simple operations",
-            "explanation": "Programmatic access usually facilitates simple operations compared to manual usage"
+            "texto": "Requirement of more steps for simple operations",
+            "explicacao": "Programmatic access usually facilitates simple operations compared to manual usage"
           },
           {
-            "text": "Limitation to access a single account",
-            "explanation": "Credentials can be used across multiple accounts if configured properly"
+            "texto": "Limitation to access a single account",
+            "explicacao": "Credentials can be used across multiple accounts if configured properly"
           }
         ],
-        "correctAnswer": "Higher risk of credential exposure",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Higher risk of credential exposure",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "When is it most appropriate to use multi-factor authentication (MFA) with programmatic access?",
-        "options": [
+        "explicacao": "When is it most appropriate to use multi-factor authentication (MFA) with programmatic access?",
+        "opcoes": [
           {
-            "text": "Whenever a critical operation is performed",
-            "explanation": "MFA should be used for critical operations to enhance security"
+            "texto": "Whenever a critical operation is performed",
+            "explicacao": "MFA should be used for critical operations to enhance security"
           },
           {
-            "text": "Only in development environments",
-            "explanation": "MFA should be used in all environments, not just in development"
+            "texto": "Only in development environments",
+            "explicacao": "MFA should be used in all environments, not just in development"
           },
           {
-            "text": "When using the Management Console",
-            "explanation": "MFA should also be considered for programmatic access"
+            "texto": "When using the Management Console",
+            "explicacao": "MFA should also be considered for programmatic access"
           },
           {
-            "text": "Only for non-administrative users",
-            "explanation": "All users, including administrators, should use MFA"
+            "texto": "Only for non-administrative users",
+            "explicacao": "All users, including administrators, should use MFA"
           }
         ],
-        "correctAnswer": "Whenever a critical operation is performed",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Whenever a critical operation is performed",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "What is one of the main reasons to use IAM Roles instead of static credentials?",
-        "options": [
+        "explicacao": "What is one of the main reasons to use IAM Roles instead of static credentials?",
+        "opcoes": [
           {
-            "text": "Ease of password management",
-            "explanation": "IAM Roles do not manage passwords but avoid the use of static credentials"
+            "texto": "Ease of password management",
+            "explicacao": "IAM Roles do not manage passwords but avoid the use of static credentials"
           },
           {
-            "text": "Improved security by avoiding static credentials",
-            "explanation": "Using IAM Roles improves security by avoiding the use of static credentials that may be exposed"
+            "texto": "Improved security by avoiding static credentials",
+            "explicacao": "Using IAM Roles improves security by avoiding the use of static credentials that may be exposed"
           },
           {
-            "text": "Access to public resources only",
-            "explanation": "IAM Roles can also be used to access private resources"
+            "texto": "Access to public resources only",
+            "explicacao": "IAM Roles can also be used to access private resources"
           },
           {
-            "text": "Reduction in the execution time of operations",
-            "explanation": "Execution time may not be directly impacted by the choice between IAM Roles and static credentials"
+            "texto": "Reduction in the execution time of operations",
+            "explicacao": "Execution time may not be directly impacted by the choice between IAM Roles and static credentials"
           }
         ],
-        "correctAnswer": "Improved security by avoiding static credentials",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Improved security by avoiding static credentials",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "What approach should be taken to manage programmatic access securely?",
-        "options": [
+        "explicacao": "What approach should be taken to manage programmatic access securely?",
+        "opcoes": [
           {
-            "text": "Use long-term credentials for all users",
-            "explanation": "Long-term credentials increase the risk of exposure"
+            "texto": "Use long-term credentials for all users",
+            "explicacao": "Long-term credentials increase the risk of exposure"
           },
           {
-            "text": "Implement security practices like credential rotation and MFA",
-            "explanation": "Credential rotation and MFA improve the security of programmatic access"
+            "texto": "Implement security practices like credential rotation and MFA",
+            "explicacao": "Credential rotation and MFA improve the security of programmatic access"
           },
           {
-            "text": "Avoid using logs for monitoring",
-            "explanation": "Monitoring via logs is essential to identify unauthorized access"
+            "texto": "Avoid using logs for monitoring",
+            "explicacao": "Monitoring via logs is essential to identify unauthorized access"
           },
           {
-            "text": "Grant unrestricted access to all services",
-            "explanation": "Access should be restricted only to what is necessary for the user's functions"
+            "texto": "Grant unrestricted access to all services",
+            "explicacao": "Access should be restricted only to what is necessary for the user's functions"
           }
         ],
-        "correctAnswer": "Implement security practices like credential rotation and MFA",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Implement security practices like credential rotation and MFA",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "What is the best practice when using programmatic access credentials on AWS?",
-        "options": [
+        "explicacao": "What is the best practice when using programmatic access credentials on AWS?",
+        "opcoes": [
           {
-            "text": "Store credentials in a secure and accessible location",
-            "explanation": "Credentials should be securely stored to prevent unauthorized access"
+            "texto": "Store credentials in a secure and accessible location",
+            "explicacao": "Credentials should be securely stored to prevent unauthorized access"
           },
           {
-            "text": "Share credentials among team members",
-            "explanation": "Credentials should not be shared among users to maintain security"
+            "texto": "Share credentials among team members",
+            "explicacao": "Credentials should not be shared among users to maintain security"
           },
           {
-            "text": "Use long-term credentials instead of temporary ones",
-            "explanation": "Using temporary credentials is more secure"
+            "texto": "Use long-term credentials instead of temporary ones",
+            "explicacao": "Using temporary credentials is more secure"
           },
           {
-            "text": "Document credentials in a plain text file",
-            "explanation": "Credentials should not be stored in plain text to avoid exposure"
+            "texto": "Document credentials in a plain text file",
+            "explicacao": "Credentials should not be stored in plain text to avoid exposure"
           }
         ],
-        "correctAnswer": "Store credentials in a secure and accessible location",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Store credentials in a secure and accessible location",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "When should you opt to use a single operation instead of a repeatable process on AWS?",
-        "options": [
+        "explicacao": "When should you opt to use a single operation instead of a repeatable process on AWS?",
+        "opcoes": [
           {
-            "text": "When the task needs to be automated for recurring execution",
-            "explanation": "In this case, a repeatable process would be more suitable"
+            "texto": "When the task needs to be automated for recurring execution",
+            "explicacao": "In this case, a repeatable process would be more suitable"
           },
           {
-            "text": "When the task is performed once and will not need to be repeated",
-            "explanation": "A single operation is ideal for tasks that will not be repeated"
+            "texto": "When the task is performed once and will not need to be repeated",
+            "explicacao": "A single operation is ideal for tasks that will not be repeated"
           },
           {
-            "text": "When the volume of data processed is extremely high",
-            "explanation": "For large data volumes, repeatable processes are more efficient"
+            "texto": "When the volume of data processed is extremely high",
+            "explicacao": "For large data volumes, repeatable processes are more efficient"
           },
           {
-            "text": "When consistency between executions needs to be ensured",
-            "explanation": "A repeatable process is better suited to ensure consistency"
+            "texto": "When consistency between executions needs to be ensured",
+            "explicacao": "A repeatable process is better suited to ensure consistency"
           }
         ],
-        "correctAnswer": "When the task is performed once and will not need to be repeated",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "When the task is performed once and will not need to be repeated",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "In which situation is the use of repeatable processes more appropriate on AWS?",
-        "options": [
+        "explicacao": "In which situation is the use of repeatable processes more appropriate on AWS?",
+        "opcoes": [
           {
-            "text": "A one-time execution of data migration",
-            "explanation": "A one-time migration is typically treated as a single operation"
+            "texto": "A one-time execution of data migration",
+            "explicacao": "A one-time migration is typically treated as a single operation"
           },
           {
-            "text": "Automated execution of daily backups",
-            "explanation": "Daily backups are a repeatable process that benefits from automation"
+            "texto": "Automated execution of daily backups",
+            "explicacao": "Daily backups are a repeatable process that benefits from automation"
           },
           {
-            "text": "Performing a one-off configuration change",
-            "explanation": "One-off configuration changes are single operations"
+            "texto": "Performing a one-off configuration change",
+            "explicacao": "One-off configuration changes are single operations"
           },
           {
-            "text": "Managing logs of a specific instance",
-            "explanation": "This may be an ongoing process but does not necessarily require a repeatable process"
+            "texto": "Managing logs of a specific instance",
+            "explicacao": "This may be an ongoing process but does not necessarily require a repeatable process"
           }
         ],
-        "correctAnswer": "Automated execution of daily backups",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Automated execution of daily backups",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "What is an advantage of using a repeatable process instead of a single operation?",
-        "options": [
+        "explicacao": "What is an advantage of using a repeatable process instead of a single operation?",
+        "opcoes": [
           {
-            "text": "Faster execution",
-            "explanation": "Execution speed depends on the task type and not necessarily on whether it is repeatable or single"
+            "texto": "Faster execution",
+            "explicacao": "Execution speed depends on the task type and not necessarily on whether it is repeatable or single"
           },
           {
-            "text": "Automation of recurring tasks",
-            "explanation": "Repeatable processes allow automating tasks that need to be performed frequently"
+            "texto": "Automation of recurring tasks",
+            "explicacao": "Repeatable processes allow automating tasks that need to be performed frequently"
           },
           {
-            "text": "Greater flexibility for manual adjustments",
-            "explanation": "Repeatable processes are generally automated, reducing the need for manual adjustments"
+            "texto": "Greater flexibility for manual adjustments",
+            "explicacao": "Repeatable processes are generally automated, reducing the need for manual adjustments"
           },
           {
-            "text": "Reduction in computational resource usage",
-            "explanation": "Resource usage depends on task complexity, not repetition"
+            "texto": "Reduction in computational resource usage",
+            "explicacao": "Resource usage depends on task complexity, not repetition"
           }
         ],
-        "correctAnswer": "Automation of recurring tasks",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Automation of recurring tasks",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "When is a single operation more suitable than a repeatable process?",
-        "options": [
+        "explicacao": "When is a single operation more suitable than a repeatable process?",
+        "opcoes": [
           {
-            "text": "When the task needs to be performed daily",
-            "explanation": "Daily tasks are better handled as repeatable processes"
+            "texto": "When the task needs to be performed daily",
+            "explicacao": "Daily tasks are better handled as repeatable processes"
           },
           {
-            "text": "When the cost of automation outweighs manual execution",
-            "explanation": "If automation costs are too high, a single operation may be more efficient"
+            "texto": "When the cost of automation outweighs manual execution",
+            "explicacao": "If automation costs are too high, a single operation may be more efficient"
           },
           {
-            "text": "When the task requires continuous monitoring",
-            "explanation": "Continuous monitoring benefits more from repeatable processes"
+            "texto": "When the task requires continuous monitoring",
+            "explicacao": "Continuous monitoring benefits more from repeatable processes"
           },
           {
-            "text": "When the task involves multiple complex steps",
-            "explanation": "Complex and recurring processes are better treated as repeatable processes"
+            "texto": "When the task involves multiple complex steps",
+            "explicacao": "Complex and recurring processes are better treated as repeatable processes"
           }
         ],
-        "correctAnswer": "When the cost of automation outweighs manual execution",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "When the cost of automation outweighs manual execution",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
-        "question": "Which of the following scenarios justifies the use of a repeatable process on AWS?",
-        "options": [
+        "explicacao": "Which of the following scenarios justifies the use of a repeatable process on AWS?",
+        "opcoes": [
           {
-            "text": "Execution of a one-time backup restoration",
-            "explanation": "A one-time backup restoration does not require a repeatable process"
+            "texto": "Execution of a one-time backup restoration",
+            "explicacao": "A one-time backup restoration does not require a repeatable process"
           },
           {
-            "text": "Continuous monitoring of performance metrics",
-            "explanation": "Continuous monitoring is a good example of a repeatable process"
+            "texto": "Continuous monitoring of performance metrics",
+            "explicacao": "Continuous monitoring is a good example of a repeatable process"
           },
           {
-            "text": "Creating an EC2 instance for an ad-hoc task",
-            "explanation": "Ad-hoc tasks do not typically require repeatable processes"
+            "texto": "Creating an EC2 instance for an ad-hoc task",
+            "explicacao": "Ad-hoc tasks do not typically require repeatable processes"
           },
           {
-            "text": "Generating a one-time report for stakeholders",
-            "explanation": "One-time reports are best handled as single operations"
+            "texto": "Generating a one-time report for stakeholders",
+            "explicacao": "One-time reports are best handled as single operations"
           }
         ],
-        "correctAnswer": "Continuous monitoring of performance metrics",
-        "domain": "Tecnologia e serviços da nuvem",
-        "domainKey": "cloud_technology_and_services",
-        "type": "single"
+        "respostaCorreta": "Continuous monitoring of performance metrics",
+        "dominio": "Tecnologia e serviços da nuvem",
+        "dominioKey": "cloud_technology_and_services",
+        "tipo": "single"
       },
       {
         "pergunta": "Why should you choose a repeatable process when dealing with frequent system updates?",

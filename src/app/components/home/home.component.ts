@@ -12,8 +12,9 @@ import { SessionStorageService } from '../../services/SessionStorageService';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  totalPerguntasAws: number = 0;
-  accessCount: number = 0;
+  totalPerguntasAws: Number = 0;
+  totalPerguntasAZ_900: Number = 0;
+  accessCount: Number = 0;
 
   constructor(
     private perguntaService: PerguntaService,
@@ -36,7 +37,11 @@ export class HomeComponent implements OnInit {
       this.sessionStorageService.removeItem('perguntasSelecionadas');
     }
 
-    this.perguntaService.getTotalPerguntas().subscribe(
+    this.getTotalPerguntas_C012();
+    this.getTotalPerguntas_AZ_900();
+  }
+  getTotalPerguntas_C012(): any {
+    this.perguntaService.getTotalPerguntas('C012').subscribe(
       (total) => {
         this.totalPerguntasAws = total;
       },
@@ -44,17 +49,43 @@ export class HomeComponent implements OnInit {
         console.error('Erro ao buscar o total de perguntas:', error);
       }
     );
-    // this.accessCounterService.incrementCounter(); // Incrementa o contador
-    //this.accessCount = this.accessCounterService.getCounter(); // Obtém o contador
   }
+  getTotalPerguntas_AZ_900(): any {
+    this.perguntaService.getTotalPerguntas('AZ_900').subscribe(
+      (total) => {
+        this.totalPerguntasAZ_900 = total;
+      },
+      (error) => {
+        console.error('Erro ao buscar o total de perguntas:', error);
+      }
+    );
+  }
+  openUlrQuiz(tp: any): void {
+    console.log(tp);
+    this.sessionStorageService.setItem('tpQuiz', tp);
+    this.router.navigate(['/quiz']);
+  }
+
   openUlr(lg: any) {
     window.location.href = `/home?lg=${lg}`;
   }
+
   getPerguntas() {
     this.perguntaService.getPerguntas().subscribe(
       (perguntas) => {
         console.log(perguntas);
         this.exportarEmLotes(perguntas);
+      },
+      (error) => {
+        console.error('Erro ao buscar o total de perguntas:', error);
+      }
+    );
+  }
+
+  getallPerguntas() {
+    this.perguntaService.getallPerguntas().subscribe(
+      (perguntas) => {
+        console.log(perguntas);
       },
       (error) => {
         console.error('Erro ao buscar o total de perguntas:', error);

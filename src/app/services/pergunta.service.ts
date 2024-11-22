@@ -52,47 +52,77 @@ export class PerguntaService {
     } catch (error) {}
   }
 
-  getulrJson() {
+  getulrJsonF_C012() {
     const translateUse =
       this.sessionStorageService.getItem('translateUse') || 'pt';
 
     return `/assets/perguntas_${translateUse}.json`;
   }
 
+  getulrJsonAz900() {
+    const translateUse =
+      this.sessionStorageService.getItem('translateUse') || 'pt';
+
+    return `/assets/perguntas_az_900_${translateUse}.json`;
+  }
+
+  getTipoPergunta(tipo: any): any {
+    if (tipo === 'C012') {
+      return this.getulrJsonF_C012();
+    } else if (tipo === 'AZ_900') {
+      return this.getulrJsonAz900();
+    } else {
+      return this.getulrJsonF_C012();
+    }
+  }
+
+  getallPerguntas(): Observable<{ [dominio: string]: Pergunta[] }> {
+    return this.http.get<Pergunta[]>(this.getulrJsonF_C012()).pipe(
+      map((perguntas) => {
+        // Agrupar as perguntas por domínio
+        return perguntas.reduce((agrupado, pergunta) => {
+          const dominio = pergunta.dominioKey;
+          if (!agrupado[dominio]) {
+            agrupado[dominio] = [];
+          }
+          agrupado[dominio].push(pergunta);
+          return agrupado;
+        }, {} as { [dominio: string]: Pergunta[] });
+      })
+    );
+  }
   getPerguntas(): Observable<Pergunta[]> {
-    return this.http.get<Pergunta[]>(this.getulrJson()).pipe(
+    return this.http.get<Pergunta[]>(this.getulrJsonF_C012()).pipe(
       map((perguntas) => {
         return perguntas.filter(
-          (pergunta) => pergunta.dominio === 'Faturamento e Preços'
+          (pergunta) => pergunta.dominio === 'Tecnologia e serviços da nuvem'
         );
       })
     );
   }
 
-  getTotalPerguntas(): Observable<number> {
+  getTotalPerguntas(tp: any): Observable<Number> {
     return this.http
-      .get<Pergunta[]>(this.getulrJson())
+      .get<Pergunta[]>(this.getTipoPergunta(tp))
       .pipe(map((perguntas) => perguntas.length));
   }
 
   getPerguntasAleatorias(
     quantity: number,
+    tipoPergunta: any,
     fonteSimulado: any
   ): Observable<Pergunta[]> {
     const distribuicao: { [dominio: string]: number } = {
       'Conceitos da nuvem': 30,
-      'Migração para a nuvem': 30,
-      'AWS Framework': 30,
-      'Aspectos econômicos da nuvem': 30,
-      'Economia de custos da migração': 30,
       'Segurança e conformidade': 30,
-      'Faturamento e Preços': 60,
-      'Aspectos econômicos da nuvem AWS': 60,
       'Tecnologia e serviços da nuvem': 40,
       'Cobrança, preços e suporte': 20,
+      Analise: 20,
+      'AI Services': 20,
+      'Machine Learning': 20,
     };
 
-    return this.http.get<Pergunta[]>(this.getulrJson()).pipe(
+    return this.http.get<Pergunta[]>(this.getTipoPergunta(tipoPergunta)).pipe(
       map((perguntas) => {
         // Filtra as perguntas pela fonteSimulado
         const perguntasFiltradas = fonteSimulado

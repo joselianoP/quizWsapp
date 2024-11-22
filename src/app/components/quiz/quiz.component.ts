@@ -42,6 +42,7 @@ export class QuizComponent implements OnInit {
   acertosPorDominioMensagem: any;
   email: string = '';
   resultado: string = '';
+  tipoPergunta: string = '';
 
   msgAlerta = '';
   msgRequirement_approval = '';
@@ -64,16 +65,27 @@ export class QuizComponent implements OnInit {
       this.sessionStorageService.getItem('translateUse') || 'pt'
     );
 
+    this.tipoPergunta = this.sessionStorageService.getItem('tpQuiz');
+
     this.respostasCorretas = []; // Limpa as respostas corretas antes de verificar
     this.openPerguntas();
     this.carregarIdioma();
   }
 
+  openTituloQuiz(): any {
+    if (this.tipoPergunta === 'C012') {
+      return 'AWS Certified Cloud Practitioner';
+    } else if (this.tipoPergunta === 'AZ_900') {
+      return 'Microsoft AZ-900';
+    } else {
+      return 'AWS Certified Cloud Practitioner';
+    }
+  }
   openPerguntas(): void {
     const fonteSimulado = this.route.snapshot.queryParamMap.get('tp');
 
     this.perguntaService
-      .getPerguntasAleatorias(70, fonteSimulado)
+      .getPerguntasAleatorias(70, this.tipoPergunta, fonteSimulado)
       .subscribe((data) => {
         this.perguntas = data;
         this.respostasCorretas = Array(this.perguntas.length)
@@ -230,9 +242,8 @@ export class QuizComponent implements OnInit {
         this.msgVoce_errou = translations.you_got_it_wrong;
         this.msgPorcentagem_acertos =
           translations.percentage_of_correct_answers;
-       this.msgParabens_voce_passou = translations.congratulations_you_passed;
-       this.msgVoce_nao_passou = translations.you_didn_pass_try_again;
-
+        this.msgParabens_voce_passou = translations.congratulations_you_passed;
+        this.msgVoce_nao_passou = translations.you_didn_pass_try_again;
       },
       (error) => {
         console.error('Erro ao carregar as traduções:', error);

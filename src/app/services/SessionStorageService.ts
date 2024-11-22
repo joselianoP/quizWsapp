@@ -10,21 +10,21 @@ export class SessionStorageService {
   private isBrowser(): boolean {
     return (
       typeof window !== 'undefined' &&
-      typeof window.sessionStorage !== 'undefined'
+      typeof sessionStorage !== 'undefined'
     );
   }
 
   // Save data to sessionStorage
   setItem(key: string, value: any): void {
     if (this.isBrowser() && value) {
-      window.sessionStorage.setItem(key, JSON.stringify(value));
+      sessionStorage.setItem(key, JSON.stringify(value));
     }
   }
 
   // Get data from sessionStorage
   getItem(key: string): any {
     if (this.isBrowser()) {
-      const value = window.sessionStorage.getItem(key);
+      const value = sessionStorage.getItem(key);
       return value ? JSON.parse(value) : null;
     }
     return null;
@@ -33,14 +33,14 @@ export class SessionStorageService {
   // Remove an item from sessionStorage
   removeItem(key: string): void {
     if (this.isBrowser()) {
-      window.sessionStorage.removeItem(key);
+      sessionStorage.removeItem(key);
     }
   }
 
   // Clear all data in sessionStorage
   clear(): void {
     if (this.isBrowser()) {
-      window.sessionStorage.clear();
+      sessionStorage.clear();
     }
   }
 }

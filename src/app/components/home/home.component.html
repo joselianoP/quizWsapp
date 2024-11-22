@@ -13,11 +13,12 @@
 <h1> {{ 'Welcome' | translate }} Quiz!</h1>
 
 <nav class="navbar">
-  <a routerLink="/quiz" class="nav-link"
+  <a routerLink="#" class="nav-link"
+   (click)="openUlrQuiz('C012')"
     >AWS Certified Cloud Practitioner (CLF-C012)</a
   >
   <div class="total-perguntas">
-    {{ 'Total_questions_database' | translate }} : {{ totalPerguntasAws }}
+    {{ 'Total_questions_database' | translate }} : {{ totalPerguntasAws  }}
   </div>
 </nav>
 
@@ -32,8 +33,8 @@
 </nav>
 
 <nav class="navbar">
-  <a routerLink="#" class="nav-link">Microsoft AZ-900 </a>
-  <div class="total-perguntas">{{ 'Total_questions_database' | translate }} : 0</div>
+  <a routerLink="#"  (click)="openUlrQuiz('AZ_900')" class="nav-link">Microsoft AZ-900 </a>
+  <div class="total-perguntas">{{ 'Total_questions_database' | translate }} : {{totalPerguntasAZ_900}}</div>
 </nav>
 
 <nav class="navbar">
@@ -44,5 +45,9 @@
 <button  (click)="getPerguntas()">
 export
 </button>
--->
+<button  (click)="getallPerguntas()">
+all
+</button>-->
+
+
 
