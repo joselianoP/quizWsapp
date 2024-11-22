@@ -278,3 +278,16 @@ span {
   margin-right: 15px;
   background: #afc7e4;
 }
+
+.nao-clicavel {
+  pointer-events: none; /* Impede interações do mouse */
+  opacity: 0.6;         /* Deixa o elemento visualmente mais claro */
+  cursor: not-allowed;  /* Mostra um cursor de "não permitido" */
+}
+
+.nao-clicavel input[type="radio"],
+.nao-clicavel input[type="checkbox"] {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
