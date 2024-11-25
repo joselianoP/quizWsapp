@@ -13,6 +13,7 @@
     ],
     "respostaCorreta": "Falso",
     "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
