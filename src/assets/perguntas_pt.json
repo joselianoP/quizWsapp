@@ -1,5 +1,81 @@
 [
   {
+    "pergunta": "Verdadeiro ou falso: o Amazon Elastic File System (EFS) só pode armazenar dados em uma única zona de disponibilidade.",
+    "opcoes": [
+      {
+        "texto": "Verdadeiro",
+        "explicacao": "Isso está incorreto, pois o Amazon EFS foi projetado para armazenar dados em várias zonas de disponibilidade."
+      },
+      {
+        "texto": "Falso",
+        "explicacao": "Correto! O Amazon EFS pode armazenar dados em várias zonas de disponibilidade para alta disponibilidade e durabilidade."
+      }
+    ],
+    "respostaCorreta": "Falso",
+    "dominio": "Tecnologia e serviços da nuvem",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual serviço da AWS é a melhor opção para usar se você precisar de armazenamento em bloco de alto desempenho?",
+    "opcoes": [
+      {
+        "texto": "Amazon EBS",
+        "explicacao": "Correto. O Amazon Elastic Block Store (EBS) é otimizado para armazenamento em bloco de alto desempenho e é amplamente utilizado com instâncias EC2."
+      },
+      {
+        "texto": "AWS EC2",
+        "explicacao": "Incorreto. O Amazon EC2 é um serviço de computação e não oferece armazenamento diretamente, mas pode usar o Amazon EBS para armazenamento em bloco."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "Incorreto. O Amazon S3 é ideal para armazenamento de objetos, não para armazenamento em bloco."
+      }
+    ],
+    "respostaCorreta": "Amazon EBS",
+    "dominio": "Serviços da AWS",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Qual serviço da AWS distribui automaticamente o tráfego entre vários recursos e zonas de disponibilidade?",
+    "opcoes": [
+      {
+        "texto": "Amazon EC2 Elastic Load Balancing",
+        "explicacao": "Este serviço distribui o tráfego entre instâncias em várias zonas de disponibilidade, garantindo alta disponibilidade e balanceamento de carga."
+      },
+      {
+        "texto": "Amazon EC2 Auto Scaling",
+        "explicacao": "Este serviço ajusta automaticamente a capacidade de instâncias EC2 para atender à demanda, mas não realiza balanceamento de tráfego."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "AWS Lambda é um serviço de computação sem servidor e não gerencia tráfego entre recursos."
+      }
+    ],
+    "respostaCorreta": "Amazon EC2 Elastic Load Balancing",
+    "dominio": "Serviços da AWS",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
+    "pergunta": "Verdadeiro ou falso: o Amazon EC2 é um serviço que oferece orquestração de contêineres altamente dimensionável e de alto desempenho.",
+    "opcoes": [
+      {
+        "texto": "Verdadeiro",
+        "explicacao": "Falso. O Amazon EC2 é um serviço de computação escalável, mas não oferece diretamente orquestração de contêineres. Para isso, a AWS possui serviços como Amazon ECS ou Amazon EKS."
+      },
+      {
+        "texto": "Falso",
+        "explicacao": "Correto. A orquestração de contêineres é fornecida por serviços como Amazon ECS ou Amazon EKS, e não pelo Amazon EC2."
+      }
+    ],
+    "respostaCorreta": "Falso",
+    "dominio": "Serviços da AWS",
+    "tipo": "single",
+    "fonteSimulado": "udemy"
+  },
+  {
     "pergunta": "O seu gerente operacional deseja ser avisado caso o orçamento da área ultrapasse os gastos na Nuvem. Qual serviço podemos utilizar para atender este pedido?",
     "opcoes": [
       {
