@@ -1,5 +1,267 @@
 [
   {
+    "pergunta": "Qual serviço da AWS é usado para executar e gerenciar contêineres em clusters?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "O Amazon Elastic Container Service (ECS) é um serviço gerenciado para executar e gerenciar contêineres em clusters."
+      },
+      {
+        "texto": "AWS Lambda",
+        "explicacao": "O AWS Lambda é usado para executar código sem provisionar ou gerenciar servidores, não para gerenciar contêineres."
+      },
+      {
+        "texto": "Amazon RDS",
+        "explicacao": "O Amazon RDS é um serviço de banco de dados gerenciado, não relacionado a contêineres."
+      },
+      {
+        "texto": "AWS CloudFormation",
+        "explicacao": "O AWS CloudFormation é uma ferramenta de infraestrutura como código, não específica para contêineres."
+      }
+    ],
+    "respostaCorreta": "Amazon ECS",
+    "dominio": "Serviços de contêiner",
+    "tipo": "single",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Quais serviços da AWS podem ser usados para orquestração de contêineres? (Escolha dois)",
+    "opcoes": [
+      {
+        "texto": "Amazon ECS",
+        "explicacao": "O Amazon ECS é um serviço de orquestração de contêineres gerenciado pela AWS."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento de objetos e não está relacionado à orquestração de contêineres."
+      },
+      {
+        "texto": "Amazon EKS",
+        "explicacao": "O Amazon EKS é um serviço gerenciado para orquestrar contêineres usando Kubernetes."
+      },
+      {
+        "texto": "AWS CloudTrail",
+        "explicacao": "O AWS CloudTrail é usado para monitorar ações em sua conta AWS, não para gerenciar contêineres."
+      }
+    ],
+    "respostaCorreta": [
+      "Amazon ECS",
+      "Amazon EKS"
+    ],
+    "dominio": "Serviços de contêiner",
+    "tipo": "multiple",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Qual serviço AWS é usado para armazenar imagens de contêiner de forma escalável e segura?",
+    "opcoes": [
+      {
+        "texto": "Amazon ECR",
+        "explicacao": "O Amazon Elastic Container Registry (ECR) é usado para armazenar imagens de contêiner de forma segura."
+      },
+      {
+        "texto": "Amazon S3",
+        "explicacao": "O Amazon S3 é um serviço de armazenamento geral, mas não especializado para imagens de contêiner."
+      },
+      {
+        "texto": "AWS CodePipeline",
+        "explicacao": "O AWS CodePipeline é usado para orquestrar pipelines de entrega contínua, não para armazenar imagens de contêiner."
+      },
+      {
+        "texto": "AWS Fargate",
+        "explicacao": "O AWS Fargate é usado para executar contêineres sem gerenciar servidores, mas não para armazenar imagens."
+      }
+    ],
+    "respostaCorreta": "Amazon ECR",
+    "dominio": "Serviços de contêiner",
+    "tipo": "single",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Quais são as vantagens de usar o AWS Fargate com contêineres? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Elimina a necessidade de gerenciar servidores.",
+        "explicacao": "O Fargate gerencia a infraestrutura subjacente para você, eliminando a necessidade de gerenciar servidores."
+      },
+      {
+        "texto": "Permite controlar manualmente os clusters subjacentes.",
+        "explicacao": "No Fargate, você não gerencia clusters; ele faz isso automaticamente."
+      },
+      {
+        "texto": "Escalabilidade automática de workloads baseadas em contêineres.",
+        "explicacao": "O Fargate permite escalabilidade com base na demanda dos contêineres."
+      },
+      {
+        "texto": "Oferece suporte nativo para armazenamento em EFS e DynamoDB.",
+        "explicacao": "O suporte para EFS e DynamoDB é oferecido indiretamente, mas não é uma funcionalidade principal do Fargate."
+      }
+    ],
+    "respostaCorreta": [
+      "Elimina a necessidade de gerenciar servidores.",
+      "Escalabilidade automática de workloads baseadas em contêineres."
+    ],
+    "dominio": "Serviços de contêiner",
+    "tipo": "multiple",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Qual é o principal benefício de usar o Amazon EKS para orquestração de contêineres?",
+    "opcoes": [
+      {
+        "texto": "Integração com o Kubernetes.",
+        "explicacao": "O Amazon EKS oferece um serviço gerenciado para executar o Kubernetes na AWS."
+      },
+      {
+        "texto": "Criação de pipelines de CI/CD.",
+        "explicacao": "Embora possa ser integrado a pipelines, o principal foco do EKS é a orquestração de contêineres."
+      },
+      {
+        "texto": "Execução de contêineres sem provisionar servidores.",
+        "explicacao": "Essa funcionalidade é do AWS Fargate, não do EKS diretamente."
+      },
+      {
+        "texto": "Armazenamento de imagens de contêiner.",
+        "explicacao": "O armazenamento de imagens é feito pelo Amazon ECR, não pelo EKS."
+      }
+    ],
+    "respostaCorreta": "Integração com o Kubernetes.",
+    "dominio": "Serviços de contêiner",
+    "tipo": "single",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Qual é a principal funcionalidade do Amazon Macie?",
+    "opcoes": [
+      {
+        "texto": "Detectar e proteger dados sensíveis armazenados na AWS.",
+        "explicacao": "O Amazon Macie utiliza machine learning para identificar e proteger dados sensíveis, como informações pessoais e confidenciais."
+      },
+      {
+        "texto": "Gerenciar chaves de criptografia para os dados da AWS.",
+        "explicacao": "O gerenciamento de chaves de criptografia é feito pelo AWS KMS, não pelo Macie."
+      },
+      {
+        "texto": "Monitorar logs de atividades em contas da AWS.",
+        "explicacao": "O monitoramento de logs é feito pelo AWS CloudTrail, não pelo Macie."
+      },
+      {
+        "texto": "Detectar anomalias de tráfego de rede.",
+        "explicacao": "A detecção de anomalias de tráfego é feita pelo Amazon GuardDuty."
+      }
+    ],
+    "respostaCorreta": "Detectar e proteger dados sensíveis armazenados na AWS.",
+    "dominio": "Segurança na nuvem",
+    "tipo": "single",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Quais dos seguintes tipos de dados podem ser identificados pelo Amazon Macie? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Informações de identificação pessoal (PII).",
+        "explicacao": "O Amazon Macie é projetado para detectar informações de identificação pessoal (PII), como números de CPF e dados financeiros."
+      },
+      {
+        "texto": "Dados de log de auditoria.",
+        "explicacao": "O Amazon Macie não analisa logs de auditoria diretamente; essa tarefa é realizada por serviços como CloudTrail."
+      },
+      {
+        "texto": "Credenciais expostas em arquivos.",
+        "explicacao": "O Macie pode identificar credenciais ou chaves expostas em dados armazenados no S3."
+      },
+      {
+        "texto": "Dados de configuração de rede.",
+        "explicacao": "A análise de configurações de rede é feita por serviços como AWS Config, não pelo Macie."
+      }
+    ],
+    "respostaCorreta": [
+      "Informações de identificação pessoal (PII).",
+      "Credenciais expostas em arquivos."
+    ],
+    "dominio": "Segurança na nuvem",
+    "tipo": "multiple",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Como o Amazon Macie protege os dados armazenados no Amazon S3?",
+    "opcoes": [
+      {
+        "texto": "Classificando os dados e identificando informações sensíveis.",
+        "explicacao": "O Amazon Macie classifica dados no S3 para identificar informações sensíveis e possíveis riscos de segurança."
+      },
+      {
+        "texto": "Aplicando criptografia automática aos objetos.",
+        "explicacao": "A criptografia automática é gerenciada pelo S3 ou KMS, não pelo Macie."
+      },
+      {
+        "texto": "Fornecendo logs de acesso detalhados.",
+        "explicacao": "Logs de acesso são fornecidos pelo AWS CloudTrail, não pelo Macie."
+      },
+      {
+        "texto": "Monitorando o tráfego de rede do bucket S3.",
+        "explicacao": "O monitoramento de tráfego de rede é realizado pelo VPC Flow Logs, não pelo Macie."
+      }
+    ],
+    "respostaCorreta": "Classificando os dados e identificando informações sensíveis.",
+    "dominio": "Segurança na nuvem",
+    "tipo": "single",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Quais das seguintes ações podem ser realizadas pelo Amazon Macie? (Escolha duas)",
+    "opcoes": [
+      {
+        "texto": "Identificar dados não criptografados em buckets S3.",
+        "explicacao": "O Amazon Macie pode verificar e sinalizar dados não criptografados em buckets S3 como uma possível vulnerabilidade."
+      },
+      {
+        "texto": "Detectar uso excessivo de CPU em instâncias EC2.",
+        "explicacao": "O monitoramento de uso de CPU é feito pelo Amazon CloudWatch, não pelo Macie."
+      },
+      {
+        "texto": "Gerar alertas para acesso não autorizado aos dados.",
+        "explicacao": "O Macie pode gerar alertas com base em políticas de segurança aplicadas aos dados no S3."
+      },
+      {
+        "texto": "Criptografar automaticamente objetos armazenados no S3.",
+        "explicacao": "A criptografia de objetos S3 é uma configuração de bucket e não uma funcionalidade do Macie."
+      }
+    ],
+    "respostaCorreta": [
+      "Identificar dados não criptografados em buckets S3.",
+      "Gerar alertas para acesso não autorizado aos dados."
+    ],
+    "dominio": "Segurança na nuvem",
+    "tipo": "multiple",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
+    "pergunta": "Qual estratégia de segurança o Amazon Macie ajuda a implementar?",
+    "opcoes": [
+      {
+        "texto": "Proteção proativa de dados sensíveis.",
+        "explicacao": "O Macie identifica e protege informações confidenciais para minimizar riscos de segurança."
+      },
+      {
+        "texto": "Gerenciamento de chaves de criptografia.",
+        "explicacao": "O gerenciamento de chaves é feito pelo AWS KMS, não pelo Macie."
+      },
+      {
+        "texto": "Detecção de anomalias em logs de rede.",
+        "explicacao": "A detecção de anomalias em logs de rede é realizada pelo Amazon GuardDuty."
+      },
+      {
+        "texto": "Automação de backups de dados.",
+        "explicacao": "A automação de backups é realizada por serviços como AWS Backup."
+      }
+    ],
+    "respostaCorreta": "Proteção proativa de dados sensíveis.",
+    "dominio": "Segurança na nuvem",
+    "tipo": "single",
+    "fonteSimulado": "Documentação da AWS"
+  },
+  {
     "pergunta": "Qual é a principal funcionalidade do Amazon Polly?",
     "opcoes": [
       {
