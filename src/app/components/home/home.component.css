@@ -26,8 +26,31 @@
   font-weight: bold;
 }
 
+h1 {
+  font-size: 2rem; /* Tamanho padrão */
+  text-align: center; /* Centraliza o texto */
+  margin: 20px;
+}
+
+/* Ajuste para telas médias (tablets e dispositivos com tela intermediária) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem; /* Tamanho médio para telas médias */
+  }
+}
+
+/* Ajuste para telas grandes (desktops ou dispositivos maiores) */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 3rem; /* Tamanho maior para telas grandes */
+  }
+}
 /* Estilos para telas menores (tablets e smartphones) */
 @media (max-width: 768px) {
+   h1 {
+    font-size: 1.5rem; /* Tamanho menor para telas pequenas */
+  }
+
   .navbar {
     flex-direction: column; /* Coloca a barra de navegação em formato de coluna */
     align-items: flex-start; /* Alinha os itens à esquerda */
@@ -48,6 +71,9 @@
 
 /* Estilos para telas muito pequenas (smartphones em modo paisagem ou menor) */
 @media (max-width: 480px) {
+   h1 {
+    font-size: 1.5rem; /* Tamanho médio para telas médias */
+  }
   .navbar {
     padding: 5px;
   }
@@ -62,3 +88,5 @@
     margin: 5px 0; /* Menos espaço ao redor do texto */
   }
 }
+
+

@@ -210,7 +210,8 @@ span {
 }
 
 .small-font {
-  font-size: 16px;
+  font-size: calc(2vw + 2rem);
+  text-align: justify;
 }
 
 .tituloCentralizado h1 {
@@ -290,4 +291,118 @@ span {
   pointer-events: none;
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+h1 {
+  font-size: 2rem; /* Tamanho padrão */
+  text-align: center; /* Centraliza o texto */
+  margin: 20px;
+}
+
+
+/* Ajuste para telas médias (tablets e dispositivos com tela intermediária) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem; /* Tamanho médio para telas médias */
+  }
+}
+
+/* Ajuste para telas grandes (desktops ou dispositivos maiores) */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 3rem; /* Tamanho maior para telas grandes */
+  }
+}
+/* Estilos para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+   h1 {
+    font-size: 1.5rem; /* Tamanho menor para telas pequenas */
+  }
+  div {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+  button {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+
+   mat-table {
+    display: block;
+    width: 100%;
+    overflow-x: scroll; /* Permite rolar horizontalmente em telas pequenas */
+  }
+
+  mat-header-row, mat-row {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Espaçamento entre as linhas */
+  }
+
+  mat-cell, mat-header-cell {
+    display: block;
+    width: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  mat-header-cell {
+    background-color: #f1f1f1; /* Cor de fundo para os cabeçalhos */
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  mat-cell {
+    padding: 10px;
+    border: 1px solid #ddd; /* Adiciona borda nas células */
+  }
+}
+
+/* Estilos para telas muito pequenas (smartphones em modo paisagem ou menor) */
+@media (max-width: 480px) {
+   h1 {
+    font-size: 1.5rem; /* Tamanho médio para telas médias */
+  }
+  div {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+   button {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+
+    mat-table {
+    display: block;
+    width: 100%;
+    overflow-x: scroll; /* Permite rolar horizontalmente em telas pequenas */
+  }
+
+  mat-header-row, mat-row {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px; /* Menor espaçamento entre as linhas */
+  }
+
+  mat-cell, mat-header-cell {
+    display: block;
+    width: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 8px; /* Menor espaçamento para ajustar em telas pequenas */
+  }
+
+  mat-header-cell {
+    background-color: #f1f1f1; /* Cor de fundo para os cabeçalhos */
+    font-weight: bold;
+    font-size: 0.9rem; /* Tamanho de fonte ajustado para telas pequenas */
+  }
+
+  mat-cell {
+    padding: 8px;
+    border: 1px solid #ddd; /* Adiciona borda nas células */
+    font-size: 0.9rem; /* Tamanho de fonte ajustado para telas pequenas */
+  }
 }

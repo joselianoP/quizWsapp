@@ -20,9 +20,10 @@
       }
     ],
     "respostaCorreta": "Amazon ECS",
-    "dominio": "Serviços de contêiner",
-    "tipo": "single",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "single"
   },
   {
     "pergunta": "Quais serviços da AWS podem ser usados para orquestração de contêineres? (Escolha dois)",
@@ -48,9 +49,10 @@
       "Amazon ECS",
       "Amazon EKS"
     ],
-    "dominio": "Serviços de contêiner",
-    "tipo": "multiple",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "multiple"
   },
   {
     "pergunta": "Qual serviço AWS é usado para armazenar imagens de contêiner de forma escalável e segura?",
@@ -73,9 +75,10 @@
       }
     ],
     "respostaCorreta": "Amazon ECR",
-    "dominio": "Serviços de contêiner",
-    "tipo": "single",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "single"
   },
   {
     "pergunta": "Quais são as vantagens de usar o AWS Fargate com contêineres? (Escolha duas)",
@@ -101,9 +104,10 @@
       "Elimina a necessidade de gerenciar servidores.",
       "Escalabilidade automática de workloads baseadas em contêineres."
     ],
-    "dominio": "Serviços de contêiner",
-    "tipo": "multiple",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "multiple"
   },
   {
     "pergunta": "Qual é o principal benefício de usar o Amazon EKS para orquestração de contêineres?",
@@ -126,9 +130,10 @@
       }
     ],
     "respostaCorreta": "Integração com o Kubernetes.",
-    "dominio": "Serviços de contêiner",
-    "tipo": "single",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "single"
   },
   {
     "pergunta": "Qual é a principal funcionalidade do Amazon Macie?",
@@ -151,9 +156,10 @@
       }
     ],
     "respostaCorreta": "Detectar e proteger dados sensíveis armazenados na AWS.",
-    "dominio": "Segurança na nuvem",
+"dominio": "Tecnologia e serviços da nuvem",
+"dominioKey": "cloud_technology_and_services",
     "tipo": "single",
-    "fonteSimulado": "Documentação da AWS"
+    "fonteSimulado": "udemy"
   },
   {
     "pergunta": "Quais dos seguintes tipos de dados podem ser identificados pelo Amazon Macie? (Escolha duas)",
@@ -179,9 +185,10 @@
       "Informações de identificação pessoal (PII).",
       "Credenciais expostas em arquivos."
     ],
-    "dominio": "Segurança na nuvem",
-    "tipo": "multiple",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "multiple"
   },
   {
     "pergunta": "Como o Amazon Macie protege os dados armazenados no Amazon S3?",
@@ -204,9 +211,10 @@
       }
     ],
     "respostaCorreta": "Classificando os dados e identificando informações sensíveis.",
-    "dominio": "Segurança na nuvem",
-    "tipo": "single",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "single"
   },
   {
     "pergunta": "Quais das seguintes ações podem ser realizadas pelo Amazon Macie? (Escolha duas)",
@@ -232,9 +240,10 @@
       "Identificar dados não criptografados em buckets S3.",
       "Gerar alertas para acesso não autorizado aos dados."
     ],
-    "dominio": "Segurança na nuvem",
-    "tipo": "multiple",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "multiple"
   },
   {
     "pergunta": "Qual estratégia de segurança o Amazon Macie ajuda a implementar?",
@@ -257,9 +266,10 @@
       }
     ],
     "respostaCorreta": "Proteção proativa de dados sensíveis.",
-    "dominio": "Segurança na nuvem",
-    "tipo": "single",
-    "fonteSimulado": "Documentação da AWS"
+    "dominio": "Tecnologia e serviços da nuvem",
+    "dominioKey": "cloud_technology_and_services",
+    "fonteSimulado": "udemy",
+    "tipo": "single"
   },
   {
     "pergunta": "Qual é a principal funcionalidade do Amazon Polly?",
