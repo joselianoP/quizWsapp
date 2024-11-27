@@ -2,3 +2,156 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+h1 {
+  font-size: 2rem; /* Tamanho padrão */
+  text-align: center; /* Centraliza o texto */
+  margin: 20px;
+}
+
+
+/* Ajuste para telas médias (tablets e dispositivos com tela intermediária) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+}
+
+/* Ajuste para telas grandes (desktops ou dispositivos maiores) */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+/* Estilos para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+   h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .navbar {
+    flex-direction: column; /* Coloca a barra de navegação em formato de coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+  }
+
+  .nav-link {
+    padding: 10px 0; /* Reduz o padding para links em telas menores */
+    width: 100%; /* Expande os links para 100% da largura */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .total-perguntas {
+    margin: 10px 0; /* Reduz a margem para telas menores */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    align-self: center; /* Centraliza o contador em relação à barra de navegação */
+  }
+
+  div {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+  button {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+
+   mat-table {
+    display: block;
+    width: 100%;
+    overflow-x: scroll; /* Permite rolar horizontalmente em telas pequenas */
+  }
+
+  mat-header-row, mat-row {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Espaçamento entre as linhas */
+  }
+
+  mat-cell, mat-header-cell {
+    display: block;
+    width: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  mat-header-cell {
+    background-color: #f1f1f1; /* Cor de fundo para os cabeçalhos */
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  mat-cell {
+    padding: 10px;
+    border: 1px solid #ddd; /* Adiciona borda nas células */
+  }
+}
+
+/* Estilos para telas muito pequenas (smartphones em modo paisagem ou menor) */
+@media (max-width: 480px) {
+   h1 {
+    font-size: 1.0rem !important;
+  }
+  .navbar {
+    padding: 5px;
+  }
+
+  .nav-link {
+    padding: 8px 0;
+    font-size: 14px; /* Reduz o tamanho do texto nos links */
+  }
+
+  .total-perguntas {
+    font-size: 12px; /* Reduz ainda mais o tamanho da fonte */
+    margin: 5px 0; /* Menos espaço ao redor do texto */
+  }
+
+    h1 {
+    font-size: 1.5rem; /* Tamanho médio para telas médias */
+  }
+  div {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+   button {
+    display: block; /* Faz os botões ficarem em blocos, um abaixo do outro */
+    width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+  }
+
+    mat-table {
+    display: block;
+    width: 100%;
+    overflow-x: scroll; /* Permite rolar horizontalmente em telas pequenas */
+  }
+
+  mat-header-row, mat-row {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px; /* Menor espaçamento entre as linhas */
+  }
+
+  mat-cell, mat-header-cell {
+    display: block;
+    width: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 8px; /* Menor espaçamento para ajustar em telas pequenas */
+  }
+
+  mat-header-cell {
+    background-color: #f1f1f1; /* Cor de fundo para os cabeçalhos */
+    font-weight: bold;
+    font-size: 0.9rem; /* Tamanho de fonte ajustado para telas pequenas */
+  }
+
+  mat-cell {
+    padding: 8px;
+    border: 1px solid #ddd; /* Adiciona borda nas células */
+    font-size: 0.9rem; /* Tamanho de fonte ajustado para telas pequenas */
+  }
+}
+
+
+
