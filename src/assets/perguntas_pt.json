@@ -648,7 +648,7 @@
         "explicacao": "O Amazon S3 é um serviço de armazenamento de objetos, mas não é especializado para armazenar imagens de contêineres. Embora possa ser usado para armazenar qualquer tipo de arquivo, o Amazon ECR é mais adequado para imagens de contêineres."
       },
       {
-        "texto": "Amazon ECR",
+        "texto": "Amazon ECR (Amazon Elastic Container)",
         "explicacao": "O Amazon Elastic Container Registry (ECR) é um serviço de registro de imagens de contêineres que fornece armazenamento escalável e seguro para imagens de contêineres, ideal para integração com o Amazon ECS e EKS."
       },
       {
@@ -660,7 +660,7 @@
         "explicacao": "O Amazon RDS é um serviço de banco de dados gerenciado, não é destinado ao armazenamento de imagens de contêineres."
       }
     ],
-    "respostaCorreta": "Amazon ECR",
+    "respostaCorreta": "Amazon ECR (Amazon Elastic Container)",
     "dominio": "Tecnologia e serviços da nuvem",
     "dominioKey": "cloud_technology_and_services",
     "tipo": "single",
@@ -2142,32 +2142,7 @@
     "tipo": "single",
     "fonteSimulado": "udemy"
   },
-  {
-    "pergunta": "No modelo de responsabilidade compartilhada da AWS, qual das opções a seguir NÃO é um controle compartilhado?",
-    "opcoes": [
-      {
-        "texto": "Gerenciamento de patches",
-        "explicacao": "O gerenciamento de patches é uma responsabilidade compartilhada entre o cliente e a AWS."
-      },
-      {
-        "texto": "Gerenciamento de configurações",
-        "explicacao": "O gerenciamento de configurações também é responsabilidade compartilhada."
-      },
-      {
-        "texto": "Controles Físicos e Ambientais",
-        "explicacao": "Os controles físicos e ambientais são de responsabilidade exclusiva da AWS."
-      },
-      {
-        "texto": "Conscientização e treinamento",
-        "explicacao": "A conscientização e o treinamento são responsabilidades compartilhadas entre a AWS e o cliente."
-      }
-    ],
-    "respostaCorreta": "Controles Físicos e Ambientais",
-    "dominio": "Tecnologia e serviços da nuvem",
-    "dominioKey": "cloud_technology_and_services",
-    "tipo": "single",
-    "fonteSimulado": "udemy"
-  },
+
   {
     "pergunta": "Qual das opções a seguir é usada para gerenciar o faturamento e o pagamento de várias contas da AWS em uma conta mestre?",
     "opcoes": [
@@ -2777,31 +2752,7 @@
     "dominioKey": "cloud_concepts",
     "tipo": "single"
   },
-  {
-    "pergunta": "No modelo de responsabilidade compartilhada da AWS, qual das opções a seguir NÃO é um controle compartilhado?",
-    "opcoes": [
-      {
-        "texto": "Gerenciamento de patches",
-        "explicacao": "O gerenciamento de patches é um controle compartilhado entre o cliente e a AWS, onde a AWS cuida da infraestrutura e o cliente é responsável pelo sistema operacional e aplicativos."
-      },
-      {
-        "texto": "Gerenciamento de configurações",
-        "explicacao": "O gerenciamento de configurações também é um controle compartilhado, pois o cliente define configurações específicas para seus recursos, enquanto a AWS gerencia a segurança e a conformidade da infraestrutura subjacente."
-      },
-      {
-        "texto": "Controles Físicos e Ambientais",
-        "explicacao": "A AWS é totalmente responsável pelos controles físicos e ambientais em seus data centers, sem envolvimento do cliente."
-      },
-      {
-        "texto": "Conscientização e treinamento",
-        "explicacao": "A conscientização e o treinamento são responsabilidade do cliente, pois ele deve garantir que sua equipe compreenda as práticas de segurança e uso dos serviços na nuvem."
-      }
-    ],
-    "respostaCorreta": "Controles Físicos e Ambientais",
-    "dominio": "Conceitos da nuvem",
-    "dominioKey": "cloud_concepts",
-    "tipo": "single"
-  },
+
   {
     "pergunta": "Qual tipo de serviço de nuvem é mais adequado para uma migração lift-and-shift de um datacenter local para uma implantação de nuvem?",
     "opcoes": [
@@ -30394,7 +30345,7 @@
           "explicacao": "Embora o S3 possa armazenar objetos, não é específico para imagens de contêineres"
         },
         {
-          "texto": "Amazon ECR",
+          "texto": "Amazon ECR (Amazon Elastic Container)",
           "explicacao": "O Amazon ECR é um registro de contêiner gerenciado para armazenamento de imagens de contêiner"
         },
         {
@@ -41411,7 +41362,7 @@
       "tipo": "multiple"
     },
     {
-      "pergunta": "Quais serviços da AWS são ideais para desenvolvimento de aplicações móveis híbridas?",
+      "pergunta": "Quais serviços da AWS são ideais para desenvolvimento de aplicações móveis híbridas ? (Escolha duas)",
       "opcoes": [
         {
           "texto": "AWS Amplify",

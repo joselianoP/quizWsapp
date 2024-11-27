@@ -6,7 +6,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule
 import { MatCardModule } from '@angular/material/card';
-import { ActivatedRoute,  RouterModule} from '@angular/router';
+import { MatTableModule } from '@angular/material/table'; // Importa o MatTableModule
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { SessionStorageService } from '../../services/SessionStorageService';
 import { TranslationService } from '../../services/translation.service';
@@ -18,6 +19,7 @@ import { TranslationService } from '../../services/translation.service';
   standalone: true,
   imports: [
     CommonModule,
+    MatTableModule,
     MatCardModule,
     MatCheckboxModule,
     MatRadioModule,
@@ -33,6 +35,16 @@ export class QuizComponent implements OnInit {
   resultadosAnteriores: any[] = []; // Armazena os resultados anteriores
   respostasVerificadas: boolean[] = []; // Novo estado para verificar se as respostas foram checadas
   simuladoFinalizado: boolean = false; // Novo estado para verificar se as respostas foram checadas
+  vereficouPergunta: boolean = false;
+
+  dataSource: any[] = [];
+  displayedColumns: string[] = [
+    'numero',
+    'pergunta',
+    'respostaSelecionada',
+    'correta',
+    'status',
+  ];
 
   domainQuestionCount: { [domain: string]: number } = {};
   currentQuestionIndex = 0; // Índice da pergunta atual para navegação
@@ -44,6 +56,7 @@ export class QuizComponent implements OnInit {
   resultado: string = '';
   tipoPergunta: string = '';
 
+  msgVereficouPergunta = '';
   msgAlerta = '';
   msgRequirement_approval = '';
   msgVoce_acertou = '';
@@ -85,7 +98,7 @@ export class QuizComponent implements OnInit {
     const fonteSimulado = this.route.snapshot.queryParamMap.get('tp');
 
     this.perguntaService
-      .getPerguntasAleatorias(70, this.tipoPergunta, fonteSimulado)
+      .getPerguntasAleatorias(3, this.tipoPergunta, fonteSimulado)
       .subscribe((data) => {
         this.perguntas = data;
         this.respostasCorretas = Array(this.perguntas.length)
@@ -141,7 +154,7 @@ export class QuizComponent implements OnInit {
     const respostaSelecionada =
       this.respostasSelecionadas[this.currentQuestionIndex];
 
-    if (respostaSelecionada == undefined) {
+    if (respostaSelecionada === undefined) {
       alert(this.msgAlerta);
       return;
     } else {
@@ -178,6 +191,8 @@ export class QuizComponent implements OnInit {
       this.resultado += `<br>${
         this.msgPorcentagem_acertos
       }: ${percentualAcertos.toFixed(2)}%`;
+
+      this.vereficouPergunta = true;
     }
   }
 
@@ -210,13 +225,28 @@ export class QuizComponent implements OnInit {
         : ` <br><b>${this.msgVoce_nao_passou}</b>`;
 
       this.simuladoFinalizado = true;
+      this.listarResultados();
     }
   }
 
   // Navega para a próxima pergunta
   nextQuestion(): void {
-    if (this.currentQuestionIndex < this.perguntas.length - 1) {
-      this.currentQuestionIndex++;
+    const respostaSelecionada =
+      this.respostasSelecionadas[this.currentQuestionIndex];
+
+    if (!this.vereficouPergunta) {
+      alert(this.msgVereficouPergunta);
+      return;
+    }
+
+    if (respostaSelecionada === undefined) {
+      alert(this.msgAlerta);
+      return;
+    } else {
+      if (this.currentQuestionIndex < this.perguntas.length - 1) {
+        this.currentQuestionIndex++;
+      }
+      this.vereficouPergunta = false;
     }
   }
 
@@ -244,10 +274,37 @@ export class QuizComponent implements OnInit {
           translations.percentage_of_correct_answers;
         this.msgParabens_voce_passou = translations.congratulations_you_passed;
         this.msgVoce_nao_passou = translations.you_didn_pass_try_again;
+
+        this.msgVereficouPergunta = translations.check_question;
       },
       (error) => {
         console.error('Erro ao carregar as traduções:', error);
       }
     );
+  }
+  listarResultados() {
+    if (!this.simuladoFinalizado) {
+      alert('Finalize o simulado antes de listar os resultados.');
+      return;
+    }
+
+    this.dataSource = this.perguntas.map((pergunta, index) => {
+      const respostaSelecionada = this.respostasSelecionadas[index];
+      const acertou =
+        JSON.stringify(respostaSelecionada) ===
+        JSON.stringify(pergunta.respostaCorreta);
+
+      return {
+        numero: index + 1,
+        pergunta: pergunta.pergunta,
+        respostaSelecionada: Array.isArray(respostaSelecionada)
+          ? respostaSelecionada.join(', ')
+          : respostaSelecionada || 'Nenhuma',
+        correta: Array.isArray(pergunta.respostaCorreta)
+          ? pergunta.respostaCorreta.join(', ')
+          : pergunta.respostaCorreta,
+        status: acertou ? 'Acertou' : 'Errou',
+      };
+    });
   }
 }

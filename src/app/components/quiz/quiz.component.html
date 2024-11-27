@@ -186,4 +186,48 @@
   <div *ngIf="resultado">
     <p [innerHTML]="resultado"></p>
   </div>
+
+
+  <div class="resultados-container" *ngIf="dataSource.length > 0">
+    <br>
+    <hr>
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!-- Número da Pergunta -->
+    <ng-container matColumnDef="numero">
+      <th mat-header-cell *matHeaderCellDef> # </th>
+      <td mat-cell *matCellDef="let element"> {{element.numero}} </td>
+    </ng-container>
+
+    <!-- Pergunta -->
+    <ng-container matColumnDef="pergunta">
+      <th mat-header-cell *matHeaderCellDef> Pergunta </th>
+      <td mat-cell *matCellDef="let element"> {{element.pergunta}} </td>
+    </ng-container>
+
+    <!-- Resposta Selecionada -->
+    <ng-container matColumnDef="respostaSelecionada">
+      <th mat-header-cell *matHeaderCellDef> Resposta Selecionada </th>
+      <td mat-cell *matCellDef="let element"> {{element.respostaSelecionada}} </td>
+    </ng-container>
+
+    <!-- Resposta Correta -->
+    <ng-container matColumnDef="correta">
+      <th mat-header-cell *matHeaderCellDef> Resposta Correta </th>
+      <td mat-cell *matCellDef="let element"> {{element.correta}} </td>
+    </ng-container>
+
+    <!-- Status -->
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef> Status </th>
+      <td mat-cell *matCellDef="let element" [ngClass]="{'acerto': element.status === 'Acertou', 'erro': element.status === 'Errou'}">
+        {{element.status}}
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+
 </div>
