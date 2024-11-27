@@ -98,7 +98,7 @@ export class QuizComponent implements OnInit {
     const fonteSimulado = this.route.snapshot.queryParamMap.get('tp');
 
     this.perguntaService
-      .getPerguntasAleatorias(3, this.tipoPergunta, fonteSimulado)
+      .getPerguntasAleatorias(70, this.tipoPergunta, fonteSimulado)
       .subscribe((data) => {
         this.perguntas = data;
         this.respostasCorretas = Array(this.perguntas.length)
